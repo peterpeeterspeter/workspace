@@ -1,0 +1,28 @@
+# requirements.txt
+# Python dependencies for aimusicstore.com (AI Music Top 50 Voting API)
+# Updated with compatible versions for Pydantic v2
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# Caching
+redis==5.0.1
+
+# Data Validation - Using compatible v2.0.3
+pydantic==2.0.3
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# CORS
+python-multipart==0.0.6
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.26.0

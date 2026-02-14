@@ -1,0 +1,19 @@
+[Unit]
+Description=aimusicstore API (AI Music Top 50 Voting API)
+After=network.target docker-compose@aimusicstore.service
+Requires=docker-compose@aimusicstore.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/.openclaw/workspace/projects/aimusicstore
+Environment="PATH=/root/.openclaw/workspace/projects/aimusicstore/.venv/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/root/.openclaw/workspace/projects/aimusicstore/.venv/bin/python -m uvicorn api.main:app --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

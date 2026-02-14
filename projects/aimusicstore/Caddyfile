@@ -1,0 +1,84 @@
+# Caddyfile for aimusicstore.com
+# Frontend: React app (static files)
+# Backend: FastAPI (proxied)
+
+aimusicstore.com,
+www.aimusicstore.com,
+23.95.148.204 {
+
+    # API endpoints - proxy to FastAPI
+    handle /api/* {
+        reverse_proxy 127.0.0.1:8000 {
+            header_up Host {host}
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+
+    # Health check endpoint
+    handle /health {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    # API documentation
+    handle /docs {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    # OpenAPI spec
+    handle /openapi.json {
+        reverse_proxy 127.0.0.1:8000
+    }
+
+    # Deny access to sensitive files
+    handle /* {
+        respond /* ".env" 404
+    }
+
+    # Frontend - serve static React files
+    handle /* {
+        root * /root/.openclaw/workspace/projects/aimusicstore/frontend/dist
+        try_files {path} /index.html
+
+        # Cache static assets (JS, CSS, fonts, images)
+        @static {
+            path *.js *.css *.png *.jpg *.jpeg *.gif *.ico *.svg *.woff *.woff2 *.ttf *.eot
+        }
+        handle @static {
+            header Cache-Control "public, immutable, max-age=31536000"
+        }
+
+        # No cache for HTML
+        @html {
+            path *.html
+        }
+        handle @html {
+            header Cache-Control "no-cache, no-store, must-revalidate"
+        }
+
+        # Serve index.html by default
+        handle / {
+            rewrite * /index.html
+            file_server browse
+        }
+
+        # Try to serve file directly, fall back to index.html
+        file_server
+    }
+
+    # Security headers
+    header {
+        X-Frame-Options "SAMEORIGIN"
+        X-Content-Type-Options "nosniff"
+        X-XSS-Protection "1; mode=block"
+        -Server
+    }
+
+    # Enable gzip compression
+    encode {
+        zstd
+        gzip
+        level 6
+    }
+}

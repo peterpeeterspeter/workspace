@@ -1,0 +1,25 @@
+
+class ReputationHistory(Base):
+    """
+    Reputatiegeschiedenis van agents (bijhouding van score changes).
+    
+    Attributes:
+        id: Auto-increment primary key
+        agent_id: Foreign key to agents table
+        old_score: Score before change
+        new_score: Score after change
+        change_reason: Waarom veranderde de score?
+        timestamp: Wanneer veranderde de score
+    """
+    __tablename__ = 'reputation_history'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    agent_id = Column(String(255), ForeignKey('agents.id', ondelete='CASCADE'), nullable=False, index=True)
+    old_score = Column(Integer, nullable=False)
+    new_score = Column(Integer, nullable=False)
+    change_reason = Column(Text)
+    timestamp = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    
+    def __repr__(self):
+        return f"<ReputationHistory(agent={self.agent_id}, {self.old_score}→{self.new_score}, {self.timestamp})>"
+

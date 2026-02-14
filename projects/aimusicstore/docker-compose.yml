@@ -1,0 +1,41 @@
+# docker-compose.yml
+# aimusicstore.com - AI Music Top 50 Voting API
+# Database and caching services
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aimusicstore_postgres
+    environment:
+      POSTGRES_DB: aimusicstore
+      POSTGRES_USER: aimusicstore
+      POSTGRES_PASSWORD: aimusicstore_secure_password_2026
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aimusicstore"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: aimusicstore_redis
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  redis_data:
