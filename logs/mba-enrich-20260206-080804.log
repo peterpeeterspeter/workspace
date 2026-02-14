@@ -1,0 +1,70 @@
+[2026-02-06 08:08:04] ============================================================
+[2026-02-06 08:08:04] MBA DATABASE ENRICHMENT STARTED
+[2026-02-06 08:08:04] ============================================================
+[2026-02-06 08:08:04] ✓ Loaded 728 programs from CSV
+[2026-02-06 08:08:04] 
+📊 Summary:
+[2026-02-06 08:08:04]   Total programs: 728
+[2026-02-06 08:08:04]   Need enrichment: 728
+[2026-02-06 08:08:04]   Complete: 0
+[2026-02-06 08:08:04] 
+🚀 Processing first 10 programs (batch mode)...
+[2026-02-06 08:08:04] 
+[1/10] Processing: Online MBA
+[2026-02-06 08:08:04]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:04]   🌐 Scraping: https://www.online-mba.edu/mba
+[2026-02-06 08:08:04]   ❌ Error scraping https://www.online-mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:06] 
+[2/10] Processing: Online MBA
+[2026-02-06 08:08:06]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:06]   🌐 Scraping: https://www.online-mba.edu/mba
+[2026-02-06 08:08:06]   ❌ Error scraping https://www.online-mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:08] 
+[3/10] Processing: Kelley Direct Online MBA
+[2026-02-06 08:08:08]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:08]   🌐 Scraping: https://www.kelley-direct-online-mba.edu/mba
+[2026-02-06 08:08:08]   ❌ Error scraping https://www.kelley-direct-online-mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:10] 
+[4/10] Processing: Online MBA
+[2026-02-06 08:08:10]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:10]   🌐 Scraping: https://www.online-mba.edu/mba
+[2026-02-06 08:08:10]   ❌ Error scraping https://www.online-mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:12] 
+[5/10] Processing: Online MBA
+[2026-02-06 08:08:12]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:12]   🌐 Scraping: https://www.online-mba.edu/mba
+[2026-02-06 08:08:12]   ❌ Error scraping https://www.online-mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:14] 
+[6/10] Processing: Master of Business Administration
+[2026-02-06 08:08:14]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:14]   🌐 Scraping: https://www.mba.edu/mba
+[2026-02-06 08:08:14]   ❌ Error scraping https://www.mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:16] 
+[7/10] Processing: Master of Business Administration
+[2026-02-06 08:08:16]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:16]   🌐 Scraping: https://www.mba.edu/mba
+[2026-02-06 08:08:16]   ❌ Error scraping https://www.mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:18] 
+[8/10] Processing: Master of Business Administration
+[2026-02-06 08:08:18]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:18]   🌐 Scraping: https://www.mba.edu/mba
+[2026-02-06 08:08:18]   ❌ Error scraping https://www.mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:20] 
+[9/10] Processing: Master of Business Administration
+[2026-02-06 08:08:20]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:20]   🌐 Scraping: https://www.mba.edu/mba
+[2026-02-06 08:08:20]   ❌ Error scraping https://www.mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:22] 
+[10/10] Processing: Master of Business Administration
+[2026-02-06 08:08:22]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:08:22]   🌐 Scraping: https://www.mba.edu/mba
+[2026-02-06 08:08:22]   ❌ Error scraping https://www.mba.edu/mba: 'Firecrawl' object has no attribute 'scrape_url'
+[2026-02-06 08:08:24] 
+✓ Enriched CSV saved to: /root/.openclaw/workspace/data/mba-programs-enriched.csv
+[2026-02-06 08:08:24]   Programs processed: 10
+[2026-02-06 08:08:24] 
+📈 Fields filled:
+[2026-02-06 08:08:24] 
+============================================================
+[2026-02-06 08:08:24] MBA DATABASE ENRICHMENT COMPLETE
+[2026-02-06 08:08:24] ============================================================

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Casino Bonuses: Maximize Your First Deposit (2026)",
+  "description": "Don't leave money on the table. Discover the best crash casino bonuses in February 2026, compare welcome offers, and learn how to maximize value with expert bonus strategy.",
+  "image": "https://crashcasino.io/wp-content/uploads/2026/02/crash-casino-bonuses.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "crashcasino.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "crashcasino.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/wp-content/uploads/2026/02/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-casino-bonuses"
+  }
+}

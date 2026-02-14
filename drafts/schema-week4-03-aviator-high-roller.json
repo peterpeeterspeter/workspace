@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Aviator High Roller Guide: Strategy, VIP Programs, and the Brutal Math of Variance",
+  "description": "Aviator high roller guide 2026. High-stakes strategy, VIP programs (real vs fake), variance math, psychology, whale-friendly Aviator casinos.",
+  "author": {
+    "@type": "Person",
+    "name": "Vision"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AviatorCrashGame",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aviatorcrashgame.com/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aviatorcrashgame.com/aviator-high-roller"
+  },
+  "wordCount": 2000,
+  "keywords": ["aviator high roller", "high stakes aviator", "aviator whale strategy", "aviator vip casinos"],
+  "articleSection": "Aviator Strategy",
+  "about": {
+    "@type": "Thing",
+    "name": "High-Stakes Aviator"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/76904880/tiger-boston-badkamermeubelset-120cm-chalet-eik-hoogglans-wit-met-spiegel-mat-zwart-polybeton-wastafel-en-grepen",
+  "name": "Tiger Boston Badkamermeubelset 120cm Chalet eik / Hoogglans wit met spiegel. matzwarte polybeton wastafel en chromen grepen",
+  "price": "e204",
+  "category": "vanities",
+  "subcategory": "one sink",
+  "description": "",
+  "image_count": 4,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/9f737b4a88ea6013dd4c60fefe1b5ab0.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/dea24e5988de740ac1a9e07aea0a62f9.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/ff2e726e0b0fbd0f7f874d691e20eedd.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/effe333373a277a6a3abde69baa8f932.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:31:07.118411",
+  "downloaded_images": 4,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Tiger-Boston-Badkamermeubelset-120cm-Chalet-eik---/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Tiger-Boston-Badkamermeubelset-120cm-Chalet-eik---/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Tiger-Boston-Badkamermeubelset-120cm-Chalet-eik---/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Tiger-Boston-Badkamermeubelset-120cm-Chalet-eik---/images/image_004.jpg"
+  ]
+}

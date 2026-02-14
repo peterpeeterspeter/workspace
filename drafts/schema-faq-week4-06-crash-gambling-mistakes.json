@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common crash gambling mistakes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No auto-cashout, betting entire balance, chasing losses, ignoring provably fair, no max loss limit, 'I'm due' fallacy, greed (canceling auto-cashout), fear (early cashout), playing drunk, no strategy, overestimating edge, variance blindness, playing too long, multi-tabling, believing hot/cold patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do I always lose at crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You're probably making mistakes (no auto-cashout, chasing losses, betting too big). Or you're playing a rigged game (not provably fair). Fix mistakes, play provably fair casinos, accept -3% EV (house always wins)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use auto-cashout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "YES. Always. Auto-cashout eliminates reaction time, removes emotion, guarantees you get your multiplier (or crash trying). Manual cashout = missed multipliers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I bet per round?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Never more than 5% of your bankroll (1-3% is safer). If you have $100, max bet is $5. This gives you 20+ chances to recover from losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a profit playing crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash has ~3% house edge. Long-term, you'll lose 3% of every bet. Short-term wins = variance (not skill). If you're profitable after 1,000+ rounds, then we can talk (but you won't be)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the biggest crash gambling mistake?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chasing losses (mistake #3). It turns small losses into catastrophes. Lose $50 → Bet $100 to win it back → Lose → Down $150 → Bet $200 → Lose → Down $350. In 3 rounds, you turned a 5% loss into a 35% loss."
+      }
+    }
+  ]
+}

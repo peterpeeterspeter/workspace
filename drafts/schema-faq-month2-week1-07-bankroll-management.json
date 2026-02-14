@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much should I start with for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with $100-500 minimum. Anything less and variance will wipe you out before you learn. Anything more and you're risking too much while learning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a living playing crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash games have a -1% to -4% house edge. You can't overcome that with strategy. Play for fun, not profit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I win big early in crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Withdraw immediately. Don't increase your bet size. Don't 'let it ride.' Take the money and run. Every dollar you withdraw is a dollar the casino can't take back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I withdraw crash gambling winnings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every time you hit your win goal. If you win $25 in a session, withdraw it. Don't leave profits in your casino account. The casino has an infinite bankroll—you don't."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 1% betting too conservative for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, it's the only safe way. Anything more and a normal losing streak will wipe you out. Crash gambling is a marathon, not a sprint. Betting 5-10% per round gives you a 90% chance of going broke within 100 rounds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I lose my entire crash gambling bankroll?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop gambling. Take a break for at least 30 days. Re-evaluate whether you can afford to lose more. If you can't, don't redeposit. Chasing losses is the fastest path to bankruptcy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I increase my bet size after winning in crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only if you increase your bankroll. If you turn $500 into $1,000, you can increase your base unit from $5 (1% of $500) to $10 (1% of $1,000). Never increase bet size just because you're 'feeling lucky.'"
+      }
+    }
+  ]
+}

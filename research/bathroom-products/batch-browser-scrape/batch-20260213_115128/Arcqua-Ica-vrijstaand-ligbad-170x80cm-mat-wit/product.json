@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77630079/arcqua-costo-vrijstaand-ligbad-170x80cm-mat-wit",
+  "name": "Arcqua Ica vrijstaand ligbad 170x80cm mat wit",
+  "price": "e639",
+  "category": "freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 4,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/ad21292f548cbb769da0f57e018b53ad.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/200x200/8a1a78f248233e42a291e6a485c867b6.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/f238e2ab90e32d4f3f1fa5e48a7455ea.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/cc3af0047bf9e14cf611a7553773d06b.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:51:39.413946",
+  "downloaded_images": 4,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-mat-wit/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-mat-wit/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-mat-wit/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-mat-wit/images/image_004.jpg"
+  ]
+}

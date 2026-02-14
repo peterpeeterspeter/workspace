@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/78219394/adema-dawn-inloopdouche-110x200cm-wandprofiel-stabilis-glas-zwart-mat",
+  "name": "Adema Dawn Inloopdouche - 110x200cm - wandprofiel - stabilisatiestang - helder glas - zwart mat",
+  "price": "e639",
+  "category": "showers",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 4,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/f44d5b523a02d56c654b15ccf5a96c9c.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/f2be440f51dbf86e2d493d7640e04687.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/851de29541d034e22c98b0146021c872.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/35d46da267736595e3327363827f858a.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:46:11.387174",
+  "downloaded_images": 4,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Adema-Dawn-Inloopdouche---110x200cm---wandprofiel-/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Adema-Dawn-Inloopdouche---110x200cm---wandprofiel-/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Adema-Dawn-Inloopdouche---110x200cm---wandprofiel-/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Adema-Dawn-Inloopdouche---110x200cm---wandprofiel-/images/image_004.jpg"
+  ]
+}

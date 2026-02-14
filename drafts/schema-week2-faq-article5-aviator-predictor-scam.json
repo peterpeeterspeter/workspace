@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do Aviator predictor apps work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Aviator uses provably fair RNG. Each round is independent and unpredictable. Predictor apps are scams or malware."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I hack Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Aviator's crash point is generated via SHA-256 hashing. You'd need future server seeds to \"predict\" it—which is impossible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there legitimate Aviator strategies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Low-multiplier cashout (1.5x-2x), Fibonacci progression, and bankroll management (1-2% rule) are legitimate strategies. They don't beat the house edge, but they help you play smarter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best Aviator strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-multiplier cashout (1.5x-2x) + 1-2% bankroll management. High win probability, low variance, extends playtime. Not profitable long-term (-EV), but better than chasing losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do YouTubers promote predictors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Affiliate commissions. Many \"Aviator predictor\" videos are affiliate scams. The creator gets paid when you download the app or sign up through their link."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aviator rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — if you play at provably fair casinos (Stake, BC.Game, etc.). You can verify every round was generated fairly using the provably fair system. Rigged Aviator exists at shady casinos—avoid them."
+      }
+    }
+  ]
+}

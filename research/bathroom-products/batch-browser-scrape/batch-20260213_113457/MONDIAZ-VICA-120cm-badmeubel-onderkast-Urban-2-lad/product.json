@@ -1,0 +1,57 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/78154265/mondiaz-vica-120cm-badmeubel-onderkast-urban-2-laden-wastafel-cloud-dubbel-2-kraangaten-kleur-talc",
+  "name": "MONDIAZ VICA 120cm badmeubel onderkast Urban 2 lades. Wastafel CLOUD dubbel 2 kraangaten, kleur Talc.",
+  "price": "e204",
+  "category": "vanities",
+  "subcategory": "two sinks",
+  "description": "",
+  "image_count": 7,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/1e03a2377e770d345dcdf887f3d3f908.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/210x210/5f6e19ae0785a4c6b3ee48df30769313.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/41a76a79570b550474253793a41408b2.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/df9862320a267b2d46a990bb21f25415.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/84d9e4618f663260d659734fd1f937ff.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/6c59cb402524ec0651654f2902bc93ee.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/29552a69025cb572c864538e63195b0f.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:36:56.211765",
+  "downloaded_images": 7,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_005.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_006.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/MONDIAZ-VICA-120cm-badmeubel-onderkast-Urban-2-lad/images/image_007.jpg"
+  ]
+}

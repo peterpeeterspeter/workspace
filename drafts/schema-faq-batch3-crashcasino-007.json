@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash casino is licensed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the footer for license badges (MGA, Curaçao, UKGC, Gibraltar). Click the badge to verify it links to the official regulator website. Legitimate casinos always have verifiable license numbers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is provably fair in crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provably fair systems use cryptographic hashes to prove game outcomes weren't manipulated. Look for casinos that show seed keys, allow client seed generation, and provide hash verification tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast should crash casino withdrawals be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Top crash casinos process withdrawals within 0-24 hours for crypto and 1-3 days for e-wallets. Avoid casinos with withdrawal times exceeding 5 days without explanation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crash casinos with no license safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Unlicensed crash casinos have no oversight, can manipulate games, and may refuse withdrawals. Always play at licensed casinos regulated by MGA, UKGC, Gibraltar, or Curaçao."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if a crash casino refuses my withdrawal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1) Contact support with ticket documentation, 2) Check if you completed wagering requirements, 3) File a complaint with the casino's regulator, 4) Post on forums like AskGamblers for public pressure."
+      }
+    }
+  ]
+}

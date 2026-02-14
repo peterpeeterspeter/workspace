@@ -1,0 +1,31 @@
+[2026-02-06 08:16:12] ============================================================
+[2026-02-06 08:16:12] MBA DATABASE ENRICHMENT STARTED
+[2026-02-06 08:16:12] ============================================================
+[2026-02-06 08:16:12] ✓ Loaded 728 programs from CSV
+[2026-02-06 08:16:12] 
+📊 Summary:
+[2026-02-06 08:16:12]   Total programs: 728
+[2026-02-06 08:16:12]   Need enrichment: 728
+[2026-02-06 08:16:12]   Complete: 0
+[2026-02-06 08:16:12] 
+🚀 Processing first 10 programs (batch mode)...
+[2026-02-06 08:16:12] 
+[1/10] Processing: Online MBA
+[2026-02-06 08:16:12]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:16:12]   🌐 Scraping: https://www.marshall.usc.edu/programs/online-mba
+[2026-02-06 08:16:12]   ❌ Error scraping https://www.marshall.usc.edu/programs/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:16:14] 
+[2/10] Processing: Online MBA
+[2026-02-06 08:16:14]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:16:14]   🌐 Scraping: https://onlinemba.unc.edu/
+[2026-02-06 08:16:14]   ❌ Error scraping https://onlinemba.unc.edu/: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:16:16] 
+[3/10] Processing: Kelley Direct Online MBA
+[2026-02-06 08:16:16]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:16:16]   🌐 Scraping: https://kelley.iu.edu/programs/online-mba
+[2026-02-06 08:16:16]   ❌ Error scraping https://kelley.iu.edu/programs/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:16:18] 
+[4/10] Processing: Online MBA
+[2026-02-06 08:16:18]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:16:18]   🌐 Scraping: https://www.tepper.cmu.edu/online/online-mba
+[2026-02-06 08:16:18]   ❌ Error scraping https://www.tepper.cmu.edu/online/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'

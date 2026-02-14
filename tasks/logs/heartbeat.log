@@ -1,0 +1,869 @@
+=== 2026-02-03 14:09:19 ===
+Quill: Enhanced Publishing & Marketing (FULL PINCH-TO-POST INTEGRATION)
+Task: Quill Heartbeat
+
+📅 Daily Publishing Schedule Review...
+
+Today's Content Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/content-calendar.sh: line 71: ${WP_SITE_${site^^}_PASS}: bad substitution
+
+Current Statistics:
+[0;32m=== Content Statistics ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/stats-report.sh: line 57: ${WP_SITE_${site^^}_PASS}: bad substitution
+
+✅ Quill workflow complete
+=== 2026-02-03 14:19:06 ===
+Vision: Enhanced Content Production (FULL PINCH-TO-POST INTEGRATION)
+Task: Vision Heartbeat
+
+📊 Running Daily Content Operations...
+
+Content Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[1;33mWarning: No URL configured for 'crashcasino'[0m
+[1;33mWarning: No URL configured for 'crashgame'[0m
+[1;33mWarning: No URL configured for 'freecrash'[0m
+[1;33mWarning: No URL configured for 'cryptocrash'[0m
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m0[0m
+  Drafts: [1;33m0[0m
+  Pending: 0
+  Scheduled: 0
+
+Pending Comments:
+[crashcasino]
+[0;31mError: No URL configured for 'crashcasino'[0m
+[crashgame]
+[0;31mError: No URL configured for 'crashgame'[0m
+[freecrash]
+[0;31mError: No URL configured for 'freecrash'[0m
+[cryptocrash]
+[0;31mError: No URL configured for 'cryptocrash'[0m
+
+Today's Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[1;33mWarning: No URL configured for 'crashcasino'[0m
+[1;33mWarning: No URL configured for 'crashgame'[0m
+[1;33mWarning: No URL configured for 'freecrash'[0m
+[1;33mWarning: No URL configured for 'cryptocrash'[0m
+WARNING: Brief not found for task heartbeat
+Skipping content production...
+=== 2026-02-03 14:21:29 ===
+Fury: Enhanced Research & Editing (FULL PINCH-TO-POST INTEGRATION)
+Task: Fury Heartbeat
+
+💬 Daily Comment Moderation...
+
+[crashcasino] Checking for spam...
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/comment-moderate.sh: line 61: ${WP_SITE_${SITE^^}_PASS}: bad substitution
+
+[crashgame] Checking for spam...
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/comment-moderate.sh: line 61: ${WP_SITE_${SITE^^}_PASS}: bad substitution
+
+[freecrash] Checking for spam...
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/comment-moderate.sh: line 61: ${WP_SITE_${SITE^^}_PASS}: bad substitution
+
+[cryptocrash] Checking for spam...
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/comment-moderate.sh: line 61: ${WP_SITE_${SITE^^}_PASS}: bad substitution
+
+
+✅ Fury workflow complete
+=== 2026-02-03 14:24:12 ===
+Quill: Enhanced Publishing & Marketing (FULL PINCH-TO-POST INTEGRATION)
+Task: Quill Heartbeat
+
+📅 Daily Publishing Schedule Review...
+
+Today's Content Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/content-calendar.sh: line 71: ${WP_SITE_${site^^}_PASS}: bad substitution
+
+Current Statistics:
+[0;32m=== Content Statistics ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/stats-report.sh: line 57: ${WP_SITE_${site^^}_PASS}: bad substitution
+
+✅ Quill workflow complete
+=== 2026-02-03 14:29:47 ===
+Vision: Enhanced Content Production (FULL PINCH-TO-POST INTEGRATION)
+Task: Vision Heartbeat
+
+📊 Running Daily Content Operations...
+
+Content Statistics:
+[0;32m=== Content Statistics ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/stats-report.sh: line 57: ${WP_SITE_${site^^}_PASS}: bad substitution
+
+Pending Comments:
+[crashcasino]
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[crashgame]
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[freecrash]
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[cryptocrash]
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+
+Today's Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+/root/.openclaw/workspace/scripts/pinch-to-post-helpers/content-calendar.sh: line 71: ${WP_SITE_${site^^}_PASS}: bad substitution
+WARNING: Brief not found for task heartbeat
+Skipping content production...
+=== 2026-02-03 14:33:38 ===
+Vision: Enhanced Content Production (FULL PINCH-TO-POST INTEGRATION)
+Task: Vision Heartbeat
+
+📊 Running Daily Content Operations...
+
+Content Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+Pending Comments:
+[crashcasino]
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[crashgame]
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[freecrash]
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[cryptocrash]
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+
+Today's Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+WARNING: Brief not found for task heartbeat
+Skipping content production...
+=== 2026-02-03 14:36:36 ===
+Fury: Enhanced Research & Editing (FULL PINCH-TO-POST INTEGRATION)
+Task: Fury Heartbeat
+
+💬 Daily Comment Moderation...
+
+[crashcasino] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[crashgame] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[freecrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[cryptocrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+
+✅ Fury workflow complete
+=== 2026-02-03 14:39:33 ===
+Quill: Enhanced Publishing & Marketing (FULL PINCH-TO-POST INTEGRATION)
+Task: Quill Heartbeat
+
+📅 Daily Publishing Schedule Review...
+
+Today's Content Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+
+Current Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+✅ Quill workflow complete
+=== 2026-02-03 14:49:39 ===
+Vision: Enhanced Content Production (FULL PINCH-TO-POST INTEGRATION)
+Task: Vision Heartbeat
+
+📊 Running Daily Content Operations...
+
+Content Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+Pending Comments:
+[crashcasino]
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[crashgame]
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[freecrash]
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[cryptocrash]
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+
+Today's Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+WARNING: Brief not found for task heartbeat
+Skipping content production...
+=== 2026-02-03 14:54:12 ===
+Quill: Enhanced Publishing & Marketing (FULL PINCH-TO-POST INTEGRATION)
+Task: Quill Heartbeat
+
+📅 Daily Publishing Schedule Review...
+
+Today's Content Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+
+Current Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+✅ Quill workflow complete
+=== 2026-02-03 15:06:24 ===
+Vision: Enhanced Content Production (FULL PINCH-TO-POST INTEGRATION)
+Task: Vision Heartbeat
+
+📊 Running Daily Content Operations...
+
+Content Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+Pending Comments:
+[crashcasino]
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[crashgame]
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[freecrash]
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+[cryptocrash]
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: show-pending
+
+[1;33mPending Comments:[0m
+
+Today's Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+WARNING: Brief not found for task heartbeat
+Skipping content production...
+=== 2026-02-03 15:07:37 ===
+Fury: Enhanced Research & Editing (FULL PINCH-TO-POST INTEGRATION)
+Task: Fury Heartbeat
+
+💬 Daily Comment Moderation...
+
+[crashcasino] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[crashgame] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[freecrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[cryptocrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+
+✅ Fury workflow complete
+=== 2026-02-03 15:09:07 ===
+Quill: Enhanced Publishing & Marketing (FULL PINCH-TO-POST INTEGRATION)
+Task: Quill Heartbeat
+
+📅 Daily Publishing Schedule Review...
+
+Today's Content Calendar:
+[0;32m=== Content Calendar: 2026-02 ===[0m
+
+[0;34m📅 CRASHCASINO[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRASHGAME[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 FREECRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+[0;34m📅 CRYPTOCRASH[0m
+
+[0;32m📗 Published:[0m
+  None
+
+[1;33m📅 Scheduled:[0m
+  None
+
+[1;33m📝 Drafts: 3[0m
+
+
+Current Statistics:
+[0;32m=== Content Statistics ===[0m
+
+[0;34m📊 CRASHCASINO[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRASHGAME[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 FREECRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;34m📊 CRYPTOCRASH[0m
+  Published: [0;32m3[0m
+  Drafts: [1;33m3[0m
+  Pending Review: 3
+  Scheduled: 3
+  Media Files: 3
+  Comments (approved): 3
+  Comments (pending): [1;33m3[0m
+
+[0;32m=== Total Across All Sites ===[0m
+  Published: [0;32m12[0m
+  Drafts: [1;33m12[0m
+  Pending: 12
+  Scheduled: 12
+
+✅ Quill workflow complete

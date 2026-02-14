@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are crash casinos legal in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if they hold a UKGC license. It's illegal for unlicensed casinos to accept UK players."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can UK players play at Stake or BC.Game?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Most crypto casinos (Stake, BC.Game, etc.) do not accept UK players because they don't have UKGC licenses. Attempting to play from the UK with a VPN may result in frozen funds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum age for crash gambling in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "18+. All UKGC casinos verify your age before you can deposit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do UK crash casinos offer crypto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rarely. Most UKGC casinos accept GBP (Faster Payments, debit cards) but not crypto. A few accept Bitcoin, but it's uncommon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's GamStop?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GamStop is the UK's national self-exclusion scheme. Registering excludes you from all UKGC-licensed casinos for 6 months to 5 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are withdrawals at UK crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1-24 hours for Faster Payments. Some casinos process within hours, others take up to 24h."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do UK crash casinos have provably fair games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. UKGC requires all games to be tested and certified by independent labs (e.g., eCOGRA, iTech Labs). Crash games use RNG systems that are audited regularly."
+      }
+    }
+  ]
+}

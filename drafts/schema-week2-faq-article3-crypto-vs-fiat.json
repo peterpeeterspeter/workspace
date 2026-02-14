@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are crypto crash casinos safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if they're licensed (Curacao eGaming minimum) and have a good reputation. Stake, BC.Game, and Metaspins are established operators. No, if they're unlicensed — avoid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crypto casinos have higher RTP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. Crypto casinos often have 96-97% RTP on crash games (similar to fiat casinos). The advantage is speed/privacy, not better odds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use both crypto and fiat at the same casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. A few casinos accept both (e.g., Bet365). But most specialize in one or the other. Crypto casinos rarely accept fiat, and vice versa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crypto for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDT (Tether) — stablecoin, no volatility. BTC — most widely accepted. ETH — faster than BTC but higher fees. LTC/DOGE — low fees, fast transactions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do fiat casinos charge deposit fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. Card deposits may have 2-3% fees. Bank transfers can have $10-$20 fees. UK players usually get free Faster Payments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is faster: crypto or fiat withdrawals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crypto, by a mile. Crypto withdrawals are instant to 1 hour. Fiat withdrawals take 1-7 business days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I remain anonymous with crypto casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mostly. Most crypto casinos only require email verification. But large withdrawals may trigger KYC. True anonymity is rare."
+      }
+    }
+  ]
+}

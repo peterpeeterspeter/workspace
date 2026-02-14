@@ -1,0 +1,27 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77786631/go-by-van-marcke-d-shape-design-half-vrijstaand-bad-180x80cm-acryl-mat-wit",
+  "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80x60cm - hoek links - acryl - mat wit",
+  "price": "e639",
+  "category": "sub half freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 2,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/van-marcke/400x400/5dcdc04510893a2b7e6de50f075fd802.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/van-marcke/480x480/0084d06747abff671bf59cf7991f3019.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:54:12.470898",
+  "downloaded_images": 2,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/Go-by-Van-Marcke-D-Shape-Design---halfvrijstaand-b/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/Go-by-Van-Marcke-D-Shape-Design---halfvrijstaand-b/images/image_002.webp"
+  ]
+}

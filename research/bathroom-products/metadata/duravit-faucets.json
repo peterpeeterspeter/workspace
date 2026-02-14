@@ -1,0 +1,248 @@
+{
+  "manufacturer": "Duravit",
+  "country": "Germany",
+  "category": "faucets",
+  "total_products": 24,
+  "products": [
+    {
+      "sku": "DUR-WHITE_TULIP-FAUCET-0001",
+      "manufacturer": "Duravit",
+      "series": "white_tulip",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan M\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/991415198_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-WHITE_TULIP-FAUCET-0002",
+      "manufacturer": "Duravit",
+      "series": "white_tulip",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/photomanager-duravit/file/8a8a818d591b64e101591b914c3706ce.de.0/google_maps_duravit_design_center.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0003",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan S\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723604_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0005",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan S FreshStart\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723606_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0007",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan M\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/992109451_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0009",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan M FreshStart\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/992110419_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0011",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan XL\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723608_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0012",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723609_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0013",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsbidetmengkraan\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723610_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0014",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsdouchemengkraan inbouw\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723611_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0016",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsdouchemengkraan opbouw\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723613_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0017",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsbadmengkraan inbouw\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723614_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0019",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsbadmengkraan opbouw\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993723617_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-TULUM-FAUCET-0020",
+      "manufacturer": "Duravit",
+      "series": "tulum",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsbadmengkraan staand\\\\",
+      "style": "classic_elegant",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/photomanager-duravit/file/8a8a818d591b64e101591b914c3706ce.de.0/google_maps_duravit_design_center.jpg"
+    },
+    {
+      "sku": "DUR-SENSOR_1-FAUCET-0021",
+      "manufacturer": "Duravit",
+      "series": "sensor_1",
+      "category": "faucet",
+      "name": "Elektronische wastafelmengkraan met temperatuurregeling, batterijvoeding\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993707386_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-SENSOR_1-FAUCET-0022",
+      "manufacturer": "Duravit",
+      "series": "sensor_1",
+      "category": "faucet",
+      "name": "Elektronische wastafelmengkraan met temperatuurvoorinstelling, netvoeding\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993707387_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-SENSOR_1-FAUCET-0023",
+      "manufacturer": "Duravit",
+      "series": "sensor_1",
+      "category": "faucet",
+      "name": "Elektronische wastafelmengkraan met temperatuurvoorinstelling, batterijvoeding\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993707388_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-SENSOR_1-FAUCET-0024",
+      "manufacturer": "Duravit",
+      "series": "sensor_1",
+      "category": "faucet",
+      "name": "Elektronische wastafelmengkraan met temperatuurregeling, netvoeding\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/993707389_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0042",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan S\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/991152332_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0043",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan M\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/991152336_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0044",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan L\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/991152340_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0045",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan XL\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/990293686_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0046",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepswastafelmengkraan\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/dimg/991152369_web2_prod_normal_2.jpg"
+    },
+    {
+      "sku": "DUR-C1-FAUCET-0047",
+      "manufacturer": "Duravit",
+      "series": "c1",
+      "category": "faucet",
+      "name": "E\u00e9ngreepsdouchemengkraan opbouw\\\\",
+      "style": "minimalist_modern",
+      "price_segment": "premium",
+      "image_url": "https://wgassets.duravit.cloud/photomanager-duravit/file/8a8a818d591b64e101591b914c3706ce.de.0/google_maps_duravit_design_center.jpg"
+    }
+  ]
+}

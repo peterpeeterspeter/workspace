@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are crash casinos safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only licensed, provably fair crash casinos are safe. Stick to our top 5 list — all are licensed, audited, and tested. Avoid unlicensed casinos with no provably fair system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash casino for real money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake is our #1 pick for real money crash gambling. It offers instant withdrawals, 1% house edge, and the most crash game variety."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash games for free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crash casinos offer demo mode or fun play where you can test games without real money. Great for learning how crash works before depositing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which crash casino has the lowest house edge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake, Roobet, and BC.Game all have a 1% house edge (99% RTP) — the lowest in the industry. Most other casinos are 1.5-2%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are crash casino withdrawals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At our top 5 casinos: Stake, Roobet, BC.Game (instant), Metaspins (0-1 hour), Thunderpick (0-2 hours) for crypto. Fiat withdrawals take 1-5 days depending on the casino."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash casinos offer welcome bonuses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but read the terms. Most welcome bonuses have high wagering requirements (35-50x). BC.Game offers the biggest bonus (180% up to $20,000), but Stake has better ongoing rakeback."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash games on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all our top 5 crash casinos work on mobile (iOS + Android). Some offer dedicated apps, others use mobile-optimized websites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum bet at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crash casinos have minimum bets of $0.10-$1.00 per round. Roobet and Metaspins have the lowest minimums ($0.10)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash casinos accept fiat currency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some do: Thunderpick (Visa, Mastercard, Skrill, Neteller), BC.Game (via MoonPay). Metaspins, Stake, and Roobet are crypto-only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash game is fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only play provably fair crash games. Our top 5 all use cryptographic hashing to prove fairness. You can verify each round's outcome using their fairness tools."
+      }
+    }
+  ]
+}

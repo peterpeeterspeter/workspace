@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling Scams: How to Spot and Avoid Fake Crash Casinos (2026)",
+  "description": "Crash gambling scams exposed 2026. Fake multipliers, rigged RNG, withdrawal refusals, phishing sites, Ponzi bonuses + blacklist of confirmed scams.",
+  "author": {
+    "@type": "Person",
+    "name": "Vision"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashCasino",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-gambling-scams"
+  },
+  "wordCount": 2682,
+  "keywords": ["crash gambling scams", "crash casino scams", "fake crash games", "crash gambling blacklist"],
+  "articleSection": "Crash Gambling Safety",
+  "about": {
+    "@type": "Thing",
+    "name": "Crash Casino Scams"
+  }
+}

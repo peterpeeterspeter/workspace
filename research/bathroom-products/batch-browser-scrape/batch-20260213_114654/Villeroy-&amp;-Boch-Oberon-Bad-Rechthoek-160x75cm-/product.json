@@ -1,0 +1,75 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/76912010/villeroy-boch-bowray-3.0-bad-175xl60cm-52cm-rechthoekig-wit",
+  "name": "Villeroy &amp; Boch Oberon Bad Rechthoek 160x75cm - Wit",
+  "price": "e639",
+  "category": "baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 10,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/9d1a50943c8fc71590ee2c8a95af40bf.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/galvano/480x480/D130001001423920.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/f2194dcdaced66340f4bc71e3d697077.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/533e8a107071eae34bd2a1661c4b5982.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/eb99fd4982760ded82bec6f7e8e0f2ad.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/68bbe8dbd35c8ea6a67a7ac6fc2de8ba.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/van-marcke/960x960/c01f3dfbe0317304e0b9d912df86d5ef.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/5391ae61cf94332c44fed8226e1086b3.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/9ddd6f74068e5d84c0eed86084d8f41a.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/plieger/300x300/11360.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:47:34.037917",
+  "downloaded_images": 10,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_005.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_006.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_007.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_008.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_009.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114654/Villeroy-&amp;-Boch-Oberon-Bad-Rechthoek-160x75cm-/images/image_010.jpg"
+  ]
+}

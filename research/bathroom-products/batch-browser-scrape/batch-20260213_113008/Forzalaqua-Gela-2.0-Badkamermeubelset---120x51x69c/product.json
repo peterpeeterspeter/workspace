@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/78201243/forzalaqua-gela-2.0-badkamermeubelset-120x51x69cm-2-kraangaten-travertin-gezoet-2-softclose-lades-massief-eiken-pure-walnut",
+  "name": "Forzalaqua Gela 2.0 Badkamermeubelset - 120x51x69cm - 2 kraangaten - Travertin gezoet - 2 softclose lades - Massief Eiken Pure Walnut",
+  "price": "e204",
+  "category": "vanities",
+  "subcategory": "one sink",
+  "description": "",
+  "image_count": 5,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/3a96ca64c687963b5efae2502fe4deeb.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/8ba9c96d3591be310071c30768215db1.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/6424b4bbb8a13e0d5cc5f93691121140.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/effe333373a277a6a3abde69baa8f932.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/c66d7f888bbb2dfea4fc507c22c16e20.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:30:17.906205",
+  "downloaded_images": 5,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Forzalaqua-Gela-2.0-Badkamermeubelset---120x51x69c/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Forzalaqua-Gela-2.0-Badkamermeubelset---120x51x69c/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Forzalaqua-Gela-2.0-Badkamermeubelset---120x51x69c/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Forzalaqua-Gela-2.0-Badkamermeubelset---120x51x69c/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Forzalaqua-Gela-2.0-Badkamermeubelset---120x51x69c/images/image_005.jpg"
+  ]
+}

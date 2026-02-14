@@ -1,0 +1,20 @@
+[2026-02-02 18:03:15] === Mention scan started ===
+[2026-02-02 18:03:15] TASKBOARD modified, scanning for mentions...
+[2026-02-02 18:03:15] Found mention: Carlottta
+[2026-02-02 18:03:20] ✓ Notified Carlottta
+[2026-02-02 18:03:21] Found mention: Fury
+[2026-02-02 18:03:24] ✓ Notified Fury
+[2026-02-02 18:03:25] Skipping unknown agent: Loki
+[2026-02-02 18:03:25] Skipping unknown agent: mention
+[2026-02-02 18:03:25] Skipping unknown agent: Mention
+[2026-02-02 18:03:25] Skipping unknown agent: mentions
+[2026-02-02 18:03:25] Skipping unknown agent: Mentions
+[2026-02-02 18:03:25] Found mention: Peter
+[2026-02-02 18:03:29] ✓ Notified Peter
+[2026-02-02 18:03:30] Found mention: Quill
+[2026-02-02 18:03:33] ✓ Notified Quill
+[2026-02-02 18:03:34] Found mention: Vision
+[2026-02-02 18:03:38] ✓ Notified Vision
+[2026-02-02 18:03:39] === Mention scan completed ===
+[2026-02-02 18:05:01] === Mention scan started ===
+[2026-02-02 18:05:01] No changes since last scan, skipping

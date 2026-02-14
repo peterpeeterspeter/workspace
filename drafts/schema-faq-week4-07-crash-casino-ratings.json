@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you rate crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use 9 crash-specific criteria: provably fair verification (20%), licensing (15%), crash variety (10%), withdrawal speed (15%), bonuses (10%), user reviews (15%), support (5%), mobile experience (5%), responsible gambling tools (5%). We test each casino ourselves (deposit real money, play 100+ rounds, withdraw)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you earn money from casino ratings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We earn 20-40% affiliate commission on your losses. This is industry standard. However, we don't let commissions bias our reviews — we blacklist scams (which costs us money) because reputation is more important long-term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I trust your ratings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We test every casino ourselves (real money deposits, 100+ rounds, withdrawal tests). We're transparent about our criteria (you can see exactly how we rate). We blacklist bad casinos (we've blacklisted 7 in 2024-2025). We update reviews regularly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you test every casino you recommend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We deposit $50-200 of our own money, play 100+ rounds, verify provably fair (1,000+ rounds), test withdrawals, contact support. If we haven't tested it, we don't recommend it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your rating criteria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "9 criteria: provably fair (20%), licensing (15%), crash variety (10%), withdrawal speed (15%), bonuses (10%), user reviews (15%), support (5%), mobile (5%), responsible gambling (5%). Total score: 0-100."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you ever blacklist casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We've blacklisted 7 casinos in 2024-2025 for rigged games, withdrawal refusals, fake licenses, or phishing scams. Blacklisting costs us affiliate revenue, but honesty matters more."
+      }
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+#!/usr/bin/env python3
+"""
+Mission Control CLI - Task Management
+mc-task - Create, update, list, and manage tasks
+"""
+
+import json
+import sys
+from datetime import datetime
+from pathlib import Path
+
+DB_PATH = Path("/root/.openclaw/workspace/mission-control.db.json")
+
+
+def load_db():
+    """Load mission control database"""
+    if not DB_PATH.exists():
+        print(f"Error: Database not found at {DB_PATH}")
+        sys.exit(1)
+
+    with open(DB_PATH, 'r') as f:
+        return json.load(f)
+
+
+def save_db(data):
+    """Save mission control database"""
+    with open(DB_PATH, 'w') as f:
+        json.dump(data, f, indent=2)
+
+
+def generate_id(prefix="task"):
+    """Generate unique task ID"""
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    return f"{prefix}-{timestamp}"
+
+
+def cmd_list(args):
+    """List all tasks"""
+    data = load_db()
+
+    # Filter by status if specified
+    status_filter = args.get('--status')
+    assignee_filter = args.get('--assignee')
+
+    tasks = data['tasks']
+
+    if status_filter:
+        tasks = [t for t in tasks if t['status'] == status_filter]
+
+    if assignee_filter:
+        agent_id = assignee_filter.lower()
+        tasks = [t for t in tasks if t['assignee_id'] == agent_id]
+
+    if not tasks:
+        print("No tasks found.")
+        return
+
+    print(f"\n📋 Tasks ({len(tasks)} found)")
+    print("=" * 60)
+
+    for task in tasks:
+        status_icon = {
+            'assigned': '📋',
+            'in_progress': '🔄',
+            'review': '👀',
+            'done': '✅',
+            'blocked': '🚫'
+        }.get(task['status'], '❓')
+
+        priority_color = {
+            'high': '🔴',
+            'medium': '🟡',
+            'low': '🟢'
+        }.get(task['priority'], '⚪')
+
+        print(f"\n{status_icon} {task['title']}")
+        print(f"   ID: {task['id']}")
+        print(f"   Status: {task['status']} | Priority: {priority_color} {task['priority']}")
+        print(f"   Assignee: @{task['assignee_id']}")
+
+        if task.get('handoff_to'):
+            print(f"   Handoff to: @{task['handoff_to']}")
+
+        if task.get('description'):
+            desc = task['description'][:80] + "..." if len(task['description']) > 80 else task['description']
+            print(f"   Description: {desc}")
+
+
+def cmd_show(args):
+    """Show task details"""
+    if not args.get('<id>'):
+        print("Error: Task ID required")
+        print("Usage: mc-task show <id>")
+        sys.exit(1)
+
+    task_id = args['<id>']
+    data = load_db()
+
+    task = next((t for t in data['tasks'] if t['id'] == task_id), None)
+
+    if not task:
+        print(f"Error: Task '{task_id}' not found")
+        sys.exit(1)
+
+    print(f"\n📋 Task Details")
+    print("=" * 60)
+    print(f"ID:          {task['id']}")
+    print(f"Title:       {task['title']}")
+    print(f"Status:      {task['status']}")
+    print(f"Priority:    {task['priority']}")
+    print(f"Assignee:    @{task['assignee_id']}")
+    print(f"Created by:  @{task['created_by']}")
+    print(f"Created:     {task['created_at']}")
+    print(f"Updated:     {task['updated_at']}")
+
+    if task.get('due_date'):
+        print(f"Due:         {task['due_date']}")
+
+    if task.get('handoff_to'):
+        print(f"Handoff to:  @{task['handoff_to']}")
+
+    if task.get('progress'):
+        print(f"Progress:    {task['progress']}%")
+
+    if task.get('dependencies'):
+        print(f"Dependencies: {', '.join(task['dependencies'])}")
+
+    if task.get('tags'):
+        print(f"Tags:        {', '.join(task['tags'])}")
+
+    if task.get('files'):
+        print(f"\nFiles:")
+        for f in task['files']:
+            print(f"  • {f}")
+
+    print(f"\nDescription:")
+    print(task['description'])
+
+    # Show related messages
+    task_messages = [m for m in data['messages'] if m['task_id'] == task_id]
+    if task_messages:
+        print(f"\n💬 Messages ({len(task_messages)})")
+        for msg in task_messages:
+            print(f"\n  @{msg['from_agent_id']} ({msg['timestamp']}):")
+            print(f"  {msg['content']}")
+
+    # Show related activities
+    task_activities = [a for a in data['activities'] if a['task_id'] == task_id]
+    if task_activities:
+        print(f"\n📊 Activity Log")
+        for act in task_activities:
+            print(f"  {act['timestamp']} - {act['message']}")
+
+
+def cmd_create(args):
+    """Create a new task"""
+    data = load_db()
+
+    title = args.get('<title>')
+    if not title:
+        print("Error: Task title required")
+        sys.exit(1)
+
+    assignee = args.get('--assignee', 'peter')
+    priority = args.get('--priority', 'medium')
+    description = args.get('--description', '')
+    handoff_to = args.get('--handoff')
+    tags = args.get('--tags', '').split(',') if args.get('--tags') else []
+
+    # Validate assignee exists
+    agent = next((a for a in data['agents'] if a['id'] == assignee.lower()), None)
+    if not agent:
+        print(f"Error: Agent '{assignee}' not found")
+        print(f"Available agents: {', '.join([a['id'] for a in data['agents']])}")
+        sys.exit(1)
+
+    # Create task
+    task_id = generate_id('task')
+    now = datetime.now().isoformat() + "Z"
+
+    task = {
+        "id": task_id,
+        "title": title,
+        "description": description,
+        "status": "assigned",
+        "priority": priority,
+        "assignee_id": assignee.lower(),
+        "created_by": "peter",  # TODO: Get from context
+        "created_at": now,
+        "updated_at": now,
+        "due_date": None,
+        "dependencies": [],
+        "handoff_to": handoff_to.lower() if handoff_to else None,
+        "mentions": [handoff_to.lower()] if handoff_to else [],
+        "thread_subscribers": [assignee.lower()],
+        "tags": tags,
+        "files": []
+    }
+
+    data['tasks'].append(task)
+
+    # Log activity
+    activity = {
+        "id": generate_id('act'),
+        "type": "task_created",
+        "agent_id": "peter",
+        "task_id": task_id,
+        "message": f"Peter created task: {title}",
+        "timestamp": now
+    }
+    data['activities'].append(activity)
+
+    # Create notification for assignee
+    if assignee != 'peter':
+        notification = {
+            "id": generate_id('not'),
+            "mentioned_agent_id": assignee.lower(),
+            "content": f"@{assignee}: Peter created task '{title}' assigned to you.",
+            "task_id": task_id,
+            "created_at": now,
+            "delivered": False,
+            "delivered_at": None
+        }
+        data['notifications'].append(notification)
+
+    save_db(data)
+
+    print(f"✅ Task created: {task_id}")
+    print(f"   Title: {title}")
+    print(f"   Assignee: @{assignee}")
+
+    if handoff_to:
+        print(f"   Handoff to: @{handoff_to}")
+
+
+def cmd_update(args):
+    """Update existing task"""
+    if not args.get('<id>'):
+        print("Error: Task ID required")
+        sys.exit(1)
+
+    task_id = args['<id>']
+    data = load_db()
+
+    task = next((t for t in data['tasks'] if t['id'] == task_id), None)
+    if not task:
+        print(f"Error: Task '{task_id}' not found")
+        sys.exit(1)
+
+    now = datetime.now().isoformat() + "Z"
+    updated = False
+
+    # Update fields
+    if args.get('--status'):
+        old_status = task['status']
+        task['status'] = args['--status']
+        task['updated_at'] = now
+        updated = True
+
+        # Log activity
+        activity = {
+            "id": generate_id('act'),
+            "type": "task_updated",
+            "agent_id": task['assignee_id'],
+            "task_id": task_id,
+            "message": f"Task '{task['title']}' status: {old_status} → {task['status']}",
+            "timestamp": now
+        }
+        data['activities'].append(activity)
+
+    if args.get('--progress'):
+        task['progress'] = int(args['--progress'])
+        task['updated_at'] = now
+        updated = True
+
+    if args.get('--handoff'):
+        handoff_to = args['--handoff'].lower()
+        task['handoff_to'] = handoff_to
+        task['updated_at'] = now
+
+        # Add to mentions
+        if handoff_to not in task['mentions']:
+            task['mentions'].append(handoff_to)
+
+        # Create notification
+        notification = {
+            "id": generate_id('not'),
+            "mentioned_agent_id": handoff_to,
+            "content": f"@{handoff_to}: Task '{task['title']}' handed off to you.",
+            "task_id": task_id,
+            "created_at": now,
+            "delivered": False,
+            "delivered_at": None
+        }
+        data['notifications'].append(notification)
+
+        # Log activity
+        activity = {
+            "id": generate_id('act'),
+            "type": "task_handoff",
+            "agent_id": task['assignee_id'],
+            "task_id": task_id,
+            "message": f"Task '{task['title']}' handed off to @{handoff_to}",
+            "timestamp": now
+        }
+        data['activities'].append(activity)
+
+        updated = True
+
+    if updated:
+        save_db(data)
+        print(f"✅ Task updated: {task_id}")
+    else:
+        print("No updates specified. Use --status, --progress, or --handoff")
+
+
+def cmd_assign(args):
+    """Assign task to agent"""
+    if not args.get('<id>'):
+        print("Error: Task ID required")
+        sys.exit(1)
+
+    if not args.get('--to'):
+        print("Error: --to agent required")
+        sys.exit(1)
+
+    task_id = args['<id>']
+    assignee = args['--to'].lower()
+    data = load_db()
+
+    task = next((t for t in data['tasks'] if t['id'] == task_id), None)
+    if not task:
+        print(f"Error: Task '{task_id}' not found")
+        sys.exit(1)
+
+    # Validate agent exists
+    agent = next((a for a in data['agents'] if a['id'] == assignee), None)
+    if not agent:
+        print(f"Error: Agent '{assignee}' not found")
+        sys.exit(1)
+
+    old_assignee = task['assignee_id']
+    task['assignee_id'] = assignee
+    task['updated_at'] = datetime.now().isoformat() + "Z"
+
+    # Log activity
+    activity = {
+        "id": generate_id('act'),
+        "type": "task_assigned",
+        "agent_id": "peter",
+        "task_id": task_id,
+        "message": f"Task '{task['title']}' reassigned: @{old_assignee} → @{assignee}",
+        "timestamp": task['updated_at']
+    }
+    data['activities'].append(activity)
+
+    # Create notification
+    notification = {
+        "id": generate_id('not'),
+        "mentioned_agent_id": assignee,
+        "content": f"@{assignee}: Task '{task['title']}' assigned to you.",
+        "task_id": task_id,
+        "created_at": task['updated_at'],
+        "delivered": False,
+        "delivered_at": None
+    }
+    data['notifications'].append(notification)
+
+    save_db(data)
+
+    print(f"✅ Task reassigned: {task_id}")
+    print(f"   @{old_assignee} → @{assignee}")
+
+
+def main():
+    """Main CLI entry point"""
+    if len(sys.argv) < 2:
+        print("Mission Control CLI - Task Management")
+        print("\nUsage:")
+        print("  mc-task list [--status STATUS] [--assignee AGENT]")
+        print("  mc-task show <id>")
+        print("  mc-task create <title> [--assignee AGENT] [--priority LEVEL] [--description TEXT] [--handoff AGENT] [--tags TAGS]")
+        print("  mc-task update <id> [--status STATUS] [--progress N] [--handoff AGENT]")
+        print("  mc-task assign <id> --to AGENT")
+        print("\nExamples:")
+        print("  mc-task list --status in_progress")
+        print("  mc-task create 'SERP Analysis' --assignee fury --priority high")
+        print("  mc-task update task-123456 --status in_progress --progress 50")
+        print("  mc-task assign task-123456 --to vision")
+        sys.exit(1)
+
+    command = sys.argv[1]
+    args = {}
+
+    # Parse arguments (simple parsing)
+    if command == 'list':
+        for i in range(2, len(sys.argv)):
+            if sys.argv[i] == '--status':
+                args['--status'] = sys.argv[i+1] if i+1 < len(sys.argv) else None
+            elif sys.argv[i] == '--assignee':
+                args['--assignee'] = sys.argv[i+1] if i+1 < len(sys.argv) else None
+
+        cmd_list(args)
+
+    elif command == 'show':
+        args['<id>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        cmd_show(args)
+
+    elif command == 'create':
+        args['<title>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        for i in range(3, len(sys.argv)):
+            if sys.argv[i] == '--assignee' and i+1 < len(sys.argv):
+                args['--assignee'] = sys.argv[i+1]
+            elif sys.argv[i] == '--priority' and i+1 < len(sys.argv):
+                args['--priority'] = sys.argv[i+1]
+            elif sys.argv[i] == '--description' and i+1 < len(sys.argv):
+                args['--description'] = sys.argv[i+1]
+            elif sys.argv[i] == '--handoff' and i+1 < len(sys.argv):
+                args['--handoff'] = sys.argv[i+1]
+            elif sys.argv[i] == '--tags' and i+1 < len(sys.argv):
+                args['--tags'] = sys.argv[i+1]
+
+        cmd_create(args)
+
+    elif command == 'update':
+        args['<id>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        for i in range(3, len(sys.argv)):
+            if sys.argv[i] == '--status' and i+1 < len(sys.argv):
+                args['--status'] = sys.argv[i+1]
+            elif sys.argv[i] == '--progress' and i+1 < len(sys.argv):
+                args['--progress'] = sys.argv[i+1]
+            elif sys.argv[i] == '--handoff' and i+1 < len(sys.argv):
+                args['--handoff'] = sys.argv[i+1]
+
+        cmd_update(args)
+
+    elif command == 'assign':
+        args['<id>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        for i in range(3, len(sys.argv)):
+            if sys.argv[i] == '--to' and i+1 < len(sys.argv):
+                args['--to'] = sys.argv[i+1]
+
+        cmd_assign(args)
+
+    else:
+        print(f"Error: Unknown command '{command}'")
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

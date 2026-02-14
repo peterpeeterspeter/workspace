@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77175453/riho-granada-vrijstaand-bad-170x72x55cm-solid-surface-mat-wit",
+  "name": "Riho Valor vrijstaand bad - 170x72x55cm - solid surface - mat wit",
+  "price": "e639",
+  "category": "freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 5,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/66ddd85a529e5af9a797393c234ef525.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/c1fa3ed03a6ab82cde02b3914f4eac6f.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/cc3af0047bf9e14cf611a7553773d06b.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/36aaa05b55c38afeac2e103218faab25.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/675a60e5586f7b0ec0888f6a7671fac0.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:51:47.846197",
+  "downloaded_images": 5,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Riho-Valor-vrijstaand-bad---170x72x55cm---solid-su/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Riho-Valor-vrijstaand-bad---170x72x55cm---solid-su/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Riho-Valor-vrijstaand-bad---170x72x55cm---solid-su/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Riho-Valor-vrijstaand-bad---170x72x55cm---solid-su/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Riho-Valor-vrijstaand-bad---170x72x55cm---solid-su/images/image_005.jpg"
+  ]
+}

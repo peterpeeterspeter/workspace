@@ -1,0 +1,29 @@
+# 301 Redirects for Cardfair.com
+# Redirect broken demo pages to relevant live pages
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Demo template pages → Secured Credit Cards
+  Redirect 301 /shortcodes/ /secured-credit-cards/
+  Redirect 301 /typography/ /credit-cards/
+
+  # Blog demo pages → Main blog/archive
+  Redirect 301 /blog-classic-2-columns/ /all-posts/
+  Redirect 301 /blog-classic-3-columns/ /all-posts/
+  Redirect 301 /blog-portfolio-2-columns/ /all-posts/
+  Redirect 301 /blog-portfolio-3-columns/ /all-posts/
+  Redirect 301 /blog-portfolio-4-columns/ /all-posts/
+  Redirect 301 /blog-chess-2-columns/ /all-posts/
+  Redirect 301 /blog-chess-4-columns/ /all-posts/
+  Redirect 301 /blog-chess-6-columns/ /all-posts/
+
+  # Gallery demos → Credit Cards (best match)
+  Redirect 301 /gallery-grid/ /credit-cards/
+  Redirect 301 /gallery-masonry/ /credit-cards/
+  Redirect 301 /gallery-cobbles/ /credit-cards/
+
+  # Home boxed demo → Homepage
+  Redirect 301 /home-boxed/ /
+
+</IfModule>

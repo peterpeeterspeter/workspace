@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T23:34:09.663460",
+    "category": "labs",
+    "operation": "keyword_difficulty",
+    "keyword": "crash casino ratings",
+    "extra_info": "15_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0927 sec.",
+    "cost": 0.0115,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030134-8420-0392-0000-52985911164a",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0325 sec.",
+        "cost": 0.0115,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "crash casino ratings",
+            "verify crash game",
+            "crash gambling scams",
+            "DOGE crash gambling",
+            "crypto fees crash gambling",
+            "anonymous crash gambling",
+            "crash gambling psychology",
+            "crash gambling mistakes",
+            "responsible crash gambling",
+            "crash casinos germany",
+            "crash gambling legal",
+            "crash gambling payment methods",
+            "aviator high roller",
+            "aviator live stats",
+            "aviator discord"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 15,
+            "items_count": 15,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "crash casino ratings",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "verify crash game",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling scams",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "doge crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crypto fees crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "anonymous crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling psychology",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling mistakes",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "responsible crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash casinos germany",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling legal",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling payment methods",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "aviator high roller",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "aviator live stats",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "aviator discord",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

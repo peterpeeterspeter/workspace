@@ -1,0 +1,202 @@
+#!/usr/bin/env python3
+"""
+WordPress Article Publisher (FIXED VERSION)
+Strips all metadata before publishing.
+"""
+
+import requests
+import json
+import os
+import argparse
+import markdown2
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Site configurations
+SITES = {
+    'crashgamegambling.com': {
+        'url': os.getenv('WORDPRESS_CRASHGAMEGAMBLING_URL'),
+        'user': os.getenv('WORDPRESS_CRASHGAMEGAMBLING_USER'),
+        'app_password': os.getenv('WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD')
+    },
+    'cryptocrashgambling.com': {
+        'url': os.getenv('WORDPRESS_CRYPTOCRASH_URL'),
+        'user': os.getenv('WORDPRESS_CRYPTOCRASH_USER'),
+        'app_password': os.getenv('WORDPRESS_CRYPTOCRASH_APP_PASSWORD')
+    },
+    'freecrashgames.com': {
+        'url': os.getenv('WORDPRESS_FREECRASH_URL'),
+        'user': os.getenv('WORDPRESS_FREECRASH_USER'),
+        'app_password': os.getenv('WORDPRESS_FREECRASH_APP_PASSWORD')
+    },
+    'crashcasino.io': {
+        'url': os.getenv('WORDPRESS_CRASHCASINO_URL'),
+        'user': os.getenv('WORDPRESS_CRASHCASINO_USER'),
+        'app_password': os.getenv('WORDPRESS_CRASHCASINO_APP_PASSWORD')
+    },
+    'aviatorcrashgame.com': {
+        'url': os.getenv('WORDPRESS_AVIATOR_URL') if os.getenv('WORDPRESS_AVIATOR_URL') else None,
+        'user': os.getenv('WORDPRESS_AVIATOR_USER') if os.getenv('WORDPRESS_AVIATOR_USER') else None,
+        'app_password': os.getenv('WORDPRESS_AVIATOR_APP_PASSWORD') if os.getenv('WORDPRESS_AVIATOR_APP_PASSWORD') else None
+    }
+}
+
+
+def strip_metadata(content):
+    """Remove all metadata from markdown file.
+    
+    Keeps:
+    - H1 title
+    
+    Strips:
+    - **Site:**, **Brand Voice:**, **Author:**, **Date:**, **Status:**
+    - **Meta Description:**, **FAQ Schema:**, **HowTo Schema:**, **Internal Links:**
+    - Code blocks containing schema JSON
+    - Table of Contents sections
+    
+    Keeps everything from first substantive H2 section onwards.
+    """
+    lines = content.split('\n')
+    content_lines = []
+    in_metadata = True
+    in_code_block = False
+    found_first_section = False
+    h1_collected = False
+
+    for line in lines:
+        # Collect H1 title
+        if line.strip().startswith('# ') and not h1_collected:
+            content_lines.append(line)
+            content_lines.append('')  # Add blank line after H1
+            h1_collected = True
+            continue
+        
+        # Found first substantive H2 section (not "Table of Contents")
+        if line.strip().startswith('## ') and 'Table of Contents' not in line and 'table-of-contents' not in line.lower():
+            in_metadata = False
+            found_first_section = True
+            content_lines.append(line)
+            continue
+        
+        # Still in metadata section after H1
+        if in_metadata:
+            continue
+        
+        # Found real content
+        if found_first_section:
+            content_lines.append(line)
+
+    return '\n'.join(content_lines)
+
+
+def extract_title(content):
+    """Extract title from first H1 heading."""
+    for line in content.split('\n'):
+        if line.strip().startswith('# '):
+            return line.strip().replace('# ', '', 1)
+    return "Untitled Article"
+
+
+def markdown_to_html(markdown_text):
+    """Convert markdown to HTML using markdown2 library."""
+    html = markdown2.markdown(
+        markdown_text,
+        extras=[
+            'tables',
+            'fenced-code-blocks',
+            'header-ids',
+            'strike-through',
+            'task_list',
+            'code-friendly'
+        ]
+    )
+    return html
+
+
+def publish_article(site_config, article_file, dry_run=False):
+    """Publish article to WordPress site."""
+    # Read article
+    with open(f'/root/.openclaw/workspace/drafts/{article_file}', 'r') as f:
+        raw_content = f.read()
+
+    # Strip metadata
+    clean_content = strip_metadata(raw_content)
+    
+    # Extract title
+    title = extract_title(clean_content)
+
+    # Convert to HTML
+    html_content = markdown_to_html(clean_content)
+
+    # Prepare post data
+    post_data = {
+        'title': title,
+        'content': html_content,
+        'status': 'draft' if dry_run else 'publish',
+        'slug': article_file.replace('.md', ''),
+        'excerpt': clean_content.split('\n')[0][:160] if clean_content else ''
+    }
+
+    # Publish
+    auth = (site_config['user'], site_config['app_password'])
+    headers = {'Content-Type': 'application/json'}
+
+    if not dry_run:
+        response = requests.post(
+            f"{site_config['url']}/wp/v2/posts",
+            auth=auth,
+            headers=headers,
+            json=post_data
+        )
+
+        if response.status_code == 201:
+            result = response.json()
+            return {
+                'success': True,
+                'post_id': result['id'],
+                'url': result['link'],
+                'title': result['title']['rendered']
+            }
+        else:
+            return {
+                'success': False,
+                'error': response.text,
+                'status_code': response.status_code
+            }
+    else:
+        return {
+            'success': True,
+            'dry_run': True,
+            'title': title,
+            'slug': post_data['slug']
+        }
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Publish articles to WordPress')
+    parser.add_argument('--site', help='Site to publish to')
+    parser.add_argument('--article', help='Article filename')
+    parser.add_argument('--dry-run', action='store_true', help='Test without publishing')
+    args = parser.parse_args()
+
+    if args.site and args.article:
+        site_config = SITES.get(args.site)
+        if not site_config:
+            print(f"❌ Unknown site: {args.site}")
+            return
+
+        print(f"📄 Publishing: {args.article} → {args.site}")
+        result = publish_article(site_config, args.article, dry_run=args.dry_run)
+
+        if result['success']:
+            if result.get('dry_run'):
+                print(f"✅ DRY RUN: Would publish '{result['title']}'")
+            else:
+                print(f"✅ Published: {result['url']}")
+        else:
+            print(f"❌ Failed: {result.get('error')}")
+
+
+if __name__ == '__main__':
+    main()

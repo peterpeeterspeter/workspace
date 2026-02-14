@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do crash games have patterns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash games use cryptographically secure RNG. Every round is independent. Past results don't influence future results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you predict crash multipliers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. RNG is mathematically unpredictable. 'Predictor bots' are scams that steal your login credentials or infect your device."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do I see patterns in crash games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your brain is wired to see patterns (confirmation bias, clustering illusion). Random data naturally has clusters—streaks of high or low multipliers—that look like patterns but aren't."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is gambler's fallacy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The mistaken belief that past random events influence future ones. Example: 'Crash hasn't hit 10x in 50 rounds, so it's due.' In reality, round 51 has the same odds as round 1."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do hot streaks and cold streaks exist in crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. What looks like a 'hot streak' (lots of high multipliers) or 'cold streak' (lots of low multipliers) is just random clustering. It has no predictive power."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash predictor bots work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash games use provably fair RNG. If a bot could predict crash, it would also be able to break SSL encryption and steal Bitcoin—which is impossible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best crash strategy if patterns don't exist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Conservative cashout (1.5x-2x) + bankroll management (1% bets). You won't beat the house, but you'll have more winning sessions than losing ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some players win big at crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Short-term variance. If 10,000 players chase 100x multipliers, a few will hit it. Most will go broke. The winners post screenshots; the losers stay silent (survivorship bias)."
+      }
+    }
+  ]
+}

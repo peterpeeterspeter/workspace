@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling Odds: Understanding the Math Behind Multipliers",
+  "description": "Learn crash gambling odds, RTP, expected value, and the math behind crash multipliers. Why crash casinos always win long-term.",
+  "image": "https://crashgamegambling.com/wp-content/uploads/2026/02/crash-gambling-odds.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "CrashGameGambling",
+    "url": "https://crashgamegambling.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashGameGambling",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashgamegambling.com/wp-content/uploads/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashgamegambling.com/crash-gambling-odds"
+  },
+  "articleSection": "Crash Mathematics",
+  "keywords": ["crash gambling odds", "crash RTP", "crash expected value", "crash gambling math"],
+  "wordCount": 1900
+}

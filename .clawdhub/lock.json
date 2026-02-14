@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "skills": {
+    "firecrawl-search": {
+      "version": "1.0.0",
+      "installedAt": 1769874291638
+    },
+    "firecrawler": {
+      "version": "1.0.0",
+      "installedAt": 1769874299294
+    },
+    "marketing-skills": {
+      "version": "0.1.2",
+      "installedAt": 1769874557776
+    },
+    "gsc": {
+      "version": "1.0.0",
+      "installedAt": 1769874566478
+    },
+    "ga4": {
+      "version": "1.0.0",
+      "installedAt": 1769874568929
+    },
+    "domaindetails": {
+      "version": "1.2.0",
+      "installedAt": 1769874571144
+    },
+    "premium-domains": {
+      "version": "1.1.0",
+      "installedAt": 1769874573471
+    },
+    "tavily": {
+      "version": "1.0.0",
+      "installedAt": 1769874575893
+    },
+    "n8n-automation": {
+      "version": "0.1.0",
+      "installedAt": 1769874577720
+    },
+    "vercel-react-best-practices": {
+      "version": "1.0.0",
+      "installedAt": 1769874582175
+    },
+    "frontend-design": {
+      "version": "1.0.0",
+      "installedAt": 1769874584092
+    },
+    "pinch-to-post": {
+      "version": "3.1.2",
+      "installedAt": 1770036974117
+    },
+    "seo-optimizer": {
+      "version": "0.1.0",
+      "installedAt": 1770033918271
+    },
+    "seo-dataforseo": {
+      "version": "1.0.0",
+      "installedAt": 1769874616638
+    },
+    "marketing-mode": {
+      "version": "1.0.0",
+      "installedAt": 1769874618906
+    },
+    "ui-audit": {
+      "version": "1.0.1",
+      "installedAt": 1769876361811
+    },
+    "pinak-frontend-guru": {
+      "version": "1.0.0",
+      "installedAt": 1769876363992
+    },
+    "remotion-best-practices": {
+      "version": "1.0.0",
+      "installedAt": 1769876367646
+    },
+    "remotion-server": {
+      "version": "1.0.0",
+      "installedAt": 1769876369854
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1769876421005
+    },
+    "supabase": {
+      "version": "1.0.0",
+      "installedAt": 1769876423002
+    },
+    "stripe": {
+      "version": "1.1.0",
+      "installedAt": 1769876425048
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1769876426762
+    },
+    "linkedin-automation": {
+      "version": "1.0.0",
+      "installedAt": 1769876428977
+    },
+    "analytics-tracking": {
+      "version": "1.0.0",
+      "installedAt": 1769876430983
+    },
+    "promptify": {
+      "version": "3.1.0",
+      "installedAt": 1769876468723
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1769876470598
+    },
+    "coding-agent": {
+      "version": "1.0.1",
+      "installedAt": 1769876472560
+    },
+    "polymarketcli": {
+      "version": "1.0.1",
+      "installedAt": 1769877772250
+    },
+    "polymarket-agent": {
+      "version": "1.0.2",
+      "installedAt": 1769877774679
+    },
+    "odds-checker-api": {
+      "version": "1.0.0",
+      "installedAt": 1769877776803
+    },
+    "polymarket-odds": {
+      "version": "1.0.0",
+      "installedAt": 1769877778737
+    },
+    "polymarket-analysis": {
+      "version": "2.1.0",
+      "installedAt": 1769877781519
+    },
+    "technical-analyst": {
+      "version": "0.1.0",
+      "installedAt": 1769877843210
+    },
+    "cryptocurrency-trader-skill": {
+      "version": "0.1.0",
+      "installedAt": 1769877847691
+    },
+    "market-environment-analysis": {
+      "version": "0.1.0",
+      "installedAt": 1769877850195
+    },
+    "stock-market-pro": {
+      "version": "1.1.0",
+      "installedAt": 1769877852119
+    },
+    "the-sports-db": {
+      "version": "1.0.1",
+      "installedAt": 1769890521487
+    },
+    "sports-ticker": {
+      "version": "2.1.2",
+      "installedAt": 1769890524460
+    },
+    "ralph-loops": {
+      "version": "1.0.2",
+      "installedAt": 1770011539161
+    },
+    "perplexity": {
+      "version": "1.0.0",
+      "installedAt": 1770014395387
+    },
+    "humanize": {
+      "version": "1.0.0",
+      "installedAt": 1770033895227
+    },
+    "ai-landing": {
+      "version": "1.0.1",
+      "installedAt": 1770034928122
+    },
+    "frontend-design-ultimate": {
+      "version": "1.0.0",
+      "installedAt": 1770034934312
+    },
+    "self-improving-agent": {
+      "version": "1.0.5",
+      "installedAt": 1771004878383
+    },
+    "markdown-converter": {
+      "version": "1.0.0",
+      "installedAt": 1770106634020
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.3",
+      "installedAt": 1771004873234
+    },
+    "prd": {
+      "version": "2.0.5",
+      "installedAt": 1771014457062
+    },
+    "open-ralph": {
+      "version": "1.0.0",
+      "installedAt": 1771015634718
+    },
+    "ralph-evolver": {
+      "version": "1.0.6",
+      "installedAt": 1771017071610
+    },
+    "ralph-loop-agent": {
+      "version": "1.1.0",
+      "installedAt": 1771017140651
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-02-02T18:10:00Z",
+  "agents": [
+    {
+      "id": "vision",
+      "name": "Vision",
+      "role": "SEO/Content Specialist",
+      "session_key": "agent:main:cron:*",
+      "status": "active",
+      "current_task_id": null,
+      "last_active": "2026-02-02T17:50:00Z"
+    },
+    {
+      "id": "fury",
+      "name": "Fury",
+      "role": "Research Specialist",
+      "session_key": "agent:main:cron:*",
+      "status": "idle",
+      "current_task_id": null,
+      "last_active": "2026-02-02T16:07:00Z"
+    },
+    {
+      "id": "quill",
+      "name": "Quill",
+      "role": "Marketing Specialist",
+      "session_key": "agent:main:cron:*",
+      "status": "idle",
+      "current_task_id": null,
+      "last_active": "2026-02-02T16:07:00Z"
+    },
+    {
+      "id": "peter",
+      "name": "Peter",
+      "role": "Human",
+      "session_key": "agent:main:main",
+      "status": "active",
+      "current_task_id": "cleanup-approval",
+      "last_active": "2026-02-02T18:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "week2-serp-analysis",
+      "title": "Week 2 SERP Analysis",
+      "description": "Analyze keywords for 5 Week 2 articles: crash casino bonus, crypto vs fiat, crash gambling strategy, crash casinos uk, aviator predictor. Provide search volume, CPC, competition analysis.",
+      "status": "assigned",
+      "priority": "high",
+      "assignee_id": "fury",
+      "created_by": "vision",
+      "created_at": "2026-02-02T17:50:00Z",
+      "updated_at": "2026-02-02T18:10:00Z",
+      "due_date": null,
+      "dependencies": [],
+      "handoff_to": "vision",
+      "mentions": [
+        "vision"
+      ],
+      "thread_subscribers": [
+        "vision",
+        "fury"
+      ],
+      "tags": [
+        "week2",
+        "serp",
+        "research"
+      ],
+      "files": [
+        "tasks/in-progress/004-week2-content-briefs.md"
+      ]
+    },
+    {
+      "id": "week2-content-briefs",
+      "title": "Week 2 Content Briefs",
+      "description": "Create 5 HIGH priority article briefs for Week 2: Crash Bonuses, Crypto vs Fiat, Math Behind Multiplier, UK Casinos, Aviator Predictor",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee_id": "vision",
+      "created_by": "vision",
+      "created_at": "2026-02-02T17:50:00Z",
+      "updated_at": "2026-02-02T17:50:00Z",
+      "due_date": null,
+      "dependencies": [],
+      "handoff_to": "fury",
+      "mentions": [
+        "fury"
+      ],
+      "thread_subscribers": [
+        "vision",
+        "fury"
+      ],
+      "tags": [
+        "week2",
+        "briefs"
+      ],
+      "files": [
+        "tasks/in-progress/004-week2-content-briefs.md"
+      ],
+      "progress": 70
+    },
+    {
+      "id": "site-cleanup-approval",
+      "title": "Site Cleanup Approval",
+      "description": "Approve cleanup of 119 duplicate posts across 3 sites. crashgamegambling.com (35), cryptocrashgambling.com (11), freecrashgames.com (79). Need DELETE permissions or manual deletion.",
+      "status": "blocked",
+      "priority": "high",
+      "assignee_id": "peter",
+      "created_by": "carlottta",
+      "created_at": "2026-02-02T12:00:00Z",
+      "updated_at": "2026-02-02T18:00:00Z",
+      "due_date": null,
+      "dependencies": [],
+      "handoff_to": null,
+      "mentions": [],
+      "thread_subscribers": [
+        "peter"
+      ],
+      "tags": [
+        "cleanup",
+        "blocked"
+      ],
+      "files": []
+    },
+    {
+      "id": "batch3-affiliate-fix",
+      "title": "Batch 3 Affiliate Link Fix",
+      "description": "Fixed markdown-to-HTML conversion for affiliate tables. Updated all 4 Batch 3 articles with working affiliate links.",
+      "status": "done",
+      "priority": "high",
+      "assignee_id": "carlottta",
+      "created_by": "peter",
+      "created_at": "2026-02-02T17:48:00Z",
+      "updated_at": "2026-02-02T18:00:00Z",
+      "due_date": null,
+      "dependencies": [],
+      "handoff_to": null,
+      "mentions": [],
+      "thread_subscribers": [
+        "peter",
+        "carlottta"
+      ],
+      "tags": [
+        "completed",
+        "affiliate"
+      ],
+      "files": []
+    },
+    {
+      "id": "task-20260202180958",
+      "title": "Test Task from Phase 2 Setup",
+      "description": "Testing Phase 2 CLI tools",
+      "status": "done",
+      "priority": "medium",
+      "assignee_id": "peter",
+      "created_by": "peter",
+      "created_at": "2026-02-02T18:09:58.728038Z",
+      "updated_at": "2026-02-02T18:09:58.786484Z",
+      "due_date": null,
+      "dependencies": [],
+      "handoff_to": null,
+      "mentions": [],
+      "thread_subscribers": [
+        "peter"
+      ],
+      "tags": [],
+      "files": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-001",
+      "task_id": "week2-serp-analysis",
+      "from_agent_id": "vision",
+      "content": "Week 2 briefs complete. Need SERP analysis for 5 keywords before proceeding with SEO optimization.",
+      "timestamp": "2026-02-02T17:50:00Z",
+      "mentions": [
+        "fury"
+      ]
+    },
+    {
+      "id": "msg-002",
+      "task_id": "week2-serp-analysis",
+      "from_agent_id": "carlottta",
+      "content": "Starting Phase 2 of Mission Control. Building task database and CLI tools.",
+      "timestamp": "2026-02-02T18:10:00Z",
+      "mentions": []
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-001",
+      "type": "task_created",
+      "agent_id": "vision",
+      "task_id": "week2-content-briefs",
+      "message": "Vision created task: Week 2 Content Briefs",
+      "timestamp": "2026-02-02T17:50:00Z"
+    },
+    {
+      "id": "act-002",
+      "type": "task_assigned",
+      "agent_id": "vision",
+      "task_id": "week2-serp-analysis",
+      "message": "Task assigned to Fury: Week 2 SERP Analysis",
+      "timestamp": "2026-02-02T17:50:00Z"
+    },
+    {
+      "id": "act-003",
+      "type": "task_completed",
+      "agent_id": "carlottta",
+      "task_id": "batch3-affiliate-fix",
+      "message": "Carlottta completed task: Batch 3 Affiliate Link Fix",
+      "timestamp": "2026-02-02T18:00:00Z"
+    },
+    {
+      "id": "act-004",
+      "type": "system_created",
+      "agent_id": "carlottta",
+      "task_id": null,
+      "message": "Mission Control Phase 2 database initialized",
+      "timestamp": "2026-02-02T18:10:00Z"
+    },
+    {
+      "id": "act-20260202180958",
+      "type": "task_created",
+      "agent_id": "peter",
+      "task_id": "task-20260202180958",
+      "message": "Peter created task: Test Task from Phase 2 Setup",
+      "timestamp": "2026-02-02T18:09:58.728038Z"
+    },
+    {
+      "id": "act-20260202180958",
+      "type": "task_updated",
+      "agent_id": "peter",
+      "task_id": "task-20260202180958",
+      "message": "Task 'Test Task from Phase 2 Setup' status: assigned → done",
+      "timestamp": "2026-02-02T18:09:58.786484Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not-001",
+      "mentioned_agent_id": "fury",
+      "content": "@Fury: Vision created task 'Week 2 SERP Analysis' assigned to you. Check mission-control for details.",
+      "task_id": "week2-serp-analysis",
+      "created_at": "2026-02-02T17:50:00Z",
+      "delivered": true,
+      "delivered_at": "2026-02-02T17:55:00Z"
+    },
+    {
+      "id": "not-002",
+      "mentioned_agent_id": "peter",
+      "content": "@Peter: Carlottta started Phase 2 setup. Task database and CLI tools being built.",
+      "task_id": null,
+      "created_at": "2026-02-02T18:10:00Z",
+      "delivered": true,
+      "delivered_at": "2026-02-14T15:50:06Z"
+    }
+  ],
+  "metadata": {
+    "total_tasks": 4,
+    "active_tasks": 2,
+    "completed_tasks": 1,
+    "blocked_tasks": 1,
+    "total_agents": 4,
+    "active_agents": 2
+  }
+}

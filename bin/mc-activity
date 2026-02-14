@@ -1,0 +1,209 @@
+#!/usr/bin/env python3
+"""
+Mission Control CLI - Activity Feed
+mc-activity - View and log activity
+"""
+
+import json
+import sys
+from datetime import datetime
+from pathlib import Path
+
+DB_PATH = Path("/root/.openclaw/workspace/mission-control.db.json")
+
+
+def load_db():
+    """Load mission control database"""
+    if not DB_PATH.exists():
+        print(f"Error: Database not found at {DB_PATH}")
+        sys.exit(1)
+
+    with open(DB_PATH, 'r') as f:
+        return json.load(f)
+
+
+def generate_id(prefix="act"):
+    """Generate unique activity ID"""
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    return f"{prefix}-{timestamp}"
+
+
+def cmd_list(args):
+    """List recent activities"""
+    data = load_db()
+
+    limit = int(args.get('--limit', 20))
+    agent_filter = args.get('--agent')
+
+    activities = data['activities']
+
+    if agent_filter:
+        activities = [a for a in activities if a['agent_id'] == agent_filter.lower()]
+
+    # Sort by timestamp descending
+    activities = sorted(activities, key=lambda x: x['timestamp'], reverse=True)[:limit]
+
+    if not activities:
+        print("No activities found.")
+        return
+
+    print(f"\n📊 Activity Feed ({len(activities)} recent)")
+    print("=" * 60)
+
+    for act in activities:
+        icon = {
+            'task_created': '➕',
+            'task_assigned': '👤',
+            'task_updated': '✏️',
+            'task_completed': '✅',
+            'task_handoff': '↪️',
+            'message_sent': '💬',
+            'system_created': '⚙️'
+        }.get(act['type'], '📌')
+
+        print(f"\n{icon} {act['message']}")
+        print(f"   @{act['agent_id']} | {act['timestamp']}")
+
+        if act.get('task_id'):
+            print(f"   Task: {act['task_id']}")
+
+
+def cmd_log(args):
+    """Log new activity"""
+    data = load_db()
+
+    message = args.get('<message>')
+    if not message:
+        print("Error: Message required")
+        print("Usage: mc-activity log 'Your message here'")
+        sys.exit(1)
+
+    agent_id = args.get('--agent', 'peter').lower()
+    task_id = args.get('--task')
+    activity_type = args.get('--type', 'message_sent')
+
+    # Validate agent exists
+    agent = next((a for a in data['agents'] if a['id'] == agent_id), None)
+    if not agent:
+        print(f"Error: Agent '{agent_id}' not found")
+        sys.exit(1)
+
+    # Create activity
+    activity = {
+        "id": generate_id('act'),
+        "type": activity_type,
+        "agent_id": agent_id,
+        "task_id": task_id,
+        "message": message,
+        "timestamp": datetime.now().isoformat() + "Z"
+    }
+
+    data['activities'].append(activity)
+
+    # Also add as message if task_id provided
+    if task_id:
+        message_obj = {
+            "id": generate_id('msg'),
+            "task_id": task_id,
+            "from_agent_id": agent_id,
+            "content": message,
+            "timestamp": activity['timestamp'],
+            "mentions": []
+        }
+        data['messages'].append(message_obj)
+
+    # Save
+    with open(DB_PATH, 'w') as f:
+        json.dump(data, f, indent=2)
+
+    print(f"✅ Activity logged: {message[:60]}{'...' if len(message) > 60 else ''}")
+
+
+def cmd_watch(args):
+    """Watch activity feed in real-time (poll mode)"""
+    import time
+
+    data = load_db()
+    last_count = len(data['activities'])
+
+    print(f"👀 Watching activity feed... (Ctrl+C to stop)")
+    print()
+
+    try:
+        while True:
+            data = load_db()
+            current_count = len(data['activities'])
+
+            if current_count > last_count:
+                # Show new activities
+                new_activities = data['activities'][last_count:current_count]
+
+                for act in new_activities:
+                    icon = {
+                        'task_created': '➕',
+                        'task_assigned': '👤',
+                        'task_updated': '✏️',
+                        'task_completed': '✅',
+                        'task_handoff': '↪️',
+                        'message_sent': '💬'
+                    }.get(act['type'], '📌')
+
+                    print(f"{icon} {act['message']}")
+                    print(f"   @{act['agent_id']} | {act['timestamp']}\n")
+
+                last_count = current_count
+
+            time.sleep(5)  # Poll every 5 seconds
+
+    except KeyboardInterrupt:
+        print("\nStopped watching.")
+
+
+def main():
+    """Main CLI entry point"""
+    if len(sys.argv) < 2:
+        print("Mission Control CLI - Activity Feed")
+        print("\nUsage:")
+        print("  mc-activity list [--limit N] [--agent AGENT]")
+        print("  mc-activity log 'message' [--agent AGENT] [--task TASK_ID] [--type TYPE]")
+        print("  mc-activity watch")
+        print("\nExamples:")
+        print("  mc-activity list --limit 10")
+        print("  mc-activity log 'Started working on SERP analysis' --agent fury")
+        print("  mc-activity watch")
+        sys.exit(1)
+
+    command = sys.argv[1]
+    args = {}
+
+    if command == 'list':
+        for i in range(2, len(sys.argv)):
+            if sys.argv[i] == '--limit' and i+1 < len(sys.argv):
+                args['--limit'] = sys.argv[i+1]
+            elif sys.argv[i] == '--agent' and i+1 < len(sys.argv):
+                args['--agent'] = sys.argv[i+1]
+
+        cmd_list(args)
+
+    elif command == 'log':
+        args['<message>'] = ' '.join(sys.argv[2:]) if len(sys.argv) > 2 else None
+        for i in range(2, len(sys.argv)):
+            if sys.argv[i] == '--agent' and i+1 < len(sys.argv):
+                args['--agent'] = sys.argv[i+1]
+            elif sys.argv[i] == '--task' and i+1 < len(sys.argv):
+                args['--task'] = sys.argv[i+1]
+            elif sys.argv[i] == '--type' and i+1 < len(sys.argv):
+                args['--type'] = sys.argv[i+1]
+
+        cmd_log(args)
+
+    elif command == 'watch':
+        cmd_watch(args)
+
+    else:
+        print(f"Error: Unknown command '{command}'")
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

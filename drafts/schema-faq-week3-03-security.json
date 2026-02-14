@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash casino is legit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check for a valid license (MGA, UKGC, Curaçao), SSL encryption (HTTPS), provably fair games, and positive reviews. Verify the license on the regulator's website."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most trusted gambling license?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MGA (Malta) and UKGC (UK) are the most trusted. Curaçao is common for crash casinos and offers basic regulation, but it's weaker than MGA/UKGC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are provably fair crash games really random?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you can verify them. Provably fair systems use cryptographic hashing to prove the crash result was determined before you bet. Use the casino's verification tool to confirm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can crash casinos be rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Unlicensed casinos or casinos without provably fair systems can rig crash games to crash more often than they should. Only play provably fair games at licensed casinos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if a crash casino won't pay me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact support first. If they refuse, file a complaint with the casino's regulator (MGA, UKGC, Curaçao). Post on public forums (Reddit, Trustpilot) to apply pressure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to deposit crypto at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the casino is reputable and uses cold storage. Stick to licensed casinos (Stake, BC.Game, Thunderpick) and don't leave large amounts on the site."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to KYC at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some casinos require KYC (identity verification) for withdrawals. No-KYC casinos (Stake, Metaspins) let you withdraw without ID, but they may request KYC for large withdrawals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I enable 2FA on my casino account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to Settings → Security → Enable 2FA → Scan QR code with Google Authenticator or Authy. Do this before depositing any money."
+      }
+    }
+  ]
+}

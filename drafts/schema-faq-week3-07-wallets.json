@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the best crypto wallet for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For convenience: Exodus, Trust Wallet (mobile-friendly, easy to use). For security: Ledger, Trezor (hardware wallets, best for large amounts). For privacy: Monero wallets (anonymous transactions)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are hardware wallets safe for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, hardware wallets (Ledger, Trezor) are the safest option. They store your private keys offline, making them nearly impossible to hack. Use them for storing large amounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can crash casinos steal my wallet funds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not directly. Casinos can only access funds you deposit. But if you give someone your private key or seed phrase (NEVER do this), they can drain your wallet. Only deposit what you can afford to lose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What coins do crash casinos accept?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crash casinos accept BTC, ETH, LTC, USDT, USDC, and sometimes DOGE, SOL, or other popular coins. Check the casino's banking page for the full list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I withdraw from crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to the withdrawal page, enter your wallet address, select the coin and amount, and confirm. Withdrawals typically take 10 minutes to 2 hours depending on the casino and coin network congestion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crypto crash casinos anonymous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partially. Transactions are pseudonymous (your wallet address is public, but your identity isn't). But casinos may require KYC for withdrawals, and blockchain transactions are traceable."
+      }
+    }
+  ]
+}

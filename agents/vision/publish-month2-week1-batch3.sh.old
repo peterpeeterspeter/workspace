@@ -1,0 +1,65 @@
+#!/bin/bash
+# Publish Month 2 Week 1 articles using Pinch-to-Post integration
+# Updated to use wp-publish.sh (Gutenberg blocks + YAML/table handling)
+
+set -e
+
+DRAFT_DIR="/root/.openclaw/workspace/drafts"
+LOG_FILE="/tmp/publish-month2-week1-batch2.log"
+
+echo "=== WordPress Publishing: Month 2 Week 1 - Batch 2 (Pinch-to-Post) ===" | tee "$LOG_FILE"
+echo "Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+# Publisher function using pinch-to-post integration
+publish_article() {
+  local draft_file="$1"
+  local site="$2"
+  local status="${3:-draft}"
+
+  if [ ! -f "$draft_file" ]; then
+    echo "❌ ERROR: File not found: $draft_file" | tee -a "$LOG_FILE"
+    return 1
+  fi
+
+  local draft_name=$(basename "$draft_file" .md)
+  echo "Publishing: ${draft_name} → ${site}..." | tee -a "$LOG_FILE"
+
+  # Use wp-publish.sh (pinch-to-post integration)
+  if /root/.openclaw/workspace/wp-publish.sh "$draft_file" "$site" "$status" 2>&1 | tee -a "$LOG_FILE"; then
+    echo "   ✅ SUCCESS" | tee -a "$LOG_FILE"
+    return 0
+  else
+    echo "   ❌ FAILED" | tee -a "$LOG_FILE"
+    return 1
+  fi
+}
+
+# Article 1: Ethereum Crash Gambling → cryptocrashgambling.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-cryptocrashgambling-002-ethereum-crash-gambling.md" \
+  "cryptocrashgambling.com" \
+  "draft"
+
+echo "" | tee -a "$LOG_FILE"
+
+# Article 2: Best Crash Casinos for Brazil → freecrashgames.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-freecrashgames-002-best-crash-casinos-brazil.md" \
+  "freecrashgames.com" \
+  "draft"
+
+echo "" | tee -a "$LOG_FILE"
+
+# Article 3: Crash Gambling Bankroll Management → crashgamegambling.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-crashgamegambling-002-bankroll-management.md" \
+  "crashgamegambling.com" \
+  "draft"
+
+echo "" | tee -a "$LOG_FILE"
+echo "=== Batch 2 Publishing Complete ===" | tee -a "$LOG_FILE"
+echo "Check log: $LOG_FILE" | tee -a "$LOG_FILE"

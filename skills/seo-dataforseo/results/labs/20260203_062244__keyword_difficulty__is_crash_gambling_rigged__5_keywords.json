@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-03T06:22:44.824449",
+    "category": "labs",
+    "operation": "keyword_difficulty",
+    "keyword": "is crash gambling rigged",
+    "extra_info": "5_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0611 sec.",
+    "cost": 0.0105,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030822-8420-0392-0000-60981fc19639",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0403 sec.",
+        "cost": 0.0105,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "is crash gambling rigged",
+            "bitcoin crash gambling",
+            "crash gambling for beginners",
+            "crash casinos india",
+            "aviator strategy"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 5,
+            "items_count": 5,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "aviator strategy",
+                "keyword_difficulty": 3
+              },
+              {
+                "se_type": "google",
+                "keyword": "bitcoin crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "is crash gambling rigged",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash gambling for beginners",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash casinos india",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

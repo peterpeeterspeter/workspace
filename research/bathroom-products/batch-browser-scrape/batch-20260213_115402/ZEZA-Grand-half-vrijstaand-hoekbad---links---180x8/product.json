@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77808839/zeis-grand-vrijstaand-hoekbad-180x80x58cm-acryl-mat-wit",
+  "name": "ZEZA Grand half vrijstaand hoekbad - links - 180x80x58cm - met afvoer - acryl - glans wit",
+  "price": "e639",
+  "category": "sub half freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 5,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/036b912b92ffbbe917a8173a0dd3df08.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/6852cc0c7a3b90abf4e8e41b9ce610d9.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/c1ff8527fb8cc131248dcca041ae347e.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/30d33578aaffa2d5a45dcf87d316639c.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/4ef840b1551d4e24393ca8b196c6a45d.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:54:03.646146",
+  "downloaded_images": 5,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/ZEZA-Grand-half-vrijstaand-hoekbad---links---180x8/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/ZEZA-Grand-half-vrijstaand-hoekbad---links---180x8/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/ZEZA-Grand-half-vrijstaand-hoekbad---links---180x8/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/ZEZA-Grand-half-vrijstaand-hoekbad---links---180x8/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/ZEZA-Grand-half-vrijstaand-hoekbad---links---180x8/images/image_005.webp"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "subcategories": {
+    "Bathtub": [
+      "Freestanding",
+      "Back-to-Wall",
+      "Corner Bath",
+      "Drop-In",
+      "Whirlpool Bath",
+      "Air Bath"
+    ],
+    "Faucet": [
+      "Waste Drains",
+      "Overflows",
+      "Toilet Fillers",
+      "Bathtub Fillers",
+      "Urinal Fixtures",
+      "Faucet Sets",
+      "Protection Covers"
+    ],
+    "Toilet": [
+      "Wandclosets",
+      "Back-to-Wall",
+      "Floor-Standing",
+      "Corner Toilets"
+    ],
+    "Toilet Parts": [
+      "Bedieningsplaten",
+      "Toiletzittingen",
+      "Waste Systems"
+    ],
+    "Lighting": [
+      "LED Mirrors",
+      "Mirror Cabinets",
+      "Wall Lights",
+      "Ceiling Lights"
+    ],
+    "Tile": [
+      "Ceramic Tiles",
+      "Porcelain Tiles",
+      "Natural Stone",
+      "Metro Tiles",
+      "Mosaic Tiles"
+    ],
+    "Vanity": [
+      "Basin Cabinets",
+      "Floating Vanity",
+      "Floor-Standing Vanity",
+      "Double Vanity"
+    ]
+  },
+  "brand_style_mapping": {
+    "Riho": "premium",
+    "Villeroy & Boch": "luxury_premium",
+    "Geberit": "premium",
+    "Duravit": "premium",
+    "Adema": "budget_functional",
+    "QeramiQ": "budget_functional",
+    "Jika": "budget_functional",
+    "Wiesbaden": "premium",
+    "Zeza": "budget_functional",
+    "Xellanz": "budget_functional",
+    "Royal Plaza": "budget_functional",
+    "Wisa": "budget_functional",
+    "Xenz": "budget_functional",
+    "Creavit": "budget_functional",
+    "Crosswater": "premium",
+    "Differnz": "budget_functional",
+    "Laufen": "luxury_premium",
+    "Sanibroyeur": "premium",
+    "Nemo Spring": "premium",
+    "Ideal Standard": "budget_functional",
+    "Hansgrohe": "premium",
+    "GROHE": "premium",
+    "INK": "premium",
+    "Hotbath": "premium",
+    "Best Design": "budget_functional",
+    "Bestway": "budget_functional",
+    "Clou Hammock": "budget_functional",
+    "Aloni": "budget_functional"
+  },
+  "price_style_mapping": {
+    "budget": "budget_functional",
+    "mid_range": "modern_minimalist",
+    "premium": "premium",
+    "ultra_luxury": "luxury_premium"
+  }
+}

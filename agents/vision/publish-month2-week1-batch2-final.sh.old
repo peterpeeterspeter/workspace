@@ -1,0 +1,130 @@
+#!/bin/bash
+# Publish 3 Month 2 Week 1 articles (Batch 2) via WordPress REST API
+
+set -e
+
+# Load WordPress credentials from .env (handle spaces in passwords)
+export WORDPRESS_CRYPTOCRASH_APP_PASSWORD="R3kQ 6vRA UwYd x7Cn KEtT Pk83"
+export WORDPRESS_FREECRASH_APP_PASSWORD="F8Mg yZXM qJy4 jQvp BMeZ FoMG"
+export WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD="MioX SygN Xaz6 pK9o RUiK tBMF"
+export WORDPRESS_CRASHCASINO_APP_PASSWORD="3vRhtTs2khfdLtTiDFqkdeXI"
+
+DRAFT_DIR="/root/.openclaw/workspace/drafts"
+LOG_FILE="/tmp/publish-month2-week1-batch2.log"
+
+echo "=== WordPress Publishing: Month 2 Week 1 - Batch 2 ===" | tee "$LOG_FILE"
+echo "Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+# Function to publish a single article
+publish_article() {
+  local draft_file="$1"
+  local wp_url="$2"
+  local wp_user="$3"
+  local wp_app="$4"
+  local category="$5"
+
+  local draft_name=$(basename "$draft_file" .md)
+  echo "Publishing: ${draft_name}..." | tee -a "$LOG_FILE"
+
+  # Convert markdown to HTML
+  HTML_RESULT=$(python3 /root/.openclaw/workspace/agents/shared/md2html-fixed.py "$draft_file" 2>> "$LOG_FILE")
+
+  # Check if conversion succeeded
+  if ! echo "$HTML_RESULT" | jq -e '.html' > /dev/null 2>&1; then
+    echo "❌ ERROR: Failed to convert markdown to HTML" | tee -a "$LOG_FILE"
+    echo "$HTML_RESULT" | tee -a "$LOG_FILE"
+    return 1
+  fi
+
+  # Extract data
+  local title=$(echo "$HTML_RESULT" | jq -r '.metadata.title // empty')
+  local html_content=$(echo "$HTML_RESULT" | jq -r '.html // empty')
+  local meta_desc=$(echo "$HTML_RESULT" | jq -r '.metadata.description // empty')
+
+  # Default title if not found
+  if [ -z "$title" ] || [ "$title" = "null" ]; then
+    title=$(grep -m1 "^# " "$draft_file" | sed 's/^# //')
+    if [ -z "$title" ]; then
+      title="$draft_name"
+    fi
+  fi
+
+  echo "   Title: ${title}" | tee -a "$LOG_FILE"
+  echo "   Category: ${category}" | tee -a "$LOG_FILE"
+
+  # Escape HTML content for JSON
+  local escaped_html=$(echo "$html_content" | jq -Rs .)
+
+  # Build JSON payload
+  local json_payload=$(cat <<EOF
+{
+  "title": "${title}",
+  "content": ${escaped_html},
+  "excerpt": "${meta_desc}",
+  "status": "draft"
+}
+EOF
+)
+
+  # Publish via WordPress REST API
+  local response=$(curl -s -X POST "${wp_url}/wp-json/wp/v2/posts" \
+    --user "${wp_user}:${wp_app}" \
+    -H "Content-Type: application/json" \
+    -d "$json_payload" 2>&1)
+
+  # Check response
+  if echo "$response" | jq -e '.id' > /dev/null 2>&1; then
+    local post_id=$(echo "$response" | jq -r '.id')
+    local post_link=$(echo "$response" | jq -r '.link // empty')
+    echo "   ✅ SUCCESS: Published as draft #${post_id}" | tee -a "$LOG_FILE"
+    if [ -n "$post_link" ] && [ "$post_link" != "null" ]; then
+      echo "   Link: ${post_link}" | tee -a "$LOG_FILE"
+    fi
+
+    # Move published draft to archive
+    local archive_dir="/root/.openclaw/workspace/drafts/published"
+    mkdir -p "$archive_dir"
+    cp "$draft_file" "${archive_dir}/${draft_name}.md"
+    echo "   Archived: ${archive_dir}/${draft_name}.md" | tee -a "$LOG_FILE"
+    return 0
+  else
+    echo "   ❌ ERROR: Failed to publish" | tee -a "$LOG_FILE"
+    echo "   Response: ${response}" | tee -a "$LOG_FILE"
+    return 1
+  fi
+}
+
+# Article 1: Ethereum Crash Gambling → cryptocrashgambling.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-cryptocrashgambling-002-ethereum-crash-gambling.md" \
+  "https://cryptocrashgambling.com" \
+  "@peter" \
+  "$WORDPRESS_CRYPTOCRASH_APP_PASSWORD" \
+  "Ethereum"
+
+echo "" | tee -a "$LOG_FILE"
+
+# Article 2: Best Crash Casinos for Brazil → freecrashgames.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-freecrashgames-002-best-crash-casinos-brazil.md" \
+  "https://freecrashgames.com" \
+  "@peter" \
+  "$WORDPRESS_FREECRASH_APP_PASSWORD" \
+  "Reviews"
+
+echo "" | tee -a "$LOG_FILE"
+
+# Article 3: Crash Gambling Bankroll Management → crashgamegambling.com
+echo "" | tee -a "$LOG_FILE"
+publish_article \
+  "$DRAFT_DIR/month2-week1-crashgamegambling-002-bankroll-management.md" \
+  "https://crashgamegambling.com" \
+  "@peter" \
+  "$WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD" \
+  "Strategy"
+
+echo "" | tee -a "$LOG_FILE"
+echo "=== Batch 2 Publishing Complete ===" | tee -a "$LOG_FILE"

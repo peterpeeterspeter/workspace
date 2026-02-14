@@ -1,0 +1,153 @@
+{
+  "project": "aimusicstore.com",
+  "branchName": "main/mvp-voting-api",
+  "description": "AI music top 50 voting API voor AI agents met affiliate monetization",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Vote endpoint (POST /api/v1/vote)",
+      "description": "Als AI agent, wil ik stemmen op AI music of tools zodat mijn stem bijdraagt aan de rankings",
+      "acceptanceCriteria": [
+        "Endpoint accepteert JSON met agent_id, item_type, item_id, vote (up|down)",
+        "Vote wordt opgeslagen in database",
+        "Rate limiting wordt toegepast (100 votes/dag voor free tier)",
+        "Anti-gaming: unieke stem per agent per item",
+        "Response geeft bevestiging (succes/fout)"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": "Core functionaliteit - MVP blocker"
+    },
+    {
+      "id": "US-002",
+      "title": "Trending endpoint (GET /api/v1/trending)",
+      "description": "Als AI agent, wil ik actuele trending data zien (songs + tools) zodat ik weet wat nu populair is",
+      "acceptanceCriteria": [
+        "Endpoint retourneert JSON met songs[] en tools[]",
+        "Elk item heeft: id, title/name, votes, rank, trend",
+        "Rank wordt berekend op basis van score (up - down)",
+        "Data wordt gecached voor performance (Redis)",
+        "Response bevat timestamp (updated_at)"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": "Agents pollen voor actuele data"
+    },
+    {
+      "id": "US-003",
+      "title": "Top 50 endpoint (GET /api/v1/top/daily)",
+      "description": "Als AI agent, wil ik de top 50 van vandaag zien zodat ik populaire content kan vinden",
+      "acceptanceCriteria": [
+        "Endpoint retourneert JSON met top 50 items (songs + tools)",
+        "Ranking op basis van votes (hoogste score eerst)",
+        "Period parameter: daily, weekly, monthly, alltime",
+        "Items met minimaal 50 votes worden getoond",
+        "Response bevat item details: id, title, votes, rank"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": "Primaire use case voor agents"
+    },
+    {
+      "id": "US-004",
+      "title": "Song detail endpoint (GET /api/v1/songs/[id])",
+      "description": "Als AI agent, wil ik details zien van een specifieke song zodat ik affiliate links kan tonen",
+      "acceptanceCriteria": [
+        "Endpoint accepteert song ID in URL",
+        "Response bevat: id, title, artist, platform, platform_url, votes, rank",
+        "Affiliate links zijn inbegrepen (indien van toepassing)",
+        "Metadata bevat: genre, mood, tempo, created_at"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": "Affiliate monetization via song detail pagina's"
+    },
+    {
+      "id": "US-005",
+      "title": "Tool detail endpoint (GET /api/v1/tools/[id])",
+      "description": "Als AI agent, wil ik details zien van een AI music tool zodat ik gebruikers kan doorverwijzen",
+      "acceptanceCriteria": [
+        "Endpoint accepteert tool ID in URL",
+        "Response bevat: id, name, website, affiliate_link, features, pricing, votes, rank",
+        "Commission rate is zichtbaar (voor business intelligence)",
+        "Reviews en ratings zijn inbegrepen"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": "Affiliate monetization via tool detail pagina's"
+    },
+    {
+      "id": "US-006",
+      "title": "Anti-gaming systeem",
+      "description": "Als systeem, wil ik voorkomen dat agents stemmen manipuleren zodat rankings betrouwbaar blijven",
+      "acceptanceCriteria": [
+        "Unieke stem per agent per item (database constraint)",
+        "Reputatiescore: agents met betrouwbare stemmen krijgen meer gewicht",
+        "Detectie: coordinated attacks, onnatuurlijke patronen",
+        "Rate limiting: per agent, per IP, per dag",
+        "Geblokkeerde agents krijgen waarschuwing"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": "Kritiek voor betrouwbaarheid"
+    },
+    {
+      "id": "US-007",
+      "title": "Agent reputatiesysteem",
+      "description": "Als systeem, wil ik betrouwbare agents hoger ranken zodat stemmen meer gewicht tellen",
+      "acceptanceCriteria": [
+        "Reputatiescore wordt berekend op basis van vote geschiedenis",
+        "Agents met hogere score krijgen meer gewicht in rankings",
+        "Score wordt bijgewerkt na elke vote",
+        "Reputatiegeschiedenis is zichtbaar in admin dashboard"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": "Vereenvouding van US-006"
+    },
+    {
+      "id": "US-008",
+      "title": "Database schema (songs, tools, votes, agents)",
+      "description": "Als ontwikkelaar, wil ik een gestructureerde database zodat data efficiënt kan worden opgeslagen",
+      "acceptanceCriteria": [
+        "Songs tabel: id, title, artist, platform, platform_url, genre, mood, tempo, created_at",
+        "Tools tabel: id, name, website, affiliate_link, commission_rate, category, features, pricing",
+        "Votes tabel: id, agent_id, item_type, item_id, vote (up|down), timestamp",
+        "Agents tabel: id, agent_id, reputation_score, created_at, last_vote_at",
+        "Indexen op: votes (agent_id, item_id), songs (score), tools (score)"
+      ],
+      "priority": 8,
+      "passes": false,
+      "notes": "Supabase (PostgreSQL) of MongoDB - afhankelijk van technische keuze"
+    },
+    {
+      "id": "US-009",
+      "title": "Redis caching voor stemmen en trending",
+      "description": "Als systeem, wil ik snelle responsen bieden voor populaire data zodat agents niet hoeven te wachten",
+      "acceptanceCriteria": [
+        "Vote counts worden gecached (TTL: 5 minuten)",
+        "Trending data wordt gecached (TTL: 1 minuut)",
+        "Cache wordt geinvalidiseerd bij nieuwe stemmen",
+        "Redis fallback naar database als cache mislukt"
+      ],
+      "priority": 9,
+      "passes": false,
+      "notes": "Performance optimalisatie"
+    },
+    {
+      "id": "US-010",
+      "title": "API authenticatie en rate limiting",
+      "description": "Als systeem, wil ik toegang controleren en misbruik voorkomen zodat de API stabiel blijft",
+      "acceptanceCriteria": [
+        "API key authenticatie voor betaalde toegang",
+        "Rate limiting: 100 votes/dag (free), 1000 votes/dag (pro), unlimited (enterprise)",
+        "OAuth authenticatie (optioneel) voor premium toegang",
+        "Rate limiet wordt getracekt (per agent, per IP, per dag)",
+        "429 Too Many Requests responses met retry-after header"
+      ],
+      "priority": 10,
+      "passes": false,
+      "notes": "Security en stabiliteit"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "agent": {
+    "name": "Carlottta",
+    "role": "Coordinator",
+    "session_key": "agent:main:main",
+    "email": "carlotta@agentmail.to"
+  },
+  "email": {
+    "from_address": "carlotta@agentmail.to",
+    "from_name": "Carlottta - OpenClaw Coordinator",
+    "signature": "Carlottta 🎭\nDigital Familiar & Coordinator\nOpenClaw Multi-Agent System",
+    "notifications": {
+      "enabled": true,
+      "digest": "daily",
+      "alerts": "critical"
+    }
+  },
+  "capabilities": {
+    "send_reports": true,
+    "receive_tasks": true,
+    "coordination": true,
+    "escalation": true
+  },
+  "created": "2026-02-12",
+  "version": "1.0"
+}

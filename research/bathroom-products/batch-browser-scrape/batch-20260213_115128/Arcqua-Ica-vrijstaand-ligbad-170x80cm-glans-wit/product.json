@@ -1,0 +1,33 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77630075/arcqua-icosta-vrijstaand-ligbad-165x83x55cm-glas-wit",
+  "name": "Arcqua Ica vrijstaand ligbad 170x80cm glans wit",
+  "price": "e639",
+  "category": "freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 3,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/ad21292f548cbb769da0f57e018b53ad.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/1d912024502bfd65e8fb367b851c35bf.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/956c4c2490a19c8088c4f3285c6c3ea7.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:51:42.683702",
+  "downloaded_images": 3,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-glans-wit/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-glans-wit/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Arcqua-Ica-vrijstaand-ligbad-170x80cm-glans-wit/images/image_003.jpg"
+  ]
+}

@@ -1,0 +1,50 @@
+# OpenClaw Context Ignore File
+# These files/directories should not be loaded as agent context
+
+# Archive directories (old reports, tasks, etc.)
+archive/
+reports/
+
+# Large output files that agents write to
+agents/*/outputs/
+logs/
+
+# Build artifacts and dependencies
+node_modules/
+.next/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Large data files
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Git metadata
+.git/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Mission Control (Next.js app)
+mission-control/.next/
+mission-control/node_modules/
+
+# Large HTML files
+*.html
+
+# Python cache
+__pycache__/
+*.pyc

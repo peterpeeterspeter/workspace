@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Bitcoin crash gambling legal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your country. Bitcoin itself is legal in most countries, but online gambling laws vary. Crash gambling with BTC is legal in most of Europe (licensed casinos), Canada (provincially regulated), and parts of South America. Illegal or restricted in the US and some Asian countries. Always check your local laws."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I deposit Bitcoin for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Get a wallet → Buy BTC → Deposit to casino: 1) Download a Bitcoin wallet (Exodus, Trust Wallet), 2) Buy BTC from an exchange (Coinbase, Kraken, Binance), 3) Go to your casino's deposit page, copy the BTC address, 4) Send BTC from your wallet to that address, 5) Wait for confirmations (10-60 minutes), then play."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Bitcoin crash casinos safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Licensed Bitcoin crash casinos are safe. Stick to reputable sites (Stake, BC.Game, Thunderpick, Roobet, Metaspins) with valid gambling licenses (MGA, UKGC, Curacao), provably fair crash games, fast withdrawal track record, and positive reviews (AskGamblers, Trustpilot). Unlicensed/no-KYC casinos have high scam risk (70% are shady)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the fees for Bitcoin crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two types of fees: 1) Bitcoin network fees: $0.50–$20 depending on congestion (check mempool.space), 2) Casino fees: Most don't charge deposit/withdrawal fees; some charge small withdrawal fees (0.0001 BTC or ~$4). Tip: Deposit larger amounts less frequently to reduce fee percentage impact."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I withdraw Bitcoin instantly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some casinos process withdrawals instantly (Stake, BC.Game) — you'll see BTC in your wallet within minutes. Most casinos process within 1-24 hours. Fiat withdrawals take 3-7 days, so Bitcoin is much faster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Bitcoin crash gambling better than fiat crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for speed, privacy, and global access. Bitcoin deposits are faster than bank transfers, withdrawals are processed in hours (not days), and your bank doesn't see gambling transactions. No for stability: Bitcoin price swings 5-10% daily. If you're thinking in fiat, volatility adds stress. For stability, play with USDT (stablecoin)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I send Bitcoin to the wrong address?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your BTC is gone forever. Bitcoin transactions are irreversible. Always: Copy-paste addresses (don't type manually), Send test transaction (0.0001 BTC) first, Double-check before confirming."
+      }
+    }
+  ]
+}

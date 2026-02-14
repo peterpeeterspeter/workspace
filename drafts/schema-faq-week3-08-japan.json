@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling legal in Japan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Japan's gambling laws are complex. Online gambling exists in a gray area. Many Japanese players use VPNs to access offshore crash casinos, but we recommend checking local laws and playing cautiously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash casinos accept Japanese yen (JPY)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crash casinos don't accept JPY directly. Japanese players typically deposit JPY to buy crypto (BTC, USDT) on exchanges like bitFlyer or Coincheck, then deposit crypto to crash casinos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best VPN for Japanese players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for VPNs with: Japanese servers (for faster speeds), obfuscation (bypass VPN blocks), and no-logs policy. NordVPN, ExpressVPN, and Surfshark are popular choices in Japan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash games in Japanese language?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some crash casinos offer Japanese language support (Stake, BC.Game). Others are English-only but still accessible from Japan with Google Translate for assistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crash casinos safe for Japanese players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Licensed, provably fair casinos (Stake, BC.Game, Thunderpick) are generally safe. But be aware that legal protections are limited if you're playing from Japan with a VPN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do Japanese players deposit to crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Japanese players: 1) Buy crypto on a Japanese exchange (bitFlyer, Coincheck), 2) Transfer crypto to their private wallet, 3) Deposit crypto from wallet to crash casino. This adds a layer of privacy."
+      }
+    }
+  ]
+}

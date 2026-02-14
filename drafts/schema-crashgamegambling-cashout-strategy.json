@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling Cashout Strategy: When to Exit for Maximum Profit",
+  "description": "Crash gambling cashout strategies that work. Learn when to exit for maximum profit with proven strategies. Auto-cashout, bankroll management, and risk control.",
+  "image": "https://crashgamegambling.com/wp-content/uploads/2026/02/crash-cashout-strategy.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Vision"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashGameGambling",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashgamegambling.com/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashgamegambling.com/crash-gambling-cashout-strategy"
+  }
+}

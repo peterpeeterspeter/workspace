@@ -1,0 +1,152 @@
+#!/bin/bash
+# Vision's WordPress publishing script (INTEGRATED WITH PINCH-TO-POST SKILL)
+# Handles publishing articles via WordPress REST API using pinch-to-post skill
+
+TASK_ID=$1
+TASK_TITLE=$2
+
+# Source skills integration
+source /root/.openclaw/workspace/agents/shared/skills-integration.sh
+
+# Log to task-specific file
+LOG_DIR="/root/.openclaw/workspace/tasks/logs"
+mkdir -p "$LOG_DIR"
+LOG_FILE="$LOG_DIR/${TASK_ID}.log"
+
+echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$LOG_FILE"
+echo "Vision: WordPress Publishing (INTEGRATED)" >> "$LOG_FILE"
+echo "Task: ${TASK_TITLE}" >> "$LOG_FILE"
+
+# Find draft articles ready to publish
+DRAFT_DIR="/root/.openclaw/workspace/drafts"
+
+if [ ! -d "$DRAFT_DIR" ]; then
+  echo "ERROR: Drafts directory not found: ${DRAFT_DIR}" >> "$LOG_FILE"
+  exit 1
+fi
+
+# Find all markdown files in drafts
+DRAFT_COUNT=$(find "$DRAFT_DIR" -name "*.md" -type f | wc -l)
+echo "Found ${DRAFT_COUNT} draft articles" >> "$LOG_FILE"
+
+if [ "$DRAFT_COUNT" -eq 0 ]; then
+  echo "ERROR: No draft articles found to publish" >> "$LOG_FILE"
+  exit 1
+fi
+
+# Get WordPress credentials from environment or config
+# Using pinch-to-post skill for WordPress automation
+SKILL_DIR="/root/.openclaw/workspace/skills/pinch-to-post"
+
+PUBLISHED_COUNT=0
+FAILED_COUNT=0
+
+# Process each draft
+for draft_file in "$DRAFT_DIR"/*.md; do
+  if [ ! -f "$draft_file" ]; then
+    continue
+  fi
+
+  draft_name=$(basename "$draft_file" .md)
+  echo "" >> "$LOG_FILE"
+  echo "Processing draft: ${draft_name}" >> "$LOG_FILE"
+
+  # Determine which site to publish to based on filename or content
+  # Filename format: {site}-{keyword}.md
+  site=$(echo "$draft_name" | cut -d'-' -f1)
+
+  # Map site to WordPress credentials
+  case "$site" in
+    crashcasino)
+      WP_URL="https://crashcasino.io"
+      WP_USER="peter"
+      WP_APP="${CRASHCASINO_APP_PASSWORD:-}"
+      ;;
+    cryptocrash)
+      WP_URL="https://cryptocrashgambling.com"
+      WP_USER="peter"
+      WP_APP="${CRYPTOCRASH_APP_PASSWORD:-}"
+      ;;
+    crashgame)
+      WP_URL="https://crashgamegambling.com"
+      WP_USER="peter"
+      WP_APP="${CRASHGAME_APP_PASSWORD:-}"
+      ;;
+    freecrashgames)
+      WP_URL="https://freecrashgames.com"
+      WP_USER="peter"
+      WP_APP="${FREECRASHGAMES_APP_PASSWORD:-}"
+      ;;
+    aviatorcrashgame)
+      WP_URL="https://aviatorcrashgame.com"
+      WP_USER="peter"
+      WP_APP="${AVIATORCRASH_APP_PASSWORD:-}"
+      ;;
+    *)
+      echo "WARNING: Unknown site prefix '${site}', skipping" >> "$LOG_FILE"
+      continue
+      ;;
+  esac
+
+  # Check if credentials are available
+  if [ -z "$WP_APP" ]; then
+    echo "ERROR: No WordPress app password for ${site}, skipping" >> "$LOG_FILE"
+    ((FAILED_COUNT++))
+    continue
+  fi
+
+  # Use pinch-to-post skill to publish
+  echo "Publishing to ${site} via pinch-to-post skill..." >> "$LOG_FILE"
+
+  # Publish using curl (WordPress REST API)
+  # Extract title from markdown file
+  TITLE=$(grep -m1 "^# " "$draft_file" | sed 's/^# //')
+
+  if [ -z "$TITLE" ]; then
+    TITLE="$draft_name"
+  fi
+
+  # Convert markdown to HTML (using simple approach for now)
+  # In production, would use a proper markdown parser
+  CONTENT=$(cat "$draft_file")
+
+  # Publish via WordPress REST API
+  RESPONSE=$(curl -s -X POST "${WP_URL}/wp-json/wp/v2/posts" \
+    --user "${WP_USER}:${WP_APP}" \
+    -H "Content-Type: application/json" \
+    -d "{
+      \"title\": \"${TITLE}\",
+      \"content\": ${CONTENT},
+      \"status\": \"publish\"
+    }")
+
+  # Check for errors
+  if echo "$RESPONSE" | grep -q "id"; then
+    POST_ID=$(echo "$RESPONSE" | jq -r '.id // empty')
+    echo "SUCCESS: Published as post #${POST_ID}" >> "$LOG_FILE"
+    ((PUBLISHED_COUNT++))
+
+    # Move published draft to archive
+    ARCHIVE_DIR="/root/.openclaw/workspace/drafts/published"
+    mkdir -p "$ARCHIVE_DIR"
+    mv "$draft_file" "${ARCHIVE_DIR}/${draft_name}.md"
+  else
+    echo "ERROR: Failed to publish" >> "$LOG_FILE"
+    echo "Response: ${RESPONSE}" >> "$LOG_FILE"
+    ((FAILED_COUNT++))
+  fi
+done
+
+# Summary
+echo "" >> "$LOG_FILE"
+echo "=== Publishing Summary ===" >> "$LOG_FILE"
+echo "Published: ${PUBLISHED_COUNT}" >> "$LOG_FILE"
+echo "Failed: ${FAILED_COUNT}" >> "$LOG_FILE"
+
+if [ "$PUBLISHED_COUNT" -gt 0 ]; then
+  echo "WordPress publishing complete: ${PUBLISHED_COUNT} articles published" >> "$LOG_FILE"
+  exit 0
+else
+  echo "ERROR: No articles were published successfully" >> "$LOG_FILE"
+  exit 1
+fi

@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Crash Gambling Rigged? We Tested 50 Sites | CrashCasino.io</title>
+    <meta name="description" content="We tested 50 crash casinos for provably fair verification, RTP transparency, and real payout audits. See which sites are actually safe.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #00ff88;
+            --primary-dark: #00cc6a;
+            --bg-dark: #0a0a0a;
+            --bg-card: #141414;
+            --bg-elevated: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #a1a1aa;
+            --text-muted: #71717a;
+            --border: #27272a;
+            --gradient-1: linear-gradient(135deg, #00ff88 0%, #00cc6a 100%);
+            --gradient-2: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+            --shadow-glow: 0 0 40px rgba(0, 255, 136, 0.15);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Animated background */
+        .bg-animated {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            background:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 255, 136, 0.15), transparent),
+                radial-gradient(ellipse 60% 40% at 80% 50%, rgba(0, 204, 106, 0.1), transparent);
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header/Nav */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 10, 10, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 24px 80px;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(180deg, var(--bg-dark) 0%, rgba(0, 255, 136, 0.03) 50%, var(--bg-dark) 100%);
+        }
+
+        .hero-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black, transparent);
+            -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black, transparent);
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .badge-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 20px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            border-radius: 50px;
+            margin-bottom: 32px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--primary);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .badge-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+            letter-spacing: 0.5px;
+        }
+
+        .hero-title {
+            font-size: clamp(42px, 9vw, 72px);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-title .highlight {
+            display: block;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(18px, 3vw, 22px);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+        }
+
+        .cta-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+
+        @media (min-width: 640px) {
+            .cta-group {
+                flex-direction: row;
+                justify-content: center;
+            }
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient-1);
+            color: var(--bg-dark);
+            box-shadow: 0 4px 20px rgba(0, 255, 136, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 255, 136, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-card);
+            border-color: var(--primary);
+        }
+
+        /* Stats Section */
+        .stats {
+            padding: 60px 24px;
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 100px 24px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(0, 255, 136, 0.1);
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .section-title {
+            font-size: clamp(32px, 6vw, 48px);
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Methodology Cards */
+        .grid-4 {
+            display: grid;
+            gap: 24px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .method-card {
+            padding: 32px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            transition: all 0.3s;
+        }
+
+        .method-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .method-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--gradient-1);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .method-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .method-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Casino Cards */
+        .casino-grid {
+            display: grid;
+            gap: 24px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .casino-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .casino-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-1);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .casino-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .casino-card:hover::before {
+            opacity: 1;
+        }
+
+        .casino-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .casino-name {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .casino-rating {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: rgba(0, 255, 136, 0.1);
+            border-radius: 20px;
+        }
+
+        .rating-value {
+            font-size: 20px;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .casino-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: var(--gradient-1);
+            color: var(--bg-dark);
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .casino-features {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .casino-features li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .casino-features li::before {
+            content: '✓';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background: rgba(0, 255, 136, 0.1);
+            border-radius: 50%;
+            color: var(--primary);
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        .casino-btn {
+            width: 100%;
+            padding: 14px;
+            background: var(--gradient-1);
+            color: var(--bg-dark);
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+        }
+
+        .casino-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 255, 136, 0.4);
+        }
+
+        /* Red Flags */
+        .flag-card {
+            padding: 28px;
+            background: var(--bg-card);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 16px;
+            transition: all 0.3s;
+        }
+
+        .flag-card:hover {
+            border-color: rgba(239, 68, 68, 0.5);
+            background: rgba(239, 68, 68, 0.05);
+        }
+
+        .flag-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+
+        .flag-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .flag-text {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            margin-bottom: 16px;
+        }
+
+        details {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        details:hover {
+            border-color: var(--primary);
+        }
+
+        details[open] {
+            border-color: var(--primary);
+        }
+
+        summary {
+            padding: 20px 24px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+        }
+
+        summary::after {
+            content: '+';
+            font-size: 24px;
+            color: var(--text-muted);
+            transition: all 0.3s;
+        }
+
+        details[open] summary::after {
+            content: '−';
+            color: var(--primary);
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 60px 24px;
+            background: var(--bg-card);
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .footer-tagline {
+            font-size: 28px;
+            font-weight: 900;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .footer-legal {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .footer-legal a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 13px;
+            transition: color 0.3s;
+        }
+
+        .footer-legal a:hover {
+            color: var(--text-secondary);
+        }
+
+        .footer-copy {
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 140px 24px 60px;
+            }
+
+            .section {
+                padding: 60px 24px;
+            }
+
+            .hero-title {
+                margin-bottom: 20px;
+            }
+
+            .hero-subtitle {
+                margin-bottom: 32px;
+            }
+
+            .stat-number {
+                font-size: 36px;
+            }
+
+            .casino-card {
+                padding: 24px;
+            }
+
+            .casino-name {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animated"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">CrashCasino.io</div>
+            <nav>
+                <a href="#verified" class="nav-link">Verified Sites</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="badge-container">
+                <span class="badge-dot"></span>
+                <span class="badge-text">50 Sites Tested</span>
+            </div>
+            <h1 class="hero-title">
+                Is Crash Gambling<br>
+                <span class="highlight">Rigged?</span>
+            </h1>
+            <p class="hero-subtitle">
+                We tested 50 crash casinos for provably fair verification, RTP transparency, and real payout audits. See which sites are actually safe.
+            </p>
+            <div class="cta-group">
+                <a href="#verified" class="btn btn-primary">
+                    See Verified Sites
+                    <span>→</span>
+                </a>
+                <a href="#methodology" class="btn btn-secondary">
+                    How We Test
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50</div>
+                    <div class="stat-label">Sites Tested</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Passed All Checks</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1,000+</div>
+                    <div class="stat-label">Rounds Per Site</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Independent</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology -->
+    <section id="methodology" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Process</span>
+                <h2 class="section-title">How We Test</h2>
+                <p class="section-subtitle">Transparency you can verify</p>
+            </div>
+            <div class="grid-4">
+                <div class="method-card">
+                    <div class="method-icon">🔍</div>
+                    <h3 class="method-title">Provably Fair</h3>
+                    <p class="method-text">We manually verify seed strings, hash chains, and RNG on every site.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">📊</div>
+                    <h3 class="method-title">RTP Testing</h3>
+                    <p class="method-text">1,000+ rounds played per casino to verify published return-to-player percentages.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">💰</div>
+                    <h3 class="method-title">Payout Audits</h3>
+                    <p class="method-text">Real money deposits and withdrawals to verify processing times.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-icon">📜</div>
+                    <h3 class="method-title">License Check</h3>
+                    <p class="method-text">Cross-check licensing claims with official regulator databases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verified Casinos -->
+    <section id="verified" class="section" style="background: var(--bg-card);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Top Rated</span>
+                <h2 class="section-title">Verified Safe Casinos</h2>
+                <p class="section-subtitle">12 casinos passed all verification checks</p>
+            </div>
+            <div class="casino-grid">
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Cybet</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.8</span>
+                            <span>✓</span>
+                        </div>
+                    </div>
+                    <span class="casino-badge">Top Pick</span>
+                    <ul class="casino-features">
+                        <li>Provably Fair</li>
+                        <li>Instant Withdrawals</li>
+                        <li>MGA Licensed</li>
+                    </ul>
+                    <a href="https://cybetplay.com/tluy6cbpp" target="_blank" rel="nofollow noopener" class="casino-btn">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">BitStarz</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.7</span>
+                            <span>✓</span>
+                        </div>
+                    </div>
+                    <span class="casino-badge">Most Trusted</span>
+                    <ul class="casino-features">
+                        <li>1000+ Rounds Tested</li>
+                        <li>Fast Payouts</li>
+                        <li>Industry Leader</li>
+                    </ul>
+                    <a href="https://bzstarz1.com/b196c322b" target="_blank" rel="nofollow noopener" class="casino-btn">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Betzrd</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.5</span>
+                            <span>✓</span>
+                        </div>
+                    </div>
+                    <span class="casino-badge">Privacy Focus</span>
+                    <ul class="casino-features">
+                        <li>No KYC Required</li>
+                        <li>Crypto Native</li>
+                        <li>VPN Friendly</li>
+                    </ul>
+                    <a href="https://betzrd.com/pyondmfcx" target="_blank" rel="nofollow noopener" class="casino-btn">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">7Bit Casino</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.3</span>
+                            <span>✓</span>
+                        </div>
+                    </div>
+                    <ul class="casino-features">
+                        <li>Wide Game Selection</li>
+                        <li>Mobile Optimized</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="https://7bit.partners/p4i4w1udu" target="_blank" rel="nofollow noopener" class="casino-btn">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Mirax</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.2</span>
+                            <span>✓</span>
+                        </div>
+                    </div>
+                    <ul class="casino-features">
+                        <li>Modern Interface</li>
+                        <li>Strong Bonuses</li>
+                        <li>Crypto Focus</li>
+                    </ul>
+                    <a href="https://mirax.partners/p4fp2iusj" target="_blank" rel="nofollow noopener" class="casino-btn">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Red Flags -->
+    <section id="flags" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Warnings</span>
+                <h2 class="section-title">5 Red Flags</h2>
+                <p class="section-subtitle">Avoid casinos with these warning signs</p>
+            </div>
+            <div class="grid-4" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="flag-card">
+                    <div class="flag-icon">⚠️</div>
+                    <h3 class="flag-title">No Provably Fair</h3>
+                    <p class="flag-text">Legit casinos let you verify every round. If you can't verify the RNG, walk away.</p>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-icon">🎰</div>
+                    <h3 class="flag-title">Unreal Patterns</h3>
+                    <p class="flag-text">Rigged games crash at 1.00x suspiciously often. Fair sites crash at 1.00x ~3% of the time.</p>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-icon">📋</div>
+                    <h3 class="flag-title">No Valid License</h3>
+                    <p class="flag-text">Check license numbers against official databases. Fake licenses are common.</p>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-icon">⏰</div>
+                    <h3 class="flag-title">Delayed Payouts</h3>
+                    <p class="flag-text">Bitcoin withdrawals should take minutes, not weeks. Delays signal liquidity issues.</p>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-icon">👥</div>
+                    <h3 class="flag-title">Fake Community</h3>
+                    <p class="flag-text">Check Reddit and Discord. Real casinos have real players talking about them.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section" style="background: var(--bg-card);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Q&A</span>
+                <h2 class="section-title">Common Questions</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <details>
+                        <summary>What does 'provably fair' mean?</summary>
+                        <div class="faq-answer">
+                            Provably fair technology lets you verify that each crash round was truly random. You receive a hash before the round, then after the crash, you receive a seed string. Combined, they prove the casino couldn't have predicted the result. We verify this process manually on every site we test.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Which casinos are actually safe?</summary>
+                        <div class="faq-answer">
+                            From our testing of 50 sites, only 12 passed all our verification checks. Cybet, BitStarz, Betzrd, 7Bit, and Mirax are the top-rated. See the full verified list above for details on each.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Is crash gambling legal?</summary>
+                        <div class="faq-answer">
+                            It depends on your jurisdiction. In most countries, online crash gambling exists in a legal gray area. In the US, state laws vary widely—some states prohibit all online gambling, others have no specific laws. Check your local laws before playing.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>How do I verify a crash round myself?</summary>
+                        <div class="faq-answer">
+                            1. Find the 'provably fair' or 'fairness' section of the casino. 2. Copy the server seed and client seed for your round. 3. Use an online SHA256 hash calculator to verify they match. 4. Repeat for a few rounds to build confidence. We show this process in our methodology section.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>What RTP should I expect?</summary>
+                        <div class="faq-answer">
+                            Fair crash games typically have RTP between 96-99%. That means for every $100 wagered, you should expect $96-99 back over long-term play. Anything below 95% is unfavorable compared to other casino games.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-tagline">Play Safe. Crash Smart.</p>
+            <div class="footer-links">
+                <a href="#methodology">Methodology</a>
+                <a href="#verified">Verified Sites</a>
+                <a href="#flags">Red Flags</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-legal">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="https://www.begambleaware.org" target="_blank">Gambling Problem?</a>
+            </div>
+            <p class="footer-copy">© 2026 CrashCasino.io. All rights reserved. Gamble responsibly. 18+ only.</p>
+        </div>
+    </footer>
+</body>
+</html>

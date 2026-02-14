@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T23:34:09.353322",
+    "category": "labs",
+    "operation": "keyword_overview",
+    "keyword": "crash casino ratings",
+    "extra_info": "15_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0810 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030134-8420-0607-0000-c10d55a1bd10",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0304 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_overview",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_overview",
+          "se_type": "google",
+          "keywords": [
+            "crash casino ratings",
+            "verify crash game",
+            "crash gambling scams",
+            "DOGE crash gambling",
+            "crypto fees crash gambling",
+            "anonymous crash gambling",
+            "crash gambling psychology",
+            "crash gambling mistakes",
+            "responsible crash gambling",
+            "crash casinos germany",
+            "crash gambling legal",
+            "crash gambling payment methods",
+            "aviator high roller",
+            "aviator live stats",
+            "aviator discord"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_serp_info": true,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  }
+}

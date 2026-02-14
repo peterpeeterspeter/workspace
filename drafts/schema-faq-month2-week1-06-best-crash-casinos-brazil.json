@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling legal in Brazil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray zone. Online gambling isn't explicitly legal, but players aren't prosecuted. Offshore casinos (Curacao-licensed) accept Brazil players legally. Brazil is drafting federal regulations (expected 2026-2027)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do Brazil crash casinos accept PIX?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All 5 recommended casinos accept PIX deposits and withdrawals. PIX is instant, free, and widely supported across Brazilian banks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash in BRL?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All recommended casinos offer BRL accounts. You deposit and withdraw in Brazilian Real without currency conversion fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum deposit for Brazil players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metaspins: R$25 (lowest). BC.Game: R$30. Thunderpick: R$40. Stake and Roobet: R$50."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are PIX withdrawals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1-2 hours at most casinos. Bank transfers take 3-5 business days. PIX is much faster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash casinos offer Portuguese support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake and BC.Game offer 24/7 Portuguese support. Roobet, Thunderpick, and Metaspins offer limited Portuguese support (6-10 hours/day)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crash games fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At licensed casinos, yes. All 5 recommended casinos use provably fair RNG. You can verify each round's fairness using provably fair tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash casino for Brazil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake is our #1 pick — instant PIX, BRL support, 5 crash games, 24/7 Portuguese support, and R$2,000 Brazil-exclusive bonus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get taxed on crash winnings in Brazil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Winnings over R$35,000/month are taxable at 27.5% income tax. Keep records of your deposits/withdrawals for tax purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I get scammed by a crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you play at unlicensed casinos, you have no recourse. This is why we only recommend established Curacao-licensed casinos (Stake, BC.Game, Thunderpick, Roobet, Metaspins)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77629923/hr-badmeubelen-matrix-3d-badkamermeubelset-120cm-2-laden-grieploos-met-greeplijst-in-kleur-zwart-mat-wasbak-kube-bel-2-kraangaten-wit-mat",
+  "name": "HR badmeubelen Matrix 3D badkamermeubelset 120cm 2 laden greeploos met greeplijst in kleur Zwart mat met wasbak kube dubbel 2 kraangaten wit",
+  "price": "e639",
+  "category": "vanities",
+  "subcategory": "two sinks",
+  "description": "",
+  "image_count": 6,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/6c9006a964f51e01a34fb4715a7d674a.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/08e5bbcbcc3938ac6e42b42a56a9e7ef.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/ac4ab4f2691c6ba6291c0914d8dfb92c.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/effe333373a277a6a3abde69baa8f932.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/7234c82050bf1c8e0a056695d148cc22.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/39bcba1e2c9969c459ac6c78f07cc220.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:36:20.087660",
+  "downloaded_images": 6,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_005.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/HR-badmeubelen-Matrix-3D-badkamermeubelset-120cm-2/images/image_006.webp"
+  ]
+}

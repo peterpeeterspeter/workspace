@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are crash casinos legal in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crash gambling is in a legal gray area. No federal law specifically bans it, but some states (Maharashtra, Andhra Pradesh, Telangana, Tamil Nadu) have stricter laws. Most Indian players play at offshore casinos without issue. Check your local laws."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I deposit with UPI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! Stake, BC.Game, and Thunderpick all accept UPI deposits. Deposits are instant and fee-free. Withdrawals must be in crypto (convert to INR on an exchange)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which crash casino is best for Indian players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake is the best overall for India: UPI support, INR accepted, multiple crash games, fast withdrawals, and 24/7 support. BC.Game is best for bonuses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to pay tax on crash gambling winnings in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Under Section 115BB of the Income Tax Act, gambling winnings are taxed at 30% + cess. You must report winnings and pay tax. Keep records of your wins/losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash games on mobile in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! All the casinos listed above have excellent mobile sites. Some (like Roobet) have dedicated mobile apps. Crash games work perfectly on smartphones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum deposit for Indian players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most casinos: ₹800 (~$10) minimum deposit. Thunderpick: ₹400 (~$5) minimum deposit (lowest on this list)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I withdraw winnings to INR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can't withdraw directly to INR. Here's the process: 1) Withdraw in crypto (USDT, BTC, ETH) from the casino, 2) Send to an Indian exchange (WazirX, CoinDCX), 3) Sell crypto for INR, 4) Withdraw INR to your bank account. Total time: 1-3 hours."
+      }
+    }
+  ]
+}

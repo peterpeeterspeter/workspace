@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the maximum bet on Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Varies by casino. Stake: Unlimited. BC.Game: Very high (no effective limit). Others: $1k-10k per round."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do high rollers actually win at Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Short-term: Some win. Long-term: Everyone loses (3% house edge). Casinos profit from whales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which casinos have the best VIP programs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake (best overall), BC.Game (strong progression), Thunderpick (personalized service), Roobet (solid), Metaspins (responsive)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much money do I need to be a high roller?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimum $50k bankroll (to bet $1k/round at 2% risk). True whales: $100k-500k+ bankrolls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best strategy for high-stakes Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1-3% bet sizing, 2x auto-cashout, stop-loss at 10% bankroll, walk away when up 20%. Discipline > strategy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a living playing high-stakes Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. House edge (3%) ensures long-term loss. Professional gamblers don't play crash (poker, sports betting have skill edges)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast can I lose $50k playing Aviator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "15-30 minutes if variance goes against you. High-stakes crash is brutally fast."
+      }
+    }
+  ]
+}

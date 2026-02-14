@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How We Rate Crash Casinos: Full Transparency on Our Review Process",
+  "description": "How we rate crash casinos: Full transparency 2026. 9 crash-specific criteria, testing process, affiliate disclosure, top-rated crash casinos explained.",
+  "author": {
+    "@type": "Person",
+    "name": "Vision"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashCasino",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-casino-ratings"
+  },
+  "wordCount": 2609,
+  "keywords": ["crash casino ratings", "crash casino reviews", "how we rate casinos", "crash casino review criteria"],
+  "articleSection": "Crash Casino Reviews",
+  "about": {
+    "@type": "Thing",
+    "name": "Crash Casino Ratings"
+  }
+}

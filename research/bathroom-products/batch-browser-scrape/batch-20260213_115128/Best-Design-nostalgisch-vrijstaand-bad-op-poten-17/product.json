@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/75802400/best-design-nostalgisch-vrijstaand-bad-op-poten-175x72x79cm-solid-surface-mat-wit",
+  "name": "Best Design nostalgisch vrijstaand bad op poten 175x72x79cm",
+  "price": "e639",
+  "category": "freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 4,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/68702d8602047dbf8929ab9e7a075bf5.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/480x480/3fca851519d0aae6d8261b4653b1f834.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/1514a67b29242237af0380ac4df256c3.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/5386dbc1a70f0218ce1c75f0e40261a8.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:51:53.341034",
+  "downloaded_images": 4,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Best-Design-nostalgisch-vrijstaand-bad-op-poten-17/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Best-Design-nostalgisch-vrijstaand-bad-op-poten-17/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Best-Design-nostalgisch-vrijstaand-bad-op-poten-17/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115128/Best-Design-nostalgisch-vrijstaand-bad-op-poten-17/images/image_004.webp"
+  ]
+}

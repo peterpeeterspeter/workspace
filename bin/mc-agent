@@ -1,0 +1,213 @@
+#!/usr/bin/env python3
+"""
+Mission Control CLI - Agent Management
+mc-agent - View and manage agent status
+"""
+
+import json
+import sys
+from pathlib import Path
+
+DB_PATH = Path("/root/.openclaw/workspace/mission-control.db.json")
+
+
+def load_db():
+    """Load mission control database"""
+    if not DB_PATH.exists():
+        print(f"Error: Database not found at {DB_PATH}")
+        sys.exit(1)
+
+    with open(DB_PATH, 'r') as f:
+        return json.load(f)
+
+
+def cmd_list(args):
+    """List all agents"""
+    data = load_db()
+
+    print(f"\n👥 Agents ({len(data['agents'])} total)")
+    print("=" * 60)
+
+    for agent in data['agents']:
+        status_icon = {
+            'active': '🟢',
+            'idle': '💤',
+            'blocked': '🚫',
+            'offline': '⚫'
+        }.get(agent['status'], '❓')
+
+        print(f"\n{status_icon} @{agent['id']} - {agent['name']}")
+        print(f"   Role: {agent['role']}")
+        print(f"   Status: {agent['status']}")
+
+        if agent.get('current_task_id'):
+            task = next((t for t in data['tasks'] if t['id'] == agent['current_task_id']), None)
+            if task:
+                print(f"   Working on: {task['title']}")
+
+        print(f"   Last active: {agent['last_active']}")
+
+
+def cmd_status(args):
+    """Show agent status"""
+    if not args.get('<id>'):
+        print("Error: Agent ID required")
+        print("Usage: mc-agent status <id>")
+        sys.exit(1)
+
+    agent_id = args['<id>'].lower()
+    data = load_db()
+
+    agent = next((a for a in data['agents'] if a['id'] == agent_id), None)
+
+    if not agent:
+        print(f"Error: Agent '{agent_id}' not found")
+        print(f"Available agents: {', '.join([a['id'] for a in data['agents']])}")
+        sys.exit(1)
+
+    print(f"\n👤 Agent: @{agent['id']}")
+    print("=" * 60)
+    print(f"Name:       {agent['name']}")
+    print(f"Role:       {agent['role']}")
+    print(f"Status:     {agent['status']}")
+    print(f"Session:    {agent['session_key']}")
+    print(f"Last active: {agent['last_active']}")
+
+    # Show assigned tasks
+    agent_tasks = [t for t in data['tasks'] if t['assignee_id'] == agent_id and t['status'] in ['assigned', 'in_progress']]
+
+    if agent_tasks:
+        print(f"\n📋 Assigned Tasks ({len(agent_tasks)})")
+        for task in agent_tasks:
+            status_icon = {
+                'assigned': '📋',
+                'in_progress': '🔄'
+            }.get(task['status'], '❓')
+
+            print(f"\n  {status_icon} {task['title']}")
+            print(f"     ID: {task['id']}")
+            print(f"     Status: {task['status']} | Priority: {task['priority']}")
+
+            if task.get('handoff_to'):
+                print(f"     Handoff to: @{task['handoff_to']}")
+
+            if task.get('progress'):
+                print(f"     Progress: {task['progress']}%")
+
+    # Show recent activity
+    agent_activities = [a for a in data['activities'] if a['agent_id'] == agent_id]
+    agent_activities = sorted(agent_activities, key=lambda x: x['timestamp'], reverse=True)[:5]
+
+    if agent_activities:
+        print(f"\n📊 Recent Activity")
+        for act in agent_activities:
+            print(f"  {act['timestamp']} - {act['message']}")
+
+
+def cmd_update(args):
+    """Update agent status"""
+    if not args.get('<id>'):
+        print("Error: Agent ID required")
+        sys.exit(1)
+
+    agent_id = args['<id>'].lower()
+    data = load_db()
+
+    agent = next((a for a in data['agents'] if a['id'] == agent_id), None)
+
+    if not agent:
+        print(f"Error: Agent '{agent_id}' not found")
+        sys.exit(1)
+
+    from datetime import datetime
+
+    updated = False
+
+    if args.get('--status'):
+        old_status = agent['status']
+        agent['status'] = args['--status']
+        agent['last_active'] = datetime.now().isoformat() + "Z"
+        updated = True
+
+        # Log activity
+        activity = {
+            "id": f"act-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+            "type": "agent_status_changed",
+            "agent_id": agent_id,
+            "task_id": None,
+            "message": f"@{agent_id} status: {old_status} → {agent['status']}",
+            "timestamp": agent['last_active']
+        }
+        data['activities'].append(activity)
+
+    if args.get('--task'):
+        task_id = args['--task']
+        task = next((t for t in data['tasks'] if t['id'] == task_id), None)
+
+        if task:
+            agent['current_task_id'] = task_id
+            agent['last_active'] = datetime.now().isoformat() + "Z"
+            updated = True
+
+            # Log activity
+            activity = {
+                "id": f"act-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+                "type": "agent_started_task",
+                "agent_id": agent_id,
+                "task_id": task_id,
+                "message": f"@{agent_id} started working on: {task['title']}",
+                "timestamp": agent['last_active']
+            }
+            data['activities'].append(activity)
+
+    if updated:
+        # Save
+        with open(DB_PATH, 'w') as f:
+            json.dump(data, f, indent=2)
+
+        print(f"✅ Agent updated: @{agent_id}")
+    else:
+        print("No updates specified. Use --status or --task")
+
+
+def main():
+    """Main CLI entry point"""
+    if len(sys.argv) < 2:
+        print("Mission Control Control CLI - Agent Management")
+        print("\nUsage:")
+        print("  mc-agent list")
+        print("  mc-agent status <id>")
+        print("  mc-agent update <id> [--status STATUS] [--task TASK_ID]")
+        print("\nExamples:")
+        print("  mc-agent list")
+        print("  mc-agent status vision")
+        print("  mc-agent update vision --status active --task week2-serp-analysis")
+        sys.exit(1)
+
+    command = sys.argv[1]
+    args = {}
+
+    if command == 'list':
+        cmd_list(args)
+
+    elif command == 'status':
+        args['<id>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        cmd_status(args)
+
+    elif command == 'update':
+        args['<id>'] = sys.argv[2] if len(sys.argv) > 2 else None
+        for i in range(3, len(sys.argv)):
+            if sys.argv[i] == '--status' and i+1 < len(sys.argv):
+                args['--status'] = sys.argv[i+1]
+            elif sys.argv[i] == '--task' and i+1 < len(sys.argv):
+                args['--task'] = sys.argv[i+1]
+
+        cmd_update(args)
+
+    else:
+        print(f"Error: Unknown command '{command}'")
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

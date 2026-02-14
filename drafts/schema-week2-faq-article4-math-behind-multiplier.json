@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling beatable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every crash bet has negative expected value (-EV). You can't beat the math long-term. Play for entertainment, not profit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mathematically: None. All strategies are -EV. Practically: Low-multiplier cashout (1.5x-2x) + 1-2% bankroll per bet. Extends playtime, limits losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do predictor bots work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash rounds are generated via SHA-256 hashing. Bots can't predict future rounds. They're scams or malware."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's provably fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A system where you can verify each round was generated fairly. The casino can't manipulate outcomes after you bet. Always choose provably fair casinos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do I always crash at 1.00x?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Variance. Low multipliers are most common. 1.00x crashes happen ~3% of the time (with 3% house edge). It feels frequent because you remember the pain, not the 2x wins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a living playing crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The math is against you. Professional gamblers don't play crash—they play poker, sports betting, or card counting (where edge is possible)."
+      }
+    }
+  ]
+}

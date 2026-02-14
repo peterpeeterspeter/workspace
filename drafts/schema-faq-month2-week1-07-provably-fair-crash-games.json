@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is provably fair crash gambling really random?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but... Provably fair systems use cryptographic randomness (SHA-256 hashing), which is genuinely unpredictable. However, the house still has an edge—the crash point formula ensures the casino profits over time. Provably fair means the casino can't cheat, not that you'll win."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can casinos manipulate provably fair games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, not without getting caught. That's the whole point. If a casino changes the outcome after you bet, the hash verification will fail. Players would notice immediately. The only way to manipulate is before the hash is published—which is why pre-published hashes are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to understand cryptography to verify crash games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Most provably fair casinos provide simple verification tools. You paste in a few numbers, click a button, and get a yes/no answer. Understanding the math is optional—verification is accessible to everyone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if verification fails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop playing there immediately. Failed verification means the casino manipulated the outcome. Withdraw your funds, report the casino to their licensing authority (MGA, UKGC, Curacao), and warn other players on forums."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are licensed casinos better than provably fair casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They serve different purposes. Licensed casinos offer legal recourse and consumer protection. Provably fair casinos offer mathematical proof of fairness. The best casinos offer both: provably fair systems + reputable licensing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I verify crash game rounds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You don't need to verify every round. Spot-checking is fine: Verify 5-10 rounds when you first join a casino, verify a few rounds after big wins or weird patterns, and verify periodically (once a month or so)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I trust provably fair casinos with my money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most—but not all. Provably fair systems prevent game manipulation, but they don't guarantee fast withdrawals, good customer service, or responsible gambling tools. Always do your research before depositing large amounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between provably fair and RNG certified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provably fair: You verify every round yourself using cryptographic math. RNG certified: A third-party lab tested the random number generator periodically. Both are good. Provably fair is more transparent. RNG certification is more traditional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do provably fair crash games have better odds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. The house edge is typically similar (3-4%). Provably fair doesn't mean better odds—it means verifiable odds. You know the game isn't rigged, but the casino still profits in the long run."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I create my own client seed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and you should. Most provably fair casinos let you set a custom client seed. Use a random string of characters (letters, numbers, symbols). Change it periodically for extra security. This ensures the casino can't predict your input."
+      }
+    }
+  ]
+}

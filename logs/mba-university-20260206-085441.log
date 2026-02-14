@@ -1,0 +1,169 @@
+[2026-02-06 08:54:41] ============================================================
+[2026-02-06 08:54:41] MBA ENRICHMENT - ACTUAL UNIVERSITY PAGES
+[2026-02-06 08:54:41] ============================================================
+[2026-02-06 08:54:41] 
+📊 Loaded 728 programs
+[2026-02-06 08:54:41] 
+🚀 Processing first 30 programs...
+[2026-02-06 08:54:41] 
+[1/30] Online MBA
+[2026-02-06 08:54:41]   Slug: usc-online-mba
+[2026-02-06 08:54:41]   🌐 Scraping: https://www.marshall.usc.edu/programs/online-mba
+[2026-02-06 08:54:41]   ✓ Extracted: description
+[2026-02-06 08:54:42] 
+[2/30] Online MBA
+[2026-02-06 08:54:42]   Slug: unc-online-mba
+[2026-02-06 08:54:42]   🌐 Scraping: https://onlinemba.unc.edu/
+[2026-02-06 08:55:00]   ❌ Error: Internal Server Error: Failed to scrape. The URL failed to load in the browser with error code "ERR_
+[2026-02-06 08:55:01] 
+[3/30] Kelley Direct Online MBA
+[2026-02-06 08:55:01]   Slug: indiana-kelley-online-mba
+[2026-02-06 08:55:01]   🌐 Scraping: https://kelley.iu.edu/programs/online-mba
+[2026-02-06 08:55:01]   ✓ Extracted: description
+[2026-02-06 08:55:02] 
+[4/30] Online MBA
+[2026-02-06 08:55:02]   Slug: carnegie-mellon-online-mba
+[2026-02-06 08:55:02]   🌐 Scraping: https://www.tepper.cmu.edu/online/online-mba
+[2026-02-06 08:55:03]   ✓ Extracted: description
+[2026-02-06 08:55:04] 
+[5/30] Online MBA
+[2026-02-06 08:55:04]   Slug: florida-warrington-online-mba
+[2026-02-06 08:55:04]   🌐 Scraping: https://warrington.ufl.edu/programs/online-mba
+[2026-02-06 08:55:05]   ✓ Extracted: description
+[2026-02-06 08:55:06] 
+[6/30] Master of Business Administration
+[2026-02-06 08:55:06]   Slug: georgia-southwestern-state-university-master-of-business-administration
+[2026-02-06 08:55:06]   🌐 Scraping: https://www.georgia-southwestern-state-university.edu/mba
+[2026-02-06 08:55:06]   ❌ Error: DNS resolution failed for hostname "www.georgia-southwestern-state-university.edu". This means the d
+[2026-02-06 08:55:07] 
+[7/30] Master of Business Administration
+[2026-02-06 08:55:07]   Slug: fayetteville-state-university-master-of-business-administration
+[2026-02-06 08:55:07]   🌐 Scraping: https://www.fayetteville-state-university.edu/mba
+[2026-02-06 08:55:08]   ❌ Error: DNS resolution failed for hostname "www.fayetteville-state-university.edu". This means the domain na
+[2026-02-06 08:55:09] 
+[8/30] Master of Business Administration
+[2026-02-06 08:55:09]   Slug: east-carolina-university-master-of-business-administration
+[2026-02-06 08:55:09]   🌐 Scraping: https://www.east-carolina-university.edu/mba
+[2026-02-06 08:55:09]   ❌ Error: DNS resolution failed for hostname "www.east-carolina-university.edu". This means the domain name co
+[2026-02-06 08:55:10] 
+[9/30] Master of Business Administration
+[2026-02-06 08:55:10]   Slug: the-university-of-texas-permian-basin-master-of-business-administration
+[2026-02-06 08:55:10]   🌐 Scraping: https://www.the-university-of-texas-permian-basin.edu/mba
+[2026-02-06 08:55:10]   ❌ Error: DNS resolution failed for hostname "www.the-university-of-texas-permian-basin.edu". This means the d
+[2026-02-06 08:55:11] 
+[10/30] Master of Business Administration
+[2026-02-06 08:55:11]   Slug: texas-a-m-international-university-master-of-business-administration
+[2026-02-06 08:55:11]   🌐 Scraping: https://www.texas-a-m-international-university.edu/mba
+[2026-02-06 08:55:12]   ❌ Error: DNS resolution failed for hostname "www.texas-a-m-international-university.edu". This means the doma
+[2026-02-06 08:55:13] 
+[11/30] Online MBA
+[2026-02-06 08:55:13]   Slug: texas-a-m-international-university-online-mba
+[2026-02-06 08:55:13]   🌐 Scraping: https://www.texas-a-m-international-university.edu/mba
+[2026-02-06 08:55:13]   ❌ Error: DNS resolution failed for hostname "www.texas-a-m-international-university.edu". This means the doma
+[2026-02-06 08:55:14] 
+[12/30] Master of Business Administration
+[2026-02-06 08:55:14]   Slug: university-of-north-carolina-at-pembroke-master-of-business-administration
+[2026-02-06 08:55:14]   🌐 Scraping: https://www.university-of-north-carolina-at-pembroke.edu/mba
+[2026-02-06 08:55:14]   ❌ Error: DNS resolution failed for hostname "www.university-of-north-carolina-at-pembroke.edu". This means th
+[2026-02-06 08:55:15] 
+[13/30] Master of Business Administration
+[2026-02-06 08:55:15]   Slug: pittsburg-state-university-master-of-business-administration
+[2026-02-06 08:55:15]   🌐 Scraping: https://www.pittsburg-state-university.edu/mba
+[2026-02-06 08:55:16]   ❌ Error: DNS resolution failed for hostname "www.pittsburg-state-university.edu". This means the domain name 
+[2026-02-06 08:55:17] 
+[14/30] Master of Business Administration
+[2026-02-06 08:55:17]   Slug: texas-a-m-university-kingsville-master-of-business-administration
+[2026-02-06 08:55:17]   🌐 Scraping: https://www.texas-a-m-university-kingsville.edu/mba
+[2026-02-06 08:55:17]   ❌ Error: DNS resolution failed for hostname "www.texas-a-m-university-kingsville.edu". This means the domain 
+[2026-02-06 08:55:18] 
+[15/30] Master of Business Administration
+[2026-02-06 08:55:18]   Slug: arkansas-tech-university-master-of-business-administration
+[2026-02-06 08:55:18]   🌐 Scraping: https://www.arkansas-tech-university.edu/mba
+[2026-02-06 08:55:18]   ❌ Error: DNS resolution failed for hostname "www.arkansas-tech-university.edu". This means the domain name co
+[2026-02-06 08:55:19] 
+[16/30] Master of Business Administration
+[2026-02-06 08:55:19]   Slug: texas-a-m-university-texarkana-master-of-business-administration
+[2026-02-06 08:55:19]   🌐 Scraping: https://www.texas-a-m-university-texarkana.edu/mba
+[2026-02-06 08:55:20]   ❌ Error: DNS resolution failed for hostname "www.texas-a-m-university-texarkana.edu". This means the domain n
+[2026-02-06 08:55:21] 
+[17/30] Master of Business Administration
+[2026-02-06 08:55:21]   Slug: emporia-state-university-master-of-business-administration
+[2026-02-06 08:55:21]   🌐 Scraping: https://www.emporia-state-university.edu/mba
+[2026-02-06 08:55:21]   ❌ Error: DNS resolution failed for hostname "www.emporia-state-university.edu". This means the domain name co
+[2026-02-06 08:55:22] 
+[18/30] Master of Business Administration
+[2026-02-06 08:55:22]   Slug: university-of-central-arkansas-master-of-business-administration
+[2026-02-06 08:55:22]   🌐 Scraping: https://www.university-of-central-arkansas.edu/mba
+[2026-02-06 08:55:22]   ❌ Error: DNS resolution failed for hostname "www.university-of-central-arkansas.edu". This means the domain n
+[2026-02-06 08:55:23] 
+[19/30] Master of Business Administration
+[2026-02-06 08:55:23]   Slug: southern-arkansas-university-master-of-business-administration
+[2026-02-06 08:55:23]   🌐 Scraping: https://www.southern-arkansas-university.edu/mba
+[2026-02-06 08:55:23]   ❌ Error: DNS resolution failed for hostname "www.southern-arkansas-university.edu". This means the domain nam
+[2026-02-06 08:55:24] 
+[20/30] Master of Business Administration
+[2026-02-06 08:55:24]   Slug: southeastern-oklahoma-state-university-master-of-business-administration
+[2026-02-06 08:55:24]   🌐 Scraping: https://www.southeastern-oklahoma-state-university.edu/mba
+[2026-02-06 08:55:25]   ❌ Error: DNS resolution failed for hostname "www.southeastern-oklahoma-state-university.edu". This means the 
+[2026-02-06 08:55:26] 
+[21/30] Master of Business Administration
+[2026-02-06 08:55:26]   Slug: university-of-nebraska-at-kearney-master-of-business-administration
+[2026-02-06 08:55:26]   🌐 Scraping: https://www.university-of-nebraska-at-kearney.edu/mba
+[2026-02-06 08:55:26]   ❌ Error: DNS resolution failed for hostname "www.university-of-nebraska-at-kearney.edu". This means the domai
+[2026-02-06 08:55:27] 
+[22/30] Master of Business Administration
+[2026-02-06 08:55:27]   Slug: florida-gulf-coast-university-master-of-business-administration
+[2026-02-06 08:55:27]   🌐 Scraping: https://www.florida-gulf-coast-university.edu/mba
+[2026-02-06 08:55:27]   ❌ Error: DNS resolution failed for hostname "www.florida-gulf-coast-university.edu". This means the domain na
+[2026-02-06 08:55:28] 
+[23/30] Master of Business Administration
+[2026-02-06 08:55:28]   Slug: longwood-university-master-of-business-administration
+[2026-02-06 08:55:28]   🌐 Scraping: https://www.longwood-university.edu/mba
+[2026-02-06 08:55:29]   ❌ Error: DNS resolution failed for hostname "www.longwood-university.edu". This means the domain name could n
+[2026-02-06 08:55:30] 
+[24/30] Online MBA
+[2026-02-06 08:55:30]   Slug: adelphi-university-https-find-mba-com-schools-usa-new-york-adelphi-adelphi-university-us-flag-https-find-mba-com-circle-flags-flags-1x1-us-svg-https-find-mba-com-schools-usa-new-york-aacsb-online-mba
+[2026-02-06 08:55:30]   🌐 Scraping: https://www.adelphi-university-https-find-com-schools-usa-new-york-adelphi-adelphi-university-us-flag-https-find-com-circle-flags-flags-1x1-us-svg-https-find-com-schools-usa-new-york-aacsb.edu/mba
+[2026-02-06 08:55:30]   ❌ Error: DNS resolution failed for hostname "www.adelphi-university-https-find-com-schools-usa-new-york-adelp
+[2026-02-06 08:55:31] 
+[25/30] Online MBA
+[2026-02-06 08:55:31]   Slug: american-university-au-kogod-school-of-business-online-mba-https-find-mba-com-schools-online-mba-programs-american-university-au-kogod-school-of-business-online-mba-american-university-au-kogod-school-of-business-online-mba-aacsb-online-mba
+[2026-02-06 08:55:31]   🌐 Scraping: https://www.american-university-au-kogod-school-of-business-https-find-com-schools-programs-american-university-au-kogod-school-of-business-american-university-au-kogod-school-of-business-aacsb.edu/mba
+[2026-02-06 08:55:31]   ❌ Error: DNS resolution failed for hostname "www.american-university-au-kogod-school-of-business-https-find-c
+[2026-02-06 08:55:32] 
+[26/30] Online MBA
+[2026-02-06 08:55:32]   Slug: arkansas-state-university-https-find-mba-com-schools-usa-arkansas-arkansas-state-arkansas-state-university-us-flag-https-find-mba-com-circle-flags-flags-1x1-us-svg-https-find-mba-com-schools-usa-arkansas-aacsb-online-mba
+[2026-02-06 08:55:32]   🌐 Scraping: https://www.arkansas-state-university-https-find-com-schools-usa-arkansas-arkansas-state-arkansas-state-university-us-flag-https-find-com-circle-flags-flags-1x1-us-svg-https-find-com-schools-usa-arkansas-aacsb.edu/mba
+[2026-02-06 08:55:33]   ❌ Error: DNS resolution failed for hostname "www.arkansas-state-university-https-find-com-schools-usa-arkansa
+[2026-02-06 08:55:34] 
+[27/30] Online MBA
+[2026-02-06 08:55:34]   Slug: aston-university-aston-business-school-https-find-mba-com-schools-uk-ireland-uk-aston-aston-university-aston-business-school-gb-flag-https-find-mba-com-circle-flags-flags-1x1-gb-svg-https-find-mba-com-schools-uk-ireland-uk-aacsb-amba-equis-online-mba
+[2026-02-06 08:55:34]   🌐 Scraping: https://www.aston-university-aston-business-school-https-find-com-schools-uk-ireland-uk-aston-aston-university-aston-business-school-gb-flag-https-find-com-circle-flags-flags-1x1-gb-svg-https-find-com-schools-uk-ireland-uk-aacsb-amba-equis.edu/mba
+[2026-02-06 08:55:34]   ❌ Error: DNS resolution failed for hostname "www.aston-university-aston-business-school-https-find-com-school
+[2026-02-06 08:55:35] 
+[28/30] Online MBA
+[2026-02-06 08:55:35]   Slug: auburn-university-harbert-college-of-business-https-find-mba-com-schools-usa-alabama-auburn-auburn-university-harbert-college-of-business-us-flag-https-find-mba-com-circle-flags-flags-1x1-us-svg-https-find-mba-com-schools-usa-alabama-aacsb-online-mba
+[2026-02-06 08:55:35]   🌐 Scraping: https://www.auburn-university-harbert-college-of-business-https-find-com-schools-usa-alabama-auburn-auburn-university-harbert-college-of-business-us-flag-https-find-com-circle-flags-flags-1x1-us-svg-https-find-com-schools-usa-alabama-aacsb.edu/mba
+[2026-02-06 08:55:35]   ❌ Error: DNS resolution failed for hostname "www.auburn-university-harbert-college-of-business-https-find-com
+[2026-02-06 08:55:36] 
+[29/30] Online MBA
+[2026-02-06 08:55:36]   Slug: auburn-university-at-montgomery-https-find-mba-com-schools-usa-alabama-auburn-u-montgomery-auburn-university-at-montgomery-us-flag-https-find-mba-com-circle-flags-flags-1x1-us-svg-https-find-mba-com-schools-usa-alabama-aacsb-online-mba
+[2026-02-06 08:55:36]   🌐 Scraping: https://www.auburn-university-at-montgomery-https-find-com-schools-usa-alabama-auburn-u-montgomery-auburn-university-at-montgomery-us-flag-https-find-com-circle-flags-flags-1x1-us-svg-https-find-com-schools-usa-alabama-aacsb.edu/mba
+[2026-02-06 08:55:36]   ❌ Error: DNS resolution failed for hostname "www.auburn-university-at-montgomery-https-find-com-schools-usa-a
+[2026-02-06 08:55:37] 
+[30/30] Online MBA
+[2026-02-06 08:55:37]   Slug: baylor-university-hankamer-school-of-business-https-find-mba-com-schools-usa-texas-baylor-hankamer-baylor-university-hankamer-school-of-business-us-flag-https-find-mba-com-circle-flags-flags-1x1-us-svg-https-find-mba-com-schools-usa-texas-aacsb-online-mba
+[2026-02-06 08:55:37]   🌐 Scraping: https://www.baylor-university-hankamer-school-of-business-https-find-com-schools-usa-texas-baylor-hankamer-baylor-university-hankamer-school-of-business-us-flag-https-find-com-circle-flags-flags-1x1-us-svg-https-find-com-schools-usa-texas-aacsb.edu/mba
+[2026-02-06 08:55:38]   ❌ Error: DNS resolution failed for hostname "www.baylor-university-hankamer-school-of-business-https-find-com
+[2026-02-06 08:55:39] 
+✓ Saved to: /root/.openclaw/workspace/data/mba-enriched-university-pages.csv
+[2026-02-06 08:55:39]   Processed: 30 programs
+[2026-02-06 08:55:39] 
+📈 Fields filled:
+[2026-02-06 08:55:39]   applicationDeadline: 25
+[2026-02-06 08:55:39]   description: 30
+[2026-02-06 08:55:39]   tuitionTotal: 30
+[2026-02-06 08:55:39] 
+============================================================
+[2026-02-06 08:55:39] COMPLETE
+[2026-02-06 08:55:39] ============================================================

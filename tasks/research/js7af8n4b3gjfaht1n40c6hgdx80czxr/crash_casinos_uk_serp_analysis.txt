@@ -1,0 +1,1 @@
+Error: PERPLEXITY_API_KEY environment variable not set

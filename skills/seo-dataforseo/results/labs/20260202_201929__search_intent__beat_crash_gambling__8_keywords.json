@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T20:19:29.027021",
+    "category": "labs",
+    "operation": "search_intent",
+    "keyword": "beat crash gambling",
+    "extra_info": "8_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0465 sec.",
+    "cost": 0.0018,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02022219-8420-0541-0000-8cc21c2e966e",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0331 sec.",
+        "cost": 0.0018,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "search_intent",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "search_intent",
+          "se_type": "google",
+          "keywords": [
+            "beat crash gambling",
+            "VPN crash casinos",
+            "crash casino security",
+            "crash gambling odds",
+            "crash multiplier patterns",
+            "crash casino audits",
+            "crypto wallets for gambling",
+            "crash casinos japan"
+          ],
+          "language_name": "English",
+          "tag": null
+        },
+        "result": [
+          {
+            "language_code": "en",
+            "items_count": 8,
+            "items": [
+              {
+                "keyword": "beat crash gambling",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6206113
+                }
+              },
+              {
+                "keyword": "vpn crash casinos",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6691933
+                }
+              },
+              {
+                "keyword": "crash casino security",
+                "keyword_intent": {
+                  "label": "navigational",
+                  "probability": 0.4457258
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "informational",
+                    "probability": 0.36972913
+                  },
+                  {
+                    "label": "commercial",
+                    "probability": 0.31485596
+                  }
+                ]
+              },
+              {
+                "keyword": "crash gambling odds",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.7695091
+                }
+              },
+              {
+                "keyword": "crash multiplier patterns",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.53836566
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "commercial",
+                    "probability": 0.3972243
+                  }
+                ]
+              },
+              {
+                "keyword": "crash casino audits",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.71715766
+                }
+              },
+              {
+                "keyword": "crypto wallets for gambling",
+                "keyword_intent": {
+                  "label": "commercial",
+                  "probability": 0.47574306
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "transactional",
+                    "probability": 0.43771523
+                  }
+                ]
+              },
+              {
+                "keyword": "crash casinos japan",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6882369
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

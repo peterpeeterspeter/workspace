@@ -1,0 +1,40 @@
+=== 2026-02-03 14:51:18 ===
+Fury: Enhanced Research & Editing (FULL PINCH-TO-POST INTEGRATION)
+Task: Fury Heartbeat
+
+💬 Daily Comment Moderation...
+
+[crashcasino] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashcasino
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[crashgame] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: crashgame
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[freecrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: freecrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+[cryptocrash] Checking for spam...
+[0;32m=== Comment Moderation ===[0m
+Site: cryptocrash
+Action: spam-suspicious
+
+[1;33mChecking for suspicious comments...[0m
+jq: error (at <stdin>:1): Cannot index string with string "id"
+
+
+✅ Fury workflow complete

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I get arrested for playing crash gambling online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Extremely unlikely. No countries prosecute individual players for online gambling (except Washington State, where enforcement is rare). Enforcement targets operators, not players."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I get paid if I win on an offshore site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes — if you pick reputable casinos (Stake, BC.Game). Test with small withdrawals first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is crash gambling legal in the US?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray area. Offshore crypto casinos accept US players, but operate in legal gray area. Players aren't prosecuted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I play from a restricted country?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually nothing. Most countries don't prosecute players. Risk: If casino scams you, no legal recourse."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I owe taxes on crash gambling winnings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depends on country. US: Yes. UK: No. Canada: No (unless pro gambler). Check local laws."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is anonymous crash gambling legal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray market. Anonymous casinos hold licenses (Curacao) but don't follow KYC rules of regulated markets (MGA, UKGC). Playing is rarely illegal, but you have no legal protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which countries ban crash gambling completely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Few countries explicitly ban crash. Most restrict online gambling generally. Strictest: US (federal restrictions), Japan (all gambling illegal), some US states (WA, UT, HI)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use a VPN to access crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many players do. Risk: Some casinos ban VPNs. If detected, they may close your account and confiscate winnings."
+      }
+    }
+  ]
+}

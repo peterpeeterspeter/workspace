@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are crash casino bonuses worth it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you choose low-wagering bonuses (25x-35x) and have the bankroll to clear them. No, if you chase high-% bonuses with 50x+ wagering—most players never clear these."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's a good wagering requirement for crash bonuses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good: 25x-30x on bonus only. Acceptable: 30x-35x on bonus only. Avoid: 40x+ (unless the bonus % is very high)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I withdraw bonus money immediately?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You must clear the wagering requirement first. Only after that can you withdraw bonus funds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do all crash games count toward bonus wagering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. Check the T&Cs—some bonuses exclude certain crash games or providers. Look for \"crash games contribute 100%.\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I don't clear the wagering in time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You lose the bonus. Any remaining bonus funds (and winnings from them) will be forfeited when the bonus expires."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim multiple bonuses at once?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually no. Most casinos only allow one active bonus at a time. Finish (or forfeit) your current bonus before claiming another."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do no-deposit bonuses have wagering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and it's usually high. Expect 50x-100x wagering on no-deposit bonuses, with a low max cashout ($50-$100)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77805432/saniclass-chaci-plus-badkamermeubelset-120x86x46cm-keramische-wastafel-wit-2-wasbakken-zonder-kraangaten-6-laden-rechtse-hoge-spiegelkast-zonder-uitvoering",
+  "name": "Saniclass Chaci PLUS Badkamermeubelset - 120x86x46cm - keramische wastafel wit - 2 wasbakken - zonder kraangaten - 6 lades - rechthoekige spiegel - noten (hout)",
+  "price": "e639",
+  "category": "vanities",
+  "subcategory": "two sinks",
+  "description": "",
+  "image_count": 5,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/03387630715d3694190475a8739d7aed.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/6f2571e3fd0a29eaf20db14cb5d036be.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/00723600fcbaae84196e13949acd8d01.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/6bad03893386cdd30c91c2526e5a6a5a.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/048e2ea2d0248d5f81e6ae81b841cf36.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:35:42.003299",
+  "downloaded_images": 5,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/Saniclass-Chaci-PLUS-Badkamermeubelset---120x86x46/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/Saniclass-Chaci-PLUS-Badkamermeubelset---120x86x46/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/Saniclass-Chaci-PLUS-Badkamermeubelset---120x86x46/images/image_003.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/Saniclass-Chaci-PLUS-Badkamermeubelset---120x86x46/images/image_004.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113457/Saniclass-Chaci-PLUS-Badkamermeubelset---120x86x46/images/image_005.webp"
+  ]
+}

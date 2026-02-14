@@ -1,0 +1,58 @@
+{
+  "analysis_date": "2026-02-01",
+  "existing_posts": 43,
+  "existing_pages": 12,
+  "total_opportunities": 15,
+  "gaps": [
+    {
+      "topic": "secured_credit_cards",
+      "priority": "critical",
+      "missing_count": 5,
+      "keywords": [
+        "secured cards with low deposit",
+        "discover it secured card",
+        "capital one platinum secured",
+        "chime credit builder",
+        "self credit builder"
+      ]
+    },
+    {
+      "topic": "credit_building",
+      "priority": "high",
+      "missing_count": 4,
+      "keywords": [
+        "credit building apps",
+        "credit builder loans",
+        "become authorized user to build credit",
+        "experian boost review"
+      ]
+    },
+    {
+      "topic": "bankruptcy_credit",
+      "priority": "high",
+      "missing_count": 3,
+      "keywords": [
+        "best credit card after chapter 7",
+        "car loan after bankruptcy",
+        "bankruptcy friendly credit cards"
+      ]
+    },
+    {
+      "topic": "credit_card_comparison",
+      "priority": "medium",
+      "missing_count": 1,
+      "keywords": [
+        "no annual fee credit cards"
+      ]
+    },
+    {
+      "topic": "credit_education",
+      "priority": "medium",
+      "missing_count": 2,
+      "keywords": [
+        "credit score ranges explained",
+        "hard vs soft credit inquiry"
+      ]
+    }
+  ]
+}

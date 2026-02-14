@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common crash gambling scams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fake multipliers, rigged RNG (85-90% RTP instead of 97%), withdrawal refusals, phishing sites, Ponzi bonuses, fake provably fair, no license, new/untracked sites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash casino is legit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check license (Curacao minimum), verify provably fair (run 20-30 bets), read reviews (Trustpilot, Reddit, AskGamblers), test withdrawal (deposit small, withdraw small)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if a crash casino scams me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Document everything (screenshots, seed data), contact support (give 24 hours), escalate to licensor, post publicly (Reddit, Trustpilot), warn others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are most crash casinos scams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Most are legit but have house edge. Scams exist (especially no-KYC casinos). Vetted casinos (Stake, BC.Game) are safe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are red flags of crash casino scams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No license, fake provably fair, too-good bonuses (500% match), negative reviews, poor support, new site (<6 months), KYC only after you win."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many crash casinos are scams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Of 50+ confirmed crash scams (2023-2025), 70% were no-KYC casinos. Legit casinos exist (Stake, BC.Game, Roobet, Thunderpick, Metaspins)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get my money back from a crash casino scam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rarely. If licensed (Curacao), file complaint with licensor (slow, often ineffective). If unlicensed, accept the loss. Warn others to prevent future scams."
+      }
+    }
+  ]
+}

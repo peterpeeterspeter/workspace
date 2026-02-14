@@ -1,0 +1,39 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/78010509/thebalux-epoque-badkamermeubelset-120x54x41.5cm-1-lade-2-deuren-grijs-wastafel-corian-midden-zonder-kraangat-fijne-blanc",
+  "name": "Thebalux Epoque Badkamermeubelset - 120x54x41.5cm - 1 lade - 2 deuren - greeploos - wastafel Corian - midden - zonder kraangat - Fineer Blanc",
+  "price": "e204",
+  "category": "vanities",
+  "subcategory": "one sink",
+  "description": "",
+  "image_count": 4,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/7e65af1e470c1a16a1176a25dcfe755d.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/dcdc345588849b2e30d422ea69652aa0.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/28e480d38a69bfc4bbfed1e80c8286af.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/210x210/27d2399db8116be65d68024ded5d0075.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:31:03.544493",
+  "downloaded_images": 4,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Thebalux-Epoque-Badkamermeubelset---120x54x41.5cm-/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Thebalux-Epoque-Badkamermeubelset---120x54x41.5cm-/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Thebalux-Epoque-Badkamermeubelset---120x54x41.5cm-/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/Thebalux-Epoque-Badkamermeubelset---120x54x41.5cm-/images/image_004.jpg"
+  ]
+}

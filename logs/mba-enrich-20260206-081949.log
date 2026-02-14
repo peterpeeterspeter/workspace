@@ -1,0 +1,70 @@
+[2026-02-06 08:19:49] ============================================================
+[2026-02-06 08:19:49] MBA DATABASE ENRICHMENT STARTED
+[2026-02-06 08:19:49] ============================================================
+[2026-02-06 08:19:49] ✓ Loaded 728 programs from CSV
+[2026-02-06 08:19:49] 
+📊 Summary:
+[2026-02-06 08:19:49]   Total programs: 728
+[2026-02-06 08:19:49]   Need enrichment: 728
+[2026-02-06 08:19:49]   Complete: 0
+[2026-02-06 08:19:49] 
+🚀 Processing first 10 programs (batch mode)...
+[2026-02-06 08:19:49] 
+[1/10] Processing: Online MBA
+[2026-02-06 08:19:49]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:49]   🌐 Scraping: https://www.marshall.usc.edu/programs/online-mba
+[2026-02-06 08:19:49]   ❌ Error scraping https://www.marshall.usc.edu/programs/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:19:51] 
+[2/10] Processing: Online MBA
+[2026-02-06 08:19:51]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:51]   🌐 Scraping: https://onlinemba.unc.edu/
+[2026-02-06 08:19:51]   ❌ Error scraping https://onlinemba.unc.edu/: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:19:53] 
+[3/10] Processing: Kelley Direct Online MBA
+[2026-02-06 08:19:53]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:53]   🌐 Scraping: https://kelley.iu.edu/programs/online-mba
+[2026-02-06 08:19:53]   ❌ Error scraping https://kelley.iu.edu/programs/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:19:55] 
+[4/10] Processing: Online MBA
+[2026-02-06 08:19:55]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:55]   🌐 Scraping: https://www.tepper.cmu.edu/online/online-mba
+[2026-02-06 08:19:55]   ❌ Error scraping https://www.tepper.cmu.edu/online/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:19:57] 
+[5/10] Processing: Online MBA
+[2026-02-06 08:19:57]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:57]   🌐 Scraping: https://warrington.ufl.edu/programs/online-mba
+[2026-02-06 08:19:57]   ❌ Error scraping https://warrington.ufl.edu/programs/online-mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:19:59] 
+[6/10] Processing: Master of Business Administration
+[2026-02-06 08:19:59]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:19:59]   🌐 Scraping: https://www.georgia-southwestern-state-university.edu/mba
+[2026-02-06 08:19:59]   ❌ Error scraping https://www.georgia-southwestern-state-university.edu/mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:20:01] 
+[7/10] Processing: Master of Business Administration
+[2026-02-06 08:20:01]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:01]   🌐 Scraping: https://www.fayetteville-state-university.edu/mba
+[2026-02-06 08:20:01]   ❌ Error scraping https://www.fayetteville-state-university.edu/mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:20:03] 
+[8/10] Processing: Master of Business Administration
+[2026-02-06 08:20:03]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:03]   🌐 Scraping: https://www.east-carolina-university.edu/mba
+[2026-02-06 08:20:03]   ❌ Error scraping https://www.east-carolina-university.edu/mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:20:05] 
+[9/10] Processing: Master of Business Administration
+[2026-02-06 08:20:05]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:05]   🌐 Scraping: https://www.the-university-of-texas-permian-basin.edu/mba
+[2026-02-06 08:20:05]   ❌ Error scraping https://www.the-university-of-texas-permian-basin.edu/mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:20:07] 
+[10/10] Processing: Master of Business Administration
+[2026-02-06 08:20:07]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:07]   🌐 Scraping: https://www.texas-a-m-international-university.edu/mba
+[2026-02-06 08:20:07]   ❌ Error scraping https://www.texas-a-m-international-university.edu/mba: FirecrawlClient.scrape() got an unexpected keyword argument 'params'
+[2026-02-06 08:20:09] 
+✓ Enriched CSV saved to: /root/.openclaw/workspace/data/mba-programs-enriched.csv
+[2026-02-06 08:20:09]   Programs processed: 10
+[2026-02-06 08:20:09] 
+📈 Fields filled:
+[2026-02-06 08:20:09] 
+============================================================
+[2026-02-06 08:20:09] MBA DATABASE ENRICHMENT COMPLETE
+[2026-02-06 08:20:09] ============================================================

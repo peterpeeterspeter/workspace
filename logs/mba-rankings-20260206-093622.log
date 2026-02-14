@@ -1,0 +1,31 @@
+[2026-02-06 09:36:22] ============================================================
+[2026-02-06 09:36:22] MBA ENRICHMENT - POETS&QUANTS RANKINGS
+[2026-02-06 09:36:22] ============================================================
+[2026-02-06 09:36:22] 
+[2026-02-06 09:36:22] 📊 Loaded 30 programs from database
+[2026-02-06 09:36:22] ✓ Matched: Online MBA -> PQ#24, US News#24
+[2026-02-06 09:36:22] ✓ Matched: Online MBA -> PQ#16, US News#18
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#6, US News#6
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#19, US News#24
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched: Online MBA -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#19, US News#24
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched: Master of Business Administration -> PQ#6, US News#6
+[2026-02-06 09:36:22] ✓ Matched: Online MBA -> PQ#13, US News#16
+[2026-02-06 09:36:22] ✓ Matched 12 programs with Poets&Quants rankings
+[2026-02-06 09:36:22] ✓ Matched 12 programs with US News rankings
+[2026-02-06 09:36:22] ✓ Saved to: /root/.openclaw/workspace/data/mba-rankings-enriched.csv
+[2026-02-06 09:36:22] 
+[2026-02-06 09:36:22] 📈 Coverage Report:
+[2026-02-06 09:36:22]   acceptanceRate: 12/30 (40.0%)
+[2026-02-06 09:36:22]   classSize: 0/30 (0.0%)
+[2026-02-06 09:36:22]   avgSalaryPost: 0/30 (0.0%)
+[2026-02-06 09:36:22]   fortuneRank (PQ): 12/30 (40.0%)
+[2026-02-06 09:36:22]   usNewsRank: 12/30 (40.0%)
+[2026-02-06 09:36:22] 
+[2026-02-06 09:36:22] ============================================================
+[2026-02-06 09:36:22] COMPLETE
+[2026-02-06 09:36:22] ============================================================

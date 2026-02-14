@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I tell if a crash casino is rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Red flags include: no provably fair system, unverifiable licenses, impossible wins (always crashes at 1.00x), refused withdrawals, unverifiable RNG certification, and fake reviews. Legitimate casinos offer third-party audits and hash verification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are common crash casino scams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common scams include: fake license badges, rigged crash algorithms, bonus traps with impossible wagering, withdrawal fees hidden in terms, clone sites copying legitimate casinos, and ponzi-style investment schemes promising guaranteed crash wins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I report a crash casino scam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1) File a complaint with the casino's regulator (MGA, UKGC, Curaçao), 2) Report to AskGamblers or CasinoGuru, 3) Leave warnings on Reddit and forums, 4) Report to domain registrar if illegal, 5) Contact payment processors if fraud occurred."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are offshore crash casinos safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Offshore casinos aren't inherently unsafe, but due diligence is critical. Look for Curaçao or Gibraltar licenses, read recent player reviews, test with small deposits first, and verify provably fair systems before depositing large amounts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get my money back from a scam crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery is difficult but possible: 1) Chargeback via credit card issuer (if within 180 days), 2) File complaints with regulators, 3) Public pressure via forums, 4) Legal action for large amounts. Prevention is easier—verify licenses before depositing."
+      }
+    }
+  ]
+}

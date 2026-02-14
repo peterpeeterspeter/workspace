@@ -1,0 +1,138 @@
+#!/bin/bash
+# Republication Script - Fixes broken HTML on crashcasino.io
+# Fetches published articles, converts to proper HTML, updates WordPress
+
+PUBLISHED_DIR="/root/.openclaw/workspace/drafts/published"
+LOG_FILE="/root/.openclaw/workspace/tasks/logs/republish-fix.log"
+
+mkdir -p "$(dirname "$LOG_FILE")"
+
+echo "=== WordPress Republication - HTML Fix ===" | tee -a "$LOG_FILE"
+echo "Date: $(date '+%Y-%m-%d %H:%M:%S')" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+# WordPress credentials
+WP_URL="https://crashcasino.io"
+WP_USER="peter"
+WP_APP="${WORDPRESS_CRASHCASINO_APP_PASSWORD:-}"
+
+if [ -z "$WP_APP" ]; then
+  echo "ERROR: WordPress credentials not found" | tee -a "$LOG_FILE"
+  exit 1
+fi
+
+# Count total published posts
+echo "Fetching published posts from crashcasino.io..." | tee -a "$LOG_FILE"
+
+# Get all published posts (last 100)
+POSTS_JSON=$(curl -s "${WP_URL}/wp-json/wp/v2/posts?per_page=100&status=publish" \
+  --user "${WP_USER}:${WP_APP}")
+
+POST_COUNT=$(echo "$POSTS_JSON" | jq '. | length')
+
+echo "Found ${POST_COUNT} published posts" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+# Process each post
+UPDATED_COUNT=0
+FAILED_COUNT=0
+
+for i in $(seq 0 $((POST_COUNT - 1))); do
+  POST=$(echo "$POSTS_JSON" | jq ".[$i]")
+  POST_ID=$(echo "$POST" | jq -r '.id')
+  POST_TITLE=$(echo "$POST" | jq -r '.title.rendered')
+  POST_SLUG=$(echo "$POST" | jq -r '.slug')
+  POST_LINK=$(echo "$POST" | jq -r '.link')
+
+  echo "[$((i+1))/${POST_COUNT}] Post ID: ${POST_ID}" | tee -a "$LOG_FILE"
+  echo "    Title: ${POST_TITLE}" | tee -a "$LOG_FILE"
+  echo "    Slug: ${POST_SLUG}" | tee -a "$LOG_FILE"
+
+  # Try to find corresponding markdown file
+  # Search for files with similar slug or title
+  MD_FILE=""
+
+  # Try exact slug match first
+  if [ -f "${PUBLISHED_DIR}/${POST_SLUG}.md" ]; then
+    MD_FILE="${PUBLISHED_DIR}/${POST_SLUG}.md"
+  else
+    # Try to find by title pattern
+    MD_FILE=$(find "$PUBLISHED_DIR" -name "*.md" -type f | while read f; do
+      TITLE=$(grep -m1 "^# " "$f" 2>/dev/null | sed 's/^# //')
+      if [ "$TITLE" = "$POST_TITLE" ]; then
+        echo "$f"
+        break
+      fi
+    done)
+  fi
+
+  # If no markdown file found, create basic one from post content
+  if [ -z "$MD_FILE" ] || [ ! -f "$MD_FILE" ]; then
+    echo "    WARNING: No markdown file found, skipping" | tee -a "$LOG_FILE"
+    ((FAILED_COUNT++))
+    echo "" | tee -a "$LOG_FILE"
+    continue
+  fi
+
+  echo "    MD File: ${MD_FILE}" | tee -a "$LOG_FILE"
+
+  # Convert markdown to proper HTML
+  HTML_RESULT=$(python3 /root/.openclaw/workspace/agents/shared/md2html-fixed.py "$MD_FILE" 2>&1)
+
+  # Check if conversion succeeded
+  if ! echo "$HTML_RESULT" | jq -e '.html' > /dev/null 2>&1; then
+    echo "    ERROR: Failed to convert markdown to HTML" | tee -a "$LOG_FILE"
+    echo "    ${HTML_RESULT}" | tee -a "$LOG_FILE"
+    ((FAILED_COUNT++))
+    echo "" | tee -a "$LOG_FILE"
+    continue
+  fi
+
+  # Extract HTML content
+  HTML_CONTENT=$(echo "$HTML_RESULT" | jq -r '.html')
+  META_DESC=$(echo "$HTML_RESULT" | jq -r '.metadata.description // empty')
+
+  # Escape HTML for JSON
+  ESCAPED_HTML=$(echo "$HTML_CONTENT" | jq -Rs .)
+
+  echo "    Updating post with proper HTML..." | tee -a "$LOG_FILE"
+
+  # Update post via WordPress REST API
+  UPDATE_RESPONSE=$(curl -s -X POST "${WP_URL}/wp-json/wp/v2/posts/${POST_ID}" \
+    --user "${WP_USER}:${WP_APP}" \
+    -H "Content-Type: application/json" \
+    -d "{
+      \"content\": ${ESCAPED_HTML},
+      \"excerpt\": \"${META_DESC}\"
+    }" 2>&1)
+
+  # Check if update succeeded
+  if echo "$UPDATE_RESPONSE" | jq -e '.id' > /dev/null 2>&1; then
+    echo "    ✅ SUCCESS: Post ${POST_ID} updated with proper HTML" | tee -a "$LOG_FILE"
+    ((UPDATED_COUNT++))
+  else
+    echo "    ❌ ERROR: Failed to update post" | tee -a "$LOG_FILE"
+    echo "    Response: ${UPDATE_RESPONSE}" | tee -a "$LOG_FILE"
+    ((FAILED_COUNT++))
+  fi
+
+  echo "" | tee -a "$LOG_FILE"
+
+  # Small delay to avoid overwhelming the API
+  sleep 1
+done
+
+# Summary
+echo "=== Republication Summary ===" | tee -a "$LOG_FILE"
+echo "✅ Successfully updated: ${UPDATED_COUNT}" | tee -a "$LOG_FILE"
+echo "❌ Failed: ${FAILED_COUNT}" | tee -a "$LOG_FILE"
+echo "📊 Total processed: $((UPDATED_COUNT + FAILED_COUNT))" | tee -a "$LOG_FILE"
+echo "" | tee -a "$LOG_FILE"
+
+if [ "$UPDATED_COUNT" -gt 0 ]; then
+  echo "🎉 Republication complete! ${UPDATED_COUNT} articles now have proper HTML." | tee -a "$LOG_FILE"
+  exit 0
+else
+  echo "⚠️  No articles were updated" | tee -a "$LOG_FILE"
+  exit 1
+fi

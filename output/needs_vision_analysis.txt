@@ -1,0 +1,18 @@
+# Products needing vision analysis (4)
+
+Name: Sanibroyeur Saniwall Pro UP - Grohe inbouwreservoir - tegelbaar - Sanibroyeur vermaler - bedieningspaneel glans chroom
+Old Category: Tile
+Image: https://static.rorix.nl/image/product/galvano/400x400/D130001001332371.jpg/sanibroyeur-saniwall-pro-up-grohe-inbouwreservoir-tegelbaar-sanibroyeur-vermaler-bedieningspaneel-glans-chroom-sw204402.jpg
+
+Name: Villeroy & Boch Omnia Architectura DirectFlush combipack - ceramic+ wit
+Old Category: Tile
+Image: https://static.rorix.nl/image/product/overig/400x400/8ef9cb53e1f1d8a545b3e46d7221b4e8.jpg/villeroy-boch-omnia-architectura-directflush-combipack-ceramic-wit-0124871.jpg
+
+Name: Nemo Spring Cascata jachtbak 38x14.5x40cm met Geberit spoelmechanisme porselein wit TWEEDEKANS
+Old Category: Vanity
+Image: https://static.rorix.nl/image/product/van-marcke/400x400/82b2d9b07ee1cc4a358f2e033c72fd84.jpg/nemo-spring-cascata-jachtbak-38x14.5x40cm-met-geberit-spoelmechanisme-porselein-wit-tweedekans-out12385.jpg
+
+Name: Wisa afdekplaat 34.5x16.5cm kunststof wit
+Old Category: Vanity
+Image: https://static.rorix.nl/image/product/overig/400x400/5849365abe286.jpg/wisa-afdekplaat-34.5x16.5cm-kunststof-wit-ga77959.jpg
+

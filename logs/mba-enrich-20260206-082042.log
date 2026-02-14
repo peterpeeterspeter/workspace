@@ -1,0 +1,70 @@
+[2026-02-06 08:20:42] ============================================================
+[2026-02-06 08:20:42] MBA DATABASE ENRICHMENT STARTED
+[2026-02-06 08:20:42] ============================================================
+[2026-02-06 08:20:42] ✓ Loaded 728 programs from CSV
+[2026-02-06 08:20:42] 
+📊 Summary:
+[2026-02-06 08:20:42]   Total programs: 728
+[2026-02-06 08:20:42]   Need enrichment: 728
+[2026-02-06 08:20:42]   Complete: 0
+[2026-02-06 08:20:42] 
+🚀 Processing first 10 programs (batch mode)...
+[2026-02-06 08:20:42] 
+[1/10] Processing: Online MBA
+[2026-02-06 08:20:42]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:42]   🌐 Scraping: https://www.marshall.usc.edu/programs/online-mba
+[2026-02-06 08:20:47]   ⚠️ No content returned for Online MBA
+[2026-02-06 08:20:49] 
+[2/10] Processing: Online MBA
+[2026-02-06 08:20:49]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:20:49]   🌐 Scraping: https://onlinemba.unc.edu/
+[2026-02-06 08:21:07]   ❌ Error scraping https://onlinemba.unc.edu/: Internal Server Error: Failed to scrape. The URL failed to load in the browser with error code "ERR_TIMED_OUT". The connection timed out. The server is not responding or is too slow. Please verify the URL is correct and the website is accessible. - No additional error details provided.
+[2026-02-06 08:21:09] 
+[3/10] Processing: Kelley Direct Online MBA
+[2026-02-06 08:21:09]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:09]   🌐 Scraping: https://kelley.iu.edu/programs/online-mba
+[2026-02-06 08:21:12]   ⚠️ No content returned for Kelley Direct Online MBA
+[2026-02-06 08:21:14] 
+[4/10] Processing: Online MBA
+[2026-02-06 08:21:14]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:14]   🌐 Scraping: https://www.tepper.cmu.edu/online/online-mba
+[2026-02-06 08:21:17]   ⚠️ No content returned for Online MBA
+[2026-02-06 08:21:19] 
+[5/10] Processing: Online MBA
+[2026-02-06 08:21:19]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:19]   🌐 Scraping: https://warrington.ufl.edu/programs/online-mba
+[2026-02-06 08:21:25]   ⚠️ No content returned for Online MBA
+[2026-02-06 08:21:27] 
+[6/10] Processing: Master of Business Administration
+[2026-02-06 08:21:27]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:27]   🌐 Scraping: https://www.georgia-southwestern-state-university.edu/mba
+[2026-02-06 08:21:27]   ❌ Error scraping https://www.georgia-southwestern-state-university.edu/mba: DNS resolution failed for hostname "www.georgia-southwestern-state-university.edu". This means the domain name could not be translated to an IP address. Possible causes: (1) The domain name is misspelled (check for typos), (2) The domain does not exist or has expired, (3) The DNS servers are temporarily unavailable, or (4) The domain was recently registered and DNS has not propagated yet. Please verify the URL is correct and the website exists.
+[2026-02-06 08:21:29] 
+[7/10] Processing: Master of Business Administration
+[2026-02-06 08:21:29]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:29]   🌐 Scraping: https://www.fayetteville-state-university.edu/mba
+[2026-02-06 08:21:29]   ❌ Error scraping https://www.fayetteville-state-university.edu/mba: DNS resolution failed for hostname "www.fayetteville-state-university.edu". This means the domain name could not be translated to an IP address. Possible causes: (1) The domain name is misspelled (check for typos), (2) The domain does not exist or has expired, (3) The DNS servers are temporarily unavailable, or (4) The domain was recently registered and DNS has not propagated yet. Please verify the URL is correct and the website exists.
+[2026-02-06 08:21:31] 
+[8/10] Processing: Master of Business Administration
+[2026-02-06 08:21:31]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:31]   🌐 Scraping: https://www.east-carolina-university.edu/mba
+[2026-02-06 08:21:32]   ❌ Error scraping https://www.east-carolina-university.edu/mba: DNS resolution failed for hostname "www.east-carolina-university.edu". This means the domain name could not be translated to an IP address. Possible causes: (1) The domain name is misspelled (check for typos), (2) The domain does not exist or has expired, (3) The DNS servers are temporarily unavailable, or (4) The domain was recently registered and DNS has not propagated yet. Please verify the URL is correct and the website exists.
+[2026-02-06 08:21:34] 
+[9/10] Processing: Master of Business Administration
+[2026-02-06 08:21:34]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:34]   🌐 Scraping: https://www.the-university-of-texas-permian-basin.edu/mba
+[2026-02-06 08:21:34]   ❌ Error scraping https://www.the-university-of-texas-permian-basin.edu/mba: DNS resolution failed for hostname "www.the-university-of-texas-permian-basin.edu". This means the domain name could not be translated to an IP address. Possible causes: (1) The domain name is misspelled (check for typos), (2) The domain does not exist or has expired, (3) The DNS servers are temporarily unavailable, or (4) The domain was recently registered and DNS has not propagated yet. Please verify the URL is correct and the website exists.
+[2026-02-06 08:21:36] 
+[10/10] Processing: Master of Business Administration
+[2026-02-06 08:21:36]   → Missing fields: acceptanceRate, classSize, avgSalaryPost, usNewsRank, fortuneRank
+[2026-02-06 08:21:36]   🌐 Scraping: https://www.texas-a-m-international-university.edu/mba
+[2026-02-06 08:21:36]   ❌ Error scraping https://www.texas-a-m-international-university.edu/mba: DNS resolution failed for hostname "www.texas-a-m-international-university.edu". This means the domain name could not be translated to an IP address. Possible causes: (1) The domain name is misspelled (check for typos), (2) The domain does not exist or has expired, (3) The DNS servers are temporarily unavailable, or (4) The domain was recently registered and DNS has not propagated yet. Please verify the URL is correct and the website exists.
+[2026-02-06 08:21:38] 
+✓ Enriched CSV saved to: /root/.openclaw/workspace/data/mba-programs-enriched.csv
+[2026-02-06 08:21:38]   Programs processed: 10
+[2026-02-06 08:21:38] 
+📈 Fields filled:
+[2026-02-06 08:21:38] 
+============================================================
+[2026-02-06 08:21:38] MBA DATABASE ENRICHMENT COMPLETE
+[2026-02-06 08:21:38] ============================================================

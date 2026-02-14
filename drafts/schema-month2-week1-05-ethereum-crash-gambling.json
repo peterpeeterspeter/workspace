@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Ethereum Crash Gambling: Complete Guide to ETH Crash Casinos in 2026",
+  "description": "Discover the best Ethereum crash casinos in 2026. Compare top ETH crash gambling sites with instant crypto payments, smart contract fairness, and exclusive Ethereum bonuses.",
+  "image": "https://cryptocrashgambling.com/wp-content/uploads/2026/02/ethereum-crash-gambling.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Crypto Crash Gambling"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crypto Crash Gambling",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cryptocrashgambling.com/wp-content/uploads/2026/01/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cryptocrashgambling.com/ethereum-crash-gambling/"
+  },
+  "articleSection": "Ethereum Crash Gambling Guide",
+  "keywords": ["ethereum crash gambling", "ETH crash games", "ethereum crash casinos", "ETH crash gambling sites", "Ethereum gambling"],
+  "about": {
+    "@type": "Thing",
+    "name": "Ethereum Crash Gambling",
+    "description": "Guide to playing crash gambling games with Ethereum cryptocurrency"
+  }
+}

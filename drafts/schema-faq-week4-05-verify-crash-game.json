@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I verify crash game fairness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Place a bet, copy server seed/client seed/nonce, use the casino's verification tool, confirm the result matches the actual crash point. If it doesn't, the game is rigged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can crash games be rigged even if they're 'provably fair'?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Scammers fake provably fair with fake hashes, predictable client seeds, or fake verification tools. Always verify yourself by running 1,000+ rounds and calculating actual RTP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if verification fails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Document everything (screenshots, seed data), contact support (give 24 hours), escalate to licensor if unresolved, post publicly to warn others, and leave immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do all crash casinos have provably fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Some casinos have no provably fair system (avoid these). Legit crash casinos (Stake, BC.Game, Roobet, etc.) all have verifiable provably fair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if provably fair is real?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check if server seed is hashed and disclosed BEFORE you bet, if client seed is user-generated, and if you can verify results yourself. If any of these are missing, provably fair is fake."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I verify crash games on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most casinos have mobile verification tools. The process is the same (My Bets → Verify → Paste seed data → Check result)."
+      }
+    }
+  ]
+}

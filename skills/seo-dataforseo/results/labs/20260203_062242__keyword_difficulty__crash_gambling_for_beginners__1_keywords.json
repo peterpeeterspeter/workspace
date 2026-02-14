@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-03T06:22:42.819914",
+    "category": "labs",
+    "operation": "keyword_difficulty",
+    "keyword": "crash gambling for beginners",
+    "extra_info": "1_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0808 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030822-8420-0392-0000-40edfd86e940",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0288 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "crash gambling for beginners"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "crash gambling for beginners",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

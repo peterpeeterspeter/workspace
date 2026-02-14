@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T20:19:29.350189",
+    "category": "labs",
+    "operation": "keyword_ideas",
+    "keyword": "beat crash gambling",
+    "extra_info": "8_seeds"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1071 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02022219-8420-0400-0000-0d0297f45d1c",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0397 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_ideas",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_ideas",
+          "se_type": "google",
+          "keywords": [
+            "beat crash gambling",
+            "VPN crash casinos",
+            "crash casino security",
+            "crash gambling odds",
+            "crash multiplier patterns",
+            "crash casino audits",
+            "crypto wallets for gambling",
+            "crash casinos japan"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "closely_variants": false,
+          "include_serp_info": false,
+          "limit": 100,
+          "offset": null,
+          "filters": null,
+          "order_by": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keywords": [
+              "beat crash gambling",
+              "vpn crash casinos",
+              "crash casino security",
+              "crash gambling odds",
+              "crash multiplier patterns",
+              "crash casino audits",
+              "crypto wallets for gambling",
+              "crash casinos japan"
+            ],
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0,
+            "offset": 0,
+            "offset_token": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is USDT better than Bitcoin for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for most players. USDT is stable ($1 value), so your bankroll doesn't fluctuate with crypto prices. Bitcoin is better for large deposits ($10,000+) due to wider acceptance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do all crash casinos accept USDT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All top crash casinos accept USDT. Smaller casinos may not — check the payments page before signing up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between USDT20 and USDT TRC-20?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDT20 (ERC-20) runs on Ethereum (fees: $1-$10). USDT TRC-20 runs on Tron (fees: $1 flat). TRC-20 is cheaper but has fewer casinos supporting it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are USDT withdrawals at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At our top 5: Stake, BC.Game, Roobet (instant), Metaspins (0-1 hour), Thunderpick (0-2 hours). Fiat withdrawals take 1-5 days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I buy USDT with a credit card?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, via MoonPay, Simplex, or BitPay. Many crash casinos (Thunderpick, BC.Game) let you buy USDT directly with a card."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is USDT crash gambling safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you play at licensed, provably fair casinos. USDT itself is safe (fully backed by reserves). Avoid unlicensed casinos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if USDT loses its $1 peg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Highly unlikely. USDT is fully backed by reserves and has maintained its $1 peg since 2014. Even during market crashes, USDT stays stable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use USDT or USDC for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both work well. USDT is more widely accepted at crash casinos. USDC is slightly more transparent (monthly reserves audits) but fewer casinos support it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I deposit USDT and withdraw Bitcoin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At most casinos, no. You usually withdraw in the same currency you deposited. Check the casino's withdrawal policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum USDT deposit at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most casinos have minimum deposits of $10-$20 USDT. Stake and Roobet have the lowest minimums ($5-$10)."
+      }
+    }
+  ]
+}

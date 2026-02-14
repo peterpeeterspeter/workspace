@@ -1,0 +1,51 @@
+[2026-02-06 08:30:35] ============================================================
+[2026-02-06 08:30:35] MBA ENRICHMENT - TARGETED (find-mba.com URLs only)
+[2026-02-06 08:30:35] ============================================================
+[2026-02-06 08:30:35] 
+📊 Loaded 728 programs
+[2026-02-06 08:30:35]   Programs with find-mba.com URLs: 12
+[2026-02-06 08:30:35] 
+[1/12] Online MBA
+[2026-02-06 08:30:35]   🌐 Scraping: https://find-mba.com/schools/usa/new-york/adelphi
+[2026-02-06 08:30:41] 
+[2/12] Online MBA
+[2026-02-06 08:30:41]   🌐 Scraping: https://find-mba.com/schools/online-mba-programs/american-university-au-kogod-school-of-business-online-mba
+[2026-02-06 08:30:46] 
+[3/12] Online MBA
+[2026-02-06 08:30:46]   🌐 Scraping: https://find-mba.com/schools/usa/arkansas/arkansas-state
+[2026-02-06 08:30:51] 
+[4/12] Online MBA
+[2026-02-06 08:30:51]   🌐 Scraping: https://find-mba.com/schools/uk-ireland/uk/aston
+[2026-02-06 08:30:55] 
+[5/12] Online MBA
+[2026-02-06 08:30:55]   🌐 Scraping: https://find-mba.com/schools/usa/alabama/auburn
+[2026-02-06 08:31:00] 
+[6/12] Online MBA
+[2026-02-06 08:31:00]   🌐 Scraping: https://find-mba.com/schools/usa/alabama/auburn-u-montgomery
+[2026-02-06 08:31:04] 
+[7/12] Online MBA
+[2026-02-06 08:31:04]   🌐 Scraping: https://find-mba.com/schools/usa/texas/baylor-hankamer
+[2026-02-06 08:31:08] 
+[8/12] Online MBA
+[2026-02-06 08:31:08]   🌐 Scraping: https://find-mba.com/schools/usa/kentucky/bellarmine
+[2026-02-06 08:31:12] 
+[9/12] Online MBA
+[2026-02-06 08:31:12]   🌐 Scraping: https://find-mba.com/schools/usa/pennsylvania/bloomsburg
+[2026-02-06 08:31:17] 
+[10/12] Online MBA
+[2026-02-06 08:31:17]   🌐 Scraping: https://find-mba.com/schools/usa/idaho/boise-state
+[2026-02-06 08:31:21] 
+[11/12] Online MBA
+[2026-02-06 08:31:21]   🌐 Scraping: https://find-mba.com/schools/australia-nz/australia/bond-u
+[2026-02-06 08:31:25] 
+[12/12] Online MBA
+[2026-02-06 08:31:25]   🌐 Scraping: https://find-mba.com/schools/europe/germany/university-of-cologne-business-school
+[2026-02-06 08:31:29] 
+✓ Saved to: /root/.openclaw/workspace/data/mba-enriched-targeted.csv
+[2026-02-06 08:31:29]   Enriched: 12 programs
+[2026-02-06 08:31:29] 
+📈 Fields filled:
+[2026-02-06 08:31:29] 
+============================================================
+[2026-02-06 08:31:29] COMPLETE
+[2026-02-06 08:31:29] ============================================================

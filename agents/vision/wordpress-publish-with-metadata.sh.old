@@ -1,0 +1,234 @@
+#!/bin/bash
+# WordPress Publishing with FULL Metadata Support
+# Includes meta description, title tags, schema markup, SEO data
+
+TASK_ID=$1
+TASK_TITLE=$2
+
+# Source skills integration
+source /root/.openclaw/workspace/agents/shared/skills-integration.sh
+
+# Log setup
+LOG_DIR="/root/.openclaw/workspace/tasks/logs"
+mkdir -p "$LOG_DIR"
+LOG_FILE="$LOG_DIR/${TASK_ID}.log"
+
+echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$LOG_FILE"
+echo "Vision: WordPress Publishing with FULL Metadata" >> "$LOG_FILE"
+echo "Task: ${TASK_TITLE}" >> "$LOG_FILE"
+
+# Find draft articles
+DRAFT_DIR="/root/.openclaw/workspace/drafts"
+
+if [ ! -d "$DRAFT_DIR" ]; then
+  echo "ERROR: Drafts directory not found: ${DRAFT_DIR}" >> "$LOG_FILE"
+  exit 1
+fi
+
+DRAFT_COUNT=$(find "$DRAFT_DIR" -name "*.md" -type f | wc -l)
+echo "Found ${DRAFT_COUNT} draft articles" >> "$LOG_FILE"
+
+if [ "$DRAFT_COUNT" -eq 0 ]; then
+  echo "ERROR: No draft articles found" >> "$LOG_FILE"
+  exit 1
+fi
+
+PUBLISHED_COUNT=0
+FAILED_COUNT=0
+
+# Process each draft
+for draft_file in "$DRAFT_DIR"/*.md; do
+  if [ ! -f "$draft_file" ]; then
+    continue
+  fi
+
+  draft_name=$(basename "$draft_file" .md)
+  echo "" >> "$LOG_FILE"
+  echo "Processing: ${draft_name}" >> "$LOG_FILE"
+
+  # Convert markdown to HTML
+  HTML_RESULT=$(python3 /root/.openclaw/workspace/agents/shared/md2html-fixed.py "$draft_file" 2>> "$LOG_FILE")
+
+  if ! echo "$HTML_RESULT" | jq -e '.html' > /dev/null 2>&1; then
+    echo "ERROR: Failed to convert markdown" >> "$LOG_FILE"
+    ((FAILED_COUNT++))
+    continue
+  fi
+
+  # Extract data
+  TITLE=$(echo "$HTML_RESULT" | jq -r '.metadata.title // empty')
+  HTML_CONTENT=$(echo "$HTML_RESULT" | jq -r '.html // empty')
+  META_DESC=$(echo "$HTML_RESULT" | jq -r '.metadata.description // empty')
+  KEYWORDS=$(echo "$HTML_RESULT" | jq -r '.metadata.keywords // []')
+  TARGET_SITE=$(echo "$HTML_RESULT" | jq -r '.metadata.site // empty')
+
+  # Default title if not found
+  if [ -z "$TITLE" ] || [ "$TITLE" = "null" ]; then
+    TITLE=$(grep -m1 "^# " "$draft_file" | sed 's/^# //')
+    if [ -z "$TITLE" ]; then
+      TITLE="$draft_name"
+    fi
+  fi
+
+  # Extract metadata from markdown file
+  # Look for meta fields in the content
+  SEO_TITLE=$(grep -i "^**Title Tag:**" "$draft_file" | head -1 | sed 's/\*\*Title Tag:\*\* *//i' | xargs)
+  if [ -z "$SEO_TITLE" ]; then
+    SEO_TITLE="$TITLE"
+  fi
+
+  # Meta description
+  if [ -z "$META_DESC" ] || [ "$META_DESC" = "null" ]; then
+    META_DESC=$(grep -i "^**Meta Description:**" "$draft_file" | head -1 | sed 's/\*\*Meta Description:\*\* *//i' | xargs)
+  fi
+
+  # Focus keyword
+  FOCUS_KEYWORD=$(grep -i "^**Primary Keyword:**" "$draft_file" | head -1 | sed 's/\*\*Primary Keyword:\*\* *//i' | xargs)
+  if [ -z "$FOCUS_KEYWORD" ]; then
+    FOCUS_KEYWORD=$(grep -i "^**Target Keyword:**" "$draft_file" | head -1 | sed 's/\*\*Target Keyword:\*\* *//i' | xargs)
+  fi
+
+  # Extract meta keywords
+  if [ -z "$KEYWORDS" ] || [ "$KEYWORDS" = "null" ] || [ "$KEYWORDS" = "[]" ]; then
+    KEYWORDS_STR=$(grep -i "^**Target Keywords:**" "$draft_file" | head -1 | sed 's/\*\*Target Keywords:\*\* *//i' | xargs)
+    if [ -n "$KEYWORDS_STR" ]; then
+      KEYWORDS=$(echo "$KEYWORDS_STR" | jq -R '[split(",")[] | map(select(length > 0))]')
+    fi
+  fi
+
+  # Default site
+  if [ -z "$TARGET_SITE" ] || [ "$TARGET_SITE" = "null" ]; then
+    TARGET_SITE="crashcasino.io"
+  fi
+
+  echo "Title: ${TITLE}" >> "$LOG_FILE"
+  echo "SEO Title: ${SEO_TITLE}" >> "$LOG_FILE"
+  echo "Meta Description: ${META_DESC:0:100}..." >> "$LOG_FILE"
+  echo "Focus Keyword: ${FOCUS_KEYWORD}" >> "$LOG_FILE"
+  echo "Site: ${TARGET_SITE}" >> "$LOG_FILE"
+
+  # Get WordPress credentials
+  WP_URL=""
+  WP_USER="peter"
+  WP_APP=""
+
+  case "$TARGET_SITE" in
+    crashcasino.io)
+      WP_URL="https://crashcasino.io"
+      WP_APP="${WORDPRESS_CRASHCASINO_APP_PASSWORD:-}"
+      CATEGORY="Reviews"
+      ;;
+    cryptocrashgambling.com)
+      WP_URL="https://cryptocrashgambling.com"
+      WP_APP="${WORDPRESS_CRYPTOCRASH_APP_PASSWORD:-}"
+      CATEGORY="Bitcoin"
+      ;;
+    crashgamegambling.com)
+      WP_URL="https://crashgamegambling.com"
+      WP_APP="${WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD:-}"
+      CATEGORY="Strategy"
+      ;;
+    freecrashgames.com)
+      WP_URL="https://freecrashgames.com"
+      WP_APP="${WORDPRESS_FREECRASH_APP_PASSWORD:-}"
+      CATEGORY="Bonuses"
+      ;;
+    aviatorcrashgame.com)
+      WP_URL="https://aviatorcrashgame.com"
+      WP_APP="${WORDPRESS_AVIATORCRASH_APP_PASSWORD:-}"
+      CATEGORY="Aviator"
+      ;;
+    *)
+      echo "WARNING: Unknown site ${TARGET_SITE}, skipping" >> "$LOG_FILE"
+      ((FAILED_COUNT++))
+      continue
+      ;;
+  esac
+
+  # Check credentials
+  if [ -z "$WP_APP" ]; then
+    echo "ERROR: No WordPress credentials for ${TARGET_SITE}" >> "$LOG_FILE"
+    ((FAILED_COUNT++))
+    continue
+  fi
+
+  # Escape HTML content for JSON
+  ESCAPED_HTML=$(echo "$HTML_CONTENT" | jq -Rs .)
+
+  # Generate schema markup
+  SCHEMA_MARKUP=$(cat <<EOF
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "${TITLE}",
+  "description": "${META_DESC}",
+  "keywords": "${KEYWORDS}"
+}
+EOF
+)
+
+  # Build JSON payload with FULL metadata
+  JSON_PAYLOAD=$(cat <<EOF
+{
+  "title": "${TITLE}",
+  "content": ${ESCAPED_HTML},
+  "excerpt": "${META_DESC}",
+  "status": "publish",
+  "categories": ["${CATEGORY}"],
+  "meta": {
+    "yoastseo": {
+      "title": "${SEO_TITLE}",
+      "metadesc": "${META_DESC}",
+      "focuskw": "${FOCUS_KEYWORD}",
+      "keywords": ${KEYWORDS}
+    },
+    "schema": "${SCHEMA_MARKUP}"
+  }
+}
+EOF
+)
+
+  # Publish via WordPress REST API
+  echo "Publishing to ${TARGET_SITE} with full metadata..." >> "$LOG_FILE"
+
+  RESPONSE=$(curl -s -X POST "${WP_URL}/wp-json/wp/v2/posts" \
+    --user "${WP_USER}:${WP_APP}" \
+    -H "Content-Type: application/json" \
+    -d "$JSON_PAYLOAD" 2>&1)
+
+  # Check response
+  if echo "$RESPONSE" | jq -e '.id' > /dev/null 2>&1; then
+    POST_ID=$(echo "$RESPONSE" | jq -r '.id')
+    POST_LINK=$(echo "$RESPONSE" | jq -r '.link // empty')
+    echo "✅ SUCCESS: Published as post #${POST_ID}" >> "$LOG_FILE"
+    if [ -n "$POST_LINK" ]; then
+      echo "   Link: ${POST_LINK}" >> "$LOG_FILE"
+    fi
+    ((PUBLISHED_COUNT++))
+
+    # Move published draft to archive
+    ARCHIVE_DIR="/root/.openclaw/workspace/drafts/published"
+    mkdir -p "$ARCHIVE_DIR"
+    mv "$draft_file" "${ARCHIVE_DIR}/${draft_name}.md"
+    echo "   Archived: ${ARCHIVE_DIR}/${draft_name}.md" >> "$LOG_FILE"
+  else
+    echo "❌ ERROR: Failed to publish" >> "$LOG_FILE"
+    echo "   Response: ${RESPONSE}" >> "$LOG_FILE"
+    ((FAILED_COUNT++))
+  fi
+done
+
+# Summary
+echo "" >> "$LOG_FILE"
+echo "=== Publishing Summary ===" >> "$LOG_FILE"
+echo "✅ Published: ${PUBLISHED_COUNT}" >> "$LOG_FILE"
+echo "❌ Failed: ${FAILED_COUNT}" >> "$LOG_FILE"
+echo "📊 Total: $((PUBLISHED_COUNT + FAILED_COUNT))" >> "$LOG_FILE"
+
+if [ "$PUBLISHED_COUNT" -gt 0 ]; then
+  echo "WordPress publishing complete with FULL metadata (title, description, schema, keywords)" >> "$LOG_FILE"
+  exit 0
+else
+  echo "ERROR: No articles published" >> "$LOG_FILE"
+  exit 1
+fi

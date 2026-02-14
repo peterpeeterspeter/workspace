@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash games use RNG to determine multipliers. Licensed, provably fair casinos are audited and verified. The house edge comes from probability, not rigging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do I always seem to crash right before my target?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confirmation bias. You remember the close calls, not the easy wins. The math is the same every round—independent, random, and -EV."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I beat crash gambling with math?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The math guarantees the casino wins long-term. You can have short-term wins (variance), but you can't beat the house edge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash gambling strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bankroll management. Set loss limits, bet 1-2% per round, and walk away when you hit your target. No strategy beats the house edge, but smart play extends your fun."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do some people win big at crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Short-term variance. Anyone can get lucky and hit 10x, 50x, even 100x. But if they keep playing, they'll give it back. The math always wins eventually."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does auto-cashout improve odds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Auto-cashout is just discipline—it doesn't change probability. It helps you stick to a strategy, but the EV is still negative."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the safest crash gambling strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low volatility cashout (1.5x - 2x). You'll win more often (48-65% hit rate), have smaller swings, and extend your playtime. But you'll still lose long-term."
+      }
+    }
+  ]
+}

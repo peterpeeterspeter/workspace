@@ -1,0 +1,197 @@
+#!/bin/bash
+
+# Batch 3 WordPress Publishing Script
+# Publishes 4 articles to crashgamegambling.com and crashcasino.io
+
+set -e
+
+# Color codes for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# WordPress credentials
+CRASHGAME_URL="https://crashgamegambling.com/wp-json"
+CRASHGAME_USER="@peter"
+CRASHGAME_PASS="MioX SygN Xaz6 pK9o RUiK tBMF"
+
+CRASHCASINO_URL="https://crashcasino.io/wp-json"
+CRASHCASINO_USER="peter"
+CRASHCASINO_PASS="3vRhtTs2khfdLtTiDFqkdeXI"
+
+# Function to convert markdown to basic HTML
+markdown_to_html() {
+    local markdown_file="$1"
+
+    # Read the file
+    content=$(cat "$markdown_file")
+
+    # Skip frontmatter (between --- lines)
+    content=$(echo "$content" | sed '1,/^---$/d' | sed '1,/^---$/d')
+
+    # Convert markdown headers to HTML
+    content=$(echo "$content" | sed -E 's/^# (.*)$/<h1>\1<\/h1>/')
+    content=$(echo "$content" | sed -E 's/^## (.*)$/<h2>\1<\/h2>/')
+    content=$(echo "$content" | sed -E 's/^### (.*)$/<h3>\1<\/h3>/')
+    content=$(echo "$content" | sed -E 's/^#### (.*)$/<h4>\1<\/h4>/')
+
+    # Convert bold and italic
+    content=$(echo "$content" | sed -E 's/\*\*(.*?)\*\*/<strong>\1<\/strong>/g')
+    content=$(echo "$content" | sed -E 's/\*(.*?)\*/<em>\1<\/em>/g')
+
+    # Convert links [text](url) to <a href="url">text</a>
+    content=$(echo "$content" | sed -E 's/\[([^\]]+)\]\(([^\)]+)\)/<a href="\2">\1<\/a>/g')
+
+    # Convert code blocks (basic)
+    content=$(echo "$content" | sed -E 's/`([^`]+)`/<code>\1<\/code>/g')
+
+    # Convert line breaks to <br> or wrap paragraphs
+    content=$(echo "$content" | sed -E 's/^$/<\/p><p>/g')
+
+    # Wrap in paragraph tags
+    content="<p>$content</p>"
+
+    # Fix double paragraph tags
+    content=$(echo "$content" | sed -E 's/<p><\/p>//g')
+    content=$(echo "$content" | sed -E 's/<p>(<h[1-6]>)/\1/g')
+    content=$(echo "$content" | sed -E 's/(<\/h[1-6]>)<\/p>/\1/g')
+
+    echo "$content"
+}
+
+# Function to extract title from frontmatter
+extract_title() {
+    local markdown_file="$1"
+    grep "^title:" "$markdown_file" | head -1 | sed 's/title: *//' | sed 's/"//g' | sed "s/'//g"
+}
+
+# Function to extract description from frontmatter
+extract_description() {
+    local markdown_file="$1"
+    grep "^description:" "$markdown_file" | head -1 | sed 's/description: *//' | sed 's/"//g' | sed "s/'//g"
+}
+
+# Function to publish to WordPress
+publish_wordpress() {
+    local site_url="$1"
+    local username="$2"
+    local password="$3"
+    local title="$4"
+    local content="$5"
+    local excerpt="$6"
+    local status="${7:-draft}"  # Default to draft
+
+    echo -e "${YELLOW}Publishing to $site_url...${NC}"
+
+    # Build JSON payload
+    json_payload=$(cat <<EOF
+{
+  "title": "$title",
+  "content": $(echo "$content" | jq -Rs .),
+  "excerpt": "$excerpt",
+  "status": "$status"
+}
+EOF
+)
+
+    # Publish via REST API
+    response=$(curl -s -X POST \
+      "$site_url/wp/v2/posts" \
+      -u "$username:$password" \
+      -H "Content-Type: application/json" \
+      -d "$json_payload")
+
+    # Check for errors
+    if echo "$response" | jq -e '.code' > /dev/null 2>&1; then
+        echo -e "${RED}Error publishing: $response${NC}"
+        return 1
+    fi
+
+    # Extract post ID and link
+    post_id=$(echo "$response" | jq -r '.id')
+    post_link=$(echo "$response" | jq -r '.link')
+
+    echo -e "${GREEN}✓ Published successfully!${NC}"
+    echo "  Post ID: $post_id"
+    echo "  Link: $post_link"
+
+    return 0
+}
+
+# Main execution
+echo -e "${GREEN}========================================${NC}"
+echo -e "${GREEN}Batch 3 WordPress Publishing${NC}"
+echo -e "${GREEN}========================================${NC}"
+echo ""
+
+# Article 1: Crash Gambling Cashout Strategies
+echo -e "${YELLOW}[1/4] Publishing: Crash Gambling Cashout Strategies${NC}"
+title=$(extract_title "/root/.openclaw/workspace/drafts/batch3-crashgame-003-cashout-strategies.md")
+description=$(extract_description "/root/.openclaw/workspace/drafts/batch3-crashgame-003-cashout-strategies.md")
+content=$(markdown_to_html "/root/.openclaw/workspace/drafts/batch3-crashgame-003-cashout-strategies.md")
+
+publish_wordpress \
+  "$CRASHGAME_URL" \
+  "$CRASHGAME_USER" \
+  "$CRASHGAME_PASS" \
+  "$title" \
+  "$content" \
+  "$description" \
+  "draft"
+
+echo ""
+
+# Article 2: Crash Game Variants
+echo -e "${YELLOW}[2/4] Publishing: Crash Game Variants${NC}"
+title=$(extract_title "/root/.openclaw/workspace/drafts/batch3-crashgame-004-crash-variants.md")
+description=$(extract_description "/root/.openclaw/workspace/drafts/batch3-crashgame-004-crash-variants.md")
+content=$(markdown_to_html "/root/.openclaw/workspace/drafts/batch3-crashgame-004-crash-variants.md")
+
+publish_wordpress \
+  "$CRASHGAME_URL" \
+  "$CRASHGAME_USER" \
+  "$CRASHGAME_PASS" \
+  "$title" \
+  "$content" \
+  "$description" \
+  "draft"
+
+echo ""
+
+# Article 3: How to Choose a Safe Crash Casino
+echo -e "${YELLOW}[3/4] Publishing: How to Choose a Safe Crash Casino${NC}"
+title=$(extract_title "/root/.openclaw/workspace/drafts/batch3-crashcasino-007-casino-selection-checklist.md")
+description=$(extract_description "/root/.openclaw/workspace/drafts/batch3-crashcasino-007-casino-selection-checklist.md")
+content=$(markdown_to_html "/root/.openclaw/workspace/drafts/batch3-crashcasino-007-casino-selection-checklist.md")
+
+publish_wordpress \
+  "$CRASHCASINO_URL" \
+  "$CRASHCASINO_USER" \
+  "$CRASHCASINO_PASS" \
+  "$title" \
+  "$content" \
+  "$description" \
+  "draft"
+
+echo ""
+
+# Article 4: Crash Casino Scams
+echo -e "${YELLOW}[4/4] Publishing: Crash Casino Scams${NC}"
+title=$(extract_title "/root/.openclaw/workspace/drafts/batch3-crashcasino-008-crash-casino-scams.md")
+description=$(extract_description "/root/.openclaw/workspace/drafts/batch3-crashcasino-008-crash-casino-scams.md")
+content=$(markdown_to_html "/root/.openclaw/workspace/drafts/batch3-crashcasino-008-crash-casino-scams.md")
+
+publish_wordpress \
+  "$CRASHCASINO_URL" \
+  "$CRASHCASINO_USER" \
+  "$CRASHCASINO_PASS" \
+  "$title" \
+  "$content" \
+  "$description" \
+  "draft"
+
+echo ""
+echo -e "${GREEN}========================================${NC}"
+echo -e "${GREEN}✓ All 4 articles published successfully!${NC}"
+echo -e "${GREEN}========================================${NC}"

@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling legal in Germany?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray area. GlüNeuRegV (2021 law) doesn't mention crash games. Licensed German casinos don't offer crash. Offshore casinos accept DE players (technically illegal for operators, but players are rarely prosecuted). You're unlikely to get arrested, but you have no legal protection if scammed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can German players play on offshore crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. 80% of German online gamblers play offshore (unofficial estimate). Offshore casinos accept DE players, process deposits/withdrawals, and offer crash games. Legal risk is low (for players), but you have zero legal protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a VPN to play crash in Germany?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. Most offshore casinos accept German IPs. However, some casinos block German players — in that case, use a VPN (NordVPN, Surfshark). Test with small deposit first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there German-language crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Stake and BC.Game offer German language + crash games. Licensed German casinos (Platin, Wunderino) have German language but NO crash games."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods work for German players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crypto is best (USDT, BTC, ETH, LTC) — fast, low fees, widely accepted. Sofort, Giropay, PayPal are rarely supported at offshore crash casinos. Credit cards work but are slow (3-7 day withdrawals)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I owe taxes on crash gambling winnings in Germany?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Gambling winnings are tax-free in Germany (§3 Nr. 2 EStG). However, if you're a 'professional gambler' (gambling is your main income), you might owe taxes — but this is rare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's GlüNeuRegV and how does it affect crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GlüNeuRegV is Germany's 2021 Interstate Gambling Treaty. It restricts online gambling to state-licensed operators. Only 7 licenses were issued. Crash games aren't mentioned (gray area). Licensed casinos don't offer crash, so German players play offshore."
+      }
+    }
+  ]
+}

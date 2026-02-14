@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you audit a crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We evaluate 10 criteria: license validity, SSL encryption, provably fair systems, 2FA availability, cold storage for funds, independent audits, payment speed, support quality, reputation, and terms fairness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the safest crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Based on our audits, Stake and BC.Game score highest (98/100 and 97/100) for security, fairness, and reliability. Both are licensed, provably fair, and have excellent reputations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are Curaçao licenses safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Curaçao licenses offer basic regulation but are weaker than MGA or UKGC. Look for casinos with good reputations, provably fair games, and independent audits if they have Curaçao licenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I verify provably fair crash games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After each round, copy the server seed and use the casino's verification tool to confirm the crash multiplier matches the hash published before the round. If the numbers match, the game was fair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are red flags of unsafe crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No license, fake license, no provably fair system, consistently suspicious crash results (1.00x repeatedly), refusal to pay, delayed withdrawals, unresponsive support, and negative reviews."
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[0;34m🔄 Refreshing Research Cache[0m
+Site: hobbysalon
+Mode: DELTA (incremental updates only)
+Started: Mon Feb  9 03:00:02 AM UTC 2026
+
+/root/.openclaw/workspace/scripts/refresh-research-cache.sh: line 100: sessions_send: command not found

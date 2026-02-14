@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-03T06:22:45.086551",
+    "category": "labs",
+    "operation": "search_intent",
+    "keyword": "is crash gambling rigged",
+    "extra_info": "5_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0354 sec.",
+    "cost": 0.0015,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030822-8420-0541-0000-57eb5065c631",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0226 sec.",
+        "cost": 0.0015,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "search_intent",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "search_intent",
+          "se_type": "google",
+          "keywords": [
+            "is crash gambling rigged",
+            "bitcoin crash gambling",
+            "crash gambling for beginners",
+            "crash casinos india",
+            "aviator strategy"
+          ],
+          "language_name": "English",
+          "tag": null
+        },
+        "result": [
+          {
+            "language_code": "en",
+            "items_count": 5,
+            "items": [
+              {
+                "keyword": "is crash gambling rigged",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.7820208
+                }
+              },
+              {
+                "keyword": "bitcoin crash gambling",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.44566536
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "commercial",
+                    "probability": 0.3933774
+                  }
+                ]
+              },
+              {
+                "keyword": "crash gambling for beginners",
+                "keyword_intent": {
+                  "label": "commercial",
+                  "probability": 0.58768487
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "informational",
+                    "probability": 0.3891838
+                  }
+                ]
+              },
+              {
+                "keyword": "crash casinos india",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.4646896
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "navigational",
+                    "probability": 0.4253073
+                  }
+                ]
+              },
+              {
+                "keyword": "aviator strategy",
+                "keyword_intent": {
+                  "label": "commercial",
+                  "probability": 0.92725873
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

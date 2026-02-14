@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only if you play at unlicensed casinos without provably fair systems. Our recommended casinos are all provably fair — you can verify each round's outcome."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash strategy for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Set auto-cashout at 1.5x-2.0x, bet 1-2% of your bankroll per round, and quit when you're down 30% of your session budget. No strategy beats the house edge long-term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make money playing crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash has a house edge (1-2%), so you'll lose long-term. Play for entertainment, not income. Short-term wins are possible, but the math favors the casino."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum bet at crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most casinos have minimum bets of $0.10-$1.00 per round. Stake and Roobet have the lowest minimums ($0.10)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I cash out in crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can manually cash out by clicking the Cash Out button during the round, or set auto-cashout before the round starts. Auto-cashout is recommended to avoid mistakes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I don't cash out before the crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You lose your entire bet. There's no partial payout or recovery. The round ends, and the next round starts in 5-10 seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash for free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most crash casinos offer demo mode or fun play where you can test the game without real money. Great for learning before depositing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is crash gambling legal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your country. In most countries, online gambling is legal at licensed offshore casinos. In the US, it's a gray state-by-state. Check your local laws before playing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are crash rounds?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crash rounds last 3-10 seconds, with a 5-10 second betting window between rounds. You can play 100+ rounds per hour if you want."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash casinos have mobile apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some do (Stake has excellent mobile apps), but most use mobile-optimized websites. All our top 5 crash casinos work on iOS and Android."
+      }
+    }
+  ]
+}

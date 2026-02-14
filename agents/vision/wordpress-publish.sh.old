@@ -1,0 +1,89 @@
+#!/bin/bash
+# Universal WordPress Publisher using Pinch-to-Post Integration
+# Updated Vision workflow with Gutenberg blocks + YAML/table handling
+
+set -e
+
+DRAFT_DIR="/root/.openclaw/workspace/drafts"
+ARCHIVE_DIR="/root/.openclaw/workspace/drafts/published"
+PUBLISHER="/root/.openclaw/workspace/wp-publish.sh"
+
+# Create archive directory
+mkdir -p "$ARCHIVE_DIR"
+
+# Publisher function using pinch-to-post
+publish_article() {
+  local draft_file="$1"
+  local site="$2"
+  local status="${3:-publish}"
+
+  if [ ! -f "$draft_file" ]; then
+    echo "❌ File not found: $draft_file"
+    return 1
+  fi
+
+  local draft_name=$(basename "$draft_file" .md)
+  echo "📝 $draft_name → $site"
+
+  if $PUBLISHER "$draft_file" "$site" "$status"; then
+    # Archive published articles
+    if [ "$status" = "publish" ]; then
+      cp "$draft_file" "$ARCHIVE_DIR/"
+    fi
+    return 0
+  else
+    echo "   ❌ Failed"
+    return 1
+  fi
+}
+
+# Batch publish from directory
+batch_publish() {
+  local site="$1"
+  local status="${2:-publish}"
+  local pattern="${3:-*.md}"
+  local count=0
+  local failed=0
+
+  echo "=========================================="
+  echo "📦 Batch Publishing: $site"
+  echo "Status: $status"
+  echo "=========================================="
+
+  for draft_file in "$DRAFT_DIR"/$pattern; do
+    if [ ! -f "$draft_file" ]; then
+      continue
+    fi
+
+    if publish_article "$draft_file" "$site" "$status"; then
+      ((count++))
+    else
+      ((failed++))
+    fi
+    echo ""
+  done
+
+  echo "=========================================="
+  echo "✅ Published: $count"
+  echo "❌ Failed: $failed"
+  echo "=========================================="
+}
+
+# Usage
+if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
+  if [ -z "$1" ]; then
+    echo "Usage: $0 <markdown-file> <site> [status]"
+    echo "       $0 --batch <site> [status] [pattern]"
+    echo ""
+    echo "Examples:"
+    echo "  $0 article.md crashcasino.io publish"
+    echo "  $0 --batch crashcasino.io publish 'month2-week1-*.md'"
+    exit 1
+  fi
+
+  if [ "$1" = "--batch" ]; then
+    batch_publish "${2:-crashcasino.io}" "${3:-publish}" "${4:-*.md}"
+  else
+    publish_article "$@"
+  fi
+fi

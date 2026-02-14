@@ -1,0 +1,1168 @@
+{
+  "source": "Sawiday.be (browser)",
+  "scraped_at": "2026-02-12",
+  "total_categories": 6,
+  "total_products": 144,
+  "categories": {
+    "alle": 24,
+    "vrijstaande": 24,
+    "inbouw": 24,
+    "half-vrijstaande": 24,
+    "hoek": 24,
+    "whirlpool": 24
+  },
+  "products": [
+    {
+      "name": "ZEZA Grand half vrijstaand hoekbad - links - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808839/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808839",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/6852cc0c7a3b90abf4e8e41b9ce610d9.jpg/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030592.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739168/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739168",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c7b29358ea6a812537c30b8554638952.jpg/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-mat-wit-sw962846.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - links - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739164/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739164",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/65e461eff2bb61a78afa9d7003bb2fb1.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit-sw962842.jpg"
+    },
+    {
+      "name": "ZEZA Solid Vrijstaand Bad - 150x72cm - solid surface - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77753674/zeza-solid-vrijstaand-bad-150x72cm-solid-surface-mat-wit",
+      "product_id": "77753674",
+      "price_eur": 1600.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d333d2623940c2f913aadf15aa242f3.jpg/zeza-solid-vrijstaand-bad-150x72cm-solid-surface-mat-wit-sw976291.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77667553/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-wit",
+      "product_id": "77667553",
+      "price_eur": 1700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/cc3af0047bf9e14cf611a7553773d06b.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-wit-sw892588.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand bad - ribbel - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739165/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739165",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/40eb5b7675b3db050f9e1afa12daa978.jpg/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit-sw962843.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739169/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739169",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-mat-wit-sw962847.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand bad - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808838/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808838",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/884369e534b304ec3bd0be487556a42c.jpg/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030591.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - rechts - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739162/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739162",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c2326744832a543094c4869bc5d47cb5.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit-sw962841.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - rechts - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739167/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739167",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/80ab14cbbef4fed4af81d4b5f838be8b.jpg/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-mat-wit-sw962845.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77922143/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-zwart",
+      "product_id": "77922143",
+      "price_eur": 1700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/f9ddf02f4eec0c34fa1e7bc07344bf4d.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-zwart-sw1159701.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739172/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739172",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/194dcb5db9ee4c58a6ae35f8d001695a.jpg/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-glans-wit-sw962850.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - rechts - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739171/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739171",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9b8f9e4c9125b27a4ff8b666a7731cc4.jpg/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-glans-wit-sw962849.jpg"
+    },
+    {
+      "name": "ZEZA Pure vrijstaand bad - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739166/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739166",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c7fb6c388047b294296ffa48309edbb2.jpg/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-mat-wit-sw962844.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739173/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739173",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-glans-wit-sw962851.jpg"
+    },
+    {
+      "name": "Zeza Oval Ligbad - 180x80cm - acryl - duo - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792521/zeza-oval-ligbad-180x80cm-acryl-duo-glans-wit",
+      "product_id": "77792521",
+      "price_eur": 194.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e64483a13e0a3a0cb525ae4aeceb42c4.jpg/zeza-oval-ligbad-180x80cm-acryl-duo-glans-wit-sw1015083.jpg"
+    },
+    {
+      "name": "ZEZA Blend vrijstaand bad - ribbel - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739161/zeza-blend-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739161",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/8ff63d6d9e7ec698f0efc078e39469ff.jpg/zeza-blend-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit-sw962840.jpg"
+    },
+    {
+      "name": "Zeza Enova Vrijstaand Bad - 170x80cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78201762/zeza-enova-vrijstaand-bad-170x80cm-acryl-glans-wit",
+      "product_id": "78201762",
+      "price_eur": 719.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/d5758aded84447afc2fb073b97a07da7.jpg/zeza-enova-vrijstaand-bad-170x80cm-acryl-glans-wit-sw1427034.jpg"
+    },
+    {
+      "name": "Zeza Oval Ligbad - 170x70cm - acryl - duo - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792520/zeza-oval-ligbad-170x70cm-acryl-duo-glans-wit",
+      "product_id": "77792520",
+      "price_eur": 184.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e64483a13e0a3a0cb525ae4aeceb42c4.jpg/zeza-oval-ligbad-170x70cm-acryl-duo-glans-wit-sw1015082.jpg"
+    },
+    {
+      "name": "Zeza Square Ligbad - 170x75cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792523/zeza-square-ligbad-170x75cm-acryl-glans-wit",
+      "product_id": "77792523",
+      "price_eur": 184.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/ca9fa01710cc8a2c5f6c6228aaf55191.jpg/zeza-square-ligbad-170x75cm-acryl-glans-wit-sw1015085.jpg"
+    },
+    {
+      "name": "Zeza Square Ligbad - 180x80cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792522/zeza-square-ligbad-180x80cm-acryl-glans-wit",
+      "product_id": "77792522",
+      "price_eur": 194.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/ca9fa01710cc8a2c5f6c6228aaf55191.jpg/zeza-square-ligbad-180x80cm-acryl-glans-wit-sw1015084.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739176/zeza-pure-half-vrijstaand-hoekbad-links-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739176",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/194dcb5db9ee4c58a6ae35f8d001695a.jpg/zeza-pure-half-vrijstaand-hoekbad-links-150x75x58cm-acryl-glans-wit-sw962854.jpg"
+    },
+    {
+      "name": "ZEZA Pure vrijstaand bad - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739170/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739170",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1514a67b29242237af0380ac4df256c3.jpg/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-glans-wit-sw962848.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739177/zeza-pure-half-vrijstaand-bad-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739177",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-150x75x58cm-acryl-glans-wit-sw962855.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand hoekbad - links - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808839/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808839",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/6852cc0c7a3b90abf4e8e41b9ce610d9.jpg/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030592.jpg"
+    },
+    {
+      "name": "ZEZA Solid Vrijstaand Bad - 150x72cm - solid surface - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77753674/zeza-solid-vrijstaand-bad-150x72cm-solid-surface-mat-wit",
+      "product_id": "77753674",
+      "price_eur": 1600.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d333d2623940c2f913aadf15aa242f3.jpg/zeza-solid-vrijstaand-bad-150x72cm-solid-surface-mat-wit-sw976291.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77667553/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-wit",
+      "product_id": "77667553",
+      "price_eur": 1700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/cc3af0047bf9e14cf611a7553773d06b.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-wit-sw892588.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand bad - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808838/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808838",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/884369e534b304ec3bd0be487556a42c.jpg/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030591.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77922143/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-zwart",
+      "product_id": "77922143",
+      "price_eur": 1700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/f9ddf02f4eec0c34fa1e7bc07344bf4d.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-zwart-sw1159701.jpg"
+    },
+    {
+      "name": "ZEZA Pure vrijstaand bad - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739166/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739166",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c7fb6c388047b294296ffa48309edbb2.jpg/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-mat-wit-sw962844.jpg"
+    },
+    {
+      "name": "ZEZA Blend vrijstaand bad - ribbel - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739161/zeza-blend-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739161",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/8ff63d6d9e7ec698f0efc078e39469ff.jpg/zeza-blend-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit-sw962840.jpg"
+    },
+    {
+      "name": "Zeza Enova Vrijstaand Bad - 170x80cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78201762/zeza-enova-vrijstaand-bad-170x80cm-acryl-glans-wit",
+      "product_id": "78201762",
+      "price_eur": 719.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/d5758aded84447afc2fb073b97a07da7.jpg/zeza-enova-vrijstaand-bad-170x80cm-acryl-glans-wit-sw1427034.jpg"
+    },
+    {
+      "name": "ZEZA Pure vrijstaand bad - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739170/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739170",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1514a67b29242237af0380ac4df256c3.jpg/zeza-pure-vrijstaand-bad-170x80x58cm-acryl-glans-wit-sw962848.jpg"
+    },
+    {
+      "name": "ZEZA Pure vrijstaand bad - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739174/zeza-pure-vrijstaand-bad-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739174",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/00c9c6c3ed815f863acc026a011bd14b.jpg/zeza-pure-vrijstaand-bad-150x75x58cm-acryl-glans-wit-sw962852.jpg"
+    },
+    {
+      "name": "ZEZA Solid Vrijstaand Bad - 170x75cm - solid surface - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77753675/zeza-solid-vrijstaand-bad-170x75cm-solid-surface-mat-wit",
+      "product_id": "77753675",
+      "price_eur": 1650.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d333d2623940c2f913aadf15aa242f3.jpg/zeza-solid-vrijstaand-bad-170x75cm-solid-surface-mat-wit-sw976292.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77951281/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-glans-wit",
+      "product_id": "77951281",
+      "price_eur": 1650.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1d912024502bfd65e8fb367b851c35bf.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-glans-wit-sw1186424.jpg"
+    },
+    {
+      "name": "Zeza Nuo Vrijstaand Bad - 170x80x58cm - ribbel - met afvoer - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78181596/zeza-nuo-vrijstaand-bad-170x80x58cm-ribbel-met-afvoer-mat-zwart",
+      "product_id": "78181596",
+      "price_eur": 1050.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/cc23a0f5a691f2e3639c9f792958ff1d.jpg/zeza-nuo-vrijstaand-bad-170x80x58cm-ribbel-met-afvoer-mat-zwart-sw1408465.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand hoekbad - rechts - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808840/zeza-grand-half-vrijstaand-hoekbad-rechts-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808840",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/30d33578aaffa2d5a45dcf87d316639c.jpg/zeza-grand-half-vrijstaand-hoekbad-rechts-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030593.jpg"
+    },
+    {
+      "name": "Riho Bilbao Vrijstaand Bad - 170x80cm - solid surface - mat wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77055901/riho-bilbao-vrijstaand-bad-170x80cm-solid-surface-mat-wit",
+      "product_id": "77055901",
+      "price_eur": 2541.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4ba4326303de2a85489b50c8161ca182.jpg/riho-bilbao-vrijstaand-bad-170x80cm-solid-surface-mat-wit-sw241481.jpg"
+    },
+    {
+      "name": "ZEZA Nicky Vrijstaand bad - 170x80cm - acryl - sifon - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77060259/zeza-nicky-vrijstaand-bad-170x80cm-acryl-sifon-glans-wit",
+      "product_id": "77060259",
+      "price_eur": 1900.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/6a899dc918d0370df7f4d731dd52b3a2.jpg/zeza-nicky-vrijstaand-bad-170x80cm-acryl-sifon-glans-wit-sw276845.jpg"
+    },
+    {
+      "name": "ZEZA Grand vrijstaand bad - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808834/zeza-grand-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808834",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/a67f24b7fa4ff3e4faada33676249287.jpg/zeza-grand-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030590.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand bad - 180x80x58cm - met afvoer - acryl - rond - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78218032/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-rond-glans-wit",
+      "product_id": "78218032",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/091394ce81cee89e8b9ceddab8d0fec4.jpg/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-rond-glans-wit-sw1442342.jpg"
+    },
+    {
+      "name": "ZEZA Eloise Vrijstaand bad - 170x80cm - acryl - sifon - mat grijs",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78185987/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-grijs",
+      "product_id": "78185987",
+      "price_eur": 1700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/f78a3e6cb8e0b87a4f184c903915d7a6.jpg/zeza-eloise-vrijstaand-bad-170x80cm-acryl-sifon-mat-grijs-sw1412147.jpg"
+    },
+    {
+      "name": "Riho Bilbao Vrijstaand Bad - 150x75cm - solid surface - mat wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77055903/riho-bilbao-vrijstaand-bad-150x75cm-solid-surface-mat-wit",
+      "product_id": "77055903",
+      "price_eur": 2541.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/5c41fa2cc329b.jpg/riho-bilbao-vrijstaand-bad-150x75cm-solid-surface-mat-wit-sw241482.jpg"
+    },
+    {
+      "name": "MONDIAZ FLOAT Vrijstaand bad - 170x80cm - solid surface - talc",
+      "brand": "MONDIAZ",
+      "url": "https://www.sawiday.be/nl-be/p/77254361/mondiaz-float-vrijstaand-bad-170x80cm-solid-surface-talc",
+      "product_id": "77254361",
+      "price_eur": 2236.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/521f4188dfb3581e5cf34cfd1487959d.jpg/mondiaz-float-vrijstaand-bad-170x80cm-solid-surface-talc-sw491485.jpg"
+    },
+    {
+      "name": "Zeza Element Vrijstaand Bad - 145x71x60cm - solid surface - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77974450/zeza-element-vrijstaand-bad-145x71x60cm-solid-surface-mat-wit",
+      "product_id": "77974450",
+      "price_eur": 2700.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/8329850134a6413a7e3995435342ed65.jpg/zeza-element-vrijstaand-bad-145x71x60cm-solid-surface-mat-wit-sw1208794.jpg"
+    },
+    {
+      "name": "Riho Bilbao vrijstaand bad - 170x80cm - solid surface - mat Pebble Grey (Beige)",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77732737/riho-bilbao-vrijstaand-bad-170x80cm-solid-surface-mat-pebble-grey-beige",
+      "product_id": "77732737",
+      "price_eur": 3395.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/7f0d5968c3b0ed7a5f7a0fddf78ff39c.jpg/riho-bilbao-vrijstaand-bad-170x80cm-solid-surface-mat-pebble-grey-beige--sw956601.jpg"
+    },
+    {
+      "name": "Riho Oval vrijstaand bad - 175x80cm - solid surface - mat wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77631186/riho-oval-vrijstaand-bad-175x80cm-solid-surface-mat-wit",
+      "product_id": "77631186",
+      "price_eur": 3099.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/a63eefc3820765fa3ae72ded9886b8ff.jpg/riho-oval-vrijstaand-bad-175x80cm-solid-surface-mat-wit-sw857814.jpg"
+    },
+    {
+      "name": "Zeza Oval Ligbad - 180x80cm - acryl - duo - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792521/zeza-oval-ligbad-180x80cm-acryl-duo-glans-wit",
+      "product_id": "77792521",
+      "price_eur": 194.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e64483a13e0a3a0cb525ae4aeceb42c4.jpg/zeza-oval-ligbad-180x80cm-acryl-duo-glans-wit-sw1015083.jpg"
+    },
+    {
+      "name": "Zeza Oval Ligbad - 170x70cm - acryl - duo - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792520/zeza-oval-ligbad-170x70cm-acryl-duo-glans-wit",
+      "product_id": "77792520",
+      "price_eur": 184.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e64483a13e0a3a0cb525ae4aeceb42c4.jpg/zeza-oval-ligbad-170x70cm-acryl-duo-glans-wit-sw1015082.jpg"
+    },
+    {
+      "name": "Zeza Square Ligbad - 170x75cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792523/zeza-square-ligbad-170x75cm-acryl-glans-wit",
+      "product_id": "77792523",
+      "price_eur": 184.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/ca9fa01710cc8a2c5f6c6228aaf55191.jpg/zeza-square-ligbad-170x75cm-acryl-glans-wit-sw1015085.jpg"
+    },
+    {
+      "name": "Zeza Square Ligbad - 180x80cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792522/zeza-square-ligbad-180x80cm-acryl-glans-wit",
+      "product_id": "77792522",
+      "price_eur": 194.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/ca9fa01710cc8a2c5f6c6228aaf55191.jpg/zeza-square-ligbad-180x80cm-acryl-glans-wit-sw1015084.jpg"
+    },
+    {
+      "name": "Zeza Square Ligbad - 190x90cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792519/zeza-square-ligbad-190x90cm-acryl-glans-wit",
+      "product_id": "77792519",
+      "price_eur": 204.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/ca9fa01710cc8a2c5f6c6228aaf55191.jpg/zeza-square-ligbad-190x90cm-acryl-glans-wit-sw1015081.jpg"
+    },
+    {
+      "name": "Zeza Oval Ligbad - 190x90cm - acryl - duo - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77792518/zeza-oval-ligbad-190x90cm-acryl-duo-glans-wit",
+      "product_id": "77792518",
+      "price_eur": 204.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e64483a13e0a3a0cb525ae4aeceb42c4.jpg/zeza-oval-ligbad-190x90cm-acryl-duo-glans-wit-sw1015080.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Oberon 2.0 bad rechthoek 180x80cm - duo wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77019052/villeroy-boch-oberon-2.0-bad-180x80-cm.-wit",
+      "product_id": "77019052",
+      "price_eur": 689.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9864ced5c026ee498928feac92a2a510.jpg/villeroy-boch-oberon-2.0-bad-rechthoek-180x80cm-duo-wit-sw209465.jpg"
+    },
+    {
+      "name": "WaveDesign by Wisa Tesa Ligbad 170x80x50cm 52cm rechthoek Acryl Wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/76915733/wavedesign-by-wisa-tesa-ligbad-170x80x50cm-52cm-rechthoek-acryl-wit",
+      "product_id": "76915733",
+      "price_eur": 673.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dae6d09d9cccfc60693df76e5e0a2a93.jpg/wavedesign-by-wisa-tesa-ligbad-170x80x50cm-52cm-rechthoek-acryl-wit-sw115569.jpg"
+    },
+    {
+      "name": "Nemo Spring London inbouwbad mono 180x80x44cm 225L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079204/nemo-spring-london-inbouwbad-mono-afvoer-d52-1800x800x440mm-225l-met-potenstel-wit-acryl-conform-en-normen-en-198-,-en-232-en-14516-2010",
+      "product_id": "77079204",
+      "price_eur": 331.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/7399988980c9f812c071669c482bbf67.jpg/nemo-spring-london-inbouwbad-mono-180x80x44cm-225l-met-potenstel-wit-acryl-sw294726.jpg"
+    },
+    {
+      "name": "Villeroy & Boch O.novo bad - 180x80cm - rechthoek - duo - glans wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/67590/villeroy-en-boch-o-novo-kunststof-bad-acryl-rechthoekig-180x80cm-exclusief-poten-wit",
+      "product_id": "67590",
+      "price_eur": 343.95,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/d2c980974c90aeadf4ff190f78b10ce8.jpg/villeroy-boch-o.novo-bad-180x80cm-rechthoek-duo-glans-wit-0930606.jpg"
+    },
+    {
+      "name": "Nemo Start Combi I douchebad 180x80x44cm 275L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079259/nemo-start-combi-i-douchebad-mono-afvoer-d52-1800x800x440mm-275l-met-potenstel-wit-acryl-conform-en-normen-en-198-,-en-232-en-14516-2010",
+      "product_id": "77079259",
+      "price_eur": 296.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/b9a1e441cebcd755e167a0ea37973700.jpg/nemo-start-combi-i-douchebad-180x80x44cm-275l-met-potenstel-wit-acryl-sw294780.jpg"
+    },
+    {
+      "name": "Nemo Start Zen II inbouwbad 170x75x40cm 230L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079275/nemo-start-zen-ii-inbouwbad-mono-afvoer-d52-1700x750x400mm-230l-met-potenstel-wit-acryl-conform-en-normen-en-198-,-en-232-en-14516-2010",
+      "product_id": "77079275",
+      "price_eur": 279.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/e3d24c19bef37616845aa418ce1fa789.jpg/nemo-start-zen-ii-inbouwbad-170x75x40cm-230l-met-potenstel-wit-acryl-sw294797.jpg"
+    },
+    {
+      "name": "Nemo Start Combi II douchebad 170x75x44cm 210L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079155/nemo-start-combi-ii-douchebad-170x75x44cm-210l-met-potenstel-wit-acryl",
+      "product_id": "77079155",
+      "price_eur": 319.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/3dec732923d71fdefebda8bb4b265a20.jpg/nemo-start-combi-ii-douchebad-170x75x44cm-210l-met-potenstel-wit-acryl-sw294677.jpg"
+    },
+    {
+      "name": "Nemo Spring Nantes inbouwbad mono afvoer D52 170x75x40cm 185L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079348/nemo-spring-nantes-inbouwbad-mono-afvoer-d52-170x75x40cm-185l-met-potenstel-wit-acryl-conform-en-normen-en-198-,-en-232-en-14516-2010",
+      "product_id": "77079348",
+      "price_eur": 277.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/fe53045354799646ea04c6794a3850a2.jpg/nemo-spring-nantes-inbouwbad-mono-afvoer-d52-170x75x40cm-185l-met-potenstel-wit-acryl-sw294870.jpg"
+    },
+    {
+      "name": "GO by Van Marcke Baldino inbouwbad 170x70cm zonder poten Acryl Glans Wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77404322/go-by-van-marcke-baldino-inbouwbad-170x70cm-zonder-poten-acryl-glans-wit",
+      "product_id": "77404322",
+      "price_eur": 179.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d5c60fd962bf0092a37e6fc79853100.jpg/go-by-van-marcke-baldino-inbouwbad-170x70cm-zonder-poten-acryl-glans-wit-sw637135.jpg"
+    },
+    {
+      "name": "Nemo Start Monza inbouwbad duo 180x80x44mm 208L met potenstel wit acryl",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77079358/nemo-start-monza-inbouwbad-duo-afvoer-d52-1800x800x440mm-208l-met-potenstel-wit-acryl-conform-en-normen-en-198-,-en-232-en-14516-2010",
+      "product_id": "77079358",
+      "price_eur": 319.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/312f1c33943514cfb51d409dc3f69ce5.jpg/nemo-start-monza-inbouwbad-duo-180x80x44mm-208l-met-potenstel-wit-acryl-sw294880.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Subway 3.0 bad rechthoek 180x80cm - stone white",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77409419/villeroy-boch-subway-3.0-bad",
+      "product_id": "77409419",
+      "price_eur": 1168.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/04d51f8e390921642ac4906f0600c2cf.jpg/villeroy-boch-subway-3.0-bad-rechthoek-180x80cm-stone-white-sw641497.jpg"
+    },
+    {
+      "name": "Xenz Kanaga Duobad - 190x90x53 - afvoer Midden - acryl - wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/76899877/xenz-kanaga-duobad-190x90x53-afvoer-midden-acryl-wit",
+      "product_id": "76899877",
+      "price_eur": null,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/73e6b4338dcd0b0c7345dd53b1e1365a.jpg/xenz-kanaga-duobad-190x90x53-afvoer-midden-acryl-wit-sw103330.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Oberon bad - 190x90cm - quaryl rechthoekig met poten wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/16174/villeroy-en-boch-oberon-bad-190x90cm-quaryl-rechthoekig-met-poten-wit",
+      "product_id": "16174",
+      "price_eur": 1064.8,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/a68716a191b28f6fc58eb11870f4009b.jpg/villeroy-boch-oberon-bad-190x90cm-quaryl-rechthoekig-met-poten-wit-0940313.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Oberon 2.0 kunststof duobad quaryl rechthoekig 170x75x47cm - incl. poten en afvoer-/overloopcombinatie mat wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77214871/villeroy-boch-oberon-2.0-bad",
+      "product_id": "77214871",
+      "price_eur": 990.49,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/0ff5ab86713a8f09c6271d71cc777a5d.jpg/villeroy-boch-oberon-2.0-kunststof-duobad-quaryl-rechthoekig-170x75x47cm-incl.-poten-en-afvoer-overloopcombinatie-mat-wit-sw453775.jpg"
+    },
+    {
+      "name": "GO by Van Marcke Stelli inbouwbad duo 180x80x48cm 290L wit acryl met potenstel",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77203585/go-by-van-marcke-stelli-inbouwbad-duo-180x80x48cm-290l-wit-acryl-met-potenstel",
+      "product_id": "77203585",
+      "price_eur": 277.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e98dbc34a136d2baa77465e2b97ec660.jpg/go-by-van-marcke-stelli-inbouwbad-duo-180x80x48cm-290l-wit-acryl-met-potenstel-sw443986.jpg"
+    },
+    {
+      "name": "Villeroy & Boch O.novo Design bad acryl rechthoekig 180x80x48cm - wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/75630288/villeroy-en-boch-o.novo-design-kunststof-bad-acryl-rechthoekig-180x80x48cm-exclusief-poten-wit",
+      "product_id": "75630288",
+      "price_eur": 379.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4c30efceb793e54a1d15bc4da09cb468.jpg/villeroy-boch-o.novo-design-bad-acryl-rechthoekig-180x80x48cm-wit-0930450.jpg"
+    },
+    {
+      "name": "GO by Van Marcke Stelli inbouwbad duo 190x90x48cm 230L wit acryl met potenstel",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77203586/go-by-van-marcke-stelli-inbouwbad-duo-190x90x48cm-230l-wit-acryl-met-potenstel",
+      "product_id": "77203586",
+      "price_eur": 371.94,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e98dbc34a136d2baa77465e2b97ec660.jpg/go-by-van-marcke-stelli-inbouwbad-duo-190x90x48cm-230l-wit-acryl-met-potenstel-sw443987.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Libra bad - 170x75cm - quaryl rechthoekig met poten wit",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/16161/villeroy-en-boch-libra-bad-170x75cm-quaryl-rechthoekig-met-poten-wit",
+      "product_id": "16161",
+      "price_eur": 797.97,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/f6d21040d4d8a995aaa32df9e3f4e416.jpg/villeroy-boch-libra-bad-170x75cm-quaryl-rechthoekig-met-poten-wit-0943401.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand hoekbad - links - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808839/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808839",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/6852cc0c7a3b90abf4e8e41b9ce610d9.jpg/zeza-grand-half-vrijstaand-hoekbad-links-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030592.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739168/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739168",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c7b29358ea6a812537c30b8554638952.jpg/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-mat-wit-sw962846.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - links - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739164/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739164",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/65e461eff2bb61a78afa9d7003bb2fb1.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit-sw962842.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand bad - ribbel - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739165/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739165",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/40eb5b7675b3db050f9e1afa12daa978.jpg/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit-sw962843.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739169/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739169",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-mat-wit-sw962847.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand bad - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808838/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808838",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/884369e534b304ec3bd0be487556a42c.jpg/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030591.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - rechts - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739162/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739162",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c2326744832a543094c4869bc5d47cb5.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit-sw962841.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - rechts - 170x80x58cm - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739167/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-mat-wit",
+      "product_id": "77739167",
+      "price_eur": 1350.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/80ab14cbbef4fed4af81d4b5f838be8b.jpg/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-mat-wit-sw962845.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739172/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739172",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/194dcb5db9ee4c58a6ae35f8d001695a.jpg/zeza-pure-half-vrijstaand-hoekbad-links-170x80x58cm-acryl-glans-wit-sw962850.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - rechts - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739171/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739171",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9b8f9e4c9125b27a4ff8b666a7731cc4.jpg/zeza-pure-half-vrijstaand-hoekbad-rechts-170x80x58cm-acryl-glans-wit-sw962849.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 170x80x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739173/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-glans-wit",
+      "product_id": "77739173",
+      "price_eur": 1300.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-170x80x58cm-acryl-glans-wit-sw962851.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - links - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739176/zeza-pure-half-vrijstaand-hoekbad-links-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739176",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/194dcb5db9ee4c58a6ae35f8d001695a.jpg/zeza-pure-half-vrijstaand-hoekbad-links-150x75x58cm-acryl-glans-wit-sw962854.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand bad - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739177/zeza-pure-half-vrijstaand-bad-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739177",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/92f1877ff1f762b13bff9a2dccd8e559.jpg/zeza-pure-half-vrijstaand-bad-150x75x58cm-acryl-glans-wit-sw962855.jpg"
+    },
+    {
+      "name": "Zeza Nuo Half Vrijstaand Bad - 170x80x58cm - ribbel - met afvoer - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78181597/zeza-nuo-half-vrijstaand-bad-170x80x58cm-ribbel-met-afvoer-mat-zwart",
+      "product_id": "78181597",
+      "price_eur": 1050.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/318719a76c6a124caa9da77c14f7cfef.jpg/zeza-nuo-half-vrijstaand-bad-170x80x58cm-ribbel-met-afvoer-mat-zwart-sw1408466.jpg"
+    },
+    {
+      "name": "ZEZA Pure half vrijstaand hoekbad - rechts - 150x75x58cm - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739175/zeza-pure-half-vrijstaand-hoekbad-rechts-150x75x58cm-acryl-glans-wit",
+      "product_id": "77739175",
+      "price_eur": 1200.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9b8f9e4c9125b27a4ff8b666a7731cc4.jpg/zeza-pure-half-vrijstaand-hoekbad-rechts-150x75x58cm-acryl-glans-wit-sw962853.jpg"
+    },
+    {
+      "name": "Zeza Nuo Half Vrijstaand Bad - 170x80x58cm - links - ribbel - met afvoer - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78181598/zeza-nuo-half-vrijstaand-bad-170x80x58cm-links-ribbel-met-afvoer-mat-zwart",
+      "product_id": "78181598",
+      "price_eur": 1050.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/652dd7a4c1cc242a824be507405d6302.jpg/zeza-nuo-half-vrijstaand-bad-170x80x58cm-links-ribbel-met-afvoer-mat-zwart-sw1408467.jpg"
+    },
+    {
+      "name": "Riho Desire half vrijstaand half vrijstaand ligbad met overloop 180x84cm met Sifon Glans Wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77170639/riho-desire-half-vrijstaand-half-vrijstaand-ligbad-met-overloop-180x84cm-met-sifon-glans-wit",
+      "product_id": "77170639",
+      "price_eur": 1823.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9135b2d01e29c21acffa013927e23f2c.jpg/riho-desire-half-vrijstaand-half-vrijstaand-ligbad-met-overloop-180x84cm-met-sifon-glans-wit-sw412244.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand hoekbad - rechts - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808840/zeza-grand-half-vrijstaand-hoekbad-rechts-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808840",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/30d33578aaffa2d5a45dcf87d316639c.jpg/zeza-grand-half-vrijstaand-hoekbad-rechts-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030593.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80cm - hoek rechts - acryl - glans wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786636/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80cm-hoek-rechts-acryl-glans-wit",
+      "product_id": "77786636",
+      "price_eur": 1651.65,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/de26c222d585bb1242284125d46c9f14.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80cm-hoek-rechts-acryl-glans-wit-sw1009241.jpg"
+    },
+    {
+      "name": "Zeza Nuo Half Vrijstaand Bad - 170x80x58cm - rechts - ribbel - met afvoer - mat zwart",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78181599/zeza-nuo-half-vrijstaand-bad-170x80x58cm-rechts-ribbel-met-afvoer-mat-zwart",
+      "product_id": "78181599",
+      "price_eur": 1050.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/2823fc05124082d6d358e008fe965b60.jpg/zeza-nuo-half-vrijstaand-bad-170x80x58cm-rechts-ribbel-met-afvoer-mat-zwart-sw1408468.jpg"
+    },
+    {
+      "name": "ZEZA Grand vrijstaand bad - 180x80x58cm - met afvoer - acryl - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77808834/zeza-grand-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit",
+      "product_id": "77808834",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/a67f24b7fa4ff3e4faada33676249287.jpg/zeza-grand-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-glans-wit-sw1030590.jpg"
+    },
+    {
+      "name": "ZEZA Grand half vrijstaand bad - 180x80x58cm - met afvoer - acryl - rond - glans wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/78218032/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-rond-glans-wit",
+      "product_id": "78218032",
+      "price_eur": 950.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/091394ce81cee89e8b9ceddab8d0fec4.jpg/zeza-grand-half-vrijstaand-bad-180x80x58cm-met-afvoer-acryl-rond-glans-wit-sw1442342.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design halfvrijstaand bad back to wall - 180x80cm - acryl - glans wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786630/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-glans-wit",
+      "product_id": "77786630",
+      "price_eur": 1715.17,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/b1c0e9dfc813db6362011d46ead32ed6.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-glans-wit-sw1009235.jpg"
+    },
+    {
+      "name": "Wiesbaden Liora half vrijstaand ligbad 180 x 80 cm acryl glans wit met waste glans wit",
+      "brand": "Wiesbaden",
+      "url": "https://www.sawiday.be/nl-be/p/77920988/wiesbaden-liora-half-vrijstaand-ligbad-180-x-80-cm-acryl-glans-wit-met-waste-glans-wit",
+      "product_id": "77920988",
+      "price_eur": 1359.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/0b70432650d5e3f1febe063f5d99af60.jpg/wiesbaden-liora-half-vrijstaand-ligbad-180-x-80-cm-acryl-glans-wit-met-waste-glans-wit-sw1158958.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - links - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739164/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739164",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/65e461eff2bb61a78afa9d7003bb2fb1.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-links-170x80x58cm-met-afvoer-acryl-mat-wit-sw962842.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand bad - ribbel - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739165/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739165",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/40eb5b7675b3db050f9e1afa12daa978.jpg/zeza-blend-half-vrijstaand-bad-ribbel-170x80x58cm-met-afvoer-acryl-mat-wit-sw962843.jpg"
+    },
+    {
+      "name": "ZEZA Blend half vrijstaand hoekbad - ribbel - rechts - 170x80x58cm - met afvoer - acryl - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77739162/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit",
+      "product_id": "77739162",
+      "price_eur": 1450.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c2326744832a543094c4869bc5d47cb5.jpg/zeza-blend-half-vrijstaand-hoekbad-ribbel-rechts-170x80x58cm-met-afvoer-acryl-mat-wit-sw962841.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80cm - hoek rechts - acryl - glans wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786636/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80cm-hoek-rechts-acryl-glans-wit",
+      "product_id": "77786636",
+      "price_eur": 1651.65,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/de26c222d585bb1242284125d46c9f14.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80cm-hoek-rechts-acryl-glans-wit-sw1009241.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design halfvrijstaand bad back to wall - 180x80cm - acryl - glans wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786630/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-glans-wit",
+      "product_id": "77786630",
+      "price_eur": 1715.17,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/b1c0e9dfc813db6362011d46ead32ed6.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-glans-wit-sw1009235.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80x60cm - hoek rechts - acryl - mat wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786638/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-rechts-acryl-mat-wit",
+      "product_id": "77786638",
+      "price_eur": 1574.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/b7fd7186c4744d7fc296ad01ab79af82.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-rechts-acryl-mat-wit-sw1009243.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design halfvrijstaand bad back to wall - 180x80cm - acryl - mat wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77786634/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-mat-wit",
+      "product_id": "77786634",
+      "price_eur": 1700.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/d2137ee7f15de54d0515eb60d2e24d1d.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-back-to-wall-180x80cm-acryl-mat-wit-sw1009239.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80x60cm - hoek links - acryl - mat wit",
+      "brand": "Ink",
+      "url": "https://www.sawiday.be/nl-be/p/77786631/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-links-acryl-mat-wit",
+      "product_id": "77786631",
+      "price_eur": 1574.0,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/5dcdc04510893a2b7e6de50f075fd802.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-links-acryl-mat-wit-sw1009236.jpg"
+    },
+    {
+      "name": "Go by Van Marcke D-Shape Design - halfvrijstaand bad - 180x80x60cm - hoek links - acryl - glans wit",
+      "brand": "Ink",
+      "url": "https://www.sawiday.be/nl-be/p/77786633/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-links-acryl-glans-wit",
+      "product_id": "77786633",
+      "price_eur": 1048.99,
+      "image_url": "https://static.rorix.nl/image/product/van-marcke/400x400/8141eae67fd10fa661c5cf0800d6d36f.jpg/go-by-van-marcke-d-shape-design-halfvrijstaand-bad-180x80x60cm-hoek-links-acryl-glans-wit-sw1009238.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends hoekbad - 170x75cm - hoek rechts - acryl Wit alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77692222/villeroy-boch-loop-friends-bad-hoek-170x75cm-hoek-rechts-wit-alpin",
+      "product_id": "77692222",
+      "price_eur": 1362.09,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1c0e58f716c25094bd15ff54b23280fd.jpg/villeroy-boch-loop-friends-hoekbad-170x75cm-hoek-rechts-acryl-wit-alpin-glans-sw917898.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends hoekbad - 170x75cm - hoek links - acryl Wit alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77692263/villeroy-boch-loop-friends-hoekbad-170x75cm-hoek-links-acryl-wit-alpin-glans",
+      "product_id": "77692263",
+      "price_eur": 1407.05,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/09dec12f60cbbb10c821fb1277428f9b.jpg/villeroy-boch-loop-friends-hoekbad-170x75cm-hoek-links-acryl-wit-alpin-glans-sw917939.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends half vrijstaand bad - 180x80cm - hoek links - Acryl Wit Alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77539373/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-links-wit-alpin",
+      "product_id": "77539373",
+      "price_eur": 1365.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/8473df40f159b71a727129f720edd229.jpg/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-hoek-links-acryl-wit-alpin-glans-sw762342.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends half vrijstaand bad - 180x80cm - hoek links - Acryl Wit Alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77539334/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-links-wit-alpin",
+      "product_id": "77539334",
+      "price_eur": 1446.07,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/408a8e69615b581632751e693967969b.jpg/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-hoek-links-acryl-wit-alpin-glans-sw762303.jpg"
+    },
+    {
+      "name": "Looox Bath collection hoekbad - 170x70x55cm - rechts - wit glans",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77581372/looox-bath-collection-hoekbad-170x70x55cm-rechts-glans-wit",
+      "product_id": "77581372",
+      "price_eur": 1458.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/b0e9c2ba774aafc31a7d3409796037ba.jpg/looox-bath-collection-hoekbad-170x70x55cm-rechts-wit-glans-sw810126.jpg"
+    },
+    {
+      "name": "Xenz Cyprus Hoekbad - 145x145x53 - afvoer Midden - acryl - ebony",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/76900090/xenz-cyprus-hoekbad-145x145x53-afvoer-midden-acryl-ebony",
+      "product_id": "76900090",
+      "price_eur": null,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/02eea0db3cd81652d138585a156aa13f.jpg/xenz-cyprus-hoekbad-145x145x53-afvoer-midden-acryl-ebony-sw103542.jpg"
+    },
+    {
+      "name": "Arcqua Pinto Halfvrijstaand Bad - 170x73cm - mat wit",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77411880/arcqua-pinto-halfvrijstaand-bad-170x73cm-mat-wit",
+      "product_id": "77411880",
+      "price_eur": 3115.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e2299c777a15b07e03f8437680a22902.jpg/arcqua-pinto-halfvrijstaand-bad-170x73cm-mat-wit-sw643382.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends half vrijstaand bad - 180x80cm - hoek rechts - Acryl Wit Alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77539330/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-rechts-wit-alpin",
+      "product_id": "77539330",
+      "price_eur": 1365.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/cb02e7c9553f60080bbb170a7e275afb.jpg/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-hoek-rechts-acryl-wit-alpin-glans-sw762299.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends half vrijstaand bad - 180x80cm - Acryl Wit Alpin glans",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77539343/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-naadloos-wit-alpin",
+      "product_id": "77539343",
+      "price_eur": 1479.99,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/d60120f67c96429e6a8a32ff07356303.jpg/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-acryl-wit-alpin-glans-sw762312.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends hoekbad - 170x75cm - hoek rechts - acryl Stone white mat",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77692235/villeroy-boch-loop-friends-bad-hoek-170x75cm-hoek-rechts-stone-white",
+      "product_id": "77692235",
+      "price_eur": 1554.07,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1c0e58f716c25094bd15ff54b23280fd.jpg/villeroy-boch-loop-friends-hoekbad-170x75cm-hoek-rechts-acryl-stone-white-mat-sw917911.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends hoekbad - 170x75cm - hoek links - acryl Stone white mat",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77692234/villeroy-boch-loop-friends-bad-hoek-170x75cm-hoek-links-stone-white",
+      "product_id": "77692234",
+      "price_eur": 1869.1,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/09dec12f60cbbb10c821fb1277428f9b.jpg/villeroy-boch-loop-friends-hoekbad-170x75cm-hoek-links-acryl-stone-white-mat-sw917910.jpg"
+    },
+    {
+      "name": "RIHO Neo hoekbad 140x140cm Wit glans",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/17004/riho-neo-hoekbad-kwartrond-140x140cm-wit",
+      "product_id": "17004",
+      "price_eur": 870.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/52cbd3981cc35.jpg/riho-neo-hoekbad-140x140cm-wit-glans-310529.jpg"
+    },
+    {
+      "name": "Zeza Cheb Half vrijstaand acryl bad - 170x80cm - sifon - mat wit",
+      "brand": "ZEZA",
+      "url": "https://www.sawiday.be/nl-be/p/77777063/zeza-cheb-half-vrijstaand-acryl-bad-170x80cm-sifon-mat-wit",
+      "product_id": "77777063",
+      "price_eur": 1850.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dd8285cb44e173d68e744d67ba327518.jpg/zeza-cheb-half-vrijstaand-acryl-bad-170x80cm-sifon-mat-wit-sw999818.jpg"
+    },
+    {
+      "name": "Looox Bath collection hoekbad - 170x70x55cm - links - mat wit",
+      "brand": "Ink",
+      "url": "https://www.sawiday.be/nl-be/p/77581204/looox-bath-collection-hoekbad-170x70x55cm-links-mat-wit",
+      "product_id": "77581204",
+      "price_eur": 1632.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/71c602ee4f341a9d32b2423dd188cd9d.jpg/looox-bath-collection-hoekbad-170x70x55cm-links-mat-wit-sw809936.jpg"
+    },
+    {
+      "name": "Villeroy & Boch Loop & friends half vrijstaand bad - 180x80cm - hoek rechts - Acryl Stone White mat",
+      "brand": "Villeroy & Boch",
+      "url": "https://www.sawiday.be/nl-be/p/77539354/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-rechts-stone-white",
+      "product_id": "77539354",
+      "price_eur": 1893.01,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/0842c5ee5578e97202b09c011111b9f3.jpg/villeroy-boch-loop-friends-half-vrijstaand-bad-180x80cm-hoek-rechts-acryl-stone-white-mat-sw762323.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 180x80cm hydro 6+4+2 aero 10 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471465/riho-easypool-3.1-lima-whirlpoolbad-rechts-180x80cm-hydro-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471465",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e752f3bb9e7f6f60b197e2209c4668f1.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-180x80cm-hydro-6-4-2-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699381.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 190x90cm hydro 6+4+2 aero 10 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471463/riho-easypool-3.1-lima-whirlpoolbad-rechts-190x90cm-hydro-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471463",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e752f3bb9e7f6f60b197e2209c4668f1.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-190x90cm-hydro-6-4-2-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699379.jpg"
+    },
+    {
+      "name": "Riho Modesty vrijstaand bad - 170x76cm - Sparkle - met chromen badvuller - acryl wit velvet",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314958/riho-modesty-vrijstaand-bad-170x76cm-sparkle-met-chromen-badvuller-acryl-wit-velvet",
+      "product_id": "77314958",
+      "price_eur": 4276.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/07f7e0476f8d29fc144cc621ddc683d7.jpg/riho-modesty-vrijstaand-bad-170x76cm-sparkle-met-chromen-badvuller-acryl-wit-velvet-sw548017.jpg"
+    },
+    {
+      "name": "Riho Devotion halfvrijstaand bad - 180x80cm - Middenopstelling - Sparkle - met chromen badvuller - acryl wit velvet",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314949/riho-devotion-halfvrijstaand-bad-180x80cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-velvet",
+      "product_id": "77314949",
+      "price_eur": 3652.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/191088cbd5e2f3489f160b16f8485cb7.jpg/riho-devotion-halfvrijstaand-bad-180x80cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-velvet-sw548009.jpg"
+    },
+    {
+      "name": "Riho Devotion halfvrijstaand bad - 180x80cm - Middenopstelling - Sparkle - met chromen badvuller - acryl wit hoogglans",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314904/riho-devotion-halfvrijstaand-bad-180x80cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-hoogglans",
+      "product_id": "77314904",
+      "price_eur": 3649.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/191088cbd5e2f3489f160b16f8485cb7.jpg/riho-devotion-halfvrijstaand-bad-180x80cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-hoogglans-sw547965.jpg"
+    },
+    {
+      "name": "Riho Desire halfvrijstaand bad - 180x84cm - Middenopstelling - met LED-plint - Sparkle - met chromen badvuller - acryl wit velvet",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314898/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-met-ledplint-sparkle-met-chromen-badvuller-acryl-wit-velvet",
+      "product_id": "77314898",
+      "price_eur": 4909.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dace0497e7dc7d6602efbe852ae3fa8a.jpg/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-met-led-plint-sparkle-met-chromen-badvuller-acryl-wit-velvet-sw547958.jpg"
+    },
+    {
+      "name": "Riho Desire halfvrijstaand bad - 180x84cm - Middenopstelling - Sparkle - met chromen badvuller - acryl wit hoogglans",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314897/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-hoogglans",
+      "product_id": "77314897",
+      "price_eur": 4153.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dace0497e7dc7d6602efbe852ae3fa8a.jpg/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-hoogglans-sw547957.jpg"
+    },
+    {
+      "name": "Riho Desire halfvrijstaand bad - 180x84cm - Middenopstelling - met LED-plint - Sparkle - met chromen badvuller - acryl wit hoogglans",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314836/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-met-ledplint-sparkle-met-chromen-badvuller-acryl-wit-hoogglans",
+      "product_id": "77314836",
+      "price_eur": 4462.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dace0497e7dc7d6602efbe852ae3fa8a.jpg/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-met-led-plint-sparkle-met-chromen-badvuller-acryl-wit-hoogglans-sw547896.jpg"
+    },
+    {
+      "name": "Riho Desire halfvrijstaand bad - 180x84cm - Middenopstelling - Sparkle - met chromen badvuller - acryl wit velvet",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77314806/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-velvet",
+      "product_id": "77314806",
+      "price_eur": 4600.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/dace0497e7dc7d6602efbe852ae3fa8a.jpg/riho-desire-halfvrijstaand-bad-180x84cm-middenopstelling-sparkle-met-chromen-badvuller-acryl-wit-velvet-sw547866.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Carolina whirlpoolbad 190x80cm rechts hydro 6+4+2 aero 11 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471458/riho-easypool-3.1-carolina-whirlpoolbad-190x80cm-rechts-hydro-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471458",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4675fe5a8bc5ea2c193a976ab3fc63f8.jpg/riho-easypool-3.1-carolina-whirlpoolbad-190x80cm-rechts-hydro-6-4-2-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699374.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 170x75cm hydro 6+4+2 aero 10 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471457/riho-easypool-3.1-lima-whirlpoolbad-rechts-170x75cm-hydro-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471457",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/e752f3bb9e7f6f60b197e2209c4668f1.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-170x75cm-hydro-6-4-2-aero-10-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699372.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lusso whirlpoolbad rechts 190x90cm hydro 6+4+2 aero 11 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471468/riho-easypool-3.1-lusso-whirlpoolbad-rechts-190x90cm-hydro-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471468",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d5e1851099e72094781f88f2d5cbed1.jpg/riho-easypool-3.1-lusso-whirlpoolbad-rechts-190x90cm-hydro-6-4-2-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699384.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Miami whirlpoolbad - 170x70cm - hydro 6+4+2 pneumatische bediening rechts - inclusief poten en afvoer - glans wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77894122/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-hydro-6-4-2-pneumatische-bediening-rechts-inclusief-poten-en-afvoer-glans-wit",
+      "product_id": "77894122",
+      "price_eur": 1034.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/c2879fb2dd0cab36e6002e13df2c35b5.jpg/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-hydro-6-4-2-pneumatische-bediening-rechts-inclusief-poten-en-afvoer-glans-wit-sw1116786.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Miami whirlpoolbad - 170x70cm - airo pneumatische bediening rechts - inclusief poten en afvoer - glans wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77894167/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-airo-pneumatische-bediening-rechts-inclusief-poten-en-afvoer-glans-wit",
+      "product_id": "77894167",
+      "price_eur": 931.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1c6f636a0d6d06a737304ebfa1934b29.jpg/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-airo-pneumatische-bediening-rechts-inclusief-poten-en-afvoer-glans-wit-sw1116789.jpg"
+    },
+    {
+      "name": "Xenz Luchtsysteem ingebouwd in vrijstaand bad zichtdelen in chroom",
+      "brand": "Unknown",
+      "url": "https://www.sawiday.be/nl-be/p/77139638/xenz-luchtsysteem-ingebouwd-in-vrijstaand-bad-zichtdelen-in-chroom",
+      "product_id": "77139638",
+      "price_eur": null,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/fb0d4827c3f59db831cee18c1896a686.jpg/xenz-luchtsysteem-ingebouwd-in-vrijstaand-bad-zichtdelen-in-chroom-sw382546.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lusso whirlpoolbad rechts 180x80cm hydro 6+4+2 aero 11 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471471/riho-easypool-3.1-lusso-whirlpoolbad-rechts-180x80cm-hydro-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471471",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/9d5e1851099e72094781f88f2d5cbed1.jpg/riho-easypool-3.1-lusso-whirlpoolbad-rechts-180x80cm-hydro-6-4-2-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699387.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Carolina whirlpoolbad 180x80cm rechts hydro 6+4+2 aero 11 colour speaker touch bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471460/riho-easypool-3.1-carolina-whirlpoolbad-180x80cm-rechts-hydro-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471460",
+      "price_eur": 2483.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4675fe5a8bc5ea2c193a976ab3fc63f8.jpg/riho-easypool-3.1-carolina-whirlpoolbad-180x80cm-rechts-hydro-6-4-2-aero-11-colour-speaker-touch-bediening-inclusief-poten-en-afvoer-wit-sw699376.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Miami whirlpoolbad - 170x70cm - airo pneumatische bediening links - inclusief poten en afvoer - glans wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77894168/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-airo-pneumatische-bediening-links-inclusief-poten-en-afvoer-glans-wit",
+      "product_id": "77894168",
+      "price_eur": 931.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1c6f636a0d6d06a737304ebfa1934b29.jpg/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-airo-pneumatische-bediening-links-inclusief-poten-en-afvoer-glans-wit-sw1116790.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Miami whirlpoolbad - 170x70cm - hydro 6+4+2 pneumatische bediening links - inclusief poten en afvoer - glans wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77894165/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-hydro-pneumatische-bediening-links-inclusief-poten-en-afvoer-glans-wit",
+      "product_id": "77894165",
+      "price_eur": 1034.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/1c6f636a0d6d06a737304ebfa1934b29.jpg/riho-easypool-3.1-miami-whirlpoolbad-170x70cm-hydro-6-4-2-pneumatische-bediening-links-inclusief-poten-en-afvoer-glans-wit-sw1116788.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lusso whirlpoolbad rechts 190x90cm hydro 6+4+2 pneumatische bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471469/riho-easypool-3.1-lusso-whirlpoolbad-rechts-190x90cm-hydro-pneumatische-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471469",
+      "price_eur": 1499.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/275e98aa8e4661f3484128656610a393.jpg/riho-easypool-3.1-lusso-whirlpoolbad-rechts-190x90cm-hydro-6-4-2-pneumatische-bediening-inclusief-poten-en-afvoer-wit-sw699385.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lusso whirlpoolbad rechts 180x80cm hydro 6+4+2 pneumatische bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471466/riho-easypool-3.1-lusso-whirlpoolbad-rechts-180x80cm-hydro-pneumatische-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471466",
+      "price_eur": 1499.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/275e98aa8e4661f3484128656610a393.jpg/riho-easypool-3.1-lusso-whirlpoolbad-rechts-180x80cm-hydro-6-4-2-pneumatische-bediening-inclusief-poten-en-afvoer-wit-sw699382.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 180x80cm hydro 6+4+2 pneumatische bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471464/riho-easypool-3.1-lima-whirlpoolbad-rechts-180x80cm-hydro-pneumatische-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471464",
+      "price_eur": 1499.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4385c34e98406a1e1f76c7d556701fb4.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-180x80cm-hydro-6-4-2-pneumatische-bediening-inclusief-poten-en-afvoer-wit-sw699380.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 190x90cm hydro 6+4+2 pneumatische bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471462/riho-easypool-3.1-lima-whirlpoolbad-rechts-190x90cm-hydro-pneumatische-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471462",
+      "price_eur": 1499.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4385c34e98406a1e1f76c7d556701fb4.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-190x90cm-hydro-6-4-2-pneumatische-bediening-inclusief-poten-en-afvoer-wit-sw699378.jpg"
+    },
+    {
+      "name": "Riho Easypool 3.1 Lima whirlpoolbad rechts 170x75cm hydro 6+4+2 pneumatische bediening inclusief poten en afvoer wit",
+      "brand": "Riho",
+      "url": "https://www.sawiday.be/nl-be/p/77471461/riho-easypool-3.1-lima-whirlpoolbad-rechts-170x75cm-hydro-pneumatische-bediening-inclusief-poten-en-afvoer-wit",
+      "product_id": "77471461",
+      "price_eur": 1499.0,
+      "image_url": "https://static.rorix.nl/image/product/overig/400x400/4385c34e98406a1e1f76c7d556701fb4.jpg/riho-easypool-3.1-lima-whirlpoolbad-rechts-170x75cm-hydro-6-4-2-pneumatische-bediening-inclusief-poten-en-afvoer-wit-sw699377.jpg"
+    }
+  ]
+}

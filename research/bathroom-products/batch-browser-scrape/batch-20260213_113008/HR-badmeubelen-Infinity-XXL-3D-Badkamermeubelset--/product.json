@@ -1,0 +1,45 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77637185/hr-badmeubelen-infinity-xxl-3d-badkamermeubelset-120-cm-1-keramische-wastafel-just-wit-2-kraangaten-2-lades-charleston",
+  "name": "HR badmeubelen Infinity XXL 3D Badkamermeubelset - 120 cm - 1 keramische wasbak just wit - 2 kraangaten - 2 lades - charleston",
+  "price": "e639",
+  "category": "vanities",
+  "subcategory": "one sink",
+  "description": "",
+  "image_count": 5,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/210x210/3bfd1255a9be1a67a470c4fa3797b033.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/210x210/a5663b872315743f75dd54dbc11270bd.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/effe333373a277a6a3abde69baa8f932.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/2e37af1d7f649209efdced7703efef95.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/5b90f399330568c89adfbeaf3b7fcd61.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:30:29.371213",
+  "downloaded_images": 5,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/HR-badmeubelen-Infinity-XXL-3D-Badkamermeubelset--/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/HR-badmeubelen-Infinity-XXL-3D-Badkamermeubelset--/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/HR-badmeubelen-Infinity-XXL-3D-Badkamermeubelset--/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/HR-badmeubelen-Infinity-XXL-3D-Badkamermeubelset--/images/image_004.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_113008/HR-badmeubelen-Infinity-XXL-3D-Badkamermeubelset--/images/image_005.jpg"
+  ]
+}

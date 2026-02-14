@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Casino Scams: 7 Red Flags + How to Protect Yourself (2026)",
+  "description": "Protect yourself from crash casino scams. Learn 7 red flags, how scams work, real examples, blacklisted casinos, and steps to report fraudulent operators.",
+  "image": "https://crashcasino.io/wp-content/uploads/2026/02/crash-casino-scams-red-flags.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "url": "https://crashcasino.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-casino-scams"
+  },
+  "articleSection": "Safety & Security",
+  "keywords": ["crash casino scams", "crash gambling fraud", "fake crash casinos", "casino red flags", "blacklisted casinos"],
+  "about": {
+    "@type": "Thing",
+    "name": "Online Casino Scams"
+  },
+  "educationalLevel": "Beginner to Intermediate",
+  "learningResourceType": "Safety Guide",
+  "dangerous": "Safety Information"
+}

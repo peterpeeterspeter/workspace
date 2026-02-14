@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T11:19:45.189933",
+    "category": "labs",
+    "operation": "related_keywords",
+    "keyword": "is crash gambling rigged",
+    "extra_info": "depth_2"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0866 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02021319-8420-0387-0000-f9c9437098b5",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0317 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "related_keywords",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "related_keywords",
+          "se_type": "google",
+          "keyword": "is crash gambling rigged",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "depth": 2,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "replace_with_core_keyword": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "is crash gambling rigged",
+            "seed_keyword_data": null,
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  }
+}

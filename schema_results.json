@@ -1,0 +1,17 @@
+[
+  {
+    "success": true,
+    "page_id": 260,
+    "schema_type": "Organization"
+  },
+  {
+    "success": true,
+    "page_id": 1345,
+    "schema_type": "FAQPage"
+  },
+  {
+    "success": false,
+    "page_id": 1334,
+    "error": "Failed to fetch page"
+  }
+]

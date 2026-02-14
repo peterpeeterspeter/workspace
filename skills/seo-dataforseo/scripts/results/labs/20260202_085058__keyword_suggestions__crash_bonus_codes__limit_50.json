@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T08:50:58.725599",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "crash bonus codes",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.3124 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02021050-8420-0399-0000-7e69097715cc",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.2858 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "crash bonus codes",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "crash bonus codes",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "crash bonus codes",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": null,
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": null,
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiY3Jhc2ggYm9udXMgY29kZXMiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NTAsIm9mZnNldCI6MCwiYWlkIjo4NDIwNSwiZmxhZ3MiOm51bGwsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMDIxMDUwLTg0MjAtMDM5OS0wMDAwLTdlNjkwOTc3MTVjYyJ9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiJkY2M1YmQ3Ny04ZTc3LTQ1MzUtYWQ3OC1mYjRhMzc5N2Y4YzciLCJTZWFyY2hBZnRlckRhdGEiOm51bGx9"
+          }
+        ]
+      }
+    ]
+  }
+}

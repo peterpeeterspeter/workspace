@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling Strategy: The Math Behind the Multiplier",
+  "description": "Understand the math behind crash gambling. Learn how multipliers work, calculate probability, and avoid myths. Master the numbers behind crash.",
+  "image": "https://crashgamegambling.com/wp-content/uploads/2026/02/crash-gambling-math.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "crashgamegambling.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "crashgamegambling.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashgamegambling.com/wp-content/uploads/2026/02/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashgamegambling.com/crash-gambling-math"
+  }
+}

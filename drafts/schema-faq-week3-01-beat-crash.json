@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you beat crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The house edge guarantees you'll lose long-term. But you can have winning sessions with smart bankroll management and early cashouts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best crash strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most consistent strategy is conservative cashout (1.5x - 2x) with 1-2% bankroll bets. You won't win big, but you'll have more winning sessions than losing ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do crash predictor bots work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Crash games use RNG, which is unpredictable. 'Predictor bots' are scams that often steal your credentials or infect your device with malware."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Martingale a good crash strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Martingale (doubling bets after losses) leads to catastrophic losses when you hit a losing streak. Table limits and bankroll exhaustion guarantee you'll eventually lose everything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good crash RTP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for 97%+ RTP. Lower RTP (95% or less) means a higher house edge and worse odds. 97% RTP means you lose $3 per $100 wagered on average."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I manage my crash bankroll?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bet 1-2% of your bankroll per round, set loss limits (stop after losing 20%), and set win goals (stop after winning 50%). Never chase losses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best cashout point for crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1.5x - 2x is the most consistent cashout point. You'll win more often (48.5% - 65% win rate) but with smaller profits. Higher multipliers have lower win rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you make a living playing crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The negative expected value means you'll lose long-term. Treat crash gambling as entertainment, not income."
+      }
+    }
+  ]
+}

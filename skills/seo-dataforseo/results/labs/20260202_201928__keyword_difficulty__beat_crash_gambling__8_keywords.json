@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T20:19:28.740460",
+    "category": "labs",
+    "operation": "keyword_difficulty",
+    "keyword": "beat crash gambling",
+    "extra_info": "8_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0859 sec.",
+    "cost": 0.0108,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02022219-8420-0392-0000-c06c83476d2a",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0326 sec.",
+        "cost": 0.0108,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "beat crash gambling",
+            "VPN crash casinos",
+            "crash casino security",
+            "crash gambling odds",
+            "crash multiplier patterns",
+            "crash casino audits",
+            "crypto wallets for gambling",
+            "crash casinos japan"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 8,
+            "items_count": 8,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "crash gambling odds",
+                "keyword_difficulty": 12
+              },
+              {
+                "se_type": "google",
+                "keyword": "beat crash gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "vpn crash casinos",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash casino security",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash multiplier patterns",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash casino audits",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crypto wallets for gambling",
+                "keyword_difficulty": null
+              },
+              {
+                "se_type": "google",
+                "keyword": "crash casinos japan",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

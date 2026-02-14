@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Casino Security: What to Look For (2026)",
+  "description": "10-point security checklist for crash casinos. Learn how to verify licenses, SSL encryption, provably fair games, 2FA, and cold storage.",
+  "image": "https://crashcasino.io/wp-content/uploads/2026/02/crash-casino-security.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "url": "https://crashcasino.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/wp-content/uploads/logo.png"
+    }
+  },
+  "datePublished": "2026-02-02",
+  "dateModified": "2026-02-02",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-casino-security"
+  },
+  "articleSection": "Casino Safety",
+  "keywords": ["crash casino security", "safe crash casinos", "crash casino licenses", "provably fair crash"],
+  "wordCount": 2500
+}

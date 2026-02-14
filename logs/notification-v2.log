@@ -1,0 +1,4 @@
+Session store: /root/.openclaw/agents/main/sessions/sessions.json
+Sessions listed: 1
+Kind   Key                        Age       Model          Tokens (ctx %)       Flags
+direct agent:main:main            just now  glm-4.7        83k/205k (41%)       system id:9b988c27-1b7e-4dcd-9bb6-ea6d1bd4829e

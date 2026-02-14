@@ -1,0 +1,51 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77969501/fortifurn-calvi-regendouche-thermostatisch-30cm-hoofddouche-metalen-lang-raad-handdouche-geborsteld-messing-pvd-goud",
+  "name": "Grohe Selection Toiletaccessoires - closethouder - zonder klep - closetborstelset - handdoekhaak - phantom black",
+  "price": "e639",
+  "category": "showers",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 6,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/22abfcd25857b44f9d114396ba8fd837.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/galvano/960x960/D130001001559796.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/960x960/e29bc5a9fabc5bb45baf928def5431e8.jpg",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/78f5e1685dec3060ce85cbc013410aeb.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/640x640/83806e9fd2faaf97ab24ffa7c0d2fbf3.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/cec62804692ddeb7659c23589b15c911.jpg",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:45:33.300999",
+  "downloaded_images": 6,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_001.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_002.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_003.jpg",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_004.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_005.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_114345/Grohe-Selection-Toiletaccessoires---closethouder--/images/image_006.jpg"
+  ]
+}

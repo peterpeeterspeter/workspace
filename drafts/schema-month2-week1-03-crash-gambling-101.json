@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling 101: Ultimate Beginner's Guide",
+  "description": "New to crash gambling? This beginner's guide explains how crash games work, basic strategies, bankroll management, and how to play safely. Start here.",
+  "image": "https://crashgamegambling.com/wp-content/uploads/2026/02/crash-gambling-101.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Vision",
+    "url": "https://crashgamegambling.com/author/vision/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crash Game Gambling",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashgamegambling.com/wp-content/uploads/2026/02/crashgamegambling-logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashgamegambling.com/crash-gambling-for-beginners/"
+  },
+  "keywords": "crash gambling for beginners, how to play crash, what is crash gambling, crash game tutorial, crash gambling basics",
+  "articleSection": "Crash Gambling Academy",
+  "wordCount": 2500
+}

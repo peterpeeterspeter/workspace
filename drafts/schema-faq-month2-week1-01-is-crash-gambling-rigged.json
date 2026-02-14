@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — if you play provably fair games on licensed casinos. Rigged games exist, but they're typically found on unlicensed, opaque sites. Legitimate crash casinos (Stake, BC.Game, Thunderpick, Roobet, Metaspins) use verifiable randomness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash game is fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check for provably fair verification. Legitimate crash games let you verify each round's outcome using server seeds, client seeds, and nonces. If you can't verify the game, assume it's not transparent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can casinos manipulate crash games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Licensed casinos with provably fair systems cannot manipulate outcomes. The crash point is determined cryptographically before the round begins. However, unlicensed casinos with opaque systems can and sometimes do manipulate games."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is provably fair crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Provably fair means the crash game's outcome can be mathematically verified after each round. The casino provides server seeds, you provide client seeds, and the crash point is calculated from a hash of both. You can plug these values into a verification tool to confirm the game wasn't rigged."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does crash always seem to crash before I cash out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confirmation bias. You remember the painful near-misses (crash at 1.99x when you aimed for 2x) and forget the countless rounds that crashed at 0.98x or sailed past your target. Crash games are random — sometimes you win, sometimes you lose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crash gambling bots used to rig games?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, not in legitimate provably fair systems. The crash point is determined by RNG, not bots. However, player bots (automated betting scripts) exist on some platforms — but they don't affect the crash point, only bet placement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a casino refuses to pay my crash winnings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That's a rigging red flag. Fair casinos pay winners. If a casino delays withdrawals for weeks, requests endless KYC, or accuses you of terms violations without evidence, they're likely shady. Avoid and report them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is crash gambling safer than slots?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transparency-wise, yes. Crash games with provably fair systems are more transparent than slots (which use hidden RNGs). Risk-wise, crash and slots both have house edges — neither is safer for your bankroll."
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+# 🦞 Pinch-to-Post Agent Context
+# Include this in ALL agent spawn tasks for WordPress operations
+
+cat << 'AGENT_CTX'
+
+## 🦞 MANDATORY: Use Pinch-to-Post for All WordPress Operations
+
+You have access to the pinch-to-post WordPress automation system with 4 configured sites:
+- **crashcasino.io** (default site)
+- **crashgamegambling.com**
+- **freecrashgames.com**
+- **cryptocrashgambling.com**
+
+### BEFORE Publishing Any Article:
+
+You MUST use the publishing gateway to check quality:
+
+```bash
+/root/.openclaw/workspace/scripts/publish-gateway.sh check <post_id> <site>
+```
+
+**Examples:**
+```bash
+# Check article before publishing
+/root/.openclaw/workspace/scripts/publish-gateway.sh check 889 crashcasino
+
+# Publish article (auto-fixes minor issues, requires 80+ score)
+/root/.openclaw/workspace/scripts/publish-gateway.sh publish 889 crashcasino
+
+# Force publish (only if explicitly authorized)
+/root/.openclaw/workspace/scripts/publish-gateway.sh publish 889 crashcasino force
+```
+
+### Publishing Workflow:
+
+1. **Create draft** using WordPress REST API
+2. **Add SEO data** (meta description, focus keyword, title)
+3. **Upload featured image** if available
+4. **Run health check** using the gateway
+5. **Fix issues** until score is 80+
+6. **Publish** using the gateway (will auto-validate)
+
+### Quality Threshold:
+
+Articles must score **80/100** to publish. The gateway checks:
+- ✅ Word count (300+ recommended)
+- ✅ Meta description (SEO critical)
+- ✅ Focus keyword (SEO critical)
+- ✅ Featured image
+- ✅ H2 headings (2+ recommended)
+- ✅ Images in content
+- ✅ Title length (50-60 chars optimal)
+
+### Direct REST API (for creating drafts):
+
+If you need to create posts manually, use:
+
+```bash
+# Create draft post
+curl -X POST "https://crashcasino.io/wp-json/wp/v2/posts" \
+  -u "peter:PASSWORD" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Article Title",
+    "content": "Article content in HTML or Gutenberg blocks",
+    "status": "draft",
+    "excerpt": "Brief summary for SEO"
+  }'
+```
+
+**IMPORTANT:** Always add SEO meta before publishing:
+
+```bash
+# Add Yoast SEO data
+curl -X POST "https://crashcasino.io/wp-json/wp/v2/posts/{id}" \
+  -u "peter:PASSWORD" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "meta": {
+      "_yoast_wpseo_title": "SEO Title | Site Name",
+      "_yoast_wpseo_metadesc": "Compelling description (150-160 chars)",
+      "_yoast_wpseo_focuskw": "main keyword"
+    }
+  }'
+```
+
+### Site Credentials Reference:
+
+Credentials are stored in: `~/.openclaw/openclaw.json`
+
+**Quick reference:**
+- crashcasino: User "peter", App Password in config
+- crashgame: User "peter", App Password in config
+- freecrash: User "peter", App Password in config
+- cryptocrash: User "peter", App Password in config
+
+### Full Documentation:
+
+Pinch-to-post skill: `~/.openclaw/workspace/skills/pinch-to-post/SKILL.md`
+Quick reference: `~/.openclaw/workspace/PINCH-TO-POST-REFERENCE.md`
+
+### NEVER:
+
+❌ Publish articles without running health checks
+❌ Skip meta descriptions and focus keywords
+❌ Publish articles with featured images
+❌ Use WP-CLI unless pinch-to-post can't handle it
+❌ Bypass the quality gate without explicit authorization
+
+### ALWAYS:
+
+✅ Use the publish-gateway.sh script
+✅ Verify post exists after "publishing"
+✅ Check health score before going live
+✅ Add SEO metadata (meta description + focus keyword)
+✅ Report any publishing failures immediately
+
+AGENT_CTX

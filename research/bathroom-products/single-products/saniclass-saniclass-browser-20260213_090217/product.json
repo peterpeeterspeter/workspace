@@ -1,0 +1,54 @@
+{
+  "name": "Saniclass Chaci Badkamermeubelset - 120x46x55cm",
+  "url": "https://www.sawiday.be/nl-be/p/77496023/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken",
+  "scraped_at": "2026-02-13T09:03:00Z",
+  "specifications": {
+    "dimensions": "120x46x55cm",
+    "material": "Keramiek (Ceramic)",
+    "features": [
+      "2 ovale wastafels (washbasins)",
+      "2 kraantafels (faucets)",
+      "2 laden (drawers)"
+    ]
+  },
+  "images": [
+    {
+      "file": "01-main.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/a85e4774e239202f444353b3754acf4b.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "main",
+      "size": "845K"
+    },
+    {
+      "file": "02-detail1.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/63f40a2a23ae693af0c17e7efa9c072b.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "detail",
+      "size": "1.1M"
+    },
+    {
+      "file": "03-side1.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/375e2cf60a1e093f0f8119114d302f7a.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "side",
+      "size": "pending"
+    },
+    {
+      "file": "04-side2.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/f82279530d8f563676eb9992a66b9b7d.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "side",
+      "size": "pending"
+    },
+    {
+      "file": "05-related1.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/d4e77cdc6e2f426170f31b24590dc090.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "related",
+      "size": "pending"
+    },
+    {
+      "file": "06-related2.jpg",
+      "url": "https://static.rorix.nl/image/product/overig/2000x2000/375e2cf60a1e093f0f8119114d302f7a.jpg/saniclass-chaci-badkamermeubelset-120x46x55cm-keramische-wastafel-wit-2-ovale-wasbakken-2-kraangaten-2-laden-eiken-sw721286.jpg",
+      "type": "related",
+      "size": "pending"
+    }
+  ],
+  "image_count": 6,
+  "total_size": "845K + 1.1M = ~950K downloaded"
+}

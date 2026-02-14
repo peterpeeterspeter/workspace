@@ -1,0 +1,17 @@
+{
+  "env": {
+    "WP_DEFAULT_SITE": "crashcasino",
+    "WP_SITE_CRASHCASINO_URL": "https://crashcasino.io/wp-json",
+    "WP_SITE_CRASHCASINO_USER": "peter",
+    "WP_SITE_CRASHCASINO_PASS": "3vRhtTs2khfdLtTiDFqkdeXI",
+    "WP_SITE_CRASHGAME_URL": "https://crashgamegambling.com/wp-json",
+    "WP_SITE_CRASHGAME_USER": "peter",
+    "WP_SITE_CRASHGAME_PASS": "MioX SygN Xaz6 pK9o RUiK tBMF",
+    "WP_SITE_FREECRASH_URL": "https://freecrashgames.com/wp-json",
+    "WP_SITE_FREECRASH_USER": "peter",
+    "WP_SITE_FREECRASH_PASS": "F8Mg yZXM qJy4 jQvp BMeZ FoMG",
+    "WP_SITE_CRYPTOCRASH_URL": "https://cryptocrashgambling.com/wp-json",
+    "WP_SITE_CRYPTOCRASH_USER": "peter",
+    "WP_SITE_CRYPTOCRASH_PASS": "R3kQ 6vRA UwYd x7Cn KEtT Pk83"
+  }
+}

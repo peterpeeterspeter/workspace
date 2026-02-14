@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Ethereum crash gambling safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you play at licensed casinos (Stake, BC.Game, Thunderpick, Roobet, Metaspins). All recommended casinos use provably fair RNG and hold Curacao eGaming licenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are ETH crash withdrawals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Instant to 15 minutes. Most casinos process ETH withdrawals instantly (on-chain). Confirmation takes 5-15 minutes depending on network congestion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum ETH deposit for crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metaspins and BC.Game: 0.005 ETH ($15-20) — lowest. Thunderpick: 0.008 ETH ($24-30). Stake and Roobet: 0.01 ETH ($30-40)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I pay gas fees on ETH crash withdrawals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but some casinos subsidize gas fees (Stake, BC.Game). Gas fees vary from $0.50-50 depending on network congestion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use USDT/USDC for ETH crash casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All recommended casinos accept ERC-20 stablecoins (USDT, USDC, DAI). Stablecoins are pegged to $1, avoiding ETH volatility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best Ethereum crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stake is our #1 pick — lowest ETH gas fees, instant withdrawals, 5 crash games, provably fair RNG."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Ethereum crash better than Bitcoin crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depends. ETH is faster (5-15 min vs 30-60 min), but gas fees can be higher during congestion. Use ETH for speed, BTC for lower fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I verify Ethereum crash is fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All recommended casinos offer provably fair crash. You can verify each round's outcome using the casino's verification tool."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do ETH crash bonuses have wagering requirements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Typical ETH crash bonuses have 30-50x wagering. Check if crash games contribute 100% before claiming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use ETH or stablecoins for crash?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use stablecoins (USDT, USDC) for consistent value and easier bankroll management. Use ETH if you want upside potential and lower gas fees."
+      }
+    }
+  ]
+}

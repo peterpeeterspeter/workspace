@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Crash Gambling Legal? The Complete 2026 Guide",
+  "description": "Is crash gambling legal? Complete 2026 country-by-country guide to crash gambling laws. US, UK, EU, Canada, Australia, Japan + tax implications + licensed casinos.",
+  "author": {
+    "@type": "Person",
+    "name": "Vision"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FreeCrashGames",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://freecrashgames.com/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://freecrashgames.com/crash-gambling-legal"
+  },
+  "wordCount": 2500,
+  "keywords": ["crash gambling legal", "is crash gambling legal", "crash gambling legality by country", "crash gambling laws"],
+  "articleSection": "Crash Gambling Guides",
+  "about": {
+    "@type": "Thing",
+    "name": "Crash Gambling Legality"
+  }
+}

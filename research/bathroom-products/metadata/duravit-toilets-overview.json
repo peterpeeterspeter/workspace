@@ -1,0 +1,45 @@
+{
+  "collection_date": "2026-02-09",
+  "batch": "1",
+  "category": "toilets",
+  "manufacturer": "Duravit",
+  "country": "Germany",
+  "source_url": "https://www.duravit.nl/producten/toileshing/wcs.be-nl.html",
+  "series_found": [
+    "ME by Starck",
+    "Starck 1",
+    "Starck 3",
+    "DuraStyle",
+    "Happy D.2",
+    "1930 Series",
+    "Architec",
+    "Aurena",
+    "Bento Starck Box",
+    "D-Code",
+    "D-Neo",
+    "Duravit No.1",
+    "Studio F.A. Porsche Collection",
+    "Vero Air",
+    "White Tulip"
+  ],
+  "categories_found": {
+    "wall_mounted": "Wand-WC's",
+    "floor_standing": "Staande WC's",
+    "rimless": "Rimless WC's"
+  },
+  "features_noted": {
+    "Duravit Rimless": "Rimless flushing technology",
+    "SensoWash": "Shower toilet seats",
+    "Durafix": "Patented mounting system",
+    "WonderGliss": "Anti-bacterial ceramic glaze",
+    "SoftClose": "Soft close toilet seats"
+  },
+  "products_collected": [],
+  "next_steps": [
+    "Navigate to ME by Starck series page",
+    "Extract individual product data",
+    "Download product images",
+    "Save metadata for each product"
+  ],
+  "notes": "Duravit appears to be a premium German manufacturer with extensive product range. Pricing likely in the €500-€1200 range based on feature set."
+}

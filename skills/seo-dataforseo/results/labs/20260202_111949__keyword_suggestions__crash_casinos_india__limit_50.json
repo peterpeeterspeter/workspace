@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T11:19:49.432061",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "crash casinos india",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.2488 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02021319-8420-0399-0000-d6fcc1a330b1",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.2225 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "crash casinos india",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "crash casinos india",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "crash casinos india",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": null,
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": null,
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiY3Jhc2ggY2FzaW5vcyBpbmRpYSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0Ijo1MCwib2Zmc2V0IjowLCJhaWQiOjg0MjA1LCJmbGFncyI6bnVsbCwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDIwMjEzMTktODQyMC0wMzk5LTAwMDAtZDZmY2MxYTMzMGIxIn0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6ImM2MDdiM2QzLWI0ZmEtNGFiNi05ODIzLWYwZWIzMDQ4OTM3OSIsIlNlYXJjaEFmdGVyRGF0YSI6bnVsbH0="
+          }
+        ]
+      }
+    ]
+  }
+}

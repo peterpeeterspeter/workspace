@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Crash Gambling Rigged? Complete 2025 Fairness Guide",
+  "description": "Is crash gambling rigged? We explain provably fair technology, how multipliers work, and how to verify game fairness yourself. Don't play until you read this.",
+  "image": "https://crashcasino.io/wp-content/uploads/2025/02/crash-gambling-fairness.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Vision",
+    "url": "https://crashcasino.io/author/vision/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crash Casino",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/wp-content/uploads/2025/02/crashcasino-logo.png"
+    }
+  },
+  "datePublished": "2025-02-03",
+  "dateModified": "2025-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/is-crash-gambling-rigged/"
+  },
+  "keywords": "is crash gambling rigged, crash game fairness, provably fair, crash gambling scams, rigged crash game",
+  "articleSection": "Crash Gambling Guides",
+  "wordCount": 2500
+}

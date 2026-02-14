@@ -1,0 +1,213 @@
+#!/bin/bash
+# IMPROVED WordPress Publishing with Gutenberg Blocks + YAML Handling
+# Combines pinch-to-post's markdown_to_gutenberg with proper frontmatter stripping
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Source the pinch-to-post functions
+source /root/.openclaw/workspace/skills/pinch-to-post/wp-rest.sh
+
+# Strip YAML frontmatter from markdown
+strip_yaml() {
+    local content="$1"
+    # Remove YAML frontmatter (between first and second --- markers)
+    echo "$content" | sed '1{/^---$/{ :a; N; /^---$/d; ba; }}'
+}
+
+# Convert markdown tables to HTML before Gutenberg conversion
+convert_tables_to_html() {
+    local md="$1"
+    python3 -c "
+import sys
+import re
+
+md_content = sys.stdin.read()
+
+# Simple table detection and conversion
+lines = md_content.split('\n')
+html_lines = []
+in_table = False
+table_rows = []
+
+for line in lines:
+    # Check if line looks like a table row
+    if '|' in line and line.strip() and not line.strip().startswith('#'):
+        # Skip separator rows
+        if '|----' in line or '| ---' in line or '|===' in line or '|===' in line:
+            continue
+
+        cells = [cell.strip() for cell in line.split('|')]
+        cells = [c for c in cells if c and c.strip()]
+
+        if len(cells) >= 2:
+            # Convert markdown inline formatting in cells
+            row_html = '<tr>'
+            for cell in cells:
+                cell = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', cell)
+                cell = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', cell)
+                cell = re.sub(r'\[([^\]]+)\]\(([^\)]+)\)', r'<a href=\"\2\">\1</a>', cell)
+                row_html += f'<td>{cell}</td>'
+            row_html += '</tr>'
+            table_rows.append(row_html)
+            in_table = True
+            continue
+
+    # Close table if we hit a non-table line
+    if in_table and (not line.strip() or line.startswith('#') or '|' not in line or line.strip().startswith('#')):
+        if table_rows:
+            html_lines.append('<table class=\"wp-block-table\">')
+            html_lines.extend(table_rows)
+            html_lines.append('</table>')
+            html_lines.append('')
+            table_rows = []
+        in_table = False
+
+    html_lines.append(line)
+
+# Close any open table
+if in_table and table_rows:
+    html_lines.append('<table class=\"wp-block-table\">')
+    html_lines.extend(table_rows)
+    html_lines.append('</table>')
+    html_lines.append('')
+
+print('\n'.join(html_lines))
+" <<< "$md"
+}
+
+# Main publishing function
+publish_article_gutenberg() {
+    local MD_FILE="$1"
+    local TARGET_SITE="${2:-crashcasino.io}"
+    local STATUS="${3:-publish}"
+
+    # Check if file exists
+    [ ! -f "$MD_FILE" ] && { echo "Error: File not found: $MD_FILE" >&2; return 1; }
+
+    # Extract metadata (before stripping YAML)
+    TITLE=$(grep -m1 "^# " "$MD_FILE" | sed 's/^# //')
+    if [ -z "$TITLE" ]; then
+        TITLE=$(grep "^title:" "$MD_FILE" | head -1 | sed 's/title: *//i' | xargs | sed "s/^['\"]//;s/['\"]$//")
+    fi
+    [ -z "$TITLE" ] && TITLE=$(basename "$MD_FILE" .md)
+
+    # Extract meta description
+    META_DESC=$(grep -i "^description:" "$MD_FILE" | head -1 | sed 's/description: *//i' | xargs | sed "s/^['\"]//;s/['\"]$//")
+    [ -z "$META_DESC" ] && META_DESC=$(grep -i "^**Meta Description:**" "$MD_FILE" | sed 's/\*\*Meta Description:\*\* *//i' | xargs)
+
+    # Extract keywords
+    KEYWORDS=$(grep -i "^keywords:" "$MD_FILE" | head -1 | sed 's/keywords: *//i' | xargs | sed "s/^['\"]//;s/['\"]$//")
+    [ -z "$KEYWORDS" ] && KEYWORDS=$(grep -i "^**Target Keywords:**" "$MD_FILE" | sed 's/\*\*Target Keywords:\*\* *//i' | xargs)
+
+    # Read and process markdown
+    MD_CONTENT=$(cat "$MD_FILE")
+
+    # Strip YAML frontmatter
+    MD_CONTENT=$(strip_yaml "$MD_CONTENT")
+
+    # Convert tables to HTML (with wp-block-table class)
+    MD_CONTENT=$(convert_tables_to_html "$MD_CONTENT")
+
+    # Convert to Gutenberg blocks using pinch-to-post function
+    GUTENBERG_CONTENT=$(markdown_to_gutenberg "$MD_CONTENT")
+
+    # Get WordPress credentials
+    WP_URL=""
+    WP_USER="peter"
+    WP_APP=""
+
+    case "$TARGET_SITE" in
+        crashcasino.io)
+            WP_URL="https://crashcasino.io"
+            WP_APP="${WP_SITE_CRASHCASINO_PASS:-${WORDPRESS_CRASHCASINO_APP_PASSWORD:-}}"
+            ;;
+        cryptocrashgambling.com)
+            WP_URL="https://cryptocrashgambling.com"
+            WP_APP="${WP_SITE_CRYPTOCRASH_PASS:-${WORDPRESS_CRYPTOCRASH_APP_PASSWORD:-}}"
+            ;;
+        crashgamegambling.com)
+            WP_URL="https://crashgamegambling.com"
+            WP_APP="${WP_SITE_CRASHGAME_PASS:-${WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD:-}}"
+            ;;
+        freecrashgames.com)
+            WP_URL="https://freecrashgames.com"
+            WP_APP="${WP_SITE_FREECRASH_PASS:-${WORDPRESS_FREECRASH_APP_PASSWORD:-}}"
+            ;;
+        aviatorcrashgame.com)
+            WP_URL="https://aviatorcrashgame.com"
+            WP_APP="${WP_SITE_AVIATORCRASH_PASS:-${WORDPRESS_AVIATORCRASH_APP_PASSWORD:-}}"
+            ;;
+        *)
+            echo "Error: Unknown site $TARGET_SITE" >&2
+            return 1
+            ;;
+    esac
+
+    # Check credentials
+    [ -z "$WP_APP" ] && { echo "Error: No WordPress credentials for $TARGET_SITE" >&2; return 1; }
+
+    # Build JSON payload
+    JSON_PAYLOAD=$(jq -n \
+        --arg t "$TITLE" \
+        --arg c "$GUTENBERG_CONTENT" \
+        --arg e "$META_DESC" \
+        --arg s "$STATUS" \
+        '{title:$t, content:$c, excerpt:$e, status:$s}')
+
+    # Publish via REST API
+    echo "Publishing to $TARGET_SITE..."
+    RESPONSE=$(curl -s -X POST "${WP_URL}/wp-json/wp/v2/posts" \
+        -u "${WP_USER}:${WP_APP}" \
+        -H "Content-Type: application/json" \
+        -d "$JSON_PAYLOAD")
+
+    # Check response
+    if echo "$RESPONSE" | jq -e '.id' > /dev/null 2>&1; then
+        POST_ID=$(echo "$RESPONSE" | jq -r '.id')
+        POST_LINK=$(echo "$RESPONSE" | jq -r '.link')
+        echo "✅ SUCCESS: Published as post #$POST_ID"
+        echo "   Link: $POST_LINK"
+        echo "   Status: $STATUS"
+
+        # Archive if published successfully
+        if [ "$STATUS" = "publish" ]; then
+            ARCHIVE_DIR="/root/.openclaw/workspace/drafts/published"
+            mkdir -p "$ARCHIVE_DIR"
+            cp "$MD_FILE" "${ARCHIVE_DIR}/$(basename "$MD_FILE")"
+            echo "   Archived: ${ARCHIVE_DIR}/$(basename "$MD_FILE")"
+        fi
+
+        return 0
+    else
+        echo "❌ ERROR: Failed to publish"
+        echo "   Response: $RESPONSE" >&2
+        return 1
+    fi
+}
+
+# If script is run directly (not sourced)
+if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
+    if [ -z "$1" ]; then
+        echo "Usage: $0 <markdown-file> [site] [status]"
+        echo ""
+        echo "Example:"
+        echo "  $0 article.md crashcasino.io publish"
+        echo "  $0 article.md cryptocrashgambling.com draft"
+        echo ""
+        echo "Supported sites:"
+        echo "  - crashcasino.io"
+        echo "  - cryptocrashgambling.com"
+        echo "  - crashgamegambling.com"
+        echo "  - freecrashgames.com"
+        echo "  - aviatorcrashgame.com"
+        exit 1
+    fi
+
+    # Load environment variables
+    [ -f /root/.openclaw/workspace/.env.wordpress ] && source /root/.openclaw/workspace/.env.wordpress
+
+    # Run publishing
+    publish_article_gutenberg "$@"
+fi

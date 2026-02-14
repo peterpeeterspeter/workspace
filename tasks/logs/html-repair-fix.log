@@ -1,0 +1,52 @@
+=== WordPress HTML Repair ===
+Date: 2026-02-02 21:38:20
+
+Fetching published posts...
+Found 9 posts to check
+
+[1/9] Post ID: 817
+    Title: Crash Casino Scams: 7 Red Flags That Scream &#8216;Rogue Site&#8217;
+    ⚠️  Broken HTML detected, repairing...
+    Updating post 817...
+    ✅ SUCCESS: HTML repaired and updated
+
+[2/9] Post ID: 816
+    Title: How to Choose a Safe Crash Casino (2026 Checklist)
+    ⚠️  Broken HTML detected, repairing...
+    Updating post 816...
+    ✅ SUCCESS: HTML repaired and updated
+
+[3/9] Post ID: 787
+    Title: Safe Crash Gambling: Red Flags to Avoid in 2026
+    ✅ HTML looks good, skipping
+
+[4/9] Post ID: 786
+    Title: Crash Gambling RTP: House Edge Explained
+    ✅ HTML looks good, skipping
+
+[5/9] Post ID: 785
+    Title: Crash Casino Bonuses: Maximize Your First Deposit in 2026
+    ✅ HTML looks good, skipping
+
+[6/9] Post ID: 784
+    Title: Best Crash Casinos 2026: Safe &#038; Verified Sites
+    ✅ HTML looks good, skipping
+
+[7/9] Post ID: 783
+    Title: Provably Fair Crash Games: How to Verify Game Integrity in 2026
+    ✅ HTML looks good, skipping
+
+[8/9] Post ID: 779
+    Title: Is Crash Gambling Legal in the US? A State-by-State Guide
+    ✅ HTML looks good, skipping
+
+[9/9] Post ID: 776
+    Title: Crash Gambling 101: How to Play &#038; Win (Beginner&#8217;s Guide)
+    ✅ HTML looks good, skipping
+
+=== Repair Summary ===
+✅ Repaired: 2
+❌ Failed: 0
+📊 Total processed: 2
+
+🎉 HTML repair complete! 2 articles fixed.

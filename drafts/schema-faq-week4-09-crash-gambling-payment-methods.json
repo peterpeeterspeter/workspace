@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the best payment method for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDT (Tether). It's fast (1-6 hour withdrawals), stable (pegged to USD), low fees ($1-5), and widely accepted. Best all-around choice for crash players."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do crash withdrawals take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crypto: 1-24 hours (USDT is fastest at 1-6 hours). Fiat/cards: 3-7 days. Crypto wins on speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use credit cards for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Technically yes (some casinos accept them), but it's not recommended. Withdrawals take 3-7 days, fees are 2-5%, and many banks block gambling transactions. Use crypto instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which payment method has the lowest fees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Litecoin (LTC) has lowest fees ($0.5-2), but USDT is close ($1-5) and more widely accepted. Avoid credit cards (2-5% fees)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are crash casino withdrawals instant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some crypto casinos offer 'instant' withdrawals (Stake, BC.Game), but actual time is 1-6 hours (casino processing + blockchain). Nothing is truly instant, but crypto is much faster than fiat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods work for US players?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crypto only (BTC, ETH, USDT, LTC). US banks block credit card gambling transactions, PayPal prohibits gambling, and offshore casinos don't accept US fiat. USDT is best for US players."
+      }
+    }
+  ]
+}

@@ -1,0 +1,3048 @@
+[
+  {
+    "credit_cards": [
+      {
+        "name": "Citi Simplicity® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 Months (Intro), 18.24% - 28.99% (Regular)",
+        "additional_features": "No Late Fees, No Penalty Rate, and No Annual Fee... Ever. 0% Intro APR for 21 months on balance transfers and for 12 months on purchases; after that, the variable APR will be 18.24% - 28.99%, based on your creditworthiness. Balance transfers must be completed within 4 months of account opening.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2x - 5x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "Variable",
+        "additional_features": "Enjoy $250 to use on Capital One Travel in your first cardholder year, plus earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months from account opening. Earn unlimited 2X miles on every purchase, every day.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on Balance Transfers for 18 months, then 18.24% - 28.24% (Regular)",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months of account opening. Earn 2% on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "2% - 10% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee, and no security deposit required. 2-10% cash back at select local and national merchants.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi® Diamond Preferred® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 months (Intro), 17.24% - 27.99% (Regular)",
+        "additional_features": "0% Intro APR for 21 months on balance transfers and for 12 months on purchases; after that, the variable APR will be 17.24% - 27.99%, based on your creditworthiness.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Platinum Secured Credit Card",
+        "issuer": "Capital One",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "No credit score required to apply, but may be used if available. Put down a refundable security deposit starting at $49 to get a $200 initial credit line.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 2 Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "1% - 10% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee– in fact, no fees of any kind. Up to 1.5% cash back on unlimited everyday purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Alaska Airlines Visa Signature® credit card",
+        "issuer": "Bank of America",
+        "rewards": "1x - 3x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Receive a 30% flight discount code for a qualifying future flight after opening your new account. Earn unlimited 3 miles for every $1 spent on eligible Alaska Airlines purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Secured Credit Card",
+        "issuer": "Discover",
+        "rewards": "1% - 2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "27.24% Variable APR",
+        "additional_features": "Your secured credit card requires a refundable security deposit, and your credit line will equal your deposit amount, starting at $200.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases for 6 months, then 17.24% - 26.24% (Regular)",
+        "additional_features": "INTRO OFFER: Unlimited Cashback Match for all new cardmembers – only from Discover.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Mastercard® Gold Card™",
+        "issuer": "Mastercard",
+        "rewards": "1 point for every $1 spent; redeem at 2% for airfare and cash back",
+        "annual_fee": "$995; $295 for each additional user",
+        "interest_rate": "",
+        "additional_features": "$200 annual airline credit; $120 Global Entry statement credit; no foreign transaction fees; 24/7 concierge service; access to luxury magazine.",
+        "credit_score_required": "709"
+      },
+      {
+        "name": "Mastercard® Titanium Card™",
+        "issuer": "Mastercard",
+        "rewards": "2% value for airfare redemptions",
+        "annual_fee": "$195; $95 for each additional user",
+        "interest_rate": "",
+        "additional_features": "Luxury concierge and booking services, no blackout dates for travel redemptions",
+        "credit_score_required": "704"
+      },
+      {
+        "name": "Mastercard® Black Card™",
+        "issuer": "Barclays",
+        "rewards": "1 point for every $1 spent; 2% redemption rate for airfare, 1.5% for cash back",
+        "annual_fee": "$495; $195 for each additional user",
+        "interest_rate": "",
+        "additional_features": "Priority Pass Select membership for lounge access, Luxury Card Concierge, annual airline credit of up to $100, statement credit of up to $120 for Global Entry or TSA PreCheck application fee.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Petal 2 Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "1% cash back on all eligible purchases, increasing to 1.25% and 1.5% with on-time payments",
+        "annual_fee": "$0",
+        "interest_rate": "29.24% - 31.24%",
+        "additional_features": "No credit history required, automatic credit limit increase after 6 on-time payments, reports to all three major credit bureaus.",
+        "credit_score_required": "Average credit score of 648"
+      },
+      {
+        "name": "DoorDash Rewards Mastercard®",
+        "issuer": "Credit Karma",
+        "rewards": "",
+        "annual_fee": "$N/A",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back on a category of your choice, 2% cash back at grocery stores and wholesale clubs, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24%",
+        "additional_features": "$200 online cash rewards bonus after spending $1,000 in the first 90 days, 0% intro APR for 15 billing cycles on purchases and balance transfers made in the first 60 days.",
+        "credit_score_required": "698 (average)"
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Earn 20,000 bonus points when you spend $1,000 in purchases in the first 3 months; unlimited 3X points on restaurants, travel, gas stations, transit, popular streaming services, and phone plans; 1X points on other purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "0% intro APR for 12 months from account opening; up to $600 of cell phone protection against damage or theft; complimentary 24/7 Visa Signature® Concierge.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months; unlimited 1.5% cash back on every purchase; 5% cash back on hotels and rental cars booked through Capital One Travel.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "0% intro APR on purchases and balance transfers for 15 months; no foreign transaction fees.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Simplicity® Card",
+        "issuer": "Citi",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.99% Variable",
+        "additional_features": "0% Intro APR for 21 months on balance transfers and for 12 months on purchases; no late fees, no penalty rate.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months; unlimited 2% cash rewards on purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "0% intro APR for 12 months on purchases and qualifying balance transfers; up to $600 of cell phone protection against damage or theft.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Prosper® Card",
+        "issuer": "Coastal Community Bank",
+        "rewards": "N/A",
+        "annual_fee": "$0 intro with auto pay, then $59 after first year",
+        "interest_rate": "23.24% - 34.74% Variable",
+        "additional_features": "No security deposit required; $0 ATM cash withdrawal fee; checking your offer won't affect your credit score.",
+        "credit_score_required": "We welcome applicants with less-than-perfect credit"
+      },
+      {
+        "name": "Wells Fargo Reflect® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "17.24%, 23.74%, or 28.99% Variable APR",
+        "additional_features": "0% intro APR for 21 months on purchases and qualifying balance transfers; up to $600 of cell phone protection against damage or theft.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Visa® Credit Card",
+        "issuer": "WebBank",
+        "rewards": "2-10% cash back at select local and national merchants",
+        "annual_fee": "$0",
+        "interest_rate": "28.99% - 33.99% Variable",
+        "additional_features": "Get an automatic credit limit increase after 6 qualifying on time monthly payments; zero liability fraud coverage.",
+        "credit_score_required": "No Credit Score? No problem."
+      },
+      {
+        "name": "Citi® Diamond Preferred® Card",
+        "issuer": "Citi",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "17.24% - 27.99% Variable",
+        "additional_features": "0% Intro APR for 21 months on balance transfers and for 12 months on purchases; free access to your FICO® Score online.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days; earn 3% cash back in the category of your choice.",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% Intro APR for 15 billing cycles for purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Travel Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "25,000 online bonus points after you make at least $1,000 in purchases in the first 90 days; earn unlimited 1.5 points per $1 spent on all purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% Intro APR for 15 billing cycles for purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Platinum Visa®",
+        "issuer": "Credit One Bank",
+        "rewards": "1% Cash back",
+        "annual_fee": "$39",
+        "interest_rate": "",
+        "additional_features": "Earn 1% cash back rewards on eligible gas, grocery purchases and mobile phone service, internet, cable and satellite TV services, terms apply. With $0 Fraud Liability, you won’t be responsible for unauthorized charges. Automatic reviews for credit line increase opportunities. Free Online Credit Score and Credit Report summary, terms apply. Choose your monthly payment due date for added convenience, terms apply. Never miss an account update with customizable text and email alerts. Manage your account on-the-go with the Credit One Bank mobile app. Show off your personality by selecting from a variety of card designs, a fee may apply.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% variable APR",
+        "additional_features": "0% intro APR on purchases and balance transfers for 15 months; balance transfer fee applies, 3% fee on the amounts transferred within the first 15 months, 4% at a promotional APR that Capital One may offer you at any other time. Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening. Earn unlimited 1.5% cash back on every purchase, every day. Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel. No rotating categories or sign-ups needed to earn cash rewards; plus, cash back won't expire for the life of the account and there's no limit to how much you can earn.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "1x - 3x Points per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "Earn 20,000 bonus points when you spend $1,000 in purchases in the first 3 months - that's a $200 cash redemption value. Earn unlimited 3X points on the things that really add up - like restaurants, travel, gas stations, transit, popular streaming services, and phone plans. 0% intro APR for 12 months from account opening on purchases. Up to $600 of cell phone protection against damage or theft. Redeem your rewards points for travel, gift cards, or statement credits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank American Express® Card",
+        "issuer": "Credit One Bank",
+        "rewards": "1% Cash back",
+        "annual_fee": "$39",
+        "interest_rate": "",
+        "additional_features": "Earn unlimited 1% cash back rewards on all purchases, terms apply. With $0 Fraud Liability, you won’t be responsible for unauthorized charges. Retail Protection covers you if an eligible item is accidentally damaged or stolen, terms apply. Get deals on shopping, dining, travel, and entertainment through Amex Offers. Enjoy exclusive access to pre-sale tickets for some of the hottest nationwide concerts and events.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Platinum X5 Visa®",
+        "issuer": "Credit One Bank",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 5% cash back rewards on the first $5,000 of eligible purchases of gas, grocery, internet, cable, satellite TV and mobile phone services each year, and then 1% thereafter. Free Online Credit Score and Credit Report summary.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Destiny™ Mastercard® Cashback Rewards",
+        "issuer": "Destiny",
+        "rewards": "1.5% Cash back",
+        "annual_fee": "$75 the first year; $99 thereafter",
+        "interest_rate": "",
+        "additional_features": "Earn 1.5% cashback rewards for all of your eligible purchases! Apply with Confidence! There is no impact to your credit score if you’re not approved. Your financial future is important. Keeping your Destiny account in good standing may help establish and/or improve your credit history with reporting to the three major credit bureaus.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Indigo® Mastercard® Cashback Rewards",
+        "issuer": "Indigo",
+        "rewards": "1.5% Cash back",
+        "annual_fee": "$75 the first year; $99 thereafter",
+        "interest_rate": "",
+        "additional_features": "Unlimited 1.5% Cashback Rewards earned on Every Purchase! Apply with Confidence! There is no impact to your credit score if you’re not approved. Indigo Card reports to all three major credit bureaus and gives you the chance to establish a consistent payment record!",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Avant Cash Back Rewards Card",
+        "issuer": "Avant",
+        "rewards": "1% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "1% Unlimited Cash Back on Every Purchase, Everywhere MasterCard is accepted. No Limit On The Monthly Rewards You Can Earn. $0 Foreign Transaction Fees.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One QuicksilverOne Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$39",
+        "interest_rate": "",
+        "additional_features": "Earn unlimited 1.5% cash back on every purchase, every day. Be automatically considered for a higher credit line in as little as 6 months. Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Rise Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "2% - 10% Cash back",
+        "annual_fee": "$59",
+        "interest_rate": "",
+        "additional_features": "No security deposit required. 2-10% cash back at select local and national merchants. See if you’re pre-approved in minutes without impacting your credit score.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Platinum Rewards Visa®",
+        "issuer": "Credit One Bank",
+        "rewards": "Earn 1% cash back rewards on eligible gas and grocery purchases as well as mobile phone, internet, cable, and satellite TV services, terms apply",
+        "annual_fee": "$0",
+        "interest_rate": "29.49%* Variable",
+        "additional_features": "Choose your monthly payment due date for added convenience, terms apply. Free Online Credit Score and Credit Report summary, terms apply. With $0 Fraud Liability, you won’t be responsible for unauthorized charges. Never miss an account update with customizable text and email alerts. Manage your account on-the-go with the Credit One Bank mobile app.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Upgrade Triple Cash Rewards Visa®",
+        "issuer": "Upgrade",
+        "rewards": "Unlimited cash back on payments - 3% on Home, Health and Auto categories",
+        "annual_fee": "$0",
+        "interest_rate": "14.99% - 29.99%",
+        "additional_features": "Combine the flexibility of a card with the predictability of a personal loan. No touch payments with contactless technology built in. See if you qualify in minutes without hurting your credit score. Great for large purchases with predictable payments you can budget for. Mobile app to access your account anytime, anywhere. Relax knowing that you are protected in case of unauthorized transactions with Visa’s Zero Liability Policy.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Platinum Credit Card",
+        "issuer": "Capital One",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "No annual or hidden fees. See if you're approved in seconds. Be automatically considered for a higher credit line in as little as 6 months. Help build your credit through responsible use of a card like this. Enjoy peace of mind with $0 Fraud Liability so that you won't be responsible for unauthorized charges. Monitor your credit score with CreditWise from Capital One. It's free for everyone.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards for Good Credit",
+        "issuer": "Capital One",
+        "rewards": "Earn unlimited 3% cash back at grocery stores, on dining, entertainment and popular streaming services, plus 1% on all other purchases. Earn 8% cash back on Capital One Entertainment purchases. Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel.",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "No rotating categories or sign-ups needed to earn cash rewards. Cash back won't expire for the life of the account and there's no limit to how much you can earn. No foreign transaction fee. You're covered by $0 Fraud Liability for unauthorized charges.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Secured Card",
+        "issuer": "Credit One Bank",
+        "rewards": "Earn 1% cash back rewards on eligible gas, grocery purchases and mobile phone service, internet, cable and satellite TV services, terms apply",
+        "annual_fee": "$0",
+        "interest_rate": "28.74%* Variable",
+        "additional_features": "Looking to rebuild credit? We report to the major credit bureaus monthly. Earn interest on your required security deposit account (minimum deposit $200). Never miss an account update with customizable text and email alerts. Manage your account on-the-go with the Credit One Bank mobile app.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Reflect® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "17.24%, 23.74%, or 28.99% Variable APR",
+        "additional_features": "0% intro APR for 21 months from account opening on purchases and qualifying balance transfers. Up to $600 of cell phone protection against damage or theft. Through My Wells Fargo Deals, you can get access to personalized deals from a variety of merchants.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Earn 20,000 bonus points when you spend $1,000 in purchases in the first 3 months - that's a $200 cash redemption value. Earn unlimited 3X points on the things that really add up - like restaurants, travel, gas stations, transit, popular streaming services, and phone plans.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "0% intro APR for 12 months from account opening on purchases. Up to $600 of cell phone protection against damage or theft.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months. Earn unlimited 2% cash rewards on purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "0% intro APR for 12 months from account opening on purchases and qualifying balance transfers.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Secured Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Earn unlimited 1.5% cash back on every purchase, every day. Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel.",
+        "annual_fee": "None",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "Put down a refundable $200 security deposit to get a $200 initial credit line. Be automatically considered for a higher credit line in as little as 6 months with no additional deposit needed.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "1x - 5x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 100,000 bonus points after you spend $5,000 on purchases in the first 3 months. Enjoy benefits such as 5x on travel purchased through Chase Travel℠, 3x on dining, select streaming services and online groceries, 2x on all other travel purchases, 1x on all other purchases, $50 Annual Chase Travel Hotel Credit, plus more.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR thereafter",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months. Earn unlimited 2% cash rewards on purchases. 0% intro APR for 12 months from account opening on purchases and qualifying balance transfers.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% variable APR after that",
+        "additional_features": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening. Earn unlimited 1.5% cash back on every purchase, every day.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One VentureOne Rewards for Good Credit",
+        "issuer": "Capital One",
+        "rewards": "1.25x - 5x Miles per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn 1.25X miles on every purchase, every day. Earn 5X miles on hotels and rental cars booked through Capital One Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2x - 5x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Enjoy $250 to use on Capital One Travel in your first cardholder year, plus earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Travel Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1.5x - 3x Points per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "25,000 online bonus points after you make at least $1,000 in purchases in the first 90 days of account opening. Earn unlimited 1.5 points per $1 spent on all purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% variable APR after that",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months of account opening. Earn 2% on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "1x - 5x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 100,000 bonus points after you spend $5,000 on purchases in the first 3 months from account opening. Enjoy benefits such as 5x on travel purchased through Chase Travel℠, 3x on dining, select streaming services and online groceries, 2x on all other travel purchases, 1x on all other purchases, $50 Annual Chase Travel Hotel Credit, plus more.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2x - 5x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Enjoy $250 to use on Capital One Travel in your first cardholder year, plus earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months from account opening. Earn unlimited 2X miles on every purchase, every day.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Upgrade Cash Rewards Visa®",
+        "issuer": "Upgrade",
+        "rewards": "1.5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn 1.5% unlimited cash back on card purchases every time you make a payment. No annual fee.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening. Earn unlimited 1.5% cash back on every purchase, every day.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Simplicity® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 Months",
+        "additional_features": "0% Intro APR for 21 months on balance transfers and for 12 months on purchases; after that, the variable APR will be 18.24% - 28.99%, based on your creditworthiness.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Travel Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1.5x - 3x Points per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "25,000 online bonus points after you make at least $1,000 in purchases in the first 90 days of account opening.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months of account opening.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi® Diamond Preferred® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 months",
+        "additional_features": "0% Intro APR for 21 months on balance transfers and for 12 months on purchases; after that, the variable APR will be 17.24% - 27.99%, based on your creditworthiness.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1% - 3% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days of account opening.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1% - 8% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn a one-time $200 cash bonus once you spend $500 on purchases within the first 3 months from account opening.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Rise Visa® Credit Card",
+        "issuer": "WebBank",
+        "rewards": "2% - 10% Cash back",
+        "annual_fee": "$59",
+        "interest_rate": "",
+        "additional_features": "No security deposit required; 2-10% cash back at select local and national merchants; See if you’re pre-approved in minutes without impacting your credit score; Get an automatic credit limit increase after 6 qualifying on time monthly payments; Petal reports to all 3 major credit bureaus; Pay with ease with a contactless card or on your phone using Apple Pay, Google Pay, or Samsung Pay; Zero liability fraud coverage.",
+        "credit_score_required": "No Credit Score? No problem. Credit history isn’t required for approval"
+      },
+      {
+        "name": "Petal® 2 Visa® Credit Card",
+        "issuer": "WebBank",
+        "rewards": "1% - 10% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee; Up to 1.5% cash back on unlimited everyday purchases; 2-10% cash back at select local and national merchants; See if you’re pre-approved in minutes without impacting your credit score; Get an automatic credit limit increase after 6 qualifying on time monthly payments; No security deposit required; Petal reports to all 3 major credit bureaus; Pay with ease with a contactless card or on your phone using Apple Pay, Google Pay, or Samsung Pay.",
+        "credit_score_required": "No Credit Score? No problem. Credit history isn’t required for approval"
+      },
+      {
+        "name": "Bank of America® Travel Rewards credit card for Students",
+        "issuer": "Bank of America",
+        "rewards": "1.5x - 3x Points per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "Variable APR that’s currently 18.24% - 28.24%",
+        "additional_features": "25,000 online bonus points after you make at least $1,000 in purchases in the first 90 days; Earn unlimited 1.5 points per $1 spent on all purchases; Earn 3 points per $1 spent on travel purchases booked through the Bank of America Travel Center; 0% Intro APR for 15 billing cycles for purchases; Contactless Cards.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card for Students",
+        "issuer": "Bank of America",
+        "rewards": "1% - 3% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "Variable APR that’s currently 18.24% - 28.24%",
+        "additional_features": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days; Earn 3% cash back in the category of your choice; No annual fee; 0% Intro APR for 15 billing cycles for purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Student Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn unlimited 1.5% cash back on every purchase; Early Spend Bonus: Earn $50 when you spend $100 in the first three months; Enjoy peace of mind with $0 Fraud Liability; Build your credit with responsible card use.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Student Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1% - 8% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn unlimited 3% cash back at grocery stores, on dining, entertainment and popular streaming services; Early Spend Bonus: Earn $50 when you spend $100 in the first three months; Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Chrome",
+        "issuer": "Discover",
+        "rewards": "1% - 2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "Variable purchase APR of 17.24% - 26.24%",
+        "additional_features": "INTRO OFFER: Unlimited Cashback Match for all new cardmembers; Earn 2% cash back at Gas Stations and Restaurants on up to $1,000 in combined purchases each quarter; Redeem your rewards for cash at any time.",
+        "credit_score_required": "No credit score required to apply"
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "Variable purchase APR of 17.24% - 26.24%",
+        "additional_features": "INTRO OFFER: Unlimited Cashback Match for all new cardmembers; Earn 5% Cashback Bonus® at Grocery Stores and Wholesale Clubs, April 1 through June 30, 2025, on up to $1,500 in purchases; Redeem your rewards for cash at any time.",
+        "credit_score_required": "No credit score required to apply"
+      },
+      {
+        "name": "The New United℠ Business Card",
+        "issuer": "Chase",
+        "rewards": "1x - 2x Miles per dollar",
+        "annual_fee": "$150",
+        "interest_rate": "",
+        "additional_features": "Earn 125,000 bonus miles after you spend $5,000 on purchases in the first 3 months. 2x miles on United® purchases, dining, gas stations, office supply stores, and local transit. Free first checked bag, 5,000-mile anniversary bonus, and $125 United travel credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Express® Business Gold Card",
+        "issuer": "American Express",
+        "rewards": "1x - 4x Points per dollar",
+        "annual_fee": "$375",
+        "interest_rate": "18.49% to 27.49% variable APR",
+        "additional_features": "Earn 100,000 Membership Rewards® points after spending $15,000 in the first 3 months. 4X points on top two eligible categories, 3X on flights and prepaid hotels.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Plum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "N/A",
+        "annual_fee": "$250",
+        "interest_rate": "N/A",
+        "additional_features": "Earn 1.5% Early Pay Discount on eligible charges paid within 10 days. Take up to 60 days to pay with no interest.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Marriott Bonvoy Business® American Express® Card",
+        "issuer": "American Express",
+        "rewards": "2x - 6x Points per dollar",
+        "annual_fee": "$125",
+        "interest_rate": "",
+        "additional_features": "Earn 3 Free Night Awards after spending $6,000 in the first 6 months. 6x points on Marriott purchases, 4x on restaurants and gas stations.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Ink Business Preferred® Credit Card",
+        "issuer": "Chase",
+        "rewards": "1x - 3x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 90,000 bonus points after spending $8,000 in the first 3 months. 3 points per $1 on travel and select business categories.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Delta SkyMiles® Platinum Business American Express Card",
+        "issuer": "American Express",
+        "rewards": "1.5x - 3x Miles per dollar",
+        "annual_fee": "$350",
+        "interest_rate": "",
+        "additional_features": "Earn 70,000 Bonus Miles after spending $6,000 in the first 6 months. Companion Certificate each year after renewal.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Business Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "1x - 5x Points per dollar",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "Earn 150,000 Membership Rewards® points after spending $20,000 in the first 3 months. Access to 1,400 airport lounges.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Southwest® Rapid Rewards® Performance Business Credit Card",
+        "issuer": "Chase",
+        "rewards": "1x - 4x Points per dollar",
+        "annual_fee": "$199",
+        "interest_rate": "",
+        "additional_features": "Earn 80,000 points after spending $5,000 in the first 3 months. 4X points on Southwest purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Southwest® Rapid Rewards® Premier Business Credit Card",
+        "issuer": "Chase",
+        "rewards": "1x - 3x Points per dollar",
+        "annual_fee": "$99",
+        "interest_rate": "",
+        "additional_features": "Earn 60,000 points after spending $3,000 in the first 3 months. 3X points on Southwest purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Delta SkyMiles® Gold Business American Express Card",
+        "issuer": "American Express",
+        "rewards": "1x - 2x Miles per dollar",
+        "annual_fee": "$0 introductory annual fee for the first year, then $150",
+        "interest_rate": "",
+        "additional_features": "Earn 60,000 Bonus Miles after spending $4,000 in the first 6 months. First Checked Bag Free on Delta Flights.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "60,000 bonus points after spending $5,000 in the first 3 months; points worth 50% more when redeemed for travel through Chase Travel",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "$300 annual travel credit",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "100,000 bonus points after spending $5,000 in the first 3 months",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "2% back on all purchases (1% when you buy, 1% when you pay)",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% back on travel booked through Chase Travel, 3% back on dining and drugstore purchases, 1.5% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Cash+® Secured Visa® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Credit limit determined by security deposit ($300 to $5,000)",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% back on up to $1,500 in quarterly rotating categories, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Ink Business Preferred® Credit Card",
+        "issuer": "Chase",
+        "rewards": "1x - 3x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "20.24% - 26.24%* Variable",
+        "additional_features": "Earn 90k bonus points after you spend $8,000 on purchases in the first 3 months. Earn 3 points per $1 on the first $150,000 spent on travel and select business categories each account anniversary year. Round-the-clock monitoring for unusual purchases. Zero Liability for unauthorized charges. Points worth 25% more when redeemed for travel through Chase Travel. Purchase Protection covers new purchases for 120 days against damage or theft up to $10,000 per claim.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Chrome",
+        "issuer": "Discover",
+        "rewards": "1% - 2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "17.24% - 26.24% Variable APR",
+        "additional_features": "Unlimited Cashback Match for all new cardmembers, 2% cash back at Gas Stations and Restaurants on up to $1,000 in combined purchases each quarter, redeem rewards for cash at any time, no annual fee, 0% intro APR on purchases for 6 months.",
+        "credit_score_required": "No credit score required to apply"
+      },
+      {
+        "name": "The New United℠ Business Card",
+        "issuer": "Chase",
+        "rewards": "1x - 2x Miles per dollar",
+        "annual_fee": "$150",
+        "interest_rate": "20.49% - 28.99%* Variable",
+        "additional_features": "Earn 125,000 bonus miles after spending $5,000 in the first 3 months. 2x miles on United® purchases, dining, gas stations, office supply stores, and local transit. Free first checked bag, 2 United Club℠ passes per year, priority boarding, and $125 United travel credit after 5 United® flight purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on up to $1,500 in rotating categories each quarter, then 1%",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24%",
+        "additional_features": "Cashback Match feature, late payment fee waiver, free online FICO® score, overnight card replacement.",
+        "credit_score_required": "691 (average)"
+      },
+      {
+        "name": "Capital One Platinum Credit Card",
+        "issuer": "Capital One",
+        "rewards": "No rewards",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Designed for people with fair credit, may be eligible for a higher credit line in as little as six months, includes fraud coverage, comprehensive account monitoring.",
+        "credit_score_required": "Fair"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "1.5% cash back on all purchases, 5% on travel purchased through Chase, 3% on dining and drugstore purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49%",
+        "additional_features": "Introductory 0% APR on purchases and balance transfers for the first 15 months, referral bonuses up to $500, foreign transaction fee of 3%.",
+        "credit_score_required": "692 (average)"
+      },
+      {
+        "name": "Apple Card",
+        "issuer": "Apple",
+        "rewards": "3% Daily Cash on Apple purchases, 2% Daily Cash on purchases through Apple Wallet, 1% Daily Cash on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "16.24%",
+        "additional_features": "No late fees, over-the-limit fees, or foreign transaction fees; ability to apply with a co-applicant; share the card among up to six people.",
+        "credit_score_required": "701"
+      },
+      {
+        "name": "Fidelity® Rewards Visa Signature® Card",
+        "issuer": "Fidelity",
+        "rewards": "2% cash back on eligible purchases",
+        "annual_fee": "$0",
+        "interest_rate": "15.99% - 24.99% Variable",
+        "additional_features": "No foreign transaction fees.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Chase Slate®",
+        "issuer": "Chase",
+        "rewards": "No rewards program",
+        "annual_fee": "$0",
+        "interest_rate": "0% Intro APR for 15 months on balance transfers",
+        "additional_features": "No annual fee.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Capital One Platinum Credit Card",
+        "issuer": "Capital One",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "26.99% Variable",
+        "additional_features": "No foreign transaction fees.",
+        "credit_score_required": "Fair to Good"
+      },
+      {
+        "name": "Journey® Student Rewards from Capital One®",
+        "issuer": "Capital One",
+        "rewards": "1% cash back on all purchases, 1.25% after making 5 monthly payments on time",
+        "annual_fee": "$0",
+        "interest_rate": "26.99% Variable",
+        "additional_features": "No foreign transaction fees.",
+        "credit_score_required": "No credit history required"
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "3x points on travel and dining, 1 point per dollar on all other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "16.99% - 23.99% Variable",
+        "additional_features": "$300 annual travel credit, access to airport lounges.",
+        "credit_score_required": "Excellent"
+      },
+      {
+        "name": "Capital One® Quicksilver® Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% cash back on every purchase",
+        "annual_fee": "$0",
+        "interest_rate": "19.99% - 29.99% Variable",
+        "additional_features": "No foreign transaction fees.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Discover it® Student Chrome",
+        "issuer": "Discover",
+        "rewards": "2% cash back at gas stations and restaurants, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "17.99% - 26.99% Variable",
+        "additional_features": "Cashback Match at the end of the first year.",
+        "credit_score_required": "No credit history required"
+      },
+      {
+        "name": "Mastercard® Gold Card™",
+        "issuer": "Mastercard",
+        "rewards": "2% cash back on all purchases",
+        "annual_fee": "$995",
+        "interest_rate": "18.24% Variable",
+        "additional_features": "Luxury gifts and benefits.",
+        "credit_score_required": "Excellent"
+      },
+      {
+        "name": "Total Visa® Credit Card",
+        "issuer": "Total Visa",
+        "rewards": "None",
+        "annual_fee": "$75",
+        "interest_rate": "29.99% Variable",
+        "additional_features": "Unsecured card for applicants with poor credit.",
+        "credit_score_required": "Poor to Fair"
+      },
+      {
+        "name": "Disney credit cards",
+        "issuer": "Chase",
+        "rewards": "Earn Disney Rewards Dollars on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "16.99% - 23.74% Variable",
+        "additional_features": "Special Disney perks.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Frontier Airlines World Mastercard®",
+        "issuer": "Frontier Airlines",
+        "rewards": "50,000 bonus miles after spending $500 in the first 90 days; 5 miles per $1 spent at flyfrontier.com; 3 miles per $1 spent at restaurants; 1 mile per $1 spent on all other purchases.",
+        "annual_fee": "$89",
+        "interest_rate": "",
+        "additional_features": "Every $1 spent earns a qualifying mile toward elite status.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "rewards": "4 Membership Rewards® Points per $1 spent on dining purchases (on up to $50,000 per year, then earn one point per $1)",
+        "annual_fee": "$325",
+        "interest_rate": "",
+        "additional_features": "Up to $120 in dining statement credits, up to $10 monthly for select restaurants, and up to $10 in Uber Cash each month.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "3 points for every $1 spent on dining and travel purchases, 1 point per $1 on other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "Complimentary DashPass subscription for free delivery on certain orders, $300 annual travel credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5 points for every $1 spent on prepaid hotels and flights booked through American Express on amextravel.com or directly with airlines, 1 point per $1 on all other purchases",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "Up to $200 in Uber Cash annually, access to airport lounges, $200 airline fee credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "3% back on dining, 5% back on travel bookings through Chase Travel℠, 3% at drugstores, 1.5% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Altitude® Go Visa Signature® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "4 points for every $1 spent on dining, 2 points per $1 spent on grocery store purchases, streaming services, and gas stations, 1 point per $1 on all other eligible purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$15 annual streaming credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Simplicity® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 Months (Intro), 18.24% - 28.99% (Regular)",
+        "additional_features": "No Late Fees, No Penalty Rate, and No Annual Fee... Ever. 0% Intro APR for 21 months on balance transfers and for 12 months on purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2x - 5x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "Variable",
+        "additional_features": "75,000 bonus miles after spending $4,000 in the first 3 months. Unlimited 2X miles on every purchase.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 18 months (Intro), 18.24% - 28.24% (Regular)",
+        "additional_features": "Earn $200 cash back after spending $1,500 in the first 6 months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi® Diamond Preferred® Card",
+        "issuer": "Citi",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "0% for 21 months (Intro), 17.24% - 27.99% (Regular)",
+        "additional_features": "Get free access to your FICO® Score online.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "2% - 10% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee, and no security deposit required.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Platinum Secured Credit Card",
+        "issuer": "Capital One",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "No credit score required to apply, but may be used if available.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 2 Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "1% - 10% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee– in fact, no fees of any kind.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Alaska Airlines Visa Signature® credit card",
+        "issuer": "Bank of America",
+        "rewards": "1x - 3x Miles per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "60,000 Bonus Miles after making $3,000 in purchases within the first 90 days.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases for 6 months, then 17.24% - 26.24% (Regular)",
+        "additional_features": "INTRO OFFER: Unlimited Cashback Match for all new cardmembers.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Secured Credit Card",
+        "issuer": "Discover",
+        "rewards": "1% - 2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "27.24% Variable APR",
+        "additional_features": "No credit score required to apply. Automatic reviews starting at 7 months to see if we can transition you to an unsecured line of credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2x - 10x Miles per dollar",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "Earn 75,000 bonus miles when you spend $4,000 on purchases in the first 3 months from account opening, equal to $750 in travel. Receive a $300 annual credit for bookings through Capital One Travel. Get 10,000 bonus miles every year, starting on your first anniversary. Earn unlimited 10X miles on hotels and rental cars booked through Capital One Travel and 5X miles on flights and vacation rentals. Enjoy complimentary access to 1,300+ airport lounges worldwide.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "1x - 3x Points per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR thereafter",
+        "additional_features": "Earn 20,000 bonus points when you spend $1,000 in purchases in the first 3 months - that's a $200 cash redemption value. Earn unlimited 3X points on restaurants, travel, gas stations, transit, popular streaming services, and phone plans.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "1x - 5x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 100,000 bonus points after you spend $5,000 on purchases in the first 3 months. Enjoy benefits such as 5x on travel purchased through Chase Travel, 3x on dining, select streaming services and online groceries.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% variable APR after that",
+        "additional_features": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening. Earn unlimited 1.5% cash back on every purchase.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Wander® American Express® with Dining, Gas & Travel Rewards",
+        "issuer": "Credit One Bank",
+        "rewards": "1x - 10x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "5X points on eligible dining, gas, and travel purchases. 10X points on eligible hotel and car rentals booked using the Credit One Bank travel partner.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR thereafter",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months. Earn unlimited 2% cash rewards on purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One VentureOne Rewards for Good Credit",
+        "issuer": "Capital One",
+        "rewards": "1.25x - 5x Miles per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn 5X miles on hotels and rental cars booked through Capital One Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months. Earn 2% on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Cash+™ Visa Signature® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "5% cash back on up to $2,000 spent in two categories each quarter, 2% cash back on one everyday category, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "Variable APR 17.74% - 28.74%",
+        "additional_features": "$250 rewards bonus after spending $1,000 in first 90 days.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Altitude® Go Visa Signature® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "4 points per $1 on dining, 2 points per $1 on groceries, gas, EV charging, and streaming services, 1 point per $1 on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "20,000 bonus points after spending $1,000 in first 90 days, $15 statement credit after 11 months of streaming service purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Secured Visa® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "No rewards",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Requires a deposit of $300-$5,000 to establish credit line, free TransUnion credit score.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Visa® Platinum Card",
+        "issuer": "U.S. Bank",
+        "rewards": "No rewards",
+        "annual_fee": "$0",
+        "interest_rate": "0% APR for 18 billing cycles, then variable APR 17.74% - 28.74%",
+        "additional_features": "Balance transfer fee of 3% or $5 minimum for transfers within 60 days.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Altitude® Connect Visa Signature® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "5 points per $1 on rental cars and prepaid hotels, 4 points per $1 on travel and gas, 2 points per $1 on groceries, dining, and streaming services, 1 point per $1 on all other purchases",
+        "annual_fee": "$0 intro, then $95 after first year",
+        "interest_rate": "",
+        "additional_features": "20,000 bonus points after spending $1,000 in first 90 days, TSA PreCheck or Global Entry credit up to $100 every four years.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Altitude® Reserve Visa Infinite® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "5 points per $1 on prepaid hotels and car rentals, 3 points per $1 on eligible travel purchases, 3 points per $1 on mobile wallet purchases, 1 point per $1 on all other purchases",
+        "annual_fee": "$400",
+        "interest_rate": "",
+        "additional_features": "50,000 bonus points after spending $4,500 in first 90 days, $325 in annual credits for eligible purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Custom Cash® Card",
+        "issuer": "Citi",
+        "rewards": "5% cash back on up to $500 spent in highest eligible spending category each month, $200 cash back after spending $1,500 in first 6 months",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn 1% on all other purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "3 points per $1 spent in several categories including gas stations, 1 point on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Redeem points for travel, gift cards, and cash back.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Blue Cash Preferred® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "3% cash back on U.S. gas station purchases, 6% cash back on up to $6,000 spent at U.S. supermarkets, 1% on all other purchases",
+        "annual_fee": "$0 intro annual fee for the first year, then $95",
+        "interest_rate": "",
+        "additional_features": "$250 statement credit if $3,000 spent in first 6 months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back on category of choice, 2% on grocery store purchases, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$200 online cash rewards bonus if $1,000 spent in first 90 days.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "ExxonMobil™ Smart Card",
+        "issuer": "ExxonMobil",
+        "rewards": "12 cents off per gallon of premium gas, 10 cents off per gallon on other grades at Exxon and Mobil locations",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Extra 30 cents off each gallon for first two months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Hilton Honors American Express Surpass® Card",
+        "issuer": "American Express",
+        "rewards": "6 points per $1 spent at U.S. gas stations, 12 points per $1 spent at Hilton hotels, 3 points on all other purchases",
+        "annual_fee": "$150",
+        "interest_rate": "",
+        "additional_features": "Use points for hotel stays.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Costco Anywhere Visa® Card by Citi",
+        "issuer": "Citi",
+        "rewards": "5% cash back on gas at Costco, 4% on other eligible gas purchases, 3% on restaurant and eligible travel purchases",
+        "annual_fee": "$0 (Costco membership required)",
+        "interest_rate": "",
+        "additional_features": "Must be a Costco member to qualify.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Sam’s Club® Mastercard®",
+        "issuer": "Sam's Club",
+        "rewards": "5% cash back on up to $6,000 spent at gas stations, 1% after cap",
+        "annual_fee": "$0 (Sam's Club membership required)",
+        "interest_rate": "",
+        "additional_features": "Membership costs $50 per year.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Wander® American Express® with Dining, Gas & Travel Rewards",
+        "issuer": "Credit One Bank",
+        "rewards": "1x - 10x Points per dollar",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "5X points on eligible dining, gas, and travel purchases; 10X points on eligible hotel and car rentals booked using the Credit One Bank travel partner; No Foreign Transaction Fee; Points may be redeemed for statement credit, gift cards, travel, and more.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Avant Cash Back Rewards Card",
+        "issuer": "Avant",
+        "rewards": "1% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "1% Unlimited Cash Back on Every Purchase; $0 Foreign Transaction Fees; Fast and Easy Application Process; Zero fraud liability for unauthorized charges.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One VentureOne Rewards for Good Credit",
+        "issuer": "Capital One",
+        "rewards": "1.25x - 5x Miles per dollar",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$0 annual fee and no foreign transaction fees; Earn 5X miles on hotels and rental cars booked through Capital One Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "2% Cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months; 0% intro APR for 12 months on purchases and qualifying balance transfers.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Mission Lane Cash Back Visa® Credit Card",
+        "issuer": "Mission Lane",
+        "rewards": "1% Cash back",
+        "annual_fee": "$19",
+        "interest_rate": "",
+        "additional_features": "Enjoy Unlimited 1% Cash Back on all Purchases; Free, online credit score access for cardholders.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Destiny™ Mastercard® Cashback Rewards",
+        "issuer": "Destiny",
+        "rewards": "1.5% Cash back",
+        "annual_fee": "$75 the first year; $99 thereafter",
+        "interest_rate": "",
+        "additional_features": "Earn 1.5% cashback rewards for all of your eligible purchases; No security deposit required.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Petal® 1 Rise Visa® Credit Card",
+        "issuer": "Petal",
+        "rewards": "2% - 10% Cash back",
+        "annual_fee": "$59",
+        "interest_rate": "",
+        "additional_features": "No security deposit required; 2-10% cash back at select local and national merchants.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "First Latitude Elite Mastercard® Secured Credit Card",
+        "issuer": "First Progress",
+        "rewards": "1% Cash back",
+        "annual_fee": "$29",
+        "interest_rate": "",
+        "additional_features": "Build your Credit History across 3 Major Credit Reporting Agencies; No Credit History or Minimum Credit Score Required for Approval.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Credit One Bank® Platinum X5 Visa®",
+        "issuer": "Credit One Bank",
+        "rewards": "1% - 5% Cash back",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Earn 5% cash back rewards on the first $5,000 of eligible purchases of gas, grocery, internet, cable, satellite TV and mobile phone services each year.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One QuicksilverOne Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% - 5% Cash back",
+        "annual_fee": "$39",
+        "interest_rate": "",
+        "additional_features": "Earn unlimited 1.5% cash back on every purchase; Enjoy peace of mind with $0 Fraud Liability.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "FNBO Secured Visa® Credit Card",
+        "issuer": "First National Bank",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Average credit limit of $6,725; average annual income of $93,743; average credit utilization of 32.1%; average age of members is 52 years.",
+        "credit_score_required": "690"
+      },
+      {
+        "name": "Hawaiian Airlines® World Elite Mastercard®",
+        "issuer": "Barclays",
+        "rewards": "60,000 bonus HawaiianMiles after spending $2,000 in the first 90 days; 20,000 additional miles after spending $4,000 in the first 6 months; 3 miles per $1 on Hawaiian purchases, 2 miles per $1 on gas, dining, and eligible grocery purchases, 1 mile per $1 on everything else.",
+        "annual_fee": "$99",
+        "interest_rate": "",
+        "additional_features": "50% discount on a round-trip flight between Hawaii and North America; $100 annual discount on a companion fare.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Hawaiian Airlines® World Elite Business Mastercard®",
+        "issuer": "Barclays",
+        "rewards": "50,000 bonus miles after spending $1,000 in the first 90 days; 40,000 additional miles after spending $6,000 in the first 12 months; bonus miles for annual spending: 20,000 miles for $50,000-$99,999, 40,000 miles for $100,000 or more.",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "rewards": "4 points per $1 spent at restaurants worldwide (up to $50,000 in purchases per calendar year, then 1 point), 4 points per $1 spent at U.S. supermarkets (up to $25,000 in purchases per calendar year, then 1 point), 3 points per $1 spent on flights booked directly with the airline or through amextravel.com, 2 points per $1 spent on prepaid hotels booked through amextravel.com, 1 point per $1 spent on other eligible purchases",
+        "annual_fee": "$325",
+        "interest_rate": "",
+        "additional_features": "60,000 points welcome bonus after spending $6,000 in the first 6 months, up to $120 in Uber Cash annually, $7 monthly statement credit at Dunkin', $100 in annual statement credits for eligible purchases at U.S. restaurants on Resy.",
+        "credit_score_required": "710"
+      },
+      {
+        "name": "World Of Hyatt Credit Card",
+        "issuer": "Chase",
+        "rewards": "Earn up to 9 points per $1 spent at Hyatt, 2 points per $1 spent on dining, flights, transportation, and gym memberships. Sign-up bonus: 30,000 points after spending $3,000 in the first 3 months.",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Automatic World of Hyatt Discoverist elite status, annual free night on card anniversary, earn extra free night after spending $15,000 in a calendar year.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Flex℠",
+        "issuer": "Chase",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Amazon Prime Visa",
+        "issuer": "Chase",
+        "rewards": "5% back on Amazon.com and Whole Foods, 2% back on gas stations, restaurants, and local transit, 1% on all other purchases",
+        "annual_fee": "$0 (requires Amazon Prime membership costing $139/year)",
+        "interest_rate": "19.49% - 28.24%",
+        "additional_features": "No foreign transaction fees, rewards redeemable for cash, gift cards, or travel.",
+        "credit_score_required": "Average credit score of 712"
+      },
+      {
+        "name": "ABOC Rewards Platinum",
+        "issuer": "ABOC",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Simmons Visa®",
+        "issuer": "Simmons Bank",
+        "rewards": "Low interest rates and no balance transfer fees",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Average credit limit of $6,090; average credit score of 738; average annual income of $87,923.",
+        "credit_score_required": "Excellent"
+      },
+      {
+        "name": "OpenSky® Secured Credit Visa® Card",
+        "issuer": "OpenSky",
+        "rewards": "",
+        "annual_fee": "$35",
+        "interest_rate": "24.64% variable APR",
+        "additional_features": "No credit check required, flexible credit limit based on deposit.",
+        "credit_score_required": "619"
+      },
+      {
+        "name": "Delta SkyMiles® Gold American Express Card",
+        "issuer": "American Express",
+        "rewards": "2 miles for every $1 spent on Delta purchases, 2 miles per $1 spent at restaurants, 2 miles per $1 spent at U.S. supermarkets, 1 mile per $1 spent on all other purchases",
+        "annual_fee": "$0 introductory annual fee for the first year, then $150",
+        "interest_rate": "",
+        "additional_features": "50,000 bonus miles after spending $2,000 in the first 6 months, priority boarding, first checked bag free on Delta flights.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Delta SkyMiles® Platinum American Express Card",
+        "issuer": "American Express",
+        "rewards": "3 miles for every $1 spent on Delta purchases, 3 miles per $1 spent directly at hotels, 2 miles per $1 spent at restaurants, 2 miles per $1 spent at U.S. supermarkets, 1 mile per $1 spent on all other purchases",
+        "annual_fee": "$350",
+        "interest_rate": "",
+        "additional_features": "60,000 bonus miles after spending $3,000 in the first 6 months, companion certificate each year after card renewal.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Delta SkyMiles® Reserve American Express Card",
+        "issuer": "American Express",
+        "rewards": "3 miles for every $1 spent on Delta purchases, 1 mile per $1 spent on all other purchases",
+        "annual_fee": "$650",
+        "interest_rate": "",
+        "additional_features": "70,000 bonus miles after spending $5,000 in the first 6 months, companion certificate each year after card renewal, airport lounge access, complimentary seat upgrades.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "3 points for every $1 spent on dining and travel purchases, 1 point per $1 spent on other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "Complimentary DashPass subscription for free delivery on certain orders, $300 annual travel credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5 points for every $1 spent on prepaid hotels and flights booked through American Express, 1 point per $1 spent on all other purchases",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "Up to $200 in Uber Cash annually, access to airport lounges, $200 airline fee credit, complimentary elite status at Hilton and Marriott hotels.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "3% back on dining, 5% back on travel bookings through Chase Travel, 3% at drugstores, 1.5% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "U.S. Bank Altitude® Go Visa Signature® Card",
+        "issuer": "U.S. Bank",
+        "rewards": "4 points for every $1 spent on dining, 2 points per $1 spent on grocery store purchases, streaming services, and gas stations, 1 point per $1 spent on all other eligible purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$15 annual streaming credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Burlington Credit Card",
+        "issuer": "Credit Karma",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wayfair Credit Card",
+        "issuer": "Credit Karma",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "maurices Credit Card",
+        "issuer": "Comenity",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "JCPenney Credit Card",
+        "issuer": "Synchrony Bank",
+        "rewards": "1 point for every $1 spent at JCPenney; $10 in rewards for every 200 points earned",
+        "annual_fee": "$0",
+        "interest_rate": "25.99%",
+        "additional_features": "No limit on rewards certificates; rewards points do not expire if points are earned at least once every 12 months; exclusive deals for members.",
+        "credit_score_required": "703"
+      },
+      {
+        "name": "IKEA® Projekt credit card",
+        "issuer": "Intuit Credit Karma",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Venmo Credit Card",
+        "issuer": "Venmo",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Average credit limit of $4,117; Average annual income of $95,235; Average credit utilization of 47.4%.",
+        "credit_score_required": "Average credit score of 637"
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "5x on travel purchased through Chase Travel℠, 3x on dining, select streaming services and online groceries, 2x on all other travel purchases, 1x on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "19.99% - 28.24% Variable",
+        "additional_features": "Earn 100,000 bonus points after you spend $5,000 on purchases in the first 3 months from account opening. Points worth 25% more when redeemed for travel through Chase Travel℠.",
+        "credit_score_required": "Good to Excellent (670 – 850)"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on travel purchased through Chase Travel℠, 3% cash back on drugstore purchases and dining, 1.5% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49% Variable",
+        "additional_features": "Limited Time Intro Offer: Earn a $250 Bonus after you spend $500 on purchases in your first 3 months from account opening. 0% Intro APR for 15 months on purchases and balance transfers.",
+        "credit_score_required": "Good to Excellent (670 – 850)"
+      },
+      {
+        "name": "Ink Business Unlimited® Credit Card",
+        "issuer": "Chase",
+        "rewards": "Earn unlimited 1.5% cash back on every purchase made for your business",
+        "annual_fee": "$0",
+        "interest_rate": "17.49% - 23.49% Variable",
+        "additional_features": "Earn $750 bonus cash back after you spend $6,000 on purchases in the first 3 months from account opening. 0% Intro APR on Purchases for 12 Months.",
+        "credit_score_required": "Good to Excellent (670 – 850)"
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "5x on travel purchased through Chase Travel, 3x on dining, select streaming services and online groceries, 2x on all other travel purchases, 1x on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "19.99% - 28.24% Variable",
+        "additional_features": "Earn 100,000 intro bonus points after you spend $5,000 on purchases in the first 3 months from account opening.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5 Miles per dollar on hotels, vacation rentals and rental cars booked through Capital One Travel, 2 Miles per dollar on every purchase, every day",
+        "annual_fee": "$95",
+        "interest_rate": "19.99% - 29.24% (Variable)",
+        "additional_features": "Earn 75,000 miles once you spend $4,000 on purchases within the first 3 months of account opening, plus receive a one-time $250 Capital One Travel credit.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "2% on every purchase (1% when you buy, 1% when you pay)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% (Variable)",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on travel purchased through Chase Travel, 3% on dining and drugstore purchases, 1.5% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49% Variable",
+        "additional_features": "Earn a $250 Bonus after you spend $500 on purchases in your first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "8% cash back on Capital One Entertainment purchases, 5% on hotels and rental cars booked through Capital One Travel, 3% on dining, entertainment, select streaming services and grocery store purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn a $200 Cash Back after you spend $500 on purchases within 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Wells Fargo Reflect® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "17.24%, 23.74%, or 28.99% Variable APR",
+        "additional_features": "0% intro APR for 21 months from account opening on qualifying balance transfers and purchases.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "2% cash rewards on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "rewards": "4X points on restaurants worldwide, 3X points on flights booked directly with airlines or on AmexTravel.com",
+        "annual_fee": "$325",
+        "interest_rate": "See Pay Over Time APR",
+        "additional_features": "Earn 60,000 Membership Rewards® Points after you spend $6,000 on eligible purchases in your first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% Cashback Bonus® at Grocery Stores and Wholesale Clubs, April 1 through June 30, 2025, on up to $1,500 in purchases, when you activate",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24% Variable APR",
+        "additional_features": "Unlimited Cashback Match for all new cardmembers.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One VentureOne Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5 Miles per dollar on hotels and rental cars booked through Capital One Travel, 1.25 Miles per dollar on every purchase",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn 20,000 miles once you spend $500 on purchases within 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10 Miles per dollar on hotels and rental cars booked through Capital One Travel, 5 Miles per dollar on flights and vacation rentals booked through Capital One Travel, 2 Miles per dollar on every purchase",
+        "annual_fee": "$395",
+        "interest_rate": "19.99% - 29.24% (Variable)",
+        "additional_features": "Earn 75,000 bonus miles when you spend $4,000 on purchases in the first 3 months.",
+        "credit_score_required": "740 - 850"
+      },
+      {
+        "name": "The Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5X points on flights booked directly with airlines or with American Express Travel, 2X points on prepaid car rentals, vacation packages and cruise reservations",
+        "annual_fee": "$695",
+        "interest_rate": "See Pay Over Time APR",
+        "additional_features": "Earn 80,000 Membership Rewards® Points after you spend $8,000 on eligible purchases in your first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Ink Business Unlimited® Credit Card",
+        "issuer": "Chase",
+        "rewards": "1.5% cash back on every purchase made for your business",
+        "annual_fee": "$0",
+        "interest_rate": "17.49% - 23.49% Variable",
+        "additional_features": "Earn $750 bonus cash back after you spend $6,000 on purchases in the first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Spark Cash Plus",
+        "issuer": "Capital One",
+        "rewards": "Unlimited 5% cash back on hotels and rental cars booked through Capital One's travel booking site, Unlimited 2% cash back on every purchase",
+        "annual_fee": "$150",
+        "interest_rate": "N/A",
+        "additional_features": "$2,000 cash back once you spend $30,000 in the first 3 months.",
+        "credit_score_required": "740 - 850"
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on activated rotating categories each quarter, Automatic Cashback Match™ for all rewards earned at the end of your first year",
+        "annual_fee": "$0",
+        "interest_rate": "17.24% - 26.24% Variable APR",
+        "additional_features": "Low rates and fees, including no foreign transaction fees.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Capital One Platinum Credit Card",
+        "issuer": "Capital One",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "Intro offer is not available for this Capital One credit card.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Chime Credit Builder Secured Visa® Credit Card",
+        "issuer": "Chime",
+        "rewards": "N/A",
+        "annual_fee": "None",
+        "interest_rate": "N/A",
+        "additional_features": "Intro offer is not available for this Chime credit card.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Capital One Platinum Secured Credit Card",
+        "issuer": "Capital One",
+        "rewards": "N/A",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "Intro offer is not available for this Capital One credit card.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "Up to 2% cash back on purchases (1% when you purchase and 1% when you pay)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% (Variable)",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on Lyft purchases and travel booked through Chase Travel, 3% cash back on dining and drugstore purchases, 1.5% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49% Variable",
+        "additional_features": "Earn a $250 Bonus after you spend $500 on purchases in your first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "3% cash back on dining, entertainment, popular streaming service and grocery store purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn $200 Cash Back after you spend $500 on purchases within 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Blue Cash Everyday® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "3% cash back at U.S. supermarkets, gas stations and online retail purchases (up to $6,000 per calendar year in each category, then 1%)",
+        "annual_fee": "$0",
+        "interest_rate": "20.24%-29.24% Variable",
+        "additional_features": "Earn a $200 statement credit after you spend $2,000 in purchases on your new Card within the first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Blue Cash Preferred® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "6% cash back at U.S. supermarkets (up to $6,000 per year, 1% after) and on select U.S. streaming subscriptions, 3% cash back at U.S. gas stations and on transit",
+        "annual_fee": "$0 intro annual fee for the first year, then $95",
+        "interest_rate": "20.24%-29.24% Variable",
+        "additional_features": "Earn a $250 statement credit after you spend $3,000 in eligible purchases on your new Card within the first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on rotating categories (on up to $1,500 in purchases each quarter, then 1% back)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24% Variable APR",
+        "additional_features": "Intro Offer: Unlimited Cashback Match for all new cardmembers.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Prime Visa",
+        "issuer": "Amazon",
+        "rewards": "10% cash back or more on a rotating selection of items and categories on Amazon.com with an eligible Prime membership, 5% cash back at Amazon.com, Amazon Fresh, Whole Foods Market, and on Chase Travel purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.49% - 28.24% Variable",
+        "additional_features": "Get a $100 Amazon Gift Card instantly upon approval exclusively for Prime members.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back in one of six choice categories, 2% cash back at grocery stores and wholesale clubs",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "TD Cash Credit Card",
+        "issuer": "TD Bank",
+        "rewards": "Unlimited 3% and 2% cash back in two categories: dining, entertainment, gas, grocery stores and travel",
+        "annual_fee": "None",
+        "interest_rate": "19.24%, 24.24% or 29.24% variable APR based on your creditworthiness",
+        "additional_features": "Earn $200 Cash Back when you spend $1,000 on eligible purchases within the first 90 days of opening your account.",
+        "credit_score_required": "None"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% cash back on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "2% on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% (Variable)",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on travel purchased through Chase Travel, 3% cash back on drugstore purchases and dining, 1.5% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49% Variable",
+        "additional_features": "Earn a $250 Bonus after you spend $500 on purchases in your first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "8% cash back on Capital One Entertainment purchases, 5% cash back on hotels and rental cars booked through Capital One Travel, 3% cash back on dining, entertainment, select streaming services and grocery store purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn a $200 Cash Back after you spend $500 on purchases within 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Unlimited 2% cash rewards on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "rewards": "4X points on restaurants worldwide, 3X points on flights booked directly with airlines, 1X points on all other purchases",
+        "annual_fee": "$325",
+        "interest_rate": "See Pay Over Time APR",
+        "additional_features": "Earn 60,000 Membership Rewards Points after you spend $6,000 on eligible purchases in your first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% Cashback Bonus at Grocery Stores and Wholesale Clubs, April 1 through June 30, 2025, on up to $1,500 in purchases, plus unlimited 1% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24% Variable APR",
+        "additional_features": "Unlimited Cashback Match for all new cardmembers.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One VentureOne Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5 Miles per dollar on hotels and rental cars booked through Capital One Travel, 1.25 Miles per dollar on every purchase, every day",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn a bonus of 20,000 miles once you spend $500 on purchases within 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10 Miles per dollar on hotels and rental cars booked through Capital One Travel, 5 Miles per dollar on flights and vacation rentals booked through Capital One Travel, 2 Miles per dollar on every purchase, every day",
+        "annual_fee": "$395",
+        "interest_rate": "19.99% - 29.24% (Variable)",
+        "additional_features": "Earn 75,000 bonus miles when you spend $4,000 on purchases in the first 3 months.",
+        "credit_score_required": "740 - 850"
+      },
+      {
+        "name": "The Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5X points on flights booked directly with airlines or with American Express Travel, 2X points on prepaid car rentals, vacation packages and cruise reservations",
+        "annual_fee": "$695",
+        "interest_rate": "See Pay Over Time APR",
+        "additional_features": "Earn 80,000 Membership Rewards Points after you spend $8,000 on eligible purchases in your first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Ink Business Unlimited® Credit Card",
+        "issuer": "Chase",
+        "rewards": "Unlimited 1.5% cash back on every purchase made for your business",
+        "annual_fee": "$0",
+        "interest_rate": "17.49% - 23.49% Variable",
+        "additional_features": "Earn $750 bonus cash back after you spend $6,000 on purchases in the first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on activated rotating categories each quarter, unlimited 1% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "17.24% - 26.24% Variable APR",
+        "additional_features": "Automatic Cashback Match for all rewards earned at the end of your first year.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "rewards": "100,000 bonus points after spending $5,000 in the first 3 months; 5X points on travel purchased through Chase Travel; 3X points on dining and select streaming services; 2X points on other travel purchases; 1X points on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees; 10% anniversary bonus on total spend; ability to transfer points to loyalty programs.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "Up to $200 in airline fee credits, Up to $189 in Clear Plus membership statement credits, Global Entry or TSA PreCheck application credit, Global Lounge Collection access, Trip delay insurance, Trip cancellation and interruption insurance, Baggage insurance plan, Up to $200 in hotel credits, $100 credit on qualifying hotel purchases, Marriott Bonvoy Gold Elite status, Hilton Honors Gold status, Up to $240 in digital entertainment credits, Up to $300 in eligible Equinox membership credits, $300 SoulCycle credit, Up to $100 in Saks Fifth Avenue credits, Up to $155 in Walmart+ credits, Up to $200 in Uber Cash, Complimentary ShopRunner access, Cellphone protection, Return protection, Purchase protection, Extended warranty protection",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, Platinum Card Concierge, Premium car rental status, Car rental loss and damage insurance, Global Assist Hotline, Authorized user benefits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Blue Cash Everyday® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "3% cash back at U.S. supermarkets, U.S. gas stations, and U.S. online retailers (on up to $6,000 in purchases per year, then 1%); 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 15 months, then 18.24% to 29.24% variable APR",
+        "additional_features": "$200 welcome bonus after spending $2,000 in the first 6 months; annual credits up to $264; access to Amex Offers; purchase protection; travel assistance; American Express Experiences.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Blue Cash Preferred® Card",
+        "issuer": "American Express",
+        "rewards": "6% back on U.S. supermarkets (up to $6,000/year), 6% back on select U.S. streaming services, 3% back on U.S. gas stations and transit, 1% back on other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "18.74% to 29.74%",
+        "additional_features": "Introductory $0 annual fee for the first year, purchase protection, return protection, dispute resolution, car rental loss and damage insurance, Global Assist® Hotline.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America Premium Rewards",
+        "issuer": "Bank of America",
+        "rewards": "2X points on travel and dining, 1.5X points on all other purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, up to $100 in statement credits for airline incidentals, up to $100 in statement credits for Global Entry or TSA PreCheck, trip delay reimbursement, trip cancellation and interruption insurance, baggage delay insurance, lost luggage reimbursement, travel and emergency assistance services, emergency evacuation and transportation coverage, secondary auto rental coverage, roadside dispatch, purchase protection, return protection, extended warranties.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "10X total points on Chase Dining purchases through Chase Travel, 10X total points on hotel stays and car rentals through Chase Travel, 10X points on Lyft rides (through September 30, 2027), 5X points on air travel purchased through Chase Travel, 3X points on general travel and restaurant purchases, 1X points on all other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "20.24% - 28.74% Variable",
+        "additional_features": "$300 annual travel credit, Priority Pass Select airport lounge membership, fee credit for Global Entry or TSA PreCheck membership, trip cancellation/interruption insurance, primary auto rental coverage, baggage delay insurance, lost luggage reimbursement, emergency evacuation coverage, travel accident insurance, 2-year Lyft Pink membership, 12-month DoorDash DashPass subscription.",
+        "credit_score_required": "740 or higher"
+      },
+      {
+        "name": "The Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5X points on airfare booked directly or through the American Express Travel portal, 5X points on prepaid hotels booked directly or through the American Express Travel portal, 2X points on other eligible travel booked through the American Express Travel portal, 1X points on all other purchases",
+        "annual_fee": "$695",
+        "interest_rate": "See Pay Over Time APR",
+        "additional_features": "Up to $240 in digital entertainment credits, up to $200 in credits annually for prepaid hotel bookings, $100 credit on qualifying hotel purchases, up to $199 in CLEAR membership credits, up to $200 in Uber Cash, up to $300 in Equinox fitness membership credits, up to $200 in airline fee credits, up to $100 for Saks Fifth Avenue purchases, access to Priority Pass airport lounges, Amex Centurion Lounges, and Delta Sky Clubs.",
+        "credit_score_required": "670 or higher"
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10X miles on hotels and rental cars booked through Capital One Travel, 5X miles on flights and vacation rentals booked through Capital One Travel, 2X miles on all other purchases",
+        "annual_fee": "$395",
+        "interest_rate": "19.99% - 29.24% (Variable)",
+        "additional_features": "$300 annual travel credit toward Capital One Travel purchases, 10,000 bonus miles on account anniversary, Priority Pass Select airport lounge membership, up to $120 in credits toward Global Entry or TSA PreCheck membership, Hertz Gold Plus President’s Circle status, cellphone insurance.",
+        "credit_score_required": "740 or higher"
+      },
+      {
+        "name": "Bank of America Customized Cash Rewards",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back in your chosen category (up to $2,500 in combined 3% and 2% category purchases each quarter, then 1%)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% intro APR for 15 billing cycles on purchases and balance transfers; FICO score access; extended warranty protection; $0 liability protection; Museums On Us program; BankAmeriDeals.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Custom Cash® Card",
+        "issuer": "Citi",
+        "rewards": "5% cash back on your top eligible spending category each billing cycle (on up to $500, then 1%), 4% cash back on hotels, car rentals and attractions booked with Citi Travel portal (through June 30, 2025), 1% back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% (Variable)",
+        "additional_features": "0% for 15 months on purchases, 3% foreign transaction fee, welcome bonus of $200 after spending $1500 in the first 6 months.",
+        "credit_score_required": "670 or better"
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back on eligible category purchases of your choice, 2% back at grocery stores and wholesale clubs (up to $2,500 in combined 3% and 2% category purchases each quarter, then 1%), 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% Intro APR for 15 billing cycles for purchases, 3% foreign transaction fee, welcome bonus of $200 after making at least $1,000 in purchases in the first 90 days.",
+        "credit_score_required": "670 or higher"
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "3% cash back on dining, entertainment, and grocery store purchases; 5% on hotels and rental cars booked through Capital One Travel; 8% on Capital One Entertainment purchases; 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.99% - 29.99%",
+        "additional_features": "Welcome bonus of $200 after spending $500 in the first 3 months; no foreign transaction fees; travel accident insurance; shopping protections; security protections; access to exclusive experiences.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "75,000 miles after spending $4,000 within three months; unlimited 2X miles on purchases",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "$300 annual travel portal credit, airport lounge access, flexible redemption options, travel insurance coverage",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "8% on Capital One Entertainment purchases, 4% on restaurant and entertainment purchases, 3% at grocery stores (excluding Target and Walmart), 1% on other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "19.99% - 29.99% variable",
+        "additional_features": "Cash back can be converted to Capital One miles.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% cash back on every purchase, 5% on hotels and rental cars booked through Capital One Travel",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "No foreign transaction fees, 0% intro on balance transfers for 15 months",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10X miles on hotels and rental cars booked through Capital One Travel, 5X miles on flights and vacation rentals booked through Capital One Travel, 2X miles on all other purchases",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "Welcome bonus of 75,000 miles after spending $4,000 in the first 3 months, up to $300 annual travel credit, unlimited airport lounge access, no foreign transaction fees, travel insurance benefits, cellphone protection.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve",
+        "issuer": "Chase",
+        "rewards": "60,000 points after spending $4,000 in the first 3 months; 10X points on Lyft, Chase Dining, hotel stays, and car rentals booked through Chase Travel; 5X points on flights booked through Chase Travel; 3X points on general travel and restaurant purchases; 1X points on all other purchases.",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "50% more value when redeeming points for travel through Chase Travel; $300 annual travel credit; Priority Pass Select membership; DashPass subscription for DoorDash.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Ink Business Preferred® Credit Card",
+        "issuer": "Chase",
+        "rewards": "3 points per dollar on travel and select business spending; 5 points per dollar on Lyft rides through March 2025; 1 point per dollar on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "25% bonus on points redeemed for travel through Chase Travel; 90,000 bonus points for spending $8,000 in the first 3 months; trip cancellation/interruption insurance; baggage delay/lost luggage insurance; travel accident insurance; auto rental insurance; cell phone protection; purchase protection; accounting tools; free employee cards.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Unlimited 2% cash rewards on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases and qualifying balance transfers for 12 months, then 19.24%, 24.24%, or 29.24% Variable APR",
+        "additional_features": "$200 bonus after spending $500 in the first 3 months, cellphone protection, zero liability protection, Visa Signature benefits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "Up to 2% cash back on all purchases — 1% back when you make purchases and another 1% back when you pay for purchases, 5% cash back on hotels, car rentals and attractions booked via the Citi Travel portal through Dec. 31, 2025",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on balance transfers for 18 months, then 18.24% - 28.24% Variable APR",
+        "additional_features": "$200 bonus after spending $1,500 on purchases in the first 6 months, Citi $0 Liability for fraud, Lost Wallet Service, Citi Entertainment access.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back in rotating categories (on up to $1,500 in combined purchases each quarter, then 1%); Unlimited Cashback Match at the end of the first year",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 6 months, then 17.24% - 26.24% Variable APR",
+        "additional_features": "Free access to FICO credit score, no foreign transaction fees, late payment fee waived for the first late payment, credit protection features including Discover Identity Alerts and Freeze it®.",
+        "credit_score_required": "No credit score needed to apply"
+      },
+      {
+        "name": "Petal 2 “Cash Back, No Fees” Visa Credit Card",
+        "issuer": "Petal",
+        "rewards": "1% cash back on all purchases, up to 1.5% after 12 on-time payments, 2% to 10% additional cash back at selected merchants",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, no late or returned payment fees, reports to all 3 major credit bureaus, budgeting tools, freeze card feature, option for preapproval, flexible credit limits ($300 to $10,000), connects to digital wallets (Apple Pay, Google Pay), Visa credit card benefits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "3% cash back on entertainment, dining, popular streaming services, and grocery store purchases; 8% cash back on Capital One Entertainment purchases; 5% cash back on hotel and rental car bookings through Capital One Travel",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$200 cash bonus after spending $500 in the first 3 months; rewards can be redeemed for statement credit, check, gift cards, or online purchases through PayPal or Amazon.",
+        "credit_score_required": "Good to Excellent (FICO score of 670-850)"
+      },
+      {
+        "name": "Chase Sapphire Reserve",
+        "issuer": "Chase",
+        "rewards": "5X points on air travel, 3X points on restaurants and general travel, 10X points on hotels and rental cars booked through Chase Ultimate Rewards, 10X points on Chase Dining, 10X points on Lyft rides, 10X points on Peloton purchases, 1X points on everything else",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "$300 annual travel credit, 60,000 Ultimate Rewards points welcome bonus, TSA PreCheck/Global Entry/NEXUS credit, Priority Pass Select membership, hotel benefits, Lyft Pink membership, various travel insurances and protections, purchase protection, return protection, extended warranty, Visa Infinite Concierge.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% cash back",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$200 welcome bonus when you spend $500 within the first three months; ability to use rewards directly on Amazon purchases.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards",
+        "issuer": "Capital One",
+        "rewards": "8% cash back on Capital One Entertainment purchases, 5% back on hotel and rental car bookings through Capital One Travel, 3% back on dining, entertainment, popular streaming services and grocery store purchases (excluding superstores like Walmart and Target), 1% back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for the first 15 months on purchases and balance transfers (then 19.24% - 29.24% (Variable))",
+        "additional_features": "No foreign transaction fees",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Unlimited",
+        "issuer": "Chase",
+        "rewards": "5% cash back on Lyft purchases (through March 2025), 5% back on travel purchased through Chase Ultimate Rewards, 3% back on dining and drugstore purchases, 1.5% back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for the first 15 months on purchases and balance transfers (then 18.99% - 28.49% Variable)",
+        "additional_features": "3% balance transfer fee applies to all balance transfers made within the first 60 days of card ownership; after that, the fee increases to 5% (minimum $5)",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Unlimited 1.5% cash back on every purchase; 5% cash back on hotels and rental cars booked through Capital One Travel",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 15 months on purchases and balance transfers (then a variable APR of 19.24% - 29.24%)",
+        "additional_features": "No foreign transaction fees, travel protections including trip cancellation and interruption insurance, baggage delay insurance, and purchase protections.",
+        "credit_score_required": "Good to Excellent (typically above 670)"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "Up to 2% cash back — 1% as you buy, plus another 1% when you pay for your purchases; 5% cash back on hotels, car rentals and attractions booked on the Citi Travel portal through Dec. 31, 2025",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 18 months on balance transfers made within the first 4 months (then a variable APR of 19.24% - 29.24%)",
+        "additional_features": "3% foreign transaction fee, World Elite Mastercard benefits including luxury hotel perks and exclusive deals.",
+        "credit_score_required": "Good to Excellent (typically above 670)"
+      },
+      {
+        "name": "Ink Business Cash® Credit Card",
+        "issuer": "Chase",
+        "rewards": "5% cash back at office supply stores and on internet, cable and phone services (on the first $25,000 in combined purchases each account anniversary year); 2% cash back at gas stations and restaurants (on the first $25,000 in combined purchases each account anniversary year); 1% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% Intro APR on Purchases for 12 months, then 17.49% - 25.49% Variable",
+        "additional_features": "10% business relationship bonus if you have both the Chase Ink Business Cash and a Chase Business Checking account; purchase protection; extended warranty protection; auto rental collision damage waiver; free employee cards.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Ink Business Preferred® Credit Card",
+        "issuer": "Chase",
+        "rewards": "3X points on travel and select business categories (on the first $150,000 in combined purchases each account anniversary year, then 1X points); 1X points on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "N/A",
+        "additional_features": "Trip cancellation/interruption insurance; auto rental collision damage waiver; extended warranty protection; purchase protection; cellphone protection; free employee cards.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Discover it® Miles",
+        "issuer": "Discover",
+        "rewards": "Unlimited 1.5X miles on all purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% Intro APR for 15 months on purchases and balance transfers (18.24% - 27.24% Variable APR after)",
+        "additional_features": "Discover will match all rewards earned after your first year; no foreign transaction fees.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5X miles on hotels and rental cars booked through Capital One Travel; 2X miles on all other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "19.99% - 29.24% (Variable) APR",
+        "additional_features": "75,000 miles after you spend $4,000 on purchases within the first 3 months; one-time $250 Capital One Travel credit in your first cardholder year; no foreign transaction fees.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash Card",
+        "issuer": "Citi",
+        "rewards": "2% cash back on all purchases — 1% cash back when you make purchases and an additional 1% cash back when you pay off purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on balance transfers for 18 months, then 18.24% - 28.24% (Variable) APR",
+        "additional_features": "$0 fraud liability, 24/7 fraud protection, Citi Identity Theft Solutions, Lost Wallet service, access to presale tickets and events with Citi Entertainment.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Citi Diamond Preferred Card",
+        "issuer": "Citi",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases for 12 months and on balance transfers for 21 months, then 17.24% - 27.99% (Variable) APR",
+        "additional_features": "Access to Citi Flex Loans, Citi Easy Deals for discounts, VIP access to events with Citi Entertainment.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Citi Simplicity Card",
+        "issuer": "Citi",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.99% (Variable)",
+        "additional_features": "No late fees, no penalty APR, flexible payment due date, ID theft protection.",
+        "credit_score_required": "670 and above"
+      },
+      {
+        "name": "U.S. Bank Visa Platinum Card",
+        "issuer": "U.S. Bank",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "18.74% to 29.74% variable",
+        "additional_features": "Choose your payment date, cellphone protection, free credit score monitoring.",
+        "credit_score_required": "670 and above"
+      },
+      {
+        "name": "Citi Diamond Preferred",
+        "issuer": "Citi",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 21 months on balance transfers; 0% intro APR for 12 months on purchases; 18.24% to 28.99% variable APR thereafter",
+        "additional_features": "Citi Entertainment for exclusive events; Citi Easy Deals for discounts and local offers.",
+        "credit_score_required": "Good to Excellent (670 to 850)"
+      },
+      {
+        "name": "U.S. Bank Visa® Platinum Card",
+        "issuer": "U.S. Bank",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 21 billing cycles; thereafter variable APR 17.74% to 28.74%",
+        "additional_features": "Cellphone protection up to $600 per incident, Visa fraud protection, free credit score access.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back in a category of your choice, 2% at grocery stores and wholesale clubs, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% Intro APR for 15 billing cycles on purchases and balance transfers made within the first 60 days; 3% balance transfer fee applies during the first 60 days, then 4%.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America® Travel Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1.5X points on all purchases, 25,000 online bonus points after $1,000 in purchases within 90 days",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "No foreign transaction fees, Visa Signature benefits, access to BankAmeriDeals, Museums on Us program.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "rewards": "4X points on restaurants, U.S. supermarkets, and Uber Eats; 3X points on flights booked directly with airlines or via American Express Travel; 1X points on all other purchases",
+        "annual_fee": "$250",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, up to $120 in annual Uber Cash, up to $120 in annual dining credits, $100 hotel credit with The Hotel Collection, 60,000 Membership Rewards points welcome offer when spending $6,000 in the first six months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Business Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "5X points on flights and prepaid hotel purchases; 1.5X points on select business categories and large purchases",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "Up to $400 in Dell credits, up to $360 in Indeed credits, up to $150 in Adobe credits, up to $120 in wireless service credits, access to airport lounges, travel insurance benefits, and the ability to pool points with other Amex cards.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "2X miles on all eligible purchases, 5X miles on hotels, vacation rentals, and rental cars booked through Capital One Travel",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "Global Entry or TSA PreCheck application fee credit up to $120, transferable miles to airline and hotel partners, travel insurance protections, Capital One Entertainment and Dining benefits, CreditWise credit monitoring, Capital One Shopping browser extension.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on rotating categories (up to $1,500 per quarter), 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24% Variable APR",
+        "additional_features": "No annual fee, no foreign transaction fees, no fee for the first late payment, Cashback Match at the end of the first year.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One VentureOne Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5X miles on hotels and rental cars booked through Capital One; 1.25X miles on all purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro on purchases for 15 months (19.24% - 29.24% (Variable) APR after)",
+        "additional_features": "No foreign transaction fees; redeem miles for travel statement credits or transfer to travel partners.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5% cash back on hotels and rental cars booked through Capital One; 1.5% cash back on all purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro on purchases for 15 months (19.24% - 29.24% (Variable) APR after)",
+        "additional_features": "No foreign transaction fees; redeem cash back for checks, statement credits, gift cards, or purchases through Amazon.com or PayPal.",
+        "credit_score_required": "670 to 850"
+      },
+      {
+        "name": "Capital One Platinum Secured Credit Card",
+        "issuer": "Capital One",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Automatic credit line reviews, flexible due dates, credit monitoring, no foreign transaction fees, emergency card replacement, autopay, monthly recurring transactions, $0 fraud liability, option to convert to a regular credit card.",
+        "credit_score_required": "Less-than-stellar credit"
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10X miles on hotels and rental cars booked through Capital One Travel, 5X miles on flights booked through Capital One Travel, 2X miles on all other spending",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "75,000 miles welcome bonus after spending $4,000 in the first 3 months, no foreign transaction fees, airport lounge access, $300 annual travel credit, complimentary Priority Pass Select membership, up to $120 in credits for Global Entry or TSA PreCheck application fees every four years.",
+        "credit_score_required": "740-850"
+      },
+      {
+        "name": "Chase Sapphire Reserve",
+        "issuer": "Chase",
+        "rewards": "10X points on hotels and rental cars booked through Chase Ultimate Rewards, 10X points on Lyft purchases (through March 2025), 10X points on Chase Dining purchases, 5X points on flights booked through Chase Ultimate Rewards, 3X points on general travel and restaurant purchases, 1X points on all other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "60,000 points welcome bonus after spending $4,000 in the first 3 months, no foreign transaction fees, airport lounge access, $300 annual travel credit, complimentary Priority Pass Select membership, up to $100 in statement credits for Global Entry or TSA PreCheck application fees every four years.",
+        "credit_score_required": "740-850"
+      },
+      {
+        "name": "Wells Fargo Reflect® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "No rewards program, but access to My Wells Fargo Deals for statement credits on limited-time offers",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 21 months, then 17.24%, 23.74%, or 28.99% Variable APR",
+        "additional_features": "Cellphone protection up to $600 per claim (max 2 claims/year), roadside dispatch, zero liability protection.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "8% cash back on Capital One Entertainment, 5% on Capital One Travel, 3% on dining and groceries, 1% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.49% - 29.49% variable",
+        "additional_features": "0% intro APR on purchases and balance transfers for 15 months, no foreign transaction fees, travel accident insurance, extended warranty coverage, 24-hour concierge service, CreditWise credit monitoring.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Ink Business Unlimited® Credit Card",
+        "issuer": "Chase",
+        "rewards": "1.5% cash back on all purchases",
+        "annual_fee": "$0",
+        "interest_rate": "17.49% - 23.49% Variable",
+        "additional_features": "0% intro APR on purchases for the first 12 months; earn $750 cash back after spending $6,000 in the first 3 months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Amazon Prime Rewards Visa",
+        "issuer": "Chase",
+        "rewards": "5% back on Amazon.com, Whole Foods Market and Chase Travel purchases; 2% back on restaurant, gas station and local transit; 1% back on all other purchases",
+        "annual_fee": "$0 (Amazon Prime membership required; $139 per year or $14.99 per month)",
+        "interest_rate": "19.49% - 28.24% Variable",
+        "additional_features": "No foreign transaction fees, purchase protection, extended warranty coverage, lost luggage reimbursement, baggage delay insurance, Visa Signature benefits.",
+        "credit_score_required": "670 or higher"
+      },
+      {
+        "name": "Bank of America Customized Cash Rewards",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back on category purchases of choice (gas, online shopping, dining, travel, drugstores or home improvement); 2% cash back at grocery stores and wholesale clubs; 1% cash back on all other purchases (up to $2,500 in combined 2% and 3% purchases each quarter, then 1%)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable",
+        "additional_features": "Intro APR offers on purchases and balance transfers, Preferred Rewards program for increased rewards rates.",
+        "credit_score_required": "670 or higher"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on Lyft purchases (through September 30, 2027) and travel booked through Chase Travel; 3% cash back on dining at restaurants and drugstore purchases; 1.5% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "18.99% - 28.49% Variable",
+        "additional_features": "Earn a $250 Bonus after you spend $500 on purchases in your first 3 months.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Capital One Savor Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "3% cash back on dining, entertainment, popular streaming service and grocery store purchases (excluding Walmart® and Target®)",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% (Variable)",
+        "additional_features": "Earn $200 Cash Back after you spend $500 on purchases within 3 months from account opening.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Blue Cash Preferred® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "6% cash back at U.S. supermarkets (up to $6,000 per year, 1% after) and on select U.S. streaming subscriptions; 3% cash back at U.S. gas stations and on transit",
+        "annual_fee": "$0 intro annual fee for the first year, then $95.",
+        "interest_rate": "20.24%-29.24% Variable",
+        "additional_features": "Earn a $250 statement credit after you spend $3,000 in eligible purchases on your new Card within the first 6 months.",
+        "credit_score_required": "Good to Excellent"
+      },
+      {
+        "name": "Discover it® Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on rotating categories (on up to $1,500 in purchases each quarter, then 1% back, activation required)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 27.24% Variable APR",
+        "additional_features": "Intro Offer: Unlimited Cashback Match for all new cardmembers.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Prime Visa",
+        "issuer": "Chase",
+        "rewards": "10% cash back or more on a rotating selection of items and categories on Amazon.com with an eligible Prime membership; 5% cash back at Amazon.com, Amazon Fresh, Whole Foods Market, and on Chase Travel purchases with an eligible Prime membership",
+        "annual_fee": "$0",
+        "interest_rate": "19.49% - 28.24% Variable",
+        "additional_features": "Get a $100 Amazon Gift Card instantly upon approval exclusively for Prime members.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "Bank of America® Customized Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "3% cash back in one of six choice categories (category can be changed monthly); 2% cash back at grocery stores and wholesale clubs (up to $2,500 in combined 2% and 3% purchases each quarter, then 1%)",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR on purchases and balance transfers",
+        "additional_features": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days of account opening.",
+        "credit_score_required": "670 - 850"
+      },
+      {
+        "name": "TD Cash Credit Card",
+        "issuer": "TD Bank",
+        "rewards": "Unlimited 3% and 2% cash back in two categories: dining, entertainment, gas, grocery stores and travel; 1% cash back on all other purchases",
+        "annual_fee": "None",
+        "interest_rate": "19.24%, 24.24% or 29.24% variable APR based on your creditworthiness.",
+        "additional_features": "Special offer: Earn $200 Cash Back when you spend $1,000 on eligible purchases within the first 90 days of opening your account.",
+        "credit_score_required": "None"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "Earn a $250 Bonus after you spend $500 on purchases in your first 3 months; Earn unlimited 1.5% cash back on every purchase, every day",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases and balance transfers for 15 months; 18.99% - 28.49% Variable APR thereafter",
+        "additional_features": "Purchase protection, extended warranty protection, trip cancellation and interruption insurance, auto rental insurance, roadside assistance, complimentary 6-month DashPass membership, earn 2% cash back on Lyft rides through September 2027.",
+        "credit_score_required": "670 or above"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months; Earn unlimited 1.5% cash back on every purchase, every day",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases and balance transfers for 15 months; 19.24% - 29.24% Variable APR thereafter",
+        "additional_features": "No foreign transaction fees, travel accident insurance, extended warranty protection, purchase protection.",
+        "credit_score_required": "670 or higher"
+      },
+      {
+        "name": "Chase Freedom Flex",
+        "issuer": "Chase",
+        "rewards": "5% cash back on up to $1,500 spent in rotating bonus categories each quarter, 3% on dining and drugstore purchases, 5% on Chase Ultimate Rewards travel purchases and Lyft rides",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "$200 welcome bonus when you spend $500 in the first 3 months",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve",
+        "issuer": "Chase",
+        "rewards": "10X points on Chase Dining purchases, 10X points on hotel stays and car rentals, 10X points on Lyft purchases, 5X points on travel, 3X points on general travel and restaurant purchases, 1X points on other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "60,000 points welcome bonus when you spend $4,000 in the first 3 months, travel perks, $300 annual travel credits, access to airport lounges",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Platinum Card from American Express",
+        "issuer": "American Express",
+        "rewards": "5X points on flights booked directly with airlines or through Amex Travel, 5X points on prepaid hotels booked through Amex Travel, 1X points on all other purchases",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "80,000 points welcome offer when you spend $8,000 in the first 6 months",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Blue Business Plus Credit Card from American Express",
+        "issuer": "American Express",
+        "rewards": "2X points on up to $50,000 in purchases per year, then 1X points",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Employee cards and account management tools",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Premier Card",
+        "issuer": "Citi",
+        "rewards": "3X points on restaurant, supermarket, gas station, hotel and air travel purchases, 10 ThankYou Points per $1 spent on hotel, car rentals, and attractions booked on Citi Travel",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "60,000 points welcome bonus when you spend $4,000 in the first 3 months",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Double Cash Card",
+        "issuer": "Citi",
+        "rewards": "2% cash back on all purchases (1% when you buy, 1% when you pay)",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Basic Citi ThankYou points, cannot transfer to Citi travel partners without a premium Citi card",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The secured Self Visa® Credit Card",
+        "issuer": "Self",
+        "rewards": "",
+        "annual_fee": "$0 annual fee first year, $25 annual fee thereafter.",
+        "interest_rate": "28.24% APR Variable",
+        "additional_features": "Helps you build credit and save money with monthly payments into a savings account that secures a credit limit.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Capital One Platinum Secured Credit Card",
+        "issuer": "Capital One",
+        "rewards": "",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "Offers a simple, low-cost way to build credit.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Chime Credit Builder Secured Visa® Credit Card",
+        "issuer": "Chime",
+        "rewards": "",
+        "annual_fee": "None",
+        "interest_rate": "N/A",
+        "additional_features": "Helps establish or rebuild credit with no annual fee and an option to upgrade to an unsecured card over time.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Discover it® Secured Credit Card",
+        "issuer": "Discover",
+        "rewards": "2% cash back at gas stations and restaurants on up to $1,000 in combined purchases each quarter; earn 1% cash back on all other purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "27.24% Variable APR",
+        "additional_features": "Allows you to build credit while earning cash back.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Capital One Quicksilver Secured Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Flat cash back rate on all purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "29.74% (Variable)",
+        "additional_features": "Offers a chance at a credit limit increase in as little as six months.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "First Progress Platinum Prestige Mastercard® Secured Credit Card",
+        "issuer": "First Progress",
+        "rewards": "",
+        "annual_fee": "$49",
+        "interest_rate": "14.24% (V)",
+        "additional_features": "Your security deposit determines your credit limit.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "OpenSky® Secured Visa® Credit Card",
+        "issuer": "OpenSky",
+        "rewards": "",
+        "annual_fee": "$35",
+        "interest_rate": "24.64% (variable)",
+        "additional_features": "Doesn’t require a credit check, making it accessible for people without credit histories.",
+        "credit_score_required": "No Credit History"
+      },
+      {
+        "name": "Capital One Savor Student Cash Rewards",
+        "issuer": "Capital One",
+        "rewards": "3% cash back on dining, entertainment, popular streaming services, and groceries (excluding superstores); 5% cash back on hotels and rental cars booked through Capital One Travel; 8% cash back on Capital One Entertainment purchases; 1% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "Access to exclusive sporting events, culinary experiences, music events, extended warranty protection, travel accident insurance, travel assistance services, complimentary 24/7 concierge service, special savings from Capital One Shopping.",
+        "credit_score_required": "fair credit (typically a FICO score of 580 or higher)"
+      },
+      {
+        "name": "Discover it® Student Cash Back",
+        "issuer": "Discover",
+        "rewards": "5% cash back on activated rotating categories each quarter (on up to $1,500 in combined purchases each quarter, then 1%); 1% cash back on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR on purchases for 6 months (then 17.24% - 26.24% Variable APR); 10.99% intro APR on balance transfers for 6 months (then 17.24% - 26.24% Variable APR)",
+        "additional_features": "Rewards for referring friends, free FICO credit score access, 24/7 U.S.-based customer service, credit monitoring.",
+        "credit_score_required": "No credit history needed"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "1.5% cash back on all purchases; 5% cash back on hotels and rental cars booked through Capital One Travel",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 15 months; 19.24% - 29.24% (Variable) thereafter",
+        "additional_features": "No foreign transaction fees, access to Capital One Entertainment, travel accident insurance, extended warranty protection, Eno assistant app.",
+        "credit_score_required": "Good to excellent credit (FICO score of 670 or higher)"
+      },
+      {
+        "name": "Bank of America Unlimited Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1.5% cash back on all purchases; potential for 25% to 75% more cash back for Preferred Rewards members",
+        "annual_fee": "$0",
+        "interest_rate": "0% Intro APR for 15 billing cycles; 18.24% - 28.24% Variable APR thereafter",
+        "additional_features": "Visa Signature benefits, 24/7 roadside dispatch, travel and emergency assistance, access to BankAmeriDeals and Museums on Us.",
+        "credit_score_required": "Good to excellent credit (FICO score of 670 or higher)"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "3% on dining, 3% on drugstore purchases, 5% on travel through Chase Travel, 1.5% on all other purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Rewards in the form of Chase Ultimate Rewards points.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Flex®",
+        "issuer": "Chase",
+        "rewards": "3% on dining, 3% on drugstore purchases, 5% on travel through Chase, 5% in activated rotating categories (up to $1,500 each quarter, then 1%)",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "Requires activation of cash back bonus categories.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "10X points on Lyft, 10X points on Chase Dining, 10X points on hotel stays and car rentals, 5X points on air travel, 3X points on general travel and restaurant purchases, 1X points on all other purchases",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "$300 annual travel credit, Priority Pass Select membership, Global Entry or TSA PreCheck credit.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Preferred®",
+        "issuer": "Chase",
+        "rewards": "3X points on dining, 3X points on select streaming services and online grocery purchases, 5X points on travel through Chase Ultimate Rewards, 2X points on other travel, 1X points on other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Annual statement credit of up to $50 for hotel stays purchased through Chase Travel.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Ink Business Preferred® Credit Card",
+        "issuer": "Chase",
+        "rewards": "3X points on up to $150,000 spent each year on travel, shipping, internet, cable, phone services, and select online advertising, 1X points on other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "Sign-up bonus of up to 90,000 points after spending $8,000 in the first three months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10X miles on hotels and rental cars booked through Capital One Travel, 5X miles on flights booked through Capital One Travel, 2X miles on all other purchases",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "Earn 75,000 miles after spending $4,000 on purchases within the first three months, $300 annual travel credit for Capital One Travel purchases, 10,000 bonus miles on account anniversary, Global Entry or TSA PreCheck fee credit, Priority Pass Select airport lounge membership.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "2% cash rewards on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No annual fee, unlimited 2% cash rewards on all purchases.",
+        "credit_score_required": "670"
+      },
+      {
+        "name": "Wells Fargo Autograph® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "3X points on restaurants, gas, travel, streaming services, transit, and phone plans; 1X points on all other purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No foreign currency conversion fees.",
+        "credit_score_required": "670"
+      },
+      {
+        "name": "Wells Fargo Autograph Journey℠ Card",
+        "issuer": "Wells Fargo",
+        "rewards": "5X points on hotels, 4X points on airlines, 3X points on restaurants and other travel; 1X points on all other purchases.",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "$50 annual statement credit with a minimum $50 airline purchase, up to $1,000 of lost baggage reimbursement, up to $15,000 in trip cancellation and interruption protection, travel accident insurance of up to $1,000,000.",
+        "credit_score_required": "670"
+      },
+      {
+        "name": "Wells Fargo Attune℠ Card",
+        "issuer": "Wells Fargo",
+        "rewards": "4% cash back on select categories; 1% on all other purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "",
+        "additional_features": "No foreign currency conversion fees.",
+        "credit_score_required": "670"
+      },
+      {
+        "name": "Mastercard® Gold Card™",
+        "issuer": "Mastercard",
+        "rewards": "$200 annual airline credit",
+        "annual_fee": "$995",
+        "interest_rate": "",
+        "additional_features": "Airport lounge access, 24/7 concierge service, luxury gifts throughout the year.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Mastercard® Black Card™",
+        "issuer": "Mastercard",
+        "rewards": "$100 annual airline credit",
+        "annual_fee": "$495",
+        "interest_rate": "",
+        "additional_features": "2% value for airfare redemptions, 24/7 concierge services, global airport lounge access.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Sapphire Reserve®",
+        "issuer": "Chase",
+        "rewards": "$300 annual travel credit",
+        "annual_fee": "$550",
+        "interest_rate": "",
+        "additional_features": "Access to airport lounges worldwide, fee credit for Global Entry or TSA PreCheck membership, robust travel insurance benefits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One Venture X Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "10,000 anniversary bonus miles",
+        "annual_fee": "$395",
+        "interest_rate": "",
+        "additional_features": "Access to Priority Pass airport lounges, $300 annual travel credit, fee credit for Global Entry or TSA PreCheck membership.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "The Platinum Card® from American Express",
+        "issuer": "American Express",
+        "rewards": "$200 annual airline credit and $200 annual hotel credit",
+        "annual_fee": "$695",
+        "interest_rate": "",
+        "additional_features": "5X Membership Rewards points on airfare and hotels, extensive lounge network access, shopping and entertainment credits.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Centurion® Card from American Express",
+        "issuer": "American Express",
+        "rewards": "",
+        "annual_fee": "$5,000",
+        "interest_rate": "",
+        "additional_features": "Invite-only, broadest airport lounge membership, elite status with Delta SkyMiles and Hilton Honors, VIP airport arrival, exclusive 24/7 concierge services.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Capital One VentureOne Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "5X miles on hotels and rental cars booked through Capital One Travel, 1.25X miles for all other purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, ability to transfer rewards to Capital One travel partners",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Delta SkyMiles Blue American Express Card",
+        "issuer": "American Express",
+        "rewards": "2X miles at restaurants worldwide, 2X miles on Delta purchases, 1X miles on everything else",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "20% discount on eligible in-flight purchases, no foreign transaction fees",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Airlines AAdvantage MileUp",
+        "issuer": "American Airlines",
+        "rewards": "2X AAdvantage miles on groceries, 2X miles on American Airlines purchases, 1X miles on all other purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "25% discount on eligible in-flight purchases, 3% foreign transaction fee",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Hilton Honors American Express Card",
+        "issuer": "American Express",
+        "rewards": "7X points on Hilton purchases, 5X points at U.S. supermarkets, U.S. gas stations and U.S. restaurants, 3X points on all other purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "Complimentary Hilton Silver status, no foreign transaction fees",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Bank of America Travel Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "1.5X points on all purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "No foreign transaction fees, flexible redemption options",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Chase Freedom Unlimited",
+        "issuer": "Chase",
+        "rewards": "5% cash back on travel booked through Chase Ultimate Rewards, 5% cash back on Lyft rides (through March 2025), 3% cash back on dining and drugstore purchases, 1.5% cash back on all other purchases",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "Trip cancellation and interruption insurance, 3% foreign transaction fee",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Discover it Miles",
+        "issuer": "Discover",
+        "rewards": "1.5X miles for each dollar spent",
+        "annual_fee": "",
+        "interest_rate": "",
+        "additional_features": "Discover matches your first-year earnings, no foreign transaction fees",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Visa Traditional",
+        "issuer": "Visa",
+        "rewards": "Basic benefits like roadside assistance, emergency card replacement, and fraudulent purchase protection.",
+        "annual_fee": "No annual fee",
+        "interest_rate": "",
+        "additional_features": "24-hour customer support, zero liability for unauthorized transactions, roadside dispatch.",
+        "credit_score_required": "Varies by issuer"
+      },
+      {
+        "name": "Visa Signature",
+        "issuer": "Visa",
+        "rewards": "All perks of Traditional card plus travel and emergency assistance services.",
+        "annual_fee": "No annual fee (varies by issuer)",
+        "interest_rate": "",
+        "additional_features": "Extended warranty protection, auto rental collision damage waiver, luxury hotel collection, concierge services.",
+        "credit_score_required": "Good to excellent credit score"
+      },
+      {
+        "name": "Visa Infinite",
+        "issuer": "Visa",
+        "rewards": "Highest level of benefits including purchase security and return protection, trip cancellation/interruption insurance.",
+        "annual_fee": "Up to $550",
+        "interest_rate": "",
+        "additional_features": "Global Entry statement credit, Priority Pass lounge access, lost luggage reimbursement.",
+        "credit_score_required": "Good to excellent credit score"
+      },
+      {
+        "name": "Chase Slate Edge",
+        "issuer": "Chase",
+        "rewards": "None",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 18 months; 19.49% to 28.24% variable APR thereafter",
+        "additional_features": "Purchase protection, extended warranties, auto rental collision damage waiver, roadside dispatch, DashPass membership for three months.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "American Express Blue Business Cash™ Card",
+        "issuer": "American Express",
+        "rewards": "2% cash back on the first $50,000 spent per year, then 1%",
+        "annual_fee": "$0",
+        "interest_rate": "0% intro APR for 12 months, then 17.74% to 25.74% variable APR",
+        "additional_features": "Expanded Buying Power, $250 statement credit after spending $3,000 in the first 3 months, expense management tools, QuickBooks integration, car rental loss and damage insurance, Global Assist Hotline, purchase protection, extended warranty protection.",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Citi Premier Card",
+        "issuer": "Citi",
+        "rewards": "3X points on air travel, hotel purchases, restaurants, supermarkets, and gas stations; 1X points on other purchases",
+        "annual_fee": "$95",
+        "interest_rate": "",
+        "additional_features": "$100 annual hotel savings credit; access to World Elite Mastercard benefits",
+        "credit_score_required": ""
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Earn unlimited 2% cash rewards on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% Variable APR",
+        "additional_features": "0% APR intro offer for 12 months, cellphone protection, auto rental collision damage waiver, roadside assistance, Visa Signature perks",
+        "credit_score_required": "Excellent, Good"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "Earn 2% on every purchase with unlimited 1% cash back when you buy, plus an additional 1% as you pay for those purchases. Special travel offer: earn 5% total cash back on hotel, car rentals and attractions booked on the Citi Travel portal through 12/31/25.",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "0% intro APR on balance transfers for 18 months, intro balance transfer fee of 3% of each transfer (minimum $5) completed within the first 4 months.",
+        "credit_score_required": "Excellent, Good"
+      },
+      {
+        "name": "Capital One Quicksilver Cash Rewards Credit Card",
+        "issuer": "Capital One",
+        "rewards": "Earn unlimited 5% cash back on hotels and rental cars booked through Capital One Travel, and 1.5% cash back on every purchase, every day",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 29.24% Variable APR",
+        "additional_features": "Earn a one-time $200 cash bonus after you spend $500 on purchases within 3 months from account opening.",
+        "credit_score_required": "Excellent, Good"
+      },
+      {
+        "name": "Bank of America® Unlimited Cash Rewards credit card",
+        "issuer": "Bank of America",
+        "rewards": "Earn unlimited 1.5% cash back on all purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "18.24% - 28.24% Variable APR",
+        "additional_features": "$200 online cash rewards bonus after you make at least $1,000 in purchases in the first 90 days of account opening.",
+        "credit_score_required": "Excellent, Good"
+      },
+      {
+        "name": "Upgrade Cash Rewards Visa®",
+        "issuer": "Upgrade",
+        "rewards": "1.5% unlimited cash back on every purchase",
+        "annual_fee": "$0",
+        "interest_rate": "14.99% - 29.99%",
+        "additional_features": "$200 bonus after opening a Rewards Checking Plus account and making 3 debit card transactions.",
+        "credit_score_required": "Excellent, Good, Fair"
+      },
+      {
+        "name": "Chase Freedom Unlimited®",
+        "issuer": "Chase",
+        "rewards": "5% cash back on travel purchased through Chase Travel, 3% cash back on drugstore purchases and dining, 1.5% cash back on all other purchases.",
+        "annual_fee": "$0",
+        "interest_rate": "19.24% - 28.24% Variable APR",
+        "additional_features": "Limited Time Intro Offer: Earn a $250 Bonus after you spend $500 on purchases in your first 3 months from account opening.",
+        "credit_score_required": "Excellent, Good"
+      },
+      {
+        "name": "Wells Fargo Active Cash® Card",
+        "issuer": "Wells Fargo",
+        "rewards": "Unlimited 2 percent cash rewards back on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "Earn a $200 cash rewards bonus after spending $500 in purchases in the first 3 months.",
+        "credit_score_required": "N/A"
+      },
+      {
+        "name": "Citi Double Cash® Card",
+        "issuer": "Citi",
+        "rewards": "Unlimited 1 percent on purchases, then 1 percent when you pay off purchases; Limited time offer: 3 percent cash back on hotels, car rentals and attractions booked through the Citi Travel portal until December 31.",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "Earn $200 cash back after you spend $1,500 on purchases in the first 6 months.",
+        "credit_score_required": "N/A"
+      },
+      {
+        "name": "Upgrade Elite Cash Rewards Visa®",
+        "issuer": "Upgrade",
+        "rewards": "2.2 percent cash back after making monthly payment",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "$200 bonus after opening a Rewards Checking Plus account and making 3 debit card transactions.",
+        "credit_score_required": "N/A"
+      },
+      {
+        "name": "Ally Unlimited Cash Back",
+        "issuer": "Ally Bank",
+        "rewards": "Unlimited 2 percent cash back on purchases",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "N/A",
+        "credit_score_required": "Fair credit"
+      },
+      {
+        "name": "Alliant Cashback Visa® Signature Credit Card",
+        "issuer": "Alliant Credit Union",
+        "rewards": "2.5 percent cash back on all purchases (up to $10,000 in qualifying purchases each billing cycle, then 1.5 percent) with a qualifying Tier One Rewards status each month",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "N/A",
+        "credit_score_required": "N/A"
+      },
+      {
+        "name": "Apple Card",
+        "issuer": "Apple",
+        "rewards": "3 percent back when you shop with Apple and select retailers when you use your Apple Card with Apple Pay; 2 percent back on other spending when paying with Apple Pay; 1 percent back on all other purchases in-store and online",
+        "annual_fee": "$0",
+        "interest_rate": "N/A",
+        "additional_features": "N/A",
+        "credit_score_required": "N/A"
+      }
+    ]
+  }
+]

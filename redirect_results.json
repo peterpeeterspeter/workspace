@@ -1,0 +1,72 @@
+[
+  {
+    "success": false,
+    "source": "/shortcodes/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/typography/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-classic-2-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-classic-3-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-portfolio-2-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-portfolio-3-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-portfolio-4-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-chess-2-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-chess-4-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/blog-chess-6-columns/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/gallery-grid/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/gallery-masonry/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/gallery-cobbles/",
+    "error": "HTTP 400"
+  },
+  {
+    "success": false,
+    "source": "/home-boxed/",
+    "error": "HTTP 400"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is crash gambling rigged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — if you play at licensed, provably fair casinos. The crash is determined by cryptographic randomness that you can verify. Unlicensed casinos with opaque games? Those can be rigged. Stick to vetted casinos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I make a living playing crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The house edge guarantees you'll lose long-term. Crash gambling is entertainment, not income. Treat it as a fun hobby with a cost, not a job."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best strategy for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no winning strategy. All strategies lose long-term due to the house edge. The best strategy is one that minimizes losses: bet small (1-2% of bankroll), set moderate cashout targets (1.50x-2.00x), and stick to loss limits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I crash before cashing out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You lose your entire bet. That's the risk of crash gambling — if you don't cash out in time, you get nothing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a crash casino is fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for: A valid gambling license (MGA, UKGC, Curacao), A provably fair system that lets you verify rounds, Positive reviews and no scam reports, Fast withdrawals and responsive support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum bet for crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most casinos: $0.10 to $1 minimum bet. Some casinos: As low as $0.01 (rare). Start with the minimum to learn the game before increasing bets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play crash gambling for free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some casinos offer free play/demo modes but not many. Crash gambling is usually real-money only. If you find a demo mode, use it to practice before depositing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the biggest multiplier ever in crash gambling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multipliers can theoretically reach infinity but anything above 1000x is extremely rare (less than 0.1% chance). Most crashes happen below 10x."
+      }
+    }
+  ]
+}

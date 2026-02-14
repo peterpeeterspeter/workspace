@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T23:34:09.966907",
+    "category": "labs",
+    "operation": "search_intent",
+    "keyword": "crash casino ratings",
+    "extra_info": "15_keywords"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0876 sec.",
+    "cost": 0.0025,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02030134-8420-0541-0000-99c850e066c1",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0256 sec.",
+        "cost": 0.0025,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "search_intent",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "search_intent",
+          "se_type": "google",
+          "keywords": [
+            "crash casino ratings",
+            "verify crash game",
+            "crash gambling scams",
+            "DOGE crash gambling",
+            "crypto fees crash gambling",
+            "anonymous crash gambling",
+            "crash gambling psychology",
+            "crash gambling mistakes",
+            "responsible crash gambling",
+            "crash casinos germany",
+            "crash gambling legal",
+            "crash gambling payment methods",
+            "aviator high roller",
+            "aviator live stats",
+            "aviator discord"
+          ],
+          "language_name": "English",
+          "tag": null
+        },
+        "result": [
+          {
+            "language_code": "en",
+            "items_count": 15,
+            "items": [
+              {
+                "keyword": "crash casino ratings",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.4820531
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "navigational",
+                    "probability": 0.34400558
+                  }
+                ]
+              },
+              {
+                "keyword": "verify crash game",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.40520084
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "navigational",
+                    "probability": 0.3142893
+                  },
+                  {
+                    "label": "commercial",
+                    "probability": 0.37534904
+                  }
+                ]
+              },
+              {
+                "keyword": "crash gambling scams",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.7311168
+                }
+              },
+              {
+                "keyword": "doge crash gambling",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6636894
+                }
+              },
+              {
+                "keyword": "crypto fees crash gambling",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.5334582
+                }
+              },
+              {
+                "keyword": "anonymous crash gambling",
+                "keyword_intent": {
+                  "label": "navigational",
+                  "probability": 0.46915707
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "informational",
+                    "probability": 0.38232687
+                  }
+                ]
+              },
+              {
+                "keyword": "crash gambling psychology",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6337583
+                }
+              },
+              {
+                "keyword": "crash gambling mistakes",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.66200227
+                }
+              },
+              {
+                "keyword": "responsible crash gambling",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6558894
+                }
+              },
+              {
+                "keyword": "crash casinos germany",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.81144243
+                }
+              },
+              {
+                "keyword": "crash gambling legal",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.51581776
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "navigational",
+                    "probability": 0.33657652
+                  }
+                ]
+              },
+              {
+                "keyword": "crash gambling payment methods",
+                "keyword_intent": {
+                  "label": "informational",
+                  "probability": 0.6048701
+                }
+              },
+              {
+                "keyword": "aviator high roller",
+                "keyword_intent": {
+                  "label": "transactional",
+                  "probability": 0.7399803
+                }
+              },
+              {
+                "keyword": "aviator live stats",
+                "keyword_intent": {
+                  "label": "navigational",
+                  "probability": 0.44397715
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "informational",
+                    "probability": 0.36892432
+                  },
+                  {
+                    "label": "commercial",
+                    "probability": 0.3182143
+                  }
+                ]
+              },
+              {
+                "keyword": "aviator discord",
+                "keyword_intent": {
+                  "label": "navigational",
+                  "probability": 0.82280856
+                },
+                "secondary_keyword_intents": [
+                  {
+                    "label": "commercial",
+                    "probability": 0.40887263
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

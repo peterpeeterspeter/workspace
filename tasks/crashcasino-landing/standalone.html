@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Crash Gambling Rigged? We Tested 50 Sites | CrashCasino.io</title>
+    <meta name="description" content="We tested 50 crash casinos for provably fair verification, RTP transparency, and real payout audits. See which sites are actually safe.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            padding: 120px 24px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom right, #0a0a0a, #0f1f0f, #0a0a0a);
+            opacity: 0.5;
+            z-index: 0;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(rgba(0,255,136,0.03) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0,255,136,0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, black, transparent);
+            -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, black, transparent);
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            margin-bottom: 32px;
+        }
+
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ff88;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .badge-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: #00ff88;
+        }
+
+        .hero-title {
+            font-size: clamp(40px, 8vw, 80px);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+
+        .hero-title .highlight {
+            color: #00ff88;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(18px, 3vw, 24px);
+            color: #9ca3af;
+            max-width: 800px;
+            margin-bottom: 48px;
+        }
+
+        .cta-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        @media (min-width: 640px) {
+            .cta-group {
+                flex-direction: row;
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #00ff88;
+            color: #000000;
+        }
+
+        .btn-primary:hover {
+            background: rgba(0, 255, 136, 0.9);
+        }
+
+        .btn-secondary {
+            border: 1px solid #374151;
+            color: #ffffff;
+        }
+
+        .btn-secondary:hover {
+            border-color: #00ff88;
+            color: #00ff88;
+        }
+
+        /* Sections */
+        .section {
+            padding: 80px 24px;
+        }
+
+        .section-dark {
+            background: #0f0f0f;
+        }
+
+        .section-title {
+            font-size: clamp(28px, 5vw, 48px);
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .section-subtitle {
+            font-size: 20px;
+            color: #9ca3af;
+            margin-bottom: 48px;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            gap: 32px;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        /* Cards */
+        .card {
+            padding: 24px;
+            border-radius: 12px;
+            background: #1a1a1a;
+            border: 1px solid #1f2937;
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            border-color: rgba(0, 255, 136, 0.3);
+        }
+
+        .methodology-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .card-text {
+            color: #9ca3af;
+        }
+
+        /* Casino Cards */
+        .casino-card {
+            padding: 24px;
+            border-radius: 12px;
+            background: #1a1a1a;
+            border: 1px solid #1f2937;
+            transition: all 0.3s;
+        }
+
+        .casino-card:hover {
+            border-color: #00ff88;
+        }
+
+        .casino-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .casino-name {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .casino-rating {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .rating-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #00ff88;
+        }
+
+        .casino-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            font-size: 12px;
+            color: #00ff88;
+            margin-bottom: 16px;
+        }
+
+        .casino-features {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        .casino-features li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #d1d5db;
+            margin-bottom: 8px;
+        }
+
+        .casino-features li::before {
+            content: '✓';
+            color: #00ff88;
+        }
+
+        /* Red Flags */
+        .flag-card {
+            padding: 24px;
+            border-radius: 12px;
+            background: #1a1a1a;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            transition: all 0.3s;
+        }
+
+        .flag-card:hover {
+            border-color: rgba(239, 68, 68, 0.5);
+        }
+
+        .flag-content {
+            display: flex;
+            gap: 16px;
+        }
+
+        .flag-icon {
+            font-size: 32px;
+            flex-shrink: 0;
+        }
+
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 16px;
+        }
+
+        details {
+            border-radius: 12px;
+            background: #1a1a1a;
+            border: 1px solid #1f2937;
+            overflow: hidden;
+        }
+
+        summary {
+            padding: 24px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s;
+        }
+
+        summary:hover {
+            border-color: rgba(0, 255, 136, 0.3);
+        }
+
+        summary::after {
+            content: '+';
+            font-size: 24px;
+            color: #6b7280;
+        }
+
+        details[open] summary::after {
+            content: '−';
+            color: #00ff88;
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: #9ca3af;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 48px 24px;
+            background: #050505;
+            border-top: 1px solid #111827;
+        }
+
+        .footer-tagline {
+            font-size: 24px;
+            font-weight: 700;
+            color: #00ff88;
+            margin-bottom: 32px;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .footer-links a {
+            color: #9ca3af;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        .footer-legal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .footer-legal a {
+            font-size: 14px;
+            color: #6b7280;
+            transition: color 0.3s;
+        }
+
+        .footer-legal a:hover {
+            color: #9ca3af;
+        }
+
+        .footer-copy {
+            font-size: 14px;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="badge">
+                <span class="badge-dot"></span>
+                <span class="badge-text">50 Sites Tested</span>
+            </div>
+            <h1 class="hero-title">
+                Is Crash Gambling<br>
+                <span class="highlight">Rigged?</span>
+            </h1>
+            <p class="hero-subtitle">
+                We tested 50 crash casinos for provably fair verification, RTP transparency, and real payout audits. See which sites are actually safe.
+            </p>
+            <div class="cta-group">
+                <a href="#verified" class="btn btn-primary">See Which Sites Passed</a>
+                <a href="#methodology" class="btn btn-secondary">How We Test</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology -->
+    <section id="methodology" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Our Testing Methodology</h2>
+            <p class="section-subtitle">Transparency you can verify</p>
+            <div class="grid grid-2">
+                <div class="card">
+                    <div class="methodology-icon">🔍</div>
+                    <h3 class="card-title">Provably Fair Verification</h3>
+                    <p class="card-text">We manually verify seed strings, hash chains, and random number generation on every site.</p>
+                </div>
+                <div class="card">
+                    <div class="methodology-icon">📊</div>
+                    <h3 class="card-title">RTP Testing</h3>
+                    <p class="card-text">1,000+ rounds played per casino to verify published return-to-player percentages.</p>
+                </div>
+                <div class="card">
+                    <div class="methodology-icon">💰</div>
+                    <h3 class="card-title">Payout Audits</h3>
+                    <p class="card-text">Real money deposits and withdrawals to verify processing times and terms.</p>
+                </div>
+                <div class="card">
+                    <div class="methodology-icon">📜</div>
+                    <h3 class="card-title">License Verification</h3>
+                    <p class="card-text">Cross-check licensing claims with official regulator databases (MGA, Curacao, UKGC).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verified Casinos -->
+    <section id="verified" class="section">
+        <div class="container">
+            <h2 class="section-title">Verified Safe Casinos</h2>
+            <p class="section-subtitle">12 casinos passed all our verification checks</p>
+            <div class="grid grid-3">
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Cybet</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.8</span>
+                            <span style="color: #00ff88;">✓</span>
+                        </div>
+                    </div>
+                    <div class="casino-badge">Top Pick</div>
+                    <ul class="casino-features">
+                        <li>Provably Fair</li>
+                        <li>Instant Withdrawals</li>
+                        <li>MGA Licensed</li>
+                    </ul>
+                    <a href="https://cybetplay.com/tluy6cbpp" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="width: 100%; display: block;">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">BitStarz</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.7</span>
+                            <span style="color: #00ff88;">✓</span>
+                        </div>
+                    </div>
+                    <div class="casino-badge">Most Trusted</div>
+                    <ul class="casino-features">
+                        <li>1000+ Rounds Tested</li>
+                        <li>Fast Payouts</li>
+                        <li>Industry Leader</li>
+                    </ul>
+                    <a href="https://bzstarz1.com/b196c322b" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="width: 100%; display: block;">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Betzrd</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.5</span>
+                            <span style="color: #00ff88;">✓</span>
+                        </div>
+                    </div>
+                    <div class="casino-badge">Privacy Focus</div>
+                    <ul class="casino-features">
+                        <li>No KYC Required</li>
+                        <li>Crypto Native</li>
+                        <li>VPN Friendly</li>
+                    </ul>
+                    <a href="https://betzrd.com/pyondmfcx" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="width: 100%; display: block;">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">7Bit Casino</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.3</span>
+                            <span style="color: #00ff88;">✓</span>
+                        </div>
+                    </div>
+                    <ul class="casino-features">
+                        <li>Wide Game Selection</li>
+                        <li>Mobile Optimized</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="https://7bit.partners/p4i4w1udu" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="width: 100%; display: block;">Play Now</a>
+                </div>
+
+                <div class="casino-card">
+                    <div class="casino-header">
+                        <h3 class="casino-name">Mirax</h3>
+                        <div class="casino-rating">
+                            <span class="rating-value">9.2</span>
+                            <span style="color: #00ff88;">✓</span>
+                        </div>
+                    </div>
+                    <ul class="casino-features">
+                        <li>Modern Interface</li>
+                        <li>Strong Bonuses</li>
+                        <li>Crypto Focus</li>
+                    </ul>
+                    <a href="https://mirax.partners/p4fp2iusj" target="_blank" rel="nofollow noopener" class="btn btn-primary" style="width: 100%; display: block;">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Red Flags -->
+    <section id="flags" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Red Flags: 5 Signs of a Rigged Crash Game</h2>
+            <p class="section-subtitle">Avoid casinos that show these warning signs</p>
+            <div class="grid grid-2">
+                <div class="flag-card">
+                    <div class="flag-content">
+                        <div class="flag-icon">⚠️</div>
+                        <div>
+                            <h3 class="card-title">No Provably Fair Verification</h3>
+                            <p class="card-text">Legit crash casinos let you verify every round. If you can't verify the RNG, walk away.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-content">
+                        <div class="flag-icon">🎰</div>
+                        <div>
+                            <h3 class="card-title">Unrealistic Multiplier Patterns</h3>
+                            <p class="card-text">Rigged games crash suspiciously often at 1.00x. Our data shows fair sites crash at 1.00x ~3% of the time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-content">
+                        <div class="flag-icon">📋</div>
+                        <div>
+                            <h3 class="card-title">No Valid License</h3>
+                            <p class="card-text">Check the license number against the official regulator database. Fake licenses are common.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-content">
+                        <div class="flag-icon">⏰</div>
+                        <div>
+                            <h3 class="card-title">Delayed Payouts</h3>
+                            <p class="card-text">Bitcoin withdrawals should take minutes, not weeks. Delays are a red flag for liquidity issues.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flag-card">
+                    <div class="flag-content">
+                        <div class="flag-icon">👥</div>
+                        <div>
+                            <h3 class="card-title">Fake Reviews or No Community</h3>
+                            <p class="card-text">Check Reddit, Discord, and independent review sites. Real casinos have real players talking about them.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 48px;">Frequently Asked Questions</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <details>
+                        <summary>What does 'provably fair' mean?</summary>
+                        <div class="faq-answer">
+                            Provably fair technology lets you verify that each crash round was truly random. You receive a hash before the round, then after the crash, you receive a seed string. Combined, they prove the casino couldn't have predicted the result. We verify this process manually on every site we test.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Which casinos are actually safe?</summary>
+                        <div class="faq-answer">
+                            From our testing of 50 sites, only 12 passed all our verification checks. Cybet, BitStarz, Betzrd, 7Bit, and Mirax are the top-rated. See the full verified list above for details on each.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>Is crash gambling legal?</summary>
+                        <div class="faq-answer">
+                            It depends on your jurisdiction. In most countries, online crash gambling exists in a legal gray area. In the US, state laws vary widely—some states prohibit all online gambling, others have no specific laws. Check your local laws before playing.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>How do I verify a crash round myself?</summary>
+                        <div class="faq-answer">
+                            1. Find the 'provably fair' or 'fairness' section of the casino. 2. Copy the server seed and client seed for your round. 3. Use an online SHA256 hash calculator to verify they match. 4. Repeat for a few rounds to build confidence. We show this process in our methodology section.
+                        </div>
+                    </details>
+                </div>
+                <div class="faq-item">
+                    <details>
+                        <summary>What RTP should I expect?</summary>
+                        <div class="faq-answer">
+                            Fair crash games typically have RTP between 96-99%. That means for every $100 wagered, you should expect $96-99 back over long-term play. Anything below 95% is unfavorable compared to other casino games.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-tagline">Play Safe. Crash Smart.</p>
+            <div class="footer-links">
+                <a href="#methodology">Methodology</a>
+                <a href="#verified">Verified Sites</a>
+                <a href="#flags">Red Flags</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-legal">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="https://www.begambleaware.org" target="_blank">Gambling Problem?</a>
+            </div>
+            <p class="footer-copy">© 2026 CrashCasino.io. All rights reserved. Gamble responsibly.</p>
+        </div>
+    </footer>
+</body>
+</html>

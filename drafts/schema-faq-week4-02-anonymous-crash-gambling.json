@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is anonymous crash gambling safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Riskier than KYC casinos. 70% of confirmed crash scams (2023-2025) were no-KYC casinos. But reputable no-KYC casinos exist (Cryptorino, Betpanda, Vave)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get arrested for playing on no-KYC sites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Extremely unlikely. Countries target operators, not players. Risk is financial (getting scammed), not legal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do anonymous casinos actually pay out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Legit ones do (Cryptorino, Betpanda, Vave). Scams exist — test with small withdrawal first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if an anonymous casino scams me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accept the loss. You have no legal recourse (can't sue, regulator won't help). Warn others on Reddit/Trustpilot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are no-KYC casinos legal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray market. They hold Curacao/Panama licenses but don't follow KYC rules of regulated markets (MGA, UKGC). Playing is rarely illegal, but you have no legal protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use a VPN with anonymous casinos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many players do to bypass geo-blocks. Risk: Some casinos ban VPNs (account closure). Test with small deposit first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a no-KYC casino is legit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check license (Curacao/Panama), verify provably fair, read reviews (Trustpilot/Reddit), test withdrawal with small amount."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best anonymous crash casino?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cryptorino, Betpanda, Vave (all licensed, provably fair, track record)."
+      }
+    }
+  ]
+}

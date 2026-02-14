@@ -1,0 +1,33 @@
+{
+  "url": "https://www.sawiday.be/nl-be/p/77539339/zeis-grand-vrijstaand-bad-170x80x58cm-acryl-mat-wit",
+  "name": "Villeroy &amp; Boch Theano vrijstaand duobad - 155x75cm - kunststof quaryl - ovaal - mat grijs",
+  "price": "e639",
+  "category": "sub half freestanding baths",
+  "subcategory": "unknown",
+  "description": "",
+  "image_count": 3,
+  "images": [
+    {
+      "url": "https://static.rorix.nl/image/product/overig/300x300/066d0a65d4c5bb4be343922a10a9d2fe.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/overig/320x320/9c5659e5db129b3402e939f794407c17.webp",
+      "type": "product",
+      "alt": ""
+    },
+    {
+      "url": "https://static.rorix.nl/image/product/galvano/480x480/D130001001516489.webp",
+      "type": "product",
+      "alt": ""
+    }
+  ],
+  "scraped_at": "2026-02-13T11:54:08.783889",
+  "downloaded_images": 3,
+  "local_image_paths": [
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/Villeroy-&amp;-Boch-Theano-vrijstaand-duobad---155/images/image_001.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/Villeroy-&amp;-Boch-Theano-vrijstaand-duobad---155/images/image_002.webp",
+    "/root/.openclaw/workspace/research/bathroom-products/batch-browser-scrape/batch-20260213_115402/Villeroy-&amp;-Boch-Theano-vrijstaand-duobad---155/images/image_003.webp"
+  ]
+}

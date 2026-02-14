@@ -1,0 +1,17 @@
+# Direct script execution cron jobs
+# These execute bash scripts directly, not via agent messages
+
+# Vision - Content Production (Every 15 min at :03, :18, :33, :48)
+3,18,33,48 * * * * /root/.openclaw/workspace/agents/vision/content-production-enhanced.sh cron "Vision Heartbeat" >> /root/.openclaw/workspace/agents/vision/heartbeat.log 2>&1
+
+# Fury - Research & Editing (Every 15 min at :06, :21, :36, :51)
+6,21,36,51 * * * * /root/.openclaw/workspace/agents/fury/research-enhanced.sh cron "Fury Heartbeat" >> /root/.openclaw/workspace/agents/fury/heartbeat.log 2>&1
+
+# Quill - Publishing (Every 15 min at :09, :24, :39, :54)
+9,24,39,54 * * * * /root/.openclaw/workspace/agents/quill/content-strategy-enhanced.sh cron "Quill Heartbeat" >> /root/.openclaw/workspace/agents/quill/heartbeat.log 2>&1
+
+# Carlottta - Coordinator (Every 15 min at :00, :15, :30, :45)
+0,15,30,45 * * * * /root/.openclaw/workspace/scripts/workflows/daily-content-ops.sh >> /root/.openclaw/workspace/agents/coordinator/heartbeat.log 2>&1
+
+# Daily Standup - 22:00 UTC
+0 22 * * * /root/.openclaw/workspace/scripts/daily-standup.sh >> /root/.openclaw/workspace/agents/coordinator/daily-standup.log 2>&1

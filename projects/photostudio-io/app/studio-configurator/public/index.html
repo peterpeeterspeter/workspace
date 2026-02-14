@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Configurator - Flooring & Design Visualization</title>
+    <meta name="description" content="Professional flooring and design visualization tool. Visualize custom flooring options with various materials and patterns.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .product-card.disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .product-card.disabled:hover {
+            transform: none;
+        }
+
+        .product-thumbnail {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+
+        .product-thumbnail.flooring {
+            background: linear-gradient(135deg, #D4A574 0%, #8B6914 50%, #D4A574 100%);
+            background-size: 80px 40px;
+        }
+
+        .product-thumbnail.tiling {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+
+        .product-content {
+            padding: 24px;
+        }
+
+        .product-category {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .product-title {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .product-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .product-stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .stat {
+            background: #f5f5f5;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: #555;
+        }
+
+        .stat strong {
+            color: #333;
+        }
+
+        .product-price {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+        }
+
+        .price-range {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .btn.disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .features {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 40px;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 24px;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+
+        .feature-title {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .feature-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            opacity: 0.9;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.75rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏠 Studio Configurator</h1>
+            <p>Professional flooring and design visualization tool</p>
+        </header>
+
+        <div class="products-grid">
+            <!-- Flooring Product -->
+            <div class="product-card" onclick="launchConfigurator('flooring')">
+                <div class="product-thumbnail flooring">
+                    🪵
+                </div>
+                <div class="product-content">
+                    <div class="product-category">
+                        Flooring
+                        <span class="badge">Featured</span>
+                    </div>
+                    <h2 class="product-title">Flooring Configurator</h2>
+                    <p class="product-description">
+                        Visualize custom flooring with 13 styles including wood, marble, terrazzo, and more. Choose from 5 installation patterns and 6 room scenes.
+                    </p>
+                    <div class="product-stats">
+                        <div class="stat"><strong>13</strong> Styles</div>
+                        <div class="stat"><strong>5</strong> Patterns</div>
+                        <div class="stat"><strong>6</strong> Rooms</div>
+                    </div>
+                    <div class="product-price">
+                        <span class="price-range">€45 - €177/sqm</span>
+                        <span class="btn">Launch →</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tiling Product -->
+            <div class="product-card" onclick="launchConfigurator('tiling')">
+                <div class="product-thumbnail tiling">
+                    🧱
+                </div>
+                <div class="product-content">
+                    <div class="product-category">
+                        Wall Tiling
+                        <span class="badge">Featured</span>
+                    </div>
+                    <h2 class="product-title">Wall Tiling Configurator</h2>
+                    <p class="product-description">
+                        Design stunning wall tile layouts for bathrooms and kitchens. Multiple tile sizes, colors, and arrangement patterns.
+                    </p>
+                    <div class="product-stats">
+                        <div class="stat"><strong>10</strong> Styles</div>
+                        <div class="stat"><strong>8</strong> Patterns</div>
+                        <div class="stat"><strong>4</strong> Rooms</div>
+                    </div>
+                    <div class="product-price">
+                        <span class="price-range">€35 - €150/sqm</span>
+                        <span class="btn">Launch →</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kitchen Product (Coming Soon) -->
+            <div class="product-card disabled">
+                <div class="product-thumbnail">
+                    🍳
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Kitchen</div>
+                    <h2 class="product-title">Kitchen Configurator</h2>
+                    <p class="product-description">
+                        Design your dream kitchen with custom cabinets, countertops, and appliances. Coming soon!
+                    </p>
+                    <div class="product-stats">
+                        <div class="stat"><strong>Coming</strong> Soon</div>
+                    </div>
+                    <div class="product-price">
+                        <span class="price-range">€500+</span>
+                        <span class="btn disabled">Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>✨ Key Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Realistic Visualization</h3>
+                    <p class="feature-description">High-quality rendering with shadows, reflections, and anti-aliasing for photorealistic results</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📐</div>
+                    <h3 class="feature-title">Custom Sizing</h3>
+                    <p class="feature-description">Adjust room dimensions from 200-600cm to match your exact space requirements</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏠</div>
+                    <h3 class="feature-title">Multiple Room Scenes</h3>
+                    <p class="feature-description">Living rooms, bedrooms, kitchens, bathrooms, hallways, and home offices</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3 class="feature-title">Transparent Pricing</h3>
+                    <p class="feature-description">Instant price calculations based on your selections and room dimensions</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Live Updates</h3>
+                    <p class="feature-description">See changes in real-time as you adjust styles, patterns, and dimensions</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Responsive Design</h3>
+                    <p class="feature-description">Works seamlessly on desktop, tablet, and mobile devices</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 Studio Configurator by Photostudio.io | Professional Design Visualization Tools</p>
+        </footer>
+    </div>
+
+    <script>
+        function launchConfigurator(productId) {
+            // In a full implementation, this would load the specific configurator
+            // For now, show an alert with the product info
+            const products = {
+                flooring: {
+                    name: 'Flooring Configurator',
+                    url: 'products/flooring/config.json'
+                },
+                tiling: {
+                    name: 'Wall Tiling Configurator',
+                    url: 'products/tiling/config.json'
+                }
+            };
+
+            const product = products[productId];
+            if (product) {
+                alert(`🚀 Launching ${product.name}!\n\nIn production, this would load the full configurator interface.\n\nConfig: ${product.url}`);
+            }
+        }
+
+        // Load products data (in production, fetch from products.json)
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Loaded products:', data.products);
+                console.log('Categories:', data.categories);
+            })
+            .catch(error => {
+                console.warn('Could not load products.json:', error);
+            });
+    </script>
+</body>
+</html>

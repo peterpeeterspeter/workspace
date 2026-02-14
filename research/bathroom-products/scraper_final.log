@@ -1,0 +1,737 @@
+======================================================================
+🚀 SAWIDAY SMART SCRAPER
+======================================================================
+Collecting 5 products per brand per subcategory
+Saving: 1 file per category + 1 file per subcategory
+======================================================================
+
+======================================================================
+📂 CATEGORY: Baden
+======================================================================
+
+  📁 baden
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Zeza - Zeza Nuo Vrijstaand bad
+    2/50 ✓ Riho - Riho Granada Vrijstaand bad
+    3/50 ✓ Zeza - Zeza Element Vrijstaand bad
+    4/50 ✓ Mondiaz - Mondiaz FLOAT Vrijstaand bad
+    5/50 ✓ Wiesbaden - Wiesbaden Vrijstaand bad
+    6/50 ✓ Zeza - Zeza Element Vrijstaand bad
+    7/50 ✓ Mondiaz - Mondiaz LUNDY Vrijstaand bad
+    8/50 ✓ Zeza - Zeza Element Vrijstaand bad
+    9/50 ✓ Zeza - Zeza Pure Vrijstaand bad
+    10/50 ✓ Riho - Riho Bilbao Vrijstaand bad
+    11/50 ✓ Riho - Riho Catching Waves Vrijstaand
+    12/50 ✓ Riho - Riho Granada Vrijstaand bad
+    13/50 ✓ Zeza - Zeza Element Vrijstaand bad
+    14/50 ✓ Mondiaz - Mondiaz ROCK Vrijstaand bad
+    15/50 ✓ Riho - Riho Modesty Vrijstaand bad
+    16/50 ✓ Zeza - Zeza Eloise Vrijstaand bad
+    17/50 ✓ Mondiaz - Mondiaz ROCK Vrijstaand bad
+    18/50 ✓ Mondiaz - Mondiaz FLOAT Vrijstaand bad
+    19/50 ✓ Wiesbaden - Wiesbaden Vrijstaand bad
+    20/50 ✓ Zeza - Zeza Bruno Vrijstaand bad
+    21/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    22/50 ✓ Riho - Riho Oval Vrijstaand bad
+    23/50 ✓ Mondiaz - Mondiaz FREEZE Vrijstaand bad
+    24/50 ✓ Riho - Riho Modesty Vrijstaand bad
+    25/50 ✓ Zeza - Zeza Element Vrijstaand bad
+    26/50 ✓ Riho - Riho Granada Vrijstaand bad
+    27/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    28/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    29/50 ✓ Riho - Riho Valor Vrijstaand bad
+    30/50 ✓ Royal Plaza - Royal Plaza Garni Vrijstaand b
+    31/50 ✓ Zeza - Zeza Blend Vrijstaand bad
+    32/50 ✓ Riho - Riho Modesty Vrijstaand bad
+    33/50 ✓ Zeza - Zeza Solid Vrijstaand bad
+    34/50 ✓ Riho - Riho Bilbao Vrijstaand bad
+    35/50 ✓ Zeza - Zeza Solid Vrijstaand bad
+    36/50 ✓ Arcqua - Arcqua Cusco Vrijstaand bad
+    37/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    38/50 ✓ Zeza - Zeza Eloise Vrijstaand bad
+    39/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    40/50 ✓ Gardentub - Gardentub Vrijstaand bad
+    41/50 ✓ Ideavit - Ideavit Solidsurf Vrijstaand b
+    42/50 ✓ Riho - Riho Inspire Vrijstaand bad
+    43/50 ✓ Royal Plaza - Royal Plaza Garni Vrijstaand b
+    44/50 ✓ Zeza - Zeza Pure Vrijstaand bad
+    45/50 ✓ Mondiaz - Mondiaz NOBLE Vrijstaand bad
+    46/50 ✓ Riho - Riho Oval Vrijstaand bad
+    47/50 ✓ Riho - Riho Oval Vrijstaand bad
+    48/50 ✓ Riho - Riho Bilbao Vrijstaand bad
+    49/50 ✓ Zeza - Zeza Pure Vrijstaand bad
+    50/50 ✓ Riho - Riho Oval Vrijstaand bad
+    💾 Saved: Baden_baden_5perbrand_20260213_122903.json
+
+  📁 baden
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Ideavit - Ideavit Archtec Half vrijstaan
+    2/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    3/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    4/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    5/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    6/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    7/50 ✓ Riho - Riho Desire Half vrijstaand ba
+    8/50 ✓ Riho - Riho Phatos Half vrijstaand ba
+    9/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    10/50 ✓ Zeza - Zeza Nuo Half vrijstaand bad
+    11/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    12/50 ✓ Wiesbaden - Wiesbaden Half vrijstaand bad
+    13/50 ✓ Riho - Riho Desire Half vrijstaand ba
+    14/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    15/50 ✓ Looox - Looox Cool Half vrijstaand bad
+    16/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    17/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    18/50 ✓ Riho - Riho Rethink Cubic Half vrijst
+    19/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    20/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    21/50 ✓ Riho - Riho Phatos Half vrijstaand ba
+    22/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    23/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    24/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    25/50 ✓ Xellanz - Xellanz Complete douchecabine
+    26/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    27/50 ✓ Riho - Riho Phatos Half vrijstaand ba
+    28/50 ✓ Ideavit - Ideavit Archtec Half vrijstaan
+    29/50 ✓ Royal Plaza - Royal Plaza Edolo Half vrijsta
+    30/50 ✓ Zeza - Zeza Nuo Half vrijstaand bad
+    31/50 ✓ Wiesbaden - Wiesbaden Half vrijstaand bad
+    32/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    33/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon 2.0 Hal
+    34/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    35/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    36/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    37/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    38/50 ✓ Riho - Riho Desire Half vrijstaand ba
+    39/50 ✓ Zeza - Zeza Nuo Half vrijstaand bad
+    40/50 ✓ Riho - Riho Phatos Half vrijstaand ba
+    41/50 ✓ Wiesbaden - Wiesbaden Half vrijstaand bad
+    42/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    43/50 ✓ Wiesbaden - Wiesbaden Half vrijstaand bad
+    44/50 ✓ Riho - Riho Phatos Half vrijstaand ba
+    45/50 ✓ Zeza - Zeza Grand Half vrijstaand bad
+    46/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    47/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    48/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    49/50 ✓ Zeza - Zeza Pure Half vrijstaand bad
+    50/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    💾 Saved: Baden_baden_5perbrand_20260213_122903.json
+
+  📁 baden
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    2/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    3/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    4/50 ✓ Xenz - Xenz Society 145 Hoekbad
+    5/50 ✓ Xenz - Xenz Society Compact  Hoekbad
+    6/50 ✓ Duravit - Duravit Luv Half vrijstaand ba
+    7/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    8/50 ✓ Looox - Looox Bath collection Hoekbad
+    9/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    10/50 ✓ Xenz - Xenz Society Compact  Hoekbad
+    11/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    12/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    13/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    14/50 ✓ Riho - Riho Aryl Hoekbad
+    15/50 ✓ Xenz - Xenz Society Compact  Hoekbad
+    16/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    17/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    18/50 ✓ Xenz - Xenz Society Compact  Hoekbad
+    19/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    20/50 ✓ Xenz - Xenz Cyprus Hoekbad
+    21/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    22/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    23/50 ✓ Riho - Riho Aryl Hoekbad
+    24/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    25/50 ✓ GO by Van Marcke - GO by Van Marcke Half vrijstaa
+    26/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    27/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    28/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    29/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    30/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    31/50 ✓ Xenz - Xenz Society Compact  Hoekbad
+    32/50 ✓ Xenz - Xenz Lucia inbouwbad
+    33/50 ✓ Looox - Looox Bath collection Hoekbad
+    34/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    35/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    36/50 ✓ Looox - Looox Bath collection Hoekbad
+    37/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    38/50 ✓ Zeza - Zeza Cheb Half vrijstaand bad
+    39/50 ✓ Royal Plaza - Royal Plaza Azul Hoekbad
+    40/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    41/50 ✓ Xenz - Xenz Cyprus Hoekbad
+    42/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    43/50 ✓ Xenz - Xenz Lagoon compact  Hoekbad
+    44/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    45/50 ✓ Xenz - Xenz Cyprus Hoekbad
+    46/50 ✓ Xenz - Xenz Orona inbouwbad
+    47/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    48/50 ✓ Arcqua - Arcqua Pinto Hoekbad
+    49/50 ✓ Xenz - Xenz Society 160 Hoekbad
+    50/50 ✓ Zeza - Zeza Blend Half vrijstaand bad
+    💾 Saved: Baden_baden_5perbrand_20260213_122903.json
+
+  📁 baden
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Duravit - Duravit D-code inbouwbad
+    2/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon inbouwb
+    3/50 ✓ Villeroy & Boch - Villeroy & Boch O.novo Design 
+    4/50 ✓ Villeroy & Boch - Villeroy & Boch Architectura i
+    5/50 ✓ Villeroy & Boch - Villeroy & Boch O.novo inbouwb
+    6/50 ✓ WaveDesign by Wisa - WaveDesign by Wisa Tesa Alle b
+    7/50 ✓ Nemo - Nemo Start Bad douche combinat
+    8/50 ✓ Xenz - Xenz Kanaga inbouwbad
+    9/50 ✓ Zeza - Zeza Square inbouwbad
+    10/50 ✓ WaveDesign by Wisa - WaveDesign by Wisa Amarante in
+    11/50 ✓ Xenz - Xenz Kristal inbouwbad
+    12/50 ✓ Xenz - Xenz Kristal inbouwbad
+    13/50 ✓ Xenz - Xenz Kristal inbouwbad
+    14/50 ✓ Xenz - Xenz Robijn inbouwbad
+    15/50 ✓ GO by Van Marcke - GO by Van Marcke inbouwbad
+    16/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon inbouwb
+    17/50 ✓ Xenz - Xenz Bodysize inbouwbad
+    18/50 ✓ Duravit - Duravit D-code inbouwbad
+    19/50 ✓ GO by Van Marcke - GO by Van Marcke inbouwbad
+    20/50 ✓ Xellanz - Xellanz Duobad
+    21/50 ✓ Villeroy & Boch - Villeroy & Boch O.novo inbouwb
+    22/50 ✓ WaveDesign by Wisa - WaveDesign by Wisa Tesa Alle b
+    23/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon 2.0 inb
+    24/50 ✓ Nemo - Nemo Start Bad douche combinat
+    25/50 ✓ Xenz - Xenz Society  inbouwbad
+    26/50 ✓ Zeza - Zeza Oval inbouwbad
+    27/50 ✓ Nemo - Nemo Spring inbouwbad
+    28/50 ✓ GO by Van Marcke - GO by Van Marcke inbouwbad
+    29/50 ✓ GO by Van Marcke - GO by Van Marcke inbouwbad
+    30/50 ✓ Villeroy & Boch - Villeroy & Boch Loop & Friends
+    31/50 ✓ Xenz - Xenz Kristal inbouwbad
+    32/50 ✓ Zeza - Zeza Oval inbouwbad
+    33/50 ✓ Xenz - Xenz Kristal inbouwbad
+    34/50 ✓ Nemo - Nemo Start inbouwbad
+    35/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon inbouwb
+    36/50 ✓ Xenz - Xenz Aruba inbouwbad
+    37/50 ✓ Xenz - Xenz Lagoon  inbouwbad
+    38/50 ✓ Villeroy & Boch - Villeroy & Boch Libra inbouwba
+    39/50 ✓ Bette - Bette Starlet Duobad
+    40/50 ✓ Villeroy & Boch - Villeroy & Boch Libra inbouwba
+    41/50 ✓ Nemo - Nemo Start inbouwbad
+    42/50 ✓ Nemo - Nemo Spring inbouwbad
+    43/50 ✓ GO by Van Marcke - GO by Van Marcke inbouwbad
+    44/50 ✓ Zeza - Zeza Square inbouwbad
+    45/50 ✓ Duravit - Duravit D-code inbouwbad
+    46/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon 2.0 inb
+    47/50 ✓ Xenz - Xenz Kristal inbouwbad
+    48/50 ✓ Villeroy & Boch - Villeroy & Boch Squaro edge 12
+    49/50 ✓ Villeroy & Boch - Villeroy & Boch Architectura i
+    50/50 ✓ Villeroy & Boch - Villeroy & Boch Oberon inbouwb
+    💾 Saved: Baden_baden_5perbrand_20260213_122903.json
+    💾 Saved: Baden_5perbrand_20260213_122903.json
+
+======================================================================
+📂 CATEGORY: Douche
+======================================================================
+
+  📁 nl-be
+  Page 1: 11 new (total: 11)
+  Page 2: 0 new (total: 11)
+  Scraping 11 products...
+    1/11 ✓ Hansgrohe - Hansgrohe Vernis Blend Regendo
+    2/11 ✓ Grohe - Grohe Euphoria Regendouche
+    3/11 ✓ Marenza - Marenza Slide Badwand
+    4/11 ✓ Fortifura - Fortifura Outdoor Buitendouche
+    5/11 ✓ Hansgrohe - Hansgrohe Crometta s Regendouc
+    6/11 ✓ Hansgrohe - Hansgrohe Croma select s Douch
+    7/11 ✓ Marenza - Marenza Slide Douchedeur
+    8/11 ✓ Marenza - Marenza Bellini Inloopdouche
+    9/11 ✓ Grohe - Grohe Euphoria Regendouche
+    10/11 ✓ Fortifura - Fortifura Outdoor Buitendouche
+    11/11 ✓ Grohe - Grohe smartcontrol Regendouche
+    💾 Saved: Douche_nl-be_5perbrand_20260213_122903.json
+
+  📁 douche
+  Page 1: 23 new (total: 23)
+  Page 2: 23 new (total: 46)
+  Page 3: 23 new (total: 69)
+  Scraping 69 products...
+    1/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    2/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    3/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    4/50 ✓ Adema - Adema Dawn Inloopdouche
+    5/50 ✓ Adema - Adema Dawn Inloopdouche
+    6/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    7/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    8/50 ✓ Adema - Adema Dawn Inloopdouche
+    9/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    10/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    11/50 ✓ Marenza - Marenza Neptune Badwand
+    12/50 ✓ Adema - Adema Dawn Inloopdouche
+    13/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    14/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    15/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    16/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    17/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    18/50 ✓ Adema - Adema Dawn Inloopdouche
+    19/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    20/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    21/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    22/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    23/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    24/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    25/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    26/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    27/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    28/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    29/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    30/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    31/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    32/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    33/50 ✓ Adema - Adema Dawn Inloopdouche
+    34/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    35/50 ✓ Adema - Adema Dawn Inloopdouche
+    36/50 ✓ Adema - Adema Dawn Inloopdouche
+    37/50 ✓ Adema - Adema Dawn Inloopdouche
+    38/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    39/50 ✓ Adema - Adema Dawn Inloopdouche
+    40/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    41/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    42/50 ✓ Adema - Adema Dawn Inloopdouche
+    43/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    44/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    45/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    46/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    47/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    48/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    49/50 ✓ Marenza - Marenza Bellini Inloopdouche
+    50/50 ✓ Fortifura - Fortifura Galeria Inloopdouche
+    💾 Saved: Douche_douche_5perbrand_20260213_122903.json
+
+  📁 douche
+  Page 1: ❌ 404
+    ❌ No products
+    💾 Saved: Douche_5perbrand_20260213_122903.json
+
+======================================================================
+📂 CATEGORY: Kranen
+======================================================================
+
+  📁 kranen
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    2/50 ✓ Fortifura - Fortifura Calvi Fonteinkraan
+    3/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    4/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    5/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    6/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    7/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    8/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    9/50 ✓ Fortifura - Fortifura Calvi Koekstopkraan
+    10/50 ✓ Fortifura - Fortifura Calvi Badkraan
+    11/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    12/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    13/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    14/50 ✓ Fortifura - Fortifura Calvi Stopkraan
+    15/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    16/50 ✓ Fortifura - Fortifura Calvi Fonteinkraan
+    17/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    18/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    19/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    20/50 ✓ Fortifura - Fortifura Calvi Koekstopkraan
+    21/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    22/50 ✓ Adema - Adema Sparkle 2.0 Koekstopkraa
+    23/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    24/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    25/50 ✓ Fortifura - Fortifura Calvi Fonteinkraan
+    26/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    27/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    28/50 ✓ Fortifura - Fortifura Calvi Fonteinkraan
+    29/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    30/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    31/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    32/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    33/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    34/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    35/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    36/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    37/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    38/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    39/50 ✓ Adema - Adema Sparkle 2.0 Koekstopkraa
+    40/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    41/50 ✓ Fortifura - Fortifura Calvi Badkraan
+    42/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    43/50 ✓ Fortifura - Fortifura Calvi Fonteinkraan
+    44/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    45/50 ✓ Adema - Adema Sparkle 2.0 Keukenkraan
+    46/50 ✓ Fortifura - Fortifura Calvi Badkraan
+    47/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    48/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    49/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    50/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    💾 Saved: Kranen_kranen_5perbrand_20260213_122903.json
+
+  📁 kranen
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    2/50 ✓ Brauer - Brauer Copper Edition Wastafel
+    3/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    4/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    5/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    6/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    7/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    8/50 ✓ Crosswater - Crosswater MPRO Wastafelkraan
+    9/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    10/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    11/50 ✓ Crosswater - Crosswater MPRO Wastafelkraan
+    12/50 ✓ Brauer - Brauer Copper Edition Wastafel
+    13/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    14/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    15/50 ✓ Hansgrohe - Hansgrohe Tecturis s Wastafelk
+    16/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    17/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    18/50 ✓ Ivy - Ivy Bond Wastafelkraan
+    19/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    20/50 ✓ Brauer - Brauer Gunmetal Edition Wastaf
+    21/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    22/50 ✓ Grohe - Grohe essence new Wastafelkraa
+    23/50 ✓ Crosswater - Crosswater Wisp Wastafelkraan
+    24/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    25/50 ✓ Ivy - Ivy Bond Wastafelkraan
+    26/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    27/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    28/50 ✓ Brauer - Brauer Copper Carving Wastafel
+    29/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    30/50 ✓ Brauer - Brauer Copper Edition Wastafel
+    31/50 ✓ Brauer - Brauer Gunmetal Edition Wastaf
+    32/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    33/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    34/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    35/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    36/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    37/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    38/50 ✓ Brauer - Brauer Gunmetal Edition Wastaf
+    39/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    40/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    41/50 ✓ Brauer - Brauer Brushed Edition Wastafe
+    42/50 ✓ Brauer - Brauer Gunmetal Carving Wastaf
+    43/50 ✓ Adema - Adema Sparkle 2.0 Wastafelkraa
+    44/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    45/50 ✓ Crosswater - Crosswater MPRO Wastafelkraan
+    46/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    47/50 ✓ Hansgrohe - Hansgrohe Tecturis s Wastafelk
+    48/50 ✓ Grohe - Grohe essence new Wastafelkraa
+    49/50 ✓ Hotbath - Hotbath Cobber Wastafelkraan
+    50/50 ✓ Fortifura - Fortifura Calvi Wastafelkraan
+    💾 Saved: Kranen_kranen_5perbrand_20260213_122903.json
+
+  📁 kranen
+  Page 1: 24 new (total: 24)
+  Page 2: 24 new (total: 48)
+  Page 3: 24 new (total: 72)
+  Scraping 72 products...
+    1/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    2/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    3/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    4/50 ✓ Fortifura - Fortifura Calvi Douchekraan
+    5/50 ✓ Fortifura - Fortifura Calvi Douchekraan
+    6/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    7/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    8/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    9/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    10/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    11/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    12/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    13/50 ✓ Fortifura - Fortifura Calvi Douchekraan
+    14/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    15/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    16/50 ✓ Fortifura - Fortifura Calvi Doucheset
+    17/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    18/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    19/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    20/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    21/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    22/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    23/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    24/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    25/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    26/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    27/50 ✓ Adema - Adema Sparkle 2.0 Douchekraan
+    28/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    29/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    30/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    31/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    32/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    33/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    34/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    35/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    36/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    37/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    38/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    39/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    40/50 ✓ Adema - Adema Sparkle 2.0 Regendouche
+    41/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    42/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    43/50 ✓ Fortifura - Fortifura Calvi Douchekraan
+    44/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    45/50 ✓ Fortifura - Fortifura Calvi Douchekraan
+    46/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    47/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    48/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    49/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    50/50 ✓ Fortifura - Fortifura Calvi Regendouche
+    💾 Saved: Kranen_kranen_5perbrand_20260213_122903.json
+    💾 Saved: Kranen_5perbrand_20260213_122903.json
+
+======================================================================
+📂 CATEGORY: Toiletten
+======================================================================
+
+  📁 nl-be
+  Page 1: 13 new (total: 13)
+  Page 2: 0 new (total: 13)
+  Scraping 13 products...
+    1/13 ✓ Duravit - Duravit D-code WC-bril
+    2/13 ✓ Villeroy & Boch - Villeroy & Boch Subway 3.0 Han
+    3/13 ✓ Villeroy & Boch - Villeroy & Boch Subway 2.0 Han
+    4/13 ✓ Villeroy & Boch - Villeroy & Boch O.novo Duoblok
+    5/13 ✓ Ideal Standard - Ideal Standard Tesi Hangtoilet
+    6/13 ✓ Geberit - Geberit QeramiQ Dely Toiletset
+    7/13 ✓ Duravit - Duravit Starck 3 WC-bril
+    8/13 ✓ GO by Van Marcke - GO by Van Marcke Tina Duoblok 
+    9/13 ✓ Geberit - Geberit Bedieningspaneel
+    10/13 ✓ Duravit - Duravit D-neo Hangtoilet
+    11/13 ✓ Duravit - Duravit Sensowash Douche WC
+    12/13 ✓ Villeroy & Boch - Villeroy & Boch O.novo Hangtoi
+    13/13 ✓ Geberit - Geberit AquaClean Douche WC
+    💾 Saved: Toiletten_nl-be_5perbrand_20260213_122903.json
+
+  📁 toiletten
+  Page 1: ❌ 404
+    ❌ No products
+
+  📁 toiletten
+  Page 1: ❌ 404
+    ❌ No products
+    💾 Saved: Toiletten_5perbrand_20260213_122903.json
+
+======================================================================
+📂 CATEGORY: Wastafels
+======================================================================
+
+  📁 nl-be
+  Page 1: 11 new (total: 11)
+  Page 2: 0 new (total: 11)
+  Scraping 11 products...
+    1/11 ✓ Differnz - Differnz Helios Fonteinset
+    2/11 ✓ Differnz - Differnz Jukon Fonteinset
+    3/11 ✓ Differnz - Differnz Helios Fonteinset
+    4/11 ✓ Differnz - Differnz Ravo Fonteinset
+    5/11 ✓ Geberit - Geberit 300 basic Uitstortgoot
+    6/11 ✓ Ideavit - Ideavit Solidharmony Lavabo
+    7/11 ✓ Villeroy & Boch - Villeroy & Boch O.novo Uitstor
+    8/11 ✓ GO by Van Marcke - GO by Van Marcke Spoelbak
+    9/11 ✓ Ideavit - Ideavit Solidthin Waskom
+    10/11 ✓ Differnz - Differnz Hura Fonteinset
+    11/11 ✓ Duravit - Duravit Starck 3 Uitstortgoots
+    💾 Saved: Wastafels_nl-be_5perbrand_20260213_122903.json
+
+  📁 wastafels
+  Page 1: ❌ 404
+    ❌ No products
+    💾 Saved: Wastafels_5perbrand_20260213_122903.json
+
+======================================================================
+📂 CATEGORY: Spiegels
+======================================================================
+
+  📁 spiegels
+  Page 1: 23 new (total: 23)
+  Page 2: 23 new (total: 46)
+  Page 3: 23 new (total: 69)
+  Scraping 69 products...
+    1/50 ✓ Adema - Adema Exclusive Line Spiegel
+    2/50 ✓ Saniclass - Saniclass Spiegelverwarming
+    3/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    4/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    5/50 ✓ Saniclass - Saniclass Retro Line Spiegel
+    6/50 ✓ Saniclass - Saniclass Chaci Spiegel
+    7/50 ✓ Saniclass - Saniclass Retro Line Spiegel
+    8/50 ✓ Adema - Adema Lonato Spiegel met verli
+    9/50 ✓ Adema - Adema Lonato Spiegel met verli
+    10/50 ✓ Adema - Adema Exclusive Line Spiegel
+    11/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    12/50 ✓ Adema - Adema Exclusive Line Spiegel
+    13/50 ✓ Adema - Adema Lonato Spiegel met verli
+    14/50 ✓ Saniclass - Saniclass Clear Spiegel
+    15/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    16/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    17/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    18/50 ✓ Smedbo - Smedbo Outline Vergrootspiegel
+    19/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    20/50 ✓ Saniclass - Saniclass Chaci Spiegel
+    21/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    22/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    23/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    24/50 ✓ Adema - Adema Lonato Spiegel met verli
+    25/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    26/50 ✓ Saniclass - Saniclass Chaci Spiegel
+    27/50 ✓ Adema - Adema Lonato Spiegel met verli
+    28/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    29/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    30/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    31/50 ✓ Saniclass - Saniclass Shine Spiegel met ve
+    32/50 ✓ Saniclass - Saniclass Clear Spiegel
+    33/50 ✓ Saniclass - Saniclass Clear Spiegel
+    34/50 ✓ Adema - Adema Lonato Spiegel met verli
+    35/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    36/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    37/50 ✓ Adema - Adema Lonato Spiegel met verli
+    38/50 ✓ Saniclass - Saniclass Chaci Spiegel
+    39/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    40/50 ✓ Saniclass - Saniclass Spiegelverwarming
+    41/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    42/50 ✓ Adema - Adema Exclusive Line Spiegel
+    43/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    44/50 ✓ Adema - Adema Lonato Spiegel met verli
+    45/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    46/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    47/50 ✓ Saniclass - Saniclass Clear Spiegel
+    48/50 ✓ Adema - Adema Lonato Spiegel met verli
+    49/50 ✓ Saniclass - Saniclass Prime Spiegelkast
+    50/50 ✓ Adema - Adema Exclusive Line Spiegel
+    💾 Saved: Spiegels_spiegels_5perbrand_20260213_122903.json
+
+  📁 spiegels
+  Page 1: 23 new (total: 23)
+  Page 2: 23 new (total: 46)
+  Page 3: 23 new (total: 69)
+  Scraping 69 products...
+    1/50 ✓ Adema - Adema Lonato Spiegel met verli
+    2/50 ✓ Adema - Adema Squared 2.0 Spiegel met 
+    3/50 ✓ Adema - Adema Squared 2.0 Spiegel met 
+    4/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    5/50 ✓ Adema - Adema Squared 2.0 Spiegel met 
+    6/50 ✓ Brauer - Brauer Quartz Spiegel met verl
+    7/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    8/50 ✓ Wiesbaden - Wiesbaden Spiegel met verlicht
+    9/50 ✓ Arcqua - Arcqua Oval Spiegel met verlic
+    10/50 ✓ Crosswater - Crosswater Infinity Spiegel
+    11/50 ✓ Brauer - Brauer Jade Spiegel met verlic
+    12/50 ✓ Arcqua - Arcqua Round Spiegel met verli
+    13/50 ✓ Adema - Adema Lonato Spiegel met verli
+    14/50 ✓ Adema - Adema Lonato Spiegel met verli
+    15/50 ✓ Adema - Adema Lonato Spiegel met verli
+    16/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    17/50 ✓ Saniclass - Saniclass Vygo Spiegel met ver
+    18/50 ✓ Wavedesign - Wavedesign Acadia Spiegel met 
+    19/50 ✓ HR Badmeubelen - HR Badmeubelen Spectre 2.0 Spi
+    20/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    21/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    22/50 ✓ Wiesbaden - Wiesbaden Spiegel met verlicht
+    23/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    24/50 ✓ Saniclass - Saniclass Organic Spiegel met 
+    25/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    26/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    27/50 ✓ Adema - Adema Lonato Spiegel met verli
+    28/50 ✓ Adema - Adema Lonato Spiegel met verli
+    29/50 ✓ Saniclass - Saniclass Shine Spiegel met ve
+    30/50 ✓ Wiesbaden - Wiesbaden Spiegel met verlicht
+    31/50 ✓ Wiesbaden - Wiesbaden Spiegel met verlicht
+    32/50 ✓ Adema - Adema Lonato Spiegel met verli
+    33/50 ✓ Brauer - Brauer Jasper Spiegel met verl
+    34/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    35/50 ✓ Adema - Adema Lonato Spiegel met verli
+    36/50 ✓ Hotbath - Hotbath &MORE Spiegel met verl
+    37/50 ✓ Nemo - Nemo Spring Spiegel met verlic
+    38/50 ✓ Saniclass - Saniclass Curve Spiegel met ve
+    39/50 ✓ Saniclass - Saniclass Circle Spiegel met v
+    40/50 ✓ HR Badmeubelen - HR Badmeubelen Jade 2.0 Spiege
+    41/50 ✓ Brauer - Brauer Jade Deluxe Spiegel met
+    42/50 ✓ Saniclass - Saniclass Spotlight Spiegel me
+    43/50 ✓ Saniclass - Saniclass Aura Spiegel met ver
+    44/50 ✓ Adema - Adema Lonato Spiegel met verli
+    45/50 ✓ HR Badmeubelen - HR Badmeubelen Enigma Spiegel 
+    46/50 ✓ Ink - Ink SP19 Spiegel met verlichti
+    47/50 ✓ Adema - Adema Lonato Spiegel met verli
+    48/50 ✓ HR Badmeubelen - HR Badmeubelen Spiegel met ver
+    49/50 ✓ Saniclass - Saniclass Vygo Spiegel met ver
+    50/50 ✓ Saniclass - Saniclass Squared Spiegel met 
+    💾 Saved: Spiegels_spiegels_5perbrand_20260213_122903.json
+    💾 Saved: Spiegels_5perbrand_20260213_122903.json
+    💾 Saved: sawiday_ALL_5perbrand_20260213_122903.json
+
+======================================================================
+✅ SCRAPING COMPLETE
+======================================================================
+Master file: sawiday_ALL_5perbrand_20260213_122903.json
+
+Baden:
+  baden / Duravit: 3 products
+  baden / Villeroy & Boch: 5 products
+  baden / WaveDesign by Wisa: 3 products
+  baden / Nemo: 5 products
+  baden / Xenz: 5 products
+  baden / Zeza: 4 products
+  baden / GO by Van Marcke: 5 products
+  baden / Xellanz: 1 products
+  baden / Bette: 1 products
+
+Douche:
+  nl-be / Hansgrohe: 3 products
+  nl-be / Grohe: 3 products
+  nl-be / Marenza: 3 products
+  nl-be / Fortifura: 2 products
+  douche / Fortifura: 5 products
+  douche / Adema: 5 products
+  douche / Marenza: 5 products
+
+Kranen:
+  kranen / Fortifura: 5 products
+  kranen / Adema: 5 products
+
+Toiletten:
+  nl-be / Duravit: 4 products
+  nl-be / Villeroy & Boch: 4 products
+  nl-be / Ideal Standard: 1 products
+  nl-be / Geberit: 3 products
+  nl-be / GO by Van Marcke: 1 products
+
+Wastafels:
+  nl-be / Differnz: 5 products
+  nl-be / Geberit: 1 products
+  nl-be / Ideavit: 2 products
+  nl-be / Villeroy & Boch: 1 products
+  nl-be / GO by Van Marcke: 1 products
+  nl-be / Duravit: 1 products
+
+Spiegels:
+  spiegels / Adema: 5 products
+  spiegels / Saniclass: 5 products
+  spiegels / Brauer: 4 products
+  spiegels / Wiesbaden: 4 products
+  spiegels / Arcqua: 2 products
+  spiegels / Crosswater: 1 products
+  spiegels / Wavedesign: 1 products
+  spiegels / HR Badmeubelen: 4 products
+  spiegels / Hotbath: 1 products
+  spiegels / Nemo: 1 products
+  spiegels / Ink: 1 products
+
+======================================================================
+TOTAL PRODUCTS: 121
+======================================================================

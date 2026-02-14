@@ -1,0 +1,7 @@
+=== Week 3 WordPress Publishing ===
+Started: 2026-02-02 22:06:18 UTC
+
+
+--- Publishing to freecrashgames.com ---
+❌ FAILED: week3-freecrashgames-002-vpn-friendly
+Response: {"code":"rest_no_route","message":"No route was found matching the URL and request method.","data":{"status":404}}

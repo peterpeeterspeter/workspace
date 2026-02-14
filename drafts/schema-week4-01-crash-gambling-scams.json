@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Crash Gambling Scams: How to Spot, Avoid, and Report Fake Crash Casinos",
+  "description": "Crash gambling scams exposed 2026. Fake multipliers, rigged RNG, withdrawal refusals, blacklist, red flags, how to spot and avoid crash casino scams.",
+  "image": "https://crashcasino.io/wp-content/uploads/2026/02/crash-scams.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "url": "https://crashcasino.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CrashCasino.io",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://crashcasino.io/wp-content/uploads/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://crashcasino.io/crash-gambling-scams"
+  },
+  "articleSection": "Crash Safety",
+  "keywords": ["crash gambling scams", "crash casino scams", "fake crash games", "rigged crash gambling", "provably fair crash"],
+  "wordCount": 2682
+}

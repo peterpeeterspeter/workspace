@@ -1,0 +1,28 @@
+[2026-02-06 09:35:16] ============================================================
+[2026-02-06 09:35:16] MBA ENRICHMENT - ACCEPTANCE RATES
+[2026-02-06 09:35:16] ============================================================
+[2026-02-06 09:35:16] 
+[2026-02-06 09:35:16] 📊 Loaded 30 programs from database
+[2026-02-06 09:35:16] ✓ Matched: Online MBA -> 23.0%
+[2026-02-06 09:35:16] ✓ Matched: Online MBA -> 37.0%
+[2026-02-06 09:35:16] ✓ Matched: Kelley Direct Online MBA -> 29.0%
+[2026-02-06 09:35:16] ✓ Matched: Online MBA -> 27.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 25.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched: Online MBA -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched: Master of Business Administration -> 25.0%
+[2026-02-06 09:35:16] ✓ Matched: Online MBA -> 38.0%
+[2026-02-06 09:35:16] ✓ Matched 12 programs with acceptance rates
+[2026-02-06 09:35:16] ✓ Saved to: /root/.openclaw/workspace/data/mba-acceptance-enriched.csv
+[2026-02-06 09:35:16] 
+[2026-02-06 09:35:16] 📈 Coverage Report:
+[2026-02-06 09:35:16]   acceptanceRate: 12/30 programs (40.0%)
+[2026-02-06 09:35:16]   classSize: 0/30 programs (0.0%)
+[2026-02-06 09:35:16]   avgSalaryPost: 0/30 programs (0.0%)
+[2026-02-06 09:35:16] 
+[2026-02-06 09:35:16] ============================================================
+[2026-02-06 09:35:16] COMPLETE
+[2026-02-06 09:35:16] ============================================================

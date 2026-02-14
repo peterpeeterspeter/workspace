@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-10T21:09:39.341543",
+    "category": "labs",
+    "operation": "related_keywords",
+    "keyword": "badkamer renovatie",
+    "extra_info": "depth_2"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0464 sec.",
+    "cost": 0.0,
+    "tasks_count": 1,
+    "tasks_error": 1,
+    "tasks": [
+      {
+        "id": "02102309-8420-0387-0000-6b6f22c45886",
+        "status_code": 40501,
+        "status_message": "Invalid Field: 'language_name'.",
+        "time": "0 sec.",
+        "cost": 0.0,
+        "result_count": 0,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "related_keywords",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "related_keywords",
+          "se_type": "google",
+          "keyword": "badkamer renovatie",
+          "location_name": "Netherlands",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "depth": 2,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "include_clickstream_data": null,
+          "ignore_synonyms": null,
+          "replace_with_core_keyword": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[2026-02-06 09:24:22] ============================================================
+[2026-02-06 09:24:22] MBA ENRICHMENT - FORTUNE RANKINGS
+[2026-02-06 09:24:22] ============================================================
+[2026-02-06 09:24:22] 
+[2026-02-06 09:24:22] 📊 Loaded 30 programs from database
+[2026-02-06 09:24:22] 🌐 Scraping: https://fortune.com/ranking/best-mba-programs/
+[2026-02-06 09:24:24] ✓ Scraped 4854 characters
+[2026-02-06 09:24:24] ✓ Extracted 0 programs from Fortune
+[2026-02-06 09:24:24] 🌐 Scraping: https://fortune.com/education/ranking/best-online-mba-programs/
+[2026-02-06 09:24:27] ✓ Scraped 697 characters
+[2026-02-06 09:24:27] ✓ Extracted 0 programs from Fortune
+[2026-02-06 09:24:27] ❌ No Fortune data extracted

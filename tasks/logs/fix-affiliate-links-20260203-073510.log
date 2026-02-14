@@ -1,0 +1,45 @@
+=== Affiliate Link Fix Script ===
+Date: 2026-02-03 07:35:10
+
+=== Processing site: freecrashgames.com ===
+URL: https://freecrashgames.com
+Fetching published posts...
+Found 61 posts
+  Post #51358: No-KYC Crash Casinos: Gamble Anonymously in 2025
+    Has broken affiliate links
+    ❌ Failed to fix post #51358
+    Error: {"code":"rest_cannot_edit","message":"Sorry, you are not allowed to edit this post.","data":{"status":401}}
+
+=== Processing site: cryptocrashgambling.com ===
+URL: https://cryptocrashgambling.com
+Fetching published posts...
+Found 10 posts
+
+=== Processing site: crashcasino.io ===
+URL: https://crashcasino.io
+Fetching published posts...
+Found 15 posts
+  Post #838: How We Rate Crash Casinos: Full Transparency on Our Review Process
+    Has broken affiliate links
+    ✅ Fixed post #838
+  Post #837: How to Verify Crash Game Fairness: Step-by-Step Guides for Popular Casinos
+    Has broken affiliate links
+    ✅ Fixed post #837
+  Post #835: How We Rate Crash Casinos: Full Transparency on Our Review Process
+    Has broken affiliate links
+    ✅ Fixed post #835
+  Post #834: How to Verify Crash Game Fairness: Step-by-Step Guides for Popular Casinos
+    Has broken affiliate links
+    ✅ Fixed post #834
+
+=== Processing site: crashgamegambling.com ===
+URL: https://crashgamegambling.com
+Fetching published posts...
+Found 63 posts
+
+=== Summary ===
+📊 Total posts checked: 149
+✅ Fixed: 4 posts
+❌ Failed: 1 posts
+
+🎉 Affiliate link fix complete! 4 articles updated.

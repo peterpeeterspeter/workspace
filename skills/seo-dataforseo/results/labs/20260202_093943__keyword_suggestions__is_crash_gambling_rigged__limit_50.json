@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-02T09:39:43.465178",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "is crash gambling rigged",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260129",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.2596 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02021139-8420-0399-0000-e25d1d374a0b",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.2481 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "is crash gambling rigged",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "is crash gambling rigged",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "is crash gambling rigged",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": null,
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": null,
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiaXMgY3Jhc2ggZ2FtYmxpbmcgcmlnZ2VkIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjUwLCJvZmZzZXQiOjAsImFpZCI6ODQyMDUsImZsYWdzIjpudWxsLCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwMjAyMTEzOS04NDIwLTAzOTktMDAwMC1lMjVkMWQzNzRhMGIifSwiUmF3UXVlcnkiOm51bGwsIklkIjoiNjAyYjI3NTUtMDc2ZS00NWY5LTk2MDQtY2I4ZjQxZDI4NTc2IiwiU2VhcmNoQWZ0ZXJEYXRhIjpudWxsfQ=="
+          }
+        ]
+      }
+    ]
+  }
+}

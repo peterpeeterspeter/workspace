@@ -1,0 +1,248 @@
+{
+  "name": "flooring",
+  "title": "Flooring Configurator",
+  "description": "Custom flooring visualization with various materials and patterns",
+  "category": "flooring",
+  "version": "1.0.0",
+  "thumbnail": "thumbnail.jpg",
+  "sizing": {
+    "width": {
+      "min": 200,
+      "max": 600,
+      "default": 400,
+      "step": 10,
+      "label": "Room Width (cm)"
+    },
+    "height": {
+      "min": 200,
+      "max": 600,
+      "default": 400,
+      "step": 10,
+      "label": "Room Depth (cm)"
+    }
+  },
+  "options": {
+    "board": {
+      "title": "Floor Board Settings",
+      "type": "board_options",
+      "properties": {
+        "width": {
+          "title": "Board Width (cm)",
+          "type": "number",
+          "default": 20,
+          "minimum": 10,
+          "maximum": 40,
+          "step": 1
+        },
+        "height": {
+          "title": "Board Length (cm)",
+          "type": "number",
+          "default": 120,
+          "minimum": 60,
+          "maximum": 200,
+          "step": 5
+        }
+      }
+    },
+    "style": {
+      "title": "Floor Style",
+      "type": "string",
+      "enum": [
+        "oak-natural",
+        "oak-white-oiled",
+        "oak-smoked",
+        "walnut-natural",
+        "ash-bleached",
+        "marble-carrara",
+        "marble-calacatta",
+        "terrazzo-grey",
+        "terrazzo-multicolor",
+        "concrete-polished",
+        "brick-herringbone",
+        "hexagon-marble"
+      ],
+      "default": "oak-natural",
+      "enumNames": [
+        "Oak Natural",
+        "Oak White Oiled",
+        "Oak Smoked",
+        "Walnut Natural",
+        "Ash Bleached",
+        "Marble Carrara",
+        "Marble Calacatta",
+        "Terrazzo Grey",
+        "Terrazzo Multicolor",
+        "Concrete Polished",
+        "Brick Herringbone",
+        "Hexagon Marble"
+      ]
+    },
+    "pattern": {
+      "title": "Installation Pattern",
+      "type": "string",
+      "enum": ["straight", "herringbone", "chevron", "basketweave", "hexagon"],
+      "default": "straight",
+      "enumNames": ["Straight Lay", "Herringbone", "Chevron", "Basket Weave", "Hexagon"]
+    },
+    "grout": {
+      "title": "Grout Color",
+      "type": "string",
+      "enum": ["white", "grey", "black", "beige"],
+      "default": "grey",
+      "enumNames": ["White", "Grey", "Black", "Beige"]
+    },
+    "border": {
+      "title": "Border",
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "title": "Add Border",
+          "type": "boolean",
+          "default": false
+        },
+        "width": {
+          "title": "Border Width (boards)",
+          "type": "number",
+          "default": 2,
+          "minimum": 1,
+          "maximum": 5
+        },
+        "color": {
+          "title": "Border Color",
+          "type": "string",
+          "enum": ["matching", "contrasting", "walnut", "white-oak"],
+          "default": "contrasting"
+        }
+      }
+    },
+    "orientation": {
+      "title": "Board Orientation",
+      "type": "string",
+      "enum": ["horizontal", "vertical", "diagonal"],
+      "default": "horizontal",
+      "enumNames": ["Horizontal", "Vertical", "Diagonal"]
+    },
+    "finish": {
+      "title": "Surface Finish",
+      "type": "string",
+      "enum": ["matt", "silk-matt", "naturally-oiled", "high-gloss"],
+      "default": "matt",
+      "enumNames": ["Matt Lacquer", "Silk Matt", "Naturally Oiled", "High Gloss"]
+    },
+    "surface": {
+      "title": "Surface Structure",
+      "type": "string",
+      "enum": ["smooth", "brushed", "handscraped", "saw-marked", "planked"],
+      "default": "smooth",
+      "enumNames": ["Smooth", "Brushed", "Handscraped", "Saw Marked", "Planked"]
+    }
+  },
+  "roomScenes": {
+    "living-room": {
+      "title": "Living Room",
+      "thumbnail": "scenes/living-room-thumb.jpg",
+      "baseImage": "scenes/living-room.jpg",
+      "floorMask": "scenes/living-room-floor-mask.png",
+      "defaultPerspective": "perspective",
+      "lighting": "warm",
+      "wallColor": "#F5F5DC",
+      "recommendedStyles": ["oak-natural", "oak-white-oiled", "walnut-natural"]
+    },
+    "bedroom": {
+      "title": "Bedroom",
+      "thumbnail": "scenes/bedroom-thumb.jpg",
+      "baseImage": "scenes/bedroom.jpg",
+      "floorMask": "scenes/bedroom-floor-mask.png",
+      "defaultPerspective": "perspective",
+      "lighting": "soft",
+      "wallColor": "#FFF8E7",
+      "recommendedStyles": ["oak-natural", "ash-bleached", "oak-smoked"]
+    },
+    "kitchen": {
+      "title": "Kitchen",
+      "thumbnail": "scenes/kitchen-thumb.jpg",
+      "baseImage": "scenes/kitchen.jpg",
+      "floorMask": "scenes/kitchen-floor-mask.png",
+      "defaultPerspective": "top-down",
+      "lighting": "bright",
+      "wallColor": "#FFFFFF",
+      "recommendedStyles": ["oak-white-oiled", "marble-carrara", "terrazzo-grey"]
+    },
+    "hallway": {
+      "title": "Hallway",
+      "thumbnail": "scenes/hallway-thumb.jpg",
+      "baseImage": "scenes/hallway.jpg",
+      "floorMask": "scenes/hallway-floor-mask.png",
+      "defaultPerspective": "perspective",
+      "lighting": "neutral",
+      "wallColor": "#E8E8E8",
+      "recommendedStyles": ["oak-smoked", "walnut-natural", "brick-herringbone"]
+    },
+    "bathroom": {
+      "title": "Bathroom",
+      "thumbnail": "scenes/bathroom-thumb.jpg",
+      "baseImage": "scenes/bathroom.jpg",
+      "floorMask": "scenes/bathroom-floor-mask.png",
+      "defaultPerspective": "top-down",
+      "lighting": "bright",
+      "wallColor": "#FFFFFF",
+      "recommendedStyles": ["marble-carrara", "marble-calacatta", "hexagon-marble"]
+    },
+    "office": {
+      "title": "Home Office",
+      "thumbnail": "scenes/office-thumb.jpg",
+      "baseImage": "scenes/office.jpg",
+      "floorMask": "scenes/office-floor-mask.png",
+      "defaultPerspective": "perspective",
+      "lighting": "neutral",
+      "wallColor": "#F0F0F0",
+      "recommendedStyles": ["oak-natural", "walnut-natural", "concrete-polished"]
+    }
+  },
+  "visualization": {
+    "defaultPerspective": "perspective",
+    "perspectives": ["top-down", "perspective", "angled"],
+    "shadows": {
+      "enabled": true,
+      "intensity": 0.3
+    },
+    "reflections": {
+      "enabled": true,
+      "intensity": 0.2
+    },
+    "antiAliasing": true,
+    "highQuality": true,
+    "backgroundColor": "#FFFFFF",
+    "showRoomBounds": false,
+    "lighting": {
+      "ambient": 0.6,
+      "directional": 0.4,
+      "angle": 45
+    }
+  },
+  "pricing": {
+    "currency": "EUR",
+    "unit": "sqm",
+    "basePrice": 45,
+    "stylePriceModifier": {
+      "oak-natural": 0,
+      "oak-white-oiled": 10,
+      "oak-smoked": 15,
+      "walnut-natural": 35,
+      "ash-bleached": 5,
+      "marble-carrara": 80,
+      "marble-calacatta": 120,
+      "terrazzo-grey": 65,
+      "terrazzo-multicolor": 85,
+      "concrete-polished": 40,
+      "brick-herringbone": 55,
+      "hexagon-marble": 95
+    },
+    "finishPriceModifier": {
+      "matt": 0,
+      "silk-matt": 5,
+      "naturally-oiled": 8,
+      "high-gloss": 12
+    }
+  }
+}

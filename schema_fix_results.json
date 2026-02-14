@@ -1,0 +1,14 @@
+[
+  {
+    "success": true,
+    "post_id": 1334,
+    "schema_type": "FAQPage",
+    "url": "https://www.cardfair.com/2025/11/16/rebuild-credit-after-bankruptcy/"
+  },
+  {
+    "success": false,
+    "post_id": 1345,
+    "error": "HTTP 404: {\"code\":\"rest_post_invalid_id\",\"message\":\"Invalid post ID.\",\"data\":{\"status\":404}}",
+    "url": "https://www.cardfair.com/secured-credit-cards/"
+  }
+]
