@@ -49,3 +49,14 @@ Thumbs.db
 
 # Redis
 dump.rdb
+
+# Node modules
+**/node_modules/
+**/node_modules/*
+
+# Build artifacts
+**/dist/
+**/build/
+**/.next/
+**/.turbo/
+**/out/
