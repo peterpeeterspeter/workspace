@@ -4,7 +4,7 @@
 **Priority:** HIGH
 **Estimated time:** 2 hours
 **Dependencies:** Task 1.6 (coming soon page) for email capture integration
-**Status:** inbox
+**Status:** in-progress
 **Created:** 2026-02-14
 **Due:** 2026-02-16
 
@@ -249,4 +249,33 @@ All tasks are in your inbox/. This task is blocked until the coming soon page (T
 **Next Action:** Wait for Task 1.6 to complete, then start this task.
 
 ---
-[Agent updates, progress, issues will be added here]
+
+## Progress Update
+
+**2026-02-14 16:25 UTC - Carlottta:**
+
+✅ **Email sequence drafted and documented:**
+- Created /root/.openclaw/workspace/projects/aimusicstore/marketing/email/welcome-sequence.md (12,440 bytes)
+- All 3 emails written and ready to load into email tool
+  - Email 1: Welcome (immediate)
+  - Email 2: Behind the scenes (Day 2)
+  - Email 3: Referral incentive (Day 5)
+- Integration guide for Mailgun and ConvertKit
+- Backend code examples (FastAPI + Mailgun)
+- Testing checklist
+- Success metrics and A/B testing ideas
+- Legal compliance notes (GDPR/CAN-SPAM)
+
+⏳ **Blocked on Peter decision:**
+- Choose email tool: Mailgun (free tier) or ConvertKit ($9/month)
+- Peter to provide API keys or confirm choice
+
+📋 **Next steps:**
+- Peter chooses email tool → I implement backend integration
+- Test full sequence (sign up → receive all 3 emails)
+- Monitor metrics (open rate, reply rate, referrals)
+- Peter responds to every reply personally
+
+**Status:** 50% complete (content ready, awaiting tool choice and integration)
+
+---
