@@ -30,7 +30,7 @@ Base = declarative_base()
 class Agent(Base):
     """
     AI agents die stemmen op songs en tools.
-    
+
     Attributes:
         id: Unique agent identifier (e.g., "claude-opus-4")
         reputation_score: Trust score based on vote history
@@ -38,12 +38,12 @@ class Agent(Base):
         last_vote_at: Timestamp of most recent vote
     """
     __tablename__ = 'agents'
-    
+
     id = Column(String(255), primary_key=True)
     reputation_score = Column(Integer, default=0, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     last_vote_at = Column(DateTime, default=datetime.utcnow, nullable=False)
-    
+
     def __repr__(self):
         return f"<Agent(id={self.id}, reputation={self.reputation_score})>"
 
@@ -51,7 +51,7 @@ class Agent(Base):
 class Song(Base):
     """
     AI-gegenereerde muziek nummers.
-    
+
     Attributes:
         id: Unique song identifier (e.g., "suno-abc123")
         title: Song title
@@ -67,7 +67,7 @@ class Song(Base):
         score: Calculated score (up - down)
     """
     __tablename__ = 'songs'
-    
+
     id = Column(String(255), primary_key=True)
     title = Column(String(500), nullable=False, index=True)
     artist = Column(String(500), nullable=False)
@@ -90,7 +90,7 @@ class Song(Base):
 class Tool(Base):
     """
     AI music generators (Suno AI, Udio, etc.).
-    
+
     Attributes:
         id: Unique tool identifier (e.g., "suno-ai")
         name: Tool name
@@ -108,7 +108,7 @@ class Tool(Base):
         review_count: Number of reviews
     """
     __tablename__ = 'tools'
-    
+
     id = Column(String(255), primary_key=True)
     name = Column(String(500), nullable=False)
     website = Column(Text, nullable=False)
@@ -132,7 +132,7 @@ class Tool(Base):
 class ReputationHistory(Base):
     """
     Reputatiegeschiedenis van agents (bijhouding van score changes).
-    
+
     Attributes:
         id: Auto-increment primary key
         agent_id: Foreign key to agents table
@@ -142,14 +142,14 @@ class ReputationHistory(Base):
         timestamp: Wanneer veranderde de score
     """
     __tablename__ = 'reputation_history'
-    
+
     id = Column(Integer, primary_key=True, autoincrement=True)
     agent_id = Column(String(255), ForeignKey('agents.id', ondelete='CASCADE'), nullable=False, index=True)
     old_score = Column(Integer, nullable=False)
     new_score = Column(Integer, nullable=False)
     change_reason = Column(Text)
     timestamp = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
-    
+
     def __repr__(self):
         return f"<ReputationHistory(agent={self.agent_id}, {self.old_score}→{self.new_score}, {self.timestamp})>"
 
@@ -157,7 +157,7 @@ class ReputationHistory(Base):
 class APIKey(Base):
     """
     API keys for external access to the API.
-    
+
     Attributes:
         key_id: Unique key identifier (public)
         name: Name/label for the key
@@ -171,7 +171,7 @@ class APIKey(Base):
         revoked_at: When the key was revoked (if applicable)
     """
     __tablename__ = 'api_keys'
-    
+
     key_id = Column(String(255), primary_key=True)
     name = Column(String(500), nullable=False)
     key_hash = Column(String(64), nullable=False, unique=True, index=True)  # SHA-256 hash
@@ -182,7 +182,7 @@ class APIKey(Base):
     last_used = Column(DateTime, nullable=True)
     expires_at = Column(DateTime, nullable=True)
     revoked_at = Column(DateTime, nullable=True)
-    
+
     def __repr__(self):
         return f"<APIKey(key_id={self.key_id}, name={self.name}, tier={self.tier}, active={self.is_active})>"
 
@@ -190,7 +190,7 @@ class APIKey(Base):
 class Vote(Base):
     """
     Stemmen van agents op songs en tools.
-    
+
     Attributes:
         id: Auto-increment primary key
         agent_id: Foreign key to agents table
@@ -199,7 +199,7 @@ class Vote(Base):
         vote: 'up' or 'down'
         comment: Optional comment (max 1000 chars)
         timestamp: When vote was cast
-    
+
     Constraints:
         Unique (agent_id, item_id) - one vote per agent per item
     """
@@ -213,24 +213,25 @@ class Vote(Base):
     item_type = Column(String(20), nullable=False, index=True)  # 'song' or 'tool'
     item_id = Column(String(255), nullable=False, index=True)
     vote = Column(String(10), nullable=False)  # 'up' or 'down'
+    vote_source = Column(String(20), default='real', nullable=False)  # 'bootstrap' or 'real'
     comment = Column(Text)
     timestamp = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
-
+    
     def __repr__(self):
-        return f"<Vote(agent={self.agent_id}, item={self.item_type}:{self.item_id}, vote={self.vote})>"
+        return f"<Vote(agent={self.agent_id}, item={self.item_type}:{self.item_id}, vote={self.vote}, source={self.vote_source})>"
 
 
 class Waitlist(Base):
     """
     Waitlist signups for aimusicstore.com pre-launch.
-    
+
     Attributes:
         id: Auto-increment primary key
         email: Email address (unique)
         signup_ip: IP address of signup (optional)
         signup_timestamp: When they joined the waitlist
         referral_source: Where they came from (optional, e.g., 'twitter', 'reddit')
-    
+
     Constraints:
         Unique email - one signup per email
     """
@@ -238,7 +239,7 @@ class Waitlist(Base):
     __table_args__ = (
         UniqueConstraint('email', name='unique_email'),
     )
-    
+
     id = Column(Integer, primary_key=True, autoincrement=True)
     email = Column(String(255), nullable=False, unique=True, index=True)
     signup_ip = Column(String(45))  # IPv6 can be up to 45 chars
@@ -256,7 +257,7 @@ class Waitlist(Base):
 def init_database(engine):
     """
     Initialize database schema with all tables and indexes.
-    
+
     Args:
         engine: SQLAlchemy engine instance
     """

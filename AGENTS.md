@@ -4,6 +4,35 @@
 
 ---
 
+## CRASH RECOVERY (Do This FIRST)
+
+**On session startup:**
+1. **Read active-tasks.md FIRST** - This shows what you were working on before crash/restart
+2. **Don't ask "what was I doing?"** - active-tasks.md has the answer
+3. **Resume autonomously** - Continue from where you left off
+4. **If tasks stale (>2h without update)** - Nudge agent or check blockers
+
+**Why:** Sessions WILL crash or restart. Without this, you wake up confused and waste time asking what to do.
+
+---
+
+## WORK QUALITY (Critical)
+
+**Sub-agent validation:**
+- Every sub-agent MUST validate its own work before announcing complete
+- Coordinator (Carlottta) verifies results before announcing to Peter
+- **Never take a sub-agent's result for granted**
+
+**Why:** This rule prevents 80% of quality issues. The agent that builds ≠ agent that reviews.
+
+---
+
+# AGENTS.md - Operational Manual for All Agents
+
+**Read this file when you wake up. This is how we operate.**
+
+---
+
 ## Agent Roster
 
 **Active Agents:**

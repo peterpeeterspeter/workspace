@@ -1,0 +1,2107 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-14T21:17:17.793189",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "AI product description generator",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.3340 sec.",
+    "cost": 0.0117,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02142317-8420-0399-0000-12ea08959478",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.3203 sec.",
+        "cost": 0.0117,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "AI product description generator",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "ai product description generator",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "ai product description generator",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-29 20:35:24 +00:00",
+                "competition": 0.49,
+                "competition_level": "MEDIUM",
+                "cpc": 9.31,
+                "search_volume": 590,
+                "low_top_of_page_bid": 2.48,
+                "high_top_of_page_bid": 9.96,
+                "categories": [
+                  10009
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 590
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 880
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 720
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 720
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 880
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 1000
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -64,
+                  "quarterly": -33,
+                  "yearly": -84
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 6,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=ai%20product%20description%20generator&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 177000000,
+                "last_updated_time": "2026-01-22 19:30:44 +00:00",
+                "previous_updated_time": "2025-12-06 20:24:00 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 160.9,
+                "dofollow": 87.0,
+                "referring_pages": 141.1,
+                "referring_domains": 55.1,
+                "referring_main_domains": 54.1,
+                "rank": 76.4,
+                "main_domain_rank": 561.1,
+                "last_updated_time": "2026-01-22 17:30:46 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": [
+                  "transactional"
+                ],
+                "last_updated_time": "2023-03-04 12:42:43 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 17,
+            "items_count": 17,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxNywiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImFpIHByb2R1Y3QgZGVzY3JpcHRpb24gZ2VuZXJhdG9yIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjUwLCJvZmZzZXQiOjAsImFpZCI6ODQyMDUsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMTQyMzE3LTg0MjAtMDM5OS0wMDAwLTEyZWEwODk1OTQ3OCIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiM2FhZTcyZGQtYjQ0Zi00OTQ0LTlmYjUtYTJlZjcwZjcwYTRlIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTAsImI3Y2MyMzQzLTE2YWUtMWViMC0yNjdkLTI5OTkzYzY0ZDMxZCJdfQ==",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 20:35:24 +00:00",
+                  "competition": 0.49,
+                  "competition_level": "MEDIUM",
+                  "cpc": 9.31,
+                  "search_volume": 590,
+                  "low_top_of_page_bid": 2.48,
+                  "high_top_of_page_bid": 9.96,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 590
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 720
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 720
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 1000
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -64,
+                    "quarterly": -33,
+                    "yearly": -84
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 6,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 160.9,
+                  "dofollow": 87.0,
+                  "referring_pages": 141.1,
+                  "referring_domains": 55.1,
+                  "referring_main_domains": 54.1,
+                  "rank": 76.4,
+                  "main_domain_rank": 561.1,
+                  "last_updated_time": "2026-01-22 17:30:46 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2023-03-04 12:42:43 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "free ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 00:11:06 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 7.44,
+                  "search_volume": 110,
+                  "low_top_of_page_bid": 1.9,
+                  "high_top_of_page_bid": 9.28,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 210
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -22,
+                    "yearly": -67
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 177.0,
+                  "dofollow": 89.3,
+                  "referring_pages": 154.5,
+                  "referring_domains": 66.6,
+                  "referring_main_domains": 65.4,
+                  "rank": 106.4,
+                  "main_domain_rank": 420.7,
+                  "last_updated_time": "2026-01-01 08:33:01 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2023-03-03 12:58:49 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "copy ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 04:27:02 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -93,
+                    "quarterly": -67,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 22,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 299.3,
+                  "dofollow": 166.3,
+                  "referring_pages": 265.7,
+                  "referring_domains": 102.3,
+                  "referring_main_domains": 99.8,
+                  "rank": 136.1,
+                  "main_domain_rank": 418.6,
+                  "last_updated_time": "2026-02-04 23:01:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2024-11-15 07:32:49 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai product description generator free",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 03:33:48 +00:00",
+                  "competition": 0.71,
+                  "competition_level": "HIGH",
+                  "cpc": 6.27,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 1.98,
+                  "high_top_of_page_bid": 7.21,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 100,
+                    "quarterly": 0,
+                    "yearly": -60
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "free ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 17,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 124.7,
+                  "dofollow": 84.5,
+                  "referring_pages": 106.9,
+                  "referring_domains": 26.6,
+                  "referring_main_domains": 25.3,
+                  "rank": 122.4,
+                  "main_domain_rank": 442.8,
+                  "last_updated_time": "2025-11-27 02:14:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2023-03-04 12:42:43 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "best ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 03:52:50 +00:00",
+                  "competition": 0.96,
+                  "competition_level": "HIGH",
+                  "cpc": 9.29,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 6.44,
+                  "high_top_of_page_bid": 15.08,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2023-09-03 21:17:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "product description ai generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 00:22:44 +00:00",
+                  "competition": 0.75,
+                  "competition_level": "HIGH",
+                  "cpc": null,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 5.84,
+                  "high_top_of_page_bid": 17.14,
+                  "categories": [
+                    10004,
+                    10009,
+                    10295,
+                    11263
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -50,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 11,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 179.6,
+                  "dofollow": 92.1,
+                  "referring_pages": 158.2,
+                  "referring_domains": 67.7,
+                  "referring_main_domains": 66.5,
+                  "rank": 110.2,
+                  "main_domain_rank": 487.9,
+                  "last_updated_time": "2026-01-11 04:13:28 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional",
+                    "informational"
+                  ],
+                  "last_updated_time": "2023-09-04 07:02:59 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai product description generator from image",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 11:28:12 +00:00",
+                  "competition": 1.0,
+                  "competition_level": "HIGH",
+                  "cpc": 4.03,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 1.48,
+                  "high_top_of_page_bid": 8.39,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2024-05-21 03:09:02 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai product description generator shopify",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 18:55:37 +00:00",
+                  "competition": 0.62,
+                  "competition_level": "MEDIUM",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10019,
+                    10168,
+                    10276,
+                    10885,
+                    11221,
+                    12209,
+                    13854
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-09-05 05:41:42 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "pagefly ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 22:46:44 +00:00",
+                  "competition": 1.0,
+                  "competition_level": "HIGH",
+                  "cpc": 38.63,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": 4.03,
+                  "high_top_of_page_bid": 15.59,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2025-12-22 21:01:52 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "product description generator copy ai",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 19:11:57 +00:00",
+                  "competition": 0.37,
+                  "competition_level": "MEDIUM",
+                  "cpc": 9.2,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": 4.4,
+                  "high_top_of_page_bid": 6.36,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "copy ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 22,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2023-09-04 10:40:01 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "best free ai product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 19:30:36 +00:00",
+                  "competition": 0.93,
+                  "competition_level": "HIGH",
+                  "cpc": 5.26,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": null,
+                    "quarterly": null,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2024-05-20 16:55:49 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai seo product description generator",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 11:14:26 +00:00",
+                  "competition": 0.95,
+                  "competition_level": "HIGH",
+                  "cpc": 29.77,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": 7.14,
+                  "high_top_of_page_bid": 23.1,
+                  "categories": [
+                    10007,
+                    10009,
+                    13418
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2025-10-31 10:56:02 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "free ai product description generator from image",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 15:50:22 +00:00",
+                  "competition": 0.31,
+                  "competition_level": "LOW",
+                  "cpc": 5.05,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": 1.24,
+                  "high_top_of_page_bid": 3.88,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": null,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2025-12-17 18:15:02 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "product description ai generator free",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 21:25:35 +00:00",
+                  "competition": 1.0,
+                  "competition_level": "HIGH",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10295,
+                    11263
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "free ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2024-06-21 09:00:08 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "product description generator ai",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 09:05:36 +00:00",
+                  "competition": 0.64,
+                  "competition_level": "MEDIUM",
+                  "cpc": 9.84,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": 2.11,
+                  "high_top_of_page_bid": 7.8,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 6,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 112.7,
+                  "dofollow": 58.0,
+                  "referring_pages": 73.2,
+                  "referring_domains": 34.5,
+                  "referring_main_domains": 32.8,
+                  "rank": 150.2,
+                  "main_domain_rank": 459.1,
+                  "last_updated_time": "2024-08-25 06:02:32 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2023-03-03 10:00:40 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "ai generator for product description",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 06:24:20 +00:00",
+                  "competition": 0.5,
+                  "competition_level": "MEDIUM",
+                  "cpc": 10.4,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10295,
+                    11263
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 6,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2024-06-06 21:18:13 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "product description generator ai free",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 16:34:51 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -100,
+                    "quarterly": 0,
+                    "yearly": -100
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "free ai product description generator",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2024-04-14 23:59:24 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

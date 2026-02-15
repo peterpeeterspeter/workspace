@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-14T21:16:59.509621",
+    "category": "labs",
+    "operation": "related_keywords",
+    "keyword": "product attribute extraction",
+    "extra_info": "depth_2"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0360 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02142316-8420-0387-0000-44abf8c2d813",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0248 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "related_keywords",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "related_keywords",
+          "se_type": "google",
+          "keyword": "product attribute extraction",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "depth": 2,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "replace_with_core_keyword": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "product attribute extraction",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "product attribute extraction",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-02-01 00:55:05 +00:00",
+                "competition": null,
+                "competition_level": null,
+                "cpc": null,
+                "search_volume": 10,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10005,
+                  10049,
+                  10316
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 10
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -100,
+                  "quarterly": -100,
+                  "yearly": -100
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": null
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": [
+                  "informational",
+                  "transactional"
+                ],
+                "last_updated_time": "2023-03-03 10:00:32 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword_data": {
+                  "se_type": "google",
+                  "keyword": "product attribute extraction",
+                  "location_code": 2840,
+                  "language_code": "en",
+                  "keyword_info": {
+                    "se_type": "google",
+                    "last_updated_time": "2026-02-01 00:55:05 +00:00",
+                    "competition": null,
+                    "competition_level": null,
+                    "cpc": null,
+                    "search_volume": 10,
+                    "low_top_of_page_bid": null,
+                    "high_top_of_page_bid": null,
+                    "categories": [
+                      10005,
+                      10049,
+                      10316
+                    ],
+                    "monthly_searches": [
+                      {
+                        "year": 2025,
+                        "month": 12,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 11,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 10,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 9,
+                        "search_volume": 0
+                      },
+                      {
+                        "year": 2025,
+                        "month": 8,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 7,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 6,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 5,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 4,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 3,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 2,
+                        "search_volume": 10
+                      },
+                      {
+                        "year": 2025,
+                        "month": 1,
+                        "search_volume": 10
+                      }
+                    ],
+                    "search_volume_trend": {
+                      "monthly": -100,
+                      "quarterly": -100,
+                      "yearly": -100
+                    }
+                  },
+                  "keyword_info_normalized_with_bing": null,
+                  "keyword_info_normalized_with_clickstream": null,
+                  "clickstream_keyword_info": null,
+                  "keyword_properties": {
+                    "se_type": "google",
+                    "core_keyword": null,
+                    "synonym_clustering_algorithm": null,
+                    "keyword_difficulty": null,
+                    "detected_language": "en",
+                    "is_another_language": false,
+                    "words_count": null
+                  },
+                  "serp_info": null,
+                  "avg_backlinks_info": null,
+                  "search_intent_info": {
+                    "se_type": "google",
+                    "main_intent": "commercial",
+                    "foreign_intent": [
+                      "informational",
+                      "transactional"
+                    ],
+                    "last_updated_time": "2023-03-03 10:00:32 +00:00"
+                  }
+                },
+                "depth": 0,
+                "related_keywords": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

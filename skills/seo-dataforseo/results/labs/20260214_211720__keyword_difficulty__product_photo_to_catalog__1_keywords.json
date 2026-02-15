@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-14T21:17:20.498054",
+    "category": "labs",
+    "operation": "keyword_difficulty",
+    "keyword": "product photo to catalog",
+    "extra_info": "1_keywords"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0376 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02142317-8420-0392-0000-f88bef4a903d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0267 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "bulk_keyword_difficulty",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "bulk_keyword_difficulty",
+          "se_type": "google",
+          "keywords": [
+            "product photo to catalog"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "product photo to catalog",
+                "keyword_difficulty": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

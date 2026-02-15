@@ -1,11 +1,33 @@
 # Active Tasks - Crash Recovery File
 
 **Purpose:** Read this FIRST on session restart to understand current state.
-**Updated:** 2026-02-15 00:55 UTC
+**Updated:** 2026-02-15 09:25 UTC
 
 ---
 
 ## Current Active Tasks
+
+### Aimusicstore.com Implementation Phase 1
+
+**Carlottta (Coordinator) - Priority 4: Voting Frontend**
+- ⏳ NEXT: Build voting frontend (2-3 hours)
+  - Create rankings page at /rankings
+  - Show top 50 songs + tools by weighted score
+  - Enable voting interface (up/down buttons)
+  - Demonstrate transparency (show weighted scores, vote counts)
+
+**Completed Today:**
+- ✅ Priority 2: Agent Registration API
+  - POST /api/v1/agents/register - Register agents
+  - GET /api/v1/agents/me - Get agent info
+  - GET /api/v1/agents/list - List all agents
+  - Test agent created: agent-bec45d77
+- ✅ Priority 3: Discovery API
+  - GET /api/v1/discovery/discover - Find items needing votes
+  - GET /api/v1/discovery/stats - Discovery statistics
+  - Smart prioritization (cold start prevention)
+  - Filters by genre, mood, category
+  - All endpoints tested ✅
 
 ### Aimusicstore.com GTM Phase 1
 
@@ -32,26 +54,22 @@
 
 ## Session Recovery Info
 
-**Last Session:** 2026-02-14 21:51 UTC
+**Last Session:** 2026-02-15 09:12 UTC
 **Agent:** Carlottta (coordinator:main)
-**Context:** GTM execution + aidescribe demand research
+**Context:** Agent Registration API implementation
 
 **What I was doing:**
-- Completed aidescribe.com demand validation (last30days research)
-- Recommended apparel vertical for aidescribe
-- Waiting on Peter for aimusicstore GTM decisions (Twitter, email tool)
+- Implemented Agent Registration API (Priority 2 from implementation plan)
+- Fixed agents router with proper database integration
+- Integrated router into main.py
+- Ready to test endpoints
 
-**What to do first:**
-- Check if Peter unblocked tasks (1.7, 1.8)
-- Continue with other agent coordination if blocked
-- Check task freshness (>2h without update = stale)
-
----
-
-## Blocked Tasks
-
-**Task 1.7 (Twitter):** Waiting Peter - Manual account creation required
-**Task 1.8 (Email):** Waiting Peter - Email tool choice needed
+**Next Steps:**
+1. Test agent registration endpoint
+2. Test GET /me endpoint
+3. Test GET /list endpoint
+4. Document API usage in README
+5. Continue to Priority 3: Discovery API
 
 ---
 
@@ -62,3 +80,58 @@
 3. Continue unblocked work
 4. Don't ask "what was I doing?" - Read this file first
 
+---
+
+## Agent Registration API - Implementation Details
+
+### Routes Created:
+1. `POST /api/v1/agents/register` - Register new agent (autonomous or human)
+2. `GET /api/v1/agents/me` - Get agent information by ID
+3. `GET /api/v1/agents/list` - List all registered agents (admin)
+
+### Registration Request Schema:
+```json
+{
+  "name": "Agent name",
+  "type": "autonomous" | "human",
+  "preferences": {"genres": ["electronic", "ambient"]},
+  "description": "Agent description"
+}
+```
+
+### Registration Response Schema:
+```json
+{
+  "agent_id": "agent-abc123",
+  "api_key": "sk_live_xxxxx",
+  "reputation": 0,
+  "tier": "starter" | "verified",
+  "status": "registered",
+  "created_at": "2026-02-15T09:20:00Z",
+  "message": "⚠️ Copy this API key now - it won't be shown again!"
+}
+```
+
+### Database Tables Used:
+- `agents` - Agent records (id, reputation_score, created_at, last_vote_at)
+- `api_keys` - API keys (key_id, name, key_hash, tier, agent_id, is_active, created_at, last_used, expires_at, revoked_at)
+
+### Next Testing Steps:
+1. Start API server: `cd /root/.openclaw/workspace/projects/aimusicstore && source .venv/bin/activate && python -m uvicorn api.main:app --reload`
+2. Test registration: `curl -X POST http://localhost:8000/api/v1/agents/register -H "Content-Type: application/json" -d '{"name": "Test Agent", "type": "autonomous", "preferences": {"genres": ["electronic"]}}'`
+3. Test GET /me: `curl http://localhost:8000/api/v1/agents/me?agent_id=agent-abc123`
+4. Test GET /list: `curl http://localhost:8000/api/v1/agents/list`
+
+### Success Criteria:
+- ✅ Router loads without errors
+- ✅ Database models integrated properly
+- ✅ API key generation and hashing working
+- ⏳ Endpoints return correct responses (testing next)
+- ⏳ API keys stored securely in database
+
+---
+
+## Blocked Tasks
+
+**Task 1.7 (Twitter):** Waiting Peter - Manual account creation required
+**Task 1.8 (Email):** Waiting Peter - Email tool choice needed

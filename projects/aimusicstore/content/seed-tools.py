@@ -6,6 +6,7 @@ Addresses cold start problem by adding 10+ popular tools
 
 import psycopg2
 import os
+from datetime import datetime
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -20,67 +21,78 @@ TOOLS_TO_SEED = [
         "name": "Suno AI",
         "website": "https://suno.ai",
         "category": "text-to-music",
-        "description": "Create music with simple text prompts"
+        "features": '{"free_tier": true, "commercial": true, "vocal_generation": true}',
+        "pricing": '{"free": "50 songs/day", "pro": "$10/month", "premium": "$30/month"}'
     },
     {
         "name": "Udio",
         "website": "https://www.udio.com",
         "category": "text-to-music",
-        "description": "Professional AI music generation with vocal control"
+        "features": '{"vocal_control": true, "commercial": true, "high_quality": true}',
+        "pricing": '{"free": "10 tracks/month", "premium": "$12/month"}'
     },
     {
         "name": "Mubert",
         "website": "https://www.mubert.com",
         "category": "text-to-music",
-        "description": "AI-powered copyright-free music for content creators"
+        "features": '{"copyright_free": true, "api_access": true, "real_time": true}',
+        "pricing": '{"free": "personal use", "creator": "$14/month", "business": "$39/month"}'
     },
     {
         "name": "Soundraw",
         "website": "https://soundraw.com",
         "category": "text-to-music",
-        "description": "AI music composition with customization"
+        "features": '{"customization": true, "video_sync": true, "unlimited_licenses": true}',
+        "pricing": '{"free": "limited", "personal": "$16.99/month", "commercial": "$29.99/month"}'
     },
     {
         "name": "Boomy",
         "website": "https://boomy.com",
         "category": "text-to-music",
-        "description": "Free AI music generator with social sharing"
+        "features": '{"free_tier": true, "social_sharing": true, "easy_to_use": true}',
+        "pricing": '{"free": "25 songs/month", "pro": "$9.99/month"}'
     },
     {
         "name": "Amper Music",
         "website": "https://www.ampermusic.com",
         "category": "music-generation",
-        "description": "AI music for video, podcast, and games"
+        "features": '{"video_audio_sync": true, "api_access": true, "commercial_license": true}',
+        "pricing": '{"custom": "contact sales", "enterprise": "contact sales"}'
     },
     {
         "name": "AIVA",
         "website": "https://www.aiva.ai",
         "category": "music-generation",
-        "description": "Artificial Intelligence Virtual Artist"
+        "features": '{"classical_focus": true, "midi_export": true, "commercial_license": true}',
+        "pricing": '{"free": "personal use", "standard": "\u20ac11/month", "pro": "\u20ac33/month"}'
     },
     {
         "name": "Ecrett Music",
         "website": "https://ecrettmusic.com",
         "category": "music-generation",
-        "description": "AI soundtrack and music composition"
+        "features": '{"soundtrack_creation": true, "mood_selection": true, "unlimited_downloads": true}',
+        "pricing": '{"free": "trial", "individual": "$8/month", "business": "$25/month"}'
     },
     {
         "name": "Soundful",
         "website": "https://soundful.io",
         "category": "music-library",
-        "description": "Royalty-free AI music library"
+        "features": '{"royalty_free": true, "ai_generated": true, "high_quality": true}',
+        "pricing": '{"starter": "$9.99/month", "creator": "$19.99/month"}'
     },
     {
         "name": "Beatoven",
         "website": "https://beatoven.ai",
         "category": "music-generation",
-        "description": "AI-powered beat creation and music production"
+        "features": '{"beat_creation": true, "mood_based": true, "video_soundtrack": true}',
+        "pricing": '{"free": "limited", "monthly": "$10/month", "yearly": "$96/year"}'
     },
     {
-        "name": "Soundful.io",
-        "website": "https://soundful.io",
+        "name": "BandLab SongStarter",
+        "website": "https://www.bandlab.com",
         "category": "text-to-music",
-        "description": "AI music with extensive sound library"
+        "features": '{"free_tier": true, "social_features": true, "collaboration": true}',
+        "pricing": '{"free": "forever"}'
     }
 ]
 
@@ -92,17 +104,18 @@ def seed_tools():
     print(f"[{datetime.utcnow()}] Seeding {len(TOOLS_TO_SEED)} tools...")
 
     inserted = 0
-    for tool in TOOLS_TO_SEED:
+    for idx, tool in enumerate(TOOLS_TO_SEED, 1):
+        tool_id = f"tool-{idx:02d}"
         try:
             cursor.execute(
                 """
-                INSERT INTO tools (name, website, category, description)
-                VALUES (%s, %s, %s, %s)
+                INSERT INTO tools (id, name, website, category, features, pricing, created_at, up_votes, down_votes, score, weighted_score)
+                VALUES (%s, %s, %s, %s, %s, %s, NOW(), 0, 0, 0, 0)
                 """,
-                (tool['name'], tool['website'], tool['category'], tool['description'])
+                (tool_id, tool['name'], tool['website'], tool['category'], tool['features'], tool['pricing'])
             )
             inserted += 1
-            print(f"✅ Inserted: {tool['name']} ({tool['category']})")
+            print(f"✅ Inserted: {tool['name']} ({tool['category']}) - ID: {tool_id}")
         except Exception as e:
             print(f"❌ Error inserting {tool['name']}: {e}")
 

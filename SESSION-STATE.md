@@ -1,6 +1,6 @@
 # SESSION-STATE.md - Current Session
 
-**Last Updated:** 2026-02-14 16:10 UTC
+**Last Updated:** 2026-02-15 09:25 UTC
 
 ---
 
@@ -14,6 +14,21 @@
 - Waitlist backend endpoints (POST /api/v1/waitlist, GET /api/v1/waitlist/count)
 - Database waitlist table created
 - Email capture working (2 test signups)
+- Agent Registration API (Priority 2) - COMPLETE ✅
+  - POST /api/v1/agents/register - Register autonomous/human agents
+  - GET /api/v1/agents/me - Get agent info by ID
+  - GET /api/v1/agents/list - List all agents (admin)
+  - All endpoints tested and working ✅
+  - API keys generated, hashed, and stored securely
+  - Test agent created: agent-bec45d77
+- Discovery API (Priority 3) - COMPLETE ✅
+  - GET /api/v1/discovery/discover - Discover items needing votes
+  - GET /api/v1/discovery/stats - Get discovery statistics
+  - Smart prioritization (cold start prevention)
+  - Filters by genre, mood, category, item_type
+  - Excludes already-voted items
+  - All endpoints tested and working ✅
+  - Database: 10 songs, 1 tool, 11 total items
 
 **🔄 In Progress:**
 - Carlottta: Twitter Account Creation (Task 1.7) - 30% complete
@@ -44,8 +59,14 @@
 - Waitlist backend functional (2 test signups)
 
 **⚠️ Current Issues:**
-- aimusicstore.com domain: 403 Forbidden (Caddy/Cloudflare SSL configuration)
-- HTTPS: SSL/TLS error
+- aimusicstore.com domain: HTTP 403 Forbidden from Cloudflare (security setting)
+- Caddy HTTPS is working correctly with Let's Encrypt
+- Origin server is accessible via direct IP
+
+**FIXED (2026-02-14 18:30 UTC):**
+- ✅ Error 521 resolved - Changed Caddyfile from HTTP-only to HTTPS
+- ✅ Caddy now serves aimusicstore.com and www.aimusicstore.com with valid TLS
+- ✅ Let's Encrypt certificates auto-configured and renewing
 
 **Workaround:**
 - Using IP-based URLs: http://23.95.148.204:3001/waitlist
@@ -53,9 +74,10 @@
 - Can start marketing without domain being fully accessible
 
 **Next Steps for Domain:**
-1. Check Cloudflare SSL/TLS setting (should be "Full", not "Flexible")
-2. Verify Caddy configuration for Cloudflare traffic
-3. Test aimusicstore.com accessibility once SSL fixed
+1. Check Cloudflare Security settings (Security Level, Bot Fight Mode, WAF rules)
+2. Quick test: Grey-cloud DNS-only mode to bypass Cloudflare security
+3. Whitelist legitimate traffic once blocking rule identified
+4. Test aimusicstore.com accessibility once security fix applied
 
 ---
 

@@ -27,6 +27,7 @@ try:
     from api.anti_gaming import AntiGamingDetector, update_agent_reputation
     from api.rate_limiter import rate_limiter
     from api.reputation import update_item_weighted_score
+    from backend.routers import agents, discovery
 except ImportError:
     # Fallback for when api package isn't set up
     from database import get_db
@@ -34,6 +35,7 @@ except ImportError:
     from redis_client import invalidate_cache
     from anti_gaming import AntiGamingDetector, update_agent_reputation
     from rate_limiter import rate_limiter
+    from backend.routers import agents, discovery
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -50,6 +52,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include routers
+app.include_router(agents.router, tags=["agents"])
+app.include_router(discovery.router, tags=["discovery"])
 
 
 # Pydantic schemas
