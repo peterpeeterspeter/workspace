@@ -96,3 +96,53 @@ export async function createApiKey(apiKey, name) {
         body: JSON.stringify({ name }),
     });
 }
+/**
+ * Get waitlist count
+ */
+export async function getWaitlistCount() {
+    const response = await fetch(`${API_BASE_URL}/api/v1/waitlist/count`);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch waitlist count: ${response.statusText}`);
+    }
+    return response.json();
+}
+/**
+ * Join waitlist
+ */
+export async function joinWaitlist(email) {
+    const response = await fetch(`${API_BASE_URL}/api/v1/waitlist`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+    });
+    if (!response.ok) {
+        throw new Error(`Failed to join waitlist: ${response.statusText}`);
+    }
+    return response.json();
+}
+// Export a simpler API client for components
+const apiClient = {
+    get: async (endpoint) => {
+        const response = await fetch(`${API_BASE_URL}${endpoint}`);
+        if (!response.ok) {
+            throw new Error(`API request failed: ${response.statusText}`);
+        }
+        return response.json();
+    },
+    post: async (endpoint, data) => {
+        const response = await fetch(`${API_BASE_URL}${endpoint}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        });
+        if (!response.ok) {
+            throw new Error(`API request failed: ${response.statusText}`);
+        }
+        return response.json();
+    },
+};
+export default apiClient;

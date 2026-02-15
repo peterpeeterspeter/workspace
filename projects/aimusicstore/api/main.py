@@ -27,7 +27,7 @@ try:
     from api.anti_gaming import AntiGamingDetector, update_agent_reputation
     from api.rate_limiter import rate_limiter
     from api.reputation import update_item_weighted_score
-    from backend.routers import agents, discovery
+    from backend.routers import agents, discovery, votes
 except ImportError:
     # Fallback for when api package isn't set up
     from database import get_db
@@ -35,7 +35,16 @@ except ImportError:
     from redis_client import invalidate_cache
     from anti_gaming import AntiGamingDetector, update_agent_reputation
     from rate_limiter import rate_limiter
-    from backend.routers import agents, discovery
+    from reputation import update_item_weighted_score
+    from backend.routers import agents, discovery, votes, votes, votes
+except ImportError:
+    # Fallback for when api package isn't set up
+    from database import get_db
+    from models import Vote, Song, Tool, Agent
+    from redis_client import invalidate_cache
+    from anti_gaming import AntiGamingDetector, update_agent_reputation
+    from rate_limiter import rate_limiter
+    from backend.routers import agents, discovery, votes
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -56,6 +65,7 @@ app.add_middleware(
 # Include routers
 app.include_router(agents.router, tags=["agents"])
 app.include_router(discovery.router, tags=["discovery"])
+app.include_router(votes.router, tags=["votes"])
 
 
 # Pydantic schemas
@@ -109,222 +119,224 @@ async def startup_event():
 
 
 # Endpoints
-@app.post("/api/v1/vote")
-async def create_vote(request: VoteRequest, http_request: Request):
-    """
-    Submit a vote for a song or tool.
-
-    Enhanced with US-006: Anti-Gaming System
-    - Rate limiting (per agent, per IP)
-    - Pattern detection (burst, unidirectional, coordinated attacks)
-    - Reputation scoring
-    - Automatic flagging and blocking
-    """
-    try:
+# OLD ENDPOINT (TEMPORARILY DISABLED FOR TESTING NEW VOTES ROUTER)
+# @app.post("/api/v1/vote")
+# async def create_vote(...):
+#     ... (old implementation)
+#     """
+#     Submit a vote for a song or tool.
+# 
+#     Enhanced with US-006: Anti-Gaming System
+#     - Rate limiting (per agent, per IP)
+#     - Pattern detection (burst, unidirectional, coordinated attacks)
+#     - Reputation scoring
+#     - Automatic flagging and blocking
+#     """
+#     try:
         # Import database context manager
-        try:
-            from api.database import get_db
-        except ImportError:
-            from database import get_db
-
+#         try:
+#             from api.database import get_db
+#         except ImportError:
+#             from database import get_db
+# 
         # Extract IP address for rate limiting
-        ip_address = None
-        forwarded = http_request.headers.get("X-Forwarded-For")
-        if forwarded:
-            ip_address = forwarded.split(",")[0].strip()
-        else:
-            ip_address = http_request.client.host if http_request.client else None
-
+#         ip_address = None
+#         forwarded = http_request.headers.get("X-Forwarded-For")
+#         if forwarded:
+#             ip_address = forwarded.split(",")[0].strip()
+#         else:
+#             ip_address = http_request.client.host if http_request.client else None
+# 
         # === ANTI-GAMING CHECKS ===
-
+# 
         # 1. Check if agent is blocked
-        if rate_limiter.is_agent_blocked(request.agent_id):
-            raise HTTPException(
-                status_code=403,
-                detail="Agent is blocked due to suspicious activity"
-            )
-
+#         if rate_limiter.is_agent_blocked(request.agent_id):
+#             raise HTTPException(
+#                 status_code=403,
+#                 detail="Agent is blocked due to suspicious activity"
+#             )
+# 
         # 2. Check rate limits
-        allowed, error_msg = rate_limiter.check_vote_limit(request.agent_id, ip_address)
-        if not allowed:
-            raise HTTPException(
-                status_code=429,
-                detail=error_msg
-            )
-
+#         allowed, error_msg = rate_limiter.check_vote_limit(request.agent_id, ip_address)
+#         if not allowed:
+#             raise HTTPException(
+#                 status_code=429,
+#                 detail=error_msg
+#             )
+# 
         # Use context manager for database session
-        with get_db() as db:
+#         with get_db() as db:
             # Validate vote type
-            if request.vote not in ['up', 'down']:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Invalid vote type. Must be 'up' or 'down'"
-                )
-
+#             if request.vote not in ['up', 'down']:
+#                 raise HTTPException(
+#                     status_code=400,
+#                     detail="Invalid vote type. Must be 'up' or 'down'"
+#                 )
+# 
             # Validate item type
-            if request.item_type not in ['song', 'tool']:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Invalid item type. Must be 'song' or 'tool'"
-                )
-
+#             if request.item_type not in ['song', 'tool']:
+#                 raise HTTPException(
+#                     status_code=400,
+#                     detail="Invalid item type. Must be 'song' or 'tool'"
+#                 )
+# 
             # Check for duplicate vote
-            existing_vote = db.query(Vote).filter(
-                Vote.agent_id == request.agent_id,
-                Vote.item_id == request.item_id
-            ).first()
-
-            if existing_vote:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Already voted: Agent has already voted for this item"
-                )
-
+#             existing_vote = db.query(Vote).filter(
+#                 Vote.agent_id == request.agent_id,
+#                 Vote.item_id == request.item_id
+#             ).first()
+# 
+#             if existing_vote:
+#                 raise HTTPException(
+#                     status_code=400,
+#                     detail="Already voted: Agent has already voted for this item"
+#                 )
+# 
             # Determine target table and fetch item
-            if request.item_type == 'song':
-                item = db.query(Song).filter(Song.id == request.item_id).first()
-                if not item:
-                    raise HTTPException(
-                        status_code=404,
-                        detail=f"Song not found: {request.item_id}"
-                    )
-            elif request.item_type == 'tool':
-                item = db.query(Tool).filter(Tool.id == request.item_id).first()
-                if not item:
-                    raise HTTPException(
-                        status_code=404,
-                        detail=f"Tool not found: {request.item_id}"
-                    )
-            else:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Invalid item_type"
-                )
-
+#             if request.item_type == 'song':
+#                 item = db.query(Song).filter(Song.id == request.item_id).first()
+#                 if not item:
+#                     raise HTTPException(
+#                         status_code=404,
+#                         detail=f"Song not found: {request.item_id}"
+#                     )
+#             elif request.item_type == 'tool':
+#                 item = db.query(Tool).filter(Tool.id == request.item_id).first()
+#                 if not item:
+#                     raise HTTPException(
+#                         status_code=404,
+#                         detail=f"Tool not found: {request.item_id}"
+#                     )
+#             else:
+#                 raise HTTPException(
+#                     status_code=400,
+#                     detail="Invalid item_type"
+#                 )
+# 
             # 3. Run anti-gaming detection
-            detector = AntiGamingDetector(db)
-            is_suspicious, suspicious_reasons = detector.detect_suspicious_activity(
-                request.agent_id,
-                request.item_id,
-                request.vote
-            )
-
+#             detector = AntiGamingDetector(db)
+#             is_suspicious, suspicious_reasons = detector.detect_suspicious_activity(
+#                 request.agent_id,
+#                 request.item_id,
+#                 request.vote
+#             )
+# 
             # Handle suspicious activity
-            if is_suspicious:
+#             if is_suspicious:
                 # Check if this is a repeat offense
-                is_flagged = rate_limiter.is_agent_flagged(request.agent_id)
-
-                if is_flagged:
+#                 is_flagged = rate_limiter.is_agent_flagged(request.agent_id)
+# 
+#                 if is_flagged:
                     # Second offense - block the agent
-                    rate_limiter.block_agent(
-                        request.agent_id,
-                        reason=f"Repeat offense: {', '.join(suspicious_reasons)}",
-                        duration_hours=24
-                    )
-
-                    raise HTTPException(
-                        status_code=403,
-                        detail={
-                            "error": "Agent blocked due to suspicious activity",
-                            "reasons": suspicious_reasons,
-                            "duration": "24 hours"
-                        }
-                    )
-                else:
+#                     rate_limiter.block_agent(
+#                         request.agent_id,
+#                         reason=f"Repeat offense: {', '.join(suspicious_reasons)}",
+#                         duration_hours=24
+#                     )
+# 
+#                     raise HTTPException(
+#                         status_code=403,
+#                         detail={
+#                             "error": "Agent blocked due to suspicious activity",
+#                             "reasons": suspicious_reasons,
+#                             "duration": "24 hours"
+#                         }
+#                     )
+#                 else:
                     # First offense - flag the agent with a warning
-                    rate_limiter.flag_agent(
-                        request.agent_id,
-                        reason=f"Suspicious activity detected: {', '.join(suspicious_reasons)}",
-                        warning_count=1
-                    )
-
+#                     rate_limiter.flag_agent(
+#                         request.agent_id,
+#                         reason=f"Suspicious activity detected: {', '.join(suspicious_reasons)}",
+#                         warning_count=1
+#                     )
+# 
                     # Log but allow the vote with a warning response
-                    logger_msg = f"⚠️ Agent {request.agent_id} flagged: {suspicious_reasons}"
-                    print(logger_msg)
-
+#                     logger_msg = f"⚠️ Agent {request.agent_id} flagged: {suspicious_reasons}"
+#                     print(logger_msg)
+# 
             # Create new vote
-            new_vote = Vote(
-                agent_id=request.agent_id,
-                item_type=request.item_type,
-                item_id=request.item_id,
-                vote=request.vote,
-                comment=request.comment
-            )
-            db.add(new_vote)
-
+#             new_vote = Vote(
+#                 agent_id=request.agent_id,
+#                 item_type=request.item_type,
+#                 item_id=request.item_id,
+#                 vote=request.vote,
+#                 comment=request.comment
+#             )
+#             db.add(new_vote)
+# 
             # Update item vote counts
-            if request.vote == 'up':
-                item.up_votes += 1
-            else:
-                item.down_votes += 1
-
+#             if request.vote == 'up':
+#                 item.up_votes += 1
+#             else:
+#                 item.down_votes += 1
+# 
             # Recalculate score
-            item.score = item.up_votes - item.down_votes
-
+#             item.score = item.up_votes - item.down_votes
+# 
             # Update agent reputation (using new algorithm)
-            agent = db.query(Agent).filter(Agent.id == request.agent_id).first()
-            if agent:
-                agent.last_vote_at = datetime.utcnow()
+#             agent = db.query(Agent).filter(Agent.id == request.agent_id).first()
+#             if agent:
+#                 agent.last_vote_at = datetime.utcnow()
                 # Recalculate reputation using new algorithm
-                new_reputation = update_agent_reputation(db, request.agent_id)
-            else:
+#                 new_reputation = update_agent_reputation(db, request.agent_id)
+#             else:
                 # Create agent if doesn't exist
-                agent = Agent(
-                    id=request.agent_id,
-                    reputation_score=50,  # Start with neutral score
-                    created_at=datetime.utcnow(),
-                    last_vote_at=datetime.utcnow()
-                )
-                db.add(agent)
-                db.flush()  # Get agent.id
-                new_reputation = 50
-
+#                 agent = Agent(
+#                     id=request.agent_id,
+#                     reputation_score=50,  # Start with neutral score
+#                     created_at=datetime.utcnow(),
+#                     last_vote_at=datetime.utcnow()
+#                 )
+#                 db.add(agent)
+#                 db.flush()  # Get agent.id
+#                 new_reputation = 50
+# 
             # Update weighted score (US-007)
-            update_item_weighted_score(db, request.item_type, request.item_id)
-
+#             update_item_weighted_score(db, request.item_type, request.item_id)
+# 
             # 4. Record vote in rate limiter
-            rate_limiter.record_vote(request.agent_id, ip_address)
-
+#             rate_limiter.record_vote(request.agent_id, ip_address)
+# 
             # Invalidate cache for this item
-            try:
-                invalidate_cache(request.item_id)
-            except Exception as e:
-                print(f"Failed to invalidate cache: {e}")
-
+#             try:
+#                 invalidate_cache(request.item_id)
+#             except Exception as e:
+#                 print(f"Failed to invalidate cache: {e}")
+# 
             # Return success response
-            response_data = {
-                "status": "success",
-                "message": "Vote recorded successfully",
-                "data": {
-                    "agent_id": request.agent_id,
-                    "item_type": request.item_type,
-                    "item_id": request.item_id,
-                    "vote": request.vote,
-                    "new_score": item.score,
-                    "timestamp": datetime.utcnow().isoformat()
-                }
-            }
-
+#             response_data = {
+#                 "status": "success",
+#                 "message": "Vote recorded successfully",
+#                 "data": {
+#                     "agent_id": request.agent_id,
+#                     "item_type": request.item_type,
+#                     "item_id": request.item_id,
+#                     "vote": request.vote,
+#                     "new_score": item.score,
+#                     "timestamp": datetime.utcnow().isoformat()
+#                 }
+#             }
+# 
             # Add warning if flagged
-            if is_suspicious and not rate_limiter.is_agent_blocked(request.agent_id):
-                response_data["warning"] = {
-                    "message": "Your voting pattern has been flagged as suspicious",
-                    "reasons": suspicious_reasons,
-                    "note": "Further suspicious activity may result in temporary blocking"
-                }
-
-            return response_data
-
-    except HTTPException:
-        raise
-    except Exception as e:
-        print(f"Unexpected error in create_vote: {e}")
-        raise HTTPException(
-            status_code=500,
-            detail=f"Internal server error: {str(e)}"
-        )
-
-
+#             if is_suspicious and not rate_limiter.is_agent_blocked(request.agent_id):
+#                 response_data["warning"] = {
+#                     "message": "Your voting pattern has been flagged as suspicious",
+#                     "reasons": suspicious_reasons,
+#                     "note": "Further suspicious activity may result in temporary blocking"
+#                 }
+# 
+#             return response_data
+# 
+#     except HTTPException:
+#         raise
+#     except Exception as e:
+#         print(f"Unexpected error in create_vote: {e}")
+#         raise HTTPException(
+#             status_code=500,
+#             detail=f"Internal server error: {str(e)}"
+#         )
+# 
+# 
 @app.get("/health")
 async def health_check():
     """Health check endpoint."""

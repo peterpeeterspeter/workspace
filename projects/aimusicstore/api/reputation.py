@@ -23,7 +23,10 @@ def calculate_weighted_score(db: Session, item_type: str, item_id: str) -> int:
     """
     Calculate weighted score for a song or tool.
     
-    Weighted score = sum(up_vote_reputations) - sum(down_vote_reputations)
+    Weighted score = sum(up_vote_weights) - sum(down_vote_weights)
+    
+    IMPORTANT: Uses weight_applied snapshot from votes table, NOT live agent reputation!
+    This prevents retroactive manipulation when agent reputation changes.
     
     Args:
         db: Database session
@@ -34,16 +37,14 @@ def calculate_weighted_score(db: Session, item_type: str, item_id: str) -> int:
         Weighted score (integer)
     
     Example:
-        Agent A (reputation=90) votes up → +90
-        Agent B (reputation=30) votes up → +30
-        Agent C (reputation=10) votes down → -10
+        Vote 1: weight_applied=90, vote='up' → +90
+        Vote 2: weight_applied=30, vote='up' → +30
+        Vote 3: weight_applied=10, vote='down' → -10
         Weighted score = 90 + 30 - 10 = 110
     """
     try:
-        # Get all votes for this item
-        votes = db.query(Vote, Agent).join(
-            Agent, Vote.agent_id == Agent.id
-        ).filter(
+        # Get all votes for this item with their weight_applied snapshots
+        votes = db.query(Vote).filter(
             Vote.item_type == item_type,
             Vote.item_id == item_id
         ).all()
@@ -51,15 +52,16 @@ def calculate_weighted_score(db: Session, item_type: str, item_id: str) -> int:
         if not votes:
             return 0
         
-        # Calculate weighted score
+        # Calculate weighted score using weight_applied snapshot
         weighted_score = 0
-        for vote, agent in votes:
-            agent_reputation = agent.reputation_score if agent else 50  # Default to neutral
+        for vote in votes:
+            weight = vote.weight_applied if vote.weight_applied else 0
             
-            if vote.vote == 'up':
-                weighted_score += agent_reputation
-            else:  # down vote
-                weighted_score -= agent_reputation
+            if vote.vote == 'up' or vote.vote == 1:
+                weighted_score += weight
+            elif vote.vote == 'down' or vote.vote == -1:
+                weighted_score -= weight
+            # vote=0 is abstain, no effect
         
         return weighted_score
         

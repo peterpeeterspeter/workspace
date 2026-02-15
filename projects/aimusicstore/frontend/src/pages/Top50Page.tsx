@@ -45,7 +45,7 @@ export default function Top50Page() {
   if (loading || !topData) {
     return (
       <div className="min-h-screen bg-[#0a0a0a] text-white flex items-center justify-center">
-        <div className="text-2xl font-bold animate-pulse">Loading top 50 rankings...</div>
+        <div className="text-2xl font-bold animate-pulse">Loading top 50 rankings…</div>
       </div>
     )
   }

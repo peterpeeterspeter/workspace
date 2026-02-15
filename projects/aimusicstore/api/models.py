@@ -34,6 +34,7 @@ class Agent(Base):
     Attributes:
         id: Unique agent identifier (e.g., "claude-opus-4")
         reputation_score: Trust score based on vote history
+        status: Agent status ('active' or 'suspended')
         created_at: When agent was first registered
         last_vote_at: Timestamp of most recent vote
     """
@@ -41,11 +42,12 @@ class Agent(Base):
 
     id = Column(String(255), primary_key=True)
     reputation_score = Column(Integer, default=0, nullable=False)
+    status = Column(String(20), default='active', nullable=False, index=True)  # 'active' or 'suspended'
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     last_vote_at = Column(DateTime, default=datetime.utcnow, nullable=False)
 
     def __repr__(self):
-        return f"<Agent(id={self.id}, reputation={self.reputation_score})>"
+        return f"<Agent(id={self.id}, reputation={self.reputation_score}, status={self.status})>"
 
 
 class Song(Base):
@@ -162,11 +164,11 @@ class APIKey(Base):
         key_id: Unique key identifier (public)
         name: Name/label for the key
         key_hash: SHA-256 hash of the actual key (stored, not the key itself)
+        status: Key status ('active' or 'revoked')
         tier: Access tier (free, pro, enterprise)
         agent_id: Associated agent ID (optional, for agent-specific keys)
-        is_active: Whether the key is currently active
         created_at: When the key was created
-        last_used: Last time the key was used for authentication
+        last_used_at: Last time the key was used for authentication
         expires_at: Optional expiration date
         revoked_at: When the key was revoked (if applicable)
     """
@@ -175,16 +177,16 @@ class APIKey(Base):
     key_id = Column(String(255), primary_key=True)
     name = Column(String(500), nullable=False)
     key_hash = Column(String(64), nullable=False, unique=True, index=True)  # SHA-256 hash
+    status = Column(String(20), default='active', nullable=False, index=True)  # 'active' or 'revoked'
     tier = Column(String(20), nullable=False, default="free", index=True)  # free, pro, enterprise
     agent_id = Column(String(255), ForeignKey('agents.id', ondelete='SET NULL'), nullable=True, index=True)
-    is_active = Column(Boolean, default=True, nullable=False, index=True)
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     last_used = Column(DateTime, nullable=True)
     expires_at = Column(DateTime, nullable=True)
     revoked_at = Column(DateTime, nullable=True)
 
     def __repr__(self):
-        return f"<APIKey(key_id={self.key_id}, name={self.name}, tier={self.tier}, active={self.is_active})>"
+        return f"<APIKey(key_id={self.key_id}, name={self.name}, tier={self.tier}, status={self.status})>"
 
 
 class Vote(Base):
@@ -196,29 +198,36 @@ class Vote(Base):
         agent_id: Foreign key to agents table
         item_type: 'song' or 'tool'
         item_id: Foreign key to songs or tools
-        vote: 'up' or 'down'
-        comment: Optional comment (max 1000 chars)
+        vote: Vote value (-1, 0, or 1)
+        vote_source: Vote source ('external', 'bootstrap', 'internal')
+        reasoning: Agent's reasoning (min 30 chars for external votes)
+        confidence: Confidence score (0.0-1.0, optional)
+        weight_applied: Agent's reputation score at vote time (snapshot)
+        comment: Optional comment (deprecated, kept for compatibility)
         timestamp: When vote was cast
 
     Constraints:
-        Unique (agent_id, item_id) - one vote per agent per item
+        Unique (agent_id, item_id, item_type) - one vote per agent per item type
     """
     __tablename__ = 'votes'
     __table_args__ = (
-        UniqueConstraint('agent_id', 'item_id', name='unique_vote_per_agent'),
+        UniqueConstraint('agent_id', 'item_id', 'item_type', name='unique_vote_per_agent_and_type'),
     )
     
     id = Column(Integer, primary_key=True, autoincrement=True)
     agent_id = Column(String(255), ForeignKey('agents.id', ondelete='CASCADE'), nullable=False, index=True)
     item_type = Column(String(20), nullable=False, index=True)  # 'song' or 'tool'
     item_id = Column(String(255), nullable=False, index=True)
-    vote = Column(String(10), nullable=False)  # 'up' or 'down'
-    vote_source = Column(String(20), default='real', nullable=False)  # 'bootstrap' or 'real'
-    comment = Column(Text)
+    vote = Column(Integer, nullable=False)  # -1, 0, or 1
+    vote_source = Column(String(20), default='external', nullable=False)  # 'external', 'bootstrap', 'internal'
+    reasoning = Column(Text, nullable=True)  # Agent's reasoning (min 30 chars)
+    confidence = Column(Integer, nullable=True)  # Confidence score 0-1 (stored as Integer for now, will be Real in next migration)
+    weight_applied = Column(Integer, nullable=False, default=0)  # Reputation snapshot when vote was cast
+    comment = Column(Text)  # Deprecated: kept for compatibility
     timestamp = Column(DateTime, default=datetime.utcnow, nullable=False, index=True)
     
     def __repr__(self):
-        return f"<Vote(agent={self.agent_id}, item={self.item_type}:{self.item_id}, vote={self.vote}, source={self.vote_source})>"
+        return f"<Vote(agent={self.agent_id}, item={self.item_type}:{self.item_id}, vote={self.vote}, source={self.vote_source}, weight={self.weight_applied})>"
 
 
 class Waitlist(Base):

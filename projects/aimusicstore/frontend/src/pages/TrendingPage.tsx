@@ -34,7 +34,7 @@ export default function TrendingPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-[#0a0a0a] text-white flex items-center justify-center">
-        <div className="text-2xl font-bold animate-pulse">Loading trending data...</div>
+        <div className="text-2xl font-bold animate-pulse">Loading trending data…</div>
       </div>
     )
   }

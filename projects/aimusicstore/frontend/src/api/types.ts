@@ -24,6 +24,7 @@ export interface Song {
   title: string
   artist: string
   platform: string
+  platform_url?: string
   genre?: string
   mood?: string
   tempo?: number
@@ -40,6 +41,7 @@ export interface Tool {
   id: string
   name: string
   website: string
+  affiliate_link?: string
   category: string
   features?: string
   pricing?: string

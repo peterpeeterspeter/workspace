@@ -21,7 +21,7 @@ function ComingSoonPage() {
 
   const fetchWaitlistCount = async () => {
     try {
-      const response = await apiClient.get<WaitlistResponse>('/waitlist/count')
+      const response = await apiClient.get('/waitlist/count') as WaitlistResponse
       if (response.success) {
         setWaitlistCount(response.count)
       }
@@ -45,7 +45,7 @@ function ComingSoonPage() {
     setSubmitStatus('idle')
 
     try {
-      const response = await apiClient.post<WaitlistResponse>('/waitlist', { email })
+      const response = await apiClient.post('/waitlist', { email }) as WaitlistResponse
       
       if (response.success) {
         setSubmitStatus('success')
@@ -96,28 +96,39 @@ function ComingSoonPage() {
           {/* Email Form */}
           <form onSubmit={handleSubmit} className="max-w-md mx-auto mb-8">
             <div className="flex flex-col sm:flex-row gap-3">
+              <label htmlFor="waitlist-email" className="sr-only">Email address</label>
               <input
+                id="waitlist-email"
                 type="email"
+                inputMode="email"
+                autoComplete="email"
+                spellCheck={false}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 bg-white/10 border border-purple-400/30 rounded-lg text-white placeholder-purple-300/50 focus:outline-none focus:ring-2 focus:ring-purple-400"
+                placeholder="Enter your email…"
+                aria-describedby="waitlist-status"
+                className="flex-1 px-4 py-3 bg-white/10 border border-purple-400/30 rounded-lg text-white placeholder-purple-300/50 focus:outline-none focus:ring-2 focus:ring-purple-400 focus-visible:ring-2 focus-visible:ring-purple-400"
                 disabled={isSubmitting}
               />
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-2 focus-visible:ring-purple-400"
               >
-                {isSubmitting ? 'Joining...' : 'Join Waitlist'}
+                {isSubmitting ? 'Joining…' : 'Join Waitlist'}
               </button>
             </div>
 
             {/* Status Message */}
             {statusMessage && (
-              <div className={`mt-4 text-center ${
-                submitStatus === 'success' ? 'text-green-400' : 'text-red-400'
-              }`}>
+              <div
+                id="waitlist-status"
+                role="status"
+                aria-live="polite"
+                className={`mt-4 text-center ${
+                  submitStatus === 'success' ? 'text-green-400' : 'text-red-400'
+                }`}
+              >
                 {statusMessage}
               </div>
             )}

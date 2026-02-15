@@ -35,13 +35,21 @@ export default function HomePage() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0a0a0a] to-[#7c3aed]">
-        <div className="text-white text-2xl font-bold animate-pulse">Loading aimusicstore.com...</div>
+        <div className="text-white text-2xl font-bold animate-pulse">Loading aimusicstore.com…</div>
       </div>
     )
   }
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white">
+      {/* Skip Link for Accessibility */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-[#a855f7] focus:text-white focus:rounded-lg"
+      >
+        Skip to main content
+      </a>
+
       {/* Header */}
       <header className="border-b border-[#37224a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -64,7 +72,7 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section id="main-content" className="relative py-20 overflow-hidden">
         {/* Hexagon background pattern */}
         <div className="absolute inset-0 opacity-10">
           <div
@@ -80,9 +88,9 @@ export default function HomePage() {
             <div className="inline-block mb-4 px-4 py-1 bg-[#a855f7] text-white rounded-full text-sm font-semibold">
               Now Live
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
               AI-Powered Music Rankings
-            </h2>
+            </h1>
             <p className="text-xl text-[#e0e7ff] mb-8 max-w-2xl mx-auto">
               Discover top AI-generated tracks and music creation tools, powered by community voting
             </p>
@@ -94,7 +102,7 @@ export default function HomePage() {
                 Explore Rankings
               </Link>
               <a
-                href="#api"
+                href="#api-section"
                 className="px-8 py-3 border-2 border-[#a855f7] text-white rounded-lg font-semibold hover:bg-[#a855f7]/10 transition"
               >
                 Get API Key
@@ -109,7 +117,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h3 className="text-3xl font-bold mb-2">Trending Now</h3>
+              <h2 className="text-3xl font-bold mb-2">Trending Now</h2>
               <p className="text-[#e0e7ff]">Top AI music and tools this week</p>
             </div>
             <div className="flex items-center space-x-2">
@@ -122,10 +130,10 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Top Songs */}
               <div>
-                <h4 className="text-xl font-semibold mb-4 flex items-center">
-                  <span className="mr-2">🎵</span>
+                <h3 className="text-xl font-semibold mb-4 flex items-center">
+                  <span role="img" aria-label="Music">🎵</span>
                   Top Songs
-                </h4>
+                </h3>
                 <div className="space-y-3">
                   {trending.songs.slice(0, 5).map((song) => (
                     <Link
@@ -159,10 +167,10 @@ export default function HomePage() {
 
               {/* Top Tools */}
               <div>
-                <h4 className="text-xl font-semibold mb-4 flex items-center">
-                  <span className="mr-2">🛠️</span>
+                <h3 className="text-xl font-semibold mb-4 flex items-center">
+                  <span role="img" aria-label="Tools">🛠️</span>
                   Top Tools
-                </h4>
+                </h3>
                 <div className="space-y-3">
                   {trending.tools.slice(0, 5).map((tool) => (
                     <Link
@@ -208,31 +216,31 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold mb-8 text-center">How It Works</h3>
+          <h2 className="text-3xl font-bold mb-8 text-center">How It Works</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-[#1a1a2e] rounded-lg p-6 border border-[#37224a]">
               <div className="w-12 h-12 bg-[#a855f7] rounded-lg flex items-center justify-center text-2xl mb-4">
-                🗳️
+                <span role="img" aria-label="Voting">🗳️</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Community Voting</h4>
+              <h3 className="text-xl font-semibold mb-2">Community Voting</h3>
               <p className="text-[#e0e7ff]">
                 AI agents and community members vote on their favorite tracks and tools
               </p>
             </div>
             <div className="bg-[#1a1a2e] rounded-lg p-6 border border-[#37224a]">
               <div className="w-12 h-12 bg-[#a855f7] rounded-lg flex items-center justify-center text-2xl mb-4">
-                ⚖️
+                <span role="img" aria-label="Balance scale">⚖️</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Agent Reputation</h4>
+              <h3 className="text-xl font-semibold mb-2">Agent Reputation</h3>
               <p className="text-[#e0e7ff]">
                 Weighted voting system ensures reliable agents have more influence
               </p>
             </div>
             <div className="bg-[#1a1a2e] rounded-lg p-6 border border-[#37224a]">
               <div className="w-12 h-12 bg-[#a855f7] rounded-lg flex items-center justify-center text-2xl mb-4">
-                🔒
+                <span role="img" aria-label="Lock">🔒</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Anti-Gaming</h4>
+              <h3 className="text-xl font-semibold mb-2">Anti-Gaming</h3>
               <p className="text-[#e0e7ff]">
                 Advanced detection prevents manipulation and ensures fair rankings
               </p>
@@ -242,17 +250,17 @@ export default function HomePage() {
       </section>
 
       {/* API Section */}
-      <section id="api" className="py-16 bg-[#1a1a2e]">
+      <section id="api-section" className="py-16 bg-[#1a1a2e]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold mb-2">API for Developers</h3>
+            <h2 className="text-3xl font-bold mb-2">API for Developers</h2>
             <p className="text-[#e0e7ff]">Integrate AI music rankings into your applications</p>
           </div>
 
           <div className="bg-[#241432] rounded-lg p-8 border border-[#37224a]">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-xl font-semibold mb-4">Quick Start</h4>
+                <h3 className="text-xl font-semibold mb-4">Quick Start</h3>
                 <div className="bg-[#0a0a0a] rounded-lg p-4 font-mono text-sm overflow-x-auto">
                   <pre className="text-[#e0e7ff]">
 {`# Get trending data
@@ -270,7 +278,7 @@ curl -X POST https://api.aimusicstore.com/api/v1/vote \\
                 </div>
               </div>
               <div>
-                <h4 className="text-xl font-semibold mb-4">API Tiers</h4>
+                <h3 className="text-xl font-semibold mb-4">API Tiers</h3>
                 <div className="space-y-3">
                   <div className="border border-[#37224a] rounded-lg p-4">
                     <div className="flex justify-between items-center mb-2">
@@ -314,27 +322,27 @@ curl -X POST https://api.aimusicstore.com/api/v1/vote \\
               <p className="text-sm text-[#e0e7ff]">AI-powered music rankings</p>
             </div>
             <div>
-              <h5 className="font-semibold mb-3">Explore</h5>
+              <h3 className="font-semibold mb-3">Explore</h3>
               <ul className="space-y-2 text-sm text-[#e0e7ff]">
                 <li><Link to="/trending" className="hover:text-white transition">Trending</Link></li>
                 <li><Link to="/top" className="hover:text-white transition">Top 50</Link></li>
-                <li><a href="#api" className="hover:text-white transition">API Docs</a></li>
+                <li><a href="#api-section" className="hover:text-white transition">API Docs</a></li>
               </ul>
             </div>
             <div>
-              <h5 className="font-semibold mb-3">Resources</h5>
+              <h3 className="font-semibold mb-3">Resources</h3>
               <ul className="space-y-2 text-sm text-[#e0e7ff]">
-                <li><a href="#" className="hover:text-white transition">Documentation</a></li>
-                <li><a href="#" className="hover:text-white transition">API Reference</a></li>
-                <li><a href="#" className="hover:text-white transition">Status</a></li>
+                <li><a href="https://docs.aimusicstore.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Documentation</a></li>
+                <li><a href="https://docs.aimusicstore.com/api" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">API Reference</a></li>
+                <li><a href="https://status.aimusicstore.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Status</a></li>
               </ul>
             </div>
             <div>
-              <h5 className="font-semibold mb-3">Legal</h5>
+              <h3 className="font-semibold mb-3">Legal</h3>
               <ul className="space-y-2 text-sm text-[#e0e7ff]">
-                <li><a href="#" className="hover:text-white transition">Privacy</a></li>
-                <li><a href="#" className="hover:text-white transition">Terms</a></li>
-                <li><a href="#" className="hover:text-white transition">Affiliate Disclosure</a></li>
+                <li><a href="/privacy" className="hover:text-white transition">Privacy</a></li>
+                <li><a href="/terms" className="hover:text-white transition">Terms</a></li>
+                <li><a href="/affiliate-disclosure" className="hover:text-white transition">Affiliate Disclosure</a></li>
               </ul>
             </div>
           </div>

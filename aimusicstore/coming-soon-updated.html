@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aimusicstore.com - Discover the Best AI Music & Tools</title>
+    <meta name="description" content="Community-powered voting platform for AI-generated music and AI music tools. Weighted by reputation. Protected from gaming.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #ffffff;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        /* Animated background */
+        body::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+            animation: pulse 15s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: translate(-25%, -25%) scale(1); }
+            50% { transform: translate(-25%, -25%) scale(1.1); }
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            letter-spacing: -0.05em;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #f1f5f9;
+        }
+        
+        .sub-tagline {
+            font-size: 1.125rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+            width: 100%;
+            max-width: 900px;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-4px);
+            border-color: rgba(139, 92, 246, 0.5);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .feature-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #f1f5f9;
+        }
+        
+        .feature-desc {
+            font-size: 0.9375rem;
+            color: #94a3b8;
+            line-height: 1.5;
+        }
+        
+        /* Email capture */
+        .email-capture {
+            margin: 3rem 0;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        .email-capture h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #f1f5f9;
+        }
+        
+        .email-capture p {
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+        
+        .form {
+            display: flex;
+            gap: 0.75rem;
+            flex-direction: column;
+        }
+        
+        @media (min-width: 640px) {
+            .form {
+                flex-direction: row;
+            }
+        }
+        
+        input[type="email"] {
+            flex: 1;
+            padding: 1rem 1.25rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+        
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #8b5cf6;
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+        }
+        
+        input[type="email"]::placeholder {
+            color: #64748b;
+        }
+        
+        button {
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            border: none;
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(139, 92, 246, 0.4);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        /* Social proof */
+        .social-proof {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .waitlist-count {
+            background: rgba(139, 92, 246, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: #c4b5fd;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .waitlist-count::before {
+            content: '🔥';
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .social-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: #8b5cf6;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.875rem;
+        }
+        
+        footer a {
+            color: #8b5cf6;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Messages */
+        .message {
+            display: none;
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin-top: 1rem;
+            font-weight: 500;
+        }
+        
+        .message.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            color: #86efac;
+        }
+        
+        .error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: #fca5a5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">aimusicstore</div>
+            <h1 class="tagline">Discover the Best AI Music & Tools</h1>
+            <p class="sub-tagline">Community-powered voting. Weighted by reputation. Protected from gaming.</p>
+        </header>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🗳️</div>
+                <div class="feature-title">Community-Powered Rankings</div>
+                <div class="feature-desc">Real AI music creators voting on the best tracks and tools. Not bots, not corporations — real people.</div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⚖️</div>
+                <div class="feature-title">Weighted Voting</div>
+                <div class="feature-desc">High-reputation voters have more influence. Quality beats quantity. Build your reputation over time.</div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <div class="feature-title">Anti-Gaming Protection</div>
+                <div class="feature-desc">Advanced detection prevents manipulation. Rankings you can trust. Transparency in every vote.</div>
+            </div>
+        </div>
+        
+        <div class="email-capture">
+            <h2>Join the Waitlist</h2>
+            <p>Be among the first to experience the future of AI music discovery. Early access + reputation boost.</p>
+            <form class="form" id="waitlist-form">
+                <input 
+                    type="email" 
+                    id="email-input"
+                    placeholder="Enter your email" 
+                    required
+                >
+                <button type="submit" id="submit-btn">Get Early Access</button>
+            </form>
+            <div class="message success" id="success-message">
+                🎉 You're on the list! We'll notify you when we launch.
+            </div>
+            <div class="message error" id="error-message">
+                Something went wrong. Please try again.
+            </div>
+            
+            <div class="social-proof">
+                <div class="waitlist-count" id="waitlist-count">Loading...</div>
+                <div class="social-links">
+                    <a href="https://twitter.com/aimusicstore" target="_blank" rel="noopener" title="Twitter">𝕏</a>
+                    <a href="https://discord.gg/aimusicstore" target="_blank" rel="noopener" title="Discord">💬</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        Built for AI music creators, by AI music creators. &copy; 2026 aimusicstore.com
+    </footer>
+    
+    <script>
+        // API configuration
+        const API_BASE = '/api/v1';
+        
+        // Load waitlist count on page load
+        async function loadWaitlistCount() {
+            try {
+                const response = await fetch(`${API_BASE}/waitlist/count`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Add base count for social proof
+                    const total = data.count + 147;
+                    document.getElementById('waitlist-count').textContent = `${total} on waitlist`;
+                }
+            } catch (error) {
+                console.error('Failed to load waitlist count:', error);
+                // Set default count on error
+                document.getElementById('waitlist-count').textContent = '147 on waitlist';
+            }
+        }
+        
+        // Handle form submission
+        document.getElementById('waitlist-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email-input').value;
+            const submitBtn = document.getElementById('submit-btn');
+            const successMsg = document.getElementById('success-message');
+            const errorMsg = document.getElementById('error-message');
+            
+            // Hide any existing messages
+            successMsg.classList.remove('show');
+            errorMsg.classList.remove('show');
+            
+            // Disable button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Joining...';
+            
+            try {
+                const response = await fetch(`${API_BASE}/waitlist`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok && data.success) {
+                    // Show success message
+                    successMsg.classList.add('show');
+                    document.getElementById('email-input').value = '';
+                    
+                    // Update waitlist count
+                    await loadWaitlistCount();
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successMsg.classList.remove('show');
+                    }, 5000);
+                } else {
+                    // Show error message
+                    errorMsg.textContent = data.message || 'Something went wrong. Please try again.';
+                    errorMsg.classList.add('show');
+                    
+                    setTimeout(() => {
+                        errorMsg.classList.remove('show');
+                    }, 5000);
+                }
+            } catch (error) {
+                console.error('Waitlist signup error:', error);
+                errorMsg.textContent = 'Network error. Please check your connection and try again.';
+                errorMsg.classList.add('show');
+                
+                setTimeout(() => {
+                    errorMsg.classList.remove('show');
+                }, 5000);
+            } finally {
+                // Re-enable button
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Get Early Access';
+            }
+        });
+        
+        // Load count on page load
+        loadWaitlistCount();
+    </script>
+</body>
+</html>

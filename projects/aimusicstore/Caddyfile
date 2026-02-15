@@ -5,7 +5,7 @@
 aimusicstore.com,
 www.aimusicstore.com,
 23.95.148.204 {
-	root * /var/www/aimusicstore
+	root * /root/.openclaw/workspace/projects/aimusicstore/frontend/dist
 	file_server browse
 
 	# API endpoints - proxy to FastAPI
