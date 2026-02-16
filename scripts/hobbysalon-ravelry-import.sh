@@ -4,7 +4,8 @@
 # Imports patterns from JSON to WordPress with proper taxonomies
 # Usage: ./hobbysalon-ravelry-import.sh [limit] [offset]
 
-set -e
+# Don't exit on error - we want to continue processing
+set +e
 
 # Configuration
 SITE="hobbysalon"
@@ -132,7 +133,7 @@ import_patterns() {
   log ""
   
   # Count total patterns
-  TOTAL_PATTERNS=$(jq '.patterns | length' "${SOURCE_FILE}")
+  TOTAL_PATTERNS=$(jq 'length' "${SOURCE_FILE}")
   log "📦 Total patterns available: ${TOTAL_PATTERNS}"
   log ""
   
@@ -145,30 +146,32 @@ import_patterns() {
   log "🚀 Starting import (patterns ${offset} to ${end_index})..."
   log ""
   
-  # Track statistics
-  local imported=0
-  local skipped=0
-  local failed=0
+  # Track statistics (using temp files for subshell communication)
+  local tmp_dir=$(mktemp -d)
+  echo "0" > "${tmp_dir}/imported"
+  echo "0" > "${tmp_dir}/skipped"
+  echo "0" > "${tmp_dir}/failed"
   
-  # Extract patterns from JSON
-  jq -c ".patterns[${offset}:${end_index}][]" "${SOURCE_FILE}" | while read -r pattern; do
+  # Extract patterns from JSON (direct array, not wrapped in "patterns" key)
+  jq -c ".[${offset}:${end_index}][]" "${SOURCE_FILE}" | while read -r pattern; do
     PATTERN_ID=$(echo "${pattern}" | jq -r '.id // empty')
     
     if [ -z "${PATTERN_ID}" ]; then
       log "${YELLOW}⚠️  Skipping pattern (no ID)${NC}"
-      ((skipped++))
+      echo $(($(cat "${tmp_dir}/skipped") + 1)) > "${tmp_dir}/skipped"
       continue
     fi
     
-    # Check if pattern already exists
-    EXISTING=$(curl -s "${WP_URL}/wp/v2/posts?meta_key=ravelry_id&meta_value=${PATTERN_ID}" \
-      -H "Authorization: Basic ${AUTH_BASE64}" | jq -r '.[0].id // empty')
-    
-    if [ -n "${EXISTING}" ]; then
-      log "${YELLOW}⏭️  Pattern ${PATTERN_ID} already exists (post ID: ${EXISTING})${NC}"
-      ((skipped++))
-      continue
-    fi
+    # Check if pattern already exists (skip for now - REST API meta query not working)
+    # TODO: Fix REST API meta registration or use wp-cli
+    # EXISTING=$(curl -s "${WP_URL}/wp/v2/posts?meta_key=ravelry_id&meta_value=${PATTERN_ID}" \
+    #   -H "Authorization: Basic ${AUTH_BASE64}" | jq -r '.[0].id // empty')
+    #
+    # if [ -n "${EXISTING}" ]; then
+    #   log "${YELLOW}⏭️  Pattern ${PATTERN_ID} already exists (post ID: ${EXISTING})${NC}"
+    #   echo $(($(cat "${tmp_dir}/skipped") + 1)) > "${tmp_dir}/skipped"
+    #   continue
+    # fi
     
     # Extract pattern data
     PATTERN_NAME=$(echo "${pattern}" | jq -r '.name // "Unknown Pattern"')
@@ -233,22 +236,27 @@ import_patterns() {
     POST_TITLE=$(sanitize_content "${POST_TITLE}")
     META_DESC=$(sanitize_content "${META_DESC}")
     
-    # Create post JSON
-    POST_JSON=$(cat <<EOF
-{
-  "title": "${POST_TITLE}",
-  "content": "${POST_CONTENT}",
-  "status": "draft",
-  "excerpt": "${META_DESC}",
-  "meta": {
-    "ravelry_id": "${PATTERN_ID}",
-    "ravelry_designer": "${DESIGNER}",
-    "ravelry_free": "${IS_FREE}",
-    "ravelry_permalink": "${PATTERN_URL}"
-  }
-}
-EOF
-)
+    # Create post JSON (using jq to avoid escaping issues)
+    POST_JSON=$(jq -n \
+      --arg title "${POST_TITLE}" \
+      --arg content "${POST_CONTENT}" \
+      --arg excerpt "${META_DESC}" \
+      --arg ravelry_id "${PATTERN_ID}" \
+      --arg ravelry_designer "${DESIGNER}" \
+      --arg ravelry_free "${IS_FREE}" \
+      --arg ravelry_permalink "${PATTERN_URL}" \
+      '{
+        title: $title,
+        content: $content,
+        status: "draft",
+        excerpt: $excerpt,
+        meta: {
+          ravelry_id: $ravelry_id,
+          ravelry_designer: $ravelry_designer,
+          ravelry_free: $ravelry_free,
+          ravelry_permalink: $ravelry_permalink
+        }
+      }')
     
     # Send to WordPress REST API
     log "${BLUE}📝 Creating post: ${POST_TITLE}${NC}"
@@ -263,7 +271,7 @@ EOF
     if echo "${RESPONSE}" | grep -q "code"; then
       log "${RED}❌ Failed to create post${NC}"
       log "${RESPONSE}"
-      ((failed++))
+      echo $(($(cat "${tmp_dir}/failed") + 1)) > "${tmp_dir}/failed"
       continue
     fi
     
@@ -272,7 +280,7 @@ EOF
     if [ -z "${POST_ID}" ] || [ "${POST_ID}" = "null" ]; then
       log "${RED}❌ Failed to create post (no ID returned)${NC}"
       log "${RESPONSE}"
-      ((failed++))
+      echo $(($(cat "${tmp_dir}/failed") + 1)) > "${tmp_dir}/failed"
       continue
     fi
     
@@ -326,11 +334,18 @@ EOF
         \"hs_techniek\": \"${TECHNIEK}\"
       }" > /dev/null 2>&1
     
-    ((imported++))
+    echo $(($(cat "${tmp_dir}/imported") + 1)) > "${tmp_dir}/imported"
     log ""
   done
   
   # Print summary
+  local imported=$(cat "${tmp_dir}/imported")
+  local skipped=$(cat "${tmp_dir}/skipped")
+  local failed=$(cat "${tmp_dir}/failed")
+  
+  # Cleanup temp dir
+  rm -rf "${tmp_dir}"
+  
   log "${BLUE}═══════════════════════════════════════════${NC}"
   log "${GREEN}✅ Import complete!${NC}"
   log ""
