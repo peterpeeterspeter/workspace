@@ -44,7 +44,7 @@ get_site_creds() {
       echo "https://cryptocrashgambling.com/wp-json peter R3kQ 6vRA UwYd x7Cn KEtT Pk83"
       ;; 
     hobbysalon)
-      echo "https://www.hobbysalon.be/wp-json kris BAvt knyO ystE qYXk YQUo v9mu"
+      echo "https://www.hobbysalon.be/wp-json kris yiN7 vXcZ 2U2T t2SM 4DZX 1mKw"
       ;;
     *)
       echo ""

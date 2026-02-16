@@ -450,3 +450,314 @@ WORDPRESS_HOBBYSALON_APP_PASSWORD="yiN7 vXcZ 2U2T t2SM 4DZX 1mKw"
 *Memory updated: 2026-02-15 21:10 UTC*
 *Session: Carlottta (coordinator) - 12 hours active today*
 *Git commit: 01f80951*
+
+---
+
+# Memory Update - 2026-02-16 14:00 UTC
+
+## Hobbysalon.be - Complete Information Architecture
+
+**Project:** Hobbysalon.be (Creative workshops, markets, materials marketplace)
+**Date:** 2026-02-16
+**Status:** IA complete, ready for implementation
+
+---
+
+## Business Model
+
+**Primary Monetization:**
+- Advertentieruimte/paid placements (slots)
+- Content drives traffic → intent → ad + booking revenue
+
+**Traffic Strategy:**
+- SEO through "Inspiratie" content hub
+- Internal linking between all entities
+- Discovery layer connecting workshops, markets, materials
+
+---
+
+## Site Structure (Navigation)
+
+### Level 1: Main Navigation (5 items)
+
+| Label | URL | Purpose | Entity Type |
+|-------|-----|---------|-------------|
+| Workshops | /workshops/ | Boekbare workshops (online & offline) | workshop |
+| Creatieve markten | /creatieve-markten/ | Makers markets & creatieve events | market_event |
+| Hobbymaterialen | /hobbymaterialen/ | Producten/shops (Dokan multivendor) | product |
+| Inspiratie | /inspiratie/ | Content hub: tutorials, ideeën, patronen, tools | content |
+| Voor aanbieders | /voor-aanbieders/ | Adverteren, listing, pakketten | N/A |
+
+---
+
+## Inspiratie Hub Structure
+
+### Sub-navigation for Inspiratie:
+
+**1. Thema (Theme-based discovery)**
+- URL Pattern: `/inspiratie/thema/{thema_slug}/`
+- Taxonomy: `hs_thema`
+- Purpose: SEO pillar pages, broad discovery
+
+**12 Thema Categories:**
+1. Wol & Naald (`wol-naald`)
+2. Papier & Pen (`papier-pen`)
+3. Verf & Penseel (`verf-penseel`)
+4. Bloemen & Groen (`bloemen-groen`)
+5. DIY & Upcycling (`diy-upcycling`)
+6. Hout & Huis (`hout-huis`)
+7. Klei & Vorm (`klei-vorm`)
+8. Stof & Steek (`stof-steek`)
+9. Huis & Sfeer (`huis-sfeer`)
+10. Kinderen & Ouder-kind (`kinderen-ouder-kind`)
+11. Kralen & Draad (`kralen-draad`)
+12. Lens & Licht (`lens-licht`)
+
+**2. Techniek (Discipline-specific)**
+- URL Pattern: `/inspiratie/techniek/{techniek_slug}/`
+- Taxonomy: `hs_techniek`
+- Purpose: Long-tail SEO, focused content
+
+**22 Techniek Categories:**
+1. Bloemschikken (`bloemschikken`)
+2. Breien (`breien`)
+3. Bullet Journaling & Scrapbooking (`bullet-journaling`)
+4. Creatieve Feestdecoraties (`creatieve-feestdecoraties`)
+5. Decoratie & Interieur (`decoratie`)
+6. DIY Meubels & Organizers (`diy-meubels-organizers`)
+7. Haken (`haken`)
+8. Handwerken & Textiel (`handwerken`)
+9. Juwelen (`juwelen`)
+10. Kaarsen maken (`kaarsen-maken`)
+11. Kaarten Maken (`kaarten-maken`)
+12. Keramiek (`keramiek`)
+13. Kindvriendelijke Knutselprojecten (`kindvriendelijke-knutselprojecten`)
+14. Macramé (`macrame`)
+15. Mode (`mode`)
+16. Naaien en Kledingreparatie (`naaien`)
+17. Origami en Papieren Decoraties (`origami`)
+18. Overige Hobby's (`overige-hobbys`)
+19. Papierkunst & Scrapbooking (`papier-kaarten`)
+20. Pyrografie (`pyrografie`)
+21. Quilten & Borduren (`quilten-borduren`)
+22. Scrapbooking (`scrapbooking`)
+23. Sieraden Maken & Accessoires (`sieraden-beading`)
+
+**3. Patronen (Pattern library)**
+- URL: `/inspiratie/patronen/`
+- Purpose: 200+ crochet patterns (content type: patterns)
+- Source: Ravelry import (Dutch patterns)
+
+**4. Tools (Calculators & utilities)**
+- URL: `/tools/`
+- Purpose: Craft calculators + utilities
+
+**Tools Built:**
+- `/tools/stash-calculator/` - What can you make with your yarn stash
+- `/tools/cost-calculator/` - True project costs with ROI
+- `/tools/yardage-calculator/` - Calculate yarn needed for projects
+
+---
+
+## Taxonomy System
+
+### Custom Taxonomies for WordPress:
+
+**hs_thema** (Thema)
+- Hierarchical: No
+- Used by: All content types (posts, patterns, workshops, products)
+- Purpose: Cross-entity linking, pillar pages
+
+**hs_techniek** (Techniek)
+- Hierarchical: No
+- Used by: All content types
+- Purpose: Long-tail SEO, focused content hubs
+
+**Additional Taxonomies per Entity:**
+
+**Workshops:**
+- locatie (Location)
+- datum (Date)
+- niveau (Level: beginner, intermediate, advanced)
+
+**Creatieve Markten:**
+- regio (Region)
+- datum (Date)
+
+**Hobbymaterialen:**
+- categorie_product (Product category)
+- merk (Brand)
+
+---
+
+## Ad Inventory Structure
+
+### 3 Ad Targeting Levels:
+
+**1. Sitewide**
+- Coverage: All pages
+- CPM: €15-25
+- Positions: Homepage footer, Inspiratie sidebar
+- Package: "Sitewide Sponsor"
+
+**2. Thema-targeting**
+- Coverage: 1 thema + all subpages
+- CPM: €10-18
+- Positions: Thema hub hero, sidebar, content pages
+- Package: "Thema Takeover" (1 maand)
+
+**3. Techniek-targeting**
+- Coverage: 1 techniek + related content
+- CPM: €8-12
+- Positions: Techniek page, tutorials, patterns
+- Package: "Techniek Sponsor" (4 weken + nieuwsbrief)
+
+### Ad Packages:
+
+**Pakket 1: Thema Takeover**
+- 1 maand zichtbaarheid in 1 thema
+- Posities: Themahub hero, sidebar, 3 content pages
+- Incl. 1x nieuwsbrief mention
+- Prijs: €400-600/maand
+
+**Pakket 2: Techniek Sponsor**
+- 4 weken in 1 techniek
+- Posities: Techniek pagina, tutorials, patterns
+- Incl. 2x social media shoutout
+- Prijs: €250-400/maand
+
+**Pakket 3: Premium Combo**
+- 1 thema + 2 technieken + sitewide footer
+- Full content integration
+- Incl. nieuwsbrief + socials
+- Prijs: €800-1200/maand
+
+---
+
+## Premium Techniek Hubs (Priority 1-5)
+
+Based on user data, these 5 technieken get premium treatment:
+
+1. **Haken** (Top priority)
+   - Most popular in survey
+   - Largest pattern library
+   - Premium modules + 2 ad slots
+
+2. **Kaarten Maken**
+   - High inspiration driver
+   - Template downloads
+   - Workshop integration
+
+3. **Breien**
+   - Strong search volume
+   - Yardage calculator integration
+   - Yarn shop connections
+
+4. **Naaien**
+   - Growing category
+   - Tutorial demand
+   - Fabric shop partnerships
+
+5. **Juwelen**
+   - Active community
+   - Material sales
+   - Workshop bookings
+
+**Premium Features:**
+- 5-10 crosslinks (vs 2-3 for standard)
+- 2 ad slots (vs 1)
+- Featured content section
+- Techniek-specific newsletter signup
+
+---
+
+## Content-to-Product Linking Strategy
+
+### Every content page automatically links to:
+
+1. **Relevante workshops** (same thema/techniek)
+2. **Materialen/shops** (same thema/techniek)
+3. **Markten/events** (same thema + location)
+
+### Example Funnel:
+```
+User reads haakpatroon
+  ↓
+Sees "Haken workshops in Gent"
+  ↓
+Clicks → books workshop + sees ad
+  ↓
+Revenue: booking + ad impression
+```
+
+---
+
+## Implementation Timeline
+
+### Week 1: Structure + Mapping
+- Maak custom taxonomies (hs_thema, hs_techniek)
+- Fix "Kaarten Maken" duplicate
+- Update navigation menu
+- Create first 3 thema-hubs (Wol & Naald, Papier & Pen, Klei & Vorm)
+
+### Week 2: Content + Tools
+- Import 50 Ravelry patterns (Haken focus)
+- Add 3 calculators to thema-hubs
+- Build first premium techniek hub (Haken)
+
+### Week 3: Ad Inventory
+- Document ad positions per level
+- Create sales deck for ad packages
+- Test ad placements
+
+### Week 4: SEO + Internal Linking
+- Automate internal linking
+- Build pillar content (2000+ words per thema)
+- Launch first ad packages
+
+---
+
+## Files & Resources
+
+**WordPress Site:**
+- URL: https://www.hobbysalon.be
+- User: Kris (administrator)
+- REST API: ✅ Working
+- Credentials: Saved in .env
+
+**Calculators Built:**
+- `/root/.openclaw/workspace/projects/yardage-calculator/`
+- `/root/.openclaw/workspace/projects/stash-calculator/`
+- `/root/.openclaw/workspace/projects/cost-calculator/`
+
+**Ravelry Integration:**
+- Script: `/root/.openclaw/workspace/scripts/ravelry-to-wordpress-import.sh`
+- Data: `/root/.openclaw/workspace/research/ravelry_dutch_patterns.json` (222 patterns)
+- Docs: `/root/.openclaw/workspace/RAVELRY-TO-WORDPRESS-WORKFLOW.md`
+
+**Documentation:**
+- This structure saved in: `/root/.openclaw/workspace/projects/hobbysalon/IA-STRUCTURE.md`
+
+---
+
+## Next Steps (Immediate)
+
+**Vandaag:**
+1. Create custom taxonomies in WordPress (hs_thema, hs_techniek)
+2. Fix "Kaarten Maken" duplicate category
+3. Update navigation menu with new structure
+
+**Deze week:**
+1. Create first thema-hub (Wol & Naald)
+2. Import 10-20 Ravelry patterns (test batch)
+3. Add calculators to thema-hub
+
+**Volgende week:**
+1. Build Haken premium techniek hub
+2. Set up ad inventory tracking
+3. Create ad sales materials
+
+---
+
+**Status:** IA complete and approved. Ready for implementation.
+**Last Updated:** 2026-02-16 14:00 UTC

@@ -74,8 +74,8 @@ case "$COMMAND" in
     ;;
 
   health-check)
-    # Use gateway for health check
-    exec "${SCRIPT_DIR}/publish-gateway.sh" check "$@"
+    # Use gateway for health check (swap arguments: check <post_id> <site>)
+    exec "${SCRIPT_DIR}/publish-gateway.sh" check "$2" "$1"
     ;;
 
   bulk-publish)

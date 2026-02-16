@@ -188,3 +188,104 @@ Authorization: Bearer <API_KEY>
 *Status: ✅ AUTH IMPLEMENTATION COMPLETE AND TESTED*
 *All smoke tests passing*
 *Ready for external testing*
+
+---
+
+## 🧶 HOBBYSALON IA COMPLETE & APPROVED
+
+**Session:** 2026-02-16 14:00 UTC
+**Coordinator:** Carlottta (agent:coordinator:main)
+
+### Project: Hobbysalon.be Information Architecture
+
+**Status:** ✅ IA COMPLETE AND APPROVED - Ready for Implementation
+
+**Business Model:**
+- Marketplace for creative workshops, makers markets, hobby materials
+- Primary monetization: Advertising space and paid placements
+- Content ("Inspiratie") drives SEO + discovery → intent → ad revenue + bookings
+
+### Navigation Structure (5 L1 items):
+
+1. **Workshops** (/workshops/) - Boekbare workshops
+2. **Creatieve markten** (/creatieve-markten/) - Makers markets & events
+3. **Hobbymaterialen** (/hobbymaterialen/) - Products/shops (Dokan)
+4. **Inspiratie** (/inspiratie/) - Content hub with 4 sub-sections:
+   - Thema (12 thema hubs: Wol & Naald, Papier & Pen, etc.)
+   - Techniek (22 techniek pages: Haken, Breien, Kaarten Maken, etc.)
+   - Patronen (200+ patterns from Ravelry)
+   - Tools (3 calculators: stash, cost, yardage)
+5. **Voor aanbieders** (/voor-aanbieders/) - Adverteren, listing, pakketten
+
+### Taxonomy System:
+
+**Custom Taxonomies:**
+- `hs_thema` (12 terms) - Cross-entity linking, pillar pages
+- `hs_techniek` (22 terms) - Long-tail SEO, focused content
+
+**Key Innovation:**
+Every content page automatically links to:
+1. Relevante workshops (same thema/techniek)
+2. Materialen/shops (same thema/techniek)
+3. Markten/events (same thema + location)
+
+### Ad Inventory (3 levels):
+
+1. **Sitewide** - CPM €15-25, all pages
+2. **Thema-targeting** - CPM €10-18, per thema
+3. **Techniek-targeting** - CPM €8-12, per techniek
+
+**Ad Packages:**
+- Pakket 1: Thema Takeover (€400-600/maand)
+- Pakket 2: Techniek Sponsor (€250-400/maand)
+- Pakket 3: Premium Combo (€800-1200/maand)
+
+**Potential Revenue:** €2,000-3,500/month (conservative estimate at 50k pageviews)
+
+### Premium Techniek Hubs (Priority 1-5):
+
+1. **Haken** 🥇 - Most popular, 200+ patterns, calculator integration
+2. **Kaarten Maken** 🥈 - Template downloads, workshop integration
+3. **Breien** 🥉 - Strong search volume, yardage calculator
+4. **Naaien** - Tutorial demand, fabric shop partnerships
+5. **Juwelen** - Active community, material sales
+
+### Tools Ready:
+- ✅ 3 calculators built (Yardage, Stash, Cost)
+- ✅ Ravelry import pipeline ready (222 Dutch patterns)
+- ✅ hobbysalon.be connected (WordPress REST API working)
+- ✅ Test post created (ID: 25321)
+
+### Files Created:
+- `/root/.openclaw/workspace/projects/hobbysalon/IA-STRUCTURE.md` (Complete IA documentation)
+- `/root/.openclaw/workspace/MEMORY.md` (Updated with Hobbysalon section)
+
+### Next Steps (This Week):
+
+**Week 1: Structure + Mapping**
+- Create custom taxonomies in WordPress (hs_thema, hs_techniek)
+- Fix "Kaarten Maken" duplicate category
+- Update navigation menu
+- Build first thema-hub (Wol & Naald)
+
+**Week 2: Content + Tools**
+- Import 50 Ravelry patterns (Haken focus)
+- Build Haken premium techniek hub
+- Integrate 3 calculators into thema-hub
+
+**Week 3: Ad Inventory**
+- Document all ad positions
+- Create ad sales deck
+- Set up ad tracking
+
+**Week 4: SEO + Launch**
+- Automate internal linking
+- Build pillar content (2000+ words per thema)
+- Launch first ad packages
+
+---
+
+*Last Updated: 2026-02-16 14:00 UTC*
+*Status: 🧶 HOBBYSALON IA COMPLETE*
+*Ready for implementation*
+*Next: Create taxonomies in WordPress*
