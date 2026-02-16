@@ -764,6 +764,180 @@ Revenue: booking + ad impression
 
 ---
 
+# Memory Update - 2026-02-16 15:05 UTC
+
+## Hobbysalon Complete IA + Import System + Publishing Plan
+
+### Hobbysalon Information Architecture - COMPLETE
+
+**Date:** 2026-02-16
+**Status:** ✅ Approved and ready for implementation
+
+**Business Model:**
+- Marketplace for creative workshops, makers markets, hobby materials
+- Primary monetization: Advertising space (sitewide, thema-targeted, techniek-targeted)
+- Content drives traffic → intent → ad revenue + bookings
+
+**Navigation Structure (5 L1 items):**
+1. Workshops (/workshops/) - Boekbare workshops
+2. Creatieve markten (/creatieve-markten/) - Makers markets & events
+3. Hobbymaterialen (/hobbymaterialen/) - Products/shops (Dokan)
+4. Inspiratie (/inspiratie/) - Content hub with 4 sub-sections:
+   - Thema (12 thema hubs: Wol & Naald, Papier & Pen, etc.)
+   - Techniek (22 techniek pages: Haken, Breien, etc.)
+   - Patronen (200+ patterns from Ravelry)
+   - Tools (3 calculators: stash, cost, yardage)
+5. Voor aanbieders (/voor-aanbieders/) - Adverteren, listing, pakketten
+
+**Taxonomy System:**
+- `hs_thema` (12 terms) - Cross-entity linking, pillar pages
+- `hs_techniek` (22 terms) - Long-tail SEO, focused content
+
+**Ad Inventory (3 levels):**
+1. Sitewide (CPM €15-25) - All pages
+2. Thema-targeting (CPM €10-18) - Per thema
+3. Techniek-targeting (CPM €8-12) - Per techniek
+
+**Files:**
+- `projects/hobbysalon/IA-STRUCTURE.md` (14,985 bytes) - Complete IA documentation
+- `projects/hobbysalon/PUBLISHING-PLAN.md` (18,005 bytes) - 4-week publishing schedule
+
+---
+
+### Ravelry Import System - OPERATIONAL
+
+**Script:** `scripts/hobbysalon-ravelry-import.sh`
+**Status:** ✅ Working with embedded images, correct formatting, full Ravelry URLs
+
+**Features:**
+- Auto-detects technique (haken/breien/macrame)
+- Maps to hs_thema taxonomy
+- Downloads featured images from Ravelry
+- Embeds images in post content (not just featured image)
+- Assigns hs_techniek + hs_thema
+- Creates internal links (tools, workshops)
+- Generates meta descriptions
+- Proper HTML formatting (no escaped characters)
+
+**Test Results:**
+- ✅ 5 patterns imported (Post IDs: 25715, 25718, 25721, 25724, 25727)
+- ✅ Images embedded in content with alt text
+- ✅ Ravelry links working (full URLs)
+- ✅ Formatting correct (H3, lists, paragraphs)
+- ✅ Taxonomies assigned (wol-naald / haken)
+
+**Content Example:**
+```html
+<p><strong>✅ Gratis patroon door Thread Mills!</strong></p>
+<p><img src="https://www.hobbysalon.be/wp-content/uploads/2026/02/1351264-4.jpg" alt="Gratis: Dutch Cap" /></p>
+<h3>Details</h3>
+<ul>
+<li><strong>Designer:</strong> Thread Mills</li>
+</ul>
+<h3>Bekijk Patroon</h3>
+<p><a href="https://www.ravelry.com/patterns/library/dutch-cap">Bekijk dit patroon op Ravelry →</a></p>
+<h3>Tools</h3>
+<p>Bereken hoeveel garn je nodig hebt met onze <a href="/tools/yardage-calculator/">Yardage Calculator</a>...</p>
+```
+
+**Usage:**
+```bash
+# Import batch
+./scripts/hobbysalon-ravelry-import.sh [limit] [offset]
+
+# Example: 50 patterns starting from 0
+./scripts/hobbysalon-ravelry-import.sh 50 0
+```
+
+---
+
+### Publishing Plan - 4 Week Schedule
+
+**Goal:** Publish 200 Ravelry patterns via pinch-to-post
+
+**Week 1-2: Haken Focus (80 patterns)**
+- Monday-Friday: 8 patterns per day
+- Focus: Premium hub (Haken → Wol & Naald)
+- Goal: Establish authority in crochet
+
+**Week 3: Breien Focus (60 patterns)**
+- Monday-Friday: 6 patterns per day
+- Focus: Breien → Wol & Naald
+
+**Week 4: Mixed Techniques (60 patterns)**
+- Monday-Friday: 6 patterns per day
+- Mix: Kaarten, Naaien, Juwelen, others
+
+**Monetization Strategy:**
+- Every pattern page: 3 internal links (workshops, materials, markets)
+- Archive pages: Top featured slots
+- Ad products: Workshop slot, Market slot, Product slot
+
+**Expected Revenue (Month 2):**
+- €200-500/month (conservative estimate at 50k pageviews)
+
+**File:** `projects/hobbysalon/PUBLISHING-PLAN.md`
+
+---
+
+### WordPress Pro Skill - INSTALLED
+
+**Date:** 2026-02-16 15:04 UTC
+**Author:** Veera (@Veeramanikandanr48)
+**Version:** v0.1.0
+**Source:** https://clawhub.ai/Veeramanikandanr48/wordpress-pro
+
+**Files Installed (138 KB total):**
+- `skills/wordpress-pro/SKILL.md` (4.1 KB)
+- `skills/wordpress-pro/references/theme-development.md` (26 KB)
+- `skills/wordpress-pro/references/plugin-architecture.md` (33 KB)
+- `skills/wordpress-pro/references/gutenberg-blocks.md` (27 KB)
+- `skills/wordpress-pro/references/hooks-filters.md` (22 KB)
+- `skills/wordpress-pro/references/performance-security.md` (26 KB)
+
+**Capabilities:**
+- Custom WordPress themes (FSE, template hierarchy)
+- Plugin development (architecture, settings API)
+- Gutenberg blocks (block dev, patterns, dynamic)
+- WooCommerce customization
+- REST API endpoints
+- Performance optimization
+- Security hardening
+
+**Useful for Hobbysalon:**
+- Custom taxonomies registration (hs_thema, hs_techniek)
+- REST API optimization (better performance for 222 patterns)
+- Performance tuning (caching, query optimization)
+- Gutenberg blocks for pattern display
+- Security hardening
+
+**Git Commit:** `0143dd01`
+
+---
+
+## Current Status
+
+### Hobbysalon Project
+- ✅ IA structure complete and approved
+- ✅ Import script operational with images
+- ✅ Test batch (5 patterns) successfully imported
+- ✅ WordPress Pro skill installed
+- ⏳ Ready to import remaining 217 patterns
+
+### Next Steps
+1. Import remaining 217 Ravelry patterns (batch of 50)
+2. Quality check and publish patterns (80+ score)
+3. Create category pages (thema/techniek)
+4. Set up ad inventory tracking
+5. Launch first ad packages
+
+---
+
+**Status:** All systems operational, ready for scale
+**Last Updated:** 2026-02-16 15:05 UTC
+
+---
+
 ## Content Model Details
 
 **Content Types:**
