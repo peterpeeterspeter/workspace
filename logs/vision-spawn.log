@@ -16197,3 +16197,310 @@ Context overflow: prompt too large for the model. Try again with less input or a
 Context overflow: prompt too large for the model. Try again with less input or a larger-context model.
 [2026-02-16 15:33:17] Vision spawn completed with exit code: 0
 [2026-02-16 15:33:17] === Vision Spawn Successful ===
+[2026-02-16 15:48:01] === Vision Spawn Initiated ===
+[2026-02-16 15:48:01] Session Key: agent:seo:main
+[2026-02-16 15:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 15:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 15:48:01] Spawning Vision sub-session...
+[2026-02-16 15:48:01] Pending tasks: 0
+[2026-02-16 15:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[plugins] Honcho memory plugin loaded
+Context overflow: prompt too large for the model. Try again with less input or a larger-context model.
+[2026-02-16 15:48:19] Vision spawn completed with exit code: 0
+[2026-02-16 15:48:19] === Vision Spawn Successful ===
+[2026-02-16 16:03:01] === Vision Spawn Initiated ===
+[2026-02-16 16:03:01] Session Key: agent:seo:main
+[2026-02-16 16:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:03:01] Spawning Vision sub-session...
+[2026-02-16 16:03:01] Pending tasks: 0
+[2026-02-16 16:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=39 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=46 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 16:03:10] Vision spawn completed with exit code: 1
+[2026-02-16 16:03:10] === Vision Spawn Failed ===
+[2026-02-16 16:18:01] === Vision Spawn Initiated ===
+[2026-02-16 16:18:01] Session Key: agent:seo:main
+[2026-02-16 16:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:18:01] Spawning Vision sub-session...
+[2026-02-16 16:18:01] Pending tasks: 0
+[2026-02-16 16:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=33 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=40 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 16:18:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:18:11] === Vision Spawn Failed ===
+[2026-02-16 16:33:01] === Vision Spawn Initiated ===
+[2026-02-16 16:33:01] Session Key: agent:seo:main
+[2026-02-16 16:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:33:01] Spawning Vision sub-session...
+[2026-02-16 16:33:01] Pending tasks: 0
+[2026-02-16 16:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=34 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=40 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 16:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:33:11] === Vision Spawn Failed ===
+[2026-02-16 16:48:01] === Vision Spawn Initiated ===
+[2026-02-16 16:48:01] Session Key: agent:seo:main
+[2026-02-16 16:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:48:01] Spawning Vision sub-session...
+[2026-02-16 16:48:01] Pending tasks: 0
+[2026-02-16 16:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=40 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=48 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 16:48:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:48:11] === Vision Spawn Failed ===
+[2026-02-16 17:03:01] === Vision Spawn Initiated ===
+[2026-02-16 17:03:01] Session Key: agent:seo:main
+[2026-02-16 17:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:03:01] Spawning Vision sub-session...
+[2026-02-16 17:03:01] Pending tasks: 0
+[2026-02-16 17:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=52 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=65 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 17:03:10] Vision spawn completed with exit code: 1
+[2026-02-16 17:03:10] === Vision Spawn Failed ===
+[2026-02-16 17:18:02] === Vision Spawn Initiated ===
+[2026-02-16 17:18:02] Session Key: agent:seo:main
+[2026-02-16 17:18:02] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:18:02] SOUL.md found, loading Vision identity...
+[2026-02-16 17:18:02] Spawning Vision sub-session...
+[2026-02-16 17:18:02] Pending tasks: 0
+[2026-02-16 17:18:02] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=32 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=39 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 17:18:13] Vision spawn completed with exit code: 1
+[2026-02-16 17:18:13] === Vision Spawn Failed ===
+[2026-02-16 17:33:01] === Vision Spawn Initiated ===
+[2026-02-16 17:33:01] Session Key: agent:seo:main
+[2026-02-16 17:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:33:01] Spawning Vision sub-session...
+[2026-02-16 17:33:01] Pending tasks: 0
+[2026-02-16 17:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=31 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=37 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 17:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 17:33:11] === Vision Spawn Failed ===
+[2026-02-16 17:48:01] === Vision Spawn Initiated ===
+[2026-02-16 17:48:01] Session Key: agent:seo:main
+[2026-02-16 17:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:48:01] Spawning Vision sub-session...
+[2026-02-16 17:48:01] Pending tasks: 0
+[2026-02-16 17:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=38 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=45 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 17:48:11] Vision spawn completed with exit code: 1
+[2026-02-16 17:48:11] === Vision Spawn Failed ===
+[2026-02-16 18:03:01] === Vision Spawn Initiated ===
+[2026-02-16 18:03:01] Session Key: agent:seo:main
+[2026-02-16 18:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:03:01] Spawning Vision sub-session...
+[2026-02-16 18:03:01] Pending tasks: 0
+[2026-02-16 18:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=36 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=43 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 18:03:12] Vision spawn completed with exit code: 1
+[2026-02-16 18:03:12] === Vision Spawn Failed ===
+[2026-02-16 18:18:01] === Vision Spawn Initiated ===
+[2026-02-16 18:18:01] Session Key: agent:seo:main
+[2026-02-16 18:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:18:01] Spawning Vision sub-session...
+[2026-02-16 18:18:01] Pending tasks: 0
+[2026-02-16 18:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=37 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=48 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 18:18:11] Vision spawn completed with exit code: 1
+[2026-02-16 18:18:11] === Vision Spawn Failed ===
+[2026-02-16 18:33:01] === Vision Spawn Initiated ===
+[2026-02-16 18:33:01] Session Key: agent:seo:main
+[2026-02-16 18:33:02] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:33:02] SOUL.md found, loading Vision identity...
+[2026-02-16 18:33:02] Spawning Vision sub-session...
+[2026-02-16 18:33:02] Pending tasks: 0
+[2026-02-16 18:33:02] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[diagnostic] lane task error: lane=main durationMs=30 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+[diagnostic] lane task error: lane=session:agent:seo:main durationMs=35 error="Error: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+FailoverError: No API key found for provider "anthropic". Auth store: /root/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /root/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.
+[2026-02-16 18:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 18:33:11] === Vision Spawn Failed ===
+[2026-02-16 18:48:01] === Vision Spawn Initiated ===
+[2026-02-16 18:48:01] Session Key: agent:seo:main
+[2026-02-16 18:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:48:01] Spawning Vision sub-session...
+[2026-02-16 18:48:01] Pending tasks: 0
+[2026-02-16 18:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /root/.openclaw/openclaw.json
+Bind: loopback
+[agent/embedded] workspace bootstrap file MEMORY.md is 31617 chars (limit 20000); truncating in injected context (sessionKey=agent:seo:main)
+[tools] exec failed: ls: cannot access '/root/.openclaw/workspace/tasks/in-progress/vision-task*.md': No such file or directory
+
+Command exited with code 2
+HEARTBEAT_OK
+[2026-02-16 18:48:47] Vision spawn completed with exit code: 0
+[2026-02-16 18:48:47] === Vision Spawn Successful ===
+[2026-02-16 19:03:01] === Vision Spawn Initiated ===
+[2026-02-16 19:03:01] Session Key: agent:seo:main
+[2026-02-16 19:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:03:01] Spawning Vision sub-session...
+[2026-02-16 19:03:01] Pending tasks: 0
+[2026-02-16 19:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /root/.openclaw/openclaw.json
+Bind: loopback
+[tools] exec failed: ls: cannot access '/root/.openclaw/workspace/tasks/in-progress/vision-task*.md': No such file or directory
+
+Command exited with code 2
+HEARTBEAT_OK
+[2026-02-16 19:03:34] Vision spawn completed with exit code: 0
+[2026-02-16 19:03:34] === Vision Spawn Successful ===
+[2026-02-16 19:18:01] === Vision Spawn Initiated ===
+[2026-02-16 19:18:01] Session Key: agent:seo:main
+[2026-02-16 19:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:18:01] Spawning Vision sub-session...
+[2026-02-16 19:18:01] Pending tasks: 0
+[2026-02-16 19:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /root/.openclaw/openclaw.json
+Bind: loopback
+[tools] exec failed: ls: cannot access '/root/.openclaw/workspace/tasks/in-progress/vision-task*.md': No such file or directory
+
+Command exited with code 2
+HEARTBEAT_OK
+[2026-02-16 19:18:33] Vision spawn completed with exit code: 0
+[2026-02-16 19:18:33] === Vision Spawn Successful ===
+[2026-02-16 19:33:01] === Vision Spawn Initiated ===
+[2026-02-16 19:33:01] Session Key: agent:seo:main
+[2026-02-16 19:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:33:01] Spawning Vision sub-session...
+[2026-02-16 19:33:01] Pending tasks: 0
+[2026-02-16 19:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: gateway closed (1012): service restart
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /root/.openclaw/openclaw.json
+Bind: loopback
+[tools] exec failed: ls: cannot access '/root/.openclaw/workspace/tasks/in-progress/vision-task*.md': No such file or directory
+
+Command exited with code 2
+HEARTBEAT_OK
+[2026-02-16 19:34:16] Vision spawn completed with exit code: 0
+[2026-02-16 19:34:16] === Vision Spawn Successful ===
+[2026-02-16 19:48:01] === Vision Spawn Initiated ===
+[2026-02-16 19:48:01] Session Key: agent:seo:main
+[2026-02-16 19:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:48:01] Spawning Vision sub-session...
+[2026-02-16 19:48:01] Pending tasks: 0
+[2026-02-16 19:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 19:48:21] Vision spawn completed with exit code: 0
+[2026-02-16 19:48:21] === Vision Spawn Successful ===
+[2026-02-16 20:03:01] === Vision Spawn Initiated ===
+[2026-02-16 20:03:01] Session Key: agent:seo:main
+[2026-02-16 20:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:03:01] Spawning Vision sub-session...
+[2026-02-16 20:03:01] Pending tasks: 0
+[2026-02-16 20:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 20:03:33] Vision spawn completed with exit code: 0
+[2026-02-16 20:03:33] === Vision Spawn Successful ===
+[2026-02-16 20:18:01] === Vision Spawn Initiated ===
+[2026-02-16 20:18:01] Session Key: agent:seo:main
+[2026-02-16 20:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:18:01] Spawning Vision sub-session...
+[2026-02-16 20:18:01] Pending tasks: 0
+[2026-02-16 20:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 20:18:33] Vision spawn completed with exit code: 0
+[2026-02-16 20:18:33] === Vision Spawn Successful ===
+[2026-02-16 20:33:01] === Vision Spawn Initiated ===
+[2026-02-16 20:33:01] Session Key: agent:seo:main
+[2026-02-16 20:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:33:01] Spawning Vision sub-session...
+[2026-02-16 20:33:01] Pending tasks: 0
+[2026-02-16 20:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 20:33:35] Vision spawn completed with exit code: 0
+[2026-02-16 20:33:35] === Vision Spawn Successful ===
+[2026-02-16 20:48:01] === Vision Spawn Initiated ===
+[2026-02-16 20:48:01] Session Key: agent:seo:main
+[2026-02-16 20:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:48:01] Spawning Vision sub-session...
+[2026-02-16 20:48:01] Pending tasks: 0
+[2026-02-16 20:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 20:48:19] Vision spawn completed with exit code: 0
+[2026-02-16 20:48:19] === Vision Spawn Successful ===
+[2026-02-16 21:03:01] === Vision Spawn Initiated ===
+[2026-02-16 21:03:01] Session Key: agent:seo:main
+[2026-02-16 21:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:03:01] Spawning Vision sub-session...
+[2026-02-16 21:03:01] Pending tasks: 0
+[2026-02-16 21:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 21:03:33] Vision spawn completed with exit code: 0
+[2026-02-16 21:03:33] === Vision Spawn Successful ===
+[2026-02-16 21:18:01] === Vision Spawn Initiated ===
+[2026-02-16 21:18:01] Session Key: agent:seo:main
+[2026-02-16 21:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:18:01] Spawning Vision sub-session...
+[2026-02-16 21:18:01] Pending tasks: 0
+[2026-02-16 21:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 21:18:43] Vision spawn completed with exit code: 0
+[2026-02-16 21:18:43] === Vision Spawn Successful ===
+[2026-02-16 21:33:01] === Vision Spawn Initiated ===
+[2026-02-16 21:33:01] Session Key: agent:seo:main
+[2026-02-16 21:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:33:01] Spawning Vision sub-session...
+[2026-02-16 21:33:01] Pending tasks: 0
+[2026-02-16 21:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+HEARTBEAT_OK
+[2026-02-16 21:33:33] Vision spawn completed with exit code: 0
+[2026-02-16 21:33:33] === Vision Spawn Successful ===

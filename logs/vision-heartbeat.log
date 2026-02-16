@@ -10131,3 +10131,219 @@
 [2026-02-16 15:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
 [2026-02-16 15:33:17] Vision spawn completed with exit code: 0
 [2026-02-16 15:33:17] === Vision Spawn Successful ===
+[2026-02-16 15:48:01] === Vision Spawn Initiated ===
+[2026-02-16 15:48:01] Session Key: agent:seo:main
+[2026-02-16 15:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 15:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 15:48:01] Spawning Vision sub-session...
+[2026-02-16 15:48:01] Pending tasks: 0
+[2026-02-16 15:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 15:48:19] Vision spawn completed with exit code: 0
+[2026-02-16 15:48:19] === Vision Spawn Successful ===
+[2026-02-16 16:03:01] === Vision Spawn Initiated ===
+[2026-02-16 16:03:01] Session Key: agent:seo:main
+[2026-02-16 16:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:03:01] Spawning Vision sub-session...
+[2026-02-16 16:03:01] Pending tasks: 0
+[2026-02-16 16:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 16:03:10] Vision spawn completed with exit code: 1
+[2026-02-16 16:03:10] === Vision Spawn Failed ===
+[2026-02-16 16:18:01] === Vision Spawn Initiated ===
+[2026-02-16 16:18:01] Session Key: agent:seo:main
+[2026-02-16 16:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:18:01] Spawning Vision sub-session...
+[2026-02-16 16:18:01] Pending tasks: 0
+[2026-02-16 16:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 16:18:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:18:11] === Vision Spawn Failed ===
+[2026-02-16 16:33:01] === Vision Spawn Initiated ===
+[2026-02-16 16:33:01] Session Key: agent:seo:main
+[2026-02-16 16:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:33:01] Spawning Vision sub-session...
+[2026-02-16 16:33:01] Pending tasks: 0
+[2026-02-16 16:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 16:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:33:11] === Vision Spawn Failed ===
+[2026-02-16 16:48:01] === Vision Spawn Initiated ===
+[2026-02-16 16:48:01] Session Key: agent:seo:main
+[2026-02-16 16:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 16:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 16:48:01] Spawning Vision sub-session...
+[2026-02-16 16:48:01] Pending tasks: 0
+[2026-02-16 16:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 16:48:11] Vision spawn completed with exit code: 1
+[2026-02-16 16:48:11] === Vision Spawn Failed ===
+[2026-02-16 17:03:01] === Vision Spawn Initiated ===
+[2026-02-16 17:03:01] Session Key: agent:seo:main
+[2026-02-16 17:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:03:01] Spawning Vision sub-session...
+[2026-02-16 17:03:01] Pending tasks: 0
+[2026-02-16 17:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 17:03:10] Vision spawn completed with exit code: 1
+[2026-02-16 17:03:10] === Vision Spawn Failed ===
+[2026-02-16 17:18:02] === Vision Spawn Initiated ===
+[2026-02-16 17:18:02] Session Key: agent:seo:main
+[2026-02-16 17:18:02] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:18:02] SOUL.md found, loading Vision identity...
+[2026-02-16 17:18:02] Spawning Vision sub-session...
+[2026-02-16 17:18:02] Pending tasks: 0
+[2026-02-16 17:18:02] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 17:18:13] Vision spawn completed with exit code: 1
+[2026-02-16 17:18:13] === Vision Spawn Failed ===
+[2026-02-16 17:33:01] === Vision Spawn Initiated ===
+[2026-02-16 17:33:01] Session Key: agent:seo:main
+[2026-02-16 17:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:33:01] Spawning Vision sub-session...
+[2026-02-16 17:33:01] Pending tasks: 0
+[2026-02-16 17:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 17:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 17:33:11] === Vision Spawn Failed ===
+[2026-02-16 17:48:01] === Vision Spawn Initiated ===
+[2026-02-16 17:48:01] Session Key: agent:seo:main
+[2026-02-16 17:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 17:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 17:48:01] Spawning Vision sub-session...
+[2026-02-16 17:48:01] Pending tasks: 0
+[2026-02-16 17:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 17:48:11] Vision spawn completed with exit code: 1
+[2026-02-16 17:48:11] === Vision Spawn Failed ===
+[2026-02-16 18:03:01] === Vision Spawn Initiated ===
+[2026-02-16 18:03:01] Session Key: agent:seo:main
+[2026-02-16 18:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:03:01] Spawning Vision sub-session...
+[2026-02-16 18:03:01] Pending tasks: 0
+[2026-02-16 18:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 18:03:12] Vision spawn completed with exit code: 1
+[2026-02-16 18:03:12] === Vision Spawn Failed ===
+[2026-02-16 18:18:01] === Vision Spawn Initiated ===
+[2026-02-16 18:18:01] Session Key: agent:seo:main
+[2026-02-16 18:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:18:01] Spawning Vision sub-session...
+[2026-02-16 18:18:01] Pending tasks: 0
+[2026-02-16 18:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 18:18:11] Vision spawn completed with exit code: 1
+[2026-02-16 18:18:11] === Vision Spawn Failed ===
+[2026-02-16 18:33:01] === Vision Spawn Initiated ===
+[2026-02-16 18:33:01] Session Key: agent:seo:main
+[2026-02-16 18:33:02] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:33:02] SOUL.md found, loading Vision identity...
+[2026-02-16 18:33:02] Spawning Vision sub-session...
+[2026-02-16 18:33:02] Pending tasks: 0
+[2026-02-16 18:33:02] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 18:33:11] Vision spawn completed with exit code: 1
+[2026-02-16 18:33:11] === Vision Spawn Failed ===
+[2026-02-16 18:48:01] === Vision Spawn Initiated ===
+[2026-02-16 18:48:01] Session Key: agent:seo:main
+[2026-02-16 18:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 18:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 18:48:01] Spawning Vision sub-session...
+[2026-02-16 18:48:01] Pending tasks: 0
+[2026-02-16 18:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 18:48:47] Vision spawn completed with exit code: 0
+[2026-02-16 18:48:47] === Vision Spawn Successful ===
+[2026-02-16 19:03:01] === Vision Spawn Initiated ===
+[2026-02-16 19:03:01] Session Key: agent:seo:main
+[2026-02-16 19:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:03:01] Spawning Vision sub-session...
+[2026-02-16 19:03:01] Pending tasks: 0
+[2026-02-16 19:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 19:03:34] Vision spawn completed with exit code: 0
+[2026-02-16 19:03:34] === Vision Spawn Successful ===
+[2026-02-16 19:18:01] === Vision Spawn Initiated ===
+[2026-02-16 19:18:01] Session Key: agent:seo:main
+[2026-02-16 19:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:18:01] Spawning Vision sub-session...
+[2026-02-16 19:18:01] Pending tasks: 0
+[2026-02-16 19:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 19:18:33] Vision spawn completed with exit code: 0
+[2026-02-16 19:18:33] === Vision Spawn Successful ===
+[2026-02-16 19:33:01] === Vision Spawn Initiated ===
+[2026-02-16 19:33:01] Session Key: agent:seo:main
+[2026-02-16 19:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:33:01] Spawning Vision sub-session...
+[2026-02-16 19:33:01] Pending tasks: 0
+[2026-02-16 19:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 19:34:16] Vision spawn completed with exit code: 0
+[2026-02-16 19:34:16] === Vision Spawn Successful ===
+[2026-02-16 19:48:01] === Vision Spawn Initiated ===
+[2026-02-16 19:48:01] Session Key: agent:seo:main
+[2026-02-16 19:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 19:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 19:48:01] Spawning Vision sub-session...
+[2026-02-16 19:48:01] Pending tasks: 0
+[2026-02-16 19:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 19:48:21] Vision spawn completed with exit code: 0
+[2026-02-16 19:48:21] === Vision Spawn Successful ===
+[2026-02-16 20:03:01] === Vision Spawn Initiated ===
+[2026-02-16 20:03:01] Session Key: agent:seo:main
+[2026-02-16 20:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:03:01] Spawning Vision sub-session...
+[2026-02-16 20:03:01] Pending tasks: 0
+[2026-02-16 20:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 20:03:33] Vision spawn completed with exit code: 0
+[2026-02-16 20:03:33] === Vision Spawn Successful ===
+[2026-02-16 20:18:01] === Vision Spawn Initiated ===
+[2026-02-16 20:18:01] Session Key: agent:seo:main
+[2026-02-16 20:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:18:01] Spawning Vision sub-session...
+[2026-02-16 20:18:01] Pending tasks: 0
+[2026-02-16 20:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 20:18:33] Vision spawn completed with exit code: 0
+[2026-02-16 20:18:33] === Vision Spawn Successful ===
+[2026-02-16 20:33:01] === Vision Spawn Initiated ===
+[2026-02-16 20:33:01] Session Key: agent:seo:main
+[2026-02-16 20:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:33:01] Spawning Vision sub-session...
+[2026-02-16 20:33:01] Pending tasks: 0
+[2026-02-16 20:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 20:33:35] Vision spawn completed with exit code: 0
+[2026-02-16 20:33:35] === Vision Spawn Successful ===
+[2026-02-16 20:48:01] === Vision Spawn Initiated ===
+[2026-02-16 20:48:01] Session Key: agent:seo:main
+[2026-02-16 20:48:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 20:48:01] SOUL.md found, loading Vision identity...
+[2026-02-16 20:48:01] Spawning Vision sub-session...
+[2026-02-16 20:48:01] Pending tasks: 0
+[2026-02-16 20:48:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 20:48:19] Vision spawn completed with exit code: 0
+[2026-02-16 20:48:19] === Vision Spawn Successful ===
+[2026-02-16 21:03:01] === Vision Spawn Initiated ===
+[2026-02-16 21:03:01] Session Key: agent:seo:main
+[2026-02-16 21:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:03:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:03:01] Spawning Vision sub-session...
+[2026-02-16 21:03:01] Pending tasks: 0
+[2026-02-16 21:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 21:03:33] Vision spawn completed with exit code: 0
+[2026-02-16 21:03:33] === Vision Spawn Successful ===
+[2026-02-16 21:18:01] === Vision Spawn Initiated ===
+[2026-02-16 21:18:01] Session Key: agent:seo:main
+[2026-02-16 21:18:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:18:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:18:01] Spawning Vision sub-session...
+[2026-02-16 21:18:01] Pending tasks: 0
+[2026-02-16 21:18:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 21:18:43] Vision spawn completed with exit code: 0
+[2026-02-16 21:18:43] === Vision Spawn Successful ===
+[2026-02-16 21:33:01] === Vision Spawn Initiated ===
+[2026-02-16 21:33:01] Session Key: agent:seo:main
+[2026-02-16 21:33:01] Workspace: /root/.openclaw/workspace
+[2026-02-16 21:33:01] SOUL.md found, loading Vision identity...
+[2026-02-16 21:33:01] Spawning Vision sub-session...
+[2026-02-16 21:33:01] Pending tasks: 0
+[2026-02-16 21:33:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+[2026-02-16 21:33:33] Vision spawn completed with exit code: 0
+[2026-02-16 21:33:33] === Vision Spawn Successful ===

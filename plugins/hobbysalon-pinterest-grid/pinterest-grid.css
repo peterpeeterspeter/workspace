@@ -1,0 +1,456 @@
+/**
+ * Hobbysalon Pinterest Grid - Stylesheet
+ * Pinterest-style masonry layout for crafting blog posts
+ */
+
+/* ================================
+   Main Pinterest Grid Layout
+   ================================ */
+
+.pinterest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-auto-rows: 10px;
+    gap: var(--pinterest-gap, 24px);
+    margin: 40px 0;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 1400px) {
+    .pinterest-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .pinterest-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .pinterest-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .pinterest-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 479px) {
+    .pinterest-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* ================================
+   Pinterest Card Styles
+   ================================ */
+
+.pinterest-card {
+    break-inside: avoid;
+    margin-bottom: var(--pinterest-gap, 24px);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pinterest-card:nth-child(1) { animation-delay: 0.1s; }
+.pinterest-card:nth-child(2) { animation-delay: 0.2s; }
+.pinterest-card:nth-child(3) { animation-delay: 0.3s; }
+.pinterest-card:nth-child(4) { animation-delay: 0.4s; }
+.pinterest-card:nth-child(5) { animation-delay: 0.5s; }
+.pinterest-card:nth-child(6) { animation-delay: 0.6s; }
+.pinterest-card:nth-child(n+7) { animation-delay: 0.7s; }
+
+.pinterest-card__inner {
+    position: relative;
+    background: #ffffff;
+    border-radius: var(--pinterest-card-radius, 16px);
+    box-shadow: var(--pinterest-card-shadow, 0 4px 12px rgba(0,0,0,0.08));
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.pinterest-card:hover .pinterest-card__inner {
+    box-shadow: var(--pinterest-card-shadow-hover, 0 8px 24px rgba(0,0,0,0.15));
+    transform: translateY(-4px);
+}
+
+.pinterest-card__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ================================
+   Card Image Section
+   ================================ */
+
+.pinterest-card__image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.pinterest-card__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.pinterest-card:hover .pinterest-card__image img {
+    transform: scale(1.05);
+}
+
+.pinterest-card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--pinterest-overlay-bg, linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.pinterest-card:hover .pinterest-card__overlay {
+    opacity: 1;
+}
+
+.pinterest-card__overlay-content {
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+.pinterest-card:hover .pinterest-card__overlay-content {
+    transform: translateY(0);
+}
+
+.pinterest-card__view {
+    display: inline-block;
+    background: #ffffff;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* ================================
+   Card Content Section
+   ================================ */
+
+.pinterest-card__content {
+    padding: 20px;
+}
+
+.pinterest-card__categories {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.pinterest-card__category {
+    display: inline-block;
+    background: #f0f0f0;
+    color: #555;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.pinterest-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 12px 0;
+    color: #1a1a1a;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.pinterest-card:hover .pinterest-card__title {
+    color: #e60023;
+}
+
+.pinterest-card__excerpt {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 16px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.pinterest-card__meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: #999;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.pinterest-card__author,
+.pinterest-card__date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.pinterest-card__author svg,
+.pinterest-card__date svg {
+    flex-shrink: 0;
+}
+
+/* ================================
+   Card Actions (Save Button)
+   ================================ */
+
+.pinterest-card__actions {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+}
+
+.pinterest-card__save {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.pinterest-card:hover .pinterest-card__save {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.pinterest-card__save:hover {
+    background: #e60023;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.pinterest-card__save svg {
+    width: 18px;
+    height: 18px;
+}
+
+.pinterest-card__save.active {
+    background: #e60023;
+    color: #ffffff;
+}
+
+/* ================================
+   Masonry Layout (JavaScript fallback)
+   ================================ */
+
+.pinterest-grid.masonry-layout {
+    display: block;
+}
+
+.pinterest-grid.masonry-layout .pinterest-card {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(25% - 24px);
+    margin-right: 24px;
+}
+
+@media (max-width: 1199px) {
+    .pinterest-grid.masonry-layout .pinterest-card {
+        width: calc(33.333% - 18px);
+        margin-right: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pinterest-grid.masonry-layout .pinterest-card {
+        width: calc(50% - 12px);
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 479px) {
+    .pinterest-grid.masonry-layout .pinterest-card {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+/* ================================
+   Loading State
+   ================================ */
+
+.pinterest-card.loading {
+    min-height: 400px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ================================
+   Custom Scrollbar
+   ================================ */
+
+.pinterest-card::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pinterest-card::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.pinterest-card::-webkit-scrollbar-thumb {
+    background: #e60023;
+    border-radius: 3px;
+}
+
+.pinterest-card::-webkit-scrollbar-thumb:hover {
+    background: #c4001d;
+}
+
+/* ================================
+   Print Styles
+   ================================ */
+
+@media print {
+    .pinterest-card__actions,
+    .pinterest-card__overlay {
+        display: none;
+    }
+    
+    .pinterest-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+/* ================================
+   Accessibility
+   ================================ */
+
+.pinterest-card:focus-within {
+    outline: 3px solid #e60023;
+    outline-offset: 2px;
+}
+
+.pinterest-card__save:focus,
+.pinterest-card__link:focus {
+    outline: 2px solid #e60023;
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pinterest-card,
+    .pinterest-card__inner,
+    .pinterest-card__image img,
+    .pinterest-card__overlay,
+    .pinterest-card__save {
+        animation: none;
+        transition: none;
+    }
+}
+
+/* ================================
+   Dark Mode Support
+   ================================ */
+
+@media (prefers-color-scheme: dark) {
+    .pinterest-card__inner {
+        background: #2a2a2a;
+    }
+    
+    .pinterest-card__title {
+        color: #ffffff;
+    }
+    
+    .pinterest-card__excerpt {
+        color: #b0b0b0;
+    }
+    
+    .pinterest-card__meta {
+        color: #888;
+        border-top-color: #3a3a3a;
+    }
+    
+    .pinterest-card__category {
+        background: #3a3a3a;
+        color: #b0b0b0;
+    }
+}
+
+/* ================================
+   Shortcode Grid Variant
+   ================================ */
+
+.pinterest-grid-shortcode {
+    display: grid;
+    grid-gap: var(--pinterest-gap, 24px);
+    margin: 40px 0;
+}
+
+/* Columns based on data attribute */
+.pinterest-grid-shortcode[data-columns="1"] { grid-template-columns: 1fr; }
+.pinterest-grid-shortcode[data-columns="2"] { grid-template-columns: repeat(2, 1fr); }
+.pinterest-grid-shortcode[data-columns="3"] { grid-template-columns: repeat(3, 1fr); }
+.pinterest-grid-shortcode[data-columns="4"] { grid-template-columns: repeat(4, 1fr); }
+.pinterest-grid-shortcode[data-columns="5"] { grid-template-columns: repeat(5, 1fr); }
+
+@media (max-width: 768px) {
+    .pinterest-grid-shortcode[data-columns="3"],
+    .pinterest-grid-shortcode[data-columns="4"],
+    .pinterest-grid-shortcode[data-columns="5"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .pinterest-grid-shortcode {
+        grid-template-columns: 1fr !important;
+    }
+}
