@@ -491,6 +491,184 @@ echo get_related_markets($thema, get_location());
 
 ---
 
+## Content Model
+
+### Content Types
+
+#### 1. Post (Inspiratie artikel)
+**Label:** Inspiratie artikel
+**URL Base:** `/inspiratie/{post_slug}/`
+**Must-have Taxonomies:** hs_thema, hs_techniek
+**Internal Links To:**
+- Workshops (relevant offers)
+- Hobbymaterialen (materials list/shops)
+- Creatieve markten (events in same thema)
+
+#### 2. Pattern (Patroon)
+**Label:** Patroon (crochet/knit/etc.)
+**URL Base:** `/inspiratie/patronen/{pattern_slug}/`
+**Must-have Taxonomies:** hs_thema, hs_techniek, difficulty, yarn_weight
+**Monetization Blocks:**
+- Featured yarn/materials (ads)
+- Related workshops
+
+#### 3. Tool Page (Calculator/tool)
+**Label:** Calculator/tool
+**URL Base:** `/tools/{tool_slug}/`
+**Internal Links To:**
+- Inspiratie artikelen (how-to)
+- Materials (recommended supplies)
+
+#### 4. Workshop (Workshop listing)
+**Label:** Workshop listing
+**URL Base:** `/workshops/{workshop_slug}/`
+**Taxonomies:** hs_thema, hs_techniek, location, date
+
+#### 5. Market Event (Creatieve markt/event)
+**Label:** Creatieve markt/event listing
+**URL Base:** `/creatieve-markten/{event_slug}/`
+**Taxonomies:** hs_thema, location, date
+
+#### 6. Product/Vendor (Hobbymateriaal)
+**Label:** Hobbymateriaal product & vendor
+**URL Base:** `/hobbymaterialen/{...}/`
+**Taxonomies:** hs_thema, product_category, brand
+
+---
+
+## Monetization Rules
+
+### Primary: Advertising Spaces
+
+**Ad Products:**
+
+#### 1. Featured Workshop Slot
+**Placement:** Inspiratie thema/techniek archive + article sidebar
+**Sold As:** Fixed slots per week/month
+
+#### 2. Featured Market Slot
+**Placement:** Creatieve markten listing + relevant inspiratie pages
+**Sold As:** Fixed slots
+
+#### 3. Featured Product Slot
+**Placement:** Materials blocks inside inspiration/pattern pages
+**Sold As:** CPC/CPA or fixed placement
+
+### Content Rendering Rules
+
+**Every Inspiratie Article Renders:**
+- 1x related workshop slot
+- 1x materials slot
+- 1x related market slot (optional)
+
+**Archives (Thema/Techniek) Render:**
+- Top featured slots above fold
+
+---
+
+## Current Status & Mapping
+
+### Mapping Rules (Current State)
+
+**Source Taxonomy:** wp_category
+
+**Derived Taxonomies:**
+1. **hs_techniek:** 1-op-1 mapping from category slug
+2. **hs_thema:** Via techniek → thema mapping
+
+**Note:** Some thema have 0 posts until extra technieken/categories exist:
+- `verf-penseel`
+- `lens-licht`
+- `kinderen-ouder-kind`
+
+### Status Snapshot
+
+**Published Posts:** 170
+
+**Taxonomy Relations:**
+- hs_thema: 192 relations
+- hs_techniek: 260 relations
+
+**Top Thema Counts:**
+1. wol-naald: 50 posts
+2. huis-sfeer: 45 posts
+3. papier-pen: 34 posts
+4. diy-upcycling: 31 posts
+
+---
+
+## Technical Implementation
+
+### WordPress Migration Strategy
+
+**Phase 1: Taxonomy Creation**
+```sql
+-- Create hs_thema taxonomy
+CREATE TABLE wp_hs_thema (
+  term_id bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  name varchar(200) NOT NULL,
+  slug varchar(200) NOT NULL,
+  term_group bigint(10) DEFAULT 0,
+  PRIMARY KEY (term_id),
+  UNIQUE KEY slug (slug)
+);
+
+-- Create hs_techniek taxonomy
+CREATE TABLE wp_hs_techniek (
+  term_id bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  name varchar(200) NOT NULL,
+  slug varchar(200) NOT NULL,
+  term_group bigint(10) DEFAULT 0,
+  PRIMARY KEY (term_id),
+  UNIQUE KEY slug (slug)
+);
+
+-- Create relationship tables
+CREATE TABLE wp_post_hs_thema (
+  post_id bigint(20) UNSIGNED NOT NULL,
+  hs_thema_id bigint(20) UNSIGNED NOT NULL,
+  PRIMARY KEY (post_id, hs_thema_id)
+);
+
+CREATE TABLE wp_post_hs_techniek (
+  post_id bigint(20) UNSIGNED NOT NULL,
+  hs_techniek_id bigint(20) UNSIGNED NOT NULL,
+  PRIMARY KEY (post_id, hs_techniek_id)
+);
+```
+
+**Phase 2: Category Migration**
+```sql
+-- Map wp_category to hs_techniek (1-on-1)
+INSERT INTO wp_post_hs_techniek (post_id, hs_techniek_id)
+SELECT 
+  p.ID as post_id,
+  t.term_id as hs_techniek_id
+FROM wp_posts p
+JOIN wp_term_relationships tr ON p.ID = tr.object_id
+JOIN wp_term_taxonomy tt ON tr.term_taxonomy_id = tt.term_taxonomy_id
+JOIN wp_terms t ON tt.term_id = t.term_id
+WHERE tt.taxonomy = 'category'
+AND t.slug IN (
+  'haken', 'breien', 'kaarten-maken', /* ... all techniek slugs ... */
+);
+```
+
+**Phase 3: Thema Mapping**
+```sql
+-- Map hs_techniek to hs_thema
+-- Example: haken → wol-naald
+INSERT INTO wp_post_hs_thema (post_id, hs_thema_id)
+SELECT 
+  pht.post_id,
+  (SELECT term_id FROM wp_hs_thema WHERE slug = 'wol-naald')
+FROM wp_post_hs_techniek pht
+JOIN wp_hs_techniek ht ON pht.hs_techniek_id = ht.term_id
+WHERE ht.slug IN ('haken', 'breien', 'macrame');
+```
+
+---
+
 ## Files & Resources
 
 **WordPress Site:**

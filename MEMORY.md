@@ -761,3 +761,63 @@ Revenue: booking + ad impression
 
 **Status:** IA complete and approved. Ready for implementation.
 **Last Updated:** 2026-02-16 14:00 UTC
+
+---
+
+## Content Model Details
+
+**Content Types:**
+1. **Post** (Inspiratie artikel) - `/inspiratie/{post_slug}/`
+   - Must have: hs_thema, hs_techniek
+   - Internal links to: workshops, materials, markets
+
+2. **Pattern** (Patroon) - `/inspiratie/patronen/{pattern_slug}/`
+   - Must have: hs_thema, hs_techniek, difficulty, yarn_weight
+   - Monetization: featured materials, related workshops
+
+3. **Tool Page** (Calculator) - `/tools/{tool_slug}/`
+   - Internal links to: inspiratie articles, materials
+
+4. **Workshop** - `/workshops/{workshop_slug}/`
+   - Taxonomies: hs_thema, hs_techniek, location, date
+
+5. **Market Event** - `/creatieve-markten/{event_slug}/`
+   - Taxonomies: hs_thema, location, date
+
+6. **Product/Vendor** - `/hobbymaterialen/{...}/`
+   - Taxonomies: hs_thema, product_category, brand
+
+**Monetization Rules:**
+- Every inspiratie article renders: 1x workshop slot, 1x materials slot, 1x market slot (optional)
+- Archives render: top featured slots above fold
+
+**Ad Products:**
+1. Featured Workshop Slot - Inspiratie pages (fixed/week)
+2. Featured Market Slot - Market listing + inspiratie (fixed)
+3. Featured Product Slot - Materials blocks (CPC/CPA or fixed)
+
+---
+
+## Current Site Status
+
+**Published Posts:** 170
+
+**Taxonomy Relations:**
+- hs_thema: 192 relations
+- hs_techniek: 260 relations
+
+**Top Thema Counts:**
+1. wol-naald: 50 posts
+2. huis-sfeer: 45 posts
+3. papier-pen: 34 posts
+4. diy-upcycling: 31 posts
+
+**Mapping Strategy:**
+- Source: wp_category
+- hs_techniek: 1-on-1 from category slug
+- hs_thema: via techniek → thema mapping
+
+**Empty Thema (need content):**
+- verf-penseel (0 posts)
+- lens-licht (0 posts)
+- kinderen-ouder-kind (0 posts)
