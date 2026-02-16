@@ -28,14 +28,14 @@
   - ✅ Test post created: ID 25321 "Dutch Cap"
 
 **READY TO EXECUTE:**
-- ✅ Test batch (5 patterns) imported successfully (2026-02-16 14:37 UTC)
-  - Post IDs: 25700, 25703, 25706, 25709, 25712
-  - All with proper formatting, images, alt text, and Ravelry links
-  - Fixed script removes \n characters, uses full Ravelry URLs
-  - Images uploaded with alt text (pattern name)
-- ⏳ Quality check imported patterns (verify formatting works)
-- ⏳ Publish quality posts (80+ score)
-- ⏳ Import remaining 217 Ravelry patterns
+- ✅ Test batch (5 patterns) imported successfully with images (2026-02-16 14:58 UTC)
+  - Post IDs: 25715, 25718, 25721, 25724, 25727
+  - Images NOW EMBEDDED in content (not just featured image)
+  - All with proper formatting, alt text, and full Ravelry URLs
+  - Image tags: <img src="..." alt="Pattern Name" />
+  - Verified images load (HTTP 200)
+- ⏳ Quality check and publish test posts
+- ⏳ Import remaining 217 Ravelry patterns (with embedded images)
 - ⏳ Add affiliate links to calculators
 - ⏳ Create category pages (breien, haken, gratis, betaald)
 

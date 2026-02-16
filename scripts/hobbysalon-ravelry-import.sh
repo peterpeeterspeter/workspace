@@ -93,12 +93,12 @@ import_patterns() {
     POST_TITLE="${PATTERN_NAME}"
     [ "${IS_FREE}" = "true" ] && POST_TITLE="Gratis: ${PATTERN_NAME}"
 
-    # Build HTML content (no newlines, let WordPress wpautop handle it)
+    # Build HTML content (image will be added after upload)
     POST_CONTENT="<p><strong>"
     if [ "${IS_FREE}" = "true" ]; then
-      POST_CONTENT+="✅ Gratis patroon door ${DESIGNER}!</strong></p>"
+      POST_CONTENT+="✅ Gratis patroon door ${DESIGNER}!</strong></p><p><!-- IMAGE_PLACEHOLDER --></p>"
     else
-      POST_CONTENT+="Patroon door ${DESIGNER}!</strong></p>"
+      POST_CONTENT+="Patroon door ${DESIGNER}!</strong></p><p><!-- IMAGE_PLACEHOLDER --></p>"
     fi
 
     POST_CONTENT+="<h3>Details</h3><ul><li><strong>Designer:</strong> ${DESIGNER}</li>"
@@ -187,11 +187,22 @@ import_patterns() {
             -H "Content-Type: application/json" \
             -d "{\"alt_text\": \"${POST_TITLE}\"}" > /dev/null
 
-          # Attach to post
+          # Get image URL
+          IMAGE_URL=$(curl -s "${WP_URL}/wp/v2/media/${FEATURED_ID}" \
+            -H "Authorization: Basic ${AUTH_BASE64}" | jq -r '.source_url')
+
+          # Add image to content and set featured image
+          POST_CONTENT_WITH_IMG=$(echo "${POST_CONTENT}" | sed "s|<!-- IMAGE_PLACEHOLDER -->|<img src=\"${IMAGE_URL}\" alt=\"${POST_TITLE}\" />|")
+
+          POST_JSON_UPDATE=$(jq -n \
+            --arg content "${POST_CONTENT_WITH_IMG}" \
+            --argjson featured_media "${FEATURED_ID}" \
+            '{content: $content, featured_media: $featured_media}')
+
           curl -s -X POST "${WP_URL}/wp/v2/posts/${POST_ID}" \
             -H "Authorization: Basic ${AUTH_BASE64}" \
             -H "Content-Type: application/json" \
-            -d "{\"featured_media\": ${FEATURED_ID}}" > /dev/null
+            -d "${POST_JSON_UPDATE}" > /dev/null
 
           log "${GREEN}   ✅ Image: ${FEATURED_ID}${NC}"
         fi
