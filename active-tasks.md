@@ -1,11 +1,37 @@
 # Active Tasks - Crash Recovery File
 
 **Purpose:** Read this FIRST on session restart to understand current state.
-**Updated:** 2026-02-15 20:00 UTC
+**Updated:** 2026-02-16 12:15 UTC
 
 ---
 
 ## Current Active Tasks
+
+### Hobby Crafters Tools - JUST COMPLETED
+
+**Carlottta (Coordinator) - Hobby Crafters Project (NEW)**
+- ✅ COMPLETED: Built 3 calculators (Yardage, Stash, Cost)
+  - ✅ Yardage Calculator: Calculate yarn needed for projects
+  - ✅ Stash Calculator: What can you make with your stash
+  - ✅ Cost Calculator: True project costs with ROI
+  - ✅ All tools: Standalone HTML + WordPress templates
+  - ✅ Mobile responsive, Tailwind CSS, production-ready
+  - ✅ Files sent to Peter via Telegram
+
+**Carlottta (Coordinator) - Ravelry Integration (NEW)**
+- ✅ COMPLETED: Ravelry to WordPress import pipeline
+  - ✅ Import script: ravelry-to-wordpress-import.sh
+  - ✅ Workflow script: ravelry-publish-workflow.sh
+  - ✅ Test script: test-ravelry-import-hobbysalon.sh
+  - ✅ Documentation: RAVELRY-TO-WORDPRESS-WORKFLOW.md
+  - ✅ hobbysalon.be connected and tested
+  - ✅ Test post created: ID 25321 "Dutch Cap"
+
+**READY TO EXECUTE:**
+- ⏳ Import 222 Ravelry patterns to hobbysalon.be (awaiting Peter's go-ahead)
+- ⏳ Quality check and publish imported patterns
+- ⏳ Add affiliate links to calculators
+- ⏳ Create category pages (breien, haken, gratis, betaald)
 
 ### Aimusicstore.com Implementation Phase 1
 
@@ -20,8 +46,9 @@
   - ✅ Frontend built and deployed to aimusicstore.com
   - ✅ Vote statistics (score, upvotes, downvotes, total)
 
-**Completed Today:**
+**Completed Earlier:**
 - ✅ Priority 2: Agent Registration API
+- ✅ Priority 3: Discovery API
   - POST /api/v1/agents/register - Register agents
   - GET /api/v1/agents/me - Get agent info
   - GET /api/v1/agents/list - List all agents

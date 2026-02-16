@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stash Calculator - Wat kun je maken?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .project-card {
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .project-possible {
+            border-left: 4px solid #10b981;
+        }
+        .project-maybe {
+            border-left: 4px solid #f59e0b;
+        }
+        .project-impossible {
+            border-left: 4px solid #ef4444;
+            opacity: 0.6;
+        }
+        input[type="number"]::-webkit-inner-spin-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full mb-4 shadow-lg">
+                <i class="fas fa-box-open text-3xl text-white"></i>
+            </div>
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Stash Calculator</h1>
+            <p class="text-gray-600">Ontdek wat je met je garn kunt maken 🧶</p>
+        </div>
+
+        <!-- Calculator Card -->
+        <div class="bg-white rounded-2xl card-shadow p-8 mb-8">
+            <form id="calculator" class="space-y-6">
+                <!-- Number of Balls -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-circle-notch mr-2 text-pink-500"></i>Aantal Ballen
+                    </label>
+                    <input type="number" id="numBalls" placeholder="5" min="1" value="5" required
+                        class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-pink-500 focus:outline-none transition">
+                </div>
+
+                <!-- Weight per Ball -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-weight-hanging mr-2 text-pink-500"></i>Gewicht per Bal (gram)
+                    </label>
+                    <input type="number" id="weightPerBall" placeholder="100" min="1" value="100" required
+                        class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-pink-500 focus:outline-none transition">
+                    <p class="text-sm text-gray-500 mt-1">Standaard: 50g of 100g</p>
+                </div>
+
+                <!-- Yarn Weight -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-layer-group mr-2 text-pink-500"></i>Garen Dikte
+                    </label>
+                    <select id="yarnWeight" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-pink-500 focus:outline-none transition">
+                        <option value="lace">Lace (2-ply) - 800-1000 m/100g</option>
+                        <option value="fingering">Fingering (4-ply) - 400-450 m/100g</option>
+                        <option value="sport">Sport (5-ply) - 300-350 m/100g</option>
+                        <option value="dk" selected>DK (8-ply) - 250-300 m/100g</option>
+                        <option value="worsted">Worsted (10-ply) - 200-225 m/100g</option>
+                        <option value="aran">Aran (10-ply) - 160-180 m/100g</option>
+                        <option value="bulky">Bulky (12-ply) - 120-140 m/100g</option>
+                        <option value="superbulky">Super Bulky (14-ply) - 80-100 m/100g</option>
+                    </select>
+                </div>
+
+                <!-- Calculate Button -->
+                <button type="submit" 
+                    class="w-full py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold rounded-xl hover:from-pink-600 hover:to-purple-700 transform hover:scale-[1.02] transition-all shadow-lg">
+                    <i class="fas fa-magic mr-2"></i>Bereken Mogelijke Projecten
+                </button>
+            </form>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="hidden">
+            <!-- Summary -->
+            <div class="bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl p-6 mb-8 text-white">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-xl font-bold"><i class="fas fa-check-circle mr-2"></a>Je Stash</h3>
+                    <button id="resetBtn" class="px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30 transition">
+                        <i class="fas fa-redo mr-2"></i>Opnieuw
+                    </button>
+                </div>
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <p class="text-sm opacity-90">Totaal Gewicht</p>
+                        <p id="totalWeight" class="text-2xl font-bold">0 g</p>
+                    </div>
+                    <div>
+                        <p class="text-sm opacity-90">Totaal Meters</p>
+                        <p id="totalMeters" class="text-2xl font-bold">0 m</p>
+                    </div>
+                    <div>
+                        <p class="text-sm opacity-90">Categorie</p>
+                        <p id="yarnCategory" class="text-2xl font-bold">DK</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                    <i class="fas fa-project-diagram mr-2 text-pink-500"></i>Mogelijke Projecten
+                </h3>
+                <div id="projectsList" class="space-y-3">
+                    <!-- Projects will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Shopping Suggestion -->
+            <div id="shoppingSuggestion" class="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-6">
+                <h4 class="font-bold text-yellow-800 mb-2">
+                    <i class="fas fa-shopping-cart mr-2"></i>Meer Garn Nodig?
+                </h4>
+                <p class="text-yellow-700" id="shoppingText"></p>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="mt-8 bg-white/80 backdrop-blur rounded-xl p-6">
+            <h3 class="font-bold text-lg mb-3 text-gray-800"><i class="fas fa-lightbulb mr-2 text-yellow-500"></i>Tips</h3>
+            <ul class="space-y-2 text-sm text-gray-600">
+                <li>• Hoeveelheid is indicatief - complexere patronen gebruiken meer garn</li>
+                <li>• Combineer kleuren voor grotere projecten (deken, vest)</li>
+                <li>• Rond altijd naar boven af bij twijfel</li>
+                <li>• Bewaar restjes voor kleine projecten (wanten, sokken)</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>Gemaakt voor hobby crafters 🧶</p>
+        </div>
+    </div>
+
+    <script>
+        // Yarn weight data (meters per 100g)
+        const yarnWeightData = {
+            lace: { min: 800, max: 1000, avg: 900 },
+            fingering: { min: 400, max: 450, avg: 425 },
+            sport: { min: 300, max: 350, avg: 325 },
+            dk: { min: 250, max: 300, avg: 275 },
+            worsted: { min: 200, max: 225, avg: 212 },
+            aran: { min: 160, max: 180, avg: 170 },
+            bulky: { min: 120, max: 140, avg: 130 },
+            superbulky: { min: 80, max: 100, avg: 90 }
+        };
+
+        // Project requirements (in meters)
+        const projects = [
+            { name: "Muts", category: "Sieraccessoires", minMeters: 100, maxMeters: 200, icon: "fa-hat-winter", level: "Beginner" },
+            { name: "Sjaal", category: "Sieraccessoires", minMeters: 200, maxMeters: 400, icon: "fa-scarf", level: "Beginner" },
+            { name: "Cowl", category: "Sieraccessoires", minMeters: 150, maxMeters: 300, icon: "fa-circle", level: "Beginner" },
+            { name: "Wanten", category: "Sieraccessoires", minMeters: 100, maxMeters: 200, icon: "fa-mitten", level: "Beginner" },
+            { name: "Muff", category: "Sieraccessoires", minMeters: 100, maxMeters: 150, icon: "fa-hand", level: "Beginner" },
+            { name: "Sokken (paar)", category: "Sokken", minMeters: 300, maxMeters: 450, icon: "fa-socks", level: "Gemiddeld" },
+            { name: "Mittens", category: "Sokken", minMeters: 150, maxMeters: 250, icon: "fa-mitten", level: "Beginner" },
+            { name: "Shawl", category: "Sieraccessoires", minMeters: 400, maxMeters: 800, icon: "fa-shawl", level: "Gemiddeld" },
+            { name: "Vest", category: "Kleding", minMeters: 600, maxMeters: 1000, icon: "fa-vest", level: "Gevorderd" },
+            { name: "Trui", category: "Kleding", minMeters: 800, maxMeters: 1500, icon: "fa-shirt", level: "Gevorderd" },
+            { name: "Cardigan", category: "Kleding", minMeters: 900, maxMeters: 1800, icon: "fa-vest-patches", level: "Gevorderd" },
+            { name: "Baby deken", category: "Dekens", minMeters: 400, maxMeters: 700, icon: "fa-baby", level: "Gemiddeld" },
+            { name: "Standaard deken", category: "Dekens", minMeters: 1200, maxMeters: 2500, icon: "fa-blanket", level: "Gevorderd" },
+            { name: "Grote deken", category: "Dekens", minMeters: 2500, maxMeters: 4500, icon: "fa-bed", level: "Expert" },
+            { name: "Tasje", category: "Accessoires", minMeters: 150, maxMeters: 300, icon: "fa-bag-shopping", level: "Gemiddeld" },
+            { name: "Telefoonhoesje", category: "Accessoires", minMeters: 50, maxMeters: 100, icon: "fa-mobile", level: "Beginner" },
+            { name: "Kussensloop", category: "Woonaccessoires", minMeters: 200, maxMeters: 400, icon: "fa-couch", level: "Beginner" },
+            { name: "Potholders (stel)", category: "Woonaccessoires", minMeters: 100, maxMeters: 150, icon: "fa-oven-mitt", level: "Beginner" },
+            { name: "Koekjeszakje", category: "Woonaccessoires", minMeters: 50, maxMeters: 100, icon: "fa-cookie", level: "Beginner" },
+            { name: "Kerstsok", category: "Seizoensgebonden", minMeters: 150, maxMeters: 250, icon: "fa-sleigh", level: "Beginner" },
+            { name: "Slippers", category: "Seizoensgebonden", minMeters: 200, maxMeters: 350, icon: "fa-shoe-prints", level: "Gemiddeld" }
+        ];
+
+        // Calculate
+        document.getElementById('calculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get values
+            const numBalls = parseInt(document.getElementById('numBalls').value);
+            const weightPerBall = parseInt(document.getElementById('weightPerBall').value);
+            const yarnWeight = document.getElementById('yarnWeight').value;
+            
+            // Calculate total weight and meters
+            const totalWeight = numBalls * weightPerBall;
+            const metersPer100g = yarnWeightData[yarnWeight].avg;
+            const totalMeters = Math.round((totalWeight / 100) * metersPer100g);
+            
+            // Update summary
+            document.getElementById('totalWeight').textContent = totalWeight + ' g';
+            document.getElementById('totalMeters').textContent = totalMeters + ' m';
+            document.getElementById('yarnCategory').textContent = yarnWeight.toUpperCase();
+            
+            // Clear and populate projects
+            const projectsList = document.getElementById('projectsList');
+            projectsList.innerHTML = '';
+            
+            let possibleCount = 0;
+            let maybeCount = 0;
+            let impossibleCount = 0;
+            
+            // Sort projects by required meters (smallest first)
+            const sortedProjects = projects.sort((a, b) => a.maxMeters - b.maxMeters);
+            
+            sortedProjects.forEach(project => {
+                const percentage = (totalMeters / project.maxMeters) * 100;
+                let status, statusClass, statusIcon;
+                
+                if (totalMeters >= project.maxMeters) {
+                    status = 'possible';
+                    statusClass = 'project-possible';
+                    statusIcon = '<i class="fas fa-check-circle text-green-500"></i>';
+                    possibleCount++;
+                } else if (totalMeters >= project.minMeters) {
+                    status = 'maybe';
+                    statusClass = 'project-maybe';
+                    statusIcon = '<i class="fas fa-exclamation-triangle text-yellow-500"></i>';
+                    maybeCount++;
+                } else {
+                    status = 'impossible';
+                    statusClass = 'project-impossible';
+                    statusIcon = '<i class="fas fa-times-circle text-red-500"></i>';
+                    impossibleCount++;
+                }
+                
+                const projectCard = `
+                    <div class="project-card ${statusClass} bg-white rounded-xl p-4 flex items-center justify-between">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-r from-pink-100 to-purple-100 rounded-full flex items-center justify-center">
+                                <i class="fas ${project.icon} text-pink-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">${project.name}</h4>
+                                <p class="text-sm text-gray-500">${project.category} • ${project.level}</p>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <div class="font-semibold text-gray-700">${statusIcon}</div>
+                            <p class="text-xs text-gray-500">${project.minMeters}-${project.maxMeters}m</p>
+                            ${status === 'maybe' ? `<p class="text-xs text-yellow-600">Nog ${project.maxMeters - totalMeters}m nodig</p>` : ''}
+                        </div>
+                    </div>
+                `;
+                
+                projectsList.innerHTML += projectCard;
+            });
+            
+            // Shopping suggestion
+            const shoppingText = document.getElementById('shoppingText');
+            if (possibleCount >= 3) {
+                shoppingText.innerHTML = `🎉 Je hebt genoeg voor <strong>${possibleCount}+ projecten</strong>! Bekijk patroonwebsites zoals Ravelry of LoveCrafts voor inspiratie.`;
+            } else if (possibleCount > 0) {
+                shoppingText.innerHTML = `Je kunt <strong>${possibleCount} project(en)</strong> maken. Voor meer opties, overweeg om <a href="https://www.lovecrafts.com/nl-nl/search/yarn?pref_n1=100" target="_blank" class="underline">nog wat garn bij te kopen</a>.`;
+            } else {
+                shoppingText.innerHTML = `Je hebt helaas niet genoeg voor een compleet project. Overweeg om <a href="https://www.lovecrafts.com/nl-nl/search/yarn?pref_n1=100" target="_blank" class="underline">nog wat bij te kopen</a> of combineer met een andere kleur!`;
+            }
+            
+            // Show results
+            document.getElementById('results').classList.remove('hidden');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Reset
+        document.getElementById('resetBtn').addEventListener('click', function() {
+            document.getElementById('results').classList.add('hidden');
+            document.getElementById('calculator').reset();
+            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

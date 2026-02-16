@@ -43,7 +43,7 @@ Social Media:
 Quality & Health:
   health-check <site> <post_id>         - Check article quality score
 
-Sites: crashcasino, crashgame, freecrash, cryptocrash
+Sites: crashcasino, crashgame, freecrash, cryptocrash, hobbysalon
 
 Examples:
   pinch-to-post publish crashcasino 123

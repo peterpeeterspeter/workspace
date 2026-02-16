@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yardage Calculator - Hobby Crafters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .result-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        input[type="number"]::-webkit-inner-spin-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen gradient-bg py-12 px-4">
+    <div class="max-w-2xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mb-4 shadow-lg">
+                <i class="fas fa-yarn text-3xl text-purple-600"></i>
+            </div>
+            <h1 class="text-4xl font-bold text-white mb-2">Yardage Calculator</h1>
+            <p class="text-purple-100">Bereken hoeveel garn je nodig hebt voor je project</p>
+        </div>
+
+        <!-- Calculator Card -->
+        <div class="bg-white rounded-2xl card-shadow p-8">
+            <form id="calculator" class="space-y-6">
+                <!-- Project Type -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-project-diagram mr-2 text-purple-600"></i>Project Type
+                    </label>
+                    <select id="projectType" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                        <option value="scarf">Sjaal</option>
+                        <option value="hat">Muts</option>
+                        <option value="sweater">Trui</option>
+                        <option value="cardigan">Cardigan</option>
+                        <option value="socks">Sokken</option>
+                        <option value="blanket">Deken</option>
+                        <option value="shawl">Sjaal/Shawl</option>
+                        <option value="mittens">Wanten</option>
+                        <option value="custom">Eigen Ontwerp</option>
+                    </select>
+                </div>
+
+                <!-- Dimensions -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">
+                            <i class="fas fa-ruler-horizontal mr-2 text-purple-600"></i>Breedte (cm)
+                        </label>
+                        <input type="number" id="width" placeholder="25" min="1" required
+                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">
+                            <i class="fas fa-ruler-vertical mr-2 text-purple-600"></i>Lengte (cm)
+                        </label>
+                        <input type="number" id="length" placeholder="150" min="1" required
+                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                    </div>
+                </div>
+
+                <!-- Yarn Weight -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-weight-hanging mr-2 text-purple-600"></i>Garen Dikte
+                    </label>
+                    <select id="yarnWeight" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                        <option value="lace">Lace (2-ply) - 800-1000 m/100g</option>
+                        <option value="fingering">Fingering (4-ply) - 400-450 m/100g</option>
+                        <option value="sport">Sport (5-ply) - 300-350 m/100g</option>
+                        <option value="dk" selected>DK (8-ply) - 250-300 m/100g</option>
+                        <option value="worsted">Worsted (10-ply) - 200-225 m/100g</option>
+                        <option value="aran">Aran (10-ply) - 160-180 m/100g</option>
+                        <option value="bulky">Bulky (12-ply) - 120-140 m/100g</option>
+                        <option value="superbulky">Super Bulky (14-ply) - 80-100 m/100g</option>
+                    </select>
+                </div>
+
+                <!-- Tension/Gauge -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">
+                            <i class="fas fa-th mr-2 text-purple-600"></i>Steken (10 cm)
+                        </label>
+                        <input type="number" id="stitches" placeholder="18" min="1" required
+                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">
+                            <i class="fas fa-bars mr-2 text-purple-600"></i>Toeren (10 cm)
+                        </label>
+                        <input type="number" id="rows" placeholder="24" min="1" required
+                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                    </div>
+                </div>
+
+                <!-- Safety Margin -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">
+                        <i class="fas fa-shield-alt mr-2 text-purple-600"></i>Veiligheidsmarge
+                    </label>
+                    <div class="flex items-center gap-4">
+                        <input type="range" id="margin" min="0" max="30" value="15" 
+                            class="flex-1 h-2 bg-purple-200 rounded-lg appearance-none cursor-pointer">
+                        <span id="marginValue" class="text-lg font-semibold text-purple-600 w-16 text-center">15%</span>
+                    </div>
+                </div>
+
+                <!-- Calculate Button -->
+                <button type="submit" 
+                    class="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl hover:from-purple-700 hover:to-pink-700 transform hover:scale-[1.02] transition-all shadow-lg">
+                    <i class="fas fa-calculator mr-2"></i>Bereken Yardage
+                </button>
+            </form>
+
+            <!-- Result -->
+            <div id="result" class="hidden mt-8">
+                <div class="result-card rounded-2xl p-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold"><i class="fas fa-check-circle mr-2"></i>Resultaat</h3>
+                        <button id="resetBtn" class="px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30 transition">
+                            <i class="fas fa-redo mr-2"></i>Nieuwe Berekening
+                        </button>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white/20 rounded-xl p-4">
+                            <p class="text-sm opacity-90">Benodigd Garen</p>
+                            <p id="totalMeters" class="text-3xl font-bold">0 m</p>
+                            <p id="totalYards" class="text-sm opacity-90">0 yards</p>
+                        </div>
+                        <div class="bg-white/20 rounded-xl p-4">
+                            <p class="text-sm opacity-90">Aantal Ballen</p>
+                            <p id="totalBalls" class="text-3xl font-bold">0</p>
+                            <p id="ballSize" class="text-sm opacity-90">100g/bal</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-4 bg-white/20 rounded-xl">
+                        <p class="text-sm font-semibold mb-2"><i class="fas fa-info-circle mr-2"></i>Inclusief veiligheidsmarge: <span id="marginIncluded">15%</span></p>
+                        <p id="baseMeters" class="text-sm opacity-90">Basis: 0 m (zonder marge)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="mt-8 bg-white/10 backdrop-blur rounded-2xl p-6 text-white">
+            <h3 class="font-bold text-lg mb-3"><i class="fas fa-lightbulb mr-2"></i>Tips</h3>
+            <ul class="space-y-2 text-sm">
+                <li>• Controleer altijd je gauge/swatch voor accurate resultaten</li>
+                <li>• Complexere patroonen (kabels, lace) hebben meer garn nodig</li>
+                <li>• Bij twijfel: rond altijd naar boven af</li>
+                <li>• Hou rekening met naald/haken maat - groter = meer garn</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-purple-100 text-sm">
+            <p>Gemaakt voor hobby crafters 🧶</p>
+        </div>
+    </div>
+
+    <script>
+        // Yarn weight data (meters per 100g)
+        const yarnWeightData = {
+            lace: { min: 800, max: 1000, avg: 900 },
+            fingering: { min: 400, max: 450, avg: 425 },
+            sport: { min: 300, max: 350, avg: 325 },
+            dk: { min: 250, max: 300, avg: 275 },
+            worsted: { min: 200, max: 225, avg: 212 },
+            aran: { min: 160, max: 180, avg: 170 },
+            bulky: { min: 120, max: 140, avg: 130 },
+            superbulky: { min: 80, max: 100, avg: 90 }
+        };
+
+        // Update margin display
+        document.getElementById('margin').addEventListener('input', (e) => {
+            document.getElementById('marginValue').textContent = e.target.value + '%';
+        });
+
+        // Project type presets
+        const projectPresets = {
+            scarf: { width: 25, length: 150, stitches: 18, rows: 24 },
+            hat: { width: 55, length: 25, stitches: 20, rows: 28 },
+            sweater: { width: 50, length: 65, stitches: 18, rows: 24 },
+            cardigan: { width: 55, length: 70, stitches: 18, rows: 24 },
+            socks: { width: 20, length: 60, stitches: 28, rows: 36 },
+            blanket: { width: 100, length: 150, stitches: 16, rows: 20 },
+            shawl: { width: 60, length: 180, stitches: 20, rows: 28 },
+            mittens: { width: 18, length: 25, stitches: 24, rows: 32 },
+            custom: { width: '', length: '', stitches: '', rows: '' }
+        };
+
+        // Auto-fill on project type change
+        document.getElementById('projectType').addEventListener('change', (e) => {
+            const preset = projectPresets[e.target.value];
+            if (preset && e.target.value !== 'custom') {
+                document.getElementById('width').value = preset.width;
+                document.getElementById('length').value = preset.length;
+                document.getElementById('stitches').value = preset.stitches;
+                document.getElementById('rows').value = preset.rows;
+            }
+        });
+
+        // Calculate
+        document.getElementById('calculator').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get values
+            const width = parseFloat(document.getElementById('width').value);
+            const length = parseFloat(document.getElementById('length').value);
+            const stitches = parseInt(document.getElementById('stitches').value);
+            const rows = parseInt(document.getElementById('rows').value);
+            const yarnWeight = document.getElementById('yarnWeight').value;
+            const margin = parseInt(document.getElementById('margin').value) / 100;
+
+            // Calculate total stitches needed
+            const totalWidthStitches = (width / 10) * stitches;
+            const totalLengthRows = (length / 10) * rows;
+            const totalStitches = totalWidthStitches * totalLengthRows;
+
+            // Calculate yarn needed (rough estimation: 1 stitch ≈ 1.5-2x yarn diameter)
+            // Using standard multiplier based on yarn weight
+            const yarnData = yarnWeightData[yarnWeight];
+            const metersPer100g = yarnData.avg;
+            
+            // Calculate base meters needed (formula based on stitch count × yarn weight factor)
+            const baseMultiplier = metersPer100g / 100; // meters per gram
+            const stitchLength = 100 / metersPer100g; // length of 1 stitch in meters
+            let baseMeters = totalStitches * stitchLength * 2; // ×2 for overage
+            
+            // Add complexity factor based on project type
+            const projectType = document.getElementById('projectType').value;
+            const complexityFactors = {
+                scarf: 1.0,
+                hat: 1.1,
+                sweater: 1.3,
+                cardigan: 1.35,
+                socks: 1.15,
+                blanket: 1.2,
+                shawl: 1.25,
+                mittens: 1.05,
+                custom: 1.0
+            };
+            
+            baseMeters = baseMeters * (complexityFactors[projectType] || 1.0);
+
+            // Apply safety margin
+            const totalMeters = Math.ceil(baseMeters * (1 + margin));
+            const totalYards = Math.ceil(totalMeters * 1.09361);
+
+            // Calculate balls (assuming 100g balls)
+            const gramsNeeded = (totalMeters / metersPer100g) * 100;
+            const totalBalls = Math.ceil(gramsNeeded / 100);
+
+            // Display results
+            document.getElementById('totalMeters').textContent = totalMeters + ' m';
+            document.getElementById('totalYards').textContent = totalYards + ' yards';
+            document.getElementById('totalBalls').textContent = totalBalls;
+            document.getElementById('marginIncluded').textContent = (margin * 100) + '%';
+            document.getElementById('baseMeters').textContent = `Basis: ${Math.ceil(baseMeters)} m (zonder marge)`;
+
+            // Show result
+            document.getElementById('result').classList.remove('hidden');
+            document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Reset
+        document.getElementById('resetBtn').addEventListener('click', () => {
+            document.getElementById('result').classList.add('hidden');
+            document.getElementById('calculator').reset();
+            document.getElementById('marginValue').textContent = '15%';
+            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

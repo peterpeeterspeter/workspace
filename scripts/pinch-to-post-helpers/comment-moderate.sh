@@ -40,7 +40,7 @@ SITE="$1"
 ACTION="$2"
 
 # Validate site
-VALID_SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash")
+VALID_SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash" "hobbysalon")
 if [[ ! " ${VALID_SITES[@]} " =~ " ${SITE} " ]]; then
   echo -e "${RED}Error: Invalid site '${SITE}'${NC}"
   echo "Valid sites: ${VALID_SITES[*]}"

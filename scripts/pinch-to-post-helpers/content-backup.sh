@@ -38,7 +38,7 @@ mkdir -p "$BACKUP_DIR"
 
 # Sites to backup
 if [[ "$SITE" == "all" ]]; then
-  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash")
+  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash" "hobbysalon")
 else
   SITES=("$SITE")
 fi

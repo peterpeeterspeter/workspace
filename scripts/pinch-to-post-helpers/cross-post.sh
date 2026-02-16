@@ -56,7 +56,7 @@ fi
 IFS=',' read -ra SITES <<< "$SITES_CSV"
 
 # Validate sites
-VALID_SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash")
+VALID_SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash" "hobbysalon")
 for site in "${SITES[@]}"; do
   site=$(echo "$site" | xargs)  # trim whitespace
   if [[ ! " ${VALID_SITES[@]} " =~ " ${site} " ]]; then

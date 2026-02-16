@@ -1,0 +1,36 @@
+{
+  "total_items": 50,
+  "titles": [
+    "Zelf maken met VILT en LINTJES",
+    "Zelf maken met STRIJKKRALEN",
+    "Zelf maken met HAAKKATOEN en BLIKJES",
+    "Zelf maken met VILT en LINT",
+    "Zelf maken met HOUT",
+    "Zelf maken met HAAKGAREN",
+    "Zelf maken met PAPIER en BORDUURGAREN",
+    "Zelf maken met PAPIER",
+    "Zelf maken met GAREN en PAPIER",
+    "Zelf maken met STOF",
+    "Zelf maken met BORDUURGAREN",
+    "Zelf maken met STOF en VILT",
+    "Zelf maken met VILT",
+    "Zelf maken met BREIGAREN",
+    "Zelf maken met GUM",
+    "Zelf maken met TEXTIELGAREN",
+    "Zelf maken met KRALEN",
+    "Zelf maken met HAAKKATOEN"
+  ],
+  "categories": {
+    "techniek": "Techniek",
+    "materiaal": "Materiaal",
+    "onderwerp": "Onderwerp",
+    "thema": "Thema"
+  },
+  "image_samples": [
+    "jpg",
+    "jpeg",
+    "png"
+  ],
+  "tags": [],
+  "snapshot_url": "http://web.archive.org/web/20150907051323/http://www.freubelweb.nl/"
+}

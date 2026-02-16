@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Calculator - Hoeveel kost je project?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .result-positive {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+        .result-negative {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        }
+        input[type="number"]::-webkit-inner-spin-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-50 py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full mb-4 shadow-lg">
+                <i class="fas fa-euro-sign text-3xl text-white"></i>
+            </div>
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Cost Calculator</h1>
+            <p class="text-gray-600">Bereken de echte kosten van je project 💰</p>
+        </div>
+
+        <!-- Calculator Card -->
+        <div class="bg-white rounded-2xl card-shadow p-8 mb-8">
+            <form id="calculator" class="space-y-6">
+                <!-- Materials Section -->
+                <div class="border-2 border-purple-100 rounded-xl p-6">
+                    <h3 class="font-bold text-lg text-gray-800 mb-4">
+                        <i class="fas fa-box-open mr-2 text-purple-500"></i>Materialen
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Garn (€)</label>
+                            <input type="number" id="yarnCost" placeholder="25" min="0" step="0.01" required
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Naalden/Haken (€)</label>
+                            <input type="number" id="needlesCost" placeholder="15" min="0" step="0.01" required
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Accessoires (€)</label>
+                            <input type="number" id="accessoriesCost" placeholder="5" min="0" step="0.01" required
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                            <p class="text-xs text-gray-500 mt-1">Knopen, rits, label etc.</p>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Overige (€)</label>
+                            <input type="number" id="otherCost" placeholder="0" min="0" step="0.01"
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Time Section -->
+                <div class="border-2 border-indigo-100 rounded-xl p-6">
+                    <h3 class="font-bold text-lg text-gray-800 mb-4">
+                        <i class="fas fa-clock mr-2 text-indigo-500"></i>Tijd
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Aantal Uur</label>
+                            <input type="number" id="hoursSpent" placeholder="20" min="0" required
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Uurloon (€)</label>
+                            <input type="number" id="hourlyRate" placeholder="15" min="0" step="0.01"
+                                class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none transition">
+                            <p class="text-xs text-gray-500 mt-1">Optioneel (voor verkoop/klanten)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comparison -->
+                <div class="border-2 border-pink-100 rounded-xl p-6">
+                    <h3 class="font-bold text-lg text-gray-800 mb-4">
+                        <i class="fas fa-balance-scale mr-2 text-pink-500"></i>Vergelijking
+                    </h3>
+                    
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Vergelijkbaar Product in Winkel (€)</label>
+                        <input type="number" id="storePrice" placeholder="89" min="0" step="0.01"
+                            class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-pink-500 focus:outline-none transition">
+                        <p class="text-xs text-gray-500 mt-1">Optioneel - voor ROI berekening</p>
+                    </div>
+                </div>
+
+                <!-- Calculate Button -->
+                <button type="submit" 
+                    class="w-full py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold rounded-xl hover:from-indigo-600 hover:to-purple-700 transform hover:scale-[1.02] transition-all shadow-lg">
+                    <i class="fas fa-calculator mr-2"></i>Bereken Kosten
+                </button>
+            </form>
+        </div>
+
+        <!-- Results -->
+        <div id="results" class="hidden">
+            <!-- Main Result -->
+            <div id="resultCard" class="rounded-2xl p-6 mb-8 text-white">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-xl font-bold"><i class="fas fa-receipt mr-2"></i>Kostenoverzicht</h3>
+                    <button id="resetBtn" class="px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30 transition">
+                        <i class="fas fa-redo mr-2"></i>Opnieuw
+                    </button>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div>
+                        <p class="text-sm opacity-90">Materialen</p>
+                        <p id="totalMaterials" class="text-2xl font-bold">€0</p>
+                    </div>
+                    <div>
+                        <p class="text-sm opacity-90">Tijd (€)</p>
+                        <p id="timeValue" class="text-2xl font-bold">€0</p>
+                    </div>
+                    <div>
+                        <p class="text-sm opacity-90">Totaal</p>
+                        <p id="totalCost" class="text-2xl font-bold">€0</p>
+                    </div>
+                    <div>
+                        <p class="text-sm opacity-90">Uurloon</p>
+                        <p id="effectiveHourlyRate" class="text-2xl font-bold">€0</p>
+                    </div>
+                </div>
+
+                <!-- ROI Section -->
+                <div id="roiSection" class="bg-white/20 rounded-xl p-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-sm opacity-90" id="roiLabel">ROI vs. Winkel</p>
+                            <p id="roiValue" class="text-3xl font-bold mt-1">€0</p>
+                        </div>
+                        <div id="roiIcon" class="text-5xl"></div>
+                    </div>
+                    <p id="roiExplanation" class="text-sm mt-3 opacity-90"></p>
+                </div>
+            </div>
+
+            <!-- Detailed Breakdown -->
+            <div class="bg-white rounded-xl p-6 mb-6">
+                <h4 class="font-bold text-gray-800 mb-4"><i class="fas fa-list-ul mr-2"></i>Details</h4>
+                <div id="breakdown" class="space-y-3">
+                    <!-- Breakdown items will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Insights -->
+            <div id="insights" class="bg-gradient-to-r from-purple-50 to-indigo-50 border-2 border-purple-200 rounded-xl p-6">
+                <h4 class="font-bold text-purple-800 mb-3"><i class="fas fa-lightbulb mr-2"></i>Inzichten</h4>
+                <ul id="insightsList" class="space-y-2 text-sm text-purple-700">
+                    <!-- Insights will be inserted here -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="mt-8 bg-white/80 backdrop-blur rounded-xl p-6">
+            <h3 class="font-bold text-lg mb-3 text-gray-800"><i class="fas fa-info-circle mr-2 text-blue-500"></i>Over deze Calculator</h3>
+            <ul class="space-y-2 text-sm text-gray-600">
+                <li>• <strong>Hobby project:</strong> Tel alleen materialen (geen uurloon)</li>
+                <li>• <strong>Verkoop/klanten:</strong> Voeg uurloon toe voor echte kosten</li>
+                <li>• <strong>ROI vergelijking:</strong> Zie hoeveel je bespaart vs. winkel</li>
+                <li>• <strong>Tijd tracking:</strong> Houd bij hoe lang je echt werkt aan projecten</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="mt-8 text-center text-gray-500 text-sm">
+            <p>Betaalbaar rekenen 🧮</p>
+        </div>
+    </div>
+
+    <script>
+        // Calculate
+        document.getElementById('calculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get values
+            const yarnCost = parseFloat(document.getElementById('yarnCost').value) || 0;
+            const needlesCost = parseFloat(document.getElementById('needlesCost').value) || 0;
+            const accessoriesCost = parseFloat(document.getElementById('accessoriesCost').value) || 0;
+            const otherCost = parseFloat(document.getElementById('otherCost').value) || 0;
+            
+            const hoursSpent = parseFloat(document.getElementById('hoursSpent').value) || 0;
+            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value) || 0;
+            const storePrice = parseFloat(document.getElementById('storePrice').value) || 0;
+            
+            // Calculate totals
+            const totalMaterials = yarnCost + needlesCost + accessoriesCost + otherCost;
+            const timeValue = hoursSpent * hourlyRate;
+            const totalCost = totalMaterials + timeValue;
+            
+            // Calculate effective hourly rate (if comparing to store)
+            const effectiveHourlyRate = storePrice > 0 && hoursSpent > 0 ? 
+                ((storePrice - totalMaterials) / hoursSpent).toFixed(2) : 0;
+            
+            // Update main result
+            document.getElementById('totalMaterials').textContent = '€' + totalMaterials.toFixed(2);
+            document.getElementById('timeValue').textContent = '€' + timeValue.toFixed(2);
+            document.getElementById('totalCost').textContent = '€' + totalCost.toFixed(2);
+            document.getElementById('effectiveHourlyRate').textContent = '€' + effectiveHourlyRate;
+            
+            // Determine result card color
+            const resultCard = document.getElementById('resultCard');
+            const hasHourlyRate = hourlyRate > 0;
+            
+            if (hasHourlyRate) {
+                resultCard.className = 'rounded-2xl p-6 mb-8 text-white result-positive';
+            } else {
+                resultCard.className = 'rounded-2xl p-6 mb-8 text-white result-negative';
+            }
+            
+            // ROI section
+            const roiSection = document.getElementById('roiSection');
+            const roiLabel = document.getElementById('roiLabel');
+            const roiValue = document.getElementById('roiValue');
+            const roiIcon = document.getElementById('roiIcon');
+            const roiExplanation = document.getElementById('roiExplanation');
+            
+            if (storePrice > 0) {
+                const roi = storePrice - totalCost;
+                
+                if (roi > 0) {
+                    roiLabel.textContent = 'Je bespaart vs. winkel:';
+                    roiValue.textContent = '€' + roi.toFixed(2);
+                    roiIcon.textContent = '🎉';
+                    roiExplanation.textContent = `Door het zelf te maken bespaar je €${roi.toFixed(2)} vergeleken met een vergelijkbaar product in de winkel van €${storePrice.toFixed(2)}.`;
+                } else {
+                    roiLabel.textContent = 'Meer kosten dan winkel:';
+                    roiValue.textContent = '€' + Math.abs(roi).toFixed(2);
+                    roiIcon.textContent = '💸';
+                    roiExplanation.textContent = `Dit project kost €${Math.abs(roi).toFixed(2)} meer dan in de winkel. Maar je hebt wel een uniek, handgemaakt item!`;
+                }
+                
+                roiSection.classList.remove('hidden');
+            } else {
+                roiSection.classList.add('hidden');
+            }
+            
+            // Detailed breakdown
+            const breakdown = document.getElementById('breakdown');
+            breakdown.innerHTML = '';
+            
+            const breakdownItems = [
+                { label: 'Garn', value: yarnCost, icon: 'fa-circle-notch' },
+                { label: 'Naalden/Haken', value: needlesCost, icon: 'fa-pen' },
+                { label: 'Accessoires', value: accessoriesCost, icon: 'fa-puzzle-piece' },
+                { label: 'Overige', value: otherCost, icon: 'fa-plus' }
+            ];
+            
+            breakdownItems.forEach(item => {
+                if (item.value > 0) {
+                    breakdown.innerHTML += `
+                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                            <div class="flex items-center space-x-3">
+                                <i class="fas ${item.icon} text-purple-500"></i>
+                                <span class="text-gray-700">${item.label}</span>
+                            </div>
+                            <span class="font-semibold text-gray-800">€${item.value.toFixed(2)}</span>
+                        </div>
+                    `;
+                }
+            });
+            
+            if (timeValue > 0) {
+                breakdown.innerHTML += `
+                    <div class="flex items-center justify-between p-3 bg-purple-50 rounded-lg border-2 border-purple-200">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-clock text-purple-500"></i>
+                            <span class="text-gray-700">Tijd (${hoursSpent}u × €${hourlyRate}/u)</span>
+                        </div>
+                        <span class="font-semibold text-gray-800">€${timeValue.toFixed(2)}</span>
+                    </div>
+                `;
+            }
+            
+            // Insights
+            const insightsList = document.getElementById('insightsList');
+            insightsList.innerHTML = '';
+            
+            const insights = [];
+            
+            // Material cost percentage
+            if (totalCost > 0) {
+                const materialPercent = (totalMaterials / totalCost * 100).toFixed(0);
+                insights.push(`📊 Materialen maken <strong>${materialPercent}%</strong> uit van de totale kosten`);
+            }
+            
+            // Time value
+            if (hourlyRate > 0) {
+                insights.push(`⏰ Met een uurloon van €${hourlyRate}/uur is je tijd <strong>€${timeValue.toFixed(2)}</strong> waard`);
+            } else {
+                insights.push(`⏰ Je besteedt <strong>${hoursSpent} uur</strong> aan dit project (geen uurloon meegerekend)`);
+            }
+            
+            // Store comparison
+            if (storePrice > 0) {
+                const diff = storePrice - totalCost;
+                const percent = (diff / storePrice * 100).toFixed(0);
+                if (diff > 0) {
+                    insights.push(`💰 Je bespaart <strong>${percent}%</strong> ten opzichte van de winkelprijs`);
+                } else {
+                    insights.push(`💎 Handgemaakt kwaliteit - uniek en met liefde gemaakt`);
+                }
+            }
+            
+            // Yarn cost
+            const yarnPercent = (yarnCost / totalMaterials * 100).toFixed(0);
+            insights.push(`🧶 Garn is <strong>${yarnPercent}%</strong> van je materiaalkosten`);
+            
+            // Effective hourly rate
+            if (storePrice > 0 && hoursSpent > 0 && hourlyRate === 0) {
+                const effective = (storePrice - totalMaterials) / hoursSpent;
+                insights.push(`💡 Als je dit voor €${storePrice.toFixed(2)} zou verkopen, is je effectieve uurloon <strong>€${effective.toFixed(2)}/uur</strong>`);
+            }
+            
+            insights.forEach(insight => {
+                insightsList.innerHTML += `<li>${insight}</li>`;
+            });
+            
+            // Show results
+            document.getElementById('results').classList.remove('hidden');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Reset
+        document.getElementById('resetBtn').addEventListener('click', function() {
+            document.getElementById('results').classList.add('hidden');
+            document.getElementById('calculator').reset();
+            document.getElementById('calculator').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

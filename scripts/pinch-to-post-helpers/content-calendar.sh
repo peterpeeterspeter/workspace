@@ -48,7 +48,7 @@ LAST_DAY="${YEAR}-${MON}-31T23:59:59"
 
 # Sites to query
 if [[ "$SITE" == "all" ]]; then
-  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash")
+  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash" "hobbysalon")
 else
   SITES=("$SITE")
 fi

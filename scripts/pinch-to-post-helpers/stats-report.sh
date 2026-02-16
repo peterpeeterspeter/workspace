@@ -29,7 +29,7 @@ SITE="${1:-all}"
 
 # Sites to query
 if [[ "$SITE" == "all" ]]; then
-  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash")
+  SITES=("crashcasino" "crashgame" "freecrash" "cryptocrash" "hobbysalon")
 else
   SITES=("$SITE")
 fi
@@ -43,20 +43,38 @@ TOTAL_PENDING=0
 TOTAL_SCHEDULED=0
 
 for site in "${SITES[@]}"; do
-  # Get site URL from env
+  # Get site URL from env - try both WP_SITE_* and WORDPRESS_* variable names
   SITE_UPPER=$(echo "$site" | tr '[:lower:]' '[:upper:]')
   SITE_URL_VAR="WP_SITE_${SITE_UPPER}_URL"
   SITE_URL="${!SITE_URL_VAR}"
+  if [[ -z "$SITE_URL" ]]; then
+    SITE_URL_VAR="WORDPRESS_${SITE_UPPER}_URL"
+    SITE_URL="${!SITE_URL_VAR}"
+  fi
 
   if [[ -z "$SITE_URL" ]]; then
     echo -e "${YELLOW}Warning: No URL configured for '${site}'${NC}"
     continue
   fi
 
-  # Get credentials
-  WP_USER="${WP_USERNAME:-peter}"
-  WP_PASS_VAR="WP_SITE_${SITE_UPPER}_PASS"
-  WP_PASS="${!WP_PASS_VAR}"
+  # Get credentials - try both variable naming schemes
+  WP_USER="${WP_USERNAME:-}"
+  if [[ -z "$WP_USER" ]]; then
+    WP_USER_VAR="WORDPRESS_${SITE_UPPER}_USER"
+    WP_USER="${!WP_USER_VAR}"
+  fi
+  WP_USER="${WP_USER:-peter}"
+
+  # Get password - try both variable naming schemes
+  WP_PASS="${WP_PASSWORD:-}"
+  if [[ -z "$WP_PASS" ]]; then
+    WP_PASS_VAR="WP_SITE_${SITE_UPPER}_PASS"
+    WP_PASS="${!WP_PASS_VAR}"
+  fi
+  if [[ -z "$WP_PASS" ]]; then
+    WP_PASS_VAR="WORDPRESS_${SITE_UPPER}_APP_PASSWORD"
+    WP_PASS="${!WP_PASS_VAR}"
+  fi
 
   echo -e "${BLUE}📊 ${site^^}${NC}"
 
