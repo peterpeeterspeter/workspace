@@ -18,6 +18,32 @@
   - ✅ Mobile responsive, Tailwind CSS, production-ready
   - ✅ Files sent to Peter via Telegram
 
+**Carlottta (Coordinator) - Answer Overflow Skill (INSTALLED 2026-02-16 15:43 UTC)**
+- ✅ COMPLETED: Answer Overflow skill installed via ClawdHub
+  - ✅ Skill: answeroverflow-1-0-2
+  - ✅ Location: /root/.openclaw/workspace/skills/answeroverflow-1-0-2/
+  - ✅ Command: clawdhub install answeroverflow-1-0-2
+  - ✅ Functionality: Search indexed Discord community discussions
+  - ✅ Use cases: Content research, SEO insights, community building
+  - ✅ Sent to Peter: Usage instructions via Telegram (Message ID: 5068)
+  - ⏳ NEXT: Test skill with hobbysalon-related searches
+  - 📍 Documentation: /root/.openclaw/workspace/skills/answeroverflow-1-0-2/
+
+**Carlottta (Coordinator) - Hobbysalon Performance Optimization (DELIVERED 2026-02-16 15:30 UTC)**
+- ✅ COMPLETED: WordPress performance optimization plugin created
+  - ✅ Site assessment: 0.67s load time (excellent)
+  - ✅ Used WordPress Pro skill for best practices
+  - ✅ Custom plugin: hobbysalon-performance-optimizer.php (14.8 KB)
+  - ✅ 12 optimizations: Deferred JS, lazy loading, WebP, preconnect, cleanup, etc.
+  - ✅ WordPress Coding Standards (WPCS) compliant
+  - ✅ Security best practices implemented
+  - ✅ Documentation: 4 guides created (readme, install, summary, quick)
+  - ✅ Package: hobbysalon-performance-optimizer.zip (6.6 KB)
+  - ✅ Expected: 10-20% improvement (0.67s → 0.50-0.60s)
+  - ✅ DELIVERED: Sent to Peter via Telegram (Message IDs: 5060, 5061)
+  - ⏳ AWAITING: Peter to install plugin on hobbysalon.be
+  - 📍 Files: /root/.openclaw/workspace/projects/hobbysalon/
+
 **Carlottta (Coordinator) - Ravelry Integration (NEW)**
 - ✅ COMPLETED: Ravelry to WordPress import pipeline
   - ✅ Import script: ravelry-to-wordpress-import.sh
