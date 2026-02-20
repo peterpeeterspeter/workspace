@@ -4,6 +4,24 @@
 
 ---
 
+## 📡 RFID vs NFC Decision Guide
+
+**Time:** 2026-02-20 13:50 UTC
+**Question:** "should i implement rfid chips? nfc?"
+**Recommendation:** Start with NFC/QR for MVP, add RFID for enterprise
+
+**Key Findings:**
+- NFC cost (1000 tools): €5K-20K total
+- RFID cost (1000 tools): €50K-250K total
+- NFC: Use existing phones, faster deployment (3 months)
+- RFID: Automated scanning, bulk reading, 1-10m range
+- Smart approach: Start NFC, upsell RFID when customers grow
+
+**Analysis:** RFID-vs-NFC-DECISION.md (11.3 KB)
+**Telegram sent:** Message 5511
+
+---
+
 ## 🔧 Tool Tracking Software Market Research
 
 **Time:** 2026-02-20 13:30 UTC
