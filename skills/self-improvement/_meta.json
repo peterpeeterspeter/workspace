@@ -1,0 +1,34 @@
+{
+  "name": "self-improvement",
+  "version": "1.0.0",
+  "description": "Captures learnings, errors, and corrections to enable continuous improvement",
+  "author": "pskoett (via ClawHub)",
+  "installed": "2026-02-20",
+  "keywords": [
+    "learning",
+    "improvement",
+    "memory",
+    "documentation",
+    "continuous-improvement"
+  ],
+  "triggers": [
+    "command fails unexpectedly",
+    "user corrects output",
+    "capability gap discovered",
+    "external API failure",
+    "knowledge outdated",
+    "better approach found",
+    "before major tasks"
+  ],
+  "files": {
+    "skill": "SKILL.md",
+    "readme": "README.md",
+    "helper": "capture-learning.sh"
+  },
+  "integration": {
+    "all_skills": true,
+    "memory_system": true,
+    "coordination": true,
+    "decision_making": true
+  }
+}

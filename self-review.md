@@ -296,3 +296,103 @@ When receiving new product/service information:
 
 **Last updated:** 2026-02-20 10:30 UTC
 **Next review:** 2026-02-20 ~14:30 UTC (4 hours)
+
+---
+
+## Session Update (2026-02-20 19:30 UTC)
+
+### Self-Improvement Skill Installed
+- ✅ **ACTION:** Installed self-improvement skill from ClawHub (pskoett/self-improving-agent)
+- 📁 **FILES CREATED:**
+  - `/root/.openclaw/workspace/skills/self-improvement/SKILL.md` (6.8 KB)
+  - `/root/.openclaw/workspace/skills/self-improvement/README.md` (6.7 KB)
+  - `/root/.openclaw/workspace/skills/self-improvement/_meta.json` (797 B)
+  - `/root/.openclaw/workspace/skills/self-improvement/capture-learning.sh` (helper script)
+
+### What This Skill Does
+Captures learnings, errors, and corrections to enable continuous improvement:
+- Documents mistakes with root cause analysis
+- Structures learnings for future retrieval
+- Reviews past learnings before major tasks
+- Prevents repetition of errors
+- Builds knowledge base over time
+
+### Integration Points
+1. **All operations** - Capture learnings from every command/API/tool
+2. **Before decisions** - Search relevant past learnings
+3. **After failures** - Document what went wrong
+4. **After successes** - Document what worked
+5. **Daily/weekly reviews** - Consolidate and apply learnings
+
+### Key Triggers
+- Command/API/tool fails unexpectedly
+- Peter corrects output ("No, that's wrong...")
+- Capability gap discovered
+- External API failure
+- Knowledge outdated/incorrect
+- Better approach discovered
+
+### Process Improvement
+**Before this skill:**
+- Learnings were ad-hoc, not systematically captured
+- No structured way to search past learnings
+- Risk of repeating same mistakes
+- Knowledge scattered across files
+
+**After this skill:**
+- Systematic capture with structured format
+- Searchable by tags and categories
+- Prevention-focused (root cause analysis)
+- Consolidated knowledge base
+
+### Example Usage
+```bash
+# Quick capture
+./skills/self-improvement/capture-learning.sh "Title" "category" "Description"
+
+# Review learnings before task
+grep -r "DOMAIN NAMES" self-review.md
+
+# Search by category
+grep -r "#accuracy" self-review.md
+```
+
+### Success Metrics
+- Reduction in repeated errors (same mistake shouldn't happen twice)
+- Fewer user corrections over time
+- Better first-attempt accuracy
+- Faster problem-solving (applying past learnings)
+- Knowledge base growth rate
+
+### Next Steps
+1. **Use before major tasks** - Search relevant learnings first
+2. **Capture all corrections** - Every "No, that's wrong" gets documented
+3. **Weekly review** - Consolidate daily learnings into MEMORY.md
+4. **Share with agents** - Distribute learnings across agent team
+5. **Track metrics** - Measure reduction in repeated errors
+
+### Integration with Existing Workflows
+- **Midnight Surprise system** - Learnings can inform autonomous tasks
+- **Peter's preferences** - Document personalization discoveries
+- **Technical decisions** - Capture rationale for choices
+- **Cost optimizations** - Document savings and tradeoffs
+
+### Templates Provided
+The skill includes templates for:
+- Daily learning capture
+- Root cause analysis
+- Prevention planning
+- Impact assessment
+- Tagging for search
+
+### Long-term Vision
+This skill enables the autonomous agent organization to:
+1. Learn faster from mistakes
+2. Make better decisions (informed by past experience)
+3. Prevent error repetition
+4. Build institutional knowledge
+5. Improve continuously over time
+
+**Status:** ✅ Active and integrated
+**Next Review:** Weekly (as part of portfolio review on Sundays)
+
