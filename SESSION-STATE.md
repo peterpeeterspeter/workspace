@@ -892,3 +892,84 @@ AI-optimized web search with clean content extraction and AI-generated answers.
 **Git Commit:** 431da9e8
 **Status:** ✅ Fully operational and ready to use
 
+
+---
+
+## 🌐 Agent Browser Skill Installation
+
+**Time:** 2026-02-20 19:50 UTC
+**Request:** "INSTALL AND CONFIGURE https://clawhub.ai/TheSethRose/agent-browser"
+**Status:** ✅ INSTALLED, CONFIGURED, AND TESTED
+
+**What Was Installed:**
+Agent Browser skill from ClawHub (TheSethRose/agent-browser v0.2.0)
+Fast Rust-based headless browser automation CLI with Node.js fallback.
+
+**Installation Steps Completed:**
+1. Installed via npm: `npm install -g agent-browser`
+2. Installed Playwright dependencies: `npm install @playwright/test`
+3. Downloaded Chromium: `npx playwright install chromium`
+4. Binary location: `/usr/bin/agent-browser`
+5. Verified working with example.com
+
+**Files Created:**
+- `skills/agent-browser/SKILL.md` (via ClawHub)
+- `skills/agent-browser/README.md` (6.9 KB) - Installation guide
+- `skills/agent-browser/agent-browser-helper.sh` (1.3 KB, executable)
+- `skills/agent-browser/_meta.json`
+
+**Features:**
+- Navigate websites (open, back, forward, reload)
+- Snapshot pages with refs (interactive elements: @e1, @e2, @e3...)
+- Click, type, fill forms programmatically
+- Extract structured data (text, HTML, attributes)
+- Wait for elements/text/URL changes
+- Screenshots and PDF export
+- Video recording of actions
+
+**Core Workflow:**
+1. `agent-browser open <url>` - Navigate
+2. `agent-browser snapshot -i` - Get refs
+3. `agent-browser click @e1` - Interact
+4. `agent-browser get text @e2` - Extract data
+5. `agent-browser close` - Close browser
+
+**Comparison with OpenClaw browser tool:**
+- **agent-browser:** Headless automation, ref-based (@e1, @e2), CLI-driven, Playwright backend
+- **OpenClaw browser:** Chrome CDP, tab attachment with Browser Relay, role/name refs, interactive
+
+**Use Cases for Peter's Projects:**
+
+1. **Photostudio.io:**
+   - Test upload functionality
+   - Extract competitor pricing from websites
+   - Automate form fills for product details
+   - Screenshot product pages for analysis
+
+2. **DeBadkamer.com:**
+   - Test lead generation forms
+   - Navigate bathroom planning tools
+   - Extract product data from supplier sites
+   - Automate competitor research
+
+3. **Domain Portfolio:**
+   - Check domain availability on registrars
+   - Extract auction data from marketplaces
+   - Automate login to domain management tools
+   - Monitor expiring domains
+
+4. **General:**
+   - Form automation
+   - Data extraction/scraping
+   - UI testing
+   - Competitor monitoring
+
+**Testing:**
+✅ Successfully tested with example.com
+✅ Navigation working
+✅ Snapshot working
+✅ Chromium browser installed and functional
+
+**Git Commit:** bda7ff4f
+**Learning Added:** LRN-20260220-011 (agent-browser vs OpenClaw browser)
+
