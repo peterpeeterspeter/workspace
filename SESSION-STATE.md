@@ -1155,3 +1155,119 @@ https://peterpeeterspeter.github.io/workspace/
 - ✅ Clearer separation: workspace vs project repos
 - ✅ Easier to manage and maintain
 
+
+---
+
+## ✍️ Humanize AI Text Skill Installation
+
+**Time:** 2026-02-20 20:42 UTC
+**Request:** "install https://clawhub.ai/moltbro/humanize-ai-text"
+**Status:** ✅ INSTALLED, CONFIGURED, AND TESTED
+
+**What Was Installed:**
+Humanize AI Text skill from ClawHub (moltbro/humanize-ai-text v1.0.0)
+CLI tool to detect and transform AI-generated text to bypass AI detectors.
+
+**Installation Complete:**
+1. ✅ Skill installed via ClawdHub
+2. ✅ All Python scripts included (detect, transform, compare)
+3. ✅ Patterns database (16 AI pattern categories)
+4. ✅ Tested and verified working
+
+**Features:**
+- Detect AI patterns (16 categories based on Wikipedia's guide)
+- Transform text to sound human-written
+- Auto-fix citation bugs, markdown, chatbot artifacts
+- Simplify AI vocabulary and filler phrases
+- AI probability scoring (low/medium/high/very high)
+- Batch processing support
+
+**Detection Categories (16 total):**
+
+Critical (immediate detection):
+- Citation bugs (oaicite, turn0search, contentReference)
+- Knowledge cutoff phrases ("as of my last training")
+- Chatbot artifacts ("I hope this helps", "As an AI")
+- Markdown formatting
+
+High signal:
+- AI vocabulary (delve, tapestry, landscape, pivotal, underscore, foster)
+- Significance inflation ("serves as a testament", "pivotal moment")
+- Promotional language (vibrant, groundbreaking, nestled, breathtaking)
+- Copula avoidance ("serves as" instead of "is", "boasts" instead of "has")
+
+Medium signal:
+- Superficial -ing ("highlighting the importance", "fostering collaboration")
+- Filler phrases ("in order to", "due to the fact that", "Additionally,")
+- Vague attributions ("experts believe", "industry reports suggest")
+- Challenges formula ("Despite these challenges", "Future outlook")
+
+Style signal:
+- Curly quotes vs straight quotes
+- Em dash overuse
+- Negative parallelisms ("Not only... but also", "It's not just... it's")
+- Rule of three (forced triplets like "innovation, inspiration, and insight")
+
+**Scripts:**
+- detect.py - Scan for AI patterns
+- transform.py - Transform text to human-like
+- compare.py - Before/after comparison
+- patterns.json - AI pattern definitions
+
+**Usage:**
+```bash
+# Detect AI patterns
+python3 /root/.openclaw/workspace/skills/humanize-ai-text/scripts/detect.py document.txt
+
+# Transform text
+python3 /root/.openclaw/workspace/skills/humanize-ai-text/scripts/transform.py document.txt -o clean.txt
+
+# Compare before/after
+python3 /root/.openclaw/workspace/skills/humanize-ai-text/scripts/compare.py document.txt -o clean.txt
+```
+
+**Auto-fixes:**
+- Citation bugs → Removed
+- Markdown → Plain text
+- Chatbot sentences → Removed
+- Copula avoidance → "is/has"
+- Filler phrases → Simplified
+- Curly quotes → Straight quotes
+
+**Manual Fixes Needed:**
+- AI vocabulary (delve, tapestry, landscape, pivotal)
+- Significance inflation phrases
+- Promotional language
+- Rule of three patterns
+
+**Use Cases for Peter's Projects:**
+
+1. **Photostudio.io:**
+   - Humanize AI-generated product descriptions
+   - Natural-sounding marketing copy
+   - Bypass AI detectors on content sites
+
+2. **DeBadkamer.com:**
+   - Blog content that passes AI detectors
+   - SEO-friendly human-like text
+   - Natural-sounding bathroom renovation tips
+
+3. **Content Creation:**
+   - Transform ChatGPT/Claude output
+   - Make AI text undetectable
+   - Pass AI content detectors (GPTZero, Turnitin, Originality.ai)
+
+4. **General:**
+   - Clean up LLM-generated content
+   - Make text sound human-written
+   - Bypass plagiarism/AI detectors
+
+**AI Probability Scoring:**
+- Very High: Citation bugs, knowledge cutoff, or chatbot artifacts present
+- High: >30 issues OR >5% issue density
+- Medium: >15 issues OR >2% issue density
+- Low: <15 issues AND <2% density
+
+**Git Commit:** e0c7594f, 11f73213
+**Status:** ✅ Fully operational and ready to use
+
