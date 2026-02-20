@@ -13,6 +13,7 @@ Before doing anything:
 2. Read `USER.md` — who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. In main sessions: also read `MEMORY.md`
+5. **CHECK FOR SCHEDULED TASKS:** If asked about tomorrow/plans, verify cron jobs (see below)
 
 Don't ask permission. Just do it.
 
@@ -146,6 +147,16 @@ Don't wait for permission to improve. If you learned something, write it down no
 ## Learned Lessons
 
 > Add your lessons here as you learn them
+
+### Cron Verification (ERR-20260220-001)
+**Mistake:** When asked "what's planned for tomorrow", only checked OpenClaw cron system. Missed 2 other scheduled tasks in system crontab.
+
+**Fix:** Always check ALL 3 sources when asked about scheduled tasks:
+1. `cron action=list` (OpenClaw cron jobs)
+2. `crontab -l` (system cron jobs)
+3. `SESSION-STATE.md` (documented tasks)
+
+**Protocol:** Cross-reference all 3 sources before reporting what's scheduled.
 
 ### [Topic]
 [What you learned and how to do it better]
