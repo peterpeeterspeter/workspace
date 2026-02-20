@@ -579,3 +579,48 @@ Grid automatically applies to blog pages (home, archive, front page)
 
 **Documentation:** `projects/hobbysalon/HOBBYSALON-WORDPRESS-TOOLS-ANALYSIS.md` (15.5 KB)
 **Telegram:** Message 5156 (analysis summary)
+
+---
+
+## 🌙 Midnight Surprise System
+
+**Time:** 2026-02-20 19:30 UTC
+**Request:** "i want you to do a task every night at 2 am that surprises me and helps to bring me closer to my goals"
+**Status:** ✅ SYSTEM ACTIVE - Installed and running
+
+**What It Does:**
+Every night at 2:00 AM CET, autonomously creates value across Peter's portfolio. Different surprise each day.
+
+**Schedule (Rotating):**
+- Monday: 🔍 Competitive Intelligence (competitor spying)
+- Tuesday: ✍️ Content Creation (TikTok scripts, blog posts)
+- Wednesday: 🔧 Technical Discovery (cost savings, optimizations)
+- Thursday: 📊 Business Intelligence (analytics, insights)
+- Friday: 📖 Playbook Creation (document processes)
+- Saturday: 🔥 Trend Research (emerging opportunities)
+- Sunday: 💼 Portfolio Review (strategic overview)
+
+**Files Created:**
+- Main script: `/root/.openclaw/workspace/scripts/midnight-surprise.sh`
+- Surprise scripts: `/root/.openclaw/workspace/scripts/surprises/*.sh`
+- Output directory: `/root/.openclaw/workspace/midnight-surprises/`
+- README: `/root/.openclaw/workspace/midnight-surprises/README.md`
+
+**Cron Job:** Installed (runs 2:00 AM CET daily)
+**Notification:** Telegram each morning with summary
+**Bonus:** Already created 5 Photostudio TikTok scripts (Tuesday's surprise)
+
+**Value Created:**
+- Time savings (research/content done autonomously)
+- Money savings (cost optimizations identified)
+- Strategic advantage (competitive intel, trends)
+- Knowledge building (playbooks, systems)
+
+**How to Use:**
+- Check surprises: `ls -la /root/.openclaw/workspace/midnight-surprises/`
+- Test manually: `/root/.openclaw/workspace/scripts/midnight-surprise.sh`
+- View logs: `tail -f /root/.openclaw/workspace/midnight-surprises/cron.log`
+
+**Git Commit:** 454ee7eb
+**Telegram Message:** 5598
+
