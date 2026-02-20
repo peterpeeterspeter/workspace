@@ -43,63 +43,87 @@ TOTAL_PENDING=0
 TOTAL_SCHEDULED=0
 
 for site in "${SITES[@]}"; do
-  # Get site URL from env - try both WP_SITE_* and WORDPRESS_* variable names
-  SITE_UPPER=$(echo "$site" | tr '[:lower:]' '[:upper:]')
-  SITE_URL_VAR="WP_SITE_${SITE_UPPER}_URL"
-  SITE_URL="${!SITE_URL_VAR}"
-  if [[ -z "$SITE_URL" ]]; then
-    SITE_URL_VAR="WORDPRESS_${SITE_UPPER}_URL"
-    SITE_URL="${!SITE_URL_VAR}"
-  fi
+  # Get site URL from env - use correct variable names
+  case "$site" in
+    crashcasino)
+      SITE_URL="${WORDPRESS_CRASHCASINO_URL:-}"
+      WP_USER="${WORDPRESS_CRASHCASINO_USER:-peter}"
+      WP_PASS="${WORDPRESS_CRASHCASINO_APP_PASSWORD:-}"
+      ;;
+    crashgame)
+      SITE_URL="${WORDPRESS_CRASHGAMEGAMBLING_URL:-}"
+      WP_USER="${WORDPRESS_CRASHGAMEGAMBLING_USER:-@peter}"
+      WP_PASS="${WORDPRESS_CRASHGAMEGAMBLING_APP_PASSWORD:-}"
+      ;;
+    freecrash)
+      SITE_URL="${WORDPRESS_FREECRASH_URL:-}"
+      WP_USER="${WORDPRESS_FREECRASH_USER:-@peter}"
+      WP_PASS="${WORDPRESS_FREECRASH_APP_PASSWORD:-}"
+      ;;
+    cryptocrash)
+      SITE_URL="${WORDPRESS_CRYPTOCRASH_URL:-}"
+      WP_USER="${WORDPRESS_CRYPTOCRASH_USER:-@peter}"
+      WP_PASS="${WORDPRESS_CRYPTOCRASH_APP_PASSWORD:-}"
+      ;;
+    hobbysalon)
+      SITE_URL="${WORDPRESS_HOBBSALON_URL:-}"
+      WP_USER="${WORDPRESS_HOBBSALON_USER:-peter}"
+      WP_PASS="${WORDPRESS_HOBBSALON_APP_PASSWORD:-}"
+      ;;
+    *)
+      echo -e "${YELLOW}Warning: Unknown site '${site}'${NC}"
+      continue
+      ;;
+  esac
 
   if [[ -z "$SITE_URL" ]]; then
     echo -e "${YELLOW}Warning: No URL configured for '${site}'${NC}"
     continue
   fi
 
-  # Get credentials - try both variable naming schemes
-  WP_USER="${WP_USERNAME:-}"
-  if [[ -z "$WP_USER" ]]; then
-    WP_USER_VAR="WORDPRESS_${SITE_UPPER}_USER"
-    WP_USER="${!WP_USER_VAR}"
-  fi
-  WP_USER="${WP_USER:-peter}"
+  # Remove /wp-json suffix if present (we'll add it in the API calls)
+  SITE_URL="${SITE_URL%/wp-json}"
 
-  # Get password - try both variable naming schemes
-  WP_PASS="${WP_PASSWORD:-}"
-  if [[ -z "$WP_PASS" ]]; then
-    WP_PASS_VAR="WP_SITE_${SITE_UPPER}_PASS"
-    WP_PASS="${!WP_PASS_VAR}"
-  fi
-  if [[ -z "$WP_PASS" ]]; then
-    WP_PASS_VAR="WORDPRESS_${SITE_UPPER}_APP_PASSWORD"
-    WP_PASS="${!WP_PASS_VAR}"
+  # Debug: show what URL we're using
+  if [[ "${DEBUG:-0}" == "1" ]]; then
+    echo "  [DEBUG] URL: ${SITE_URL}" >&2
+    echo "  [DEBUG] User: ${WP_USER}" >&2
   fi
 
   echo -e "${BLUE}📊 ${site^^}${NC}"
 
-  # Get counts for each status
-  PUBLISHED=$(curl -s "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=publish" \
+  # Test connectivity first (with -k for SSL issues)
+  HTTP_CODE=$(curl -s -k -o /dev/null -w "%{http_code}" "${SITE_URL}/wp-json/wp/v2/posts?per_page=1" \
+    -u "${WP_USER}:${WP_PASS}" 2>/dev/null || echo "000")
+
+  if [[ "$HTTP_CODE" == "000" ]]; then
+    echo -e "  ${YELLOW}Site niet bereikbaar (connectie fout)${NC}"
+    echo ""
+    continue
+  fi
+
+  # Get counts for each status (with -k for SSL issues and better error handling)
+  PUBLISHED=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=publish" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
-  DRAFTS=$(curl -s "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=draft" \
+  DRAFTS=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=draft" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
-  PENDING=$(curl -s "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=pending" \
+  PENDING=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=pending" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
-  SCHEDULED=$(curl -s "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=future" \
+  SCHEDULED=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/posts?per_page=1&status=future" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
   # Media count
-  MEDIA=$(curl -s "${SITE_URL}/wp-json/wp/v2/media?per_page=1" \
+  MEDIA=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/media?per_page=1" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
   # Comments count
-  COMMENTS_APPROVED=$(curl -s "${SITE_URL}/wp-json/wp/v2/comments?per_page=1&status=approved" \
+  COMMENTS_APPROVED=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/comments?per_page=1&status=approved" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
-  COMMENTS_PENDING=$(curl -s "${SITE_URL}/wp-json/wp/v2/comments?per_page=1&status=hold" \
+  COMMENTS_PENDING=$(curl -s -k "${SITE_URL}/wp-json/wp/v2/comments?per_page=1&status=hold" \
     -u "${WP_USER}:${WP_PASS}" | jq 'length' 2>/dev/null || echo "0")
 
   echo -e "  Published: ${GREEN}${PUBLISHED}${NC}"
