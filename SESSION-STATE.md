@@ -624,3 +624,60 @@ Every night at 2:00 AM CET, autonomously creates value across Peter's portfolio.
 **Git Commit:** 454ee7eb
 **Telegram Message:** 5598
 
+
+---
+
+## 📚 Self-Improvement Skill Installation
+
+**Time:** 2026-02-20 19:30 UTC
+**Request:** "implement this https://clawhub.ai/pskoett/self-improving-agent"
+**Status:** ✅ INSTALLED AND ACTIVE
+
+**What It Does:**
+Captures learnings, errors, and corrections to enable continuous improvement.
+
+**Files Created:**
+- `/root/.openclaw/workspace/skills/self-improvement/SKILL.md`
+- `/root/.openclaw/workspace/skills/self-improvement/README.md`
+- `/root/.openclaw/workspace/skills/self-improvement/_meta.json`
+- `/root/.openclaw/workspace/skills/self-improvement/capture-learning.sh`
+
+**Key Features:**
+- Systematic learning capture with structured format
+- Root cause analysis for mistakes
+- Prevention planning
+- Tagging for search/retrieval
+- Review past learnings before major tasks
+
+**Triggers:**
+- Command/API/tool fails unexpectedly
+- Peter corrects output ("No, that's wrong...")
+- Capability gap discovered
+- External API failure
+- Knowledge outdated/incorrect
+- Better approach discovered
+
+**Usage:**
+```bash
+# Quick capture
+./skills/self-improvement/capture-learning.sh "Title" "category" "Description"
+
+# Review learnings
+grep -r "DOMAIN NAMES" self-review.md
+```
+
+**Success Metrics:**
+- Reduction in repeated errors
+- Fewer user corrections over time
+- Better first-attempt accuracy
+- Knowledge base growth
+
+**Integration:**
+- Works with all skills and workflows
+- Reviews learnings before major decisions
+- Shares insights across agent team
+- Continuous improvement mindset
+
+**Git Commit:** 2faf23ff
+**Telegram Message:** 5602
+
