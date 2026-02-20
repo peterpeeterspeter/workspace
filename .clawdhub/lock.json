@@ -216,6 +216,10 @@
     "mission-control": {
       "version": "2.3.1",
       "installedAt": 1771617928672
+    },
+    "humanize-ai-text": {
+      "version": "1.0.0",
+      "installedAt": 1771620128450
     }
   }
 }
