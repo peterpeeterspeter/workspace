@@ -1,0 +1,96 @@
+school_name,program_name,tuition_total,tuition_per_credit,format,duration,total_credits,gmat_requirement,gre_accepted,accreditation,tier,program_url,source_url,date_scraped,confidence_score
+University of North Carolina,MBA@UNC,,,Online,10 years,,,No,AACSB,Top Tier,https://onlinemba.unc.edu,https://onlinemba.unc.edu,2026-02-17T10:22:21.119446,91.0
+Indiana University Bloomington,Kelley Direct Online MBA,,,Online,25 years,,Optional,No,AACSB,Top Tier,https://kd.iu.edu,https://kd.iu.edu,2026-02-17T10:22:23.576140,100.0
+University of Southern California,Online MBA,,,,12 months,,,No,AACSB,Top Tier,https://www.marshall.usc.edu/programs/online-mba,https://www.marshall.usc.edu/programs/online-mba,2026-02-17T10:22:25.989928,82.0
+Carnegie Mellon University,Online Hybrid MBA,,,Online,,,,No,AACSB,Top Tier,https://www.tepper.cmu.edu,https://www.tepper.cmu.edu,2026-02-17T10:22:29.304407,82.0
+University of Texas at Dallas,Online MBA,,,Online,,,,No,AACSB,Top Tier,https://jindal.utdallas.edu/programs/online-mba,https://jindal.utdallas.edu/programs/online-mba,2026-02-17T10:22:31.724940,82.0
+University of Massachusetts Amherst,Online MBA,,,,,,,,AACSB,Top Tier,https://www.isenberg.umass.edu/programs/online-mba,https://www.isenberg.umass.edu/programs/online-mba,2026-02-17T10:22:33.964237,0
+University of Arizona,Online MBA,,,,,,,,AACSB,Tier 1,https://eller.arizona.edu/programs/online-mba,https://eller.arizona.edu/programs/online-mba,2026-02-17T10:22:36.106271,0
+University of Wisconsin,Online MBA,,,,,,,,AACSB,Tier 1,https://business.wisc.edu/mba/online,https://business.wisc.edu/mba/online,2026-02-17T10:22:38.756480,0
+University of Florida,Online MBA,,,,,,,,AACSB,Top Tier,https://warrington.ufl.edu/online-mba,https://warrington.ufl.edu/online-mba,2026-02-17T10:22:43.703244,0
+Arizona State University,Online MBA,,,,,,,,AACSB,Top Tier,https://wpcarey.asu.edu/online-mba,https://wpcarey.asu.edu/online-mba,2026-02-17T10:22:45.814396,0
+University of Michigan,Online MBA,,,,,,,,AACSB,Top Tier,https://michiganross.umich.edu/programs/online-mba,https://michiganross.umich.edu/programs/online-mba,2026-02-17T10:22:47.989304,0
+Northwestern University,Online MBA,,,,,,,,AACSB,Top Tier,https://www.kellogg.northwestern.edu/programs/online-mba,https://www.kellogg.northwestern.edu/programs/online-mba,2026-02-17T10:22:50.526917,0
+Duke University,Online MBA,,,,,,,,AACSB,Top Tier,https://www.fuqua.duke.edu/online-mba,https://www.fuqua.duke.edu/online-mba,2026-02-17T10:22:52.794553,0
+University of Virginia,Online MBA,,,,,,,,AACSB,Top Tier,https://www.darden.virginia.edu/online-mba,https://www.darden.virginia.edu/online-mba,2026-02-17T10:22:54.986510,0
+University of Texas at Austin,Online MBA,,,,,,,,AACSB,Top Tier,https://www.mccombs.utexas.edu/mba/online,https://www.mccombs.utexas.edu/mba/online,2026-02-17T10:22:57.161324,0
+Georgetown University,Online MBA,,,,,,,,AACSB,Top Tier,https://msb.georgetown.edu/mba/online,https://msb.georgetown.edu/mba/online,2026-02-17T10:22:59.884065,0
+Vanderbilt University,Online MBA,,,,,,,No,AACSB,Tier 1,https://www.vanderbilt.edu/owen/online-mba,https://www.vanderbilt.edu/owen/online-mba,2026-02-17T10:23:02.769586,73.0
+Ohio State University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.fisher.osu.edu/programs/online-mba,https://www.fisher.osu.edu/programs/online-mba,2026-02-17T10:23:05.210418,0
+Penn State University,Online MBA,,,,,,,,AACSB,Tier 1,https://worldcampus.psu.edu/degrees/online-mba,https://worldcampus.psu.edu/degrees/online-mba,2026-02-17T10:23:07.737106,0
+University of Maryland,Online MBA,$1,,Online,24 months,,Required,No,AACSB,Tier 1,https://www.rhsmith.umd.edu/programs/online-mba,https://www.rhsmith.umd.edu/programs/online-mba,2026-02-17T10:23:10.001557,109.0
+Boston University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.bu.edu/questrom/online-mba,https://www.bu.edu/questrom/online-mba,2026-02-17T10:23:12.766883,0
+Northeastern University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.northeastern.edu/business/programs/online-mba,https://www.northeastern.edu/business/programs/online-mba,2026-02-17T10:23:15.698460,0
+George Washington University,Online MBA,,,,,,,,AACSB,Tier 1,https://business.gwu.edu/programs/online-mba,https://business.gwu.edu/programs/online-mba,2026-02-17T10:23:18.346159,0
+Texas A&M University,Online MBA,,,,,,,,AACSB,Tier 1,https://mays.tamu.edu/online-mba,https://mays.tamu.edu/online-mba,2026-02-17T10:23:21.306948,0
+University of Georgia,Online MBA,,,,,,,,AACSB,Tier 1,https://www.terry.uga.edu/programs/online-mba,https://www.terry.uga.edu/programs/online-mba,2026-02-17T10:23:23.487596,0
+University of Illinois,Online MBA,,,,,,,,AACSB,Tier 1,https://www.mba.illinois.edu/online,https://www.mba.illinois.edu/online,2026-02-17T10:23:25.552099,0
+Georgia Tech,Online MBA,,,,,,,,AACSB,Tier 1,https://www.scheller.gatech.edu/programs/online-mba,https://www.scheller.gatech.edu/programs/online-mba,2026-02-17T10:23:27.891796,0
+University of Washington,Online MBA,,,,,,,,AACSB,Tier 1,https://www.foster.washington.edu/degrees/online-mba,https://www.foster.washington.edu/degrees/online-mba,2026-02-17T10:23:30.154647,0
+Brigham Young University,Online MBA,,,,,,,,AACSB,Tier 1,https://marriottschool.byu.edu/mba/online,https://marriottschool.byu.edu/mba/online,2026-02-17T10:23:32.815086,0
+Texas Christian University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.neely.tcu.edu/programs/online-mba,https://www.neely.tcu.edu/programs/online-mba,2026-02-17T10:23:34.909389,0
+Ball State University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.bsu.edu/business/online/mba,https://www.bsu.edu/business/online/mba,2026-02-17T10:23:37.234636,0
+University of Nebraska-Lincoln,Online MBA,,,,,,,,AACSB,Tier 2,https://business.unl.edu/online-mba,https://business.unl.edu/online-mba,2026-02-17T10:23:39.546915,0
+Oklahoma State University,Online MBA,,,,,,,,AACSB,Tier 2,https://business.okstate.edu/online/mba,https://business.okstate.edu/online/mba,2026-02-17T10:23:41.860272,0
+University of South Dakota,Online MBA,,,,,,,No,AACSB,Tier 2,https://www.usd.edu/business/online-mba,https://www.usd.edu/business/online-mba,2026-02-17T10:23:45.668373,73.0
+University of Kansas,Online MBA,,,,,,,,AACSB,Tier 2,https://www.kuscholarship.org/mba-online,https://www.kuscholarship.org/mba-online,2026-02-17T10:23:48.741680,0
+University of Kentucky,Online MBA,,,,,,,,AACSB,Tier 2,https://www.gatton.uky.edu/programs/online-mba,https://www.gatton.uky.edu/programs/online-mba,2026-02-17T10:23:51.362995,0
+University of Tennessee,Online MBA,,,,,,,Yes,AACSB,Tier 2,https://mba.utk.edu/online,https://mba.utk.edu/online,2026-02-17T10:23:54.071162,73.0
+University of Alabama,Online MBA,,,,,,,,AACSB,Tier 2,https://www.culverhouse.ua.edu/programs/online-mba,https://www.culverhouse.ua.edu/programs/online-mba,2026-02-17T10:23:57.212343,0
+Auburn University,Online MBA,,,Online,,,,No,AACSB,Tier 2,https://business.auburn.edu/online-mba,https://business.auburn.edu/online-mba,2026-02-17T10:23:59.771950,82.0
+Clemson University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.clemson.edu/business/online-mba,https://www.clemson.edu/business/online-mba,2026-02-17T10:24:02.188357,0
+Louisiana State University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.lsu.edu/business/mba/online.php,https://www.lsu.edu/business/mba/online.php,2026-02-17T10:24:04.588963,0
+University of South Carolina,Online MBA,,,,,,,No,AACSB,Tier 2,https://www.moore.sc.edu/programs/online-mba,https://www.moore.sc.edu/programs/online-mba,2026-02-17T10:24:07.397067,73.0
+Virginia Tech,Online MBA,,,,,,,,AACSB,Tier 2,https://www.pamplin.vt.edu/mba/online,https://www.pamplin.vt.edu/mba/online,2026-02-17T10:24:10.082406,0
+North Carolina State University,Online MBA,,,Online,21 months,,Required,Yes,AACSB,Tier 2,https://www.poole.ncsu.edu/mba/online,https://www.poole.ncsu.edu/mba/online,2026-02-17T10:24:12.725080,100.0
+University of Cincinnati,Online MBA,,,,,,,,AACSB,Tier 2,https://business.uc.edu/programs/online-mba,https://business.uc.edu/programs/online-mba,2026-02-17T10:24:15.241390,0
+University of Pittsburgh,Online MBA,,,,,,,,AACSB,Tier 2,https://www.katz.pitt.edu/programs/online-mba,https://www.katz.pitt.edu/programs/online-mba,2026-02-17T10:24:17.426499,0
+Rutgers University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.business.rutgers.edu/online-mba,https://www.business.rutgers.edu/online-mba,2026-02-17T10:24:20.103526,0
+Temple University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.fox.temple.edu/mba/online,https://www.fox.temple.edu/mba/online,2026-02-17T10:24:22.591113,0
+University of Connecticut,Online MBA,,,,,,,,AACSB,Tier 2,https://www.business.uconn.edu/mba-online,https://www.business.uconn.edu/mba-online,2026-02-17T10:24:26.983363,0
+Florida State University,Online MBA,,,,,,,,AACSB,Tier 2,https://business.fsu.edu/online-mba,https://business.fsu.edu/online-mba,2026-02-17T10:24:29.192628,0
+University of Central Florida,Online MBA,,,,,,,,AACSB,Tier 2,https://www.ucf.edu/business/online-mba,https://www.ucf.edu/business/online-mba,2026-02-17T10:24:31.702555,0
+University of Houston,Online MBA,,,,,,,No,AACSB,Tier 2,https://www.bauer.uh.edu/online-mba,https://www.bauer.uh.edu/online-mba,2026-02-17T10:24:34.130463,73.0
+University of Iowa,Online MBA,,,,,,,,AACSB,Tier 2,https://www.tippie.uiowa.edu/mba/online,https://www.tippie.uiowa.edu/mba/online,2026-02-17T10:24:36.563533,0
+Iowa State University,Online MBA,$750,,Online,12 months,42,Required,No,AACSB,Tier 2,https://www.business.iastate.edu/online-mba,https://www.business.iastate.edu/online-mba,2026-02-17T10:24:38.965696,118.0
+University of Minnesota,Online MBA,,,,,,,,AACSB,Tier 1,https://carlsonschool.umn.edu/degrees/online-mba,https://carlsonschool.umn.edu/degrees/online-mba,2026-02-17T10:24:41.259034,0
+University of Colorado,Online MBA,,,,,,,,AACSB,Tier 2,https://www.colorado.edu/business/online-mba,https://www.colorado.edu/business/online-mba,2026-02-17T10:24:43.419146,0
+University of Utah,Online MBA,,,,,,,,AACSB,Tier 2,https://eccles.utah.edu/programs/online-mba,https://eccles.utah.edu/programs/online-mba,2026-02-17T10:24:45.868015,0
+Mississippi State University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.business.msstate.edu/online-mba,https://www.business.msstate.edu/online-mba,2026-02-17T10:24:48.350994,0
+Liberty University,Online MBA,,,,,,,,ACBSP,Affordable,https://www.liberty.edu/online-mba,https://www.liberty.edu/online-mba,2026-02-17T10:24:50.934639,0
+Southern New Hampshire University,Online MBA,,,,,,,,ACBSP,Affordable,https://www.snhu.edu/online-mba,https://www.snhu.edu/online-mba,2026-02-17T10:24:53.218339,0
+Western Governors University,MBA,"$3,830",,Online,,,,Yes,ACBSP,Affordable,https://www.wgu.edu/mba,https://www.wgu.edu/mba,2026-02-17T10:24:55.667025,91.0
+Purdue University Global,Online MBA,,,,,,,,ACBSP,Affordable,https://www.purdueglobal.edu/business-school/mba,https://www.purdueglobal.edu/business-school/mba,2026-02-17T10:25:04.822785,0
+University of the People,MBA,,$450,Online,18 years,18,,Yes,DEAC,Affordable,https://www.uopeople.edu/programs/mba,https://www.uopeople.edu/programs/mba,2026-02-17T10:25:08.231570,109.0
+Fayetteville State University,Online MBA,,,,,,,,AACSB,Affordable,https://www.uncfsu.edu/business/online-mba,https://www.uncfsu.edu/business/online-mba,2026-02-17T10:25:10.809038,0
+Georgia Southwestern State University,Online MBA,,,,,,,,AACSB,Affordable,https://www.gsw.edu/business/mba-online,https://www.gsw.edu/business/mba-online,2026-02-17T10:25:13.209544,0
+Fort Hays State University,Online MBA,,,,,,,,AACSB,Affordable,https://www.fhsu.edu/mba/online,https://www.fhsu.edu/mba/online,2026-02-17T10:25:15.494121,0
+Southeast Missouri State University,Online MBA,,,,,,,,AACSB,Affordable,https://www.semo.edu/business/online-mba,https://www.semo.edu/business/online-mba,2026-02-17T10:25:17.915222,0
+Arkansas State University,Online MBA,,,,,,,,AACSB,Affordable,https://www.astate.edu/college-of-business/online-mba,https://www.astate.edu/college-of-business/online-mba,2026-02-17T10:25:20.179720,0
+University of London,Online MBA,,,,,,,,AMBA,International,https://london.ac.uk/mba,https://london.ac.uk/mba,2026-02-17T10:25:22.916006,0
+University of Manchester,Online MBA,,,,,,,,"AMBA,AACSB,EQUIS",International,https://www.mbs.ac.uk/mba/online-mba,https://www.mbs.ac.uk/mba/online-mba,2026-02-17T10:25:26.510812,0
+Warwick Business School,Online MBA,,,,,,,,"AMBA,AACSB,EQUIS",International,https://www.wbs.ac.uk/mba/online,https://www.wbs.ac.uk/mba/online,2026-02-17T10:25:29.707761,0
+Imperial College London,Global Online MBA,,,,,,,,"AMBA,AACSB,EQUIS",International,https://www.imperial.ac.uk/business-school/programmes/mba/global-online-mba,https://www.imperial.ac.uk/business-school/programmes/mba/global-online-mba,2026-02-17T10:25:33.936365,0
+University of Edinburgh,Online MBA,,,Online,24 months,,,Yes,"AACSB,AMBA,EQUIS",International,https://www.business-school.ed.ac.uk/mba/online,https://www.business-school.ed.ac.uk/mba/online,2026-02-17T10:25:36.640888,91.0
+IE Business School (Spain),Online MBA,,,,,,,,"AACSB,AMBA,EQUIS",International,https://www.ie.edu/business-school/mba/online,https://www.ie.edu/business-school/mba/online,2026-02-17T10:25:39.026465,0
+IESE Business School (Spain),Online MBA,,,,,,,,"AACSB,AMBA,EQUIS",International,https://www.iese.edu/mba/online,https://www.iese.edu/mba/online,2026-02-17T10:25:42.118734,0
+ESADE (Spain),Online MBA,,,,,,,,"AACSB,AMBA,EQUIS",International,https://www.esade.edu/mba-online,https://www.esade.edu/mba-online,2026-02-17T10:25:44.331449,0
+HEC Paris,Online MBA,,,Online,,,,No,"AACSB,AMBA,EQUIS",International,https://www.hec.fr/en/programs/mba/online,https://www.hec.fr/en/programs/mba/online,2026-02-17T10:25:47.863980,82.0
+Rotterdam School of Management,Online MBA,,,,,,,,"AACSB,AMBA,EQUIS",International,https://www.rsm.nl/mba/online,https://www.rsm.nl/mba/online,2026-02-17T10:25:50.753690,0
+University of Toronto,Online MBA,,,,,,,,AACSB,International,https://www.rotman.utoronto.ca/Degrees/OnlineMBA,https://www.rotman.utoronto.ca/Degrees/OnlineMBA,2026-02-17T10:25:53.048174,0
+York University,Online MBA,,,,,,,,AACSB,International,https://schulich.yorku.ca/programs/mba/online,https://schulich.yorku.ca/programs/mba/online,2026-02-17T10:25:55.649058,0
+Queen's University,Online MBA,,,,,,,,AACSB,International,https://smith.queensu.ca/mba/online,https://smith.queensu.ca/mba/online,2026-02-17T10:25:58.003217,0
+University of British Columbia,Online MBA,,,,,,,,AACSB,International,https://www.sauder.ubc.ca/programs/mba/online,https://www.sauder.ubc.ca/programs/mba/online,2026-02-17T10:26:00.207176,0
+University of Queensland,Online MBA,,,,,,,,"AACSB,EQUIS",International,https://business.uq.edu.au/programs/online-mba,https://business.uq.edu.au/programs/online-mba,2026-02-17T10:26:02.537492,0
+Monash University,Online MBA,,,,,,,,"AACSB,EQUIS",International,https://www.monash.edu/business/mba/online,https://www.monash.edu/business/mba/online,2026-02-17T10:26:04.662892,0
+UNSW Sydney,Online MBA,,,,,,,,"AACSB,EQUIS",International,https://www.unswbusiness.unsw.edu.au/mba-online,https://www.unswbusiness.unsw.edu.au/mba-online,2026-02-17T10:26:06.880306,0
+Babson College,Online MBA,,,,,,,,AACSB,Tier 1,https://www.babson.edu/academics/graduate/mba/online,https://www.babson.edu/academics/graduate/mba/online,2026-02-17T10:26:09.330516,0
+Bentley University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.bentley.edu/graduate/online-mba,https://www.bentley.edu/graduate/online-mba,2026-02-17T10:26:11.564514,0
+Pepperdine University,Online MBA,,,,,,,,AACSB,Tier 1,https://bschool.pepperdine.edu/programs/online-mba,https://bschool.pepperdine.edu/programs/online-mba,2026-02-17T10:26:14.039000,0
+American University,Online MBA,,,,,,,,AACSB,Tier 1,https://www.american.edu/kogod/online-mba,https://www.american.edu/kogod/online-mba,2026-02-17T10:26:16.191280,0
+Howard University,Online MBA,,,,,,,,AACSB,Tier 2,https://www.bschool.howard.edu/programs/online-mba,https://www.bschool.howard.edu/programs/online-mba,2026-02-17T10:26:18.367496,0
+Johns Hopkins University,Online MBA,,,,,,,,AACSB,Top Tier,https://carey.jhu.edu/programs/mba/online,https://carey.jhu.edu/programs/mba/online,2026-02-17T10:26:20.510905,0
+MIT Sloan,Online MBA,,,,,,,No,AACSB,Top Tier,https://mitsloan.mit.edu/mba,https://mitsloan.mit.edu/mba,2026-02-17T10:26:22.702259,73.0
+Columbia University,Online MBA,,,,,,,,AACSB,Top Tier,https://www8.gsb.columbia.edu/programs/online-mba,https://www8.gsb.columbia.edu/programs/online-mba,2026-02-17T10:26:24.988313,0
+New York University,Online MBA,,,,,,,,AACSB,Top Tier,https://www.stern.nyu.edu/programs/online-mba,https://www.stern.nyu.edu/programs/online-mba,2026-02-17T10:26:27.155432,0
+Southern Methodist University,Online MBA,,,Online,2024 semester,,,No,AACSB,Tier 1,https://www.cox.smu.edu/programs/online-mba,https://www.cox.smu.edu/programs/online-mba,2026-02-17T10:26:29.885430,91.0

@@ -1,0 +1,51 @@
+rank,name,score,type,emails,phones,address,certifications,revenue,website,tier
+1,Clean Harbors,85,cleaning_service,Yes,Yes,Yes,,$4B+,https://www.cleanharbors.com,enterprise
+2,STERIS,85,sterilization,Yes,Yes,Yes,,$3B+,https://www.steris.com,enterprise
+3,CloroxPro,85,cleaning_products,Yes,Yes,Yes,,$7B+,https://www.cloroxpro.com,elite
+4,Triumvirate Environmental,75,cleaning_service,Yes,Yes,Yes,,$100M+,https://www.triumvirate.com,business
+5,Ecolab,75,cleaning_products,Yes,No,Yes,,$14B+,https://www.ecolab.com,elite
+6,Stericycle,75,waste_management,Yes,No,Yes,,$3B+,https://www.stericycle.com,enterprise
+7,Veolia North America,65,cleaning_service,Yes,No,Yes,,$10B+,https://www.veolianorthamerica.com,elite
+8,Sharps Compliance,60,waste_management,Yes,Yes,Yes,OSHA,,https://www.sharpsinc.com,basic
+9,Daniels Health,55,waste_management,Yes,Yes,Yes,,,https://danielshealth.com,basic
+10,UL Solutions,50,testing_certification,Yes,Yes,Yes,ISO,,https://www.ul.com,basic
+11,Diversey,45,cleaning_products,Yes,No,Yes,,,https://www.diversey.com,basic
+12,Noxilico,45,lab_decommissioning,Yes,No,Yes,,,https://www.noxilico.com,basic
+13,ALS Limited,40,analytical_lab,No,Yes,Yes,ISO,,https://www.alsglobal.com,basic
+14,Sealed Air,35,cleaning_products,Yes,Yes,No,ISO,,https://www.sealedair.com,basic
+15,Waste Management,35,waste_management,Yes,Yes,No,"OSHA, ISO",,https://www.wm.com,basic
+16,Betco,35,cleaning_products,Yes,Yes,No,ISO,,https://www.betco.com,basic
+17,ABC Laboratories,35,analytical_lab,No,Yes,No,ISO,,https://www.abclabs.com,basic
+18,Eurofins Scientific,35,analytical_lab,Yes,Yes,No,ISO,,https://www.eurofinsus.com,basic
+19,NSF International,35,testing_certification,Yes,Yes,No,"OSHA, ISO",,https://www.nsf.org,basic
+20,Intertek,35,testing_certification,Yes,Yes,No,ISO,,https://www.intertek.com,basic
+21,SGS,35,testing_certification,Yes,Yes,No,ISO,,https://www.sgs.com,basic
+22,Bureau Veritas,35,testing_certification,Yes,Yes,No,ISO,,https://www.bureauveritas.com,basic
+23,Kimberly-Clark Professional,25,cleaning_products,No,Yes,No,"ISO, EPA",,https://www.kcprofessional.com,basic
+24,3M Health Care,25,cleaning_products,Yes,No,No,ISO,,https://www.3m.com/3M/en_US/healthcare/,basic
+25,Republic Services,20,waste_management,Yes,Yes,No,,,https://www.republicservices.com,basic
+26,Chemistry Rx,20,lab_services,Yes,Yes,No,,,https://www.chemistryrx.com,basic
+27,Air Science,20,equipment_manufacturer,Yes,Yes,No,,,https://www.airscience.com,basic
+28,Thermo Fisher Scientific Services,10,lab_services,No,Yes,No,,,https://www.thermofisher.com,basic
+29,Agilent CrossLab,10,lab_services,No,Yes,No,,,https://www.agilent.com,basic
+30,Bio-Rad Laboratories Services,10,lab_services,No,Yes,No,,,https://www.bio-rad.com,basic
+31,NuAire,10,equipment_manufacturer,No,Yes,No,,,https://www.nuaire.com,basic
+32,IDBS,10,software,No,Yes,No,,,https://www.idbs.com,basic
+33,Labguru,10,software,Yes,No,No,,,https://www.labguru.com,basic
+34,Science Exchange,10,marketplace,Yes,No,No,,,https://www.scienceexchange.com,basic
+35,Avantor Services,0,lab_services,No,No,No,,,https://avantorsciences.com,basic
+36,Waters Corporation Services,0,lab_services,No,No,No,,,https://www.waters.com,basic
+37,Shimadzu Scientific Instruments,0,lab_services,No,No,No,,,https://www.ssi.shimadzu.com,basic
+38,PerkinElmer Services,0,lab_services,No,No,No,,,https://www.perkinelmer.com,basic
+39,Beckman Coulter Life Sciences,0,lab_services,No,No,No,,,https://www.beckmancoulter.com,basic
+40,Eppendorf Service,0,lab_services,No,No,No,,,https://www.eppendorf.com,basic
+41,Sartorius Services,0,lab_services,No,No,No,,,https://www.sartorius.com,basic
+42,Metler Toledo Service,0,lab_services,No,No,No,,,https://www.mt.com,basic
+43,Cytiva,0,lab_services,No,No,No,,,https://www.cytiva.com,basic
+44,Danaher,0,lab_services,No,No,No,,,https://www.danaher.com,basic
+45,Labconco,0,equipment_manufacturer,No,No,No,,,https://www.labconco.com,basic
+46,The Baker Company,0,equipment_manufacturer,No,No,No,,,https://www.bakerco.com,basic
+47,Bertsche,0,lab_decommissioning,No,No,No,,,https://www.bertsche.com,basic
+48,H+H Laboratory Services,0,lab_services,No,No,No,,,https://hhlab.com,basic
+49,GenVault,0,lab_services,No,No,No,,,https://www.genvault.com,basic
+50,Brooks Life Sciences,0,lab_services,No,No,No,,,https://www.brooks.com,basic

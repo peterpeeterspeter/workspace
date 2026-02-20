@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "Photostudio.io",
+    "description": "AI visual suite for fashion and ecommerce - creates ghost mannequin, flatlay, on-model photos, videos, and full product catalogs from one image",
+    "audience": "E-commerce SMBs, fashion brands, DTC apparel brands",
+    "problem": "Expensive ($5K+) and slow (weeks) fashion photoshoots drain small brand budgets",
+    "differentiator": "AI creates full visual suite in seconds from one photo - no photographer, studio, or models needed",
+    "appStoreUrl": "https://photostudio.io",
+    "category": "productivity",
+    "isMobileApp": false,
+    "conversionTracking": "none"
+  },
+  "imageGen": {
+    "provider": "local",
+    "apiKey": "",
+    "model": ""
+  },
+  "content": {
+    "format": "before_after",
+    "beforeImages": 1,
+    "afterImages": 5,
+    "aspectRatio": "9:16",
+    "duration": "15-30"
+  },
+  "hooks": {
+    "topCategories": [
+      "money_savings",
+      "before_after_transformation",
+      "speed_demonstration",
+      "smb_pain_point",
+      "format_specific"
+    ],
+    "testedHooks": [
+      "We replaced our $5,000/month photographer with AI. Here's what happened.",
+      "Small fashion brands: Stop paying for photoshoots. Here's the alternative.",
+      "This is what our product photos looked like... then we tried AI.",
+      "Watch AI create our entire visual catalog in 30 seconds.",
+      "Ghost mannequin. Flatlay. On-model. Video. All from one image."
+    ]
+  },
+  "postingSchedule": {
+    "frequency": "2-3/day",
+    "times": ["07:30", "16:30", "21:00"],
+    "timezone": "UTC",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+    "startPhase": "testing"
+  },
+  "tracking": {
+    "metrics": ["views", "watch_time", "engagement", "shares", "saves"],
+    "analyticsCron": "0 9 * * *",
+    "weeklyReport": "monday"
+  },
+  "competitors": {
+    "direct": ["Photoroom", "Assembo AI", "Flair.ai"],
+    "indirect": ["SKIMS", "Augustinus Bader", "DTC fashion brands"],
+    "gap": "Full visual suite from one image - fashion/ecommerce specific"
+  },
+  "status": "configured",
+  "lastUpdated": "2026-02-19T20:00:00Z"
+}

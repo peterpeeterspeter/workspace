@@ -1,0 +1,86 @@
+[
+  {
+    "name": "VWR (Avantor)",
+    "url": "https://us.vwr.com",
+    "type": "distributor",
+    "description": "Major lab supply distributor"
+  },
+  {
+    "name": "Fisher Scientific (Thermo Fisher)",
+    "url": "https://www.fishersci.com",
+    "type": "distributor",
+    "description": "Leading lab supplies and chemicals"
+  },
+  {
+    "name": "Cole-Parmer",
+    "url": "https://www.coleparmer.com",
+    "type": "distributor",
+    "description": "Lab equipment and supplies"
+  },
+  {
+    "name": "LabCreator",
+    "url": "https://www.labcreatoor.com/",
+    "type": "distributor",
+    "description": "Lab furniture and equipment"
+  },
+  {
+    "name": "Grainger",
+    "url": "https://www.grainger.com",
+    "type": "distributor",
+    "description": "Industrial and lab supplies"
+  },
+  {
+    "name": "Airgas",
+    "url": "https://www.airgas.com",
+    "type": "distributor",
+    "description": "Lab gases and supplies"
+  },
+  {
+    "name": "Daigger",
+    "url": "https://www.daigger.com",
+    "type": "distributor",
+    "description": "Laboratory equipment distributor"
+  },
+  {
+    "name": "CSSL (Cambridge Scientific)",
+    "url": "https://www.cambridgescientific.com",
+    "type": "distributor",
+    "description": "Lab equipment distributor"
+  },
+  {
+    "name": "Thomas Scientific",
+    "url": "https://www.thomassci.com",
+    "type": "distributor",
+    "description": "Lab supplies distributor"
+  },
+  {
+    "name": "Avantor (VWR)",
+    "url": "https://avantorsciences.com",
+    "type": "distributor",
+    "description": "Global lab supplies"
+  },
+  {
+    "name": "VWR International",
+    "url": "https://us.vwr.com/store",
+    "type": "distributor",
+    "description": "Lab supplies distributor"
+  },
+  {
+    "name": "WWR (Westech)",
+    "url": "https://www.wwr.com",
+    "type": "distributor",
+    "description": "Waste management for labs"
+  },
+  {
+    "name": "Knight Scientific",
+    "url": "https://www.knightscientific.com",
+    "type": "distributor",
+    "description": "Lab supplies"
+  },
+  {
+    "name": "VWR International",
+    "url": "https://www.vwr.com",
+    "type": "distributor",
+    "description": "Lab supplies"
+  }
+]

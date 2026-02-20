@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Science Exchange",
+    "url": "https://www.scienceexchange.com",
+    "type": "marketplace",
+    "description": "Lab service marketplace",
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Testing",
+      "Research"
+    ],
+    "title": "Science Exchange | Supplier Orchestration | R&amp;D Marketplace",
+    "meta_description": "Discover how to simplify purchasing, supplier management, and payment processing.  Work with suppliers faster, reduce costs, and fuel innovation. Supplier Orchestration.",
+    "emails": [
+      "info@scienceexchange.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.984015"
+  },
+  {
+    "name": " Scientist.com",
+    "url": "https://www.scientist.com",
+    "type": "marketplace",
+    "description": "Research marketplace",
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Research",
+      "Testing"
+    ],
+    "title": "World\u2019s Leading AI-Powered R&D Marketplace | Scientist.com",
+    "meta_description": "Trusted by the world\u2019s top pharmaceutical companies and biotechs, Scientist.com combines access to over 6,000 suppliers with tools for efficient, compliant execution of complex experiments.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:37.455641"
+  }
+]

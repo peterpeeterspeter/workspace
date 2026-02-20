@@ -1,0 +1,80 @@
+
+type LabSupplier {
+  id: ID!
+  name: String!
+  website: String!
+  category: SupplierCategory!
+  description: String
+  contact: ContactInfo
+  location: Location
+  services: [String!]
+  socialMedia: SocialMedia
+  companyInfo: CompanyInfo
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type ContactInfo {
+  emails: [String!]
+  phones: [String!]
+  address: String
+}
+
+type Location {
+  city: String
+  state: String
+  zip: String
+  country: String
+  coordinates: Coordinates
+}
+
+type SocialMedia {
+  linkedin: String
+  twitter: String
+  facebook: String
+}
+
+type CompanyInfo {
+  founded: String
+  employees: String
+  revenue: String
+  ticker: String
+  parentCompany: String
+  certifications: [String!]
+}
+
+type Query {
+  suppliers(
+    category: SupplierCategory
+    state: String
+    service: String
+    search: String
+  ): [LabSupplier!]!
+  
+  supplier(id: ID!): LabSupplier
+  
+  suppliersByState(state: String!): [LabSupplier!]!
+  
+  suppliersByService(service: String!): [LabSupplier!]!
+}
+
+enum SupplierCategory {
+  CLEANING_SERVICE
+  STERILIZATION
+  CLEANING_PRODUCTS
+  WASTE_MANAGEMENT
+  ANALYTICAL_LAB
+  TESTING_CERTIFICATION
+  LAB_DECOMMISSIONING
+  LAB_SERVICES
+  EQUIPMENT_MANUFACTURER
+  AUTOMATION
+  SOFTWARE
+  MARKETPLACE
+}
+
+type Mutation {
+  createSupplier(input: SupplierInput!): LabSupplier!
+  updateSupplier(id: ID!, input: SupplierInput!): LabSupplier!
+  deleteSupplier(id: ID!): Boolean!
+}

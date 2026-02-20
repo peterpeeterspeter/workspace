@@ -1,0 +1,309 @@
+[
+  {
+    "name": "Chemistry Rx",
+    "url": "https://www.chemistryrx.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "services": [
+      "Lab equipment",
+      "Glassware cleaning",
+      "Sterilization",
+      "Calibration"
+    ],
+    "title": "Chemistry Rx Compounding Pharmacy - Specialty Compounding Experts",
+    "meta_description": "Chemistry Rx is a specialty pharmacy in Philadelphia offering clinically proven compounded therapies and personalized medicine to patients.",
+    "emails": [
+      "info@chemistryrx.com"
+    ],
+    "phones": [
+      "267-861-0862",
+      "(855) 790-0100"
+    ],
+    "scraped_at": "2026-02-19T07:10:18.316806"
+  },
+  {
+    "name": "Avantor Services",
+    "url": "https://avantorsciences.com",
+    "type": "lab_services",
+    "description": "Lab services and solutions",
+    "services": [
+      "Lab equipment",
+      "Cleaning validation",
+      "Calibration",
+      "Training"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:18.861107"
+  },
+  {
+    "name": "Thermo Fisher Scientific Services",
+    "url": "https://www.thermofisher.com",
+    "type": "lab_services",
+    "description": "Lab equipment and service",
+    "services": [
+      "Equipment service",
+      "Calibration",
+      "Validation",
+      "Training"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485018"
+    ],
+    "scraped_at": "2026-02-19T07:10:19.039456"
+  },
+  {
+    "name": "Agilent CrossLab",
+    "url": "https://www.agilent.com",
+    "type": "lab_services",
+    "description": "Lab instrument services",
+    "services": [
+      "Instrument service",
+      "Calibration",
+      "Training",
+      "Support"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485019"
+    ],
+    "scraped_at": "2026-02-19T07:10:19.179175"
+  },
+  {
+    "name": "Waters Corporation Services",
+    "url": "https://www.waters.com",
+    "type": "lab_services",
+    "description": "Chromatography system services",
+    "services": [
+      "Instrument service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ]
+  },
+  {
+    "name": "Shimadzu Scientific Instruments",
+    "url": "https://www.ssi.shimadzu.com",
+    "type": "lab_services",
+    "description": "Analytical instrument services",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Calibration"
+    ],
+    "title": "Analytical Testing / Measuring Instruments | Shimadzu",
+    "meta_description": "Discover insights and innovative solutions from Shimadzu, tailored to your needs. Visit Shimadzu today for more information.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:19.517484"
+  },
+  {
+    "name": "PerkinElmer Services",
+    "url": "https://www.perkinelmer.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "services": [
+      "Instrument service",
+      "Applications support",
+      "Training",
+      "Validation"
+    ],
+    "title": "PerkinElmer | Science with Purpose",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:19.856942"
+  },
+  {
+    "name": "Beckman Coulter Life Sciences",
+    "url": "https://www.beckmancoulter.com",
+    "type": "lab_services",
+    "description": "Centrifuge and lab services",
+    "services": [
+      "Service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ],
+    "title": "Beckman Coulter Diagnostics | Beckman Coulter",
+    "meta_description": "Beckman Coulter Diagnostics helps healthcare professionals provide better patient care by delivering the accurate diagnostic information they need.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:20.520316"
+  },
+  {
+    "name": "Bio-Rad Laboratories Services",
+    "url": "https://www.bio-rad.com",
+    "type": "lab_services",
+    "description": "Life science equipment service",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485020"
+    ],
+    "scraped_at": "2026-02-19T07:10:20.681428"
+  },
+  {
+    "name": "Eppendorf Service",
+    "url": "https://www.eppendorf.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "services": [
+      "Service",
+      "Calibration",
+      "Training",
+      "Repair"
+    ],
+    "title": "Laboratory equipment, supplies & services - Eppendorf US",
+    "meta_description": "Eppendorf SE is a leading life sciences company and develops and sells devices, consumables and services for use in laboratories worldwide.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.212580"
+  },
+  {
+    "name": "Sartorius Services",
+    "url": "https://www.sartorius.com",
+    "type": "lab_services",
+    "description": "Lab and bioprocess services",
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.493745"
+  },
+  {
+    "name": "Metler Toledo Service",
+    "url": "https://www.mt.com",
+    "type": "lab_services",
+    "description": "Lab balance and scale service",
+    "services": [
+      "Calibration",
+      "Service",
+      "Training",
+      "Validation"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.674035"
+  },
+  {
+    "name": "Cytiva",
+    "url": "https://www.cytiva.com",
+    "type": "lab_services",
+    "description": "Bioprocessing lab services",
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "title": "Cytiva",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:22.277063"
+  },
+  {
+    "name": "Danaher",
+    "url": "https://www.danaher.com",
+    "type": "lab_services",
+    "description": "Lab diagnostics and services",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "title": "Danaher Corporation",
+    "meta_description": "As a leading global life sciences and diagnostics innovator, we are committed to accelerating the power of science and technology to improve human health.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:22.675533"
+  },
+  {
+    "name": "H+H Laboratory Services",
+    "url": "https://hhlab.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "services": [
+      "Service",
+      "Repair",
+      "Calibration",
+      "Training"
+    ]
+  },
+  {
+    "name": "GenVault",
+    "url": "https://www.genvault.com",
+    "type": "lab_services",
+    "description": "Sample management services",
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Tracking"
+    ],
+    "title": "Not Acceptable!",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:26.711755"
+  },
+  {
+    "name": "Brooks Life Sciences",
+    "url": "https://www.brooks.com",
+    "type": "lab_services",
+    "description": "Sample management and automation",
+    "services": [
+      "Automation",
+      "Sample management",
+      "Storage",
+      "Tracking"
+    ],
+    "title": "Brooks Automation - Semiconductor Manufacturing and Collaborative Robots - Brooks Automation",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:27.035868"
+  },
+  {
+    "name": "Azenta Life Sciences",
+    "url": "https://www.azenta.com",
+    "type": "lab_services",
+    "description": "Sample management and storage",
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Software"
+    ],
+    "title": "Accelerating Breakthroughs &amp; Therapies | Azenta Life Sciences",
+    "meta_description": "Azenta Life Sciences enterprise-wide sample exploration and management solutions accelerate discovery, development and delivery, with speed and precision.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:27.973283"
+  }
+]

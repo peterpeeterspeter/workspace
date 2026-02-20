@@ -1,0 +1,2270 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-17T07:49:19.708017",
+    "category": "serp",
+    "operation": "google_organic",
+    "keyword": "gratis breipatronen",
+    "extra_info": "desktop"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "10.4403 sec.",
+    "cost": 0.0035,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02170949-8420-0139-0000-f015a278f8b6",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "10.3177 sec.",
+        "cost": 0.0035,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "serp",
+          "google",
+          "organic",
+          "live",
+          "advanced"
+        ],
+        "data": {
+          "api": "serp",
+          "function": "live",
+          "se": "google",
+          "se_type": "organic",
+          "keyword": "gratis breipatronen",
+          "location_code": null,
+          "language_code": null,
+          "depth": 20,
+          "device": "desktop",
+          "location_name": "Netherlands",
+          "language_name": "Dutch",
+          "os": "windows",
+          "tag": null,
+          "max_crawl_pages": null,
+          "search_param": null,
+          "calculate_rectangles": null,
+          "url": null,
+          "location_coordinate": null,
+          "se_domain": null
+        },
+        "result": [
+          {
+            "keyword": "gratis breipatronen",
+            "type": "organic",
+            "se_domain": "google.com",
+            "location_code": 2528,
+            "language_code": "nl",
+            "check_url": "https://www.google.com/search?q=gratis%20breipatronen&hl=nl&gl=NL&ie=UTF-8&uule=w+CAIQIFISCbvkh9vDCcZHEZ8Kvf_OdaGz",
+            "datetime": "2026-02-17 07:49:19 +00:00",
+            "spell": null,
+            "refinement_chips": {
+              "type": "refinement_chips",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Dames",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+breipatronen+dames&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-o1vkPvvdFPlnCIVKReJ5zZFT7wcvfFYi6TXAHYBrJjD8nx6f01pD9elCh7yZEQruDfpNaLqfv9xKGsYTmyoA_nsASdUr8JbW4HB4SAbhUMq6Puf3MPuNcbwis1Ymi5aorPQxYJ7znoRI15WFGfqd0u7LHXuiocrYLATcXBBkdjHIgySJCO3yhgM-fw9ugUF873A0U79lYjYuZQYwjm8SZWvfiNk&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoAHoECBUQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Downloaden",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+breipatronen+downloaden&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-kVrGtxoUVzqH0-0F_eNwdu7EAstPjMQKQrFb5JuxjL9D4zkJupIJkv-5dnDG77ARuuEHxcsY-TYFjx58hTNrvMW_JD8YdnLgHH0q951zuCyg9xYxmEnjLFqyTMpHpcGKD8nUWozZw54Q0vLVhyYBcx3wY-0x-yA9b_14ejg4WV4Fd_-NezlqkjHhpUr-ZCpqoqO-rJ5EqGHuONSHXUxmBeeeTho&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoAXoECBkQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Damestrui",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+breipatronen+damestrui&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-njZNXvIZCpOz2lvZ-h5w0O08nZo4xs6WeYstt79hrj6_jbijoBru8hdd7vFk_9JlI-W1iHsdneuA7vWfwVoWdk64It-YC-m3OJ6RxZDDjkXuesPMncWkG3CSxAgIUBquYl0q2l1gGfNO2W8Lb0Ey68mpWMeUos2jdZ1_3PObw5OUHLnmu2ClrjA722vM27bgPv1kGRDcBfc7CXHSt5tcOysohjw&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoAnoECBcQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "DROPS",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=DROPS+Gratis+breipatronen&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-Rdb66lRt5q77H6FQYtwX9dx42VUmUvvQyn_ohaBt3rxFhf1lCa0cOONnQTQPjL7B481RACd6184z_eG8bQcxJdFOfOod3uKB-5i6dGs7QYFJ6hlWjSa6iYbCXNcjzYyJ0zDEi71e_PlC4VYymr-ZC3fSNnIlByIyPfiWyvGS3hRULd3yBU2CMNIBWur0sOh91zTPFW-37mkaUFr63h80xrKsJEw&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoA3oECBYQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Kindertruien",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+breipatronen+kindertruien&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-UhFQOzPGb1kY9azT01rBvgHD94OKwFZOHe7xqEzqbM1Hd_-P0xym7Q5VYCttDyo2Czfwru8V22X0gn8Me1xIJDUdyQtFY8IAO5TpYLA0fCJTJSnsmDxUaqtafJDs2tc5BCjyeiwRDi5dsbnNIuEV09ceSaadbFRoLncjAaMXqzNq0BWoXgOkwoLMmq3QYEgZ97bxcOfMUOYjur3c_wfBMyPlArs&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoBHoECBQQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Phildar",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+breipatronen+Phildar&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-rQE2YbOUB0NCMq8ZfnlgQggIaO5AzowByOhUD7gqSuur-R53YInrFawyDcSLKstDNOnqyvAvN_ersc8xKT_pOcwTjObMSWXvGeIaapyuLvELDvMBameSjgYQ9D4lk6X3-ANyTo8A8Mo62YnzAoKLFVJYskMZP_TWIJHzQ6gt2ZBImKGGuOFwv7dDzTocIcwWqZwiUM1I_q57l3J9PNtb_jN2O54&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoBXoECEgQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Haken en breien",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Haken+en+breien+gratis+patronen&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-IUOCnBwboZtFDKog9r18_oqNLKqRB4qnDh8qW1p3y3bTopcWZUW1TcV6GSJVSZ6913uu9pG22Y8ERaTDG0IQhQ_DRUvHbtWj1LeaR-YAgLZToF5q4CEA9b3czsfv6noyIm3fMZDEpehag_3x2rpFhe7Qt005bozevaL0VFhmcjJS8IpqAKUr1yfy_8850DcqPqVRUjQiWZ8-2SWTEYtVSNsVvsuCIigFBDIyC6IGm7Ed06HZ&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoBnoECEkQAQ&ictx=0",
+                  "domain": "www.google.com"
+                },
+                {
+                  "type": "refinement_chips_element",
+                  "title": "Trui breien",
+                  "url": "https://www.google.com/search?hl=nl&gl=NL&sca_esv=d6eb6bac57f34326&q=Gratis+patroon+trui+breien&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-rQE2YbOUB0NCMq8ZfnlgQsiUPSQdltiObR0fxqCdF7BFbtQZ3LMMgzJChpkKcmEp_S1eNgmt1uM_WhzBIlUIAO4Ql3lUX4mIQbQkdgv_-KYaNt-H3FOmYfw5gb5LK2jgvJfqCm2BIHu9VPyDn3oDVTZSSEZubJ9gRnFjtdUnbfe3GYxrGB_jMI9z6Zbx6XxvV8WehNF2kr7CgI0PqrcLT3Gk-2U&sa=X&ved=2ahUKEwjnssf4hOCSAxU1AtsEHeVoLfg4ChDEqwkoB3oECEoQAQ&ictx=0",
+                  "domain": "www.google.com"
+                }
+              ]
+            },
+            "item_types": [
+              "organic",
+              "people_also_ask",
+              "related_searches"
+            ],
+            "se_results_count": 379000,
+            "pages_count": 2,
+            "items_count": 23,
+            "items": [
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 1,
+                "rank_absolute": 1,
+                "domain": "www.garnstudio.com",
+                "title": "Gratis breipatronen en haakpatronen van DROPS Design",
+                "description": "Welkom bij DROPS Design! Hier vindt u meer dan 120.000 gratis breipatronen en haakpatronen met instructievideo's, en garens voor een fantastische prijs.",
+                "url": "https://www.garnstudio.com/search.php?lang=nl",
+                "breadcrumb": "https://www.garnstudio.com › search",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "DROPS Design",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "meer dan 120.000 gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 2,
+                "rank_absolute": 2,
+                "domain": "www.debreiboerderij.nl",
+                "title": "(Gratis) patronen",
+                "description": "Kies bij ons gratis patronen uit voor haken en breien ! een enorme collectie gratis patronen van eigen hand maar ook van topmerken als Lang Yarns, Phildar, ...",
+                "url": "https://www.debreiboerderij.nl/gratis-patronen.html?srsltid=AfmBOordD7cPtwIrhyOLxRadzJ-Ac0z9psecxtf056agJFc9hEFH77f4",
+                "breadcrumb": "https://www.debreiboerderij.nl › gratis-patronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "De Breiboerderij",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Kies bij ons gratis patronen uit voor haken en breien"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 3,
+                "rank_absolute": 3,
+                "domain": "www.wolplein.nl",
+                "title": "Breipatronen downloaden - Gratis en betaald",
+                "description": "Download gratis en betaalde breipatronen eenvoudig online op Wolplein.nl! Kies uit breipatronen van damestruien, spencers, kindertruien, dekens kussens en ...",
+                "url": "https://www.wolplein.nl/patronen/breipatronen?srsltid=AfmBOoqyE-heAdwFrrD6rvODPvDeIT-j-xhClDqzoY6Gt4cQO4lQlrsG",
+                "breadcrumb": "https://www.wolplein.nl › ... › Patronen › Categorieën",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Wolplein",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Download gratis en betaalde breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 4,
+                "rank_absolute": 4,
+                "domain": "www.hobbydoos.nl",
+                "title": "Gratis breipatronen en haakpatronen downloaden",
+                "description": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet, zodat je die gratis kunt ...",
+                "url": "https://www.hobbydoos.nl/",
+                "breadcrumb": "https://www.hobbydoos.nl",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Hobbydoos",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 5,
+                "rank_absolute": 5,
+                "domain": "dolopwol.com",
+                "title": "Gratis Patronen",
+                "description": "Download hier al onze gratis patronen. U bent vrij deze patronen te gebruiken en te delen voor niet-commerciële doeleinden of activiteiten.",
+                "url": "https://dolopwol.com/patronen/gratis-patronen/",
+                "breadcrumb": "https://dolopwol.com › Patronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Dol-op-Wol",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Download hier al onze gratis patronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "people_also_ask",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 1,
+                "rank_absolute": 6,
+                "items": [
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Waar kan ik gratis breipatronen vinden?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": [
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": null,
+                            "text": "Gratis breipatronen vind je op gespecialiseerde handwerkwebsites zoals Wolplein.nl en Hobbydoos.nl, waar je vaak patronen kunt downloaden van topmerken zoals Drops, Phildar en Scheepjeswol. Grote winkelketens zoals HEMA bieden ook gratis patronen aan voor beginners en gevorderden, en je vindt patronen bij De Breiboerderij en LindeHobby.nl.",
+                            "markdown": "Gratis breipatronen vind je op gespecialiseerde handwerkwebsites zoals [Wolplein.nl](https://www.wolplein.nl/patronen) en [Hobbydoos.nl](https://www.hobbydoos.nl/) , waar je vaak patronen kunt downloaden van topmerken zoals Drops, Phildar en Scheepjeswol.Grote winkelketens zoals [HEMA](https://www.hema.nl/inspiratie/hobby/breipatroon) bieden ook gratis patronen aan voor beginners en gevorderden, en je vindt patronen bij [De Breiboerderij](https://www.debreiboerderij.nl/gratis-patronen.html) en [LindeHobby.nl](https://lindehobby.nl/breipatronen-528/).[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[2]](https://lindehobby.nl/breipatronen-528/#:~:text=Als%20je%20het%20juiste%20garen,het%20recept%20gratis%20te%20downloaden.)[[3]](https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!)[[4]](https://www.hobbydoos.nl/breipatronen.asp#:~:text=Gebruik%20van%20DROPS%20Garen,met%20uitstekende%20textuur%20en%20duurzaamheid.)[[5]](https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Daag%20jezelf%20uit%20om%20aan,die%20meteen%20via%20onze%20site.)[[6]](https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "Wolplein.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.wolplein.nl/patronen",
+                                "domain": "www.wolplein.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Hobbydoos.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hobbydoos.nl/",
+                                "domain": "www.hobbydoos.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "HEMA",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon",
+                                "domain": "www.hema.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "De Breiboerderij",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html",
+                                "domain": "www.debreiboerderij.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "LindeHobby.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://lindehobby.nl/breipatronen-528/",
+                                "domain": "lindehobby.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "LindeHobby.nl",
+                                "domain": "lindehobby.nl",
+                                "url": "https://lindehobby.nl/breipatronen-528/#:~:text=Als%20je%20het%20juiste%20garen,het%20recept%20gratis%20te%20downloaden.",
+                                "title": "Breipatronen - Enorme selectie gratis patronen - LindeHobby.nl",
+                                "text": "Als je het juiste garen en de juiste naalden hebt gevonden, kun je snel aan de slag met breien. Al onze breipatronen op deze pagin..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                                "title": "Gratis en betaalde patronen downloaden voor breien ... - Wolplein",
+                                "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/breipatronen.asp#:~:text=Gebruik%20van%20DROPS%20Garen,met%20uitstekende%20textuur%20en%20duurzaamheid.",
+                                "title": "Gratis breipatronen downloaden - Hobbydoos.nl",
+                                "text": "Gebruik van DROPS Garen DROPS is een bekend merk in de breiwereld, bekend om zijn kwaliteit en diversiteit aan garen. Al onze grat..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "HEMA.nl",
+                                "domain": "www.hema.nl",
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Daag%20jezelf%20uit%20om%20aan,die%20meteen%20via%20onze%20site.",
+                                "title": "Breipatronen en haakpatronen - HEMA.nl",
+                                "text": "Daag jezelf uit om aan de slag te gaan met de (gratis) breipatronen en haakpatronen van HEMA. Er zijn simpele patronen voor beginn..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbygigant",
+                                "domain": "www.hobbygigant.nl",
+                                "url": "https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.",
+                                "title": "Grote collectie gratis breipatronen | hobbygigant.nl",
+                                "text": "Wij hebben een mooie selectie van gratis breipatronen. Klik op het gewenste patroon en je kan het direct downloaden en zelf afdruk..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Online handwerkwinkels",
+                            "text": "Wolplein.nl : Grote collectie gratis patronen voor breien, haken en meer, van beginner tot gevorderd. Hobbydoos.nl : Veel gratis patronen, vaak gekoppeld aan bekende merken zoals Drops, beschikbaar als PDF-download. C.R. Couture : Biedt regelmatig gratis patronen aan die je als PDF kunt downloaden na het 'bestellen' (je betaalt niets). De Breiboerderij : Enorme collectie gratis patronen van eigen hand en van topmerken, vaak als breipakket verkrijgbaar. Hobbygigant.nl : Grote selectie gratis patronen van merken als Katia, Phildar en Scheepjeswol. LindeHobby.nl : Direct te downloaden gratis patronen voor dames, kinderen en baby's.",
+                            "markdown": "- [Wolplein.nl](https://www.wolplein.nl/):Grote collectie gratis patronen voor breien, haken en meer, van beginner tot gevorderd.[[1]](https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!)[[2]](https://www.wolplein.nl/patronen/breipatronen#:~:text=Breipatronen%20downloaden%20-%20Gratis%20en%20betaald%20%7C%20Wolplein.nl)\n- [Hobbydoos.nl](https://www.hobbydoos.nl/):Veel gratis patronen, vaak gekoppeld aan bekende merken zoals Drops, beschikbaar als PDF-download.[[1]](https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.)[[2]](https://www.hobbydoos.nl/breipatronen.asp#:~:text=Gebruik%20van%20DROPS%20Garen,met%20uitstekende%20textuur%20en%20duurzaamheid.)[[3]](https://www.hobbydoos.nl/patroon/techniek/1002/breien)\n- **[C.R. Couture](https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=C.R.+Couture&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUI1QEQAQ)**:Biedt regelmatig gratis patronen aan die je als PDF kunt downloaden na het 'bestellen' (je betaalt niets).[[1]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)\n- **[De Breiboerderij](https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=De+Breiboerderij&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUIlAIQAQ)**:Enorme collectie gratis patronen van eigen hand en van topmerken, vaak als breipakket verkrijgbaar.[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)\n- [Hobbygigant.nl](https://www.hobbygigant.nl/):Grote selectie gratis patronen van merken als Katia, Phildar en Scheepjeswol.[[1]](https://www.hobbygigant.nl/blog/gratis-breipatronen/page/8/#:~:text=Wij%20hebben%20een%20mooie%20selectie,Phildar%2C%20Lana%20Grossa%20en%20Scheepjeswol.)[[2]](https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.)\n- [LindeHobby.nl](https://lindehobby.nl/):Direct te downloaden gratis patronen voor dames, kinderen en baby's.[[1]](https://lindehobby.nl/breipatronen-528/#:~:text=Als%20je%20het%20juiste%20garen,het%20recept%20gratis%20te%20downloaden.)[[2]](https://www.hobbydoos.nl/patroon/techniek/1002/breien)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "Wolplein.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.wolplein.nl/",
+                                "domain": "www.wolplein.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Hobbydoos.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hobbydoos.nl/",
+                                "domain": "www.hobbydoos.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "C.R. Couture",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=C.R.+Couture&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUI1QEQAQ",
+                                "domain": "www.google.com",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "De Breiboerderij",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=De+Breiboerderij&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUIlAIQAQ",
+                                "domain": "www.google.com",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Hobbygigant.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hobbygigant.nl/",
+                                "domain": "www.hobbygigant.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "LindeHobby.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://lindehobby.nl/",
+                                "domain": "lindehobby.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                                "title": "Gratis en betaalde patronen downloaden voor breien ... - Wolplein",
+                                "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen/breipatronen#:~:text=Breipatronen%20downloaden%20-%20Gratis%20en%20betaald%20%7C%20Wolplein.nl",
+                                "title": "Breipatronen downloaden - Gratis en betaald | Wolplein.nl",
+                                "text": "Breipatronen downloaden - Gratis en betaald | Wolplein.nl."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                                "title": "Gratis breipatronen en haakpatronen downloaden",
+                                "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/breipatronen.asp#:~:text=Gebruik%20van%20DROPS%20Garen,met%20uitstekende%20textuur%20en%20duurzaamheid.",
+                                "title": "Gratis breipatronen downloaden - Hobbydoos.nl",
+                                "text": "Gebruik van DROPS Garen DROPS is een bekend merk in de breiwereld, bekend om zijn kwaliteit en diversiteit aan garen. Al onze grat..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/patroon/techniek/1002/breien",
+                                "title": "Breipatronen - Hobbydoos.nl",
+                                "text": "* Gratis Breipatronen voor Dames. Verwen jezelf of een dierbare met een zelfgebreide trui. Onze gratis breipatronen voor dames va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "CrCouture",
+                                "domain": "www.crcouture.nl",
+                                "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                                "title": "GRATIS breipatronen | 30+ Online downloads | C.R. Couture",
+                                "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbygigant",
+                                "domain": "www.hobbygigant.nl",
+                                "url": "https://www.hobbygigant.nl/blog/gratis-breipatronen/page/8/#:~:text=Wij%20hebben%20een%20mooie%20selectie,Phildar%2C%20Lana%20Grossa%20en%20Scheepjeswol.",
+                                "title": "Gratis breipatronen - Hobby Gigant",
+                                "text": "Wij hebben een mooie selectie van gratis breipatronen. Kies het mooiste patroon en je kunt het direct downloaden en afdrukken. Onz..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbygigant",
+                                "domain": "www.hobbygigant.nl",
+                                "url": "https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.",
+                                "title": "Grote collectie gratis breipatronen | hobbygigant.nl",
+                                "text": "Wij hebben een mooie selectie van gratis breipatronen. Klik op het gewenste patroon en je kan het direct downloaden en zelf afdruk..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "LindeHobby.nl",
+                                "domain": "lindehobby.nl",
+                                "url": "https://lindehobby.nl/breipatronen-528/#:~:text=Als%20je%20het%20juiste%20garen,het%20recept%20gratis%20te%20downloaden.",
+                                "title": "Breipatronen - Enorme selectie gratis patronen - LindeHobby.nl",
+                                "text": "Als je het juiste garen en de juiste naalden hebt gevonden, kun je snel aan de slag met breien. Al onze breipatronen op deze pagin..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Warenhuizen",
+                            "text": "HEMA : Biedt gratis brei- en haakpatronen aan, inclusief simpele patronen voor beginners.",
+                            "markdown": "- **HEMA**:Biedt gratis brei- en haakpatronen aan, inclusief simpele patronen voor beginners.[[1]](https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Daag%20jezelf%20uit%20om%20aan,die%20meteen%20via%20onze%20site.)",
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "HEMA.nl",
+                                "domain": "www.hema.nl",
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Daag%20jezelf%20uit%20om%20aan,die%20meteen%20via%20onze%20site.",
+                                "title": "Breipatronen en haakpatronen - HEMA.nl",
+                                "text": "Daag jezelf uit om aan de slag te gaan met de (gratis) breipatronen en haakpatronen van HEMA. Er zijn simpele patronen voor beginn..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Tips om te vinden",
+                            "text": "Zoek op de websites naar categorieën als \"Gratis patronen\", \"Breipatronen\" of \"Downloads\". Veel sites vragen je een account aan te maken om de patronen te downloaden, zodat je ze later terugvindt in je account. Let op de mogelijkheid om een compleet breipakket te bestellen, waarbij patroon en garen bij elkaar zitten.",
+                            "markdown": "- Zoek op de websites naar categorieën als \"Gratis patronen\", \"Breipatronen\" of \"Downloads\".[[1]](https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.)[[2]](https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!)[[3]](https://nordiskgarn.dk/nl/product-categorie/patronen-breien/gratis-breipatronen/#:~:text=Hier%20vindt%20u%20gratis%20recepten,voor%20truien%20en%20andere%20breiprojecten.)\n- Veel sites vragen je een account aan te maken om de patronen te downloaden, zodat je ze later terugvindt in je account.[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[2]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)\n- Let op de mogelijkheid om een compleet breipakket te bestellen, waarbij patroon en garen bij elkaar zitten.[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[2]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)[[3]](https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.)",
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                                "title": "Gratis breipatronen en haakpatronen downloaden",
+                                "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                                "title": "Gratis en betaalde patronen downloaden voor breien ... - Wolplein",
+                                "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Nordisk garn",
+                                "domain": "nordiskgarn.dk",
+                                "url": "https://nordiskgarn.dk/nl/product-categorie/patronen-breien/gratis-breipatronen/#:~:text=Hier%20vindt%20u%20gratis%20recepten,voor%20truien%20en%20andere%20breiprojecten.",
+                                "title": "Gratis breipatronen » Noords garen - Nordisk garn",
+                                "text": "Hier vindt u gratis recepten van onze merken - Istex, Rauma en Hillesvåg. Bij Nordisk Garn kunt u uw gratis patronen gratis downlo..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "CrCouture",
+                                "domain": "www.crcouture.nl",
+                                "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                                "title": "GRATIS breipatronen | 30+ Online downloads | C.R. Couture",
+                                "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbygigant",
+                                "domain": "www.hobbygigant.nl",
+                                "url": "https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.",
+                                "title": "Grote collectie gratis breipatronen | hobbygigant.nl",
+                                "text": "Wij hebben een mooie selectie van gratis breipatronen. Klik op het gewenste patroon en je kan het direct downloaden en zelf afdruk..."
+                              }
+                            ]
+                          }
+                        ],
+                        "references": [
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "De Breiboerderij",
+                            "domain": "www.debreiboerderij.nl",
+                            "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                            "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                            "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbydoos",
+                            "domain": "www.hobbydoos.nl",
+                            "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                            "title": "Gratis breipatronen en haakpatronen downloaden",
+                            "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "LindeHobby.nl",
+                            "domain": "lindehobby.nl",
+                            "url": "https://lindehobby.nl/breipatronen-528/#:~:text=Als%20je%20het%20juiste%20garen,het%20recept%20gratis%20te%20downloaden.",
+                            "title": "Breipatronen - Enorme selectie gratis patronen - LindeHobby.nl",
+                            "text": "Als je het juiste garen en de juiste naalden hebt gevonden, kun je snel aan de slag met breien. Al onze breipatronen op deze pagin..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Wolplein",
+                            "domain": "www.wolplein.nl",
+                            "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                            "title": "Gratis en betaalde patronen downloaden voor breien ... - Wolplein",
+                            "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbydoos",
+                            "domain": "www.hobbydoos.nl",
+                            "url": "https://www.hobbydoos.nl/breipatronen.asp#:~:text=Gebruik%20van%20DROPS%20Garen,met%20uitstekende%20textuur%20en%20duurzaamheid.",
+                            "title": "Gratis breipatronen downloaden - Hobbydoos.nl",
+                            "text": "Gebruik van DROPS Garen DROPS is een bekend merk in de breiwereld, bekend om zijn kwaliteit en diversiteit aan garen. Al onze grat..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Wolplein",
+                            "domain": "www.wolplein.nl",
+                            "url": "https://www.wolplein.nl/patronen/breipatronen#:~:text=Breipatronen%20downloaden%20-%20Gratis%20en%20betaald%20%7C%20Wolplein.nl",
+                            "title": "Breipatronen downloaden - Gratis en betaald | Wolplein.nl",
+                            "text": "Breipatronen downloaden - Gratis en betaald | Wolplein.nl."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "CrCouture",
+                            "domain": "www.crcouture.nl",
+                            "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                            "title": "GRATIS breipatronen | 30+ Online downloads | C.R. Couture",
+                            "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "HEMA.nl",
+                            "domain": "www.hema.nl",
+                            "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Daag%20jezelf%20uit%20om%20aan,die%20meteen%20via%20onze%20site.",
+                            "title": "Breipatronen en haakpatronen - HEMA.nl",
+                            "text": "Daag jezelf uit om aan de slag te gaan met de (gratis) breipatronen en haakpatronen van HEMA. Er zijn simpele patronen voor beginn..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Nordisk garn",
+                            "domain": "nordiskgarn.dk",
+                            "url": "https://nordiskgarn.dk/nl/product-categorie/patronen-breien/gratis-breipatronen/#:~:text=Hier%20vindt%20u%20gratis%20recepten,voor%20truien%20en%20andere%20breiprojecten.",
+                            "title": "Gratis breipatronen » Noords garen - Nordisk garn",
+                            "text": "Hier vindt u gratis recepten van onze merken - Istex, Rauma en Hillesvåg. Bij Nordisk Garn kunt u uw gratis patronen gratis downlo..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbygigant",
+                            "domain": "www.hobbygigant.nl",
+                            "url": "https://www.hobbygigant.nl/blog/gratis-breipatronen/page/8/#:~:text=Wij%20hebben%20een%20mooie%20selectie,Phildar%2C%20Lana%20Grossa%20en%20Scheepjeswol.",
+                            "title": "Gratis breipatronen - Hobby Gigant",
+                            "text": "Wij hebben een mooie selectie van gratis breipatronen. Kies het mooiste patroon en je kunt het direct downloaden en afdrukken. Onz..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbygigant",
+                            "domain": "www.hobbygigant.nl",
+                            "url": "https://www.hobbygigant.nl/breien/breipatroon/gratis/#:~:text=Wij%20hebben%20een%20mooie%20selectie,patroon%20en%20de%20benodigde%20garens!&text=This%20cookie%20is%20installed%20by,visited%20in%20an%20anonymous%20form.&text=_clsk-,This%20cookie%20is%20installed%20by%20Microsoft%20Clarity%20to%20store%20information,visited%20in%20an%20anonymous%20form.",
+                            "title": "Grote collectie gratis breipatronen | hobbygigant.nl",
+                            "text": "Wij hebben een mooie selectie van gratis breipatronen. Klik op het gewenste patroon en je kan het direct downloaden en zelf afdruk..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbydoos",
+                            "domain": "www.hobbydoos.nl",
+                            "url": "https://www.hobbydoos.nl/patroon/techniek/1002/breien",
+                            "title": "Breipatronen - Hobbydoos.nl",
+                            "text": "* Gratis Breipatronen voor Dames. Verwen jezelf of een dierbare met een zelfgebreide trui. Onze gratis breipatronen voor dames va..."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Heeft Zeeman breipatronen?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": [
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": null,
+                            "text": "Ja, Zeeman verkoopt veel breigaren, maar geeft zelf geen uitgebreide patronen uit; je vindt ze meestal bij creatieve blogs en sites die gespecialiseerd zijn in patronen voor Zeeman/Wibra garens zoals Royal, Julia, en Supersoft, voor projecten variërend van eenvoudige sjaals en mutsen tot truien en dekens. Websites zoals ikwilbreien.nl bieden veel van deze patronen aan, vaak met instructievideo's en gericht op budgetvriendelijk breien.",
+                            "markdown": "![Zeeman breien patronen? (Veel inspiratie!) » Breiwinkeltje](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpyzw4YhA8Ss7NAtvyjCgmtKBk3fEQFqEGXEBs2Hh3iM04LV_ZToGGoO3&s)\nJa, [Zeeman](https://www.zeeman.com/nl-nl/thuis/breien-haken) verkoopt veel breigaren, maar geeft zelf geen uitgebreide patronen uit;je vindt ze meestal bij creatieve blogs en sites die gespecialiseerd zijn in patronen voor Zeeman/Wibra garens zoals Royal, Julia, en Supersoft, voor projecten variërend van eenvoudige sjaals en mutsen tot truien en dekens.Websites zoals [ikwilbreien.nl](https://ikwilbreien.nl/collections/zeeman-wibra-breipatronen) bieden veel van deze patronen aan, vaak met instructievideo's en gericht op budgetvriendelijk breien.  \n[[1]](https://ikwilbreien.nl/blogs/nieuws/breipatronen-voor-breigaren-van-zeeman-en-wibra)[[2]](https://ikwilbreien.nl/collections/zeeman-wibra-breipatronen#:~:text=Deze%20breipatronen%20zijn%20speciaal%20gemaakt%20voor%20het%20breigaren%20van%20Zeeman%20en%20Wibra.)[[3]](https://www.zeeman.com/nl-be/blog/creatief/breien-haken#:~:text=Met%20haken%20en%20breien%20kun,bedsprei:%20iedereen%20kan%20het%20leren.)[[4]](https://breiwinkeltje.nl/zeeman-breien-patronen/#:~:text=Populaire%20Zeeman%20breien%20patronen,moeite%20waard%20voor%20gevorderde%20breiers.)[[5]](https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.)[[6]](https://ikwilbreien.nl/products/breipatroon-damesvest-zeeman-wibra-versie#:~:text=Beschrijving,weer%20gebreid%20op%20rechte%20breinaalden.)[[7]](https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.)[[8]](https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.)[[9]](https://interiortwin.com/2024/02/18/brei-gestreepte-trui-royal-breigaren-zeeman/#:~:text=In%20dit%20artikel%20deel%20ik,te%20gaan%20met%20een%20patroon.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "Zeeman",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken",
+                                "domain": "www.zeeman.com",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "ikwilbreien.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://ikwilbreien.nl/collections/zeeman-wibra-breipatronen",
+                                "domain": "ikwilbreien.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "images": [
+                              {
+                                "type": "images_element",
+                                "alt": "Zeeman breien patronen? (Veel inspiratie!) » Breiwinkeltje",
+                                "url": null,
+                                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpyzw4YhA8Ss7NAtvyjCgmtKBk3fEQFqEGXEBs2Hh3iM04LV_ZToGGoO3&s"
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/blogs/nieuws/breipatronen-voor-breigaren-van-zeeman-en-wibra",
+                                "title": "Breipatronen voor breigaren van Zeeman en Wibra - Ikwilbreien",
+                                "text": "23 dec 2024 —  Breipatronen * Breipatroon makkelijk oversized vest - Zeeman/Wibra versie. * Vanaf €3,00. * Breipatroon damesvest Zeem..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/collections/zeeman-wibra-breipatronen#:~:text=Deze%20breipatronen%20zijn%20speciaal%20gemaakt%20voor%20het%20breigaren%20van%20Zeeman%20en%20Wibra.",
+                                "title": "Zeeman/Wibra breipatronen - Ikwilbreien",
+                                "text": "Deze breipatronen zijn speciaal gemaakt voor het breigaren van Zeeman en Wibra."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-be/blog/creatief/breien-haken#:~:text=Met%20haken%20en%20breien%20kun,bedsprei:%20iedereen%20kan%20het%20leren.",
+                                "title": "Breien en haken - Zeeman",
+                                "text": "Met haken en breien kun je eindeloos veel creaties maken. Denk aan mutsen en sjaals, omslagdoeken, (baby)dekentjes, truien, knuffe..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "breiwinkeltje.nl",
+                                "domain": "breiwinkeltje.nl",
+                                "url": "https://breiwinkeltje.nl/zeeman-breien-patronen/#:~:text=Populaire%20Zeeman%20breien%20patronen,moeite%20waard%20voor%20gevorderde%20breiers.",
+                                "title": "Zeeman breien patronen? (Veel inspiratie!) » Breiwinkeltje",
+                                "text": "Populaire Zeeman breien patronen Zeeman biedt een breed scala aan breipatronen, maar hier zijn enkele van de meest populaire die j..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.",
+                                "title": "Babytrui met opmaaspatronen (Royal - Zeeman) - Ikwilbreien",
+                                "text": "Beschrijving. Breipatroon voor een eenvoudig babytruitje. Dankzij de bijbehorende videotutorial kan het niet mislukken. Dit breipa..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/products/breipatroon-damesvest-zeeman-wibra-versie#:~:text=Beschrijving,weer%20gebreid%20op%20rechte%20breinaalden.",
+                                "title": "Breipatroon damesvest Zeeman/Wibra versie - Ikwilbreien",
+                                "text": "Beschrijving. Breipatroon voor een mooi lang damesvest met het garen Royal van Zeeman of Saskia van Wibra. Het breipatroon is duid..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.",
+                                "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                                "text": "Soorten breigaren Elk garen van Zeeman is anders. We hebben veel verschillende soorten in ons assortiment. Breigaren die we altijd..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Pinterest",
+                                "domain": "www.pinterest.com",
+                                "url": "https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.",
+                                "title": "Breipatronen voor Zeeman garen - Pinterest",
+                                "text": "22 dec 2024 — Geen mislukte truien meer omdat het breipatroon eigenlijk voor ander garen is bedoeld! Ikwilbreien heeft een aantal bre..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "InteriorTwin",
+                                "domain": "interiortwin.com",
+                                "url": "https://interiortwin.com/2024/02/18/brei-gestreepte-trui-royal-breigaren-zeeman/#:~:text=In%20dit%20artikel%20deel%20ik,te%20gaan%20met%20een%20patroon.",
+                                "title": "Brei zelf een gestreepte trui met Royal breigaren van Zeeman",
+                                "text": "18 feb 2024 — In dit artikel deel ik graag een gratis breipatroon voor een gestreepte trui met Royal breigaren van Zeeman. Een heerli..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Waar vind je patronen?",
+                            "text": "Blogs en gespecialiseerde sites: Websites zoals ikwilbreien.nl en InteriorTwin.com bieden gratis en betaalde patronen aan, vaak speciaal ontworpen voor de garens van Zeeman. YouTube: Veel van deze patronen hebben bijbehorende videotutorials voor beginners, wat het leren breien vergemakkelijkt. Pinterest: Een goede bron voor visuele inspiratie en links naar patronen.",
+                            "markdown": "- **Blogs en gespecialiseerde sites:** Websites zoals [ikwilbreien.nl](https://ikwilbreien.nl/) en [InteriorTwin.com](https://interiortwin.com/) bieden gratis en betaalde patronen aan, vaak speciaal ontworpen voor de garens van Zeeman.[[1]](https://ikwilbreien.nl/blogs/nieuws/breipatronen-voor-breigaren-van-zeeman-en-wibra)[[2]](https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.)[[3]](https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.)[[4]](https://interiortwin.com/2024/02/18/brei-gestreepte-trui-royal-breigaren-zeeman/#:~:text=In%20dit%20artikel%20deel%20ik,te%20gaan%20met%20een%20patroon.)\n- **YouTube:** Veel van deze patronen hebben bijbehorende videotutorials voor beginners, wat het leren breien vergemakkelijkt.[[1]](https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.)[[2]](https://ikwilbreien.nl/products/breipatroon-damestrui-v-hals-voor-zeeman-wibra-breigaren#:~:text=Beschrijving,hals%20is%20een%20rondbreinaald%20nodig.&text=Let%20op:%20maak%20altijd%20een,kleur%2C%20zelfs%20van%20hetzelfde%20merk.)\n- **Pinterest:** Een goede bron voor visuele inspiratie en links naar patronen.[[1]](https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "ikwilbreien.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://ikwilbreien.nl/",
+                                "domain": "ikwilbreien.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "InteriorTwin.com",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://interiortwin.com/",
+                                "domain": "interiortwin.com",
+                                "xpath": null
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/blogs/nieuws/breipatronen-voor-breigaren-van-zeeman-en-wibra",
+                                "title": "Breipatronen voor breigaren van Zeeman en Wibra - Ikwilbreien",
+                                "text": "23 dec 2024 —  Breipatronen * Breipatroon makkelijk oversized vest - Zeeman/Wibra versie. * Vanaf €3,00. * Breipatroon damesvest Zeem..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.",
+                                "title": "Babytrui met opmaaspatronen (Royal - Zeeman) - Ikwilbreien",
+                                "text": "Beschrijving. Breipatroon voor een eenvoudig babytruitje. Dankzij de bijbehorende videotutorial kan het niet mislukken. Dit breipa..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Pinterest",
+                                "domain": "www.pinterest.com",
+                                "url": "https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.",
+                                "title": "Breipatronen voor Zeeman garen - Pinterest",
+                                "text": "22 dec 2024 — Geen mislukte truien meer omdat het breipatroon eigenlijk voor ander garen is bedoeld! Ikwilbreien heeft een aantal bre..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "InteriorTwin",
+                                "domain": "interiortwin.com",
+                                "url": "https://interiortwin.com/2024/02/18/brei-gestreepte-trui-royal-breigaren-zeeman/#:~:text=In%20dit%20artikel%20deel%20ik,te%20gaan%20met%20een%20patroon.",
+                                "title": "Brei zelf een gestreepte trui met Royal breigaren van Zeeman",
+                                "text": "18 feb 2024 — In dit artikel deel ik graag een gratis breipatroon voor een gestreepte trui met Royal breigaren van Zeeman. Een heerli..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/products/breipatroon-damestrui-v-hals-voor-zeeman-wibra-breigaren#:~:text=Beschrijving,hals%20is%20een%20rondbreinaald%20nodig.&text=Let%20op:%20maak%20altijd%20een,kleur%2C%20zelfs%20van%20hetzelfde%20merk.",
+                                "title": "Breipatroon damestrui V-hals voor Zeeman/Wibra breigaren",
+                                "text": "Beschrijving. Deze damestrui met V-hals is ontworpen voor het breigaren Royal van Zeeman of Saskia van Wibra. Dit breipatroon is g..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Populaire projecten en garens:",
+                            "text": "Garens: Zeeman's Royal (100% acryl), Julia (structuur) en Supersoft (extra zacht) zijn veelgebruikt. Projecten: Sjaals, mutsen (beginners). Uitdagender: Truien, omslagdoeken, (baby)dekens.",
+                            "markdown": "- **Garens:** Zeeman's Royal (100% acryl), Julia (structuur) en Supersoft (extra zacht) zijn veelgebruikt.\n- **Projecten:** Sjaals, mutsen (beginners).\n- **Uitdagender:** Truien, omslagdoeken, (baby)dekens.",
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-be/blog/creatief/breien-haken#:~:text=Met%20haken%20en%20breien%20kun,bedsprei:%20iedereen%20kan%20het%20leren.",
+                                "title": "Breien en haken - Zeeman",
+                                "text": "Met haken en breien kun je eindeloos veel creaties maken. Denk aan mutsen en sjaals, omslagdoeken, (baby)dekentjes, truien, knuffe..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "breiwinkeltje.nl",
+                                "domain": "breiwinkeltje.nl",
+                                "url": "https://breiwinkeltje.nl/zeeman-breien-patronen/#:~:text=Populaire%20Zeeman%20breien%20patronen,moeite%20waard%20voor%20gevorderde%20breiers.",
+                                "title": "Zeeman breien patronen? (Veel inspiratie!) » Breiwinkeltje",
+                                "text": "Populaire Zeeman breien patronen Zeeman biedt een breed scala aan breipatronen, maar hier zijn enkele van de meest populaire die j..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.",
+                                "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                                "text": "Soorten breigaren Elk garen van Zeeman is anders. We hebben veel verschillende soorten in ons assortiment. Breigaren die we altijd..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Tips:",
+                            "text": "Maak altijd een proeflapje, omdat je eigen breistijl (strakker/losser) de maat kan beïnvloeden, zelfs met hetzelfde garen. Zeeman accepteert overgebleven bolletjes binnen een jaar terug (met kassabon), wat handig is voor als je te veel hebt gekocht.",
+                            "markdown": "- Maak altijd een proeflapje, omdat je eigen breistijl (strakker/losser) de maat kan beïnvloeden, zelfs met hetzelfde garen.[[1]](https://ikwilbreien.nl/products/breipatroon-damestrui-v-hals-voor-zeeman-wibra-breigaren#:~:text=Beschrijving,hals%20is%20een%20rondbreinaald%20nodig.&text=Let%20op:%20maak%20altijd%20een,kleur%2C%20zelfs%20van%20hetzelfde%20merk.)\n- Zeeman accepteert overgebleven bolletjes binnen een jaar terug (met kassabon), wat handig is voor als je te veel hebt gekocht.[[1]](https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.)[[2]](https://www.zeeman.com/nl-nl/thuis/breien-haken?page=2#:~:text=Bolletje%20over:%20gewoon%20terugbrengen,aankoop%20met%20de%20kassabon%20terugbrengen.)",
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Ikwilbreien",
+                                "domain": "ikwilbreien.nl",
+                                "url": "https://ikwilbreien.nl/products/breipatroon-damestrui-v-hals-voor-zeeman-wibra-breigaren#:~:text=Beschrijving,hals%20is%20een%20rondbreinaald%20nodig.&text=Let%20op:%20maak%20altijd%20een,kleur%2C%20zelfs%20van%20hetzelfde%20merk.",
+                                "title": "Breipatroon damestrui V-hals voor Zeeman/Wibra breigaren",
+                                "text": "Beschrijving. Deze damestrui met V-hals is ontworpen voor het breigaren Royal van Zeeman of Saskia van Wibra. Dit breipatroon is g..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.",
+                                "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                                "text": "Soorten breigaren Elk garen van Zeeman is anders. We hebben veel verschillende soorten in ons assortiment. Breigaren die we altijd..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken?page=2#:~:text=Bolletje%20over:%20gewoon%20terugbrengen,aankoop%20met%20de%20kassabon%20terugbrengen.",
+                                "title": "voor breien en haken: van wol tot breigaren. Vanaf €0,99 - Zeeman",
+                                "text": "Bolletje over: gewoon terugbrengen Het is moeilijk om vooraf precies in te schatten hoeveel garen je voor een brei- of haakwerk no..."
+                              }
+                            ]
+                          }
+                        ],
+                        "references": [
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Ikwilbreien",
+                            "domain": "ikwilbreien.nl",
+                            "url": "https://ikwilbreien.nl/blogs/nieuws/breipatronen-voor-breigaren-van-zeeman-en-wibra",
+                            "title": "Breipatronen voor breigaren van Zeeman en Wibra - Ikwilbreien",
+                            "text": "23 dec 2024 —  Breipatronen * Breipatroon makkelijk oversized vest - Zeeman/Wibra versie. * Vanaf €3,00. * Breipatroon damesvest Zeem..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Ikwilbreien",
+                            "domain": "ikwilbreien.nl",
+                            "url": "https://ikwilbreien.nl/collections/zeeman-wibra-breipatronen#:~:text=Deze%20breipatronen%20zijn%20speciaal%20gemaakt%20voor%20het%20breigaren%20van%20Zeeman%20en%20Wibra.",
+                            "title": "Zeeman/Wibra breipatronen - Ikwilbreien",
+                            "text": "Deze breipatronen zijn speciaal gemaakt voor het breigaren van Zeeman en Wibra."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Zeeman",
+                            "domain": "www.zeeman.com",
+                            "url": "https://www.zeeman.com/nl-be/blog/creatief/breien-haken#:~:text=Met%20haken%20en%20breien%20kun,bedsprei:%20iedereen%20kan%20het%20leren.",
+                            "title": "Breien en haken - Zeeman",
+                            "text": "Met haken en breien kun je eindeloos veel creaties maken. Denk aan mutsen en sjaals, omslagdoeken, (baby)dekentjes, truien, knuffe..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "breiwinkeltje.nl",
+                            "domain": "breiwinkeltje.nl",
+                            "url": "https://breiwinkeltje.nl/zeeman-breien-patronen/#:~:text=Populaire%20Zeeman%20breien%20patronen,moeite%20waard%20voor%20gevorderde%20breiers.",
+                            "title": "Zeeman breien patronen? (Veel inspiratie!) » Breiwinkeltje",
+                            "text": "Populaire Zeeman breien patronen Zeeman biedt een breed scala aan breipatronen, maar hier zijn enkele van de meest populaire die j..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Ikwilbreien",
+                            "domain": "ikwilbreien.nl",
+                            "url": "https://ikwilbreien.nl/products/babytrui-met-opmaaspatronen-royal-zeeman#:~:text=Beschrijving,een%20hondje%20en%20een%20trein.&text=LET%20OP:%20Dit%20patroon%20is,de%20knoopjes%20eraan%20te%20zetten.",
+                            "title": "Babytrui met opmaaspatronen (Royal - Zeeman) - Ikwilbreien",
+                            "text": "Beschrijving. Breipatroon voor een eenvoudig babytruitje. Dankzij de bijbehorende videotutorial kan het niet mislukken. Dit breipa..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Ikwilbreien",
+                            "domain": "ikwilbreien.nl",
+                            "url": "https://ikwilbreien.nl/products/breipatroon-damesvest-zeeman-wibra-versie#:~:text=Beschrijving,weer%20gebreid%20op%20rechte%20breinaalden.",
+                            "title": "Breipatroon damesvest Zeeman/Wibra versie - Ikwilbreien",
+                            "text": "Beschrijving. Breipatroon voor een mooi lang damesvest met het garen Royal van Zeeman of Saskia van Wibra. Het breipatroon is duid..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Zeeman",
+                            "domain": "www.zeeman.com",
+                            "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Soorten%20breigaren,krijg%20je%20je%20geld%20terug.",
+                            "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                            "text": "Soorten breigaren Elk garen van Zeeman is anders. We hebben veel verschillende soorten in ons assortiment. Breigaren die we altijd..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Ikwilbreien",
+                            "domain": "ikwilbreien.nl",
+                            "url": "https://ikwilbreien.nl/products/breipatroon-damestrui-v-hals-voor-zeeman-wibra-breigaren#:~:text=Beschrijving,hals%20is%20een%20rondbreinaald%20nodig.&text=Let%20op:%20maak%20altijd%20een,kleur%2C%20zelfs%20van%20hetzelfde%20merk.",
+                            "title": "Breipatroon damestrui V-hals voor Zeeman/Wibra breigaren",
+                            "text": "Beschrijving. Deze damestrui met V-hals is ontworpen voor het breigaren Royal van Zeeman of Saskia van Wibra. Dit breipatroon is g..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Pinterest",
+                            "domain": "www.pinterest.com",
+                            "url": "https://www.pinterest.com/pin/476607573086243972/#:~:text=Geen%20mislukte%20truien%20meer%20omdat,Deze%20patronen%20zijn%20budgetvriendelijk.",
+                            "title": "Breipatronen voor Zeeman garen - Pinterest",
+                            "text": "22 dec 2024 — Geen mislukte truien meer omdat het breipatroon eigenlijk voor ander garen is bedoeld! Ikwilbreien heeft een aantal bre..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Zeeman",
+                            "domain": "www.zeeman.com",
+                            "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken?page=2#:~:text=Bolletje%20over:%20gewoon%20terugbrengen,aankoop%20met%20de%20kassabon%20terugbrengen.",
+                            "title": "voor breien en haken: van wol tot breigaren. Vanaf €0,99 - Zeeman",
+                            "text": "Bolletje over: gewoon terugbrengen Het is moeilijk om vooraf precies in te schatten hoeveel garen je voor een brei- of haakwerk no..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "InteriorTwin",
+                            "domain": "interiortwin.com",
+                            "url": "https://interiortwin.com/2024/02/18/brei-gestreepte-trui-royal-breigaren-zeeman/#:~:text=In%20dit%20artikel%20deel%20ik,te%20gaan%20met%20een%20patroon.",
+                            "title": "Brei zelf een gestreepte trui met Royal breigaren van Zeeman",
+                            "text": "18 feb 2024 — In dit artikel deel ik graag een gratis breipatroon voor een gestreepte trui met Royal breigaren van Zeeman. Een heerli..."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Hoe kom ik aan breipatronen?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_ai_overview_expanded_element",
+                        "items": [
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": null,
+                            "text": "Je vindt breipatronen online bij gespecialiseerde webshops (zoals Wolplein en LindeHobby.nl ), die vaak gratis patronen en complete pakketten aanbieden, maar ook bij grote (online) winkels zoals Zeeman, HEMA, en via magazines en breiboeken voor zowel beginners als gevorderden.",
+                            "markdown": "![Gratis breipatronen voor beginners: hier vind je ze - Flow ...](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQO74fjUeCY8KP4-YDrlV6ER8k6Stxno_XZIFgNcoFYdOfrYb5UI_BlKP&s)\nJe vindt breipatronen online bij gespecialiseerde webshops (zoals [Wolplein](https://www.wolplein.nl/patronen/breipatronen) en [LindeHobby.nl](https://lindehobby.nl/breipatronen-528/) ), die vaak gratis patronen en complete pakketten aanbieden, maar ook bij grote (online) winkels zoals Zeeman, HEMA, en via magazines en breiboeken voor zowel beginners als gevorderden.  \n[[1]](https://lindehobby.nl/breipatronen-528/#:~:text=Vind%20hier%20het%20garen%20en,en%20elke%20behoefte%20aan%20breien.)[[2]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[3]](https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Breipatronen%20en%20haakpatronen%20-%20HEMA)[[4]](https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.)[[5]](https://styledbysabine.com/5-tips-om-de-tofste-breipatronen-te-vinden/#:~:text=Brei%20magazines%20en%20boeken,zelfs%20een%20Vogue%20Knitting%20Magazine.)[[6]](https://www.eddna.nl/patronen#:~:text=Sorteer%20op:%20Nieuws-,Breipatronen%20&%20haakpatronen%20%E2%80%93%20Koop%20of%20download%20online%20%7C%20Eddna.nl,del%20Uruguay%2C%20Hoooked%20en%20%C3%8Dstex.)[[7]](https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.)[[8]](https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!)[[9]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)[[10]](https://www.hobbydoos.nl/collectie/phildar.aspx)[[11]](https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Bij%20Zeeman%20hebben%20we%20heel,mix%20van%20polyester%20en%20acryl.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "Wolplein",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.wolplein.nl/patronen/breipatronen",
+                                "domain": "www.wolplein.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "LindeHobby.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://lindehobby.nl/breipatronen-528/",
+                                "domain": "lindehobby.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "images": [
+                              {
+                                "type": "images_element",
+                                "alt": "Gratis breipatronen voor beginners: hier vind je ze - Flow ...",
+                                "url": null,
+                                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQO74fjUeCY8KP4-YDrlV6ER8k6Stxno_XZIFgNcoFYdOfrYb5UI_BlKP&s"
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "LindeHobby.nl",
+                                "domain": "lindehobby.nl",
+                                "url": "https://lindehobby.nl/breipatronen-528/#:~:text=Vind%20hier%20het%20garen%20en,en%20elke%20behoefte%20aan%20breien.",
+                                "title": "Breipatronen - Enorme selectie gratis patronen - LindeHobby.nl",
+                                "text": "Vind hier het garen en de naalden voor uw breiproject Als je een patroon hebt gevonden waarmee je wilt beginnen met breien, zie je..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "HEMA.nl",
+                                "domain": "www.hema.nl",
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Breipatronen%20en%20haakpatronen%20-%20HEMA",
+                                "title": "Breipatronen en haakpatronen - HEMA.nl",
+                                "text": "Breipatronen en haakpatronen - HEMA."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                                "title": "Gratis breipatronen en haakpatronen downloaden",
+                                "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Styled by Sabine",
+                                "domain": "styledbysabine.com",
+                                "url": "https://styledbysabine.com/5-tips-om-de-tofste-breipatronen-te-vinden/#:~:text=Brei%20magazines%20en%20boeken,zelfs%20een%20Vogue%20Knitting%20Magazine.",
+                                "title": "5 tips om de tofste breipatronen te vinden - Styled by Sabine",
+                                "text": "13 jul 2021 — Brei magazines en boeken. Vroeger was het lezen van handwerk tijdschriften natuurlijk dé manier om aan nieuwe patronen ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Eddna.nl",
+                                "domain": "www.eddna.nl",
+                                "url": "https://www.eddna.nl/patronen#:~:text=Sorteer%20op:%20Nieuws-,Breipatronen%20&%20haakpatronen%20%E2%80%93%20Koop%20of%20download%20online%20%7C%20Eddna.nl,del%20Uruguay%2C%20Hoooked%20en%20%C3%8Dstex.",
+                                "title": "Patronen - Eddna.nl",
+                                "text": "Breipatronen & haakpatronen – Koop of download online | Eddna.nl. Welkom bij onze patronen bibliotheek! Hier vindt je patronen van..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Breiwebshop.nl",
+                                "domain": "www.breiwebshop.nl",
+                                "url": "https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.",
+                                "title": "Grootste collectie Brei- & Haakpatronen - Breiwebshop.nl",
+                                "text": "Gratis en betaalde brei- & haakpatronen Bij ons vind je een brede selectie aan zowel gratis als betaalde patronen van diverse gere..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                                "title": "Gratis en betaalde patronen downloaden voor breien, haken en meer",
+                                "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "CrCouture",
+                                "domain": "www.crcouture.nl",
+                                "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                                "title": "GRATIS breipatronen | 30+ Online downloads - C.R. Couture",
+                                "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/collectie/phildar.aspx",
+                                "title": "Phildar Patronen 🧶 | 1100+ Brei- & Haakideeën Online - Hobbydoos.nl",
+                                "text": "Of je nu een beginner bent of al jaren ervaring hebt, onze patronen zullen je inspireren en begeleiden bij het creëren van iets p..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Bij%20Zeeman%20hebben%20we%20heel,mix%20van%20polyester%20en%20acryl.",
+                                "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                                "text": "Bij Zeeman hebben we heel veel verschillende soorten garens. En die zijn allemaal geschikt om mee te haken of te breien. We hebben..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Online patronen (gratis & betaald)",
+                            "text": "Webshops gespecialiseerd in garens: Wolplein.nl, De Breiboerderij, C.R. Couture, Eddna.nl, Hobbydoos.nl en Breiwebshop.nl bieden duizenden gratis patronen aan, vaak gekoppeld aan hun eigen garens, inclusief opties voor beginners. Merken: Officiële sites van merken als Phildar en DROPS Design (vaak via partners) hebben veel patronen online. Algemene winkels: Zeeman.com en HEMA.nl verkopen garens en hebben soms ook patronen.",
+                            "markdown": "- **Webshops gespecialiseerd in garens:** [Wolplein.nl](https://www.wolplein.nl/), [De Breiboerderij](https://www.debreiboerderij.nl/gratis-patronen.html) , C.R.[Couture](https://www.crcouture.nl/patronen/breipatroon), [Eddna.nl](https://www.eddna.nl/patronen), [Hobbydoos.nl](https://www.hobbydoos.nl/) en [Breiwebshop.nl](https://www.breiwebshop.nl/patronen/) bieden duizenden gratis patronen aan, vaak gekoppeld aan hun eigen garens, inclusief opties voor beginners.[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[2]](https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.)[[3]](https://www.eddna.nl/patronen#:~:text=Sorteer%20op:%20Nieuws-,Breipatronen%20&%20haakpatronen%20%E2%80%93%20Koop%20of%20download%20online%20%7C%20Eddna.nl,del%20Uruguay%2C%20Hoooked%20en%20%C3%8Dstex.)[[4]](https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.)[[5]](https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!)[[6]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)[[7]](https://www.hobbydoos.nl/collectie/phildar.aspx)\n- **Merken:** Officiële sites van merken als Phildar en DROPS Design (vaak via partners) hebben veel patronen online.[[1]](https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.)[[2]](https://www.hobbydoos.nl/collectie/phildar.aspx)\n- **Algemene winkels:** [Zeeman.com](https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren) en [HEMA.nl](https://www.hema.nl/inspiratie/hobby/breipatroon) verkopen garens en hebben soms ook patronen.[[1]](https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Breipatronen%20en%20haakpatronen%20-%20HEMA)[[2]](https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Bij%20Zeeman%20hebben%20we%20heel,mix%20van%20polyester%20en%20acryl.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "Wolplein.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.wolplein.nl/",
+                                "domain": "www.wolplein.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "De Breiboerderij",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html",
+                                "domain": "www.debreiboerderij.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Couture",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.crcouture.nl/patronen/breipatroon",
+                                "domain": "www.crcouture.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Eddna.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.eddna.nl/patronen",
+                                "domain": "www.eddna.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Hobbydoos.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hobbydoos.nl/",
+                                "domain": "www.hobbydoos.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Breiwebshop.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.breiwebshop.nl/patronen/",
+                                "domain": "www.breiwebshop.nl",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "Zeeman.com",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren",
+                                "domain": "www.zeeman.com",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "HEMA.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon",
+                                "domain": "www.hema.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                                "title": "Gratis breipatronen en haakpatronen downloaden",
+                                "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Eddna.nl",
+                                "domain": "www.eddna.nl",
+                                "url": "https://www.eddna.nl/patronen#:~:text=Sorteer%20op:%20Nieuws-,Breipatronen%20&%20haakpatronen%20%E2%80%93%20Koop%20of%20download%20online%20%7C%20Eddna.nl,del%20Uruguay%2C%20Hoooked%20en%20%C3%8Dstex.",
+                                "title": "Patronen - Eddna.nl",
+                                "text": "Breipatronen & haakpatronen – Koop of download online | Eddna.nl. Welkom bij onze patronen bibliotheek! Hier vindt je patronen van..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Breiwebshop.nl",
+                                "domain": "www.breiwebshop.nl",
+                                "url": "https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.",
+                                "title": "Grootste collectie Brei- & Haakpatronen - Breiwebshop.nl",
+                                "text": "Gratis en betaalde brei- & haakpatronen Bij ons vind je een brede selectie aan zowel gratis als betaalde patronen van diverse gere..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Wolplein",
+                                "domain": "www.wolplein.nl",
+                                "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                                "title": "Gratis en betaalde patronen downloaden voor breien, haken en meer",
+                                "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "CrCouture",
+                                "domain": "www.crcouture.nl",
+                                "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                                "title": "GRATIS breipatronen | 30+ Online downloads - C.R. Couture",
+                                "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/collectie/phildar.aspx",
+                                "title": "Phildar Patronen 🧶 | 1100+ Brei- & Haakideeën Online - Hobbydoos.nl",
+                                "text": "Of je nu een beginner bent of al jaren ervaring hebt, onze patronen zullen je inspireren en begeleiden bij het creëren van iets p..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "HEMA.nl",
+                                "domain": "www.hema.nl",
+                                "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Breipatronen%20en%20haakpatronen%20-%20HEMA",
+                                "title": "Breipatronen en haakpatronen - HEMA.nl",
+                                "text": "Breipatronen en haakpatronen - HEMA."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Zeeman",
+                                "domain": "www.zeeman.com",
+                                "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Bij%20Zeeman%20hebben%20we%20heel,mix%20van%20polyester%20en%20acryl.",
+                                "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                                "text": "Bij Zeeman hebben we heel veel verschillende soorten garens. En die zijn allemaal geschikt om mee te haken of te breien. We hebben..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Fysieke en digitale media",
+                            "text": "Breiboeken & magazines: Zoek naar titels zoals Happy Handmade Living of de Vogue Knitting Book/Magazine voor uitgebreide patronen en inspiratie. Lokale breiwinkels: Bezoek een lokale garenwinkel voor advies en patronen van merken die ze verkopen, zoals Lana Grossa.",
+                            "markdown": "- **Breiboeken & magazines:** Zoek naar titels zoals Happy Handmade Living of de Vogue Knitting Book/Magazine voor uitgebreide patronen en inspiratie.[[1]](https://styledbysabine.com/5-tips-om-de-tofste-breipatronen-te-vinden/#:~:text=Brei%20magazines%20en%20boeken,zelfs%20een%20Vogue%20Knitting%20Magazine.)\n- **Lokale breiwinkels:** Bezoek een lokale garenwinkel voor advies en patronen van merken die ze verkopen, zoals Lana Grossa.[[1]](https://www.carosatelier.nl/patronen/breipatronen/#:~:text=Breipatroon%20Woondeken%20&%20Kussen&text=Wanneer%20u%20aan%20de%20slag,breipatroon%20hoeft%20aan%20te%20schaffen.)[[2]](https://www.hobbydoos.nl/collectie/phildar.aspx)",
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Styled by Sabine",
+                                "domain": "styledbysabine.com",
+                                "url": "https://styledbysabine.com/5-tips-om-de-tofste-breipatronen-te-vinden/#:~:text=Brei%20magazines%20en%20boeken,zelfs%20een%20Vogue%20Knitting%20Magazine.",
+                                "title": "5 tips om de tofste breipatronen te vinden - Styled by Sabine",
+                                "text": "13 jul 2021 — Brei magazines en boeken. Vroeger was het lezen van handwerk tijdschriften natuurlijk dé manier om aan nieuwe patronen ..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Caro's Atelier",
+                                "domain": "www.carosatelier.nl",
+                                "url": "https://www.carosatelier.nl/patronen/breipatronen/#:~:text=Breipatroon%20Woondeken%20&%20Kussen&text=Wanneer%20u%20aan%20de%20slag,breipatroon%20hoeft%20aan%20te%20schaffen.",
+                                "title": "Breipatronen - Caro's Atelier",
+                                "text": "Breipatroon Woondeken & Kussen ... Wanneer u aan de slag gaat met het breien van bijvoorbeeld een trui spreekt het voor zich dat u..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/collectie/phildar.aspx",
+                                "title": "Phildar Patronen 🧶 | 1100+ Brei- & Haakideeën Online - Hobbydoos.nl",
+                                "text": "Of je nu een beginner bent of al jaren ervaring hebt, onze patronen zullen je inspireren en begeleiden bij het creëren van iets p..."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ai_overview_element",
+                            "position": "left",
+                            "title": "Tips voor beginners",
+                            "text": "Kies niveau: Zoek specifiek naar \" beginner \" patronen; veel webshops geven moeilijkheidsgraden aan (bijvoorbeeld bij LindeHobby.nl ). Breipakketten: Koop een kant-en-klaar pakket bij een online winkel, dan krijg je patroon en garen in één (bijvoorbeeld bij C.R. Couture).",
+                            "markdown": "- **Kies niveau:** Zoek specifiek naar\"[beginner](https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=beginner&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUIwwEQAQ)\" patronen;veel webshops geven moeilijkheidsgraden aan (bijvoorbeeld bij [LindeHobby.nl](https://lindehobby.nl/kinderen-531/)).[[1]](https://lindehobby.nl/kinderen-531/#:~:text=Iedereen%20kan%20meedoen:%20Vind%20recepten,de%20verbeelding%20bepaalt%20de%20grenzen.)[[2]](https://www.hobbydoos.nl/collectie/phildar.aspx)\n- **Breipakketten:** Koop een kant-en-klaar pakket bij een online winkel, dan krijg je patroon en garen in één (bijvoorbeeld bij C.R. Couture).[[1]](https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.)[[2]](https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.)",
+                            "links": [
+                              {
+                                "type": "link_element",
+                                "title": "beginner",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://www.google.com/search?sca_esv=d6eb6bac57f34326&hl=nl&gl=NL&q=beginner&sa=X&ved=2ahUKEwix7p_0hOCSAxWbif0HHX6sHvgQxccNegUIwwEQAQ",
+                                "domain": "www.google.com",
+                                "xpath": null
+                              },
+                              {
+                                "type": "link_element",
+                                "title": "LindeHobby.nl",
+                                "snippet": null,
+                                "description": null,
+                                "url": "https://lindehobby.nl/kinderen-531/",
+                                "domain": "lindehobby.nl",
+                                "xpath": null
+                              }
+                            ],
+                            "references": [
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "LindeHobby.nl",
+                                "domain": "lindehobby.nl",
+                                "url": "https://lindehobby.nl/kinderen-531/#:~:text=Iedereen%20kan%20meedoen:%20Vind%20recepten,de%20verbeelding%20bepaalt%20de%20grenzen.",
+                                "title": "Breipatronen voor kinderen - Enorme keuze - LindeHobby.nl",
+                                "text": "Iedereen kan meedoen: Vind recepten voor zowel de beginner, de gemakkelijk te oefenen en de ervaren. Iedereen kan meedoen aan de b..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "Hobbydoos",
+                                "domain": "www.hobbydoos.nl",
+                                "url": "https://www.hobbydoos.nl/collectie/phildar.aspx",
+                                "title": "Phildar Patronen 🧶 | 1100+ Brei- & Haakideeën Online - Hobbydoos.nl",
+                                "text": "Of je nu een beginner bent of al jaren ervaring hebt, onze patronen zullen je inspireren en begeleiden bij het creëren van iets p..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "De Breiboerderij",
+                                "domain": "www.debreiboerderij.nl",
+                                "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                                "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                                "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                              },
+                              {
+                                "type": "ai_overview_reference",
+                                "position": "left",
+                                "source": "CrCouture",
+                                "domain": "www.crcouture.nl",
+                                "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                                "title": "GRATIS breipatronen | 30+ Online downloads - C.R. Couture",
+                                "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                              }
+                            ]
+                          }
+                        ],
+                        "references": [
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "LindeHobby.nl",
+                            "domain": "lindehobby.nl",
+                            "url": "https://lindehobby.nl/breipatronen-528/#:~:text=Vind%20hier%20het%20garen%20en,en%20elke%20behoefte%20aan%20breien.",
+                            "title": "Breipatronen - Enorme selectie gratis patronen - LindeHobby.nl",
+                            "text": "Vind hier het garen en de naalden voor uw breiproject Als je een patroon hebt gevonden waarmee je wilt beginnen met breien, zie je..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "De Breiboerderij",
+                            "domain": "www.debreiboerderij.nl",
+                            "url": "https://www.debreiboerderij.nl/gratis-patronen.html#:~:text=Gratis%20patronen-,Gratis%20patronen%20voor%20haken%20en%20breien%20vind%20je%20bij%20de,en%20maat%20en%20bestellen%20maar.",
+                            "title": "Gratis patronen voor haken en breien vind je bij de Breiboerderij",
+                            "text": "Gratis patronen voor haken en breien vind je bij de Breiboerderij, een enorme collectie gratis patronen van eigen hand maar ook va..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "HEMA.nl",
+                            "domain": "www.hema.nl",
+                            "url": "https://www.hema.nl/inspiratie/hobby/breipatroon#:~:text=Breipatronen%20en%20haakpatronen%20-%20HEMA",
+                            "title": "Breipatronen en haakpatronen - HEMA.nl",
+                            "text": "Breipatronen en haakpatronen - HEMA."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbydoos",
+                            "domain": "www.hobbydoos.nl",
+                            "url": "https://www.hobbydoos.nl/#:~:text=Hobbydoos.NL%20heeft%20diverse%20breipatronen,op%20eigen%20sites%20worden%20geplaatst.",
+                            "title": "Gratis breipatronen en haakpatronen downloaden",
+                            "text": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "LindeHobby.nl",
+                            "domain": "lindehobby.nl",
+                            "url": "https://lindehobby.nl/kinderen-531/#:~:text=Iedereen%20kan%20meedoen:%20Vind%20recepten,de%20verbeelding%20bepaalt%20de%20grenzen.",
+                            "title": "Breipatronen voor kinderen - Enorme keuze - LindeHobby.nl",
+                            "text": "Iedereen kan meedoen: Vind recepten voor zowel de beginner, de gemakkelijk te oefenen en de ervaren. Iedereen kan meedoen aan de b..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Styled by Sabine",
+                            "domain": "styledbysabine.com",
+                            "url": "https://styledbysabine.com/5-tips-om-de-tofste-breipatronen-te-vinden/#:~:text=Brei%20magazines%20en%20boeken,zelfs%20een%20Vogue%20Knitting%20Magazine.",
+                            "title": "5 tips om de tofste breipatronen te vinden - Styled by Sabine",
+                            "text": "13 jul 2021 — Brei magazines en boeken. Vroeger was het lezen van handwerk tijdschriften natuurlijk dé manier om aan nieuwe patronen ..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Caro's Atelier",
+                            "domain": "www.carosatelier.nl",
+                            "url": "https://www.carosatelier.nl/patronen/breipatronen/#:~:text=Breipatroon%20Woondeken%20&%20Kussen&text=Wanneer%20u%20aan%20de%20slag,breipatroon%20hoeft%20aan%20te%20schaffen.",
+                            "title": "Breipatronen - Caro's Atelier",
+                            "text": "Breipatroon Woondeken & Kussen ... Wanneer u aan de slag gaat met het breien van bijvoorbeeld een trui spreekt het voor zich dat u..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Eddna.nl",
+                            "domain": "www.eddna.nl",
+                            "url": "https://www.eddna.nl/patronen#:~:text=Sorteer%20op:%20Nieuws-,Breipatronen%20&%20haakpatronen%20%E2%80%93%20Koop%20of%20download%20online%20%7C%20Eddna.nl,del%20Uruguay%2C%20Hoooked%20en%20%C3%8Dstex.",
+                            "title": "Patronen - Eddna.nl",
+                            "text": "Breipatronen & haakpatronen – Koop of download online | Eddna.nl. Welkom bij onze patronen bibliotheek! Hier vindt je patronen van..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Breiwebshop.nl",
+                            "domain": "www.breiwebshop.nl",
+                            "url": "https://www.breiwebshop.nl/patronen/#:~:text=Gratis%20en%20betaalde%20brei-%20&%20haakpatronen,eindeloze%20inspiratie%20voor%20jouw%20handwerkavonturen.",
+                            "title": "Grootste collectie Brei- & Haakpatronen - Breiwebshop.nl",
+                            "text": "Gratis en betaalde brei- & haakpatronen Bij ons vind je een brede selectie aan zowel gratis als betaalde patronen van diverse gere..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Wolplein",
+                            "domain": "www.wolplein.nl",
+                            "url": "https://www.wolplein.nl/patronen#:~:text=Gratis%20patronen%20download%20je%20eenvoudig,of%20het%20gratis%20macram%C3%A9patroon%20plantenhanger!",
+                            "title": "Gratis en betaalde patronen downloaden voor breien, haken en meer",
+                            "text": "Gratis patronen download je eenvoudig en snel op Wolplein.nl Ben je op zoek naar inspiratie voor een nieuw project? Kijk dan eens ..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "CrCouture",
+                            "domain": "www.crcouture.nl",
+                            "url": "https://www.crcouture.nl/patronen/breipatroon#:~:text=Gratis%20breipatronen%20downloaden%20via%20Crcouture,patronen%20samengebundeld%20in%20een%20boek.",
+                            "title": "GRATIS breipatronen | 30+ Online downloads - C.R. Couture",
+                            "text": "Gratis breipatronen downloaden via Crcouture.nl Wij trakteren regelmatig ons klanten met een gratis breipatroon. In ons assortimen..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Hobbydoos",
+                            "domain": "www.hobbydoos.nl",
+                            "url": "https://www.hobbydoos.nl/collectie/phildar.aspx",
+                            "title": "Phildar Patronen 🧶 | 1100+ Brei- & Haakideeën Online - Hobbydoos.nl",
+                            "text": "Of je nu een beginner bent of al jaren ervaring hebt, onze patronen zullen je inspireren en begeleiden bij het creëren van iets p..."
+                          },
+                          {
+                            "type": "ai_overview_reference",
+                            "position": null,
+                            "source": "Zeeman",
+                            "domain": "www.zeeman.com",
+                            "url": "https://www.zeeman.com/nl-nl/thuis/breien-haken/breigaren#:~:text=Bij%20Zeeman%20hebben%20we%20heel,mix%20van%20polyester%20en%20acryl.",
+                            "title": "Goedkope breigaren kopen? Vanaf €1,99 | Zeeman",
+                            "text": "Bij Zeeman hebben we heel veel verschillende soorten garens. En die zijn allemaal geschikt om mee te haken of te breien. We hebben..."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "people_also_ask_element",
+                    "title": "Waar vind je breipatronen?",
+                    "seed_question": null,
+                    "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                    "expanded_element": [
+                      {
+                        "type": "people_also_ask_expanded_element",
+                        "featured_title": null,
+                        "url": "https://www.hobbydoos.nl/",
+                        "domain": "www.hobbydoos.nl",
+                        "title": "Gratis breipatronen en haakpatronen downloaden",
+                        "description": "Hobbydoos.NL heeft diverse breipatronen, haakpatronen, viltpatronen voor het maken van accessoires, poppen en kleding online gezet, zodat je die gratis kunt downloaden. De patronen vind je terug onder de verschillende technieken en zijn via de gratis patroon knop aan te vragen.",
+                        "timestamp": null,
+                        "table": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 6,
+                "rank_absolute": 7,
+                "domain": "www.hobbygigant.nl",
+                "title": "Gratis breipatronen - Hobby Gigant",
+                "description": "Wij hebben een mooie selectie van gratis breipatronen. Kies het mooiste patroon en je kunt het direct downloaden en afdrukken. Onze gratis breipatronen zijn ...",
+                "url": "https://www.hobbygigant.nl/blog/gratis-breipatronen/page/8/",
+                "breadcrumb": "https://www.hobbygigant.nl › gratis-breipatronen › page",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Hobbygigant",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 7,
+                "rank_absolute": 8,
+                "domain": "lindehobby.nl",
+                "title": "Breipatronen - Enorme selectie gratis patronen",
+                "description": "We hebben een enorme selectie gratis breipatronen voor kleding voor dames, heren, baby's en kinderen.",
+                "url": "https://lindehobby.nl/breipatronen-528/",
+                "breadcrumb": "https://lindehobby.nl › breipatronen-528",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "LindeHobby.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 8,
+                "rank_absolute": 9,
+                "domain": "www.filomena.be",
+                "title": "Gratis breipatronen downloaden bij je",
+                "description": "Breipatronen. In deze categorie vind je regelmatig nieuwe gratis breipatronen voor het breien van kleding, amigurumi,kussens, woondekens en hebbedingetjes.",
+                "url": "https://www.filomena.be/haakpatronen-en-breipatronen/breipatronen/",
+                "breadcrumb": "https://www.filomena.be › haakpatronen-en-breipatronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Wolwinkel Filomena",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 9,
+                "rank_absolute": 10,
+                "domain": "hobbii.nl",
+                "title": "Patronen - Hobbii",
+                "description": "HakenIt Was Yarn - Kate Kosenko (Veselunka). Gratis. 4.0 (4). Easy Square Polo Tee. Nieuw PLUS. Easy Square Polo Tee. Breieneasy as knit. 9,50 €.",
+                "url": "https://hobbii.nl/collections/product-patterns",
+                "breadcrumb": "https://hobbii.nl › collections › product-patterns",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "hobbii.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "HakenIt Was Yarn - Kate Kosenko (Veselunka). Gratis"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 10,
+                "rank_absolute": 11,
+                "domain": "www.breiwebshop.nl",
+                "title": "Grootste collectie Brei- & Haakpatronen",
+                "description": "Duizenden gratis en betaalde patronen - Voor Breien / Haken / Macramé ✓ Uitgebreid assortiment ✓ Zeer snelle levering ✓ Persoonlijke service!",
+                "url": "https://www.breiwebshop.nl/patronen/",
+                "breadcrumb": "https://www.breiwebshop.nl › patronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Breiwebshop.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "Duizenden gratis en betaalde patronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "related_searches",
+                "page": 1,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]",
+                "rectangle": null,
+                "rank_group": 1,
+                "rank_absolute": 12,
+                "items": [
+                  "Gratis breipatronen dames",
+                  "Gratis breipatronen downloaden",
+                  "Gratis breipatronen damestrui",
+                  "DROPS Gratis breipatronen",
+                  "Gratis breipatronen kindertruien",
+                  "Gratis breipatronen Phildar",
+                  "Gratis breipatroon damestrui naald 4",
+                  "Gratis breipatronen dames vest"
+                ]
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 11,
+                "rank_absolute": 13,
+                "domain": "www.breiwebshop.nl",
+                "title": "Grootste collectie Brei- & Haakpatronen",
+                "description": "Duizenden gratis en betaalde patronen - Voor Breien / Haken / Macramé ✓ Uitgebreid assortiment ✓ Zeer snelle levering ✓ Persoonlijke service!",
+                "url": "https://www.breiwebshop.nl/patronen/",
+                "breadcrumb": "https://www.breiwebshop.nl › patronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Breiwebshop.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis",
+                  "patronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 12,
+                "rank_absolute": 14,
+                "domain": "lindehobby.nl",
+                "title": "Breipatronen - Enorme selectie gratis patronen",
+                "description": "Ook dan bent u bij ons aan het juiste adres. We hebben breipatronen die perfect geschikt zijn voor speciale feestdagen, zoals Pasen, Halloween en Kerstmis. Met ...",
+                "url": "https://lindehobby.nl/breipatronen-528/",
+                "breadcrumb": "https://lindehobby.nl › breipatronen-528",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "LindeHobby.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 13,
+                "rank_absolute": 15,
+                "domain": "www.crcouture.nl",
+                "title": "GRATIS breipatronen | 30+ Online downloads",
+                "description": "Breien met gratis breipatronen? Download een van de 30+ leuke GRATIS breipatronen op Crcouture.nl. Van merken als Phildar en Lana Grossa.",
+                "url": "https://www.crcouture.nl/patronen/breipatroon",
+                "breadcrumb": "https://www.crcouture.nl › patronen › breipatroon",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "CrCouture",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": {
+                  "current": 5.95,
+                  "regular": null,
+                  "max_value": null,
+                  "currency": "EUR",
+                  "is_price_range": false,
+                  "displayed_price": "Levering voor € 5,95"
+                },
+                "highlighted": [
+                  "gratis breipatronen",
+                  "GRATIS breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 14,
+                "rank_absolute": 16,
+                "domain": "www.flowmagazine.nl",
+                "title": "Gratis breipatronen voor beginners: hier vind je ze",
+                "description": "Warm vest. Dit vest met ballonmouwen wordt in één keer gebreid van boven naar beneden en dat maakt het een makkelijk project voor beginners. Je breit de trui ...",
+                "url": "https://www.flowmagazine.nl/slow-life/diy/gratis-breipatronen-voor-beginners-hier-vind-je-ze/",
+                "breadcrumb": "https://www.flowmagazine.nl › Slow life › DIY",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "flowmagazine.nl",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": null,
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 15,
+                "rank_absolute": 17,
+                "domain": "www.hobbygigant.nl",
+                "title": "Grote collectie gratis kinder breipatronen",
+                "description": "Brei de leukste projecten voor jouw kinderen met deze gratis kinder breipatronen, of geef het cadeau. Bestel het garen direct mee, zodat je direct kunt beginnen ...",
+                "url": "https://www.hobbygigant.nl/breien/breipatroon/gratis/kinder-2-16-jaar/",
+                "breadcrumb": "https://www.hobbygigant.nl › ... › Gratis breipatronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Hobbygigant",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis",
+                  "breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 16,
+                "rank_absolute": 18,
+                "domain": "nl.pinterest.com",
+                "title": "200 beste ideeën over Breipatronen (gratis)",
+                "description": "29 jun. 2020 - Op zoek naar een nieuw project om te breien? Hier vind je veel gratis breipatronen. Voor meer inspiratie en informatie over breien en ...",
+                "url": "https://nl.pinterest.com/breiclubnl/breipatronen-gratis/",
+                "breadcrumb": "https://nl.pinterest.com › breiclubnl › breipatronen-gratis",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Pinterest",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 17,
+                "rank_absolute": 19,
+                "domain": "durableyarn.com",
+                "title": "Gratis Durable haakpatronen en breipatronen",
+                "description": "Laat je inspireren! Hier vind je de nieuwste en leukste gratis haak- en breipatronen. Deze patronen zijn gratis te downloaden maar bij het gebruik van social ...",
+                "url": "https://durableyarn.com/patronen",
+                "breadcrumb": "https://durableyarn.com › patronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Durableyarn.",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis",
+                  "breipatronen",
+                  "patronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 18,
+                "rank_absolute": 20,
+                "domain": "www.filomena.be",
+                "title": "Gratis breipatronen downloaden bij je",
+                "description": "In deze categorie vind je regelmatig nieuwe gratis breipatronen voor het breien van kleding, amigurumi,kussens, woondekens en hebbedingetjes. De meeste patronen ...",
+                "url": "https://www.filomena.be/haakpatronen-en-breipatronen/breipatronen/",
+                "breadcrumb": "https://www.filomena.be › haakpatronen-en-breipatronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Wolwinkel Filomena",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 19,
+                "rank_absolute": 21,
+                "domain": "www.hobbydoos.nl",
+                "title": "Gratis breipatronen downloaden",
+                "description": "Onze collectie gratis breipatronen omvat een verscheidenheid aan stijlen speciaal voor dames. Of u nu op zoek bent naar iets klassieks of iets moderns, onze ...",
+                "url": "https://www.hobbydoos.nl/breipatronen.asp",
+                "breadcrumb": "https://www.hobbydoos.nl › breipatronen",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Hobbydoos",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatronen"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "organic",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                "rectangle": null,
+                "rank_group": 20,
+                "rank_absolute": 22,
+                "domain": "www.ouderwetsbreien.nl",
+                "title": "Gratis Breipatronen",
+                "description": "Met dit gratis breipatroon kan je een tuniek breien met raglanmouwen en strepen. Het gebruikte garen is Drops Nepal. Geschikt voor beginnende breisters. Read ...",
+                "url": "https://www.ouderwetsbreien.nl/gratis-breipatronen/page/3/",
+                "breadcrumb": "https://www.ouderwetsbreien.nl › page",
+                "cache_url": null,
+                "related_search_url": null,
+                "website_name": "Ouderwets Breien",
+                "is_image": false,
+                "is_video": false,
+                "is_featured_snippet": false,
+                "is_malicious": false,
+                "is_web_story": false,
+                "pre_snippet": null,
+                "extended_snippet": null,
+                "amp_version": false,
+                "rating": null,
+                "price": null,
+                "highlighted": [
+                  "gratis breipatroon"
+                ],
+                "faq": null,
+                "extended_people_also_search": null,
+                "about_this_result": null,
+                "timestamp": null
+              },
+              {
+                "type": "related_searches",
+                "page": 2,
+                "position": "left",
+                "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                "rectangle": null,
+                "rank_group": 2,
+                "rank_absolute": 23,
+                "items": [
+                  "Gratis breipatronen dames",
+                  "Gratis breipatronen downloaden",
+                  "Gratis breipatronen damestrui",
+                  "DROPS Gratis breipatronen",
+                  "Gratis breipatronen kindertruien",
+                  "Trui breien voor beginners gratis patroon",
+                  "Gratis breipatronen Phildar",
+                  "Gratis breipatronen dames vest"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

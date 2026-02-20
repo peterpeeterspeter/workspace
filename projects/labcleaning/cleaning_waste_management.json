@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Stericycle",
+    "url": "https://www.stericycle.com",
+    "type": "waste_management",
+    "description": "Medical and lab waste disposal",
+    "services": [
+      "Waste disposal",
+      "Sharps disposal",
+      "Lab waste",
+      "Compliance solutions"
+    ],
+    "title": "Attention Required! | Cloudflare",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:10.490587"
+  },
+  {
+    "name": "Sharps Compliance",
+    "url": "https://www.sharpsinc.com",
+    "type": "waste_management",
+    "description": "Medical waste management solutions",
+    "services": [
+      "Waste disposal",
+      "Mail-back programs",
+      "Pharmaceutical waste",
+      "Lab waste"
+    ],
+    "title": "Medical Waste Disposal &amp; Sharps Containers | Sharps MWS",
+    "meta_description": "Sharps MWS provides compliant, const effective medical waste disposal &amp; sharps container services nationwide. Transparent pricing and reliable pickup. Get a free quote today!",
+    "emails": [],
+    "phones": [
+      "800.772.5657"
+    ],
+    "scraped_at": "2026-02-19T07:10:11.526880"
+  },
+  {
+    "name": "Daniels Health",
+    "url": "https://danielshealth.com",
+    "type": "waste_management",
+    "description": "Healthcare and lab waste management",
+    "services": [
+      "Sharps disposal",
+      "Lab waste",
+      "Waste containers",
+      "Sustainable solutions"
+    ],
+    "title": "Medical Waste Disposal &amp; Management | Daniels Health",
+    "meta_description": "At Daniels Health, we&#039;ve provided medical waste management and disposal services for over 20 years and proudly hold the highest NPS scores in the industry.",
+    "emails": [],
+    "phones": [
+      "888 952 5580"
+    ],
+    "scraped_at": "2026-02-19T07:10:12.029476"
+  },
+  {
+    "name": "Republic Services",
+    "url": "https://www.republicservices.com",
+    "type": "waste_management",
+    "description": "Environmental services including lab waste",
+    "services": [
+      "Waste disposal",
+      "Recycling",
+      "Lab waste services",
+      "Sustainability"
+    ],
+    "title": "Environmental Services, Recycling &amp; Trash Pickup Services",
+    "meta_description": "Get reliable, responsible environmental service solutions. Republic Services also offers residential, commercial, and industrial trash pickup and recycling.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:12.300854"
+  },
+  {
+    "name": "Waste Management",
+    "url": "https://www.wm.com",
+    "type": "waste_management",
+    "description": "Comprehensive waste services including labs",
+    "services": [
+      "Hazardous waste",
+      "Lab disposal",
+      "Environmental services",
+      "Compliance"
+    ],
+    "title": "WM | Waste Management &amp; Recycling Services",
+    "meta_description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:12.691032"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Hamilton Company",
+    "url": "https://www.hamiltoncompany.com",
+    "type": "automation",
+    "description": "Lab automation and liquid handling",
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Training"
+    ],
+    "title": "Just a moment...",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:28.136676"
+  },
+  {
+    "name": "Tecan",
+    "url": "https://www.tecan.com",
+    "type": "automation",
+    "description": "Lab automation",
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Applications"
+    ],
+    "title": "Tecan Group Home - Scaling Healthcare Innovation Globally.",
+    "meta_description": "Tecan\u2019s purpose is to improve people\u2019s lives and health. We do that by empowering customers to scale healthcare innovation globally. Together, we are shaping a brighter, healthier future, for patients across the world.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:29.392877"
+  }
+]

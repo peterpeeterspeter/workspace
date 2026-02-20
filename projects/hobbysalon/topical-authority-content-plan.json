@@ -1,0 +1,2015 @@
+{
+  "metadata": {
+    "generated": "2026-02-17T08:42:20.638511",
+    "project": "hobbysalon.be",
+    "goal": "100+ article roadmap for topical authority",
+    "target_market": "Belgium & Netherlands (Dutch-speaking)"
+  },
+  "pillars": {
+    "hobbybeurzen": {
+      "name": "Hobbybeurzen (Hobby Fairs)",
+      "description": "Hobby fairs, craft expos, and creative trade shows",
+      "keywords": {
+        "primary": [
+          {
+            "keyword": "handwerk beurzen nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "hobby fair nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "craft fair nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "creative fair belgium",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "maker fair nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "textiel beurs nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "kralen beurs nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk beurzen belgie",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "kaarten maken beurs",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "craft market nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "maker festival nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "design fair nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "artisan fair belgium",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "hobbybeurs agenda 2024",
+            "volume": 680,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "naai en klos beurs",
+            "volume": 623,
+            "kd": 15,
+            "cpc": 0.55,
+            "competition": 0.15,
+            "estimated": true
+          }
+        ],
+        "secondary": [
+          {
+            "keyword": "hobbybeurs nederland",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs nederland",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerkbeurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "hobbybeurs belgie",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "naai beurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "breibeurs nederland",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "kunstenaarsbeurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creativiteit beurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs velsen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs goes",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "quilten beurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "scrapbook beurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs exposition",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "knutselbeurs nederland",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs kalender",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "grote hobbybeurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve beurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "knutselbeurs",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "hobbybeurs agenda",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          }
+        ]
+      },
+      "content_cluster_structure": {
+        "pillar_page": {
+          "title": "Complete Gids: Hobbybeurzen in België en Nederland 2024-2025",
+          "target_keywords": [
+            "hobbybeurs nederland 2024",
+            "creabeurs nederland 2024",
+            "handwerkbeurs 2024",
+            "hobbybeurs belgie 2024",
+            "creabeurs 2024"
+          ],
+          "word_count": 3000,
+          "content_type": "ultimate_guide"
+        },
+        "cluster_pages": [
+          {
+            "title": "Grootste Hobbybeurzen Nederland: Agenda 2024-2025",
+            "target_keywords": [
+              "hobbybeurs agenda",
+              "grootste creabeurs",
+              "hobbybeurs nederland"
+            ],
+            "word_count": 1500,
+            "content_type": "calendar_listing"
+          },
+          {
+            "title": "Hobbybeurzen België: Complete Overzicht & Tips",
+            "target_keywords": [
+              "hobbybeurs belgie",
+              "creabeurs belgie",
+              "handwerkbeurs belgie"
+            ],
+            "word_count": 1500,
+            "content_type": "regional_guide"
+          },
+          {
+            "title": "Tips voor Bezoekers: Haal het Meeste uit je Hobbybeurs",
+            "target_keywords": [
+              "hobbybeurs tips",
+              "creabeurs tips",
+              "handwerkbeurs bezoeken"
+            ],
+            "word_count": 1200,
+            "content_type": "how_to_guide"
+          },
+          {
+            "title": "Exposanten Gids: Deelnemen aan Hobbybeurzen",
+            "target_keywords": [
+              "deelnemen creabeurs",
+              "stand huren hobbybeurs",
+              "exposant worden"
+            ],
+            "word_count": 1200,
+            "content_type": "business_guide"
+          }
+        ],
+        "supporting_content": [
+          {
+            "title": "Review: Creabeurs Velsen",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Creabeurs Goes",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Naai & Klos Beurs",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Breibeurs Nederland",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Hobbybeurs Utrecht",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Creatieve Beurs Rotterdam",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Textiel Beurs",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Review: Quilt & Creatief Beurs",
+            "content_type": "event_review"
+          },
+          {
+            "title": "Wol & Breien op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Naaien & Textiel op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Kaarten Maken op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Kralen & Sieraden op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Schilderen op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Keramiek op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Vilten op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Papier Crafts op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Scrapbooking op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Handweven op de Beurs: Wat te Verwachten",
+            "content_type": "category_preview"
+          },
+          {
+            "title": "Amsterdam Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Rotterdam Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Utrecht Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Den Haag Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Antwerpen Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Gent Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Brussel Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Eindhoven Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Groningen Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Maastricht Hobbybeurs Gids: Evenementen & Tips",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Hobbybeurs Budget: Hoeveel Kosten Bezoeken?",
+            "content_type": "budget_guide"
+          },
+          {
+            "title": "Hobbybeurs met Kinderen: Tips voor Ouders",
+            "content_type": "family_guide"
+          },
+          {
+            "title": "Hobbybeurs Vervoer: Bereikbaarheid & Parkeren",
+            "content_type": "logistics_guide"
+          },
+          {
+            "title": "Hobbybeurs Gratis Toegang: Tips en Acties",
+            "content_type": "deals_guide"
+          },
+          {
+            "title": "Hobbybeurs Goodie Bag: Wat krijg je erin?",
+            "content_type": "insider_tips"
+          }
+        ]
+      },
+      "monetization_opportunities": [
+        {
+          "type": "Sponsored Listings",
+          "description": "Featured placement for upcoming fairs and expos",
+          "revenue_potential": "€200-500 per featured listing",
+          "implementation": "Priority placement in fair calendar, badges, dedicated sections"
+        },
+        {
+          "type": "Exhibitor Directory Ads",
+          "description": "Premium listings for stallholders and exhibitors",
+          "revenue_potential": "€50-150 per month per listing",
+          "implementation": "Enhanced directory listings with photos, descriptions, contact"
+        },
+        {
+          "type": "Ticket Affiliate Links",
+          "description": "Commission on ticket sales for partner events",
+          "revenue_potential": "10-15% commission per ticket",
+          "implementation": "Affiliate partnerships with ticketing platforms"
+        },
+        {
+          "type": "Event Sponsorships",
+          "description": "Sponsored content for major fairs",
+          "revenue_potential": "€500-2000 per sponsored article",
+          "implementation": "Dedicated event pages, sponsored reviews, announcements"
+        }
+      ],
+      "article_count": 38,
+      "estimated_traffic_potential": 7560
+    },
+    "workshops": {
+      "name": "Workshops (Creative Workshops, Courses)",
+      "description": "Creative workshops, courses, and hands-on learning experiences",
+      "keywords": {
+        "primary": [
+          {
+            "keyword": "kaarten maken workshop",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "hobby workshop nederland",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "pottery workshop nederland",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "workshop volgen nederland",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve workshops nederland",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "schilderen workshop beginner",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "embroidery workshop netherlands",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "jewelry making workshop",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "candle making workshop",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "soap making workshop",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "workshop creatief centrum",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve dag workshop",
+            "volume": 643,
+            "kd": 22,
+            "cpc": 0.95,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk workshops bij mij in de buurt",
+            "volume": 529,
+            "kd": 14,
+            "cpc": 0.95,
+            "competition": 0.14,
+            "estimated": true
+          }
+        ],
+        "secondary": [
+          {
+            "keyword": "breiles volgen",
+            "volume": 1157,
+            "kd": 30,
+            "cpc": 0.55,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "breien workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "haken workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "naaien cursus",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "keramiek workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "schilderen workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve cursus",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk cursus",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "knutsel workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "workshop creatief",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "linolsneden workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "workshop volgen",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "linolsneden workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "zeefdrukken workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "boekbinden cursus",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "weven workshop",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          },
+          {
+            "keyword": "vilten cursus",
+            "volume": 983,
+            "kd": 30,
+            "cpc": 0.95,
+            "competition": 0.3,
+            "estimated": true
+          }
+        ]
+      },
+      "content_cluster_structure": {
+        "pillar_page": {
+          "title": "Creatieve Workshops & Cursussen: Complete Gids België-Nederland",
+          "target_keywords": [
+            "creatieve workshop",
+            "handwerk workshop",
+            "breien workshop",
+            "haken workshop",
+            "naaien cursus"
+          ],
+          "word_count": 3000,
+          "content_type": "ultimate_guide"
+        },
+        "cluster_pages": [
+          {
+            "title": "Top 20 Workshops Breien & Haken voor Beginners",
+            "target_keywords": [
+              "breien workshop",
+              "haken workshop",
+              "breiles volgen",
+              "haakles"
+            ],
+            "word_count": 2000,
+            "content_type": "roundup"
+          },
+          {
+            "title": "Naaien & Textiel Workshops: Van Beginner tot Gevorderd",
+            "target_keywords": [
+              "naaien cursus",
+              "naailessen",
+              "textiel workshop"
+            ],
+            "word_count": 1800,
+            "content_type": "technique_guide"
+          },
+          {
+            "title": "Creatieve Workshops bij jou in de Buurt: Agenda 2024",
+            "target_keywords": [
+              "workshop bij mij in de buurt",
+              "creatieve workshops nederland",
+              "workshop agenda"
+            ],
+            "word_count": 1500,
+            "content_type": "local_guide"
+          },
+          {
+            "title": "Online Workshops & Cursussen: Thuis Creatief Leren",
+            "target_keywords": [
+              "online workshop",
+              "online cursus creatief",
+              "thuis workshop volgen"
+            ],
+            "word_count": 1500,
+            "content_type": "platform_guide"
+          }
+        ],
+        "supporting_content": [
+          {
+            "title": "Breien Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Haken Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Naaien Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Kaarten Maken Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Keramiek Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Schilderen Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Vilten Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Weven Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Boekbinden Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Zeefdrukken Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Linolsneden Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Embroidery Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Jewelry Making Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Candle Making Workshop Gids: Wat je Leert & Wat je Kunt",
+            "content_type": "workshop_detail"
+          },
+          {
+            "title": "Amsterdam Creative Workshops: Best Workshops in Amsterdam",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Rotterdam Creative Workshops: Best Workshops in Rotterdam",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Utrecht Creative Workshops: Best Workshops in Utrecht",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Den Haag Creative Workshops: Best Workshops in Den Haag",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Antwerpen Creative Workshops: Best Workshops in Antwerpen",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Gent Creative Workshops: Best Workshops in Gent",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Brussel Creative Workshops: Best Workshops in Brussel",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Eindhoven Creative Workshops: Best Workshops in Eindhoven",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Groningen Creative Workshops: Best Workshops in Groningen",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Leiden Creative Workshops: Best Workshops in Leiden",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Haarlem Creative Workshops: Best Workshops in Haarlem",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Utrecht Creative Workshops: Best Workshops in Utrecht",
+            "content_type": "city_guide"
+          },
+          {
+            "title": "Workshop Cadeaubon: Het Perfecte Geschenk",
+            "content_type": "gift_guide"
+          },
+          {
+            "title": "Workshop Bedrijfsuitje: Teambuilding Creatief",
+            "content_type": "corporate_guide"
+          },
+          {
+            "title": "Workshop Vrijgezellenfeest: Creatieve Invulling",
+            "content_type": "event_guide"
+          },
+          {
+            "title": "Online vs Offline Workshop: Wat past bij jou?",
+            "content_type": "comparison_guide"
+          },
+          {
+            "title": "Workshop Prijzen: Wat mag je verwachten?",
+            "content_type": "pricing_guide"
+          },
+          {
+            "title": "Workshop Aanbod: Hoe herken je kwaliteit?",
+            "content_type": "quality_guide"
+          },
+          {
+            "title": "Workshop Review: Zo beoordeel je een aanbieder",
+            "content_type": "review_guide"
+          },
+          {
+            "title": "Workshop Materiaal: Moet je zelf meenemen?",
+            "content_type": "checklist"
+          },
+          {
+            "title": "Workshop Kleding: Wat draag je het beste?",
+            "content_type": "tips_guide"
+          }
+        ]
+      },
+      "monetization_opportunities": [
+        {
+          "type": "Workshop Booking Fees",
+          "description": "Commission on workshop bookings through platform",
+          "revenue_potential": "15-20% commission per booking",
+          "implementation": "Booking integration, scheduling system"
+        },
+        {
+          "type": "Workshop Provider Listings",
+          "description": "Premium profiles for workshop providers",
+          "revenue_potential": "€25-75 per month per provider",
+          "implementation": "Enhanced provider profiles, featured placement"
+        },
+        {
+          "type": "Material Kit Sales",
+          "description": "Affiliate sales for workshop material kits",
+          "revenue_potential": "15-25% commission",
+          "implementation": "Integration with craft retailers, custom kits"
+        },
+        {
+          "type": "Gift Voucher Sales",
+          "description": "Workshop gift vouchers with platform fee",
+          "revenue_potential": "€10-25 fee per voucher",
+          "implementation": "Digital gift card system, branding"
+        }
+      ],
+      "article_count": 40,
+      "estimated_traffic_potential": 6430
+    },
+    "creatieve_markten": {
+      "name": "Creatieve Markten (Creative Markets)",
+      "description": "Creative markets, craft fairs, and maker markets",
+      "keywords": {
+        "primary": [
+          {
+            "keyword": "makers markt nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "vintage markt nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "creatieve markten agenda",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "weekend markt nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "lokale markt belgie",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "brocante markt nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "vintage market belgium",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "makers festival nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk beurzen markten",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "zomer markt creatief",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "indoor markt nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "pop-up store creatief",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          }
+        ],
+        "secondary": [
+          {
+            "keyword": "creatieve markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerkmarkt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "craft market",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "rommelmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "brocante markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "kunstmarkt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "designmarkt nederland",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "ambachtelijke markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "zondagmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "ambachtenmarkt belgie",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "lokale markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "weekend markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "zondagmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "boekenmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "platenmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "kledingmarkt vintage",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "meubelmarkt vintage",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "kerstmarkt creatief",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "lente markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "herfst markt",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          }
+        ]
+      },
+      "content_cluster_structure": {
+        "pillar_page": {
+          "title": "Creatieve Markten & Makers Markets: De Complete Gids",
+          "target_keywords": [
+            "creatieve markt",
+            "makers markt nederland",
+            "handwerkmarkt",
+            "craft market",
+            "rommelmarkt creatief"
+          ],
+          "word_count": 3000,
+          "content_type": "ultimate_guide"
+        },
+        "cluster_pages": [
+          {
+            "title": "Makers Markets Nederland: Agenda & Hotspots 2024",
+            "target_keywords": [
+              "makers markt nederland",
+              "design market nederland",
+              "craft market agenda"
+            ],
+            "word_count": 1800,
+            "content_type": "calendar_listing"
+          },
+          {
+            "title": "Vintage & Brocante Markten: Tips voor Vindsters",
+            "target_keywords": [
+              "vintage markt nederland",
+              "brocante markt",
+              "rommelmarkt creatief"
+            ],
+            "word_count": 1500,
+            "content_type": "niche_guide"
+          },
+          {
+            "title": "Kunstmarkten & Designmarkten: Waar Te Bezoeken",
+            "target_keywords": [
+              "kunstmarkt",
+              "designmarkt nederland",
+              "ambachtelijke markt"
+            ],
+            "word_count": 1500,
+            "content_type": "curated_list"
+          },
+          {
+            "title": "Deelnemen als Marktkramer: Complete Gids",
+            "target_keywords": [
+              "marktkramer worden",
+              "stand huren markt",
+              "deelnemen creatieve markt"
+            ],
+            "word_count": 1800,
+            "content_type": "business_guide"
+          }
+        ],
+        "supporting_content": [
+          {
+            "title": "Amsterdam Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Rotterdam Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Utrecht Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Den Haag Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Antwerpen Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Gent Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Brussel Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Eindhoven Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Groningen Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Leiden Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Maastricht Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Nijmegen Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Breda Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Tilburg Creative Markets: Weekend Agenda",
+            "content_type": "city_weekend"
+          },
+          {
+            "title": "Kerstmarkten Markt Special: Alles over Kerstmarkten",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Lentemarkten Markt Special: Alles over Lentemarkten",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Zomermarkten Markt Special: Alles over Zomermarkten",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Indoor Wintermarkten Markt Special: Alles over Indoor Wintermarkten",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Fashion Markets Markt Special: Alles over Fashion Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Design Markets Markt Special: Alles over Design Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Art Markets Markt Special: Alles over Art Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Craft Markets Markt Special: Alles over Craft Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Food Markets Markt Special: Alles over Food Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Book Markets Markt Special: Alles over Book Markets",
+            "content_type": "market_special"
+          },
+          {
+            "title": "Markt Stand Huren: Kosten en Tips",
+            "content_type": "vendor_guide"
+          },
+          {
+            "title": "Marktkramer Worden: Complete Gids",
+            "content_type": "startup_guide"
+          },
+          {
+            "title": "Markt producten verkopen: Wat werkt goed?",
+            "content_type": "product_guide"
+          },
+          {
+            "title": "Markt stallen vergelijken: Soorten en Prijzen",
+            "content_type": "comparison_guide"
+          },
+          {
+            "title": "Markt dagen tips: Meer verkopen op je kraam",
+            "content_type": "sales_tips"
+          },
+          {
+            "title": "Markt betalingen: PIN, contant, Tikkie",
+            "content_type": "payment_guide"
+          },
+          {
+            "title": "Markt presenteren: Hoe maak je je kraam aantrekkelijk?",
+            "content_type": "design_guide"
+          },
+          {
+            "title": "Markt weer: Outdoor markten en slecht weer",
+            "content_type": "weather_guide"
+          },
+          {
+            "title": "Markt marketing: Klanten trekken naar je kraam",
+            "content_type": "marketing_guide"
+          }
+        ]
+      },
+      "monetization_opportunities": [
+        {
+          "type": "Market Stall Listings",
+          "description": "Paid listings for upcoming markets seeking vendors",
+          "revenue_potential": "€25-100 per listing",
+          "implementation": "Market calendar with call-for-vendors section"
+        },
+        {
+          "type": "Vendor Directories",
+          "description": "Premium profiles for market vendors and makers",
+          "revenue_potential": "€15-50 per month per vendor",
+          "implementation": "Enhanced vendor profiles with portfolios and links"
+        },
+        {
+          "type": "Market Guide Sponsorships",
+          "description": "Sponsored market guides and itineraries",
+          "revenue_potential": "€200-600 per sponsored guide",
+          "implementation": "Curated market routes, featured markets"
+        },
+        {
+          "type": "Event Ticketing",
+          "description": "Ticket sales for ticketed markets and fairs",
+          "revenue_potential": "10-15% commission per ticket",
+          "implementation": "Integration with ticketing platforms"
+        }
+      ],
+      "article_count": 38,
+      "estimated_traffic_potential": 7560
+    },
+    "hobbymaterialen": {
+      "name": "Hobbymaterialen (Hobby Supplies)",
+      "description": "Hobby supplies, materials, and craft stores",
+      "keywords": {
+        "primary": [
+          {
+            "keyword": "kaarten maken spullen",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "art supplies nederland",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "sieraden maken materialen",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "grootverbruik hobby materialen",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "kaart making supplies",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "discount hobby supplies",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "wholesale craft supplies",
+            "volume": 756,
+            "kd": 22,
+            "cpc": 0.55,
+            "competition": 0.22,
+            "estimated": true
+          },
+          {
+            "keyword": "bulk yarn purchase",
+            "volume": 756,
+            "kd": 25,
+            "cpc": 0.55,
+            "competition": 0.25,
+            "estimated": true
+          },
+          {
+            "keyword": "stof kopen per meter",
+            "volume": 529,
+            "kd": 20,
+            "cpc": 0.95,
+            "competition": 0.2,
+            "estimated": true
+          },
+          {
+            "keyword": "stof kopen per meter",
+            "volume": 529,
+            "kd": 20,
+            "cpc": 0.95,
+            "competition": 0.2,
+            "estimated": true
+          }
+        ],
+        "secondary": [
+          {
+            "keyword": "hobbybenodigdheden",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "handwerk materialen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "naaibenodigdheden",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "hobbywinkel",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "creabeurs shop",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "knutselspullen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "breipennen set",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "quilting materialen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "boekbinden set",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "schildersbenodigdheden",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "keramiek benodigdheden",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "weven materialen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "zeefdruk materialen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "ambachtelijke materialen",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "groothandel handwerk",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "wolwinkel",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "stofwinkel",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "kralenwinkel",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "haaknaalden set",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          },
+          {
+            "keyword": "quilting benodigdheden",
+            "volume": 1157,
+            "kd": 35,
+            "cpc": 0.55,
+            "competition": 0.35,
+            "estimated": true
+          }
+        ]
+      },
+      "content_cluster_structure": {
+        "pillar_page": {
+          "title": "Hobbybenodigdheden & Materialen: Waar Kopen in België-Nederland",
+          "target_keywords": [
+            "hobbybenodigdheden",
+            "handwerk materialen",
+            "breiwol kopen",
+            "haakwol kopen",
+            "naaibenodigdheden"
+          ],
+          "word_count": 3000,
+          "content_type": "buying_guide"
+        },
+        "cluster_pages": [
+          {
+            "title": "Breiwol & Haakwol: Complete Winkeliergids",
+            "target_keywords": [
+              "breiwol kopen",
+              "haakwol kopen",
+              "wolwinkel",
+              "garen kopen"
+            ],
+            "word_count": 2000,
+            "content_type": "buying_guide"
+          },
+          {
+            "title": "Naaien Materialen: Van Stof tot Garen",
+            "target_keywords": [
+              "stof kopen",
+              "naaibenodigdheden",
+              "stofwinkel",
+              "naaimachine kopen"
+            ],
+            "word_count": 1800,
+            "content_type": "buying_guide"
+          },
+          {
+            "title": "Kaarten Maken Spullen: Complete Checklist",
+            "target_keywords": [
+              "kaarten maken spullen",
+              "scrapbook materialen",
+              "papier craft kopen"
+            ],
+            "word_count": 1500,
+            "content_type": "checklist"
+          },
+          {
+            "title": "Online Hobbywinkels: De Beste Shops op een Rij",
+            "target_keywords": [
+              "hobbywinkel online",
+              "creabeurs shop",
+              "online hobbybenodigdheden"
+            ],
+            "word_count": 1500,
+            "content_type": "roundup"
+          }
+        ],
+        "supporting_content": [
+          {
+            "title": "Breien Materialen Gids: Alles voor Breien",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Haken Materialen Gids: Alles voor Haken",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Naaien Materialen Gids: Alles voor Naaien",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Kaarten Maken Materialen Gids: Alles voor Kaarten Maken",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Kralen Materialen Gids: Alles voor Kralen",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Schilderen Materialen Gids: Alles voor Schilderen",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Keramiek Materialen Gids: Alles voor Keramiek",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Vilten Materialen Gids: Alles voor Vilten",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Weven Materialen Gids: Alles voor Weven",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Boekbinden Materialen Gids: Alles voor Boekbinden",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Zeefdrukken Materialen Gids: Alles voor Zeefdrukken",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Linolsneden Materialen Gids: Alles voor Linolsneden",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Quilten Materialen Gids: Alles voor Quilten",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Scrapbooking Materialen Gids: Alles voor Scrapbooking",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Embroidery Materialen Gids: Alles voor Embroidery",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Jewelry Making Materialen Gids: Alles voor Jewelry Making",
+            "content_type": "category_guide"
+          },
+          {
+            "title": "Naaimachine Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Breipennen Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Haaknaalden Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Schildersezel Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Pottery Wheel Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Spinnewiel Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Viltmachine Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Zeefdrukset Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Linosneden set Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Boekbindset Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Quiltframe Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Kralen organizer Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Schaar set Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Mat mes Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Cutting mat Kopen: Vergelijk & Bespaar",
+            "content_type": "product_review"
+          },
+          {
+            "title": "Hobbywinkel Kortingen: Waar vind je deals?",
+            "content_type": "deals_guide"
+          },
+          {
+            "title": "Hobby Materialen Groothandel: Voor ondernemers",
+            "content_type": "b2b_guide"
+          },
+          {
+            "title": "Tweedehands Hobby Spullen: Waar kopen?",
+            "content_type": "secondhand_guide"
+          },
+          {
+            "title": "Hobby Materialen Abonnement: Is het het waard?",
+            "content_type": "subscription_guide"
+          },
+          {
+            "title": "Hobbywinkel Online vs Fysiek: Voor- en nadelen",
+            "content_type": "comparison_guide"
+          },
+          {
+            "title": "Gratis Hobby Patronen: Waar vind je ze?",
+            "content_type": "free_resources"
+          },
+          {
+            "title": "Hobby Materialen Verzenden: Verpakken & Kosten",
+            "content_type": "shipping_guide"
+          },
+          {
+            "title": "Hobby Organisatie: Hoe berg je alles op?",
+            "content_type": "storage_guide"
+          },
+          {
+            "title": "Hobby Budget: Creatief zijn met weinig geld",
+            "content_type": "budget_guide"
+          },
+          {
+            "title": "Hobby Materialen Duurzaam: Eco-friendly opties",
+            "content_type": "sustainability_guide"
+          }
+        ]
+      },
+      "monetization_opportunities": [
+        {
+          "type": "Affiliate Product Links",
+          "description": "Commission on craft supply sales",
+          "revenue_potential": "5-15% commission per sale",
+          "implementation": "Deep linking to online craft stores (Bol.com, Etsy, specialty shops)"
+        },
+        {
+          "type": "Product Reviews",
+          "description": "Sponsored product reviews and comparisons",
+          "revenue_potential": "€100-400 per sponsored review",
+          "implementation": "Dedicated review pages, comparison tools"
+        },
+        {
+          "type": "Display Advertising",
+          "description": "Targeted ads for craft retailers and brands",
+          "revenue_potential": "€8-15 CPM (€0.008-0.015 per impression)",
+          "implementation": "Ad inventory in buying guides and product categories"
+        },
+        {
+          "type": "Shop Directory Listings",
+          "description": "Premium listings for online and physical craft stores",
+          "revenue_potential": "€30-100 per month per listing",
+          "implementation": "Enhanced shop profiles with offers, location, specialties"
+        }
+      ],
+      "article_count": 46,
+      "estimated_traffic_potential": 7106
+    }
+  },
+  "summary": {
+    "total_pillars": 4,
+    "total_articles": 162,
+    "total_keywords_researched": 130,
+    "total_primary_keywords": 50,
+    "total_secondary_keywords": 80,
+    "estimated_monthly_traffic_potential": 28656,
+    "monetization_streams": 16,
+    "content_production_timeline": "162 articles @ 3-4 per week = ~46 weeks (~11.6 months)"
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Labconco",
+    "url": "https://www.labconco.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and lab equipment",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Certification"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:23.030885"
+  },
+  {
+    "name": "NuAire",
+    "url": "https://www.nuaire.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "title": "Biosafety Cabinets &amp; Reliable Lab Equipment | Nuaire",
+    "meta_description": "NuAire manufactures biosafety cabinets, CO\u2082 incubators, freezers, and lab equipment trusted worldwide for safety, reliability, and innovation.",
+    "emails": [],
+    "phones": [
+      "763-553-1270"
+    ],
+    "scraped_at": "2026-02-19T07:10:23.822670"
+  },
+  {
+    "name": "The Baker Company",
+    "url": "https://www.bakerco.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "title": "Baker Co. - Made to Order Laboratory Safety Equipment",
+    "meta_description": "For over 100 years, Baker Co. has been at the forefront of engineering, testing and manufacturing reliable laboratory safety equipment.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:24.867678"
+  },
+  {
+    "name": "Air Science",
+    "url": "https://www.airscience.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and enclosures",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Filters"
+    ],
+    "title": "Fume Hoods, Laminar Flow, PCR | Air Science",
+    "meta_description": "Air Science manufactures ductless fume hoods, laminar flow cabinets, forensic products, biological safety cabinets, pcr workstations.",
+    "emails": [
+      "info@airscience.com"
+    ],
+    "phones": [
+      "(239) 489-0024",
+      "239.489.0024"
+    ],
+    "scraped_at": "2026-02-19T07:10:25.428913"
+  }
+]

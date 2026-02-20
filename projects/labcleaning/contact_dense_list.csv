@@ -1,0 +1,19 @@
+name,email,phone,address,city,state,website,type,services,tier
+Sealed Air,directors@sealedair.com,100.1920,,,,https://www.sealedair.com,cleaning_products,"Sanitization, Cleaning systems, Food safety, Lab hygiene",basic
+Sharps Compliance,sharps@sharpsinc.com,800.772.5657,"9220 Kirby Drive, Suite 500",,,https://www.sharpsinc.com,waste_management,"Waste disposal, Mail-back programs, Pharmaceutical waste, Lab waste",basic
+Daniels Health,info@danielshealth.com,888 952 5580,"1400 American Ln, Bannockburn, IL 60015",Bannockburn,IL,https://danielshealth.com,waste_management,"Sharps disposal, Lab waste, Waste containers, Sustainable solutions",basic
+Republic Services,media@republicservices.com,3385831,,,,https://www.republicservices.com,waste_management,"Waste disposal, Recycling, Lab waste services, Sustainability",basic
+Waste Management,wmcares@wm.com,964-9730,,,,https://www.wm.com,waste_management,"Hazardous waste, Lab disposal, Environmental services, Compliance",basic
+Betco,customerservice@betco.com,877-856-5954,,,,https://www.betco.com,cleaning_products,"Cleaning chemicals, Disinfectants, Training, Equipment",basic
+Eurofins Scientific,BioPharmaProductTesting@BPT.EurofinsUS.com,556 7350,,,,https://www.eurofinsus.com,analytical_lab,"Lab testing, Analytical services, Research, Quality control",basic
+NSF International,info@nsf.org,647 1036,,,,https://www.nsf.org,testing_certification,"Lab certification, Testing, Standards, Audits",basic
+UL Solutions,info.dk@ul.com,872.1576,1040 Parsons Road SW,,,https://www.ul.com,testing_certification,"Lab testing, Certification, Safety testing, Standards",basic
+Intertek,business.assurance@intertek.com,800 967 5352,,,,https://www.intertek.com,testing_certification,"Lab testing, Inspection, Certification, Assurance",basic
+SGS,weichern.foong@sgs.com,1771487594,,,,https://www.sgs.com,testing_certification,"Lab testing, Inspection, Certification, Verification",basic
+Bureau Veritas,customersolutionswest@bureauveritas.com,357-7020,,,,https://www.bureauveritas.com,testing_certification,"Lab testing, Inspection, Certification, Compliance",basic
+Chemistry Rx,info@chemistryrx.com,267-861-0862,,,,https://www.chemistryrx.com,lab_services,"Lab equipment, Glassware cleaning, Sterilization, Calibration",basic
+Air Science,info@airscience.com,(239) 489-0024,,,,https://www.airscience.com,equipment_manufacturer,"Equipment, Installation, Service, Filters",basic
+Triumvirate Environmental,info@triumvirate.com,888-834-9697,"101 Billerica Rd, North Billerica, MA 01862",North Billerica,MA,https://www.triumvirate.com,cleaning_service,"Lab cleaning, Chemical decontamination, Waste disposal, Emergency response",business
+CloroxPro,info@cloroxpro.com,888-797-7225," PO Box 24305, Oakland, CA 94623",Oakland,CA,https://www.cloroxpro.com,cleaning_products,"Disinfectants, Cleaners, Lab sanitation, Training",elite
+Clean Harbors,info@cleanharbors.com,800.645.8265,"42 Pine St, Norwell, MA 02061",Norwell,MA,https://www.cleanharbors.com,cleaning_service,"Hazardous waste, Lab decommissioning, Chemical cleaning, Emergency spill response",enterprise
+STERIS,info@steris.com,440.354.2600,"5960 Heisley Rd, Mentor, OH 44060",Mentor,OH,https://www.steris.com,sterilization,"Lab sterilization, Equipment sterilization, Infection control, Validation services",enterprise

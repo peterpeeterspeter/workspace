@@ -1,0 +1,26 @@
+company_name,contact_email,phone,address,city,state,website,type
+Triumvirate Environmental,info@triumvirate.com,888-834-9697,"101 Billerica Rd, North Billerica, MA 01862",North Billerica,MA,https://www.triumvirate.com,cleaning_service
+Clean Harbors,info@cleanharbors.com,800.645.8265,"42 Pine St, Norwell, MA 02061",Norwell,MA,https://www.cleanharbors.com,cleaning_service
+Veolia North America,info@veoliana.com,,"200 Andover St, Danvers, MA 01923",Danvers,MA,https://www.veolianorthamerica.com,cleaning_service
+STERIS,info@steris.com,440.354.2600,"5960 Heisley Rd, Mentor, OH 44060",Mentor,OH,https://www.steris.com,sterilization
+Ecolab,info@ecolab.com,,"1 Ecolab Pl, St. Paul, MN 55102",St. Paul,MN,https://www.ecolab.com,cleaning_products
+Diversey,info@diversey.com,,"2325 Wauer Rd, Allentown, PA 18104",Allentown,PA,https://www.diversey.com,cleaning_products
+Stericycle,info@stericycle.com,,"1450 American Ln, Bannockburn, IL 60015",Bannockburn,IL,https://www.stericycle.com,waste_management
+Sharps Compliance,,800.772.5657,,,,https://www.sharpsinc.com,waste_management
+Daniels Health,info@danielshealth.com,888 952 5580,"1400 American Ln, Bannockburn, IL 60015",Bannockburn,IL,https://danielshealth.com,waste_management
+CloroxPro,info@cloroxpro.com,888-797-7225," PO Box 24305, Oakland, CA 94623",Oakland,CA,https://www.cloroxpro.com,cleaning_products
+Betco,,877-856-5954,,,,https://www.betco.com,cleaning_products
+ALS Limited,,281-575-2290,,,,https://www.alsglobal.com,analytical_lab
+Intertek,,800 967 5352,,,,https://www.intertek.com,testing_certification
+Noxilico,info@noxilico.com,,"750 Rue de l'industrie, Saint-Jean-sur-Richelieu, QC J3B 6X9",Saint-Jean-sur-Richelieu,QC,https://www.noxilico.com,lab_decommissioning
+Chemistry Rx,info@chemistryrx.com,267-861-0862,,,,https://www.chemistryrx.com,lab_services
+Thermo Fisher Scientific Services,,1771485018,,,,https://www.thermofisher.com,lab_services
+Agilent CrossLab,,1771485019,,,,https://www.agilent.com,lab_services
+Bio-Rad Laboratories Services,,1771485020,,,,https://www.bio-rad.com,lab_services
+NuAire,,763-553-1270,,,,https://www.nuaire.com,equipment_manufacturer
+Air Science,info@airscience.com,(239) 489-0024,,,,https://www.airscience.com,equipment_manufacturer
+Thermo Fisher SampleManager,,1771485032,,,,https://www.thermofisher.com,software
+Agilent OpenLAB,,1771485033,,,,https://www.agilent.com,software
+IDBS,,+1 781 272 3355,,,,https://www.idbs.com,software
+Labguru,info@biodata.com,,,,,https://www.labguru.com,software
+Science Exchange,info@scienceexchange.com,,,,,https://www.scienceexchange.com,marketplace

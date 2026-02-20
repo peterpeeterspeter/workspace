@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Triumvirate Environmental",
+    "url": "https://www.triumvirate.com",
+    "type": "cleaning_service",
+    "description": "Laboratory cleaning, decontamination, and waste management",
+    "services": [
+      "Lab cleaning",
+      "Chemical decontamination",
+      "Waste disposal",
+      "Emergency response"
+    ],
+    "title": "Environmental Services &amp; EHS Consulting for All Industries | Triumvirate Environmental",
+    "meta_description": "Triumvirate Environmental delivers environmental services to organizations in the life sciences, healthcare, higher ed, and advanced manufacturing sectors.",
+    "emails": [],
+    "phones": [
+      "888-834-9697",
+      "800-966-9282"
+    ],
+    "scraped_at": "2026-02-19T07:10:08.018164"
+  },
+  {
+    "name": "Clean Harbors",
+    "url": "https://www.cleanharbors.com",
+    "type": "cleaning_service",
+    "description": "Lab decontamination and hazardous waste services",
+    "services": [
+      "Hazardous waste",
+      "Lab decommissioning",
+      "Chemical cleaning",
+      "Emergency spill response"
+    ],
+    "title": "Environmental and Industrial Services | Clean Harbors",
+    "meta_description": "Everywhere industry meets environment, Clean Harbors is on-site, providing premier environmental and industrial services.",
+    "emails": [],
+    "phones": [
+      "800.645.8265"
+    ],
+    "scraped_at": "2026-02-19T07:10:08.333661"
+  },
+  {
+    "name": "Veolia North America",
+    "url": "https://www.veolianorthamerica.com",
+    "type": "cleaning_service",
+    "description": "Environmental services and lab waste management",
+    "services": [
+      "Waste management",
+      "Lab cleaning",
+      "Environmental compliance",
+      "Water treatment"
+    ],
+    "title": "Veolia North America",
+    "meta_description": "Veolia North America works with organizations across the US and Canada to address their environmental and sustainability challenges in water, waste and energy.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:09.136384"
+  }
+]

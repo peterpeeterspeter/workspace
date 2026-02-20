@@ -1,0 +1,71 @@
+{
+  "total_companies": 142,
+  "with_emails": 26,
+  "with_phones": 26,
+  "with_addresses": 13,
+  "with_social_media": 12,
+  "with_certifications": 14,
+  "with_revenue": 7,
+  "public_companies": 5,
+  "by_type": {
+    "cleaning_service": 87,
+    "cleaning_products": 7,
+    "waste_management": 5,
+    "analytical_lab": 3,
+    "testing_certification": 5,
+    "lab_decommissioning": 2,
+    "lab_services": 18,
+    "equipment_manufacturer": 4,
+    "automation": 2,
+    "software": 6,
+    "marketplace": 2
+  },
+  "by_state": {
+    "MA": 3,
+    "Unknown": 132,
+    "IL": 2
+  },
+  "top_10": [
+    {
+      "name": "Clean Harbors",
+      "score": 85
+    },
+    {
+      "name": "STERIS",
+      "score": 85
+    },
+    {
+      "name": "CloroxPro",
+      "score": 85
+    },
+    {
+      "name": "Triumvirate Environmental",
+      "score": 75
+    },
+    {
+      "name": "Ecolab",
+      "score": 75
+    },
+    {
+      "name": "Stericycle",
+      "score": 75
+    },
+    {
+      "name": "Veolia North America",
+      "score": 65
+    },
+    {
+      "name": "Sharps Compliance",
+      "score": 60
+    },
+    {
+      "name": "Daniels Health",
+      "score": 55
+    },
+    {
+      "name": "UL Solutions",
+      "score": 50
+    }
+  ],
+  "generated_at": "2026-02-19T07:57:09.548930"
+}

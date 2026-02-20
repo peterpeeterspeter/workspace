@@ -1,0 +1,133 @@
+name,city,address,emails,phones,website,type,tier
+Sealed Air,,,directors@sealedair.com,"100.1920, 100.1280, 430-7000, 221-3235, 648-9093, 2226241, 980-430-7000, 800-648-9093, 980-221-3235, 9105043778",https://www.sealedair.com,cleaning_products,basic
+Sharps Compliance,,"9220 Kirby Drive, Suite 500","sharps@sharpsinc.com, sales@sharpsinc.com","800.772.5657, 7448842, 772.5657, 772-5657, 8007725657, 838.0508, 713-432-0300, 713.838.0508, 432.0300, 432-0300, 432-0555, 718.372.3887, 713.432.0300, 372.3887",https://www.sharpsinc.com,waste_management,basic
+Republic Services,,,media@republicservices.com,"3385831, 8510116, 8510096, 5185336, 692-9729, 5185351, 5185366, 5185346, 957.0540, 8510091, 8510111, 8510081, 3485491, 3095846, 1556751, 800.982.3818, 3325621, 5185376, 8510101, 3385771, 3341986, 3325646, 8510106, 8510076, 757-9770, 5185361, 5185341, 3341981, 5185381, 8510036, 8510066, 713.957.0540, 8522911, 8510126, 3342001, 3341996, 8510041, 8510071, 8510061, 8510121, 5185371, 713.957.0094, 8510031, 982.3818, 8510086, 5185356, 1404996, 298.6300, 8510056, 210.298.6300, 3325631, 3385811, 957.0094",https://www.republicservices.com,waste_management,basic
+Waste Management,,,wmcares@wm.com,"964-9730, 927-6113, 221-5556, 888-964-9730, 305-468-5900, 866-797-9018, 514-6673, 909-4458, 221-5557, 912-927-6113, 796-9696, 305-514-6673, 468-5900, 797-9018, 963-4776, 558-1661",https://www.wm.com,waste_management,basic
+Kimberly-Clark Professional,,,,"800-678-6577, 844-462-4666, 888-436-6881, 234-1460, 1771487417, 987-7373, 800-733-4000, 733-4000, 866-987-7373, 678-6577, 436-6881, 1771487418, 462-4666, 800-234-1460, 1771487420",https://www.kcprofessional.com,cleaning_products,basic
+3M Health Care,,,"jdoe@3m.com, janedoe@3m.com",,https://www.3m.com/3M/en_US/healthcare/,cleaning_products,basic
+Betco,,,customerservice@betco.com,"877-856-5954, 888-462-3826, 856-5954, 1020292, 1021292, 462-3826",https://www.betco.com,cleaning_products,basic
+ABC Laboratories,,,,"617-2225, 222-6688, 222-3388",https://www.abclabs.com,analytical_lab,basic
+Eurofins Scientific,,,"BioPharmaProductTesting@BPT.EurofinsUS.com, clinicaltrials@eurofins.com, info@eurofins.com","556 7350, 717-656-2300, 556 3888, 717 556 7350, 656-2300, 717 556 3888",https://www.eurofinsus.com,analytical_lab,basic
+ALS Limited,,25 King Street,,"281-575-2290, +1 281-575-2290, 575-2290, 281 530 5656, 984-0221, 530 5656",https://www.alsglobal.com,analytical_lab,basic
+NSF International,,,"info@nsf.org, jdmiller@nsf.org","647 1036, 176.647 1036, 734-827-7182, 734-827-6837, 456 1502, 1766015439, 769-8010, 673.898 1502, 913.5774, 418-6634, 734-769-8010, 734 769 0109, 311.456 1502, 827-7182, 1666371565, 3645609, 1766015438, 827-6837, 769 8010, 898 1502, 734.913.5774, 769 0109, 734 769 8010, 1766015457",https://www.nsf.org,testing_certification,basic
+UL Solutions,,1040 Parsons Road SW,"info.dk@ul.com, UL.BenchmarkInfo@ul.com, ROG.Hardlines.Customer.Service@crs.ul.com, performancelighting@ul.com, cec@UL.com, Sales.de@ul.com, sales.my@ul.com, BEN.Softlines.Customer.Service@crs.ul.com, info.ar@ul.com, info@methodpark.de, sales.th@ul.com, vs.support@ul.com, QAInfo@ul.com, sales.sg@ul.com, info.it@ul.com, sales.id@ul.com, dicsy.solano@ul.com, sales@h2-test.net, UL.TheHague@ul.com, EU.BuildingLifeSafety@ul.com, FurnitureNA@ul.com, AsiaEnquiry@ul.com, Sales.Colombia@ul.com, sales.ph@ul.com, MIS.Softlines.Customer.Service@crs.ul.com, DEWI.France@ul.com, info.br@ul.com, info.nl@ul.com, healthsciencesna@ul.com, info.pl@ul.com, sales.mx@ul.com, customerservice.anz@ul.com, SIS@ul.com, cec@UL.Com, customerservice.br@ul.com, renewables.turkey@ul.com, sales.vn@ul.com, Info.Colombia@ul.com, materialservices.eu@ul.com, UL.Renewables.IBLA@ul.com, CustomerExperienceCenter@ul.com, sales.ren.germany@ul.com, Environment@ul.com, UL.MEA@UL.com, LabelCenter.GUZ@ul.com, info-mdt@ul.com, MDR.Info@ul.com, sales.in@ul.com, cec@ul.com, sales.fr@ul.com, sales.uk@ul.com, CustomerService.BD@ul.com","872.1576, 0625556, 0775541, 734.927.5255, 0021178, 271.6200, 5549232, 114.1321731, 0625367, 8415784, 2022967840, 286.2300, 1202236, 8315068, 1834096, 8183173, 258.6580, 0974697, 202.296.7840, 409.2999, 636.8782, 519.8629, 1429726, 514.363.5941, 427.5300, 0612355, 7667466, 223.3600, 415.3355, 978.759.0048, 7196306, 852.2480, 7392318, 3102041893, 855.353.2532, 516-0021, 2647934, 264.5943, 781.821.2200, 479.286.2300, 8684957, 1931807, 1655136036, 2876422, 4221759, 3871776, 8241944, 3102042612, 7011708, 0743024, 4154229, 0227927, 121.9346559, 6526084, 928.0791, 121.3721335, 852.2276, 5984539, 8317394, 5960696, 2831303, 603 8601, 195.258.6580, 1680807546, 1224176, 0685048, 7194185, 6206656, 7728131, 5975859, 319.4000, 615.367.3887, 367.3887, 353.2532, 272.8800, 3618902, 122.5257847, 363.5941, 516-1106, 202.296.1435, 6721585, 6035118, 100-0005, 510.210.3333, 115.965.1888, 202.3016, 769.3381, 4218975, 4824367, 7568982, 780.409.2999, 615.367.4404, 8453729, 103.8192617, 479.636.8782, 822.3950, 8125000, 525.8850, 121.9324672, 9324672, 8537114, 2974703, 854-3577, 1615996519, 8183209, 7622546, 731.7255, 988 9999, 031.8125000, 8464574, 5928681, 9715049, 7454361, 6921862, 367.4404, 7520777, 1686124, 0775551, 510.319.4000, 157.8582, 1343671, 5483224, 8415926, 9346559, 259-1220, 6374954, 3779039, 1321731, 877.854.3577, 3721335, 415.3356, 656 8547918, 7622267, 8450824, 919.549.1400, 4952254, 5913555, 583.7948, 4048637, 3143093439, 1956342, 7878068, 376.4840, 888.202.3016, 755.8120, 8192617, 8547918, 978.371.2700, 6210994, 5261493, 2895723, 8500764, 1461584, 174.7011708, 6035162, 2854535, 7049963, 397.0973, 631.271.6200, 317.3262, 202.872.1576, 512.6808, 3226868, 0647405, 248.427.5300, 866.937.3852, 6489147, 616.928.0791, 422.8300, 296.7840, 1026686, 6908911, 367.1578, 289-0341, 1303686, 4816687, 371.2700, 7052256, 3819195, 8235433, 6721537, 5257847, 6607172, 581.3636, 0176737, 8152472, 7569019, 248.2378, 192.525.8850, 937.3852, 905.821.2564, 8943758, 122.5261493, 310 203 3666, 0743064, 125.631.2100, 5443377, 113.4824367, 0684997, 376.4800, 470-0217, 821.2200, 6548024, 745.8603, 745.8604, 965.1888, 854.3577, 203 3666, 4951739, 101.5928681, 549.1400, 972.422.8300, 113.2895723, 4762927, 2831336, 631.2100, 821.2564, 3227922, 210.3333, 9721221, 0625465, 4416148, 8486461, 759.0048, 296.1435, 847.272.8800, 100.6374954, 9699281, 852.2423, 7967456, 3108627198, 1354599, 927.5255, 5930569, 5580647, 8323531, 6496763, 3390163, 9229736, 3910945, 714.223.3600, 8522704, 3721945, 3800926",https://www.ul.com,testing_certification,basic
+Intertek,,,"business.assurance@intertek.com, ba.marks@intertek.com, bpcerthelpdesk@intertek.com, info@intertek.com","800 967 5352, 967-5352, 944 2378, 852 2173, 210 635 8100, 296 1620, 967 5352, 656 0601, 753-6711, 810 1195, 635 8125, 616 656 0601, 607-753-6711, 800 810 1195, 116 296 1620, 855 944 2378, 210 635 8125, 2128109, 635 8100",https://www.intertek.com,testing_certification,basic
+SGS,,,"weichern.foong@sgs.com, peter.takacs@sgs.com, PCA.Singapore@sgs.com, dana.justinova@sgs.com","1771487594, 201 508 3000, 508-3000, 508 3000, 1771487597, 1771487596",https://www.sgs.com,testing_certification,basic
+Bureau Veritas,,,"customersolutionswest@bureauveritas.com, infoesp@bureauveritas.com","357-7020, 282.5227, 877-462-9926, 833.282.5227, 888-357-7020, 462-9926, 291-3077, 386-7247",https://www.bureauveritas.com,testing_certification,basic
+Chemistry Rx,,,info@chemistryrx.com,"267-861-0862, (855) 790-0100",https://www.chemistryrx.com,lab_services,basic
+Avantor Services,,,,,https://avantorsciences.com,lab_services,basic
+Thermo Fisher Scientific Services,,,,1771485018,https://www.thermofisher.com,lab_services,basic
+Agilent CrossLab,,,,1771485019,https://www.agilent.com,lab_services,basic
+Waters Corporation Services,,,,,https://www.waters.com,lab_services,basic
+Shimadzu Scientific Instruments,,,,,https://www.ssi.shimadzu.com,lab_services,basic
+PerkinElmer Services,,,,,https://www.perkinelmer.com,lab_services,basic
+Beckman Coulter Life Sciences,,,,,https://www.beckmancoulter.com,lab_services,basic
+Bio-Rad Laboratories Services,,,,1771485020,https://www.bio-rad.com,lab_services,basic
+Eppendorf Service,,,,,https://www.eppendorf.com,lab_services,basic
+Sartorius Services,,,,,https://www.sartorius.com,lab_services,basic
+Metler Toledo Service,,,,,https://www.mt.com,lab_services,basic
+Cytiva,,,,,https://www.cytiva.com,lab_services,basic
+Danaher,,,,,https://www.danaher.com,lab_services,basic
+Labconco,,,,,https://www.labconco.com,equipment_manufacturer,basic
+NuAire,,,,763-553-1270,https://www.nuaire.com,equipment_manufacturer,basic
+The Baker Company,,,,,https://www.bakerco.com,equipment_manufacturer,basic
+Air Science,,,info@airscience.com,"(239) 489-0024, 239.489.0024",https://www.airscience.com,equipment_manufacturer,basic
+Bertsche,,,,,https://www.bertsche.com,lab_decommissioning,basic
+H+H Laboratory Services,,,,,https://hhlab.com,lab_services,basic
+GenVault,,,,,https://www.genvault.com,lab_services,basic
+Brooks Life Sciences,,,,,https://www.brooks.com,lab_services,basic
+Azenta Life Sciences,,,,,https://www.azenta.com,lab_services,basic
+Hamilton Company,,,,,https://www.hamiltoncompany.com,automation,basic
+Tecan,,,,,https://www.tecan.com,automation,basic
+PerkinElmer Informatics,,,,,https://www.perkinelmerinformatics.com,software,basic
+LabWare,,,,,https://www.labware.com,software,basic
+BIOVIA,,,,,https://www.3ds.com/products-services/biovia,software,basic
+IDBS,,,,"+1 781 272 3355, 781 272 3355",https://www.idbs.com,software,basic
+Labguru,,,info@biodata.com,,https://www.labguru.com,software,basic
+Benchling,,,,,https://www.benchling.com,software,basic
+Science Exchange,,,info@scienceexchange.com,,https://www.scienceexchange.com,marketplace,basic
+ Scientist.com,,,,,https://www.scientist.com,marketplace,basic
+"Professional Lab Cleaning Services In Phoenix, Arizona",,,,,https://www.keeperscleanusa.com/lab-cleaning-services-laboratory-disinfecting-arizona/,cleaning_service,basic
+Cleanroom & Lab Cleaning Services,,,,,https://janitek.net/industries-served/research-labs/,cleaning_service,basic
+Lab Cleaning Services & Laboratory Disinfecting,,,,,https://system4norcal.com/facilities/lab-cleaning-services/,cleaning_service,basic
+Life Sciences & Laboratory Cleaning Services,,,,,https://www.leebuildingclean.com/industries/laboratory-cleaning-services/,cleaning_service,basic
+Lab Cleaning Services & Laboratory Disinfecting,,,,,https://system4phoenix.com/facilities/lab-cleaning-services/,cleaning_service,basic
+"Expert Lab Cleaning Services in MD, VA, & DC",,,,,https://www.foremanpro.com/critical-environment-cleaning/lab-cleaning/,cleaning_service,basic
+Bay Area Laboratory Cleaning Services,,,,,https://shinefacilityservices.com/laboratories/,cleaning_service,basic
+Critical Cleaning Lab,,,,,https://www.microcare.com/en-US/Resources/Critical-Cleaning-Lab,cleaning_service,basic
+Medical Laboratories,,,,,https://executive-clean.com/facility/healthcare-medical/medical-laboratories-cleaning-services/,cleaning_service,basic
+Professional Laboratory Cleaning Services,,,,,https://patriotmaids.com/services/commercial/industries/laboratories/,cleaning_service,basic
+Lab & Equipment Decontamination,,,,,https://www.veolianorthamerica.com/what-we-do/waste-capabilities/lab-equipment-decontamination,cleaning_service,basic
+Lab Decontamination & Cleaning Services,,,,,https://valogicbio.com/decontamination-services/,cleaning_service,basic
+Property Cleanup Services,,,,,https://deconservices.com/,cleaning_service,basic
+Comprehensive Facility Decontamination Services,,,,,https://techsafety.com/services/testing-certification/decontamination-services,cleaning_service,basic
+Biological Decontamination,,,,,https://www.triumvirate.com/services/environmental-health-laboratory-services/biological-decontamination,cleaning_service,basic
+Decontamination Services,,,,,https://www.cleanharbors.com/services/industrial-field-services/field-services/decontamination,cleaning_service,basic
+"Meth Lab Decontamination And Biohazard Cleanup in Denver, CO",,,,,https://crystalcleandecon.com/,cleaning_service,basic
+Decontamination Equipment,,,,,https://curissystem.com/,cleaning_service,basic
+Lab Equipment Decontamination,,,,,https://www.sepsservices.com/services/decontaminations/,cleaning_service,basic
+Lab Cleaning & Disinfection Services,,,,,https://deconservices.com/lab-sterilization-service/,cleaning_service,basic
+Biological Safety Cabinet (BSC) Cleaning: Below the Deck,,,,,https://ors.od.nih.gov/sr/dohs/Documents/biological-safety-cabinet-enhanced-surface-cleaning.pdf,cleaning_service,basic
+BSC Certification & Cleanup,,,,,https://www.triumvirate.com/services/laboratory-services/bsc-biological-safety-cabinet-certification-decontamination,cleaning_service,basic
+Biological Safety Cabinet Cleaning,,,,,https://pristinology.com/biological-safety-cabinet-cleaning-service/,cleaning_service,basic
+Page 1 of 9 Biological Safety and Laminar Flow Cabinet,,,,,https://www.escolifesciences.com/pdf/BSC%20&%20LFC%20Maintence%20Tips%20and%20Procedures-V.B.-Mar2021.pdf,cleaning_service,basic
+r/labrats on Reddit: Biosafety Cabinet cleaning,,,,,https://www.reddit.com/r/labrats/comments/1lsoilx/biosafety_cabinet_cleaning/,cleaning_service,basic
+Biological Safety Cabinets,,,,,https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/biological/biological-safety-cabinets,cleaning_service,basic
+Checklist: BSC Decontamination in Your Lab,,,,,https://www.sepsservices.com/resources/biological-safety-cabinets-decontamination-checklist/,cleaning_service,basic
+Biosafety Cabinet 101,,,,,https://balcontab.com/blog/biosafety-cabinet-101/,cleaning_service,basic
+Laboratory Waste Management,,,,,https://mcfenvironmental.com/laboratory-waste-management/,cleaning_service,basic
+Laboratory Waste,,,,,https://www.danielshealth.com/laboratory-waste,cleaning_service,basic
+Lab Waste Disposal Services,,,,,https://www.bioservusa.com/industries/laboratories/,cleaning_service,basic
+Laboratory Waste Disposal Hazardous Waste Experts,,,,,https://www.hazardouswasteexperts.com/waste-type/laboratory-waste-disposal/,cleaning_service,basic
+Laboratory Waste Management Solutions,,,,,https://www.stericycle.com/en-us/resource-center/blog/laboratory-waste-management-solutions,cleaning_service,basic
+Laboratory Waste Disposal Services,,,,,https://www.choicemedwaste.com/laboratory-waste-disposal-services,cleaning_service,basic
+Laboratory Waste Disposal & Management,,,,,https://www.anentawaste.com/sectors/laboratory-waste-disposal/,cleaning_service,basic
+Laboratory Waste Management Services,,,,,https://www.southeastasia.veolia.com/waste/toxic-industrial-waste-capabilities/laboratory-waste-management,cleaning_service,basic
+Laboratory Waste Management,,,,,https://www.approvedmedwaste.com/services/laboratory-waste-management/,cleaning_service,basic
+"Laboratory waste management: Bertin Medical waste, laboratory waste treatment",,,,,https://www.bertin-medical-waste.com/laboratory-waste-management/,cleaning_service,basic
+Contract Sterilization & Laboratory Testing Services,,,,,https://www.steris-ast.com/,cleaning_service,basic
+Sotera Health – Integrated Global Health Solutions,,,,,https://soterahealth.com/,cleaning_service,basic
+Sterilization Service Providers,,,,,https://www.mpo-mag.com/sterilization-service-providers/,cleaning_service,basic
+Top Sterilization Providers,,,,,https://www.medicaldevicedirectory.com/category/sterilization,cleaning_service,basic
+"Autoclave sterilizers, washer disinfectors, and other sterile processing products",,,,,https://tuttnauer.com/,cleaning_service,basic
+BMT USA,,,,,https://bmtusa.com/,cleaning_service,basic
+Sterilization Validation Service for Medical Devices,,,,,https://cg-labs.com/our-services/sterilization-validation/,cleaning_service,basic
+Sterilization Services,,,,,https://hss.washington.edu/lab-services/sterilization/,cleaning_service,basic
+Top 7 Sterilization Equipment Companies,,,,,https://www.verifiedmarketresearch.com/blog/top-sterilization-equipment-companies/,cleaning_service,basic
+Sterilization Services at Emory Healthcare,,,,,https://www.emoryhealthcare.org/services/medical-lab-services/sterilization-services,cleaning_service,basic
+Laboratory Facility Services,,,,,https://www.pritchardindustries.com/industry/laboratory-facility-services/,cleaning_service,basic
+Critical Services for Controlled Environments,,,,,https://cleanroomcleaning.com/,cleaning_service,basic
+Drug Lab Cleanup Companies,,,,,https://doh.wa.gov/community-and-environment/contaminants/drug-labs/cleanup-companies,cleaning_service,basic
+Lab Cleaning Services,,,,,https://thefacilitiesgroup.com/life-sciences-and-bio/,cleaning_service,basic
+Cleanroom Cleaning Service by SourceONE Building Maintenance,,,,,https://www.sourceonebuildingmtn.com/cleanroom-cleaning-services/,cleaning_service,basic
+California Cleanroom Laboratory Cleaning Services,,,,,https://www.gl-tec.com/california-cleanroom-laboratory-cleaning-services.html,cleaning_service,basic
+Clean Room Cleaning Services & R&D Cleaning Services,,,,,https://commercialcleaningcorp.com/who-we-serve/clean-rooms-rd-facilities/,cleaning_service,basic
+Clean Room Cleaning Services & Laboratory Cleaning,,,,,https://gocitywide.com/clean-rooms-and-labs/,cleaning_service,basic
+Laboratory Cleaning Services,,,,,https://midcitycleaning.com/industries/medical-grade-healthcare-cleaning/laboratory-cleaning-services/,cleaning_service,basic
+Medical Laboratory Cleaning Services,,,,,https://cleanmethod.com/industries/medical-laboratories/,cleaning_service,basic
+Specialized Cleaning Services for Labs,,,,,https://macsjanitorial.com/labs/,cleaning_service,basic
+Medical Facility and Science Lab Cleaning,,,,,https://nlcsolutions.com/commercial-cleaning/medical-science,cleaning_service,basic
+Lab Cleaning Services,,,,,https://system4sanantonio.com/facilities/lab-cleaning-services/,cleaning_service,basic
+Medical Facilities Cleaning Services Nationwide,,,,,https://diamondcleanersusa.com/medical-facilities-cleaning-services/,cleaning_service,basic
+Medical Cleaning Services,,,,,https://amcclean.us/commercial-cleaning-sectors/medical-commercial-cleaning-services/,cleaning_service,basic
+Biotech Facility Cleaning,,,,,https://www.sourceonebuildingmtn.com/biotech-cleaning/,cleaning_service,basic
+Laboratory Facility Cleaning Services by SourceONE,,,,,https://www.sourceonebuildingmtn.com/lab-cleaning-services/,cleaning_service,basic
+Industrial Cleaning Services & Janitorial Service for Manufacturing,,,,,https://ramclean.com/industrial-plant-cleaning/,cleaning_service,basic
+"Decommissioning Services, Laboratory Decommissioning",,,,,https://techsafety.com/services/decommissioning,cleaning_service,basic
+Laboratory Decommissioning,,,,,https://quantumtechnology.net/laboratory-decommissioning/,cleaning_service,basic
+Appendix E,,,,,https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-e-Lab-Decommissioning-Process,cleaning_service,basic
+Laboratory/Equipment Decommissioning Program,,,,,https://www.ehs.uci.edu/programs/_pdf/industrial-hygiene/lab-decommissioning.pdf,cleaning_service,basic
+Laboratory Decontamination and Decommissioning,,,,,https://www.bu.edu/ehs/laboratory-safety-home/laboratory-safety-programs-services/laboratory-decontamination-and-decomissioning/,cleaning_service,basic
+Laboratory Decommissioning & Commissioning,,,,,https://ehs.utk.edu/index.php/table-of-policies-plans-procedures-guides/laboratory-decommissioning-commissioning/,cleaning_service,basic
+Laboratory Decommissioning,,,,,https://www.broadviewwaste.com/laboratory-decommissioning-and-relocation.php,cleaning_service,basic
+Industrial Facility Decontamination & Cleanup Services,,,,,https://www.triumvirate.com/services/environmental-health-laboratory-services/facility-cleanup,cleaning_service,basic
+Lab Relocation and Decommissioning,,,,,https://www.safetypartnersinc.com/services/lab-relocation-and-decommissioning/,cleaning_service,basic
+Laboratory Closures or Moves,,,,,https://research.wayne.edu/oehs/lab-safety/closers-moves,cleaning_service,basic
+Laboratory and Lab Equipment Cleaning Products,,,,,https://ipcol.com/cleaners/industries/laboratory,cleaning_service,basic
+Labware Cleaning Supplies,,,,,https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-organization-cleaning-safety/labware-cleaning-supplies.html,cleaning_service,basic
+Lab Equipment Cleaning Services,,,,,https://pristinology.com/supporting-every-equipment/,cleaning_service,basic
+Lab Cleaning Supplies,,,,,https://www.thomassci.com/laboratory-supplies/cleaners/cleaners,cleaning_service,basic
+Precision Cleaning,,,,,https://cleansciences.com/,cleaning_service,basic
+Pristinology,,,,,https://pristinology.com/,cleaning_service,basic
+Laboratory Equipment Cleaning,,,,,https://clearairinc.com/services/laboratory-equipment-cleaning/,cleaning_service,basic
+Pristinology Services,,,,,https://pristinology.com/services/,cleaning_service,basic

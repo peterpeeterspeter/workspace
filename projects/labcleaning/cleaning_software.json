@@ -1,0 +1,159 @@
+[
+  {
+    "name": "PerkinElmer Informatics",
+    "url": "https://www.perkinelmerinformatics.com",
+    "type": "software",
+    "description": "Lab information management",
+    "services": [
+      "LIMS",
+      "Software",
+      "Training",
+      "Support"
+    ],
+    "title": "",
+    "meta_description": "Top crypto sports betting picks for 2026 with BTC support: odds, bonuses, markets, withdrawals, and safety checks for sports betting bitcoin.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:30.835242"
+  },
+  {
+    "name": "LabWare",
+    "url": "https://www.labware.com",
+    "type": "software",
+    "description": "LIMS and laboratory software",
+    "services": [
+      "LIMS",
+      "Software",
+      "Implementation",
+      "Training"
+    ],
+    "title": "Automate Your Laboratory with the Global Leader for LIMS and ELN",
+    "meta_description": "Enhance laboratory efficiency and compliance with LabWare",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:32.850804"
+  },
+  {
+    "name": "Thermo Fisher SampleManager",
+    "url": "https://www.thermofisher.com",
+    "type": "software",
+    "description": "LIMS software",
+    "services": [
+      "LIMS",
+      "Software",
+      "Implementation",
+      "Support"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485032"
+    ],
+    "scraped_at": "2026-02-19T07:10:33.007149"
+  },
+  {
+    "name": "Agilent OpenLAB",
+    "url": "https://www.agilent.com",
+    "type": "software",
+    "description": "Lab software solutions",
+    "services": [
+      "Software",
+      "ELN",
+      "LIMS",
+      "Support"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485033"
+    ],
+    "scraped_at": "2026-02-19T07:10:33.206606"
+  },
+  {
+    "name": "Waters NuGenesis",
+    "url": "https://www.waters.com",
+    "type": "software",
+    "description": "Lab data management",
+    "services": [
+      "Software",
+      "LIMS",
+      "SDMS",
+      "Training"
+    ]
+  },
+  {
+    "name": "BIOVIA",
+    "url": "https://www.3ds.com/products-services/biovia",
+    "type": "software",
+    "description": "Scientific software",
+    "services": [
+      "ELN",
+      "LIMS",
+      "Software",
+      "Training"
+    ],
+    "title": "Generative AI for Every Scientist | BIOVIA - Dassault Syst\u00e8mes",
+    "meta_description": "BIOVIA provides a scientific collaborative environment for advanced biological, chemical and materials experiences.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:35.326187"
+  },
+  {
+    "name": "IDBS",
+    "url": "https://www.idbs.com",
+    "type": "software",
+    "description": "Bioinformatics software",
+    "services": [
+      "Software",
+      "ELN",
+      "Biobanking",
+      "Support"
+    ],
+    "title": "Comprehensive Laboratory Informatics Solutions | IDBS",
+    "meta_description": "Discover IDBS&#039; advanced laboratory informatics solutions. Streamline R&amp;D data management and boost lab efficiency and accuracy with innovative tools.",
+    "emails": [],
+    "phones": [
+      "+1 781 272 3355",
+      "781 272 3355"
+    ],
+    "scraped_at": "2026-02-19T07:10:36.242165"
+  },
+  {
+    "name": "Labguru",
+    "url": "https://www.labguru.com",
+    "type": "software",
+    "description": "Lab management platform",
+    "services": [
+      "Software",
+      "ELN",
+      "Inventory",
+      "Training"
+    ],
+    "title": "Lab Management Software | Laboratory System | Labguru",
+    "meta_description": "Accelerate R&amp;D with unified lab management software. Let your lab teams collaborate, track experiments, and search results in the laboratory system.",
+    "emails": [
+      "info@biodata.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.450832"
+  },
+  {
+    "name": "Benchling",
+    "url": "https://www.benchling.com",
+    "type": "software",
+    "description": "Lab informatics platform",
+    "services": [
+      "Software",
+      "ELN",
+      "LIMS",
+      "Support"
+    ],
+    "title": "Cloud-based platform for biotech R&amp;D | Benchling",
+    "meta_description": "Benchling is a cloud-based platform for biotechnology research and development and the only biology-first platform for scientific data, collaboration, and insights.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.682482"
+  }
+]

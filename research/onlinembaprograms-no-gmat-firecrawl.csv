@@ -1,0 +1,10 @@
+school_name,program_name,tuition_total,format,duration,accreditation,gmat_requirement,gmat_waiver_details,program_url,source_url,date_scraped
+University of North Carolina at Chapel Hill,MBA@UNC,,Online,24 months,AACSB,Waiver available,"5 years of professional experience",https://onlinemba.unc.edu,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+University of Florida,Warrington Online MBA,,Online,16-24 months,AACSB,Optional,"GMAT and GRE scores are optional",https://warrington.ufl.edu/mba/online/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+Johns Hopkins University,Carey Online MBA,,Online,AACSB,Optional,"GMAT or GRE scores optional",https://carey.jhu.edu/programs/mba/online/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+University of South Florida,Muma Online MBA,,Online,AACSB,Waiver available,"Option to apply for a waiver",https://www.usf.edu/business/graduate/mba-online/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+New York University,Online MBA,,Online,,Not Required,"Does not require GRE or GMAT scores",https://www.stern.nyu.edu/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+Texas A&M International University,Online MBA,,Online,,Waiver available,"Business majors with 3.0 GPA do not need GMAT/GRE",https://www.tamiu.edu/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+Parker University,Online MBA,,$817 per credit,Online,,Waiver available,"GMAT/GRE waiver with minimum 3.0 GPA",https://parker.edu/,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+University of Michigan,Ross Online MBA,,Online,AACSB,Waiver available,"Apply for test waiver instead of GMAT/GRE",https://michiganross.umich.edu/graduate/cpn/online-mba/rossmba,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17
+University of Southern California,Online MBA,,$1,890 per credit,Online,AACSB,Optional,"GMAT waiver with five years of professional experience",https://www.marshall.usc.edu/programs/online-mba,https://www.onlinemba.com/rankings/best-online-mba/,2026-02-17

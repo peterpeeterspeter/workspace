@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Triumvirate Environmental",
+    "url": "https://www.triumvirate.com",
+    "type": "service",
+    "description": "Lab cleaning and waste management"
+  },
+  {
+    "name": "Clean Harbors",
+    "url": "https://www.cleanharbors.com",
+    "type": "service",
+    "description": "Lab waste disposal"
+  },
+  {
+    "name": "Veolia",
+    "url": "https://www.veolia.com",
+    "type": "service",
+    "description": "Environmental services"
+  },
+  {
+    "name": "Steris",
+    "url": "https://www.steris.com",
+    "type": "service",
+    "description": "Lab sterilization services"
+  },
+  {
+    "name": "Ecolab",
+    "url": "https://www.ecolab.com",
+    "type": "service",
+    "description": "Lab cleaning solutions"
+  },
+  {
+    "name": "Diversey",
+    "url": "https://www.diversey.com",
+    "type": "service",
+    "description": "Cleaning and hygiene"
+  },
+  {
+    "name": "Procter & Gamble Professional",
+    "url": "https://www.pgpro.com",
+    "type": "service",
+    "description": "Commercial cleaning products"
+  },
+  {
+    "name": "American Chemical Technologies",
+    "url": "https://www.americanchemical.com",
+    "type": "service",
+    "description": "Lab chemical supply"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "STERIS",
+    "url": "https://www.steris.com",
+    "type": "sterilization",
+    "description": "Lab sterilization and infection prevention",
+    "services": [
+      "Lab sterilization",
+      "Equipment sterilization",
+      "Infection control",
+      "Validation services"
+    ],
+    "title": "Welcome to STERIS | STERIS",
+    "meta_description": "STERIS is a leading provider of infection prevention and other procedural products and services. Learn more here.",
+    "emails": [],
+    "phones": [
+      "440.354.2600"
+    ],
+    "scraped_at": "2026-02-19T07:10:09.608306"
+  }
+]

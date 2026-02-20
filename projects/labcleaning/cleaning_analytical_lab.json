@@ -1,0 +1,56 @@
+[
+  {
+    "name": "ABC Laboratories",
+    "url": "https://www.abclabs.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analytical services",
+    "services": [
+      "Analytical testing",
+      "Lab services",
+      "Research",
+      "Testing"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:14.750929"
+  },
+  {
+    "name": "Eurofins Scientific",
+    "url": "https://www.eurofinsus.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analysis",
+    "services": [
+      "Lab testing",
+      "Analytical services",
+      "Research",
+      "Quality control"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:15.135954"
+  },
+  {
+    "name": "ALS Limited",
+    "url": "https://www.alsglobal.com",
+    "type": "analytical_lab",
+    "description": "Laboratory testing services",
+    "services": [
+      "Lab testing",
+      "Environmental testing",
+      "Food testing",
+      "Forensics"
+    ],
+    "title": "ALS Global | Environmental Testing, Laboratory Services &amp; Scientific Solutions",
+    "meta_description": "ALS Global provides comprehensive environmental testing, laboratory services, and scientific solutions across industries. Explore our cutting-edge services for water, air, soil, and more. Trust ALS for reliable results, expert analysis, and global reach.",
+    "emails": [],
+    "phones": [
+      "281-575-2290",
+      "+1 281-575-2290"
+    ],
+    "scraped_at": "2026-02-19T07:10:15.525144"
+  }
+]

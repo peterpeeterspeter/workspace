@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Noxilico",
+    "url": "https://www.noxilico.com",
+    "type": "lab_decommissioning",
+    "description": "Lab decontamination and decommissioning",
+    "services": [
+      "Lab decommissioning",
+      "Decontamination",
+      "Chemical clearance",
+      "Equipment disposal"
+    ]
+  },
+  {
+    "name": "Bertsche",
+    "url": "https://www.bertsche.com",
+    "type": "lab_decommissioning",
+    "description": "Lab relocation and decommissioning",
+    "services": [
+      "Lab relocation",
+      "Decommissioning",
+      "Decontamination",
+      "Moving"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:25.689683"
+  }
+]

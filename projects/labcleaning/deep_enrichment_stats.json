@@ -1,0 +1,12 @@
+{
+  "total_companies": 142,
+  "enriched_this_run": 127,
+  "with_emails": 94,
+  "with_phones": 128,
+  "with_services": 131,
+  "with_addresses": 13,
+  "with_social_media": 12,
+  "with_certifications": 14,
+  "avg_score": 28.908450704225352,
+  "generated_at": "2026-02-19T08:57:39"
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Ecolab",
+    "url": "https://www.ecolab.com",
+    "type": "cleaning_products",
+    "description": "Cleaning and sanitizing solutions for labs",
+    "services": [
+      "Lab cleaning products",
+      "Sanitization",
+      "Water systems",
+      "Infection prevention"
+    ]
+  },
+  {
+    "name": "Diversey",
+    "url": "https://www.diversey.com",
+    "type": "cleaning_products",
+    "description": "Cleaning and hygiene solutions",
+    "services": [
+      "Cleaning chemicals",
+      "Lab hygiene",
+      "Training",
+      "Equipment"
+    ]
+  },
+  {
+    "name": "Sealed Air",
+    "url": "https://www.sealedair.com",
+    "type": "cleaning_products",
+    "description": "Cleaning and sanitization products",
+    "services": [
+      "Sanitization",
+      "Cleaning systems",
+      "Food safety",
+      "Lab hygiene"
+    ],
+    "title": "Sealed Air - Protective and Food Packaging, Automation &amp; Healthcare",
+    "meta_description": "Whether it\u2019s protecting products, preserving food, or providing healthcare solutions, our products and services, along with our commitment to sustainability, have made Sealed Air a leader in protecting everything that\u2019s important to your business.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:10.345451"
+  },
+  {
+    "name": "Kimberly-Clark Professional",
+    "url": "https://www.kcprofessional.com",
+    "type": "cleaning_products",
+    "description": "Lab cleaning and safety products",
+    "services": [
+      "Wipes",
+      "Cleaning products",
+      "PPE",
+      "Lab supplies"
+    ],
+    "title": "Just a moment...",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:12.896214"
+  },
+  {
+    "name": "3M Health Care",
+    "url": "https://www.3m.com/3M/en_US/healthcare/",
+    "type": "cleaning_products",
+    "description": "Healthcare and lab cleaning products",
+    "services": [
+      "Disinfectants",
+      "Cleaning solutions",
+      "Infection control",
+      "Lab supplies"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:13.231571"
+  },
+  {
+    "name": "CloroxPro",
+    "url": "https://www.cloroxpro.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning and disinfection",
+    "services": [
+      "Disinfectants",
+      "Cleaners",
+      "Lab sanitation",
+      "Training"
+    ],
+    "title": "Cleaning Supplies for Business, Hospitals &amp; Schools | CloroxPro",
+    "meta_description": "Explore CloroxPro&#x27;s comprehensive cleaning and disinfecting solutions for businesses, healthcare facilities, and schools, backed by over a century of expertise.",
+    "emails": [],
+    "phones": [
+      "888-797-7225"
+    ],
+    "scraped_at": "2026-02-19T07:10:13.571450"
+  },
+  {
+    "name": "Betco",
+    "url": "https://www.betco.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning solutions",
+    "services": [
+      "Cleaning chemicals",
+      "Disinfectants",
+      "Training",
+      "Equipment"
+    ],
+    "title": "",
+    "meta_description": "Betco is a chemical and equipment manufacturer known for high-performing products that help our customers win in the commercial cleaning industry.",
+    "emails": [],
+    "phones": [
+      "877-856-5954",
+      "888-462-3826"
+    ],
+    "scraped_at": "2026-02-19T07:10:14.003856"
+  }
+]

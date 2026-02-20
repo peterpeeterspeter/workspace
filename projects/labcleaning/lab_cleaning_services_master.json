@@ -1,0 +1,2673 @@
+[
+  {
+    "name": "Triumvirate Environmental",
+    "url": "https://www.triumvirate.com",
+    "type": "cleaning_service",
+    "description": "Full-service environmental services company specializing in laboratory decontamination, hazardous waste management, and EHS consulting for life sciences, healthcare, and industrial sectors.",
+    "services": [
+      "Lab cleaning",
+      "Chemical decontamination",
+      "Waste disposal",
+      "Emergency response"
+    ],
+    "title": "Environmental Services &amp; EHS Consulting for All Industries | Triumvirate Environmental",
+    "meta_description": "Triumvirate Environmental delivers environmental services to organizations in the life sciences, healthcare, higher ed, and advanced manufacturing sectors.",
+    "emails": [
+      "info@triumvirate.com",
+      "sales@triumvirate.com"
+    ],
+    "phones": [
+      "888-834-9697",
+      "800-966-9282"
+    ],
+    "scraped_at": "2026-02-19T07:10:08.018164",
+    "address": "101 Billerica Rd, North Billerica, MA 01862",
+    "city": "North Billerica",
+    "state": "MA",
+    "zip": "01862",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/triumvirate-environmental",
+      "twitter": "https://twitter.com/TriumvirateEnv",
+      "facebook": "https://www.facebook.com/TriumvirateEnv"
+    },
+    "founded": "1990",
+    "employees": "500-1000",
+    "revenue": "$100M+",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Clean Harbors",
+    "url": "https://www.cleanharbors.com",
+    "type": "cleaning_service",
+    "description": "Leading provider of environmental and industrial services, including hazardous waste management, lab decommissioning, and emergency response.",
+    "services": [
+      "Hazardous waste",
+      "Lab decommissioning",
+      "Chemical cleaning",
+      "Emergency spill response"
+    ],
+    "title": "Environmental and Industrial Services | Clean Harbors",
+    "meta_description": "Everywhere industry meets environment, Clean Harbors is on-site, providing premier environmental and industrial services.",
+    "emails": [
+      "info@cleanharbors.com",
+      "customerservice@cleanharbors.com"
+    ],
+    "phones": [
+      "800.645.8265"
+    ],
+    "scraped_at": "2026-02-19T07:10:08.333661",
+    "address": "42 Pine St, Norwell, MA 02061",
+    "city": "Norwell",
+    "state": "MA",
+    "zip": "02061",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/clean-harbors",
+      "twitter": "https://twitter.com/CleanHarbors",
+      "facebook": "https://www.facebook.com/cleanharbors"
+    },
+    "founded": "1980",
+    "employees": "10000+",
+    "revenue": "$4B+",
+    "ticker": "CLH",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Veolia North America",
+    "url": "https://www.veolianorthamerica.com",
+    "type": "cleaning_service",
+    "description": "Global leader in environmental services, providing water treatment, waste management, and lab cleaning services across North America.",
+    "services": [
+      "Waste management",
+      "Lab cleaning",
+      "Environmental compliance",
+      "Water treatment"
+    ],
+    "title": "Veolia North America",
+    "meta_description": "Veolia North America works with organizations across the US and Canada to address their environmental and sustainability challenges in water, waste and energy.",
+    "emails": [
+      "info@veoliana.com",
+      "customer.service@veoliana.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:09.136384",
+    "address": "200 Andover St, Danvers, MA 01923",
+    "city": "Danvers",
+    "state": "MA",
+    "zip": "01923",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/veolia-north-america",
+      "twitter": "https://twitter.com/VeoliaNA",
+      "facebook": "https://www.facebook.com/VeoliaNorthAmerica"
+    },
+    "founded": "1853",
+    "employees": "10000+",
+    "revenue": "$10B+",
+    "parent": "Veolia Environnement (France)",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "STERIS",
+    "url": "https://www.steris.com",
+    "type": "sterilization",
+    "description": "Leading provider of infection prevention, contamination control, and sterilization products and services for laboratories and healthcare facilities.",
+    "services": [
+      "Lab sterilization",
+      "Equipment sterilization",
+      "Infection control",
+      "Validation services"
+    ],
+    "title": "Welcome to STERIS | STERIS",
+    "meta_description": "STERIS is a leading provider of infection prevention and other procedural products and services. Learn more here.",
+    "emails": [
+      "info@steris.com",
+      "customerservice@steris.com"
+    ],
+    "phones": [
+      "440.354.2600"
+    ],
+    "scraped_at": "2026-02-19T07:10:09.608306",
+    "address": "5960 Heisley Rd, Mentor, OH 44060",
+    "city": "Mentor",
+    "state": "OH",
+    "zip": "44060",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/steris",
+      "twitter": "https://twitter.com/STERIS",
+      "facebook": "https://www.facebook.com/STERISplc"
+    },
+    "founded": "1987",
+    "employees": "5000+",
+    "revenue": "$3B+",
+    "ticker": "STE",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Ecolab",
+    "url": "https://www.ecolab.com",
+    "type": "cleaning_products",
+    "description": "Global leader in water, hygiene, and infection prevention solutions, providing cleaning products and sanitization services for laboratories.",
+    "services": [
+      "Lab cleaning products",
+      "Sanitization",
+      "Water systems",
+      "Infection prevention"
+    ],
+    "emails": [
+      "info@ecolab.com",
+      "customerservice@ecolab.com"
+    ],
+    "address": "1 Ecolab Pl, St. Paul, MN 55102",
+    "city": "St. Paul",
+    "state": "MN",
+    "zip": "55102",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/ecolab",
+      "twitter": "https://twitter.com/ecolab",
+      "facebook": "https://www.facebook.com/Ecolab"
+    },
+    "founded": "1923",
+    "employees": "45000+",
+    "revenue": "$14B+",
+    "ticker": "ECL",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Diversey",
+    "url": "https://www.diversey.com",
+    "type": "cleaning_products",
+    "description": "Global provider of cleaning and hygiene solutions, specializing in infection prevention and environmental services for laboratories and healthcare.",
+    "services": [
+      "Cleaning chemicals",
+      "Lab hygiene",
+      "Training",
+      "Equipment"
+    ],
+    "emails": [
+      "info@diversey.com",
+      "customerservice@diversey.com"
+    ],
+    "address": "2325 Wauer Rd, Allentown, PA 18104",
+    "city": "Allentown",
+    "state": "PA",
+    "zip": "18104",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/diversey",
+      "twitter": "https://twitter.com/Diversey",
+      "facebook": "https://www.facebook.com/Diversey"
+    },
+    "founded": "1923",
+    "employees": "3000+",
+    "parent": "Solentand Capital",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Sealed Air",
+    "url": "https://www.sealedair.com",
+    "type": "cleaning_products",
+    "description": "Cleaning and sanitization products",
+    "services": [
+      "Sanitization",
+      "Cleaning systems",
+      "Food safety",
+      "Lab hygiene"
+    ],
+    "title": "Sealed Air - Protective and Food Packaging, Automation &amp; Healthcare",
+    "meta_description": "Whether it\u2019s protecting products, preserving food, or providing healthcare solutions, our products and services, along with our commitment to sustainability, have made Sealed Air a leader in protecting everything that\u2019s important to your business.",
+    "emails": [
+      "directors@sealedair.com"
+    ],
+    "phones": [
+      "100.1920",
+      "100.1280",
+      "430-7000",
+      "221-3235",
+      "648-9093",
+      "2226241",
+      "980-430-7000",
+      "800-648-9093",
+      "980-221-3235",
+      "9105043778"
+    ],
+    "scraped_at": "2026-02-19T07:10:10.345451",
+    "enriched_at": "2026-02-19T07:32:56",
+    "auto_enriched_at": "2026-02-19T07:33:31",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:48:50"
+  },
+  {
+    "name": "Stericycle",
+    "url": "https://www.stericycle.com",
+    "type": "waste_management",
+    "description": "Leading provider of medical waste management, sharps disposal, and compliance solutions for laboratories and healthcare facilities.",
+    "services": [
+      "Waste disposal",
+      "Sharps disposal",
+      "Lab waste",
+      "Compliance solutions"
+    ],
+    "title": "Attention Required! | Cloudflare",
+    "meta_description": "",
+    "emails": [
+      "info@stericycle.com",
+      "customerservice@stericycle.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:10.490587",
+    "address": "1450 American Ln, Bannockburn, IL 60015",
+    "city": "Bannockburn",
+    "state": "IL",
+    "zip": "60015",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/stericycle",
+      "twitter": "https://twitter.com/Stericycle",
+      "facebook": "https://www.facebook.com/Stericycle"
+    },
+    "founded": "1989",
+    "employees": "15000+",
+    "revenue": "$3B+",
+    "ticker": "SRCL",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Sharps Compliance",
+    "url": "https://www.sharpsinc.com",
+    "type": "waste_management",
+    "description": "Medical waste management solutions",
+    "services": [
+      "Waste disposal",
+      "Mail-back programs",
+      "Pharmaceutical waste",
+      "Lab waste"
+    ],
+    "title": "Medical Waste Disposal &amp; Sharps Containers | Sharps MWS",
+    "meta_description": "Sharps MWS provides compliant, const effective medical waste disposal &amp; sharps container services nationwide. Transparent pricing and reliable pickup. Get a free quote today!",
+    "emails": [
+      "sharps@sharpsinc.com",
+      "sales@sharpsinc.com"
+    ],
+    "phones": [
+      "800.772.5657",
+      "7448842",
+      "772.5657",
+      "772-5657",
+      "8007725657",
+      "838.0508",
+      "713-432-0300",
+      "713.838.0508",
+      "432.0300",
+      "432-0300",
+      "432-0555",
+      "718.372.3887",
+      "713.432.0300",
+      "372.3887"
+    ],
+    "scraped_at": "2026-02-19T07:10:11.526880",
+    "enriched_at": "2026-02-19T07:32:56",
+    "auto_enriched_at": "2026-02-19T07:33:36",
+    "address": "9220 Kirby Drive, Suite 500",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/sharpss-compliance-inc"
+    },
+    "certifications": [
+      "OSHA"
+    ],
+    "deep_enriched_at": "2026-02-19T07:49:12"
+  },
+  {
+    "name": "Daniels Health",
+    "url": "https://danielshealth.com",
+    "type": "waste_management",
+    "description": "Healthcare safety company providing sharps disposal, medical waste management, and laboratory waste solutions.",
+    "services": [
+      "Sharps disposal",
+      "Lab waste",
+      "Waste containers",
+      "Sustainable solutions"
+    ],
+    "title": "Medical Waste Disposal &amp; Management | Daniels Health",
+    "meta_description": "At Daniels Health, we&#039;ve provided medical waste management and disposal services for over 20 years and proudly hold the highest NPS scores in the industry.",
+    "emails": [
+      "info@danielshealth.com",
+      "customerservice@danielshealth.com"
+    ],
+    "phones": [
+      "888 952 5580"
+    ],
+    "scraped_at": "2026-02-19T07:10:12.029476",
+    "address": "1400 American Ln, Bannockburn, IL 60015",
+    "city": "Bannockburn",
+    "state": "IL",
+    "zip": "60015",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/daniels-health",
+      "twitter": "https://twitter.com/DanielsHealth",
+      "facebook": "https://www.facebook.com/DanielsHealth"
+    },
+    "founded": "1955",
+    "employees": "500+",
+    "parent": "Sharps Compliance",
+    "enriched_at": "2026-02-19T07:32:56"
+  },
+  {
+    "name": "Republic Services",
+    "url": "https://www.republicservices.com",
+    "type": "waste_management",
+    "description": "Environmental services including lab waste",
+    "services": [
+      "Waste disposal",
+      "Recycling",
+      "Lab waste services",
+      "Sustainability"
+    ],
+    "title": "Environmental Services, Recycling &amp; Trash Pickup Services",
+    "meta_description": "Get reliable, responsible environmental service solutions. Republic Services also offers residential, commercial, and industrial trash pickup and recycling.",
+    "emails": [
+      "media@republicservices.com"
+    ],
+    "phones": [
+      "3385831",
+      "8510116",
+      "8510096",
+      "5185336",
+      "692-9729",
+      "5185351",
+      "5185366",
+      "5185346",
+      "957.0540",
+      "8510091",
+      "8510111",
+      "8510081",
+      "3485491",
+      "3095846",
+      "1556751",
+      "800.982.3818",
+      "3325621",
+      "5185376",
+      "8510101",
+      "3385771",
+      "3341986",
+      "3325646",
+      "8510106",
+      "8510076",
+      "757-9770",
+      "5185361",
+      "5185341",
+      "3341981",
+      "5185381",
+      "8510036",
+      "8510066",
+      "713.957.0540",
+      "8522911",
+      "8510126",
+      "3342001",
+      "3341996",
+      "8510041",
+      "8510071",
+      "8510061",
+      "8510121",
+      "5185371",
+      "713.957.0094",
+      "8510031",
+      "982.3818",
+      "8510086",
+      "5185356",
+      "1404996",
+      "298.6300",
+      "8510056",
+      "210.298.6300",
+      "3325631",
+      "3385811",
+      "957.0094"
+    ],
+    "scraped_at": "2026-02-19T07:10:12.300854",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:33:41",
+    "deep_enriched_at": "2026-02-19T07:49:40"
+  },
+  {
+    "name": "Waste Management",
+    "url": "https://www.wm.com",
+    "type": "waste_management",
+    "description": "Comprehensive waste services including labs",
+    "services": [
+      "Hazardous waste",
+      "Lab disposal",
+      "Environmental services",
+      "Compliance"
+    ],
+    "title": "WM | Waste Management &amp; Recycling Services",
+    "meta_description": "WM is the leading provider of comprehensive waste management, offering services such as garbage collection, recycling pickup and dumpster rental.",
+    "emails": [
+      "wmcares@wm.com"
+    ],
+    "phones": [
+      "964-9730",
+      "927-6113",
+      "221-5556",
+      "888-964-9730",
+      "305-468-5900",
+      "866-797-9018",
+      "514-6673",
+      "909-4458",
+      "221-5557",
+      "912-927-6113",
+      "796-9696",
+      "305-514-6673",
+      "468-5900",
+      "797-9018",
+      "963-4776",
+      "558-1661"
+    ],
+    "scraped_at": "2026-02-19T07:10:12.691032",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:33:46",
+    "certifications": [
+      "OSHA",
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:50:01"
+  },
+  {
+    "name": "Kimberly-Clark Professional",
+    "url": "https://www.kcprofessional.com",
+    "type": "cleaning_products",
+    "description": "Lab cleaning and safety products",
+    "services": [
+      "Wipes",
+      "Cleaning products",
+      "PPE",
+      "Lab supplies"
+    ],
+    "title": "Just a moment...",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "800-678-6577",
+      "844-462-4666",
+      "888-436-6881",
+      "234-1460",
+      "1771487417",
+      "987-7373",
+      "800-733-4000",
+      "733-4000",
+      "866-987-7373",
+      "678-6577",
+      "436-6881",
+      "1771487418",
+      "462-4666",
+      "800-234-1460",
+      "1771487420"
+    ],
+    "scraped_at": "2026-02-19T07:10:12.896214",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:33:51",
+    "certifications": [
+      "ISO",
+      "EPA"
+    ],
+    "deep_enriched_at": "2026-02-19T07:50:21"
+  },
+  {
+    "name": "3M Health Care",
+    "url": "https://www.3m.com/3M/en_US/healthcare/",
+    "type": "cleaning_products",
+    "description": "Healthcare and lab cleaning products",
+    "services": [
+      "Disinfectants",
+      "Cleaning solutions",
+      "Infection control",
+      "Lab supplies"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [
+      "jdoe@3m.com",
+      "janedoe@3m.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:13.231571",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:33:56",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:50:39"
+  },
+  {
+    "name": "CloroxPro",
+    "url": "https://www.cloroxpro.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning and disinfection brand providing laboratory-grade sanitizers, disinfectants, and cleaning solutions.",
+    "services": [
+      "Disinfectants",
+      "Cleaners",
+      "Lab sanitation",
+      "Training"
+    ],
+    "title": "Cleaning Supplies for Business, Hospitals &amp; Schools | CloroxPro",
+    "meta_description": "Explore CloroxPro&#x27;s comprehensive cleaning and disinfecting solutions for businesses, healthcare facilities, and schools, backed by over a century of expertise.",
+    "emails": [
+      "info@cloroxpro.com",
+      "professional@clorox.com"
+    ],
+    "phones": [
+      "888-797-7225"
+    ],
+    "scraped_at": "2026-02-19T07:10:13.571450",
+    "address": " PO Box 24305, Oakland, CA 94623",
+    "city": "Oakland",
+    "state": "CA",
+    "zip": "94623",
+    "country": "USA",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/clorox",
+      "twitter": "https://twitter.com/CloroxPro"
+    },
+    "founded": "1913",
+    "employees": "9000+",
+    "revenue": "$7B+",
+    "ticker": "CLX",
+    "parent": "The Clorox Company",
+    "enriched_at": "2026-02-19T07:32:57"
+  },
+  {
+    "name": "Betco",
+    "url": "https://www.betco.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning solutions",
+    "services": [
+      "Cleaning chemicals",
+      "Disinfectants",
+      "Training",
+      "Equipment"
+    ],
+    "title": "",
+    "meta_description": "Betco is a chemical and equipment manufacturer known for high-performing products that help our customers win in the commercial cleaning industry.",
+    "emails": [
+      "customerservice@betco.com"
+    ],
+    "phones": [
+      "877-856-5954",
+      "888-462-3826",
+      "856-5954",
+      "1020292",
+      "1021292",
+      "462-3826"
+    ],
+    "scraped_at": "2026-02-19T07:10:14.003856",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:34:01",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:50:59"
+  },
+  {
+    "name": "ABC Laboratories",
+    "url": "https://www.abclabs.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analytical services",
+    "services": [
+      "Analytical testing",
+      "Lab services",
+      "Research",
+      "Testing"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "617-2225",
+      "222-6688",
+      "222-3388"
+    ],
+    "scraped_at": "2026-02-19T07:10:14.750929",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:34:06",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/abc-laboratories"
+    },
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:51:20"
+  },
+  {
+    "name": "Eurofins Scientific",
+    "url": "https://www.eurofinsus.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analysis",
+    "services": [
+      "Lab testing",
+      "Analytical services",
+      "Research",
+      "Quality control"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [
+      "BioPharmaProductTesting@BPT.EurofinsUS.com",
+      "clinicaltrials@eurofins.com",
+      "info@eurofins.com"
+    ],
+    "phones": [
+      "556 7350",
+      "717-656-2300",
+      "556 3888",
+      "717 556 7350",
+      "656-2300",
+      "717 556 3888"
+    ],
+    "scraped_at": "2026-02-19T07:10:15.135954",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:34:11",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:51:39"
+  },
+  {
+    "name": "ALS Limited",
+    "url": "https://www.alsglobal.com",
+    "type": "analytical_lab",
+    "description": "Laboratory testing services",
+    "services": [
+      "Lab testing",
+      "Environmental testing",
+      "Food testing",
+      "Forensics"
+    ],
+    "title": "ALS Global | Environmental Testing, Laboratory Services &amp; Scientific Solutions",
+    "meta_description": "ALS Global provides comprehensive environmental testing, laboratory services, and scientific solutions across industries. Explore our cutting-edge services for water, air, soil, and more. Trust ALS for reliable results, expert analysis, and global reach.",
+    "emails": [],
+    "phones": [
+      "281-575-2290",
+      "+1 281-575-2290",
+      "575-2290",
+      "281 530 5656",
+      "984-0221",
+      "530 5656"
+    ],
+    "scraped_at": "2026-02-19T07:10:15.525144",
+    "enriched_at": "2026-02-19T07:32:57",
+    "auto_enriched_at": "2026-02-19T07:34:16",
+    "address": "25 King Street",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:52:00"
+  },
+  {
+    "name": "NSF International",
+    "url": "https://www.nsf.org",
+    "type": "testing_certification",
+    "description": "Lab testing and certification",
+    "services": [
+      "Lab certification",
+      "Testing",
+      "Standards",
+      "Audits"
+    ],
+    "title": "NSF | The Public Health and Safety Organization",
+    "meta_description": "NSF, a trusted authority for health standards, testing, certification, and consulting, enhances global human health with public safety standards and\u2026",
+    "emails": [
+      "info@nsf.org",
+      "jdmiller@nsf.org"
+    ],
+    "phones": [
+      "647 1036",
+      "176.647 1036",
+      "734-827-7182",
+      "734-827-6837",
+      "456 1502",
+      "1766015439",
+      "769-8010",
+      "673.898 1502",
+      "913.5774",
+      "418-6634",
+      "734-769-8010",
+      "734 769 0109",
+      "311.456 1502",
+      "827-7182",
+      "1666371565",
+      "3645609",
+      "1766015438",
+      "827-6837",
+      "769 8010",
+      "898 1502",
+      "734.913.5774",
+      "769 0109",
+      "734 769 8010",
+      "1766015457"
+    ],
+    "scraped_at": "2026-02-19T07:10:15.753394",
+    "enriched_at": "2026-02-19T07:32:58",
+    "certifications": [
+      "OSHA",
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:52:19"
+  },
+  {
+    "name": "UL Solutions",
+    "url": "https://www.ul.com",
+    "type": "testing_certification",
+    "description": "Safety testing and certification",
+    "services": [
+      "Lab testing",
+      "Certification",
+      "Safety testing",
+      "Standards"
+    ],
+    "title": "UL Solutions",
+    "meta_description": "UL Solutions is a global independent safety science company with more than a century of expertise innovating safety solutions.",
+    "emails": [
+      "info.dk@ul.com",
+      "UL.BenchmarkInfo@ul.com",
+      "ROG.Hardlines.Customer.Service@crs.ul.com",
+      "performancelighting@ul.com",
+      "cec@UL.com",
+      "Sales.de@ul.com",
+      "sales.my@ul.com",
+      "BEN.Softlines.Customer.Service@crs.ul.com",
+      "info.ar@ul.com",
+      "info@methodpark.de",
+      "sales.th@ul.com",
+      "vs.support@ul.com",
+      "QAInfo@ul.com",
+      "sales.sg@ul.com",
+      "info.it@ul.com",
+      "sales.id@ul.com",
+      "dicsy.solano@ul.com",
+      "sales@h2-test.net",
+      "UL.TheHague@ul.com",
+      "EU.BuildingLifeSafety@ul.com",
+      "FurnitureNA@ul.com",
+      "AsiaEnquiry@ul.com",
+      "Sales.Colombia@ul.com",
+      "sales.ph@ul.com",
+      "MIS.Softlines.Customer.Service@crs.ul.com",
+      "DEWI.France@ul.com",
+      "info.br@ul.com",
+      "info.nl@ul.com",
+      "healthsciencesna@ul.com",
+      "info.pl@ul.com",
+      "sales.mx@ul.com",
+      "customerservice.anz@ul.com",
+      "SIS@ul.com",
+      "cec@UL.Com",
+      "customerservice.br@ul.com",
+      "renewables.turkey@ul.com",
+      "sales.vn@ul.com",
+      "Info.Colombia@ul.com",
+      "materialservices.eu@ul.com",
+      "UL.Renewables.IBLA@ul.com",
+      "CustomerExperienceCenter@ul.com",
+      "sales.ren.germany@ul.com",
+      "Environment@ul.com",
+      "UL.MEA@UL.com",
+      "LabelCenter.GUZ@ul.com",
+      "info-mdt@ul.com",
+      "MDR.Info@ul.com",
+      "sales.in@ul.com",
+      "cec@ul.com",
+      "sales.fr@ul.com",
+      "sales.uk@ul.com",
+      "CustomerService.BD@ul.com"
+    ],
+    "phones": [
+      "872.1576",
+      "0625556",
+      "0775541",
+      "734.927.5255",
+      "0021178",
+      "271.6200",
+      "5549232",
+      "114.1321731",
+      "0625367",
+      "8415784",
+      "2022967840",
+      "286.2300",
+      "1202236",
+      "8315068",
+      "1834096",
+      "8183173",
+      "258.6580",
+      "0974697",
+      "202.296.7840",
+      "409.2999",
+      "636.8782",
+      "519.8629",
+      "1429726",
+      "514.363.5941",
+      "427.5300",
+      "0612355",
+      "7667466",
+      "223.3600",
+      "415.3355",
+      "978.759.0048",
+      "7196306",
+      "852.2480",
+      "7392318",
+      "3102041893",
+      "855.353.2532",
+      "516-0021",
+      "2647934",
+      "264.5943",
+      "781.821.2200",
+      "479.286.2300",
+      "8684957",
+      "1931807",
+      "1655136036",
+      "2876422",
+      "4221759",
+      "3871776",
+      "8241944",
+      "3102042612",
+      "7011708",
+      "0743024",
+      "4154229",
+      "0227927",
+      "121.9346559",
+      "6526084",
+      "928.0791",
+      "121.3721335",
+      "852.2276",
+      "5984539",
+      "8317394",
+      "5960696",
+      "2831303",
+      "603 8601",
+      "195.258.6580",
+      "1680807546",
+      "1224176",
+      "0685048",
+      "7194185",
+      "6206656",
+      "7728131",
+      "5975859",
+      "319.4000",
+      "615.367.3887",
+      "367.3887",
+      "353.2532",
+      "272.8800",
+      "3618902",
+      "122.5257847",
+      "363.5941",
+      "516-1106",
+      "202.296.1435",
+      "6721585",
+      "6035118",
+      "100-0005",
+      "510.210.3333",
+      "115.965.1888",
+      "202.3016",
+      "769.3381",
+      "4218975",
+      "4824367",
+      "7568982",
+      "780.409.2999",
+      "615.367.4404",
+      "8453729",
+      "103.8192617",
+      "479.636.8782",
+      "822.3950",
+      "8125000",
+      "525.8850",
+      "121.9324672",
+      "9324672",
+      "8537114",
+      "2974703",
+      "854-3577",
+      "1615996519",
+      "8183209",
+      "7622546",
+      "731.7255",
+      "988 9999",
+      "031.8125000",
+      "8464574",
+      "5928681",
+      "9715049",
+      "7454361",
+      "6921862",
+      "367.4404",
+      "7520777",
+      "1686124",
+      "0775551",
+      "510.319.4000",
+      "157.8582",
+      "1343671",
+      "5483224",
+      "8415926",
+      "9346559",
+      "259-1220",
+      "6374954",
+      "3779039",
+      "1321731",
+      "877.854.3577",
+      "3721335",
+      "415.3356",
+      "656 8547918",
+      "7622267",
+      "8450824",
+      "919.549.1400",
+      "4952254",
+      "5913555",
+      "583.7948",
+      "4048637",
+      "3143093439",
+      "1956342",
+      "7878068",
+      "376.4840",
+      "888.202.3016",
+      "755.8120",
+      "8192617",
+      "8547918",
+      "978.371.2700",
+      "6210994",
+      "5261493",
+      "2895723",
+      "8500764",
+      "1461584",
+      "174.7011708",
+      "6035162",
+      "2854535",
+      "7049963",
+      "397.0973",
+      "631.271.6200",
+      "317.3262",
+      "202.872.1576",
+      "512.6808",
+      "3226868",
+      "0647405",
+      "248.427.5300",
+      "866.937.3852",
+      "6489147",
+      "616.928.0791",
+      "422.8300",
+      "296.7840",
+      "1026686",
+      "6908911",
+      "367.1578",
+      "289-0341",
+      "1303686",
+      "4816687",
+      "371.2700",
+      "7052256",
+      "3819195",
+      "8235433",
+      "6721537",
+      "5257847",
+      "6607172",
+      "581.3636",
+      "0176737",
+      "8152472",
+      "7569019",
+      "248.2378",
+      "192.525.8850",
+      "937.3852",
+      "905.821.2564",
+      "8943758",
+      "122.5261493",
+      "310 203 3666",
+      "0743064",
+      "125.631.2100",
+      "5443377",
+      "113.4824367",
+      "0684997",
+      "376.4800",
+      "470-0217",
+      "821.2200",
+      "6548024",
+      "745.8603",
+      "745.8604",
+      "965.1888",
+      "854.3577",
+      "203 3666",
+      "4951739",
+      "101.5928681",
+      "549.1400",
+      "972.422.8300",
+      "113.2895723",
+      "4762927",
+      "2831336",
+      "631.2100",
+      "821.2564",
+      "3227922",
+      "210.3333",
+      "9721221",
+      "0625465",
+      "4416148",
+      "8486461",
+      "759.0048",
+      "296.1435",
+      "847.272.8800",
+      "100.6374954",
+      "9699281",
+      "852.2423",
+      "7967456",
+      "3108627198",
+      "1354599",
+      "927.5255",
+      "5930569",
+      "5580647",
+      "8323531",
+      "6496763",
+      "3390163",
+      "9229736",
+      "3910945",
+      "714.223.3600",
+      "8522704",
+      "3721945",
+      "3800926"
+    ],
+    "scraped_at": "2026-02-19T07:10:15.913387",
+    "enriched_at": "2026-02-19T07:32:58",
+    "address": "1040 Parsons Road SW",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:52:39"
+  },
+  {
+    "name": "Intertek",
+    "url": "https://www.intertek.com",
+    "type": "testing_certification",
+    "description": "Quality and safety testing",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Assurance"
+    ],
+    "title": "Intertek",
+    "meta_description": "",
+    "emails": [
+      "business.assurance@intertek.com",
+      "ba.marks@intertek.com",
+      "bpcerthelpdesk@intertek.com",
+      "info@intertek.com"
+    ],
+    "phones": [
+      "800 967 5352",
+      "967-5352",
+      "944 2378",
+      "852 2173",
+      "210 635 8100",
+      "296 1620",
+      "967 5352",
+      "656 0601",
+      "753-6711",
+      "810 1195",
+      "635 8125",
+      "616 656 0601",
+      "607-753-6711",
+      "800 810 1195",
+      "116 296 1620",
+      "855 944 2378",
+      "210 635 8125",
+      "2128109",
+      "635 8100"
+    ],
+    "scraped_at": "2026-02-19T07:10:16.259719",
+    "enriched_at": "2026-02-19T07:32:58",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:52:59"
+  },
+  {
+    "name": "SGS",
+    "url": "https://www.sgs.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Verification"
+    ],
+    "title": "SGS | We are the world&#x27;s leading Testing, Inspection and Certification company.",
+    "meta_description": "We are the world&#x27;s leading Testing, Inspection and Certification company.",
+    "emails": [
+      "weichern.foong@sgs.com",
+      "peter.takacs@sgs.com",
+      "PCA.Singapore@sgs.com",
+      "dana.justinova@sgs.com"
+    ],
+    "phones": [
+      "1771487594",
+      "201 508 3000",
+      "508-3000",
+      "508 3000",
+      "1771487597",
+      "1771487596"
+    ],
+    "scraped_at": "2026-02-19T07:10:16.903029",
+    "enriched_at": "2026-02-19T07:32:58",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:53:18"
+  },
+  {
+    "name": "Bureau Veritas",
+    "url": "https://www.bureauveritas.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Compliance"
+    ],
+    "title": "Home | Bureau Veritas",
+    "meta_description": "",
+    "emails": [
+      "customersolutionswest@bureauveritas.com",
+      "infoesp@bureauveritas.com"
+    ],
+    "phones": [
+      "357-7020",
+      "282.5227",
+      "877-462-9926",
+      "833.282.5227",
+      "888-357-7020",
+      "462-9926",
+      "291-3077",
+      "386-7247"
+    ],
+    "scraped_at": "2026-02-19T07:10:17.856632",
+    "enriched_at": "2026-02-19T07:32:58",
+    "certifications": [
+      "ISO"
+    ],
+    "deep_enriched_at": "2026-02-19T07:53:41"
+  },
+  {
+    "name": "Noxilico",
+    "url": "https://www.noxilico.com",
+    "type": "lab_decommissioning",
+    "description": "Specialized laboratory decontamination and decommissioning company serving pharmaceutical, biotech, and research laboratories across North America.",
+    "services": [
+      "Lab decommissioning",
+      "Decontamination",
+      "Chemical clearance",
+      "Equipment disposal"
+    ],
+    "emails": [
+      "info@noxilico.com",
+      "contact@noxilico.com"
+    ],
+    "address": "750 Rue de l'industrie, Saint-Jean-sur-Richelieu, QC J3B 6X9",
+    "city": "Saint-Jean-sur-Richelieu",
+    "state": "QC",
+    "zip": "J3B 6X9",
+    "country": "Canada",
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/noxilico"
+    },
+    "founded": "2003",
+    "employees": "50-100",
+    "enriched_at": "2026-02-19T07:32:58"
+  },
+  {
+    "name": "Chemistry Rx",
+    "url": "https://www.chemistryrx.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "services": [
+      "Lab equipment",
+      "Glassware cleaning",
+      "Sterilization",
+      "Calibration"
+    ],
+    "title": "Chemistry Rx Compounding Pharmacy - Specialty Compounding Experts",
+    "meta_description": "Chemistry Rx is a specialty pharmacy in Philadelphia offering clinically proven compounded therapies and personalized medicine to patients.",
+    "emails": [
+      "info@chemistryrx.com"
+    ],
+    "phones": [
+      "267-861-0862",
+      "(855) 790-0100"
+    ],
+    "scraped_at": "2026-02-19T07:10:18.316806",
+    "enriched_at": "2026-02-19T07:32:58"
+  },
+  {
+    "name": "Avantor Services",
+    "url": "https://avantorsciences.com",
+    "type": "lab_services",
+    "description": "Lab services and solutions",
+    "services": [
+      "Lab equipment",
+      "Cleaning validation",
+      "Calibration",
+      "Training"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:18.861107",
+    "enriched_at": "2026-02-19T07:32:58"
+  },
+  {
+    "name": "Thermo Fisher Scientific Services",
+    "url": "https://www.thermofisher.com",
+    "type": "lab_services",
+    "description": "Lab equipment and service",
+    "services": [
+      "Equipment service",
+      "Calibration",
+      "Validation",
+      "Training"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485018"
+    ],
+    "scraped_at": "2026-02-19T07:10:19.039456",
+    "enriched_at": "2026-02-19T07:32:58"
+  },
+  {
+    "name": "Agilent CrossLab",
+    "url": "https://www.agilent.com",
+    "type": "lab_services",
+    "description": "Lab instrument services",
+    "services": [
+      "Instrument service",
+      "Calibration",
+      "Training",
+      "Support"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485019"
+    ],
+    "scraped_at": "2026-02-19T07:10:19.179175",
+    "enriched_at": "2026-02-19T07:32:58"
+  },
+  {
+    "name": "Waters Corporation Services",
+    "url": "https://www.waters.com",
+    "type": "lab_services",
+    "description": "Chromatography system services",
+    "services": [
+      "Instrument service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ],
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Shimadzu Scientific Instruments",
+    "url": "https://www.ssi.shimadzu.com",
+    "type": "lab_services",
+    "description": "Analytical instrument services",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Calibration"
+    ],
+    "title": "Analytical Testing / Measuring Instruments | Shimadzu",
+    "meta_description": "Discover insights and innovative solutions from Shimadzu, tailored to your needs. Visit Shimadzu today for more information.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:19.517484",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "PerkinElmer Services",
+    "url": "https://www.perkinelmer.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "services": [
+      "Instrument service",
+      "Applications support",
+      "Training",
+      "Validation"
+    ],
+    "title": "PerkinElmer | Science with Purpose",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:19.856942",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Beckman Coulter Life Sciences",
+    "url": "https://www.beckmancoulter.com",
+    "type": "lab_services",
+    "description": "Centrifuge and lab services",
+    "services": [
+      "Service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ],
+    "title": "Beckman Coulter Diagnostics | Beckman Coulter",
+    "meta_description": "Beckman Coulter Diagnostics helps healthcare professionals provide better patient care by delivering the accurate diagnostic information they need.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:20.520316",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Bio-Rad Laboratories Services",
+    "url": "https://www.bio-rad.com",
+    "type": "lab_services",
+    "description": "Life science equipment service",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "title": "Access Denied",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "1771485020"
+    ],
+    "scraped_at": "2026-02-19T07:10:20.681428",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Eppendorf Service",
+    "url": "https://www.eppendorf.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "services": [
+      "Service",
+      "Calibration",
+      "Training",
+      "Repair"
+    ],
+    "title": "Laboratory equipment, supplies & services - Eppendorf US",
+    "meta_description": "Eppendorf SE is a leading life sciences company and develops and sells devices, consumables and services for use in laboratories worldwide.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.212580",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Sartorius Services",
+    "url": "https://www.sartorius.com",
+    "type": "lab_services",
+    "description": "Lab and bioprocess services",
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.493745",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Metler Toledo Service",
+    "url": "https://www.mt.com",
+    "type": "lab_services",
+    "description": "Lab balance and scale service",
+    "services": [
+      "Calibration",
+      "Service",
+      "Training",
+      "Validation"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:21.674035",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Cytiva",
+    "url": "https://www.cytiva.com",
+    "type": "lab_services",
+    "description": "Bioprocessing lab services",
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "title": "Cytiva",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:22.277063",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Danaher",
+    "url": "https://www.danaher.com",
+    "type": "lab_services",
+    "description": "Lab diagnostics and services",
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "title": "Danaher Corporation",
+    "meta_description": "As a leading global life sciences and diagnostics innovator, we are committed to accelerating the power of science and technology to improve human health.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:22.675533",
+    "enriched_at": "2026-02-19T07:32:59"
+  },
+  {
+    "name": "Labconco",
+    "url": "https://www.labconco.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and lab equipment",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Certification"
+    ],
+    "title": "",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:23.030885",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "NuAire",
+    "url": "https://www.nuaire.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "title": "Biosafety Cabinets &amp; Reliable Lab Equipment | Nuaire",
+    "meta_description": "NuAire manufactures biosafety cabinets, CO\u2082 incubators, freezers, and lab equipment trusted worldwide for safety, reliability, and innovation.",
+    "emails": [],
+    "phones": [
+      "763-553-1270"
+    ],
+    "scraped_at": "2026-02-19T07:10:23.822670",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "The Baker Company",
+    "url": "https://www.bakerco.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "title": "Baker Co. - Made to Order Laboratory Safety Equipment",
+    "meta_description": "For over 100 years, Baker Co. has been at the forefront of engineering, testing and manufacturing reliable laboratory safety equipment.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:24.867678",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Air Science",
+    "url": "https://www.airscience.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and enclosures",
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Filters"
+    ],
+    "title": "Fume Hoods, Laminar Flow, PCR | Air Science",
+    "meta_description": "Air Science manufactures ductless fume hoods, laminar flow cabinets, forensic products, biological safety cabinets, pcr workstations.",
+    "emails": [
+      "info@airscience.com"
+    ],
+    "phones": [
+      "(239) 489-0024",
+      "239.489.0024"
+    ],
+    "scraped_at": "2026-02-19T07:10:25.428913",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Bertsche",
+    "url": "https://www.bertsche.com",
+    "type": "lab_decommissioning",
+    "description": "Lab relocation and decommissioning",
+    "services": [
+      "Lab relocation",
+      "Decommissioning",
+      "Decontamination",
+      "Moving"
+    ],
+    "title": "403 Forbidden",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:25.689683",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "H+H Laboratory Services",
+    "url": "https://hhlab.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "services": [
+      "Service",
+      "Repair",
+      "Calibration",
+      "Training"
+    ],
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "GenVault",
+    "url": "https://www.genvault.com",
+    "type": "lab_services",
+    "description": "Sample management services",
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Tracking"
+    ],
+    "title": "Not Acceptable!",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:26.711755",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Brooks Life Sciences",
+    "url": "https://www.brooks.com",
+    "type": "lab_services",
+    "description": "Sample management and automation",
+    "services": [
+      "Automation",
+      "Sample management",
+      "Storage",
+      "Tracking"
+    ],
+    "title": "Brooks Automation - Semiconductor Manufacturing and Collaborative Robots - Brooks Automation",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:27.035868",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Azenta Life Sciences",
+    "url": "https://www.azenta.com",
+    "type": "lab_services",
+    "description": "Sample management and storage",
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Software"
+    ],
+    "title": "Accelerating Breakthroughs &amp; Therapies | Azenta Life Sciences",
+    "meta_description": "Azenta Life Sciences enterprise-wide sample exploration and management solutions accelerate discovery, development and delivery, with speed and precision.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:27.973283",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Hamilton Company",
+    "url": "https://www.hamiltoncompany.com",
+    "type": "automation",
+    "description": "Lab automation and liquid handling",
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Training"
+    ],
+    "title": "Just a moment...",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:28.136676",
+    "enriched_at": "2026-02-19T07:33:00"
+  },
+  {
+    "name": "Tecan",
+    "url": "https://www.tecan.com",
+    "type": "automation",
+    "description": "Lab automation",
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Applications"
+    ],
+    "title": "Tecan Group Home - Scaling Healthcare Innovation Globally.",
+    "meta_description": "Tecan\u2019s purpose is to improve people\u2019s lives and health. We do that by empowering customers to scale healthcare innovation globally. Together, we are shaping a brighter, healthier future, for patients across the world.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:29.392877",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "PerkinElmer Informatics",
+    "url": "https://www.perkinelmerinformatics.com",
+    "type": "software",
+    "description": "Lab information management",
+    "services": [
+      "LIMS",
+      "Software",
+      "Training",
+      "Support"
+    ],
+    "title": "",
+    "meta_description": "Top crypto sports betting picks for 2026 with BTC support: odds, bonuses, markets, withdrawals, and safety checks for sports betting bitcoin.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:30.835242",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "LabWare",
+    "url": "https://www.labware.com",
+    "type": "software",
+    "description": "LIMS and laboratory software",
+    "services": [
+      "LIMS",
+      "Software",
+      "Implementation",
+      "Training"
+    ],
+    "title": "Automate Your Laboratory with the Global Leader for LIMS and ELN",
+    "meta_description": "Enhance laboratory efficiency and compliance with LabWare",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:32.850804",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "BIOVIA",
+    "url": "https://www.3ds.com/products-services/biovia",
+    "type": "software",
+    "description": "Scientific software",
+    "services": [
+      "ELN",
+      "LIMS",
+      "Software",
+      "Training"
+    ],
+    "title": "Generative AI for Every Scientist | BIOVIA - Dassault Syst\u00e8mes",
+    "meta_description": "BIOVIA provides a scientific collaborative environment for advanced biological, chemical and materials experiences.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:35.326187",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "IDBS",
+    "url": "https://www.idbs.com",
+    "type": "software",
+    "description": "Bioinformatics software",
+    "services": [
+      "Software",
+      "ELN",
+      "Biobanking",
+      "Support"
+    ],
+    "title": "Comprehensive Laboratory Informatics Solutions | IDBS",
+    "meta_description": "Discover IDBS&#039; advanced laboratory informatics solutions. Streamline R&amp;D data management and boost lab efficiency and accuracy with innovative tools.",
+    "emails": [],
+    "phones": [
+      "+1 781 272 3355",
+      "781 272 3355"
+    ],
+    "scraped_at": "2026-02-19T07:10:36.242165",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "Labguru",
+    "url": "https://www.labguru.com",
+    "type": "software",
+    "description": "Lab management platform",
+    "services": [
+      "Software",
+      "ELN",
+      "Inventory",
+      "Training"
+    ],
+    "title": "Lab Management Software | Laboratory System | Labguru",
+    "meta_description": "Accelerate R&amp;D with unified lab management software. Let your lab teams collaborate, track experiments, and search results in the laboratory system.",
+    "emails": [
+      "info@biodata.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.450832",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "Benchling",
+    "url": "https://www.benchling.com",
+    "type": "software",
+    "description": "Lab informatics platform",
+    "services": [
+      "Software",
+      "ELN",
+      "LIMS",
+      "Support"
+    ],
+    "title": "Cloud-based platform for biotech R&amp;D | Benchling",
+    "meta_description": "Benchling is a cloud-based platform for biotechnology research and development and the only biology-first platform for scientific data, collaboration, and insights.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.682482",
+    "enriched_at": "2026-02-19T07:33:01"
+  },
+  {
+    "name": "Science Exchange",
+    "url": "https://www.scienceexchange.com",
+    "type": "marketplace",
+    "description": "Lab service marketplace",
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Testing",
+      "Research"
+    ],
+    "title": "Science Exchange | Supplier Orchestration | R&amp;D Marketplace",
+    "meta_description": "Discover how to simplify purchasing, supplier management, and payment processing.  Work with suppliers faster, reduce costs, and fuel innovation. Supplier Orchestration.",
+    "emails": [
+      "info@scienceexchange.com"
+    ],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:36.984015",
+    "enriched_at": "2026-02-19T07:33:02"
+  },
+  {
+    "name": " Scientist.com",
+    "url": "https://www.scientist.com",
+    "type": "marketplace",
+    "description": "Research marketplace",
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Research",
+      "Testing"
+    ],
+    "title": "World\u2019s Leading AI-Powered R&D Marketplace | Scientist.com",
+    "meta_description": "Trusted by the world\u2019s top pharmaceutical companies and biotechs, Scientist.com combines access to over 6,000 suppliers with tools for efficient, compliant execution of complex experiments.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:37.455641",
+    "enriched_at": "2026-02-19T07:33:02"
+  },
+  {
+    "name": "Professional Lab Cleaning Services In Phoenix, Arizona",
+    "url": "https://www.keeperscleanusa.com/lab-cleaning-services-laboratory-disinfecting-arizona/",
+    "description": "We offer professional lab cleaning services in Phoenix. AZ to ensure a clean &amp; sanitary environment for your laboratory. Learn more about our services today.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Cleanroom & Lab Cleaning Services",
+    "url": "https://janitek.net/industries-served/research-labs/",
+    "description": "We have emergency cleaning protocols in place to provide fast response times and minimize downtime after spills or outbreaks. We implement advanced dusting, air filtration, and disinfection strategies to keep labs free of contaminants and prevent research projects from becoming compromised. Our facility services are performed by thoroughly screened, background-checked, and supervised staff to maintain the integrity and safety of your laboratory ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Lab Cleaning Services & Laboratory Disinfecting",
+    "url": "https://system4norcal.com/facilities/lab-cleaning-services/",
+    "description": "This is especially important in food processing plants where bacteria can easily spread if not properly cleaned. Tailored Janitorial Services We provide a wide range of services, including electrostatic disinfecting for laboratory surfaces, janitorial services to maintain a clean and orderly work environment, and custom-built budgets and schedules to ensure that all your laboratory cleaning needs are met.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Life Sciences & Laboratory Cleaning Services",
+    "url": "https://www.leebuildingclean.com/industries/laboratory-cleaning-services/",
+    "description": "With deeper disinfecting, you can achieve the most accurate test results. Our life sciences and laboratory cleaning services can help you make that happen.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Lab Cleaning Services & Laboratory Disinfecting",
+    "url": "https://system4phoenix.com/facilities/lab-cleaning-services/",
+    "description": "This is especially important in food processing plants where bacteria can easily spread if not properly cleaned. Tailored Janitorial Services We provide a wide range of services, including electrostatic disinfecting for laboratory surfaces, janitorial services to maintain a clean and orderly work environment, and custom-built budgets and schedules to ensure that all your laboratory cleaning needs are met.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Expert Lab Cleaning Services in MD, VA, & DC",
+    "url": "https://www.foremanpro.com/critical-environment-cleaning/lab-cleaning/",
+    "description": "At <strong>Foreman Pro Cleaning</strong>, we prioritize cleanliness protocols, particularly in research laboratories. Our teams are meticulously trained to meet the exacting demands of these environments, adhering to CDC, EPA, FDA, and OSHA health and safety standards. Our research lab cleaning processes have ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Bay Area Laboratory Cleaning Services",
+    "url": "https://shinefacilityservices.com/laboratories/",
+    "description": "Why not save time and enjoy peace of mind by putting this work in the hands of a professional? At <strong>Shine Facility Services</strong>, we\u2019re proud to have trained and certified staff who are capable of cleaning and sanitizing lab floors and clean rooms.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Critical Cleaning Lab",
+    "url": "https://www.microcare.com/en-US/Resources/Critical-Cleaning-Lab",
+    "description": "With our advanced, research-driven lab services, <strong>MicroCare chemists</strong> and technical experts develop customized formulations and processes to suit your specific critical cleaning applications while ensuring compliance, safety and affordability.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Medical Laboratories",
+    "url": "https://executive-clean.com/facility/healthcare-medical/medical-laboratories-cleaning-services/",
+    "description": "A medical laboratory demands more than basic cleaning, it requires precision, sterility, and strict compliance with health regulations. <strong>Executive Cleaning Services</strong> provides specialized laboratory cleaning solutions that safeguard your research, ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Professional Laboratory Cleaning Services",
+    "url": "https://patriotmaids.com/services/commercial/industries/laboratories/",
+    "description": "Whether you\u2019re located in one of our main service areas or a nearby neighborhood, <strong>Patriot Maids</strong> is here to help you enjoy a cleaner, healthier space. Our skilled and dependable cleaners are ready to deliver exceptional results, wherever you are.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:05"
+  },
+  {
+    "name": "Lab & Equipment Decontamination",
+    "url": "https://www.veolianorthamerica.com/what-we-do/waste-capabilities/lab-equipment-decontamination",
+    "description": "United States \u00b7 Specialty Brands \u00b7 Air Quality \u00b7 Industries Global Solutions \u00b7 Nuclear Solutions \u00b7 OFIS \u00b7 Sarpi \u00b7 SEDE BENELUX \u00b7 Seureca \u00b7 Veolia Agriculture \u00b7 Water Technologies \u00b7 Home \u00b7 WASTE \u00b7 Lab &amp; Equipment Decontamination \u00b7 Solutions listing \u00b7",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Lab Decontamination & Cleaning Services",
+    "url": "https://valogicbio.com/decontamination-services/",
+    "description": "Research and manufacturing teams need proof that their environment is free from harmful contaminants. Specialized lab cleaning and decontamination services provide that assurance. At VaLogic, we set the standard for safety and compliance for life sciences companies across the United States, helping ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Property Cleanup Services",
+    "url": "https://deconservices.com/",
+    "description": "Serving insurance companies, government agencies, and individuals with Drug Lab Testing and Decontamination of Methamphetamine, Fentanyl and All Other Drugs: All 50 United States \u00b7",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Comprehensive Facility Decontamination Services",
+    "url": "https://techsafety.com/services/testing-certification/decontamination-services",
+    "description": "From hazardous biological residue on laboratory equipment and devices to mold in an incubator, TSS is your solution for small scale decontamination services. Call 800-877-7742 to put that solution to work for you today. TSS offers turn-key solutions for laboratory relocation and complete site closures. Local, State, and Federal environmental regulations, complicated equipment de-installation, moving, and chemical inventory transfers &amp; disposal can overwhelm your research staff.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Biological Decontamination",
+    "url": "https://www.triumvirate.com/services/environmental-health-laboratory-services/biological-decontamination",
+    "description": "Expert industrial bio-decontamination services for labs, incubators, and more. Certified hygienists ensure safety &amp; compliance. Contact us for a consultation!",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Decontamination Services",
+    "url": "https://www.cleanharbors.com/services/industrial-field-services/field-services/decontamination",
+    "description": "<strong>Clean Harbors</strong> offers Decontamination services for a wide range of circumstances by removing, neutralizing or destroying any harmful substance. Whether you operate an oil refinery, a processing plant, a medical lab or any type of industrial facility, decontamination is critical to safe and efficient ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Meth Lab Decontamination And Biohazard Cleanup in Denver, CO",
+    "url": "https://crystalcleandecon.com/",
+    "description": "<strong>Crystal Clean Decontamination\u2122 Inc (CCD)</strong> has been providing specialized decontamination services since 2006, making us one of the most experienced meth &amp; fentanyl lab decontamination and bio-recovery companies in the United States.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Decontamination Equipment",
+    "url": "https://curissystem.com/",
+    "description": "Headquartered in Florida, <strong>CURIS System</strong> proudly serves clients across the United States and internationally, including universities, labs, and pharma facilities from California to Indiana to Massachusetts and beyond.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Lab Equipment Decontamination",
+    "url": "https://www.sepsservices.com/services/decontaminations/",
+    "description": "New York: <strong>SEPS</strong> offers laboratory decontamination of various types of scientific equipment including Biosafety Cabinets, Incubators and Centrifuges.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Lab Cleaning & Disinfection Services",
+    "url": "https://deconservices.com/lab-sterilization-service/",
+    "description": "We supply laboratory cleaning and disinfecting services to both the government and the private sector. This covers a multitude of scenarios such as clean rooms for electronics and microchips, chemical labs, and biohazardous labs.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:08"
+  },
+  {
+    "name": "Biological Safety Cabinet (BSC) Cleaning: Below the Deck",
+    "url": "https://ors.od.nih.gov/sr/dohs/Documents/biological-safety-cabinet-enhanced-surface-cleaning.pdf",
+    "description": "will be out of service until the \u00b7 decontamination process is \u00b7 completed \u00b7 Workspace Deck Removal \u00b7 Prepare Workspace Deck \u00b7 for Removal \u00b7 \u2022 \u00b7 Remove screw pins that are holding the front \u00b7 grill in place. \u2022 \u00b7 Spray down the front grill, being sure to \u00b7 saturate the underside. \u2022 \u00b7 Ensuring the drain is closed, SLOWLY pour \u00b7 1L diluted bleach down the grill \u00b7 Lower Workspace Deck Cleaning \u00b7",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "BSC Certification & Cleanup",
+    "url": "https://www.triumvirate.com/services/laboratory-services/bsc-biological-safety-cabinet-certification-decontamination",
+    "description": "Our team members <strong>remove all internal and accessible components, as well as any debris, and perform disinfectant solution cleaning</strong>. Our service capabilities exceed those of most of our competitors. For instance, during decontamination, our specialists identify and analyze the materials that ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Biological Safety Cabinet Cleaning",
+    "url": "https://pristinology.com/biological-safety-cabinet-cleaning-service/",
+    "description": "Ensure compliance and safety with Pristinology\u2019s expert biological safety cabinet cleaning services. Specialized care for labs in Philadelphia and beyond. Schedule today!",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Page 1 of 9 Biological Safety and Laminar Flow Cabinet",
+    "url": "https://www.escolifesciences.com/pdf/BSC%20&%20LFC%20Maintence%20Tips%20and%20Procedures-V.B.-Mar2021.pdf",
+    "description": "Moreover, the following are the recommended general cleaning ... <strong>Wipe off the inner work tray using IPA/suitable cleaning agent/disinfectant</strong>. ... Remove for any retained or unwanted material (if any) at the paper catch. Material is to be treated as hazardous waste and is to be properly disposed of.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "r/labrats on Reddit: Biosafety Cabinet cleaning",
+    "url": "https://www.reddit.com/r/labrats/comments/1lsoilx/biosafety_cabinet_cleaning/",
+    "description": "... So BSCs are decontaminated ... the gas to sit and do it&#x27;s thing for a period of time. <strong>Most certifiers will be able to do this and offer it as a service</strong>....",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Biological Safety Cabinets",
+    "url": "https://ehs.cornell.edu/research-safety/biosafety-biosecurity/biological-safety-manuals-and-other-documents/biological/biological-safety-cabinets",
+    "description": "To avoid leaning into the cabinet or risking injury, use an extended tool (e.g., a Swiffer-style mop handle). Periodically clean and decontaminate the area beneath the work surface, where broken glass, spills, and debris can accumulate. Use tongs or forceps to remove broken glass. Establish a routine schedule for deeper cleaning (e.g., once or twice per year) and as needed. Prior to service or removal of a biosafety cabinet, all materials must be removed and all interior surfaces disinfected by the laboratory.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Checklist: BSC Decontamination in Your Lab",
+    "url": "https://www.sepsservices.com/resources/biological-safety-cabinets-decontamination-checklist/",
+    "description": "<strong>At SEPS, biological safety cabinets (or BSCs) are one of the lab tools we have the most experience cleaning, repairing and maintaining</strong>. They\u2019re critical to preserving the safety of lab workers.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Biosafety Cabinet 101",
+    "url": "https://balcontab.com/blog/biosafety-cabinet-101/",
+    "description": "Once items have been removed from the cabinet it is important to disinfect the interior surfaces of the biosafety cabinet with the appropriate disinfectant. It is important to routinely deep clean your biosafety cabinet. This can be done by using a disinfectant solution.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:10"
+  },
+  {
+    "name": "Laboratory Waste Management",
+    "url": "https://mcfenvironmental.com/laboratory-waste-management/",
+    "description": "We specialize in all chemical, pathological and hazardous waste streams generated by universities, research centers and diagnostic laboratories. As waste handling and treatment specialists, we pride ourselves on removing the complexity of regulatory compliance and multi-waste stream service scheduling. From formulary analysis and lab-packing to the transport and treatment of waste, we do it all. Here are some of the waste streams we manage.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste",
+    "url": "https://www.danielshealth.com/laboratory-waste",
+    "description": "<strong>Daniels Health</strong> helps laboratories achieve sustainability goals like Net Zero or Zero Waste-to-landfill through innovative waste collection, disposal, and treatment. We handle all waste streams safely and securely \u2013 eliminating the complexity ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Lab Waste Disposal Services",
+    "url": "https://www.bioservusa.com/industries/laboratories/",
+    "description": "Bioserv handles medical, pathological, chemical &amp; pharmaceutical lab waste from laboratories with convenient pickup in CT, MA, RI, NY, NJ, PA, OH, VT, ME, NH",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Disposal Hazardous Waste Experts",
+    "url": "https://www.hazardouswasteexperts.com/waste-type/laboratory-waste-disposal/",
+    "description": "If you have any questions or need assistance, call <strong>Hazardous Waste Experts</strong> at (425) 414-3485. Many laboratories use a variety of chemicals in small quantities (usually less than 10 gallons of each).",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Management Solutions",
+    "url": "https://www.stericycle.com/en-us/resource-center/blog/laboratory-waste-management-solutions",
+    "description": "Learn more about how Stericycle can help medical research and testing laboratories implement a cost-effective waste management program.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Disposal Services",
+    "url": "https://www.choicemedwaste.com/laboratory-waste-disposal-services",
+    "description": "Proudly launching our chemical waste disposal division in 2023, we offer complete solutions for laboratories. Our partnerships with specialty waste vendors allow us to handle unique waste streams efficiently. Choose <strong>ChoiceMed Waste</strong> as your go-to resource for clinical laboratory waste management.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Disposal & Management",
+    "url": "https://www.anentawaste.com/sectors/laboratory-waste-disposal/",
+    "description": "Discover the benefits of our laboratory waste disposal solutions, including: Cost-effectiveness: we\u2019ll help you to better understand your waste profile, ensuring you save a substantial amount of money each year. Compliance: keep ahead of the latest rules and regulations with our innovative approach and waste audits. An innovative approach: we\u2019ve invested over a million pounds in our online management system, Vector, and we continue to improve and evolve our processes.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Management Services",
+    "url": "https://www.southeastasia.veolia.com/waste/toxic-industrial-waste-capabilities/laboratory-waste-management",
+    "description": "This premium service can also include spillage management or emergency response, but also advanced waste management reporting, and other miscellaneous support such as analysis &amp; characterization, continuous improvement in waste management and traceability. ... Decades of experience in the safe handling and disposal of laboratory waste, supported by Veolia&#x27;s global hazardous waste network and best practices.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory Waste Management",
+    "url": "https://www.approvedmedwaste.com/services/laboratory-waste-management/",
+    "description": "Laboratories often have very specialized waste disposal needs and requirements. At ASWH, we work with labs across the Northeast every day and know what is required to properly manage the waste these specialized and dynamic facilities produce. One of our chemical waste specialists will identify and characterize each of your waste streams and provide the",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Laboratory waste management: Bertin Medical waste, laboratory waste treatment",
+    "url": "https://www.bertin-medical-waste.com/laboratory-waste-management/",
+    "description": "Laboratory waste management: <strong>Bertin Medical waste</strong> efficient, economical and ecological solution for medical waste treatment.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:13"
+  },
+  {
+    "name": "Contract Sterilization & Laboratory Testing Services",
+    "url": "https://www.steris-ast.com/",
+    "description": "<strong>STERIS Applied Sterilization Technologies</strong> provides contract sterilization, laboratory testing, and product and packaging testing services to medical device and pharmaceutical manufacturers.Learn More",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Sotera Health \u2013 Integrated Global Health Solutions",
+    "url": "https://soterahealth.com/",
+    "description": "Sotera Health is driven by its mission, Safeguarding Global Health\u00ae. Along with our three best-in-class businesses \u2013 <strong>Sterigenics\u00ae, Nordion\u00aeand Nelson Labs\u00ae</strong>\u2013 we are a leading global provider of mission-critical end-to-end sterilization solutions and lab testing and advisory services ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Sterilization Service Providers",
+    "url": "https://www.mpo-mag.com/sterilization-service-providers/",
+    "description": "Within our 62,000 sq. ft. facility we maintain 80 labs and a custom built 3,000 sq. ft. sterility testing cleanroom suite. Nelson employs more than 225 staff members, including more than 100 degreed scientists, among whom are 35+ registered and specialist microbiologists (NRM). 30958 San Antonio Street Hayward, CA 94544 Phone: (510) 429-2900 Fax: (510) 441-9451 Web: www.nutekcorp.com E-mail: [email protected] Contact: Larry Nichols Services: E-Beam sterilization, tubing crosslinking.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Top Sterilization Providers",
+    "url": "https://www.medicaldevicedirectory.com/category/sterilization",
+    "description": "By focusing on best-in-class ... ... patient benefits from the highest standards of care, and protecting margins for your hospital.; ... <strong>Ceutical Laboratories, Inc.</strong> provides expert sterilization services powered ......",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Autoclave sterilizers, washer disinfectors, and other sterile processing products",
+    "url": "https://tuttnauer.com/",
+    "description": "Tuttnauer emerged as the Top Sterilization and Infection Control Solutions provider for the 2026 MedTech outlook after an exhaustive evaluation by an expert panel of C-level executives, industry thought leaders, and the MedTech editorial board. ... Sterilizers for your healthcare clinics\u2019 everyday sterilization needs. ... Washing, disinfecting and drying diverse medical instruments. ... Hydrogen peroxide plasma sterilizers. ... Hospital and laboratory sterilizers.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "BMT USA",
+    "url": "https://bmtusa.com/",
+    "description": "<strong>BMT USA</strong> is your partner for cGMP sterilization and laboratory equipment solutions. Our products are tailored to the specific requirements of manufacturers and researchers in the pharmaceutical, biotech, food, industrial, and life science industries ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Sterilization Validation Service for Medical Devices",
+    "url": "https://cg-labs.com/our-services/sterilization-validation/",
+    "description": "Request Information <strong>C.G. Laboratories, Inc.</strong> (817) 279-1945 Our Equipment Customer Intake Form Contact Us Sterilization Validation Service FDA, AAMI, and ISO 11137 compliant Laminar Flow Hood-controlled Environment Custom Testing Solutions Regulatory ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Sterilization Services",
+    "url": "https://hss.washington.edu/lab-services/sterilization/",
+    "description": "<strong>Health Sciences Lab Services</strong> provides sterilization and disposal of biohazardous waste for existing customers.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Top 7 Sterilization Equipment Companies",
+    "url": "https://www.verifiedmarketresearch.com/blog/top-sterilization-equipment-companies/",
+    "description": "Top 7 sterilization equipment companies are <strong>Steris, 3M, Getinge, MMM group, Belimd, MATACHANA and Sotera Health</strong>",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Sterilization Services at Emory Healthcare",
+    "url": "https://www.emoryhealthcare.org/services/medical-lab-services/sterilization-services",
+    "description": "<strong>Emory Healthcare</strong> sterilization services helps keep clients at businesses and patients at medical facilities safe. Our sterilization services help fight infections at your facility and our sterilization monitoring services help lower infection risk. Call 404-712-5227 or 800-727-6763 with questions.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:16"
+  },
+  {
+    "name": "Laboratory Facility Services",
+    "url": "https://www.pritchardindustries.com/industry/laboratory-facility-services/",
+    "description": "At <strong>Pritchard, laboratory cleaning &amp; facility services</strong> go beyond routine cleaning. Our programs are tailored for life sciences facilities to meet the strict guidelines that keep your laboratory running smoothly.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Critical Services for Controlled Environments",
+    "url": "https://cleanroomcleaning.com/",
+    "description": "We provide highly specialized ISO 9001:2015 certified and GMP services to support the brilliant minds behind groundbreaking discoveries in biotech, life-saving advancements in pharma, and revolutionary medical devices. We ensure that remarkable individuals have the clean, controlled spaces they need to turn their world-changing ideas into reality.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Drug Lab Cleanup Companies",
+    "url": "https://doh.wa.gov/community-and-environment/contaminants/drug-labs/cleanup-companies",
+    "description": "Last update: December 8, 2025 The following list of contractor companies are certified by the Department of Health for drug lab decontamination.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Lab Cleaning Services",
+    "url": "https://thefacilitiesgroup.com/life-sciences-and-bio/",
+    "description": "<strong>TFG</strong> works with pharmaceutical and biotech companies to provide GMP cleaning and contamination control within research and development labs as well as final production environments.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Cleanroom Cleaning Service by SourceONE Building Maintenance",
+    "url": "https://www.sourceonebuildingmtn.com/cleanroom-cleaning-services/",
+    "description": "Whether you run a biotech research lab, a pharmaceutical manufacturing plant, or a medical device testing lab, you face specific challenges, standards, regulations and protocols for maintaining a safe, sterile environment for your scientists and technicians. ... The pursuit of excellence in healthcare begins with maintaining clean ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "California Cleanroom Laboratory Cleaning Services",
+    "url": "https://www.gl-tec.com/california-cleanroom-laboratory-cleaning-services.html",
+    "description": "California cleanroom laboratory cleaning services provided by <strong>GL Technologies</strong>. Specializing in cleanroom laboratory services for California medical equipment providers.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Clean Room Cleaning Services & R&D Cleaning Services",
+    "url": "https://commercialcleaningcorp.com/who-we-serve/clean-rooms-rd-facilities/",
+    "description": "Our custodial professionals are trained to handle fragile equipment and clean, disinfect, and sterilize surfaces with the utmost care, paying meticulous attention to detail in both lab and clean room spaces. Whether you need routine janitorial and maintenance services or specialized disinfection and sterilization solutions, we can help keep your facility compliant and operational to allow staff to complete procedures, manufacture medical devices and pharmaceuticals, or conduct productive research with ease.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Clean Room Cleaning Services & Laboratory Cleaning",
+    "url": "https://gocitywide.com/clean-rooms-and-labs/",
+    "description": "Pharmaceutical clean rooms \u00b7 Medical device manufacturing environments \u00b7 Research laboratories \u00b7 Electronics, aerospace, and biotech facilities \u00b7 Academic and government labs \u00b7 Experience with ISO and BSL Standards: We routinely clean spaces from ISO 5 (Class 100) to ISO 8 (Class 100,000), as well as ISO 9 \u201cRoom Air\u201d labs.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:19"
+  },
+  {
+    "name": "Laboratory Cleaning Services",
+    "url": "https://midcitycleaning.com/industries/medical-grade-healthcare-cleaning/laboratory-cleaning-services/",
+    "description": "Just as your company has spent ... employee safety, and appearance standards are critical for laboratories and cleanrooms (hyperlink to <strong>Cleanroom Cleaning LP</strong>)....",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Medical Laboratory Cleaning Services",
+    "url": "https://cleanmethod.com/industries/medical-laboratories/",
+    "description": "Then, we deliver cleaning services that prioritize the safety of patients and staff, and the integrity of laboratory results. Complete the form below and a member of our team will reach out to create your custom quote. ... From preventing cross-contamination to eliminating harmful pathogens, our technicians are highly trained in medical laboratory cleaning and disinfection.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Specialized Cleaning Services for Labs",
+    "url": "https://macsjanitorial.com/labs/",
+    "description": "Mac&#x27;s corporate cleaning services keeps labs sterile &amp; clean. From cutting-edge research &amp; diagnostic centers to sophisticated pharmaceutical facilities.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Medical Facility and Science Lab Cleaning",
+    "url": "https://nlcsolutions.com/commercial-cleaning/medical-science",
+    "description": "\u2022 Detail cleaning and vacuuming of entrances, reception areas, and all other public areas \u2022 Tile and viny floor cleaning \u2022 Sanitizing of all sensitive surfaces (including equipment, doors, and handles) \u2022 Polishing of stainless steel, glass and mirrors \u2022 Sanitizing of all surfaces and areas susceptible to cross-contamination \u2022 Maintenance of hand-sanitizing stations \u2022 Clean and sanitize restrooms \u2022 Clean and sanitize all patient care area \u2022 Disinfection of medical equipment, exam tables, railings &amp; hand holds \u2022 Medical and infectious waste disposal \u2022 Empty and provide fresh liners for all trash recepticles \u2022 Final detailing and inspection \u00b7 We will customize a cleaning plan that ensures your facility or laboratory is a totally clean and sanitized environment.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Lab Cleaning Services",
+    "url": "https://system4sanantonio.com/facilities/lab-cleaning-services/",
+    "description": "Professional lab cleaning services in San Antonio for medical, research, and pharmaceutical labs. Free Quote <strong>(210) 858-7674</strong>",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Medical Facilities Cleaning Services Nationwide",
+    "url": "https://diamondcleanersusa.com/medical-facilities-cleaning-services/",
+    "description": "At <strong>Diamond Cleaners USA</strong>, we specialize in medical cleaning services tailored to healthcare facilities. We ensure safe, sanitary environments for hospitals, clinics, dental offices, and laboratories by adhering to strict hygiene standards and ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Medical Cleaning Services",
+    "url": "https://amcclean.us/commercial-cleaning-sectors/medical-commercial-cleaning-services/",
+    "description": "Our Medical Cleaning Services expertise in cleaning for medical clinics, laboratories, day hospitals, family health practices incorporate surface disinfection and sanitization. We have a particular focus on detail cleans for medical clinics. These finer details we know will make a difference to the health, safety and wellbeing of your patients, visitors and staff.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:22"
+  },
+  {
+    "name": "Biotech Facility Cleaning",
+    "url": "https://www.sourceonebuildingmtn.com/biotech-cleaning/",
+    "description": "Keep up with regular facility maintenance and meet FDA regulations by allowing our professional laboratory cleaning company to help! SourceONE specializes in deep cleaning services and is dedicated to training our employees on how to stay protected while working in a biotech company environment. Learn more about how we can help you stay clean and organized and contact us today to schedule our services! ... Any organization involved in biotech research, development or manufacturing must adhere to strict standards to minimize risks, optimize productivity, and provide a safe, secure working environment for their employees.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:25"
+  },
+  {
+    "name": "Laboratory Facility Cleaning Services by SourceONE",
+    "url": "https://www.sourceonebuildingmtn.com/lab-cleaning-services/",
+    "description": "Regular cleanroom cleaning prevents contamination, ensuring the safety and efficacy of biotechnological research and production. These services are essential for maintaining compliance, protecting products, and ensuring the overall quality of biotech endeavors. Follow the link to read more about our cleanroom cleaning services. SourceONE\u2019s commercial disinfectant cleaning services provide comprehensive sanitization solutions for various business environments, including offices, healthcare facilities, schools, and retail spaces.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:25"
+  },
+  {
+    "name": "Industrial Cleaning Services & Janitorial Service for Manufacturing",
+    "url": "https://ramclean.com/industrial-plant-cleaning/",
+    "description": "We are experienced in cleaning medical facilities, industrial engineering facilities, and scientific labs. We use a combination of green cleaning products and safe disinfection chemicals in areas of your buidling that have human contact in order to keep your customers, visitors and workers safe and healthy. RamClean is one of only 20 companies in the U.S.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:25"
+  },
+  {
+    "name": "Decommissioning Services, Laboratory Decommissioning",
+    "url": "https://techsafety.com/services/decommissioning",
+    "description": "Two principal federal statutes which impose liabilities for hazardous substances and hazardous wastes during these real property transactions are the Resource Conservation and Recovery Act of 1976 (RCRA) and the Comprehensive Environmental Response Compensation and Liability Act of 1980 (CERCLA or the &quot;Superfund Act&quot;). An effective and appropriately documented laboratory decommissioning plan is a strong liability defense relative to these statutes and integral to complying with facility closure requirements set forth in state and local regulations. TSS has EXTENSIVE EXPERIENCE providing facility decommissioning services to research and production facilities for biotech and pharmaceutical clients nationwide.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory Decommissioning",
+    "url": "https://quantumtechnology.net/laboratory-decommissioning/",
+    "description": "<strong>Quantum Technology</strong> offers complete laboratory decommissioning services, including demolition, equipment removal, and hazardous waste disposal.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Appendix E",
+    "url": "https://ehs.cornell.edu/research-safety/chemical-safety/laboratory-safety-manual/appendix-e-Lab-Decommissioning-Process",
+    "description": "Negotiate the disposition of laboratory equipment with the Department or Research Center Administrator. ... Acknowledge notice from PI, or originator, of intent to move or close the lab. Provide all appropriate checklists and forms. Set up a Teams site for communication and set-up a task tracking plan to track the project activities based on the checklist. Provide a point of contact for support of the decommission activities.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory/Equipment Decommissioning Program",
+    "url": "https://www.ehs.uci.edu/programs/_pdf/industrial-hygiene/lab-decommissioning.pdf",
+    "description": "Decommission \u2013 <strong>Action to remove an item, i.e., laboratory or laboratory equipment, from service</strong>. It is a process to ensure that the item meets EHS requirements for its \u00b7 next use and/or handling, as in the case of salvage or repair. EHS Coordinator \u2013 EHS liaison assigned to individual schools.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory Decontamination and Decommissioning",
+    "url": "https://www.bu.edu/ehs/laboratory-safety-home/laboratory-safety-programs-services/laboratory-decontamination-and-decomissioning/",
+    "description": "Procedures to ensure that a space is free of contamination prior to the relocation or disposal of laboratory equipment, the re-certification or relocation of a laboratory, construction or renovations within a laboratory, or the vacating of a laboratory",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory Decommissioning & Commissioning",
+    "url": "https://ehs.utk.edu/index.php/table-of-policies-plans-procedures-guides/laboratory-decommissioning-commissioning/",
+    "description": "Shall keep an electronic copy of the completed and signed Lab Decommissioning Form for a minimum of 10 years \u00b7 Shall coordinate with the PI or designate to ensure that biological hazards are either destroyed, transferred (either internal or external to the University), or safely stored in accordance with federal, state, local, and/or institutional standards. Shall perform an exit evaluation of the laboratory to verify that all affected working surfaces and equipment has been cleaned and surface disinfected as prescribed by the Biosafety Office.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory Decommissioning",
+    "url": "https://www.broadviewwaste.com/laboratory-decommissioning-and-relocation.php",
+    "description": "<strong>BWS has decommissioned or relocated dozens of laboratories</strong>. Our team will inventory and characterize all chemicals and determine which can be lab-packed together according to DOT and EPA regulations.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Industrial Facility Decontamination & Cleanup Services",
+    "url": "https://www.triumvirate.com/services/environmental-health-laboratory-services/facility-cleanup",
+    "description": "Triumvirate offers facility decontamination services, decommissioning, &amp; closure services, including remediation, taste disposal, &amp; CIH certification.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Lab Relocation and Decommissioning",
+    "url": "https://www.safetypartnersinc.com/services/lab-relocation-and-decommissioning/",
+    "description": "Safety Partners will help determine what level of decommissioning you need by reviewing lease terms and conditions, assessing hazardous materials used, observing your facility operations and building conditions, and discussing appropriate liability protection. We have established 2 tiers of this service, offerings can be customized to fit your lab and organization\u2019s needs.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory Closures or Moves",
+    "url": "https://research.wayne.edu/oehs/lab-safety/closers-moves",
+    "description": "OEHS will complete a Laboratory Decommissioning Checklist and notify the PI and appropriate administrative unit of the decommissioning inspection results. The appropriate follow-up will be completed by OEHS depending upon the type of hazards present in the lab.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:28"
+  },
+  {
+    "name": "Laboratory and Lab Equipment Cleaning Products",
+    "url": "https://ipcol.com/cleaners/industries/laboratory",
+    "description": "IPC laboratory and lab equipment cleaning products meet the most rigorous specifications for laboratory cleanliness. Free samples for validation testing.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Labware Cleaning Supplies",
+    "url": "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/lab-organization-cleaning-safety/labware-cleaning-supplies.html",
+    "description": "<strong>Nalgene cleaning supplies</strong> are build to last in a busy lab with rugged construction from plastic materials designed for repeated chemical exposure. From sink to autoclave; pans, baskets, buckets, and pipet washing equipment, we&#x27;ve got your toughest ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Lab Equipment Cleaning Services",
+    "url": "https://pristinology.com/supporting-every-equipment/",
+    "description": "Maintain precision and compliance with Pristinology\u2019s lab equipment cleaning services. From pipettes to centrifuges, we ensure every tool is spotless and ready for use.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Lab Cleaning Supplies",
+    "url": "https://www.thomassci.com/laboratory-supplies/cleaners/cleaners",
+    "description": "Lab cleaning supplies are essential to all laboratory environments, as they reduce the possibility of contamination and provide a safe and clean working environment. At <strong>Thomas Scientific</strong>, we offer extensive cleaning products suitable for laboratory ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Precision Cleaning",
+    "url": "https://cleansciences.com/",
+    "description": "<strong>CLEAN SCIENCES, INC.</strong> in Fremont, CA, is a leader in the ultra-high-tech cleaning service for the past 30 years. We specialize in precision cleaning for semiconductor equipment manufacturers, solar, aerospace, automotive, medical, bio medical, optics and electronic industries.",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Pristinology",
+    "url": "https://pristinology.com/",
+    "description": "We maintain a contaminant-free ... regulatory requirements. ... We <strong>provide thorough decontamination and maintenance for all scientific equipment, including BSCs, incubators, and centrifuges</strong>....",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Laboratory Equipment Cleaning",
+    "url": "https://clearairinc.com/services/laboratory-equipment-cleaning/",
+    "description": "Despite scheduled surveillance accidents happen and when they do they require professional cleaning and decontamination. <strong>Clear Air Enviro Services</strong> offers specialized cleaning equipment and techniques to offer preventative health and safety ...",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  },
+  {
+    "name": "Pristinology Services",
+    "url": "https://pristinology.com/services/",
+    "description": "We maintain a contaminant-free ... regulatory requirements. ... We <strong>provide thorough decontamination and maintenance for all scientific equipment, including BSCs, incubators, and centrifuges</strong>....",
+    "type": "cleaning_service",
+    "services": [],
+    "emails": [],
+    "phones": [],
+    "discovered_at": "2026-02-19T07:48:31"
+  }
+]

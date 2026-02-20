@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-02-19T07:34:49.475178",
+  "total_companies": 61,
+  "enrichment_stats": {
+    "with_address": 10,
+    "with_emails": 14,
+    "with_phones": 18,
+    "with_social_media": 10,
+    "with_founding_year": 10,
+    "with_employee_count": 10,
+    "with_revenue": 7,
+    "publicly_traded": 5
+  },
+  "by_type": {
+    "cleaning_service": 3,
+    "sterilization": 1,
+    "cleaning_products": 7,
+    "waste_management": 5,
+    "analytical_lab": 3,
+    "testing_certification": 5,
+    "lab_decommissioning": 2,
+    "lab_services": 18,
+    "equipment_manufacturer": 4,
+    "automation": 2,
+    "software": 9,
+    "marketplace": 2
+  },
+  "top_companies": [
+    {
+      "name": "Triumvirate Environmental",
+      "score": 12,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": true,
+      "has_social": true
+    },
+    {
+      "name": "Clean Harbors",
+      "score": 12,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": true,
+      "has_social": true
+    },
+    {
+      "name": "STERIS",
+      "score": 12,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": true,
+      "has_social": true
+    },
+    {
+      "name": "CloroxPro",
+      "score": 12,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": true,
+      "has_social": true
+    },
+    {
+      "name": "Veolia North America",
+      "score": 11,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": false,
+      "has_social": true
+    },
+    {
+      "name": "Ecolab",
+      "score": 11,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": false,
+      "has_social": true
+    },
+    {
+      "name": "Stericycle",
+      "score": 11,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": false,
+      "has_social": true
+    },
+    {
+      "name": "Daniels Health",
+      "score": 11,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": true,
+      "has_social": true
+    },
+    {
+      "name": "Diversey",
+      "score": 10,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": false,
+      "has_social": true
+    },
+    {
+      "name": "Noxilico",
+      "score": 10,
+      "has_address": true,
+      "has_email": true,
+      "has_phone": false,
+      "has_social": true
+    }
+  ]
+}

@@ -1,0 +1,2437 @@
+[
+  {
+    "_id": "triumvirate-environmental",
+    "name": "Triumvirate Environmental",
+    "url": "https://www.triumvirate.com",
+    "type": "cleaning_service",
+    "description": "Full-service environmental services company specializing in laboratory decontamination, hazardous waste management, and EHS consulting for life sciences, healthcare, and industrial sectors.",
+    "contact": {
+      "emails": [
+        "info@triumvirate.com",
+        "sales@triumvirate.com"
+      ],
+      "phones": [
+        "888-834-9697",
+        "800-966-9282"
+      ],
+      "address": "101 Billerica Rd, North Billerica, MA 01862",
+      "city": "North Billerica",
+      "state": "MA",
+      "zip": "01862",
+      "country": "USA"
+    },
+    "services": [
+      "Lab cleaning",
+      "Chemical decontamination",
+      "Waste disposal",
+      "Emergency response"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/triumvirate-environmental",
+      "twitter": "https://twitter.com/TriumvirateEnv",
+      "facebook": "https://www.facebook.com/TriumvirateEnv"
+    },
+    "company_info": {
+      "founded": "1990",
+      "employees": "500-1000",
+      "revenue": "$100M+",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:08.018164",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669548"
+  },
+  {
+    "_id": "clean-harbors",
+    "name": "Clean Harbors",
+    "url": "https://www.cleanharbors.com",
+    "type": "cleaning_service",
+    "description": "Leading provider of environmental and industrial services, including hazardous waste management, lab decommissioning, and emergency response.",
+    "contact": {
+      "emails": [
+        "info@cleanharbors.com",
+        "customerservice@cleanharbors.com"
+      ],
+      "phones": [
+        "800.645.8265"
+      ],
+      "address": "42 Pine St, Norwell, MA 02061",
+      "city": "Norwell",
+      "state": "MA",
+      "zip": "02061",
+      "country": "USA"
+    },
+    "services": [
+      "Hazardous waste",
+      "Lab decommissioning",
+      "Chemical cleaning",
+      "Emergency spill response"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/clean-harbors",
+      "twitter": "https://twitter.com/CleanHarbors",
+      "facebook": "https://www.facebook.com/cleanharbors"
+    },
+    "company_info": {
+      "founded": "1980",
+      "employees": "10000+",
+      "revenue": "$4B+",
+      "ticker": "CLH",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:08.333661",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669601"
+  },
+  {
+    "_id": "veolia-north-america",
+    "name": "Veolia North America",
+    "url": "https://www.veolianorthamerica.com",
+    "type": "cleaning_service",
+    "description": "Global leader in environmental services, providing water treatment, waste management, and lab cleaning services across North America.",
+    "contact": {
+      "emails": [
+        "info@veoliana.com",
+        "customer.service@veoliana.com"
+      ],
+      "phones": [],
+      "address": "200 Andover St, Danvers, MA 01923",
+      "city": "Danvers",
+      "state": "MA",
+      "zip": "01923",
+      "country": "USA"
+    },
+    "services": [
+      "Waste management",
+      "Lab cleaning",
+      "Environmental compliance",
+      "Water treatment"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/veolia-north-america",
+      "twitter": "https://twitter.com/VeoliaNA",
+      "facebook": "https://www.facebook.com/VeoliaNorthAmerica"
+    },
+    "company_info": {
+      "founded": "1853",
+      "employees": "10000+",
+      "revenue": "$10B+",
+      "ticker": "",
+      "parent_company": "Veolia Environnement (France)",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:09.136384",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669616"
+  },
+  {
+    "_id": "steris",
+    "name": "STERIS",
+    "url": "https://www.steris.com",
+    "type": "sterilization",
+    "description": "Leading provider of infection prevention, contamination control, and sterilization products and services for laboratories and healthcare facilities.",
+    "contact": {
+      "emails": [
+        "info@steris.com",
+        "customerservice@steris.com"
+      ],
+      "phones": [
+        "440.354.2600"
+      ],
+      "address": "5960 Heisley Rd, Mentor, OH 44060",
+      "city": "Mentor",
+      "state": "OH",
+      "zip": "44060",
+      "country": "USA"
+    },
+    "services": [
+      "Lab sterilization",
+      "Equipment sterilization",
+      "Infection control",
+      "Validation services"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/steris",
+      "twitter": "https://twitter.com/STERIS",
+      "facebook": "https://www.facebook.com/STERISplc"
+    },
+    "company_info": {
+      "founded": "1987",
+      "employees": "5000+",
+      "revenue": "$3B+",
+      "ticker": "STE",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:09.608306",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669628"
+  },
+  {
+    "_id": "ecolab",
+    "name": "Ecolab",
+    "url": "https://www.ecolab.com",
+    "type": "cleaning_products",
+    "description": "Global leader in water, hygiene, and infection prevention solutions, providing cleaning products and sanitization services for laboratories.",
+    "contact": {
+      "emails": [
+        "info@ecolab.com",
+        "customerservice@ecolab.com"
+      ],
+      "phones": [],
+      "address": "1 Ecolab Pl, St. Paul, MN 55102",
+      "city": "St. Paul",
+      "state": "MN",
+      "zip": "55102",
+      "country": "USA"
+    },
+    "services": [
+      "Lab cleaning products",
+      "Sanitization",
+      "Water systems",
+      "Infection prevention"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/ecolab",
+      "twitter": "https://twitter.com/ecolab",
+      "facebook": "https://www.facebook.com/Ecolab"
+    },
+    "company_info": {
+      "founded": "1923",
+      "employees": "45000+",
+      "revenue": "$14B+",
+      "ticker": "ECL",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669656"
+  },
+  {
+    "_id": "diversey",
+    "name": "Diversey",
+    "url": "https://www.diversey.com",
+    "type": "cleaning_products",
+    "description": "Global provider of cleaning and hygiene solutions, specializing in infection prevention and environmental services for laboratories and healthcare.",
+    "contact": {
+      "emails": [
+        "info@diversey.com",
+        "customerservice@diversey.com"
+      ],
+      "phones": [],
+      "address": "2325 Wauer Rd, Allentown, PA 18104",
+      "city": "Allentown",
+      "state": "PA",
+      "zip": "18104",
+      "country": "USA"
+    },
+    "services": [
+      "Cleaning chemicals",
+      "Lab hygiene",
+      "Training",
+      "Equipment"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/diversey",
+      "twitter": "https://twitter.com/Diversey",
+      "facebook": "https://www.facebook.com/Diversey"
+    },
+    "company_info": {
+      "founded": "1923",
+      "employees": "3000+",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "Solentand Capital",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669668"
+  },
+  {
+    "_id": "sealed-air",
+    "name": "Sealed Air",
+    "url": "https://www.sealedair.com",
+    "type": "cleaning_products",
+    "description": "Cleaning and sanitization products",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Sanitization",
+      "Cleaning systems",
+      "Food safety",
+      "Lab hygiene"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:10.345451",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "2026-02-19T07:33:31",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669680"
+  },
+  {
+    "_id": "stericycle",
+    "name": "Stericycle",
+    "url": "https://www.stericycle.com",
+    "type": "waste_management",
+    "description": "Leading provider of medical waste management, sharps disposal, and compliance solutions for laboratories and healthcare facilities.",
+    "contact": {
+      "emails": [
+        "info@stericycle.com",
+        "customerservice@stericycle.com"
+      ],
+      "phones": [],
+      "address": "1450 American Ln, Bannockburn, IL 60015",
+      "city": "Bannockburn",
+      "state": "IL",
+      "zip": "60015",
+      "country": "USA"
+    },
+    "services": [
+      "Waste disposal",
+      "Sharps disposal",
+      "Lab waste",
+      "Compliance solutions"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/stericycle",
+      "twitter": "https://twitter.com/Stericycle",
+      "facebook": "https://www.facebook.com/Stericycle"
+    },
+    "company_info": {
+      "founded": "1989",
+      "employees": "15000+",
+      "revenue": "$3B+",
+      "ticker": "SRCL",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:10.490587",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669691"
+  },
+  {
+    "_id": "sharps-compliance",
+    "name": "Sharps Compliance",
+    "url": "https://www.sharpsinc.com",
+    "type": "waste_management",
+    "description": "Medical waste management solutions",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "800.772.5657"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Waste disposal",
+      "Mail-back programs",
+      "Pharmaceutical waste",
+      "Lab waste"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:11.526880",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "2026-02-19T07:33:36",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669701"
+  },
+  {
+    "_id": "daniels-health",
+    "name": "Daniels Health",
+    "url": "https://danielshealth.com",
+    "type": "waste_management",
+    "description": "Healthcare safety company providing sharps disposal, medical waste management, and laboratory waste solutions.",
+    "contact": {
+      "emails": [
+        "info@danielshealth.com",
+        "customerservice@danielshealth.com"
+      ],
+      "phones": [
+        "888 952 5580"
+      ],
+      "address": "1400 American Ln, Bannockburn, IL 60015",
+      "city": "Bannockburn",
+      "state": "IL",
+      "zip": "60015",
+      "country": "USA"
+    },
+    "services": [
+      "Sharps disposal",
+      "Lab waste",
+      "Waste containers",
+      "Sustainable solutions"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/daniels-health",
+      "twitter": "https://twitter.com/DanielsHealth",
+      "facebook": "https://www.facebook.com/DanielsHealth"
+    },
+    "company_info": {
+      "founded": "1955",
+      "employees": "500+",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "Sharps Compliance",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:12.029476",
+      "enriched_at": "2026-02-19T07:32:56",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669711"
+  },
+  {
+    "_id": "republic-services",
+    "name": "Republic Services",
+    "url": "https://www.republicservices.com",
+    "type": "waste_management",
+    "description": "Environmental services including lab waste",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Waste disposal",
+      "Recycling",
+      "Lab waste services",
+      "Sustainability"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:12.300854",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:33:41",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669720"
+  },
+  {
+    "_id": "waste-management",
+    "name": "Waste Management",
+    "url": "https://www.wm.com",
+    "type": "waste_management",
+    "description": "Comprehensive waste services including labs",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Hazardous waste",
+      "Lab disposal",
+      "Environmental services",
+      "Compliance"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:12.691032",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:33:46",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669729"
+  },
+  {
+    "_id": "kimberly-clark-professional",
+    "name": "Kimberly-Clark Professional",
+    "url": "https://www.kcprofessional.com",
+    "type": "cleaning_products",
+    "description": "Lab cleaning and safety products",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Wipes",
+      "Cleaning products",
+      "PPE",
+      "Lab supplies"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:12.896214",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:33:51",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669738"
+  },
+  {
+    "_id": "3m-health-care",
+    "name": "3M Health Care",
+    "url": "https://www.3m.com/3M/en_US/healthcare/",
+    "type": "cleaning_products",
+    "description": "Healthcare and lab cleaning products",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Disinfectants",
+      "Cleaning solutions",
+      "Infection control",
+      "Lab supplies"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:13.231571",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:33:56",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669747"
+  },
+  {
+    "_id": "cloroxpro",
+    "name": "CloroxPro",
+    "url": "https://www.cloroxpro.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning and disinfection brand providing laboratory-grade sanitizers, disinfectants, and cleaning solutions.",
+    "contact": {
+      "emails": [
+        "info@cloroxpro.com",
+        "professional@clorox.com"
+      ],
+      "phones": [
+        "888-797-7225"
+      ],
+      "address": " PO Box 24305, Oakland, CA 94623",
+      "city": "Oakland",
+      "state": "CA",
+      "zip": "94623",
+      "country": "USA"
+    },
+    "services": [
+      "Disinfectants",
+      "Cleaners",
+      "Lab sanitation",
+      "Training"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/clorox",
+      "twitter": "https://twitter.com/CloroxPro"
+    },
+    "company_info": {
+      "founded": "1913",
+      "employees": "9000+",
+      "revenue": "$7B+",
+      "ticker": "CLX",
+      "parent_company": "The Clorox Company",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:13.571450",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669764"
+  },
+  {
+    "_id": "betco",
+    "name": "Betco",
+    "url": "https://www.betco.com",
+    "type": "cleaning_products",
+    "description": "Professional cleaning solutions",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "877-856-5954",
+        "888-462-3826"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Cleaning chemicals",
+      "Disinfectants",
+      "Training",
+      "Equipment"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:14.003856",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:34:01",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669794"
+  },
+  {
+    "_id": "abc-laboratories",
+    "name": "ABC Laboratories",
+    "url": "https://www.abclabs.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analytical services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Analytical testing",
+      "Lab services",
+      "Research",
+      "Testing"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:14.750929",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:34:06",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669803"
+  },
+  {
+    "_id": "eurofins-scientific",
+    "name": "Eurofins Scientific",
+    "url": "https://www.eurofinsus.com",
+    "type": "analytical_lab",
+    "description": "Lab testing and analysis",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Analytical services",
+      "Research",
+      "Quality control"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:15.135954",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:34:11",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669812"
+  },
+  {
+    "_id": "als-limited",
+    "name": "ALS Limited",
+    "url": "https://www.alsglobal.com",
+    "type": "analytical_lab",
+    "description": "Laboratory testing services",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "281-575-2290",
+        "+1 281-575-2290"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Environmental testing",
+      "Food testing",
+      "Forensics"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:15.525144",
+      "enriched_at": "2026-02-19T07:32:57",
+      "auto_enriched_at": "2026-02-19T07:34:16",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669820"
+  },
+  {
+    "_id": "nsf-international",
+    "name": "NSF International",
+    "url": "https://www.nsf.org",
+    "type": "testing_certification",
+    "description": "Lab testing and certification",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab certification",
+      "Testing",
+      "Standards",
+      "Audits"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:15.753394",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669829"
+  },
+  {
+    "_id": "ul-solutions",
+    "name": "UL Solutions",
+    "url": "https://www.ul.com",
+    "type": "testing_certification",
+    "description": "Safety testing and certification",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Certification",
+      "Safety testing",
+      "Standards"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:15.913387",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669838"
+  },
+  {
+    "_id": "intertek",
+    "name": "Intertek",
+    "url": "https://www.intertek.com",
+    "type": "testing_certification",
+    "description": "Quality and safety testing",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "800 967 5352"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Assurance"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:16.259719",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669846"
+  },
+  {
+    "_id": "sgs",
+    "name": "SGS",
+    "url": "https://www.sgs.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Verification"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:16.903029",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669855"
+  },
+  {
+    "_id": "bureau-veritas",
+    "name": "Bureau Veritas",
+    "url": "https://www.bureauveritas.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Compliance"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:17.856632",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669864"
+  },
+  {
+    "_id": "noxilico",
+    "name": "Noxilico",
+    "url": "https://www.noxilico.com",
+    "type": "lab_decommissioning",
+    "description": "Specialized laboratory decontamination and decommissioning company serving pharmaceutical, biotech, and research laboratories across North America.",
+    "contact": {
+      "emails": [
+        "info@noxilico.com",
+        "contact@noxilico.com"
+      ],
+      "phones": [],
+      "address": "750 Rue de l'industrie, Saint-Jean-sur-Richelieu, QC J3B 6X9",
+      "city": "Saint-Jean-sur-Richelieu",
+      "state": "QC",
+      "zip": "J3B 6X9",
+      "country": "Canada"
+    },
+    "services": [
+      "Lab decommissioning",
+      "Decontamination",
+      "Chemical clearance",
+      "Equipment disposal"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/noxilico"
+    },
+    "company_info": {
+      "founded": "2003",
+      "employees": "50-100",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669880"
+  },
+  {
+    "_id": "chemistry-rx",
+    "name": "Chemistry Rx",
+    "url": "https://www.chemistryrx.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "contact": {
+      "emails": [
+        "info@chemistryrx.com"
+      ],
+      "phones": [
+        "267-861-0862",
+        "(855) 790-0100"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab equipment",
+      "Glassware cleaning",
+      "Sterilization",
+      "Calibration"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:18.316806",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669889"
+  },
+  {
+    "_id": "avantor-services",
+    "name": "Avantor Services",
+    "url": "https://avantorsciences.com",
+    "type": "lab_services",
+    "description": "Lab services and solutions",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab equipment",
+      "Cleaning validation",
+      "Calibration",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:18.861107",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669898"
+  },
+  {
+    "_id": "thermo-fisher-scientific-services",
+    "name": "Thermo Fisher Scientific Services",
+    "url": "https://www.thermofisher.com",
+    "type": "lab_services",
+    "description": "Lab equipment and service",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "1771485018"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Equipment service",
+      "Calibration",
+      "Validation",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:19.039456",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669914"
+  },
+  {
+    "_id": "agilent-crosslab",
+    "name": "Agilent CrossLab",
+    "url": "https://www.agilent.com",
+    "type": "lab_services",
+    "description": "Lab instrument services",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "1771485019"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Instrument service",
+      "Calibration",
+      "Training",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:19.179175",
+      "enriched_at": "2026-02-19T07:32:58",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669922"
+  },
+  {
+    "_id": "waters-corporation-services",
+    "name": "Waters Corporation Services",
+    "url": "https://www.waters.com",
+    "type": "lab_services",
+    "description": "Chromatography system services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Instrument service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669940"
+  },
+  {
+    "_id": "shimadzu-scientific-instruments",
+    "name": "Shimadzu Scientific Instruments",
+    "url": "https://www.ssi.shimadzu.com",
+    "type": "lab_services",
+    "description": "Analytical instrument services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Calibration"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:19.517484",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669950"
+  },
+  {
+    "_id": "perkinelmer-services",
+    "name": "PerkinElmer Services",
+    "url": "https://www.perkinelmer.com",
+    "type": "lab_services",
+    "description": "Lab equipment and services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Instrument service",
+      "Applications support",
+      "Training",
+      "Validation"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:19.856942",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669958"
+  },
+  {
+    "_id": "beckman-coulter-life-sciences",
+    "name": "Beckman Coulter Life Sciences",
+    "url": "https://www.beckmancoulter.com",
+    "type": "lab_services",
+    "description": "Centrifuge and lab services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Preventive maintenance",
+      "Training",
+      "Validation"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:20.520316",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669967"
+  },
+  {
+    "_id": "bio-rad-laboratories-services",
+    "name": "Bio-Rad Laboratories Services",
+    "url": "https://www.bio-rad.com",
+    "type": "lab_services",
+    "description": "Life science equipment service",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "1771485020"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:20.681428",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669976"
+  },
+  {
+    "_id": "eppendorf-service",
+    "name": "Eppendorf Service",
+    "url": "https://www.eppendorf.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Calibration",
+      "Training",
+      "Repair"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:21.212580",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.669992"
+  },
+  {
+    "_id": "sartorius-services",
+    "name": "Sartorius Services",
+    "url": "https://www.sartorius.com",
+    "type": "lab_services",
+    "description": "Lab and bioprocess services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:21.493745",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670001"
+  },
+  {
+    "_id": "metler-toledo-service",
+    "name": "Metler Toledo Service",
+    "url": "https://www.mt.com",
+    "type": "lab_services",
+    "description": "Lab balance and scale service",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Calibration",
+      "Service",
+      "Training",
+      "Validation"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:21.674035",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670016"
+  },
+  {
+    "_id": "cytiva",
+    "name": "Cytiva",
+    "url": "https://www.cytiva.com",
+    "type": "lab_services",
+    "description": "Bioprocessing lab services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Validation",
+      "Training",
+      "Applications"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:22.277063",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670024"
+  },
+  {
+    "_id": "danaher",
+    "name": "Danaher",
+    "url": "https://www.danaher.com",
+    "type": "lab_services",
+    "description": "Lab diagnostics and services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Support",
+      "Training",
+      "Applications"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:22.675533",
+      "enriched_at": "2026-02-19T07:32:59",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670032"
+  },
+  {
+    "_id": "labconco",
+    "name": "Labconco",
+    "url": "https://www.labconco.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and lab equipment",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Certification"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:23.030885",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670047"
+  },
+  {
+    "_id": "nuaire",
+    "name": "NuAire",
+    "url": "https://www.nuaire.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "763-553-1270"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:23.822670",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670055"
+  },
+  {
+    "_id": "the-baker-company",
+    "name": "The Baker Company",
+    "url": "https://www.bakerco.com",
+    "type": "equipment_manufacturer",
+    "description": "Biological safety cabinets",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Equipment",
+      "Installation",
+      "Certification",
+      "Service"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:24.867678",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670065"
+  },
+  {
+    "_id": "air-science",
+    "name": "Air Science",
+    "url": "https://www.airscience.com",
+    "type": "equipment_manufacturer",
+    "description": "Fume hoods and enclosures",
+    "contact": {
+      "emails": [
+        "info@airscience.com"
+      ],
+      "phones": [
+        "(239) 489-0024",
+        "239.489.0024"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Equipment",
+      "Installation",
+      "Service",
+      "Filters"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:25.428913",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670073"
+  },
+  {
+    "_id": "bertsche",
+    "name": "Bertsche",
+    "url": "https://www.bertsche.com",
+    "type": "lab_decommissioning",
+    "description": "Lab relocation and decommissioning",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab relocation",
+      "Decommissioning",
+      "Decontamination",
+      "Moving"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:25.689683",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670081"
+  },
+  {
+    "_id": "h+h-laboratory-services",
+    "name": "H+H Laboratory Services",
+    "url": "https://hhlab.com",
+    "type": "lab_services",
+    "description": "Lab equipment service",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Service",
+      "Repair",
+      "Calibration",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670097"
+  },
+  {
+    "_id": "genvault",
+    "name": "GenVault",
+    "url": "https://www.genvault.com",
+    "type": "lab_services",
+    "description": "Sample management services",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Tracking"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:26.711755",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670106"
+  },
+  {
+    "_id": "brooks-life-sciences",
+    "name": "Brooks Life Sciences",
+    "url": "https://www.brooks.com",
+    "type": "lab_services",
+    "description": "Sample management and automation",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Automation",
+      "Sample management",
+      "Storage",
+      "Tracking"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:27.035868",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670121"
+  },
+  {
+    "_id": "azenta-life-sciences",
+    "name": "Azenta Life Sciences",
+    "url": "https://www.azenta.com",
+    "type": "lab_services",
+    "description": "Sample management and storage",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Biobanking",
+      "Sample storage",
+      "Cold chain",
+      "Software"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:27.973283",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670130"
+  },
+  {
+    "_id": "hamilton-company",
+    "name": "Hamilton Company",
+    "url": "https://www.hamiltoncompany.com",
+    "type": "automation",
+    "description": "Lab automation and liquid handling",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:28.136676",
+      "enriched_at": "2026-02-19T07:33:00",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670144"
+  },
+  {
+    "_id": "tecan",
+    "name": "Tecan",
+    "url": "https://www.tecan.com",
+    "type": "automation",
+    "description": "Lab automation",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Automation",
+      "Liquid handling",
+      "Service",
+      "Applications"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:29.392877",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670153"
+  },
+  {
+    "_id": "perkinelmer-informatics",
+    "name": "PerkinElmer Informatics",
+    "url": "https://www.perkinelmerinformatics.com",
+    "type": "software",
+    "description": "Lab information management",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "LIMS",
+      "Software",
+      "Training",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:30.835242",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670161"
+  },
+  {
+    "_id": "labware",
+    "name": "LabWare",
+    "url": "https://www.labware.com",
+    "type": "software",
+    "description": "LIMS and laboratory software",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "LIMS",
+      "Software",
+      "Implementation",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:32.850804",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670274"
+  },
+  {
+    "_id": "thermo-fisher-samplemanager",
+    "name": "Thermo Fisher SampleManager",
+    "url": "https://www.thermofisher.com",
+    "type": "software",
+    "description": "LIMS software",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "1771485032"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "LIMS",
+      "Software",
+      "Implementation",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:33.007149",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670283"
+  },
+  {
+    "_id": "agilent-openlab",
+    "name": "Agilent OpenLAB",
+    "url": "https://www.agilent.com",
+    "type": "software",
+    "description": "Lab software solutions",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "1771485033"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Software",
+      "ELN",
+      "LIMS",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:33.206606",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670293"
+  },
+  {
+    "_id": "waters-nugenesis",
+    "name": "Waters NuGenesis",
+    "url": "https://www.waters.com",
+    "type": "software",
+    "description": "Lab data management",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Software",
+      "LIMS",
+      "SDMS",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670309"
+  },
+  {
+    "_id": "biovia",
+    "name": "BIOVIA",
+    "url": "https://www.3ds.com/products-services/biovia",
+    "type": "software",
+    "description": "Scientific software",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "ELN",
+      "LIMS",
+      "Software",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:35.326187",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670318"
+  },
+  {
+    "_id": "idbs",
+    "name": "IDBS",
+    "url": "https://www.idbs.com",
+    "type": "software",
+    "description": "Bioinformatics software",
+    "contact": {
+      "emails": [],
+      "phones": [
+        "+1 781 272 3355",
+        "781 272 3355"
+      ],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Software",
+      "ELN",
+      "Biobanking",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:36.242165",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670333"
+  },
+  {
+    "_id": "labguru",
+    "name": "Labguru",
+    "url": "https://www.labguru.com",
+    "type": "software",
+    "description": "Lab management platform",
+    "contact": {
+      "emails": [
+        "info@biodata.com"
+      ],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Software",
+      "ELN",
+      "Inventory",
+      "Training"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:36.450832",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670342"
+  },
+  {
+    "_id": "benchling",
+    "name": "Benchling",
+    "url": "https://www.benchling.com",
+    "type": "software",
+    "description": "Lab informatics platform",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Software",
+      "ELN",
+      "LIMS",
+      "Support"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:36.682482",
+      "enriched_at": "2026-02-19T07:33:01",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670374"
+  },
+  {
+    "_id": "science-exchange",
+    "name": "Science Exchange",
+    "url": "https://www.scienceexchange.com",
+    "type": "marketplace",
+    "description": "Lab service marketplace",
+    "contact": {
+      "emails": [
+        "info@scienceexchange.com"
+      ],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Testing",
+      "Research"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:36.984015",
+      "enriched_at": "2026-02-19T07:33:02",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670390"
+  },
+  {
+    "_id": "-scientist.com",
+    "name": " Scientist.com",
+    "url": "https://www.scientist.com",
+    "type": "marketplace",
+    "description": "Research marketplace",
+    "contact": {
+      "emails": [],
+      "phones": [],
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "country": "USA"
+    },
+    "services": [
+      "Lab services",
+      "Outsourcing",
+      "Research",
+      "Testing"
+    ],
+    "social_media": {},
+    "company_info": {
+      "founded": "",
+      "employees": "",
+      "revenue": "",
+      "ticker": "",
+      "parent_company": "",
+      "certifications": []
+    },
+    "scraped": {
+      "at": "2026-02-19T07:10:37.455641",
+      "enriched_at": "2026-02-19T07:33:02",
+      "auto_enriched_at": "",
+      "deep_enriched_at": ""
+    },
+    "created_at": "2026-02-19T07:50:52.670399"
+  }
+]

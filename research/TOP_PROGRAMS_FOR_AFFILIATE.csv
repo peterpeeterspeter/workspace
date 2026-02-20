@@ -1,0 +1,15 @@
+school_name,program_name,tuition_total,tuition_per_credit,format,duration,total_credits,gmat_requirement,gre_accepted,accreditation,tier,program_url,confidence_score
+Iowa State University,Online MBA,$750,,Online,12 months,42,Required,No,AACSB,Tier 2,https://www.business.iastate.edu/online-mba,118.0
+University of Maryland,Online MBA,$1,,Online,24 months,,Required,No,AACSB,Tier 1,https://www.rhsmith.umd.edu/programs/online-mba,109.0
+University of the People,MBA,,$450,Online,18 years,18,,Yes,DEAC,Affordable,https://www.uopeople.edu/programs/mba,109.0
+Indiana University Bloomington,Kelley Direct Online MBA,,,Online,25 years,,Optional,No,AACSB,Top Tier,https://kd.iu.edu,100.0
+North Carolina State University,Online MBA,,,Online,21 months,,Required,Yes,AACSB,Tier 2,https://www.poole.ncsu.edu/mba/online,100.0
+University of North Carolina,MBA@UNC,,,Online,10 years,,,No,AACSB,Top Tier,https://onlinemba.unc.edu,91.0
+Western Governors University,MBA,"$3,830",,Online,,,,Yes,ACBSP,Affordable,https://www.wgu.edu/mba,91.0
+University of Edinburgh,Online MBA,,,Online,24 months,,,Yes,"AACSB,AMBA,EQUIS",International,https://www.business-school.ed.ac.uk/mba/online,91.0
+Southern Methodist University,Online MBA,,,Online,2024 semester,,,No,AACSB,Tier 1,https://www.cox.smu.edu/programs/online-mba,91.0
+University of Southern California,Online MBA,,,,12 months,,,No,AACSB,Top Tier,https://www.marshall.usc.edu/programs/online-mba,82.0
+Carnegie Mellon University,Online Hybrid MBA,,,Online,,,,No,AACSB,Top Tier,https://www.tepper.cmu.edu,82.0
+University of Texas at Dallas,Online MBA,,,Online,,,,No,AACSB,Top Tier,https://jindal.utdallas.edu/programs/online-mba,82.0
+Auburn University,Online MBA,,,Online,,,,No,AACSB,Tier 2,https://business.auburn.edu/online-mba,82.0
+HEC Paris,Online MBA,,,Online,,,,No,"AACSB,AMBA,EQUIS",International,https://www.hec.fr/en/programs/mba/online,82.0

@@ -1,0 +1,38 @@
+{
+  "total_suppliers": 61,
+  "by_type": {
+    "cleaning_service": 3,
+    "sterilization": 1,
+    "cleaning_products": 7,
+    "waste_management": 5,
+    "analytical_lab": 3,
+    "testing_certification": 5,
+    "lab_decommissioning": 2,
+    "lab_services": 18,
+    "equipment_manufacturer": 4,
+    "automation": 2,
+    "software": 9,
+    "marketplace": 2
+  },
+  "by_state": {
+    "MA": 3,
+    "OH": 1,
+    "MN": 1,
+    "PA": 1,
+    "IL": 2,
+    "CA": 1,
+    "QC": 1
+  },
+  "contact_coverage": {
+    "with_email": 14,
+    "with_phone": 18,
+    "with_address": 10,
+    "with_social": 10
+  },
+  "company_data": {
+    "with_founded": 10,
+    "with_employees": 10,
+    "with_revenue": 7,
+    "public_companies": 5
+  }
+}

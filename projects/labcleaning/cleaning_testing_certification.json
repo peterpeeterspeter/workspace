@@ -1,0 +1,89 @@
+[
+  {
+    "name": "NSF International",
+    "url": "https://www.nsf.org",
+    "type": "testing_certification",
+    "description": "Lab testing and certification",
+    "services": [
+      "Lab certification",
+      "Testing",
+      "Standards",
+      "Audits"
+    ],
+    "title": "NSF | The Public Health and Safety Organization",
+    "meta_description": "NSF, a trusted authority for health standards, testing, certification, and consulting, enhances global human health with public safety standards and\u2026",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:15.753394"
+  },
+  {
+    "name": "UL Solutions",
+    "url": "https://www.ul.com",
+    "type": "testing_certification",
+    "description": "Safety testing and certification",
+    "services": [
+      "Lab testing",
+      "Certification",
+      "Safety testing",
+      "Standards"
+    ],
+    "title": "UL Solutions",
+    "meta_description": "UL Solutions is a global independent safety science company with more than a century of expertise innovating safety solutions.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:15.913387"
+  },
+  {
+    "name": "Intertek",
+    "url": "https://www.intertek.com",
+    "type": "testing_certification",
+    "description": "Quality and safety testing",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Assurance"
+    ],
+    "title": "Intertek",
+    "meta_description": "",
+    "emails": [],
+    "phones": [
+      "800 967 5352"
+    ],
+    "scraped_at": "2026-02-19T07:10:16.259719"
+  },
+  {
+    "name": "SGS",
+    "url": "https://www.sgs.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Verification"
+    ],
+    "title": "SGS | We are the world&#x27;s leading Testing, Inspection and Certification company.",
+    "meta_description": "We are the world&#x27;s leading Testing, Inspection and Certification company.",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:16.903029"
+  },
+  {
+    "name": "Bureau Veritas",
+    "url": "https://www.bureauveritas.com",
+    "type": "testing_certification",
+    "description": "Testing, inspection and certification",
+    "services": [
+      "Lab testing",
+      "Inspection",
+      "Certification",
+      "Compliance"
+    ],
+    "title": "Home | Bureau Veritas",
+    "meta_description": "",
+    "emails": [],
+    "phones": [],
+    "scraped_at": "2026-02-19T07:10:17.856632"
+  }
+]

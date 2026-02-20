@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-17T07:27:52.644221",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "gratis breipatronen",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0564 sec.",
+    "cost": 0.0,
+    "tasks_count": 1,
+    "tasks_error": 1,
+    "tasks": [
+      {
+        "id": "02170927-8420-0399-0000-263e0250453c",
+        "status_code": 40501,
+        "status_message": "Invalid Field: 'language_name'.",
+        "time": "0 sec.",
+        "cost": 0.0,
+        "result_count": 0,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "gratis breipatronen",
+          "location_name": "Netherlands",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "include_clickstream_data": null,
+          "exact_match": null,
+          "ignore_synonyms": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "offset_token": null,
+          "tag": null
+        }
+      }
+    ]
+  }
+}
