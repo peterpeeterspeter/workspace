@@ -397,3 +397,58 @@ Use socratic prompting for complex/strategic tasks. Start with one prompt today:
 - Source: user_feedback (Ryan Lazuka @lazukars Twitter thread)
 - Tags: prompting, strategic-thinking, expert-perspective, question-stacking, ai-collaboration
 - See Also: LRN-20250213-003 (skill files criticality)
+
+---
+
+## [LRN-20260220-010] integration
+
+**Logged:** 2026-02-20T19:45:00Z
+**Priority:** low
+**Status:** pending
+**Area:** infra
+
+### Summary
+Tavily Search offers AI-synthesized answers vs. raw search results
+
+### Details
+Installed Tavily Search skill (arun-8687/tavily-search) which provides AI-generated answers to queries, not just search result listings.
+
+**Key difference:**
+- **web_search (Brave):** Returns titles, URLs, snippets (raw results)
+- **Tavily:** Returns AI-synthesized answer + search results (clean, optimized for LLMs)
+
+**Example output:**
+```json
+{
+  "answer": "AI-generated summary synthesizing all results",
+  "results": [
+    {
+      "title": "Page Title",
+      "url": "https://example.com",
+      "content": "Extracted and cleaned content",
+      "score": 0.98
+    }
+  ]
+}
+```
+
+**When to use:**
+- Complex research queries (need synthesis)
+- Want cleaner content extraction
+- Need automatic citations
+- Major decision research
+
+**When to use web_search:**
+- Quick searches
+- No API setup needed
+- Simple result listings
+
+### Suggested Action
+Use Tavily for research-heavy tasks (competitor analysis, technology research, trend analysis). Use web_search for quick lookups.
+
+### Metadata
+- Source: integration
+- Related Files: skills/tavily-search/SKILL.md
+- Tags: search, ai, research, integration, tavily
+- See Also: LRN-20250213-005 (Batch API - also about OpenAI/Tavily APIs)
+
