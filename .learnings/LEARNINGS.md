@@ -452,3 +452,62 @@ Use Tavily for research-heavy tasks (competitor analysis, technology research, t
 - Tags: search, ai, research, integration, tavily
 - See Also: LRN-20250213-005 (Batch API - also about OpenAI/Tavily APIs)
 
+
+---
+
+## [LRN-20260220-011] integration
+
+**Logged:** 2026-02-20T19:50:00Z
+**Priority:** low
+**Status:** pending
+**Area:** infra
+
+### Summary
+Agent Browser: Headless automation CLI vs OpenClaw browser tool
+
+### Details
+Installed Agent Browser skill (TheSethRose/agent-browser v0.2.0) - a Rust-based headless browser automation CLI.
+
+**Key difference from OpenClaw browser tool:**
+- **agent-browser:** Headless automation, ref-based elements (@e1, @e2), CLI-driven, Playwright backend
+- **OpenClaw browser:** Chrome CDP, tab attachment with Browser Relay, role/name refs, interactive
+
+**agent-browser workflow:**
+```bash
+agent-browser open <url>
+agent-browser snapshot -i  # Get refs like @e1, @e2
+agent-browser click @e1
+agent-browser fill @e2 "text"
+agent-browser close
+```
+
+**Use cases:**
+- Form automation (fill, submit, extract results)
+- Data extraction (scrape structured data from pages)
+- Headless testing (no GUI needed)
+- Video recording of actions
+- Programmatic navigation
+
+**When to use agent-browser:**
+- Headless browser automation
+- Need ref-based element interaction
+- Video recording of actions
+- Programmatic form filling
+- Background automation tasks
+
+**When to use OpenClaw browser:**
+- Attaching to existing browser tabs
+- Browser Relay extension
+- Visual debugging
+- Interactive testing
+- User-facing demos
+
+### Suggested Action
+Use agent-browser for background automation and data extraction. Use OpenClaw browser for interactive tasks and browser relay.
+
+### Metadata
+- Source: integration
+- Related Files: skills/agent-browser/SKILL.md
+- Tags: browser, automation, headless, cli, playwright
+- See Also: LRN-20260220-010 (Tavily - also about integration decisions)
+
