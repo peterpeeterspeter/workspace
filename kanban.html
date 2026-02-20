@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; }
+        .header { padding: 20px; border-bottom: 1px solid #30363d; }
+        .header h1 { font-size: 24px; }
+        .board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px; }
+        .column { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; }
+        .column h2 { font-size: 16px; margin-bottom: 16px; }
+        .task { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 12px; margin-bottom: 8px; cursor: move; }
+        .task h3 { font-size: 14px; margin-bottom: 4px; }
+        .task p { font-size: 12px; color: #8b949e; }
+        .add-btn { background: #238636; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎛️ Mission Control</h1>
+    </div>
+    <div class="board">
+        <div class="column" id="todo">
+            <h2>📋 To Do</h2>
+            <div class="task">
+                <h3>Example Task</h3>
+                <p>Description here</p>
+            </div>
+            <button class="add-btn" onclick="addTask('todo')">+ Add Task</button>
+        </div>
+        <div class="column" id="inprogress">
+            <h2>🚧 In Progress</h2>
+            <button class="add-btn" onclick="addTask('inprogress')">+ Add Task</button>
+        </div>
+        <div class="column" id="done">
+            <h2>✅ Done</h2>
+            <button class="add-btn" onclick="addTask('done')">+ Add Task</button>
+        </div>
+    </div>
+    <script>
+        function addTask(columnId) {
+            const column = document.getElementById(columnId);
+            const task = document.createElement('div');
+            task.className = 'task';
+            task.innerHTML = '<h3>New Task</h3><p>Click to edit</p>';
+            task.draggable = true;
+            column.insertBefore(task, column.lastElementChild);
+        }
+    </script>
+</body>
+</html>
