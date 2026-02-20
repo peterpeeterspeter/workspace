@@ -1271,3 +1271,183 @@ python3 /root/.openclaw/workspace/skills/humanize-ai-text/scripts/compare.py doc
 **Git Commit:** e0c7594f, 11f73213
 **Status:** ✅ Fully operational and ready to use
 
+
+---
+
+## 🦞 Proactive Agent Skill Installation
+
+**Time:** 2026-02-20 20:46 UTC
+**Request:** User uploaded ZIP file and requested "install skill"
+**Source:** ClawHub (halthelobster/proactive-agent v3.1.0)
+**Status:** ✅ INSTALLED, CONFIGURED, AND READY
+
+**What Was Installed:**
+Proactive Agent skill from ClawHub (halthelobster/proactive-agent v3.1.0)
+Comprehensive architecture for creating proactive, persistent, self-improving AI agents.
+
+**Installation Complete:**
+1. ✅ Skill files extracted from ZIP (uploaded by user)
+2. ✅ All assets and scripts included
+3. ✅ README created (8.6 KB)
+4. ✅ ONBOARDING.md copied to workspace
+5. ✅ Scripts made executable
+6. ✅ Security audit script ready
+
+**Three Pillars:**
+
+**1. Proactive - Creates value without being asked**
+- Anticipates needs before they're expressed
+- Reverse prompting (surfaces ideas you didn't know to ask for)
+- Proactive check-ins on what matters
+- Builds leverage without being asked
+- Thinks like an owner, not an employee
+
+**2. Persistent - Survives context loss**
+- WAL Protocol (Write-Ahead Logging) for critical details
+- Working Buffer (captures exchanges during compaction)
+- Compaction Recovery (step-by-step recovery after context truncation)
+- Unified Search (search all sources before "I don't know")
+
+**3. Self-Improving - Gets better over time**
+- Self-healing (fixes its own issues so it can focus on yours)
+- Relentless resourcefulness (tries 10 approaches before asking for help)
+- Safe evolution (guardrails prevent drift and complexity creep)
+- Security hardening (skill installation vetting, context leakage prevention)
+
+**WAL Protocol (Write-Ahead Logging):**
+
+**The Law:** Chat history is a BUFFER, not storage. SESSION-STATE.md is your "RAM" — the ONLY place specific details are safe.
+
+**SCAN EVERY MESSAGE FOR:**
+- ✏️ Corrections — "It's X, not Y" / "Actually..." / "No, I meant..."
+- 📍 Proper nouns — Names, places, companies, products
+- 🎨 Preferences — Colors, styles, approaches, "I like/don't like"
+- 📋 Decisions — "Let's do X" / "Go with Y" / "Use Z"
+- 📝 Draft changes — Edits to something we're working on
+- 🔢 Specific values — Numbers, dates, IDs, URLs
+
+**The Protocol:**
+1. **STOP** — Do not start composing your response
+2. **WRITE** — Update SESSION-STATE.md with the detail
+3. **THEN** — Respond to your human
+
+**The urge to respond is the enemy.** The detail feels so clear in context that writing it down seems unnecessary. But context will vanish. Write first.
+
+**Working Buffer Protocol:**
+
+**Purpose:** Capture EVERY exchange in the danger zone between memory flush and compaction.
+
+**How It Works:**
+1. **At 60% context** (check via session_status): CLEAR the old buffer, start fresh
+2. **Every message after 60%**: Append both human's message AND your response summary
+3. **After compaction**: Read the buffer FIRST, extract important context
+4. **Leave buffer as-is** until next 60% threshold
+
+**Memory Architecture:**
+
+| File | Purpose | Update Frequency |
+|------|---------|------------------|
+| SESSION-STATE.md | Active working memory (current task) | Every message with critical details |
+| memory/YYYY-MM-DD.md | Daily raw logs | During session |
+| MEMORY.md | Curated long-term wisdom | Periodically distill from daily logs |
+
+**Memory Search:** Use semantic search (memory_search) before answering questions about prior work. Don't guess — search.
+
+**The Rule:** If it's important enough to remember, write it down NOW — not later.
+
+**Onboarding System:**
+
+**When agent detects ONBOARDING.md with state: not_started or in_progress, it offers setup.**
+
+**Three Modes:**
+1. **Interactive mode** — Answer questions in one session (~10 min)
+2. **Drip mode** — Agent asks 1-2 questions naturally over several days
+3. **Skip for now** — Agent works immediately, learns from conversation
+
+**12 Core Questions:**
+1. Identity (name, timezone)
+2. Communication (style, pet peeves)
+3. Goals (primary, 1-year vision, ideal life)
+4. Work style (productivity, async vs real-time)
+5. Context (projects, key people)
+6. Agent preferences (personality)
+
+**After onboarding:** Agent auto-populates USER.md and SOUL.md from answers.
+
+**Security Features:**
+- Skill installation vetting
+- Agent network warnings (when other agents can access your workspace)
+- Context leakage prevention (what NOT to include in responses)
+- Security audit script: ./scripts/security-audit.sh
+
+**Core Workflows:**
+
+**Reverse Prompting:**
+Instead of waiting, ask: "What would genuinely delight my human that they haven't thought to ask for?"
+Build things your human didn't know they wanted.
+
+**Relentless Resourcefulness:**
+Before asking for help:
+1. Try 10 different approaches
+2. Document what you tried
+3. Only then escalate
+
+**Self-Improvement:**
+- Log learnings after each session
+- Fix your own issues
+- Evolve safely with guardrails
+
+**Autonomous vs Prompted Crons:**
+
+**Autonomous (systemEvent):**
+- Main session messages
+- Heartbeat checks
+- System notifications
+
+**Prompted (isolated agentTurn):**
+- Content generation
+- Research tasks
+- Creative work
+
+**Use Cases for Peter's Projects:**
+
+1. **Photostudio.io:**
+   - Proactive monitoring of rendering costs
+   - Anticipate pipeline optimization opportunities
+   - Track learned lessons from image generation
+
+2. **DeBadkamer.com:**
+   - Proactive lead generation optimization
+   - Learn from customer feedback patterns
+   - Continuous improvement of bathroom planning tools
+
+3. **Domain Portfolio:**
+   - Anticipate acquisition opportunities
+   - Track valuation learnings
+   - Proactive auction monitoring
+
+4. **General Operations:**
+   - Self-healing systems
+   - Continuous workflow improvement
+   - Persistent context across sessions
+
+**Files Created:**
+- SKILL.md (20.9 KB) - Complete documentation
+- README.md (8.6 KB) - Installation guide
+- assets/ONBOARDING.md - Setup tracker
+- assets/AGENTS.md - Operating rules, workflows
+- assets/SOUL.md - Agent identity, principles
+- assets/USER.md - Your context, goals, preferences
+- assets/MEMORY.md - Curated long-term wisdom
+- assets/SESSION-STATE.md - Active working memory
+- assets/HEARTBEAT.md - Self-improvement checklist
+- assets/TOOLS.md - Tool configurations, credentials
+- scripts/security-audit.sh - Security scanner
+- references/onboarding-flow.md - Onboarding system design
+- references/security-patterns.md - Security best practices
+
+**Git Commit:** 30babdb9, 1e1ec9b7
+**Status:** ✅ Fully operational and ready to use
+
+**To Start Onboarding:** Say "let's do onboarding" to begin interactive setup
+
