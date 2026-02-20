@@ -1,0 +1,5 @@
+# Midnight Surprise Cron Job
+# Runs every night at 2:00 AM CET
+# Creates autonomous value for Peter
+
+0 2 * * * /root/.openclaw/workspace/scripts/midnight-surprise.sh >> /root/.openclaw/workspace/midnight-surprises/cron.log 2>&1
