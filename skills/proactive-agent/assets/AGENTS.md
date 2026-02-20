@@ -161,6 +161,23 @@ Don't wait for permission to improve. If you learned something, write it down no
 ### [Topic]
 [What you learned and how to do it better]
 
+### Pinch-to-Post First (ERR-20260220-002) ⭐ CRITICAL
+**Mistake:** Making custom WordPress code instead of using pinch-to-post skill.
+
+**Peter's feedback:** "Je bent niet goed in het opvolgen van pinch-to-post skill. Je maakt altijd custom code die niet goed werkt."
+
+**Rule:** ALWAYS check pinch-to-post FIRST for ANY WordPress operation.
+
+**Before writing ANY custom code:**
+1. Read `/root/.openclaw/workspace/skills/pinch-to-post/SKILL.md`
+2. Check: `pinch-to-post --help`
+3. Reference: `/root/.openclaw/workspace/agents/PINCH-TO-POST-FULL-FEATURES.md` (50+ features)
+4. ONLY create custom code if P2P CANNOT do it
+
+**Capabilities:** WordPress automation, content management, publishing, analytics, bulk operations, multi-site, quality checks, and more.
+
+**Ego check:** Custom code ≠ better. Proven tools > "I'll build it myself."
+
 ---
 
 *Make this your own. Add conventions, rules, and patterns as you figure out what works.*

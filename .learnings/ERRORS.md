@@ -48,3 +48,67 @@ When Peter asked "what's planned for the next 24 hours", I only mentioned Midnig
 - Tags: cron, tasks, verification, completeness
 - See Also: ERR-20250213-001 (previous verification error - if exists)
 
+
+---
+
+## [ERR-20260220-002] pinch-to-post-misuse
+
+**Logged:** 2026-02-20T21:18:00Z
+**Severity:** high
+**Status:** active
+**Category:** tool-choice, quality
+
+### What Happened
+Peter feedback: "Je bent niet goed in het opvolgen van pinch-to-post skill. Je maakt altijd custom code die niet goed werkt."
+
+Translation: Not good at following pinch-to-post skill. Always making custom code that doesn't work properly.
+
+### Root Cause Analysis
+**Pattern:** Creating custom scripts/solutions instead of using established pinch-to-post workflows.
+
+**Why:**
+- Impulse to "build it myself" rather than use existing tools
+- Not fully understanding pinch-to-post capabilities (50+ features)
+- Underestimating complexity of WordPress operations
+- Ego/autonomy over proven solutions
+
+### Impact
+- Wasted time on custom code that breaks
+- Poor quality deliverables
+- Frustration for Peter
+- Ignoring established tools (P2P has tested workflows)
+
+### Corrective Action
+**Rule:** ALWAYS check pinch-to-post FIRST for ANY WordPress operation.
+
+**Before writing ANY custom code for WordPress:**
+1. Read pinch-to-post SKILL.md
+2. Check: `pinch-to-post --help` or check commands
+3. Search existing scripts in workspace for pinch-to-post usage
+4. Only create custom code if P2P CAN'T do it
+
+**Pinch-to-post capabilities (50+ features):**
+- WordPress automation (WP-CLI, REST API)
+- Content management (posts, pages, media, comments)
+- Publishing workflows
+- Analytics and stats
+- Bulk operations
+- Multi-site support
+- Quality checks (health-check)
+- And many more
+
+**Location:** `/root/.openclaw/workspace/scripts/pinch-to-post.sh`
+
+### Reference Files
+- SKILL.md: `/root/.openclaw/workspace/skills/pinch-to-post/SKILL.md`
+- Full features: `/root/.openclaw/workspace/agents/PINCH-TO-POST-FULL-FEATURES.md`
+- Script: `/root/.openclaw/workspace/scripts/pinch-to-post.sh`
+
+### Metadata
+- Source: direct user feedback (Peter)
+- Severity: High (affects quality, trust, time)
+- Category: tool-misuse, quality, ego
+- Related: AGENTS.md directive "ALWAYS use pinch-to-post for WordPress"
+- Tags: pinch-to-post, wordpress, quality, custom-code
+- See Also: ERR-20250213-002 (if exists - previous tool misuse)
+
