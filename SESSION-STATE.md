@@ -4,6 +4,27 @@
 
 ---
 
+## 👕 PrintShirts.net Domain Analysis
+
+**Time:** 2026-02-20 14:00 UTC
+**Question:** "research if PrintShirts.net would be a good domain investment"
+**Status:** Domain available via DropCatch auction
+
+**Key Findings:**
+- Market: $5-7B (2025) → $12-20B (2030-2035), 6.5-13% CAGR
+- Domain status: Available (expiring/pending delete)
+- Verdict: 🟡 MODERATE - Bid if <$500, pass if >$1000
+- Score: 5.4/10 (moderate potential)
+- .NET TLD = 5-15% of .com value
+- Competition: EXTREME (Custom Ink, Vistaprint, Printful, etc.)
+- Monetization: POD ($5-20/shirt), affiliate (5-20%), local lead gen
+- Key risk: Market saturation, SEO KD 70-85, high CAC ($20-50)
+
+**Analysis:** PRINTSHIRTS-NET-ANALYSIS.md (11.8 KB)
+**Telegram sent:** Message 5516 with summary
+
+---
+
 ## 📡 RFID vs NFC Decision Guide
 
 **Time:** 2026-02-20 13:50 UTC
