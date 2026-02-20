@@ -511,3 +511,71 @@ Use agent-browser for background automation and data extraction. Use OpenClaw br
 - Tags: browser, automation, headless, cli, playwright
 - See Also: LRN-20260220-010 (Tavily - also about integration decisions)
 
+
+---
+
+## [LRN-20260220-012] integration
+
+**Logged:** 2026-02-20T20:05:00Z
+**Priority:** low
+**Status:** pending
+**Area:** infra
+
+### Summary
+Mission Control: Kanban task board for human-AI collaboration
+
+### Details
+Installed Mission Control skill (rdsthomas/mission-control v2.3.1) - Kanban-style task management system designed for AI agents.
+
+**Core concept:**
+- Human creates/manages tasks via web dashboard
+- Agent executes tasks when moved to "In Progress"
+- Two-way collaboration: human (dashboard UI) + agent (CLI)
+
+**Key features:**
+- Kanban board: Permanent, Backlog, In Progress, Review, Done
+- Task details: Title, description, subtasks, comments, priority, projects
+- Web UI with drag & drop
+- CLI tool: mc-update.sh
+- EPIC support (parent tasks with child tickets)
+- Optional webhook automation (requires Tailscale)
+
+**Access modes:**
+1. **Local file:** file:///root/.openclaw/workspace/index.html
+2. **GitHub Pages:** Deploy for remote access
+3. **Webhook:** Auto-execution when tasks move to "In Progress" (optional)
+
+**CLI usage:**
+```bash
+mc-update.sh status <task_id> review
+mc-update.sh comment <task_id> "Progress update..."
+mc-update.sh complete <task_id> "Summary of what was done"
+```
+
+**Comparison with other task systems:**
+- **active-tasks.md:** Crash recovery file (read on startup)
+- **Mission Control:** Full Kanban dashboard with UI, web-based, webhook-driven
+- **Use both:** Mission Control for active project management, active-tasks.md for crash recovery
+
+**When to use Mission Control:**
+- Organizing active project work
+- Tracking multi-step tasks with subtasks
+- Collaborative task management (human + agent)
+- Visual board for task status
+- Long-term project organization
+
+**When to use active-tasks.md:**
+- Crash recovery info (what was I doing?)
+- Session state persistence
+- Quick context restoration
+- Critical blockers
+
+### Suggested Action
+Use Mission Control for active project work across Photostudio, DeBadkamer, domain portfolio. Keep active-tasks.md for crash recovery.
+
+### Metadata
+- Source: integration
+- Related Files: MISSION-CONTROL-SETUP.md, data/tasks.json
+- Tags: task-management, kanban, dashboard, collaboration
+- See Also: LRN-20260220-011 (agent-browser - also about tool choice), LRN-20260220-010 (Tavily - integration decisions)
+
