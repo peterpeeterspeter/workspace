@@ -1,119 +1,132 @@
-# USER.md - About Your Human
+# USER.md - About Peter
+
+## Basic Info
 
 - **Name:** Peter Peeters
-- **What to call them:** Peter
-- **Pronouns:** he/him
-- **Location:** Belgium
-- **Timezone:** CET/CEST (Belgium)
+- **Location:** Herentals, Belgium
+- **Timezone:** CET (UTC+1)
+- **Communication:** Direct, no fluff, brief responses
+- **Work Style:** Morning person, real-time communication
 
-## Profile
+---
 
-Serial digital entrepreneur, domain investor, and AI-SaaS builder with 15+ years in gambling/casino industry and 5+ years in product/fashion photography. Deep expertise in AI orchestration, SEO strategy, domain investing, and scalable SaaS products.
+## Goals & Context
 
-## Core Competencies
+### Primary Goal
+**Automate to create freedom.**
 
-**AI & SaaS**
-- Designs AI-native products (idea → MVP → scale)
-- Orchestration pipelines, prompt design, multimodal workflows
-- Cost-optimized AI systems (model selection, batching, Files API)
-- Product-minded: PRDs, roadmaps, monetization, pricing
+Automate things I don't like, I'm not good at, and that AI can do better. Target: 80% automation of professional time.
 
-**SEO & Content Systems**
-- Advanced SEO: topical authority, programmatic SEO, parasite SEO
-- Internal linking structures
-- Scales AI-generated content production
-- Large keyword datasets and clustering
+### What Winning Looks Like (1 Year)
+Successfully automated 80% of professional work. Spending quality time with family (Nathalie = wife, Charlie = daughter). Building scalable SaaS/marketplaces where automation does the work.
 
-**Domain Investing**
-- 100+ domain portfolio
-- Focus: EMDs, high-CPC niches (insurance, legal, gambling, AI, health)
-- Auctions, flipping, build-to-monetize strategies
-- AI-assisted valuation logic and BIN pricing
+### Ideal Life
+More time with family. High-leverage products that generate value 24/7. Turn experience into playbooks and systems. Mentoring next generation.
 
-**Product & Growth**
-- Strong GTM thinking
-- UGC-driven marketing strategies
-- Performance-focused: CTR, CAC, conversion, LTV
-- Experiments over opinions
+---
 
-## Main Venture: Photostudio.io
+## Current Projects
 
-**Positioning:** AI fashion/e-commerce visual production platform
+### Active Portfolio (Priority Order)
+1. **Photostudio.io** ⭐⭐⭐⭐⭐
+   - AI fashion visuals from single input image
+   - Focus: Consistency, cost control, e-commerce quality
+   - Emphasis: Image quality, structured JSON (CCJ), cost-per-image optimization
 
-**Capabilities (from one garment image):**
-- Ghost mannequin
-- Flatlay
-- On-model
-- Lifestyle
-- Video outputs
-- (Planned) Virtual Try-On
+2. **Outilo** ⭐⭐⭐⭐
+   - Mobile-first tool tracking + chain-of-custody via QR scanning for SMEs
 
-**Technical Stack & Pipeline:**
-- CCJ (Core Contract JSON) pipeline
-- Background removal → analysis → consolidation → CCJ → render
-- Uses: Gemini Flash-Lite/Flash Image, Nano Banana Pro 2, Bria background removal
-- Structured JSON specs and fashion terminology
-- Focus: stability, consistency, low cost per image
+3. **Hobbysalon** ⭐⭐⭐
+   - Curated multivendor marketplace for older demographic
+   - Workshops-first (no expos)
+   - Demographic: Older adults, hobby enthusiasts
 
-**Target ICP:**
-- E-commerce fashion brands
-- Shopify merchants
-- Scalable sellers (not small boutiques)
+4. **DeBadkamer.com** ⭐⭐⭐
+   - Bathroom planning/config + lead-gen for renovation projects
+   - Upload photo → AI visualization with real products + pricing
+   - Target: Belgian homeowners planning renovation
 
-## Other Projects & Interests
+5. **Apertura.ai** ⭐⭐
+   - AI/robotics-in-fashion-photography venture
 
-- Multiple niche SaaS and content sites
-- Dictionary/lexicon concepts (expat-focused words platforms)
-- Tool-tracking SaaS concepts
-- Visual configurators for home improvement
-- AI-driven content and affiliate sites
-- UGC and creator-economy aligned products
+6. **Domain Portfolio** 💰
+   - >100 domains to monetize
+   - Focus: SEO, affiliate, development
+   - Expertise: Expired domains, auctions, valuation, resale
 
-## Technical Stack
+---
 
-- **Backend:** Supabase (DB, auth, storage, edge functions)
-- **Frontend:** Next.js, Tailwind, shadcn/ui
-- **Automation:** n8n
-- **CMS:** WordPress (themes, plugins, performance)
-- **Hosting:** VPS/cPanel environments
-- **Integrations:** API-based AI integrations, data scraping
+## Key Relationships
 
-## Working Style
+- **Nathalie** — Wife
+- **Charlie** — Daughter
 
-- Highly analytical and ROI-driven
-- Prefers structured outputs (tables, schemas, PRDs)
-- Iterative builder: MVP → test → optimize
-- Treats AI as a co-founder and system component
-- Comfortable with complexity and scale
-- Moves fast and parallelizes projects
+---
 
-## Communication Preferences
+## Preferences
 
-- **Style:** Direct, dense, information-rich, minimal fluff
-- **Format:** Structured formats preferred (tables, schemas)
-- **Output:** Actionable over theoretical
-- **Focus:** Frameworks, systems, step-by-step plans
-- **Decisions:** Clear trade-offs and ROI logic
+### Communication Style
+- **Direct** — Get to the point, no fluff
+- **Brief** — Short updates, summaries only
+- **Real-time** — Prefer immediate interaction over async
+- **Pet peeve:** Long responses when short would do
 
-## Strategic Lens
+### Work Style
+- **Morning person** — Most productive in mornings
+- **Real-time comms** — Prefer immediate over async
+- **Portfolio mindset** — Multiple projects ranked by ROI/feasibility
+- **Cost-aware** — Track unit economics, tooling costs, scalability
 
-Thinks like:
-- Product strategist
-- SEO architect
-- Growth operator
-- Technical co-founder
+### What Peter Hates
+- ❌ Generic advice without specifics
+- ❌ Expensive solutions without ROI justification
+- ❌ Inconsistent quality
+- ❌ Vague recommendations without numbers
+- ❌ Long-winded responses
 
-## Optimization Priorities
+### What Peter Prefers
+- ✅ Structured deliverables (schemas, contracts, checklists, pipelines)
+- ✅ Speed + iteration
+- ✅ Cost-awareness (track unit economics)
+- ✅ Portfolio approach (rank by ROI/feasibility)
+- ✅ High quality standards
 
-1. Scale
-2. Automation
-3. Profitability
-4. Speed of validation
-5. Long-term defensibility
+---
 
-## Goals
+## Expertise
 
-- Build scalable AI SaaS products
-- Monetize domain portfolio via build or flip
-- Create defensible tools, not thin sites
-- Optimize for leverage, automation, and recurring revenue
+### Professional Background
+- Serial founder/operator (15+ years)
+- Deep iGaming/casino industry experience (operations + affiliate/product)
+- Technical: Ships SaaS, manages infra, iterates on PRDs/schemas/pipelines
+- Strong hands-on execution — builds, doesn't just advise
+
+### Core Skills
+- AI image/video generation pipelines (prompting, structured JSON, cost-per-image)
+- SEO, affiliate monetization, domain investing (expired domains, auctions, valuation, resale)
+- Product/fashion photography (professional, image quality workflows)
+
+### Interests
+- Triathlon, kitesurfing, endurance sports
+- Product/fashion photography
+- Building systems and playbooks
+
+---
+
+## Cost Optimization Mindset
+
+**Peter tracks:**
+- Cost-per-image (Photostudio renders)
+- Tooling costs per month
+- Unit economics (cost vs. revenue)
+- Scalability constraints
+
+**When proposing solutions:**
+- Always include cost estimates
+- Show ROI calculation
+- Consider scalability at volume
+- Prefer efficient, cost-effective options
+
+---
+
+*Last Updated: 2026-02-20*
