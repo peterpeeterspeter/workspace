@@ -20636,3 +20636,14 @@ Gateway agent failed; falling back to embedded: Error: Error: Invalid session ID
 Error: Invalid session ID: agent:seo:main
 [2026-02-20 19:48:06] Vision spawn completed with exit code: 1
 [2026-02-20 19:48:06] === Vision Spawn Failed ===
+[2026-02-20 20:03:01] === Vision Spawn Initiated ===
+[2026-02-20 20:03:01] Session Key: agent:seo:main
+[2026-02-20 20:03:01] Workspace: /root/.openclaw/workspace
+[2026-02-20 20:03:01] SOUL.md found, loading Vision identity...
+[2026-02-20 20:03:01] Spawning Vision sub-session...
+[2026-02-20 20:03:01] Pending tasks: 0
+[2026-02-20 20:03:01] Message: Read HEARTBEAT-VISION.md if it exists. Follow it strictly. If nothing needs attention, reply HEARTBEAT_OK.
+Gateway agent failed; falling back to embedded: Error: Error: Invalid session ID: agent:seo:main
+Error: Invalid session ID: agent:seo:main
+[2026-02-20 20:03:06] Vision spawn completed with exit code: 1
+[2026-02-20 20:03:06] === Vision Spawn Failed ===

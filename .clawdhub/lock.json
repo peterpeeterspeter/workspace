@@ -212,6 +212,10 @@
     "larry": {
       "version": "1.0.0",
       "installedAt": 1771507339192
+    },
+    "mission-control": {
+      "version": "2.3.1",
+      "installedAt": 1771617928672
     }
   }
 }
