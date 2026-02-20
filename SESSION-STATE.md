@@ -973,3 +973,114 @@ Fast Rust-based headless browser automation CLI with Node.js fallback.
 **Git Commit:** bda7ff4f
 **Learning Added:** LRN-20260220-011 (agent-browser vs OpenClaw browser)
 
+
+---
+
+## 📋 Mission Control Skill Installation
+
+**Time:** 2026-02-20 20:05 UTC
+**Request:** "INSTALL https://clawhub.ai/rdsthomas/mission-control"
+**Status:** ✅ INSTALLED, CONFIGURED, AND READY TO USE
+
+**What Was Installed:**
+Mission Control skill from ClawHub (rdsthomas/mission-control v2.3.1)
+Kanban-style task management dashboard for AI assistants.
+
+**Installation Complete:**
+1. ✅ Skill installed via ClawdHub
+2. ✅ Dashboard files copied to workspace
+3. ✅ Sample tasks.json created with onboarding guides
+4. ✅ mc-update.sh CLI tool installed and symlinked to /usr/local/bin/
+5. ✅ Config file created at ~/.clawdbot/mission-control.json
+6. ✅ Data directory created with snapshot and debug log files
+
+**Files Created:**
+- `index.html` (290 KB) - Full-featured dashboard UI
+- `data/tasks.json` - Task database with sample data
+- `data/.tasks-snapshot.json` - Webhook change detection
+- `data/.webhook-debug.log` - Webhook debugging
+- `MISSION-CONTROL-SETUP.md` (8.6 KB) - Complete setup guide
+- `skills/mission-control/` - Complete skill with docs
+- `~/.clawdbot/mission-control.json` - Config file
+- `/usr/local/bin/mc-update.sh` - Symlinked CLI tool
+
+**Dashboard Features:**
+- Kanban board: Permanent, Backlog, In Progress, Review, Done
+- Task details: Title, description, subtasks, comments, priority, project, tags
+- Web UI: Drag & drop, search, project filter, settings
+- EPIC support: Parent tasks with child tickets
+- Slack notifications (optional)
+- Webhook integration (requires Tailscale)
+
+**CLI Tool Usage:**
+```bash
+# Update task status
+mc-update.sh status <task_id> review
+mc-update.sh status <task_id> done
+
+# Add comment
+mc-update.sh comment <task_id> "Progress update..."
+
+# Mark subtask as done
+mc-update.sh subtask <task_id> sub_001 done
+
+# Complete task (moves to review + adds summary)
+mc-update.sh complete <task_id> "Summary of what was done"
+```
+
+**Access Methods:**
+1. **Local (works now):** `file:///root/.openclaw/workspace/index.html`
+2. **GitHub Pages (recommended):** Enable Pages for remote access
+3. **Webhook automation (optional):** Requires Tailscale setup
+
+**Sample Tasks Included:**
+- 🚀 Onboarding Guide - Setup instructions
+- 📖 User Guide - How to use Mission Control
+- Example Task - Template for new tasks
+
+**Use Cases for Peter's Projects:**
+
+1. **Photostudio.io:**
+   - Track rendering pipeline tasks
+   - Monitor cost-per-image experiments
+   - Q/A testing checklist for new features
+   - Competitor research tasks
+
+2. **DeBadkamer.com:**
+   - Lead generation experiment tracking
+   - Product catalog updates
+   - A/B test implementation tasks
+   - Feature roadmap
+
+3. **Domain Portfolio:**
+   - Domain acquisition workflow
+   - Auction monitoring tasks
+   - Valuation research projects
+   - Outreach campaigns
+
+4. **General Operations:**
+   - Daily/weekly checklists
+   - System maintenance tasks
+   - Content calendar management
+   - Bug tracking
+
+**Status:**
+- ✅ Dashboard ready for manual use (via file:// or GitHub Pages)
+- ✅ CLI tool working and accessible
+- ⏳ Webhook automation requires Tailscale (optional, not required for basic use)
+
+**Git Commit:** 764920a8, d734670e
+
+**Next Steps for Full Webhook Automation:**
+1. Install Tailscale: `curl -fsSL https://tailscale.com/install.sh | sh`
+2. Enable Funnel: `tailscale funnel 18789`
+3. Generate webhook token: `openssl rand -hex 32`
+4. Add GitHub webhook
+5. Enable GitHub Pages for dashboard
+
+**For now, the dashboard works via:**
+- Local file access
+- GitHub Pages (when enabled)
+- Manual task management (drag & drop)
+- CLI tool for programmatic updates
+
