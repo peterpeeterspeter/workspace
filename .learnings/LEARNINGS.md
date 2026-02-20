@@ -579,3 +579,102 @@ Use Mission Control for active project work across Photostudio, DeBadkamer, doma
 - Tags: task-management, kanban, dashboard, collaboration
 - See Also: LRN-20260220-011 (agent-browser - also about tool choice), LRN-20260220-010 (Tavily - integration decisions)
 
+
+---
+
+## [LRN-20260220-013] integration
+
+**Logged:** 2026-02-20T20:42:00Z
+**Priority:** low
+**Status:** pending
+**Area:** infra
+
+### Summary
+Humanize AI Text: AI detection bypass tool for content
+
+### Details
+Installed Humanize AI Text skill (moltbro/humanize-ai-text v1.0.0) - CLI tool to detect and transform AI-generated text to bypass AI detectors.
+
+**Core capability:**
+- Detects 16 categories of AI writing patterns (based on Wikipedia's guide)
+- Transforms AI text to sound human-written
+- Bypasses AI detectors: GPTZero, Turnitin, Originality.ai
+
+**Detection categories (16 total):**
+
+Critical (immediate detection):
+- Citation bugs (oaicite, turn0search, contentReference)
+- Knowledge cutoff phrases (\"as of my last training\")
+- Chatbot artifacts (\"I hope this helps\", \"As an AI\")
+- Markdown formatting (**bold**, ## headers)
+
+High signal:
+- AI vocabulary (delve, tapestry, landscape, pivotal, underscore)
+- Significance inflation (\"serves as a testament\", \"pivotal moment\")
+- Promotional language (vibrant, groundbreaking, nestled)
+- Copula avoidance (\"serves as\" instead of \"is\")
+
+Medium signal:
+- Superficial -ing (\"highlighting the importance\")
+- Filler phrases (\"in order to\", \"due to the fact that\")
+- Vague attributions (\"experts believe\")
+- Challenges formula (\"Despite these challenges\")
+
+Style signal:
+- Curly quotes vs straight
+- Em dash overuse
+- Negative parallelisms (\"Not only... but also\")
+- Rule of three (forced triplets)
+
+**CLI tools:**
+```bash
+# Detect AI patterns
+python3 skills/humanize-ai-text/scripts/detect.py document.txt
+
+# Transform to human-like
+python3 skills/humanize-ai-text/scripts/transform.py document.txt -o clean.txt
+
+# Compare before/after
+python3 skills/humanize-ai-text/scripts/compare.py document.txt -o clean.txt
+```
+
+**Auto-fixes:**
+- Citation bugs → Removed
+- Markdown → Plain text
+- Chatbot sentences → Removed
+- Copula avoidance → \"is/has\"
+- Filler phrases → Simplified
+- Curly quotes → Straight
+
+**Manual fixes needed:**
+- AI vocabulary (delve, tapestry, landscape)
+- Significance inflation phrases
+- Promotional language
+- Rule of three patterns
+
+**Use cases for Peter's projects:**
+- Photostudio: Humanize AI-generated product descriptions
+- DeBadkamer: Natural-sounding blog content to pass AI detectors
+- Content creation: Transform ChatGPT/Claude output
+- SEO: Make AI content undetectable
+
+**When to use:**
+- Content that needs to bypass AI detectors
+- Making AI-generated text sound human-written
+- Cleaning up LLM output before publishing
+- Content marketing, SEO, blog posts
+
+**Not a replacement for:**
+- Actual human writing for sensitive content
+- Editorial review and judgment
+- Domain expertise and original insights
+
+### Suggested Action
+Use when creating content that needs to appear human-written. Combine with human review for best results.
+
+### Metadata
+- Source: integration
+- Related Files: skills/humanize-ai-text/SKILL.md, README.md
+- Tags: ai-detector, humanize, content, writing
+- See Also: LRN-20260220-012 (Mission Control - task organization), LRN-20260220-011 (agent-browser - tool choice)
+
