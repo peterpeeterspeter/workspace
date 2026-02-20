@@ -1,0 +1,34 @@
+{
+  "name": "tavily-search",
+  "version": "1.0.0",
+  "description": "AI-optimized web search with Tavily API",
+  "author": "arun-8687 (via ClawHub)",
+  "installed": "2026-02-20",
+  "api": {
+    "provider": "Tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key_env_var": "TAVILY_API_KEY",
+    "docs": "https://tavily.com/docs"
+  },
+  "features": [
+    "AI-generated answers",
+    "Clean content extraction",
+    "Automatic citations",
+    "Complex query understanding",
+    "Basic/advanced search depth"
+  ],
+  "files": {
+    "skill": "SKILL.md",
+    "readme": "README.md",
+    "script": "tavily-search.sh"
+  },
+  "tested": true,
+  "test_result": "Success - returned answer + 10 results in 0.92s",
+  "use_cases": [
+    "Competitor research",
+    "Technology research",
+    "Trend analysis",
+    "Market research",
+    "Complex queries requiring AI synthesis"
+  ]
+}
