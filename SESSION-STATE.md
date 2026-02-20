@@ -776,3 +776,119 @@ grep -h "Status\*\*: pending" .learnings/*.md | wc -l
 **Git Commit:** 30fa8ec9
 **Telegram Message:** 5608
 
+
+---
+
+## 🔍 Tavily Search Skill Installation
+
+**Time:** 2026-02-20 19:45 UTC
+**Request:** "https://clawhub.ai/arun-8687/tavily-search install and configure, heres api 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"
+**Status:** ✅ INSTALLED, CONFIGURED, AND TESTED
+
+**What Was Installed:**
+Tavily Search skill from ClawHub (arun-8687/tavily-search v1.0.0)
+AI-optimized web search with clean content extraction and AI-generated answers.
+
+**Files Created:**
+- `/root/.openclaw/workspace/skills/tavily-search/SKILL.md` (7.4 KB)
+- `/root/.openclaw/workspace/skills/tavily-search/README.md` (2.7 KB)
+- `/root/.openclaw/workspace/skills/tavily-search/tavily-search.sh` (1.4 KB, executable)
+- `/root/.openclaw/workspace/skills/tavily-search/_meta.json`
+
+**Configuration:**
+- API key: `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`
+- Stored in: `/root/.openclaw/workspace/.env`
+- Variable: `TAVILY_API_KEY`
+- Note: .env is gitignored for security
+
+**Features:**
+- AI-generated answers to queries (synthesizes results)
+- Clean content extraction (optimized for LLM consumption)
+- Automatic citations included
+- Basic/advanced search depth
+- 1-100 max results
+- Response time: ~0.9s
+
+**Testing:**
+✅ Successfully tested with "test query"
+✅ Returned AI answer + 10 results in 0.92s
+✅ Helper script working correctly
+✅ API key valid and functional
+
+**Usage:**
+```bash
+# Basic search
+./skills/tavily-search/tavily-search.sh "AI fashion photography trends 2026"
+
+# Advanced search
+./skills/tavily-search/tavily-search.sh "best e-commerce platform 2026" advanced 15
+
+# Example outputs
+- AI-generated answer summarizing results
+- 10 search results with titles, URLs, content
+- Automatic citations with scores
+```
+
+**Use Cases for Peter's Projects:**
+
+1. **Photostudio.io:**
+   - Competitor research ("AI fashion photography competitors 2026")
+   - Technology research ("background removal API comparison")
+   - Trend analysis ("product photography automation trends")
+
+2. **DeBadkamer.com:**
+   - Market research ("bathroom renovation trends Belgium 2026")
+   - Product research ("smart bathroom technology")
+   - Competitor analysis ("bathroom planning tools comparison")
+
+3. **Domain Portfolio:**
+   - Valuation research ("domain valuation metrics 2026")
+   - Market trends ("expired domain investing strategies")
+   - Tool research ("domain auction platforms comparison")
+
+4. **General Business:**
+   - Industry trends
+   - Competitor monitoring
+   - Technology research
+   - Market analysis
+
+**Comparison with web_search (Brave):**
+
+| Feature | Tavily Search | web_search (Brave) |
+|---------|--------------|-------------------|
+| AI Answers | ✅ Yes (synthesized) | ❌ No |
+| Content Cleaning | ✅ Optimized for LLMs | ⚠️ Raw search results |
+| Citations | ✅ Automatic | ❌ Manual |
+| Search Depth | basic/advanced | Fixed |
+| API Key | Required (dev/free tier) | Built-in to OpenClaw |
+| Rate Limits | Depends on Tavily plan | Built-in limits |
+| Cost | Free tier available | Included with OpenClaw |
+
+**When to use Tavily:**
+- Need AI-generated synthesized answers
+- Want cleaner content extraction
+- Complex research queries
+- Need automatic citations
+- Research for major decisions
+
+**When to use web_search:**
+- Quick searches
+- No API key needed
+- Simple result listings
+- Already integrated
+
+**API Key Security:**
+- Stored in `.env` (gitignored)
+- Not committed to repository
+- Dev/free tier key provided
+- Monitor usage for rate limits
+
+**Integration:**
+- Works with OpenClaw workspace system
+- Helper script for easy command-line use
+- Can be integrated into other scripts/skills
+- JSON output for programmatic use
+
+**Git Commit:** 431da9e8
+**Status:** ✅ Fully operational and ready to use
+
