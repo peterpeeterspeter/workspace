@@ -678,3 +678,163 @@ Use when creating content that needs to appear human-written. Combine with human
 - Tags: ai-detector, humanize, content, writing
 - See Also: LRN-20260220-012 (Mission Control - task organization), LRN-20260220-011 (agent-browser - tool choice)
 
+
+---
+
+## [LRN-20260220-014] integration
+
+**Logged:** 2026-02-20T20:46:00Z
+**Priority:** high
+**Status:** pending
+**Area:** infra
+
+### Summary
+Proactive Agent: Transform agents from task-followers into proactive partners
+
+### Details
+Installed Proactive Agent skill (halthelobster/proactive-agent v3.1.0) - Comprehensive architecture for creating proactive, persistent, self-improving AI agents.
+
+**Three Pillars:**
+
+1. **Proactive** - Creates value without being asked
+   - Anticipates needs before expressed
+   - Reverse prompting (surfaces ideas you didn't know to ask for)
+   - Proactive check-ins on what matters
+   - Owner mindset vs employee mindset
+
+2. **Persistent** - Survives context loss
+   - WAL Protocol (Write-Ahead Logging)
+   - Working Buffer (compaction danger zone)
+   - Compaction Recovery
+   - Unified Search across all sources
+
+3. **Self-Improving** - Gets better over time
+   - Self-healing (fixes own issues)
+   - Relentless resourcefulness (try 10 approaches)
+   - Safe evolution with guardrails
+
+**WAL Protocol (Write-Ahead Logging):**
+
+**The Law:** Chat history is a BUFFER, not storage. SESSION-STATE.md is RAM.
+
+**Triggers (SCAN EVERY MESSAGE):**
+- Corrections (\"It's X, not Y\", \"Actually...\")
+- Proper nouns (names, places, companies, products)
+- Preferences (colors, styles, approaches)
+- Decisions (\"Let's do X\", \"Go with Y\")
+- Draft changes
+- Specific values (numbers, dates, IDs, URLs)
+
+**Protocol:**
+1. STOP - Don't compose response
+2. WRITE - Update SESSION-STATE.md
+3. THEN - Respond
+
+**Why:** The urge to respond is the enemy. Details seem clear in context but vanish after compaction. Write first.
+
+**Working Buffer Protocol:**
+
+**Purpose:** Capture EVERY exchange in danger zone (60% context → compaction)
+
+**How:**
+1. At 60%: Clear old buffer, start fresh
+2. Every message after 60%: Append human message + response summary
+3. After compaction: Read buffer FIRST, extract context
+4. Leave buffer until next 60% threshold
+
+**Memory Architecture:**
+
+| File | Purpose | Frequency |
+|------|---------|-----------|
+| SESSION-STATE.md | Active working memory | Every message with critical details |
+| memory/YYYY-MM-DD.md | Daily raw logs | During session |
+| MEMORY.md | Curated wisdom | Periodically distill |
+
+**The Rule:** If it's important enough to remember, write it down NOW.
+
+**Onboarding System:**
+
+**12 Core Questions:**
+1. Identity (name, timezone)
+2. Communication (style, pet peeves)
+3. Goals (primary, 1-year, ideal life)
+4. Work style (productivity, async vs real-time)
+5. Context (projects, key people)
+6. Agent preferences (personality)
+
+**Three Modes:**
+- Interactive: Answer all in one session (~10 min)
+- Drip: 1-2 questions naturally over days
+- Skip: Work immediately, learn from conversation
+
+**After onboarding:** Auto-populates USER.md and SOUL.md
+
+**Security Features:**
+- Skill installation vetting
+- Agent network warnings
+- Context leakage prevention
+- Security audit script
+
+**Core Workflows:**
+
+**Reverse Prompting:**
+Ask: \"What would genuinely delight my human that they haven't thought to ask for?\"
+Build things they didn't know they wanted.
+
+**Relentless Resourcefulness:**
+Before asking for help, try 10 different approaches.
+Document what you tried.
+Only then escalate.
+
+**Self-Improvement:**
+- Log learnings after each session
+- Fix own issues
+- Evolve safely with guardrails
+
+**Autonomous vs Prompted Crons:**
+
+**Autonomous (systemEvent):**
+- Main session messages
+- Heartbeat checks
+- System notifications
+
+**Prompted (isolated agentTurn):**
+- Content generation
+- Research tasks
+- Creative work
+
+**Use Cases for Peter's Projects:**
+
+**Photostudio.io:**
+- Proactive rendering cost monitoring
+- Anticipate pipeline optimization opportunities
+- Track learned lessons from image generation
+
+**DeBadkamer.com:**
+- Proactive lead generation optimization
+- Learn from customer feedback patterns
+- Continuous improvement of planning tools
+
+**Domain Portfolio:**
+- Anticipate acquisition opportunities
+- Track valuation learnings
+- Proactive auction monitoring
+
+**General Operations:**
+- Self-healing systems
+- Continuous workflow improvement
+- Persistent context across sessions
+
+**Key Mindset Shift:**
+- From: \"What should I do?\" (employee)
+- To: \"What would genuinely delight my human that they haven't thought to ask for?\" (owner)
+
+### Suggested Action
+Start onboarding to configure proactive agent for Peter's specific needs and preferences. Implement WAL protocol and working buffer for all critical work.
+
+### Metadata
+- Source: integration
+- Related Files: skills/proactive-agent/SKILL.md, ONBOARDING.md
+- Tags: proactive, persistent, self-improving, wal, memory, onboarding
+- See Also: LRN-20260220-013 (Humanize - content quality), LRN-20260220-012 (Mission Control - task management)
+
