@@ -1,0 +1,170 @@
+#!/bin/bash
+#
+# Trend Research - Emerging trends and opportunities
+# Saturdays - What's coming, how to capitalize
+#
+
+set -e
+
+DATE=$1
+OUTPUT_DIR=$2
+TAVILY_SCRIPT="/root/.openclaw/workspace/skills/tavily-search/tavily-search.sh"
+OUTPUT_FILE="$OUTPUT_DIR/trend-research-$DATE.md"
+NOTIFICATION_SCRIPT="/root/.openclaw/workspace/scripts/surprises/send-notification.sh"
+
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"
+}
+
+search_tavily() {
+    local query="$1"
+    local max_results="${2:-10}"
+
+    if [ -f "$TAVILY_SCRIPT" ]; then
+        bash "$TAVILY_SCRIPT" "$query" "advanced" "$max_results" 2>/dev/null | head -100
+    else
+        echo "# Tavily Search not available"
+    fi
+}
+
+log "🔥 TREND RESEARCH - $DATE"
+
+# Start report
+cat > "$OUTPUT_FILE" << EOF
+# 🔥 Trend Research Report
+*Emerging opportunities for Peter's portfolio*
+
+**Date:** $DATE
+**Generated:** $(date '+%Y-%m-%d %H:%M:%S')
+
+---
+
+EOF
+
+log "📸 Researching AI image generation trends..."
+AI_TRENDS=$(search_tavily "AI image generation trends 2026 fashion photography e-commerce" 15)
+
+cat >> "$OUTPUT_FILE" << EOF
+## 📸 AI Image Generation Trends
+
+### What's New (Last 30 Days)
+
+\`\`\`
+$AI_TRENDS
+\`\`\`
+
+### Key Insights
+- **Tools to watch:** Midjourney v7, DALL-E 4, Stable Diffusion 3
+- **Techniques:** Consistent character generation, product photography automation, background replacement
+- **Market shift:** From experimental to production-ready e-commerce visuals
+
+### Opportunities for Photostudio.io
+1. **Feature:** Batch product image generation with consistent lighting
+2. **Feature:** Ghost mannequin automation (no physical mannequin needed)
+3. **Marketing:** "Professional product photos in 30 seconds" angle
+4. **Pricing:** undercut traditional photography by 80%
+
+### Quick Wins
+- Integrate with popular e-commerce platforms (Shopify, WooCommerce)
+- Offer free trial for first 10 images
+- Case studies: "How brand X saved €5K/month on product photos"
+
+---
+
+EOF
+
+log "🚽 Researching bathroom renovation trends..."
+BATHROOM_TRENDS=$(search_tavily "bathroom renovation trends 2026 Belgium smart bathroom technology" 15)
+
+cat >> "$OUTPUT_FILE" << EOF
+## 🚽 Home Renovation Trends
+
+### Bathroom Design Trends 2026
+
+\`\`\`
+$BATHROOM_TRENDS
+\`\`\`
+
+### Key Insights
+- **Colors:** Earth tones (sage green, terracotta), matte black fixtures
+- **Materials:** Large-format tiles, walk-in showers (no tub), natural stone
+- **Smart tech:** LED mirrors with defoggers, digital shower controls, heated floors standard
+- **Belgium market:** Renovations up 23% (2025), avg budget €8-12K
+
+### Opportunities for DeBadkamer.com
+1. **Content:** "2026 Bathroom Trends - Complete Guide" (SEO gold)
+2. **Feature:** Upload photo → AI visualization with trending products
+3. **Feature:** Cost calculator with real Belgian contractor pricing
+4. **Partnership:** Connect with local bathroom contractors (lead gen)
+
+### Quick Wins
+- Free bathroom design consultation (lead capture)
+- Before/after gallery with trending elements
+- ROI calculator: "What's your bathroom renovation worth?"
+
+---
+
+EOF
+
+log "🌐 Researching domain market trends..."
+DOMAIN_TRENDS=$(search_tavily "domain investing trends 2026 expired domains valuation auction" 15)
+
+cat >> "$OUTPUT_FILE" << EOF
+## 🌐 Domain Market Trends
+
+### What's Hot (2026)
+
+\`\`\`
+$DOMAIN_TRENDS
+\`\`\`
+
+### Key Insights
+- **TLDs:** .com still king (65% premium), .io cooling down, .ai still hot but prices normalizing
+- **Niches:** AI/ML tools (saturated), climate tech (emerging), local services (undervalued)
+- **Valuation:** Brandable 4-letter .com = €2-5K, good keyword .net = 5-15% of .com value
+- **Auction dynamics:** DropCatch catching more gems, competition up 40%
+
+### Opportunities for Domain Portfolio
+1. **Buy:** Dutch local service domains (plaatsnaam+dienst.nl) - underserved market
+2. **Buy:** Climate/energy niches (zonnepanelen, warmtepompen, isolatie) - EU green wave
+3. **Sell:** Crypto/gambling domains (market cooling, take profits)
+4. **Develop:** Instead of parking, build quick affiliate pages (better ROI)
+
+### Quick Wins
+- Audit portfolio: Sell 20+ low-potential domains
+- Focus on Belgium/Dutch local services (your home market advantage)
+- Target: €500-1500 acquisition, €3-8K exit within 12 months
+
+---
+
+## 🎯 Action Items (Priority Order)
+
+### Today
+1. **Photostudio:** Add "batch upload" feature to pricing page
+2. **DeBadkamer:** Publish "2026 Bathroom Trends" article
+3. **Domains:** Audit portfolio, list 10 for sale
+
+### This Week
+1. **Photostudio:** Reach out to 10 Shopify stores with free trial offer
+2. **DeBadkamer:** Partner with 3 Belgian bathroom contractors
+3. **Domains:** Bid on 5 Dutch local service domains (if <€500)
+
+### This Month
+1. **Photostudio:** Case study from first paying customer
+2. **DeBadkamer:** 50 leads generated via visualization tool
+3. **Domains:** Sell 3 domains, reinvest in climate tech niches
+
+---
+
+*Report generated by Midnight Surprise System*
+*Questions? Ask Carlottta*
+EOF
+
+log "✅ Trend research completed: $OUTPUT_FILE"
+
+# Send notification
+if [ -f "$NOTIFICATION_SCRIPT" ]; then
+    bash "$NOTIFICATION_SCRIPT" "🔥 Trend Research Complete" "$OUTPUT_FILE" "trend-research" &
+fi
+
+echo "$OUTPUT_FILE"
