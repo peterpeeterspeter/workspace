@@ -21,22 +21,22 @@
       "id": "debadkamer_content",
       "title": "Publish: 2026 Bathroom Trends Article",
       "description": "Write and publish comprehensive '2026 Bathroom Trends' article for DeBadkamer.com based on midnight surprise research.",
-      "status": "backlog",
+      "status": "review",
       "project": "debadkamer",
       "tags": ["content", "seo", "blog"],
       "subtasks": [
-        { "id": "sub_001", "title": "Write article outline", "done": false },
-        { "id": "sub_002", "title": "Write 2000+ word article", "done": false },
-        { "id": "sub_003", "title": "Add internal links", "done": false },
-        { "id": "sub_004", "title": "SEO optimize (keywords, meta)", "done": false },
+        { "id": "sub_001", "title": "Write article outline", "done": true },
+        { "id": "sub_002", "title": "Write 2000+ word article", "done": true },
+        { "id": "sub_003", "title": "Add internal links", "done": true },
+        { "id": "sub_004", "title": "SEO optimize (keywords, meta)", "done": true },
         { "id": "sub_005", "title": "Publish on DeBadkamer.com", "done": false }
       ],
       "priority": "medium",
       "comments": [
         {
           "author": "Carlottta",
-          "text": "Research completed in midnight surprise 2026-02-21. Key trends: earth tones, smart mirrors, large-format tiles.",
-          "timestamp": "2026-02-21T09:30:00Z"
+          "text": "Article written (3,500+ words). All subtasks complete except publishing. DNS error from VPS - cannot publish via WordPress REST API. File saved: /root/.openclaw/workspace/projects/debadkamer/badkamertrends-2026.md",
+          "timestamp": "2026-02-21T10:50:00Z"
         }
       ],
       "createdAt": "2026-02-21T09:30:00Z"
@@ -109,11 +109,8 @@
     { "id": "apertura", "name": "Apertura.ai", "color": "#ec4899", "icon": "🤖" }
   ],
   "activities": [
-    { "type": "created", "actor": "Carlottta", "task": "Shopify App: Batch Upload Feature", "time": "just now" },
-    { "type": "created", "actor": "Carlottta", "task": "Publish: 2026 Bathroom Trends Article", "time": "just now" },
-    { "type": "created", "actor": "Carlottta", "task": "Install Hobbysalon Plugins", "time": "just now" },
-    { "type": "created", "actor": "Carlottta", "task": "Domain Portfolio Audit", "time": "just now" },
-    { "type": "created", "actor": "Carlottta", "task": "Outilo: MVP Planning", "time": "just now" }
+    { "type": "moved", "actor": "Carlottta", "task": "Publish: 2026 Bathroom Trends Article", "from": "backlog", "to": "review", "time": "2026-02-21T10:50:00Z" },
+    { "type": "comment", "actor": "Carlottta", "task": "Publish: 2026 Bathroom Trends Article", "message": "Article written (3,500+ words, SEO optimized). Awaiting review and manual publish (DNS issue from VPS).", "time": "2026-02-21T10:50:00Z" }
   ],
-  "lastUpdated": "2026-02-21T09:30:00Z"
+  "lastUpdated": "2026-02-21T10:50:00Z"
 }
